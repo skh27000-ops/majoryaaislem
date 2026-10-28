@@ -1,0 +1,2083 @@
+{
+  "universites": [
+    {
+      "id": "mostaganem",
+      "nom": "Université de Mostaganem",
+      "annees": [
+        {
+          "id": "4eme-annee",
+          "nom": "4ème année",
+          "modules": [
+            {
+              "slug": "cardiologie",
+              "nom": "Cardiologie",
+              "nomCourt": "Cardiologie",
+              "ico": "❤️",
+              "statut": "Actif",
+              "description": "Pathologies cardiovasculaires, valvulopathies, coronaropathies, HTA · 25 cours officiels · 510 QCM",
+              "totalQCM": 510,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Ecg normal",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 2,
+                  "nom": "Rhumatisme articulaire aigue",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 3,
+                  "nom": "Rétrécissement mitral",
+                  "totalQCM": 31
+                },
+                {
+                  "num": 4,
+                  "nom": "Insuffisance mitrale",
+                  "totalQCM": 29
+                },
+                {
+                  "num": 5,
+                  "nom": "Rétrécissement aortique",
+                  "totalQCM": 23
+                },
+                {
+                  "num": 6,
+                  "nom": "Insuffisance aortique",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 7,
+                  "nom": "Surveillance d'un opéré du cœur",
+                  "totalQCM": 12
+                },
+                {
+                  "num": 8,
+                  "nom": "Syndrome coronarien chronique",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 9,
+                  "nom": "Endocardite",
+                  "totalQCM": 31
+                },
+                {
+                  "num": 10,
+                  "nom": "Insuffisance cardiaque",
+                  "totalQCM": 86
+                },
+                {
+                  "num": 11,
+                  "nom": "Hypertension artérielle",
+                  "totalQCM": 32
+                },
+                {
+                  "num": 12,
+                  "nom": "Myocardiopathies",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 13,
+                  "nom": "Syndrome coronarien aigue",
+                  "totalQCM": 46
+                },
+                {
+                  "num": 14,
+                  "nom": "Thrombose veineuse profonde",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 15,
+                  "nom": "Embolie pulmonaire",
+                  "totalQCM": 24
+                },
+                {
+                  "num": 16,
+                  "nom": "Pathologie de l'aorte",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 17,
+                  "nom": "Troubles de l'excitabilité",
+                  "totalQCM": 33
+                },
+                {
+                  "num": 18,
+                  "nom": "Troubles de la conduction",
+                  "totalQCM": 22
+                },
+                {
+                  "num": 19,
+                  "nom": "Péricardites aigues et chroniques",
+                  "totalQCM": 29
+                },
+                {
+                  "num": 20,
+                  "nom": "Cœur pulmonaire chronique",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 21,
+                  "nom": "Ischémie aigue",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 22,
+                  "nom": "Artériopathies des membres inférieurs",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 23,
+                  "nom": "Hypertension pulmonaire",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 24,
+                  "nom": "Pathologie cardiovasculaires gravides",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 25,
+                  "nom": "Cardiopathies congénitales",
+                  "totalQCM": 18
+                }
+              ]
+            },
+            {
+              "slug": "infectiologie",
+              "nom": "Infectiologie",
+              "nomCourt": "Infectiologie",
+              "ico": "🦠",
+              "statut": "Disponible (27 cours)",
+              "description": "Maladies infectieuses et transmissibles, antibiothérapie",
+              "totalQCM": 80,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Choc septique",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 2,
+                  "nom": "Dermohypodermites",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 3,
+                  "nom": "Tétanos",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 4,
+                  "nom": "Brucellose",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 5,
+                  "nom": "Sepsis à staphylocoque",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 6,
+                  "nom": "Fièvre boutonneuse méditerranéenne",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 7,
+                  "nom": "La leptospirose",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 8,
+                  "nom": "Rubéole",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 9,
+                  "nom": "Méningite à liquide clair",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 10,
+                  "nom": "Le choléra",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 11,
+                  "nom": "Fièvre typhoïde",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 12,
+                  "nom": "Infection nosocomiale",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 13,
+                  "nom": "Toxoplasmose",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 14,
+                  "nom": "Infection à streptocoque",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 15,
+                  "nom": "VIH",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 16,
+                  "nom": "Méningite purulente",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 17,
+                  "nom": "La diphtérie",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 18,
+                  "nom": "Infection à herpès virus",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 19,
+                  "nom": "Paludisme",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 20,
+                  "nom": "La rage",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 21,
+                  "nom": "Amoebose",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 22,
+                  "nom": "TIAC",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 23,
+                  "nom": "Sepsis à BGN",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 24,
+                  "nom": "Coqueluche",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 25,
+                  "nom": "Éruption fébrile",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 26,
+                  "nom": "AES",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 27,
+                  "nom": "ATB",
+                  "totalQCM": 6
+                }
+              ]
+            },
+            {
+              "slug": "hemato-oncologie",
+              "nom": "Hémato-Oncologie",
+              "nomCourt": "Hémato-Onco",
+              "ico": "🩸",
+              "statut": "Disponible (145 QCMs)",
+              "description": "Hémopathies bénignes et malignes, anémies, hémostase, oncologie générale · 22 cours officiels",
+              "totalQCM": 145,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Anémies par carence martiale",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 2,
+                  "nom": "Anémies par carence en facteurs anti-pernicieux",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 3,
+                  "nom": "Hémolyse et Anémies hémolytiques",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 4,
+                  "nom": "Cytopénies et aplasie médullaire",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 5,
+                  "nom": "Groupes sanguins et transfusions",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 6,
+                  "nom": "Leucémies aigues",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 7,
+                  "nom": "Leucémie myéloïde chronique (LMC)",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 8,
+                  "nom": "Leucémie lymphoïde chronique (LLC)",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 9,
+                  "nom": "Dysglobulinémies / Gammapathies monoclonales",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 10,
+                  "nom": "Hémostase primaire",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 11,
+                  "nom": "Purpura thrombopénique idiopatique",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 12,
+                  "nom": "Coagulopathies",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 13,
+                  "nom": "Lymphomes hodgkiniens",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 14,
+                  "nom": "Lymphomes non hodgkiniens",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 15,
+                  "nom": "Thérapies cellulaires",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 16,
+                  "nom": "Épidémiologie, cancérogenèse et facteurs de risque",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 17,
+                  "nom": "Prévention et dépistage du cancer",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 18,
+                  "nom": "Échelles d'évaluation et classification en cancérologie",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 19,
+                  "nom": "Principes diagnostiques et bilan pré-thérapeutique",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 20,
+                  "nom": "Principes thérapeutiques et parcours de soins en oncologie",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 21,
+                  "nom": "Urgences métaboliques en oncologie",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 22,
+                  "nom": "Prise en charge de la douleur cancéreuse",
+                  "totalQCM": 1
+                }
+              ]
+            },
+            {
+              "slug": "neurologie",
+              "nom": "Neurologie",
+              "nomCourt": "Neurologie",
+              "ico": "🧠",
+              "statut": "Disponible (74 QCMs)",
+              "description": "Pathologies du système nerveux central et périphérique, AVC, céphalées, neurochirurgie · 29 cours officiels",
+              "totalQCM": 650,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Neuropathies périphériques",
+                  "totalQCM": 49
+                },
+                {
+                  "num": 2,
+                  "nom": "Syndrome de Guillain-Barré (SGB)",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 3,
+                  "nom": "Myasthénie",
+                  "totalQCM": 31
+                },
+                {
+                  "num": 4,
+                  "nom": "Hémorragie sous-arachnoïdienne (HSA)",
+                  "totalQCM": 20
+                },
+                {
+                  "num": 5,
+                  "nom": "Tumeurs cérébrales",
+                  "totalQCM": 30
+                },
+                {
+                  "num": 6,
+                  "nom": "Maladie de Parkinson et syndromes parkinsoniens",
+                  "totalQCM": 26
+                },
+                {
+                  "num": 7,
+                  "nom": "Traumatismes crâniens (TC)",
+                  "totalQCM": 41
+                },
+                {
+                  "num": 8,
+                  "nom": "Sclérose en plaques (SEP)",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 9,
+                  "nom": "Démences",
+                  "totalQCM": 30
+                },
+                {
+                  "num": 10,
+                  "nom": "Hydrocéphalies",
+                  "totalQCM": 26
+                },
+                {
+                  "num": 11,
+                  "nom": "Ataxies cérébelleuses et héréditaires",
+                  "totalQCM": 31
+                },
+                {
+                  "num": 12,
+                  "nom": "Sclérose latérale amyotrophique (SLA)",
+                  "totalQCM": 23
+                },
+                {
+                  "num": 13,
+                  "nom": "Accidents vasculaires cérébraux (AVC)",
+                  "totalQCM": 34
+                },
+                {
+                  "num": 14,
+                  "nom": "Infections et parasitoses du système nerveux",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 15,
+                  "nom": "Hypertension intra-crânienne (HIC)",
+                  "totalQCM": 32
+                },
+                {
+                  "num": 16,
+                  "nom": "Dystrophies musculaires progressives (DMP)",
+                  "totalQCM": 25
+                },
+                {
+                  "num": 17,
+                  "nom": "Myopathies inflammatoires",
+                  "totalQCM": 21
+                },
+                {
+                  "num": 18,
+                  "nom": "Épilepsies",
+                  "totalQCM": 49
+                },
+                {
+                  "num": 19,
+                  "nom": "Comas neurologiques",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 20,
+                  "nom": "Céphalées secondaires",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 21,
+                  "nom": "Névralgie du trijumeau",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 22,
+                  "nom": "Encéphalites",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 23,
+                  "nom": "Migraine",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 24,
+                  "nom": "Compression médullaire",
+                  "totalQCM": 30
+                },
+                {
+                  "num": 25,
+                  "nom": "Malformations cranio-cervicales",
+                  "totalQCM": 27
+                },
+                {
+                  "num": 26,
+                  "nom": "Craniosténoses",
+                  "totalQCM": 28
+                },
+                {
+                  "num": 27,
+                  "nom": "Spina bifida",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 28,
+                  "nom": "Syndrome cérébelleux",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 29,
+                  "nom": "Syndrome pyramidal",
+                  "totalQCM": 2
+                }
+              ]
+            },
+            {
+              "slug": "gastro-enterologie",
+              "nom": "Gastro-entérologie",
+              "nomCourt": "Gastro-entérologie",
+              "ico": "🩺",
+              "statut": "Disponible",
+              "description": "Hépato-gastro-entérologie et pathologies digestives",
+              "totalQCM": 184,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "L'œsophagite caustique",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 2,
+                  "nom": "Cancer de l'œsophage",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 3,
+                  "nom": "Reflux gastro-œsophagien",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 4,
+                  "nom": "Dyspepsie",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 5,
+                  "nom": "Maladie ulcéreuse gastroduodénale",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 6,
+                  "nom": "Gastrite",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 7,
+                  "nom": "Cancer de l'estomac",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 8,
+                  "nom": "Cirrhose du foie",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 9,
+                  "nom": "HTP (hypertension portale)",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 10,
+                  "nom": "Hépatite chronique",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 11,
+                  "nom": "Hépatite aiguë",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 12,
+                  "nom": "Hépatite toxique",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 13,
+                  "nom": "Tumeur du foie",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 14,
+                  "nom": "Lithiase biliaire",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 15,
+                  "nom": "Tumeur de la vésicule biliaire",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 16,
+                  "nom": "Pancréatite chronique",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 17,
+                  "nom": "Pancréatite aiguë",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 18,
+                  "nom": "Cancer du pancréas",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 19,
+                  "nom": "MICI",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 20,
+                  "nom": "Cancer colo-rectal",
+                  "totalQCM": 12
+                },
+                {
+                  "num": 21,
+                  "nom": "Polypes et polypose recto-colique",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 22,
+                  "nom": "Tuberculose digestive",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 23,
+                  "nom": "Syndrome de l'intestin irritable",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 24,
+                  "nom": "Maladie cœliaque",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 25,
+                  "nom": "Hémorroïdes",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 26,
+                  "nom": "Hémorragie digestive",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 27,
+                  "nom": "Occlusion intestinale",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 28,
+                  "nom": "Traumatisme abdominal",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 29,
+                  "nom": "Appendicite & péritonite",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 30,
+                  "nom": "Hernie de l'aine",
+                  "totalQCM": 4
+                }
+              ]
+            },
+            {
+              "slug": "pneumologie",
+              "nom": "Pneumologie",
+              "nomCourt": "Pneumologie",
+              "ico": "🫁",
+              "statut": "Disponible (22 cours - 130 QCMs)",
+              "description": "Pathologies respiratoires, infections, BPCO, asthme, cancer",
+              "totalQCM": 130,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Épidémiologie et microbiologie de la tuberculose",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 2,
+                  "nom": "Diagnostic et traitement de la tuberculose",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 3,
+                  "nom": "Pneumonie aiguë communautaire",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 4,
+                  "nom": "Pleurésie infectieuse aiguë",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 5,
+                  "nom": "Pneumothorax",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 6,
+                  "nom": "Pneumonie nosocomiale",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 7,
+                  "nom": "Infection respiratoire aiguë (Grippe & Covid)",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 8,
+                  "nom": "Bronchopneumopathie chronique obstructive (BPCO)",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 9,
+                  "nom": "Exacerbation de la BPCO",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 10,
+                  "nom": "Abcès pulmonaires et suppurations",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 11,
+                  "nom": "Cancer bronchique",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 12,
+                  "nom": "Kyste hydatique du poumon",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 13,
+                  "nom": "Physiopathologie et diagnostic de l'asthme",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 14,
+                  "nom": "Prise en charge et traitement de l'asthme",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 15,
+                  "nom": "Hypertension artérielle pulmonaire",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 16,
+                  "nom": "Dilatation des bronches",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 17,
+                  "nom": "Pneumopathies infiltratives diffuses",
+                  "totalQCM": 12
+                },
+                {
+                  "num": 18,
+                  "nom": "Sarcoïdose",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 19,
+                  "nom": "Insuffisance respiratoire chronique",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 20,
+                  "nom": "Tabac et tabagisme",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 21,
+                  "nom": "Tumeurs du médiastin",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 22,
+                  "nom": "Syndrome d'apnée obstructive du sommeil",
+                  "totalQCM": 9
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5eme-annee",
+          "nom": "5ème année",
+          "modules": [
+            {
+              "slug": "otr",
+              "nom": "OTR (Orthopédie - Traumatologie - Rhumatologie - MPR)",
+              "nomCourt": "OTR",
+              "statut": "Disponible",
+              "description": "Auto-évaluation officielle et EMD Mostaganem - Dr Belkacem Aw.Bk (48 cours, 695 QCMs)",
+              "totalQCM": 695,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Arthrite septique à germe banal",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 2,
+                  "nom": "Arthrose",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 3,
+                  "nom": "Boiterie chez l'enfant",
+                  "totalQCM": 21
+                },
+                {
+                  "num": 4,
+                  "nom": "Complications de l'immobilité et du décubitus",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 5,
+                  "nom": "Déviations rachidiennes",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 6,
+                  "nom": "Épaule douloureuse",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 7,
+                  "nom": "Fractures bimalléolaires",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 8,
+                  "nom": "Fracture de l'extrémité inférieure du radius",
+                  "totalQCM": 23
+                },
+                {
+                  "num": 9,
+                  "nom": "Fracture de la diaphyse humérale",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 10,
+                  "nom": "Fracture du col du fémur",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 11,
+                  "nom": "Fractures du massif trochantérien",
+                  "totalQCM": 23
+                },
+                {
+                  "num": 12,
+                  "nom": "Fractures du pilon tibial",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 13,
+                  "nom": "Fracture du scaphoïde carpien",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 14,
+                  "nom": "Fractures de jambe",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 15,
+                  "nom": "Maladies auto-immunes et articulaires (PR et spondylarthrite)",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 16,
+                  "nom": "La goutte et arthropathies microcristallines",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 17,
+                  "nom": "Fractures de l'extrémité supérieure de l'humérus et palette",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 18,
+                  "nom": "Fractures de la clavicule",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 19,
+                  "nom": "Fractures des deux os de l'avant-bras",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 20,
+                  "nom": "Ostéomyélite aiguë de l'enfant : diagnostic et traitement",
+                  "totalQCM": 20
+                },
+                {
+                  "num": 21,
+                  "nom": "Les fractures des membres (Traumatologie générale)",
+                  "totalQCM": 118
+                },
+                {
+                  "num": 22,
+                  "nom": "Syndrome douloureux régional complexe (SDRC / Algodystrophie)",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 23,
+                  "nom": "Principes de base en MPR et complications de décubitus",
+                  "totalQCM": 75
+                },
+                {
+                  "num": 24,
+                  "nom": "Lombosciatique",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 25,
+                  "nom": "Infections ostéo-articulaires de l'enfant",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 26,
+                  "nom": "Situations de handicap et concept de qualité",
+                  "totalQCM": 26
+                },
+                {
+                  "num": 27,
+                  "nom": "Luxation congénitale de la hanche",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 28,
+                  "nom": "Séquelles de l'amputation et appareillage",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 29,
+                  "nom": "Traumatisme du rachis",
+                  "totalQCM": 70
+                },
+                {
+                  "num": 30,
+                  "nom": "Luxation du coude",
+                  "totalQCM": 19
+                },
+                {
+                  "num": 31,
+                  "nom": "Luxation du coude (Partie 2)",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 32,
+                  "nom": "Membre supérieur et préhension",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 33,
+                  "nom": "Luxation traumatique de la hanche",
+                  "totalQCM": 33
+                },
+                {
+                  "num": 34,
+                  "nom": "Syndrome du canal carpien et compressions nerveuses",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 35,
+                  "nom": "Spondylarthrites (incluant spondylarthrite ankylosante)",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 36,
+                  "nom": "Ostéopathies déminéralisantes (ostéoporose, ostéomalacie)",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 37,
+                  "nom": "Membre inférieur et locomotion (Marche, Bassin, Genou, Cheville)",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 38,
+                  "nom": "Malformations congénitales du pied chez l'enfant",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 39,
+                  "nom": "Prise en charge des atteintes articulaires (dégénératives et inflammatoires)",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 40,
+                  "nom": "Traumatismes du poignet (fractures du poignet)",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 41,
+                  "nom": "Traumatismes de l'épaule (luxation, disjonction acromio-claviculaire)",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 42,
+                  "nom": "Tumeurs osseuses (bénignes et malignes)",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 43,
+                  "nom": "Traumatismes ligamentaires du genou",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 44,
+                  "nom": "Traumatismes ligamentaires du genou (Partie 2)",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 45,
+                  "nom": "Traumatismes osseux du genou (rotule, plateaux tibiaux)",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 46,
+                  "nom": "Fractures de l'extrémité proximale des 2 os de l'avant-bras",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 47,
+                  "nom": "Syndrome des loges",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 48,
+                  "nom": "Tuberculose ostéo-articulaire et Mal de Pott",
+                  "totalQCM": 6
+                }
+              ]
+            },
+            {
+              "slug": "endocrinologie",
+              "nom": "Endocrinologie",
+              "nomCourt": "Endocrinologie",
+              "statut": "Disponible",
+              "description": "Annales complètes EMD, contrôles et rattrapages",
+              "totalQCM": 374,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Syndrome métabolique",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 2,
+                  "nom": "Diabète : diagnostic et classification",
+                  "totalQCM": 21
+                },
+                {
+                  "num": 3,
+                  "nom": "Complications aiguës diabète",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 4,
+                  "nom": "Complications dégénératives diabète",
+                  "totalQCM": 20
+                },
+                {
+                  "num": 5,
+                  "nom": "Prise en charge du diabète",
+                  "totalQCM": 31
+                },
+                {
+                  "num": 6,
+                  "nom": "Goitre simple",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 7,
+                  "nom": "Hypothyroïdie",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 8,
+                  "nom": "Hyperthyroïdie",
+                  "totalQCM": 22
+                },
+                {
+                  "num": 9,
+                  "nom": "Hirsutisme",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 10,
+                  "nom": "Cancer de la thyroïde",
+                  "totalQCM": 19
+                },
+                {
+                  "num": 11,
+                  "nom": "Thyroïdites",
+                  "totalQCM": 19
+                },
+                {
+                  "num": 12,
+                  "nom": "Obésité",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 13,
+                  "nom": "Nutrition et prévention",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 14,
+                  "nom": "Dyscalcémies",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 15,
+                  "nom": "Hypertension artérielles endocrines",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 16,
+                  "nom": "Adénomes hypophysaires",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 17,
+                  "nom": "Dyslipidémies",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 18,
+                  "nom": "Insuffisance surrénalienne",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 19,
+                  "nom": "Syndrome de Cushing",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 20,
+                  "nom": "Insuffisance antéhypophysaire",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 21,
+                  "nom": "Diabète insipide",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 22,
+                  "nom": "TD : gynécomastie endocrinienne",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 23,
+                  "nom": "TD : nodule thyroïdien",
+                  "totalQCM": 12
+                },
+                {
+                  "num": 24,
+                  "nom": "TD : aménorrhée endocrinienne",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 25,
+                  "nom": "TD : dysthyroïdie chez femme enceinte",
+                  "totalQCM": 9
+                }
+              ]
+            },
+            {
+              "slug": "uro-nephrologie",
+              "nom": "Uro-néphrologie",
+              "nomCourt": "Uro-néphrologie",
+              "statut": "Actif",
+              "description": "Urologie et Néphrologie · 22 cours & 12 TD officiels",
+              "totalQCM": 973,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Cancer de la prostate",
+                  "totalQCM": 74
+                },
+                {
+                  "num": 2,
+                  "nom": "Cancer du rein",
+                  "totalQCM": 60
+                },
+                {
+                  "num": 3,
+                  "nom": "Cancer du testicule",
+                  "totalQCM": 37
+                },
+                {
+                  "num": 4,
+                  "nom": "Dysfonction érectile (DE)",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 5,
+                  "nom": "Hypertrophie bénigne de la prostate (HBP)",
+                  "totalQCM": 68
+                },
+                {
+                  "num": 6,
+                  "nom": "Incontinence urinaire",
+                  "totalQCM": 43
+                },
+                {
+                  "num": 7,
+                  "nom": "Les grosses bourses",
+                  "totalQCM": 31
+                },
+                {
+                  "num": 8,
+                  "nom": "Stérilité du couple",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 9,
+                  "nom": "Tumeurs de la vessie (TV)",
+                  "totalQCM": 74
+                },
+                {
+                  "num": 10,
+                  "nom": "Désordres de l'équilibre acido-basique",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 11,
+                  "nom": "Dyskaliémies",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 12,
+                  "nom": "Glomérulonéphrites chroniques (GNC)",
+                  "totalQCM": 26
+                },
+                {
+                  "num": 13,
+                  "nom": "Insuffisance rénale aiguë (IRA)",
+                  "totalQCM": 41
+                },
+                {
+                  "num": 14,
+                  "nom": "Maladie rénale chronique et insuffisance rénale chronique (IRC)",
+                  "totalQCM": 38
+                },
+                {
+                  "num": 15,
+                  "nom": "Lithiases urinaires",
+                  "totalQCM": 75
+                },
+                {
+                  "num": 16,
+                  "nom": "Néphropathies interstitielles chroniques (NIC)",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 17,
+                  "nom": "Néphropathies vasculaires",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 18,
+                  "nom": "Rein et grossesse",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 19,
+                  "nom": "Rein et hypertension artérielle (Rein et HTA)",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 20,
+                  "nom": "Rein et médicaments (Néphropathies médicamenteuses)",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 21,
+                  "nom": "Transplantation rénale (TR)",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 22,
+                  "nom": "Troubles de l'hydratation (cellulaire et extracellulaire)",
+                  "totalQCM": 12
+                },
+                {
+                  "num": 23,
+                  "nom": "TD : Bandelette urinaire",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 24,
+                  "nom": "TD : CAT devant une anurie obstructive",
+                  "totalQCM": 19
+                },
+                {
+                  "num": 25,
+                  "nom": "TD : CAT devant une hématurie",
+                  "totalQCM": 75
+                },
+                {
+                  "num": 26,
+                  "nom": "TD : Colique néphrétique",
+                  "totalQCM": 30
+                },
+                {
+                  "num": 27,
+                  "nom": "TD : Les diurétiques",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 28,
+                  "nom": "TD : Épuration extra-rénale (EER)",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 29,
+                  "nom": "TD : Les dyscalcémies",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 30,
+                  "nom": "TD : Les infections urinaires",
+                  "totalQCM": 57
+                },
+                {
+                  "num": 31,
+                  "nom": "TD : Rétention d'urine (Rétention aiguë d'urine)",
+                  "totalQCM": 39
+                },
+                {
+                  "num": 32,
+                  "nom": "TD : CAT devant une protéinurie",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 33,
+                  "nom": "TD : Syndrome néphrotique",
+                  "totalQCM": 42
+                },
+                {
+                  "num": 34,
+                  "nom": "TD : Syndromes œdémateux",
+                  "totalQCM": 1
+                }
+              ],
+              "annalesQCM": 653,
+              "coursQCM": 0
+            },
+            {
+              "slug": "psychiatrie",
+              "nom": "Psychiatrie",
+              "nomCourt": "Psychiatrie",
+              "statut": "Actif",
+              "description": "Psychiatrie et Santé Mentale · 18 cours & 5 TD officiels",
+              "totalQCM": 220,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Introduction générale à la santé mentale",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 2,
+                  "nom": "Trouble délirant",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 3,
+                  "nom": "Schizophrénies",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 4,
+                  "nom": "Trouble psychotique bref",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 5,
+                  "nom": "Trouble dépressif",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 6,
+                  "nom": "Trouble bipolaire",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 7,
+                  "nom": "Addictions",
+                  "totalQCM": 22
+                },
+                {
+                  "num": 8,
+                  "nom": "PTSD et troubles liés au stress",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 9,
+                  "nom": "Les urgences psychiatriques & CAT",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 10,
+                  "nom": "Trouble veille/sommeil",
+                  "totalQCM": 9
+                },
+                {
+                  "num": 11,
+                  "nom": "Troubles anxieux et TOC",
+                  "totalQCM": 20
+                },
+                {
+                  "num": 12,
+                  "nom": "Généralité sur le développement de l'enfant",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 13,
+                  "nom": "Déficiences mentales",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 14,
+                  "nom": "Psychiatrie légale",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 15,
+                  "nom": "Troubles sexuelles",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 16,
+                  "nom": "Autisme",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 17,
+                  "nom": "Les carences de soins maternels",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 18,
+                  "nom": "L'adolescence et ses troubles",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 19,
+                  "nom": "TD : CAT devant un état d'agitation",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 20,
+                  "nom": "TD : Prescription et surveillance d'un traitement psychotrope",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 21,
+                  "nom": "TD : CAT devant une insomnie",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 22,
+                  "nom": "TD : CAT devant un trouble confusionnel",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 23,
+                  "nom": "TD : Dépistage des TSA",
+                  "totalQCM": 2
+                }
+              ]
+            },
+            {
+              "slug": "gynecologie",
+              "nom": "Gynécologie",
+              "nomCourt": "Gynécologie",
+              "statut": "Actif",
+              "description": "Gynécologie et obstétrique · 37 cours officiels · 531 QCM d'annales certifiées",
+              "totalQCM": 531,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Le Cycle menstruel",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 2,
+                  "nom": "Fécondation",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 3,
+                  "nom": "Bassin obstétrical",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 4,
+                  "nom": "Diagnostic et surveillance de la grossesse",
+                  "totalQCM": 55
+                },
+                {
+                  "num": 5,
+                  "nom": "Mécanisme général de l'accouchement",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 6,
+                  "nom": "Les suites de couches",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 7,
+                  "nom": "Contractions utérines et ses anomalies",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 8,
+                  "nom": "Les présentations fœtales",
+                  "totalQCM": 29
+                },
+                {
+                  "num": 9,
+                  "nom": "Grossesse extra-utérine",
+                  "totalQCM": 29
+                },
+                {
+                  "num": 10,
+                  "nom": "Avortements et complications",
+                  "totalQCM": 13
+                },
+                {
+                  "num": 11,
+                  "nom": "Menace d'accouchement prématuré",
+                  "totalQCM": 14
+                },
+                {
+                  "num": 12,
+                  "nom": "Rupture prématurée des membranes",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 13,
+                  "nom": "Procidence du cordon",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 14,
+                  "nom": "Placenta prævia",
+                  "totalQCM": 20
+                },
+                {
+                  "num": 15,
+                  "nom": "Hématome retro placentaire",
+                  "totalQCM": 17
+                },
+                {
+                  "num": 16,
+                  "nom": "Délivrance normale et pathologique",
+                  "totalQCM": 25
+                },
+                {
+                  "num": 17,
+                  "nom": "Utérus cicatriciel",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 18,
+                  "nom": "Rupture utérine",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 19,
+                  "nom": "Dépassement de terme",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 20,
+                  "nom": "Diabète gestationnel",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 21,
+                  "nom": "La macrosomie fœtale",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 22,
+                  "nom": "La souffrance fœtale",
+                  "totalQCM": 15
+                },
+                {
+                  "num": 23,
+                  "nom": "Anomalies du liquide amniotique",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 24,
+                  "nom": "HTA & grossesse",
+                  "totalQCM": 25
+                },
+                {
+                  "num": 25,
+                  "nom": "Anémie et grossesse",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 26,
+                  "nom": "Cat couple hypofertile",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 27,
+                  "nom": "Les aménorrhées",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 28,
+                  "nom": "Endométriose",
+                  "totalQCM": 12
+                },
+                {
+                  "num": 29,
+                  "nom": "La Contraception",
+                  "totalQCM": 18
+                },
+                {
+                  "num": 30,
+                  "nom": "Les hémorragies génitales",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 31,
+                  "nom": "Dépistage des cancers gynécologiques",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 32,
+                  "nom": "Les Maladies trophoblastiques",
+                  "totalQCM": 11
+                },
+                {
+                  "num": 33,
+                  "nom": "Fibrome utérin",
+                  "totalQCM": 26
+                },
+                {
+                  "num": 34,
+                  "nom": "Les tumeurs du sein",
+                  "totalQCM": 16
+                },
+                {
+                  "num": 35,
+                  "nom": "Cancer de l'endomètre",
+                  "totalQCM": 24
+                },
+                {
+                  "num": 36,
+                  "nom": "Le cancer du col utérin",
+                  "totalQCM": 24
+                },
+                {
+                  "num": 37,
+                  "nom": "Les tumeurs de l'ovaire",
+                  "totalQCM": 11
+                }
+              ]
+            },
+            {
+              "slug": "pediatrie",
+              "nom": "Pédiatrie",
+              "nomCourt": "Pédiatrie",
+              "statut": "Actif",
+              "description": "Pédiatrie et Néonatalogie · 49 cours & 8 TD officiels",
+              "totalQCM": 192,
+              "disponible": true,
+              "chapitres": [
+                {
+                  "num": 1,
+                  "nom": "Détresse respiratoire néonatale",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 2,
+                  "nom": "Ictère néonatal à bilirubine libre",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 3,
+                  "nom": "Cyanose néonatale",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 4,
+                  "nom": "Infections néonatales",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 5,
+                  "nom": "Mauvaise adaptation du nouveau-né à la vie extra-utérine",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 6,
+                  "nom": "Prématurité et retard de croissance intra-utérin (RCIU)",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 7,
+                  "nom": "Développement psychomoteur",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 8,
+                  "nom": "Dépistage et prévention en ORL, orthopédie et santé mentale",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 9,
+                  "nom": "Vaccination",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 10,
+                  "nom": "Alimentation et besoins nutritionnels du nourrisson",
+                  "totalQCM": 6
+                },
+                {
+                  "num": 11,
+                  "nom": "Rachitisme carentiel",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 12,
+                  "nom": "Tuberculose de l'enfant",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 13,
+                  "nom": "Dépistage de la tuberculose",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 14,
+                  "nom": "Infections respiratoires aiguës (IRA)",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 15,
+                  "nom": "Asthme de l'enfant",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 16,
+                  "nom": "Dyspnée de l'enfant",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 17,
+                  "nom": "Détresse respiratoire du nourrisson",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 18,
+                  "nom": "Méningites de l'enfant",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 19,
+                  "nom": "Éruptions fébriles de l'enfant",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 20,
+                  "nom": "Arrêt cardio-respiratoire (ACR) chez l'enfant",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 21,
+                  "nom": "Malaise du nourrisson",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 22,
+                  "nom": "Comas non traumatiques chez l'enfant",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 23,
+                  "nom": "État de choc en pédiatrie",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 24,
+                  "nom": "Convulsions et épilepsies chez l'enfant",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 25,
+                  "nom": "Diarrhée aiguë chez l'enfant",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 26,
+                  "nom": "Déshydratation aiguë chez l'enfant (DSH)",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 27,
+                  "nom": "Diarrhée chronique",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 28,
+                  "nom": "Vomissements de l'enfant",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 29,
+                  "nom": "Douleurs abdominales et constipation chez l'enfant",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 30,
+                  "nom": "Abdomen chirurgical de l'enfant",
+                  "totalQCM": 8
+                },
+                {
+                  "num": 31,
+                  "nom": "Diabète chez l'enfant",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 32,
+                  "nom": "Complications aiguës du diabète (DT1)",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 33,
+                  "nom": "Obésité chez l'enfant",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 34,
+                  "nom": "Dysthyroïdies chez le nourrisson et l'enfant",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 35,
+                  "nom": "Puberté normale et pathologique",
+                  "totalQCM": 10
+                },
+                {
+                  "num": 36,
+                  "nom": "Infection urinaire chez l'enfant",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 37,
+                  "nom": "Protéinurie et syndrome néphrotique",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 38,
+                  "nom": "Glomérulonéphrite aiguë (GNA)",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 39,
+                  "nom": "Dysurie et énurésie",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 40,
+                  "nom": "Pathologie inguino-scrotale de l'enfant",
+                  "totalQCM": 1
+                },
+                {
+                  "num": 41,
+                  "nom": "Anémies carentielles",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 42,
+                  "nom": "Anémies hémolytiques",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 43,
+                  "nom": "Anémies constitutionnelles",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 44,
+                  "nom": "Syndrome hémorragique chez l'enfant",
+                  "totalQCM": 4
+                },
+                {
+                  "num": 45,
+                  "nom": "Tumeurs abdominales de l'enfant",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 46,
+                  "nom": "Tumeurs thoraciques de l'enfant",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 47,
+                  "nom": "Rhumatisme articulaire aigu (RAA)",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 48,
+                  "nom": "Arthrite juvénile idiopathique (AJI)",
+                  "totalQCM": 5
+                },
+                {
+                  "num": 49,
+                  "nom": "Conseil génétique et diagnostic prénatal",
+                  "totalQCM": 7
+                },
+                {
+                  "num": 50,
+                  "nom": "TD : Allaitement maternel",
+                  "totalQCM": 2
+                },
+                {
+                  "num": 51,
+                  "nom": "TD : CAT devant une fièvre aiguë chez l'enfant",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 52,
+                  "nom": "TD : Comment interpréter une image radiologique (RX)",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 53,
+                  "nom": "TD : Examen du nouveau-né",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 54,
+                  "nom": "TD : Hématurie chez l'enfant",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 55,
+                  "nom": "TD : Les dermatoses courantes en pédiatrie",
+                  "totalQCM": 3
+                },
+                {
+                  "num": 56,
+                  "nom": "TD : Radiographie du thorax de face",
+                  "totalQCM": 0
+                },
+                {
+                  "num": 57,
+                  "nom": "TD : Maltraitance et enfants en danger",
+                  "totalQCM": 2
+                }
+              ],
+              "annalesQCM": 192
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "qcmByModule": {
+    "cardiologie": 510,
+    "cardio": 510,
+    "infectiologie": 80,
+    "infectieux": 80,
+    "hemato-oncologie": 145,
+    "hemato": 145,
+    "neurologie": 650,
+    "neuro": 650,
+    "gastro-enterologie": 184,
+    "gastro": 184,
+    "pneumologie": 130,
+    "pneumo": 130,
+    "endocrinologie": 374,
+    "endo": 374,
+    "otr": 695,
+    "uro-nephrologie": 973,
+    "uro": 973,
+    "psychiatrie": 220,
+    "psy": 220,
+    "gynecologie": 531,
+    "gyn": 531,
+    "pediatrie": 192,
+    "ped": 192
+  }
+}

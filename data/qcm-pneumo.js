@@ -1,0 +1,5371 @@
+// ==============================================================================
+// ANNALES DE PNEUMOLOGIE (4ÈME ANNÉE)
+// Faculté de Médecine de Mostaganem
+// 22 Cours officiels · 130 QCMs conformes aux corrigés types officiels
+// ==============================================================================
+window.QCM_PNEUMO = [
+  {
+    "id": "pneumo-001",
+    "module": "pneumologie",
+    "chapitre": "Diagnostic et traitement de la tuberculose",
+    "chapitre_num": 2,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Pour le diagnostic de la tuberculose pulmonaire humaine un des examens suivants est indispensable :",
+    "propositions": {
+      "A": "Examen direct au microscope des crachats uniquement",
+      "B": "Culture à partir du crachat",
+      "C": "Culture à partir du crachat et examen direct",
+      "D": "Culture à partir du crachat et hémoculture",
+      "E": "Culture à partir du crachat et examen sérologique"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le diagnostic bactériologique de certitude de la tuberculose pulmonaire repose indissociablement sur le couple examen direct au microscope (recherche de BAAR après coloration de Ziehl-Neelsen ou à l'auramine) ET culture sur milieux spécifiques (milieu solide de Löwenstein-Jensen ou milieu liquide en automate). L'examen direct apporte une réponse rapide d'orientation et de contagiosité, tandis que la culture est indispensable pour affirmer la viabilité du bacille, identifier formellement l'espèce Mycobacterium tuberculosis et réaliser l'antibiogramme (test de sensibilité aux antituberculeux).",
+    "justifications": {
+      "A": "Faux. L'examen direct seul manque de sensibilité et ne permet pas d'identifier l'espèce ni de tester la sensibilité aux antituberculeux.",
+      "B": "Faux. La culture seule est trop lente (3 à 6 semaines) pour guider l'isolement et la mise sous traitement immédiate.",
+      "C": "Vrai. Le diagnostic de certitude moderne requiert la combinaison de l'examen direct et de la culture bactériologique.",
+      "D": "Faux. L'hémoculture n'est pas un examen de routine pour la tuberculose pulmonaire commune (réservée aux formes disséminées chez le patient immunodéprimé).",
+      "E": "Faux. La sérologie n'a aucune place dans le diagnostic de la tuberculose active.",
+      "_synthese": "Diagnostic bactériologique de la tuberculose pulmonaire : Examen direct (Ziehl-Neelsen) + Culture sur milieu de Löwenstein-Jensen (ou automate liquide) + Antibiogramme.",
+      "_remarque": "La culture reste l'examen de référence ('gold standard') absolu d'affirmation bactériologique et de surveillance thérapeutique."
+    }
+  },
+  {
+    "id": "pneumo-002",
+    "module": "pneumologie",
+    "chapitre": "Diagnostic et traitement de la tuberculose",
+    "chapitre_num": 2,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Le tubage gastrique à la recherche de BK doit être pratiqué :",
+    "propositions": {
+      "A": "À l'UCTMR",
+      "B": "À domicile",
+      "C": "Le premier jour de l'hospitalisation",
+      "D": "Au lit du malade avant le lever",
+      "E": "Au lit du malade après le lever"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Le tubage gastrique matinal selon la technique d'Armand-Delille est indiqué chez les patients qui ne crachent pas (enfants, femmes, sujets âgés). Les sécrétions bronchiques dégluties pendant le sommeil s'accumulent dans l'estomac au cours de la nuit. Le prélèvement du suc gastrique à l'aide d'une sonde naso-gastrique doit être impérativement réalisé au lit du malade, le matin à jeun strict, avant tout lever et avant toute boisson ou déglutition de salive, car le péristaltisme induit par le lever vidange rapidement l'estomac vers le duodénum.",
+    "justifications": {
+      "A": "Faux. Il nécessite des conditions d'hospitalisation de courte durée ou d'alitement strict.",
+      "B": "Faux. Non réalisable à domicile dans les règles d'asepsie et de neutralisation rapide du pH gastrique.",
+      "C": "Faux. Il doit être répété 3 matins consécutifs, pas seulement le premier jour sans préparation.",
+      "D": "Vrai. Réalisé au lit du patient, à jeun, avant tout lever matinal, afin de recueillir les sécrétions bronchiques dégluties la nuit.",
+      "E": "Faux. Après le lever, la vidange gastrique a déjà évacué les bacilles tuberculeux vers l'intestin grêle.",
+      "_synthese": "Tubage gastrique d'Armand-Delille : Patient non cracheur, 3 matins consécutifs, au lit avant le lever, à jeun strict, neutralisation immédiate par bicarbonate pour protéger les BK de l'acidité.",
+      "_remarque": "Le suc gastrique acide est bactéricide pour le bacille tuberculeux : le prélèvement doit être rapidement neutralisé par une solution alcaline avant ensemencement."
+    }
+  },
+  {
+    "id": "pneumo-003",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Le risque de transmission du bacille tuberculeux est d'autant plus élevé en cas de :",
+    "propositions": {
+      "A": "BAAR visibles à l'examen microscopique des produits d'expectoration",
+      "B": "Proximité et longue exposition avec la source de contamination",
+      "C": "Retard dans l'instauration du traitement antituberculeux du malade contagieux",
+      "D": "TB pulmonaire non excavée",
+      "E": "Méningite tuberculeuse"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explication": "La contagiosité de la tuberculose (transmission aéroportée par les gouttelettes de Pflügge) dépend de 3 facteurs majeurs : 1) La charge bacillaire de la source : les formes à examen direct positif (BAAR+) et les formes excavées/cavées (cavernes tuberculeuses contenant 10^8 bacilles) sont les plus hautement contagieuses (A vrai, D faux) ; 2) L'intimité, la promiscuité et la durée du contact dans un espace confiné mal ventilé (B vrai) ; 3) Le retard au diagnostic et au traitement efficace, car un traitement bien conduit éteint la contagiosité en 10 à 15 jours (C vrai). La méningite tuberculeuse et les formes extra-pulmonaires fermées ne sont pas contagieuses (E faux).",
+    "justifications": {
+      "A": "Vrai. La positivité de l'examen direct (microscopie positive) est le principal reflet de la forte contagiosité.",
+      "B": "Vrai. Le risque de transmission est proportionnel à la proximité physique et à la durée cumulée d'exposition en pièce fermée.",
+      "C": "Vrai. Le délai diagnostique prolonge la période d'excrétion bacillaire active dans la communauté.",
+      "D": "Faux. Ce sont au contraire les tuberculoses pulmonaires excavées (avec cavernes) qui sont les plus contagieuses.",
+      "E": "Faux. Les tuberculoses extra-pulmonaires (méningite, ganglion, os) ne sont pas contagieuses.",
+      "_synthese": "Facteurs de contagiosité de la tuberculose : Forme pulmonaire avec cavernes, expectoration BAAR positive à l'examen direct, toux fréquente, retard au traitement, promiscuité.",
+      "_remarque": "Dès 15 jours d'un traitement antituberculeux quadruple bien suivi, le patient BAAR+ n'est pratiquement plus contagieux."
+    }
+  },
+  {
+    "id": "pneumo-004",
+    "module": "pneumologie",
+    "chapitre": "Diagnostic et traitement de la tuberculose",
+    "chapitre_num": 2,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "En cas de suspicion de tuberculose pulmonaire, quels sont les analyses bactériologiques à prescrire en priorité :",
+    "propositions": {
+      "A": "Un examen cytobactériologique des crachats en spécifiant « recherche de mycobactéries »",
+      "B": "Trois examens cytobactériologiques des crachats en spécifiant « recherche de mycobactéries »",
+      "C": "Six examens cytobactériologiques des crachats en spécifiant « recherche de mycobactéries »",
+      "D": "Une PCR diagnostique sur les crachats car ce test est plus sensible que la culture",
+      "E": "Une hémoculture en spécifiant la recherche de mycobactéries car la tuberculose pulmonaire s'accompagne régulièrement d'une bactériémie"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "La stratégie standard recommandée par le Programme National de Lutte Antituberculeuse (PNT) et l'OMS devant toute suspicion de tuberculose pulmonaire chez un patient qui expectore consiste à réaliser TROIS examens microscopiques des crachats (ECBC) recueillis le matin à jeun sur trois jours consécutifs avec demande explicite de recherche de mycobactéries / BAAR. Un seul examen est insuffisant (sensibilité médiocre), et six examens sont superflus et non efficients.",
+    "justifications": {
+      "A": "Faux. Un seul prélèvement méconnaît 30 à 40% des cas positifs.",
+      "B": "Vrai. Règle des 3 crachats matinaux successifs à jeun (ou 2 crachats selon certaines directives récentes OMS).",
+      "C": "Faux. Trois examens suffisent amplement à optimiser le rendement diagnostique sans surcharger le laboratoire.",
+      "D": "Faux. La PCR (GeneXpert) est un outil d'amplification génique rapide précieux mais ne remplace pas l'examen microscopique standard de 1ère intention.",
+      "E": "Faux. La tuberculose pulmonaire ne s'accompagne pas d'une bactériémie habituelle chez l'immunocompétent.",
+      "_synthese": "Recherche de BK dans les crachats : 3 échantillons d'expectorations matinales après effort de toux dirigée sur 3 jours consécutifs, acheminés rapidement au laboratoire.",
+      "_remarque": "L'examen direct permet de classer immédiatement le malade en TPM+ (Tuberculose Pulmonaire à Microscopie Positive), prioritaire pour l'isolement et le PNT."
+    }
+  },
+  {
+    "id": "pneumo-005",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quelle est la meilleure technique à recommander pour mettre en évidence les BK à l'examen direct au microscope :",
+    "propositions": {
+      "A": "Coloration gram",
+      "B": "Coloration à l'auramine",
+      "C": "Coloration de Ziehl-Neelsen",
+      "D": "Un examen de contraste de phase",
+      "E": "Un examen à l'état frais"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "La technique de référence classique universelle pour la mise en évidence microscopique des mycobactéries est la COLORATION DE ZIEHL-NEELSEN (fondée sur la propriété d'acido-alcoolo-résistance conférée par les acides mycoliques de la paroi bactérienne). Les bacilles apparaissent comme de fins bâtonnets rouges vifs sur fond bleu. Sur le corrigé type officiel de la faculté de Mostaganem (Page 8), la coloration de Ziehl-Neelsen (C) est la réponse officiellement validée.",
+    "justifications": {
+      "A": "Faux. Les mycobactéries ne se colorent pas ou très mal au Gram en raison de la richesse de leur paroi en lipides et acides mycoliques.",
+      "B": "Faux (non retenue sur la clé officielle). L'auramine en fluorescence est sensible mais Ziehl-Neelsen reste la technique de référence historique standard.",
+      "C": "Vrai. Coloration princeps d'acido-alcoolo-résistance (BAAR) de référence officielle.",
+      "D": "Faux. Le contraste de phase ne permet pas de caractériser les propriétés tinctoriales de paroi des mycobactéries.",
+      "E": "Faux. L'examen à l'état frais est inopérant pour visualiser Mycobacterium tuberculosis.",
+      "_synthese": "Coloration de Ziehl-Neelsen : Fuschine chauffée puis décoloration à l'acide fort et à l'alcool, et contre-coloration au bleu de méthylène. Les BAAR résistent à la décoloration et restent rouges.",
+      "_remarque": "Bien que la microscopie à fluorescence par l'auramine soit plus rapide, la confirmation morphologique par Ziehl-Neelsen demeure la référence officielle du PNT."
+    }
+  },
+  {
+    "id": "pneumo-006",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "L'infection tuberculeuse latente :",
+    "propositions": {
+      "A": "Est une forme clinique contagieuse",
+      "B": "Se caractérise par des cultures positives des prélèvements",
+      "C": "S'accompagne d'une IDR à la tuberculine et de tests IGRA positifs",
+      "D": "Se caractérise par un titre élevé d'anticorps dirigés contre Mycobacterium tuberculosis",
+      "E": "Evolue dans 90% des cas vers une maladie tuberculeuse"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "L'infection tuberculeuse latente (ITL) correspond à la présence de bacilles tuberculeux vivants quiescents dans l'organisme, contrôlés par le système immunitaire à médiation cellulaire, sans signes cliniques ni radiologiques de maladie active. Elle n'est PAS contagieuse (A faux). Les prélèvements bactériologiques sont négatifs (B faux). Le diagnostic repose exclusivement sur la mise en évidence d'une mémoire immunitaire cellulaire spécifique anti-BK : positivité de l'Intradermo-réaction à la tuberculine (IDR) et/ou des tests de libération d'interféron gamma (IGRA : QuantiFERON, T-SPOT.TB) (C vrai). La réponse immunitaire humorale (anticorps) n'a aucune valeur (D faux). Seulement 5 à 10% des personnes infectées développeront une tuberculose-maladie au cours de leur vie, les 90% restants restant définitivement asymptomatiques (E faux).",
+    "justifications": {
+      "A": "Faux. L'ITL est strictement non contagieuse (pas d'excrétion bacillaire).",
+      "B": "Faux. Les cultures sont négatives car les bacilles sont en état dormant intramacrophagique.",
+      "C": "Vrai. Témoigne de la réponse immunitaire à médiation cellulaire anti-tuberculeuse mémoire (IDR et IGRA positifs).",
+      "D": "Faux. L'immunité protectrice et diagnostique est cellulaire T, non médiée par les anticorps sériques.",
+      "E": "Faux. L'ITL n'évolue vers la tuberculose active que dans 5 à 10% des cas (90-95% ne développeront jamais la maladie).",
+      "_synthese": "Infection Tuberculeuse Latente (ITL) : Sujet asymptomatique, radiographie pulmonaire normale, bactériologie négative, IDR/IGRA positifs, non contagieux. Risque de réactivation 5-10% au cours de la vie.",
+      "_remarque": "L'intérêt du dépistage de l'ITL est de proposer un traitement préventif (Isoniazide ou Rifampicine-Isoniazide) chez les sujets à haut risque de réactivation (immunodéprimés, anti-TNF, enfants contacts)."
+    }
+  },
+  {
+    "id": "pneumo-007",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Un patient âgé de 34 ans se présente pour un gêne respiratoire paroxystique évoluant depuis quelques années et qui devient plus sévère ces derniers jours. Il se plaint également d'écoulement et prurit nasal plus exagérés en mois de mars. Le patient vous rapporte qu'il fait en moyenne deux gênes respiratoires par semaines ces derniers temps mais garde une activité sociale conservé. L'examen clinique retrouve des râles sibilants dans les deux champs pulmonaires. L'imagerie était sans particularité. Quel est le diagnostic le plus probable :",
+    "propositions": {
+      "A": "Bronchectasie",
+      "B": "BPCO",
+      "C": "Rhinite allergique",
+      "D": "Asthme allergique",
+      "E": "Fibrose pulmonaire débutante"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Le tableau clinique réunit tous les critères cardinaux d'un ASTHME ALLERGIQUE : adulte jeune de 34 ans, épisodes de gêne respiratoire sifflante paroxystique récurrente, auscultation retrouvant des râles sibilants diffus bilatéraux, radiographie thoracique normale en dehors des crises, et association étroite à une atopie ORL (rhinite allergique printanière perannuelle avec prurit et rhinorrhée en mars liée aux pollens). La BPCO touche des sujets plus âgés avec tabagisme lourd ; la DDB se traduit par des crachats purulents quotidiens et des anomalies scanographiques ; la fibrose donne des crépitants secs et un syndrome restrictif.",
+    "justifications": {
+      "A": "Faux. La DDB se caractérise par une bronchorrhée chronique purulente et des râles crépitants ou sous-crépitants.",
+      "B": "Faux. La BPCO concerne les fumeurs de plus de 40 ans avec dyspnée d'effort progressive non paroxystique.",
+      "C": "Faux. La rhinite allergique est présente comme comorbidité associée, mais n'explique pas la gêne bronchique sibilante.",
+      "D": "Vrai. Diagnostic typique : dyspnée paroxystique récurrente sibilante chez un sujet atopique jeune.",
+      "E": "Faux. La fibrose pulmonaire donne une dyspnée d'effort d'aggravation continue avec râles crépitants 'velcro'.",
+      "_synthese": "Asthme allergique : Maladie inflammatoire chronique des bronches avec hyperréactivité bronchique, variabilité des symptômes dans le temps et dans l'espace, terrain atopique associé.",
+      "_remarque": "L'association rhinite allergique et asthme illustre le concept de 'la maladie unique des voies aériennes' (United Airway Disease)."
+    }
+  },
+  {
+    "id": "pneumo-008",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quels sont les examens nécessaires pour confirmer et compléter votre diagnostic :",
+    "propositions": {
+      "A": "Fibroscopie bronchique",
+      "B": "Prick tests",
+      "C": "TDM de contrôle",
+      "D": "Spirométrie",
+      "E": "Recherche de BK"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "Face à une suspicion clinique d'asthme allergique : 1) La confirmation diagnostique objective de certitude repose sur l'Exploration Fonctionnelle Respiratoire avec spirométrie et test de réversibilité aux bêta-2 mimétiques (mise en évidence d'un trouble ventilatoire obstructif réversible) (D vrai) ; 2) Le bilan allergologique de première intention repose sur les tests cutanés allergologiques (Prick-tests) explorant les pneumallergènes courants (acariens, pollens d'arbres et de graminées, phanères d'animaux) pour identifier le profil de sensibilisation (B vrai). L'endoscopie bronchique et la TDM thoracique n'ont aucune indication dans l'asthme typique non compliqué.",
+    "justifications": {
+      "A": "Faux. La fibroscopie bronchique n'est pas indiquée dans le diagnostic de l'asthme de l'adulte jeune.",
+      "B": "Vrai. Prick tests cutanés essentiels pour documenter l'atopie et guider l'éviction allergénique.",
+      "C": "Faux. La TDM thoracique est inutile devant un tableau clinique typique avec radio standard normale.",
+      "D": "Vrai. La spirométrie est l'examen clé indispensable pour démontrer l'obstruction bronchique réversible.",
+      "E": "Faux. Aucun tableau de tuberculose n'est évoqué ici.",
+      "_synthese": "Bilan initial d'un asthme : Spirométrie avec boucle débit-volume + test de réversibilité au bronchodilatateur + Prick-tests aux pneumallergènes.",
+      "_remarque": "Si la spirométrie basale est normale, un test de provocation bronchique à la métacholine peut être réalisé pour mettre en évidence l'hyperréactivité bronchique."
+    }
+  },
+  {
+    "id": "pneumo-009",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Vous réalisez un examen spirométrie avec un test de réversibilité au SABA. Vous trouvez les résultats suivants : Avant : VEMS 2400 ml, CVF 3600 ml, VEMS/CVF : 66%. Après : VEMS 2800 ml, CVF 3850 ml, et le VEMS a augmenté de 16%. Comment interprétez-vous ce test :",
+    "propositions": {
+      "A": "Un trouble ventilatoire obstructif non réversible",
+      "B": "Un trouble ventilatoire restrictif",
+      "C": "Un trouble ventilatoire obstructif réversible",
+      "D": "Un trouble ventilatoire mixte",
+      "E": "Intérêt d'une corticothérapie inhalée pour confirmer mon hypothèse"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "L'analyse spirométrique démontre : 1) À l'état basal : le rapport VEMS/CVF est à 66%, soit inférieur à 70% (0.70), ce qui définit formellement un Trouble Ventilatoire Obstructif (TVO) ; 2) Après administration d'un bronchodilatateur bêta-2 agoniste d'action rapide (SABA : 400 µg de salbutamol) : le VEMS passe de 2400 ml à 2800 ml, soit un gain absolu de +400 ml et un gain relatif de +16%. Les critères internationaux de réversibilité significative (gain de VEMS > 12% ET > 200 ml par rapport à la valeur basale) sont largement remplis. Il s'agit donc d'un Trouble Ventilatoire Obstructif Réversible, caractéristique fondamentale de l'asthme.",
+    "justifications": {
+      "A": "Faux. L'augmentation de 16% et de 400 ml affirme au contraire une réversibilité très significative.",
+      "B": "Faux. La CVF est conservée (3600 ml) et le rapport VEMS/CVF est abaissé : ce n'est pas un trouble restrictif.",
+      "C": "Vrai. VEMS/CVF < 70% + gain de VEMS ≥ 12% et ≥ 200 ml = TVO réversible affirmant l'asthme.",
+      "D": "Faux. Pour parler de trouble mixte, il faudrait confirmer une diminution de la CPT par pléthysmographie.",
+      "E": "Faux. La réversibilité est déjà formellement prouvée immédiatement au SABA ; pas besoin d'attendre un test corticoïde.",
+      "_synthese": "Définition EFR de la réversibilité de l'asthme : Rapport VEMS/CVF < 0.70 avec amélioration post-bronchodilatateur du VEMS > 12% ET > 200 ml.",
+      "_remarque": "Une réversibilité complète (normalisation du VEMS et du rapport > 70%) est quasi-pathognomonique de l'asthme par rapport à la BPCO."
+    }
+  },
+  {
+    "id": "pneumo-010",
+    "module": "pneumologie",
+    "chapitre": "Prise en charge et traitement de l'asthme",
+    "chapitre_num": 14,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quel est la prise en charge la plus approprié pour votre patient :",
+    "propositions": {
+      "A": "Eviction allergique",
+      "B": "Arrêt des activités sportives",
+      "C": "SABA seule en cas de crise",
+      "D": "Association CSI et Formoterol à la demande",
+      "E": "LABA ou LAMA seule"
+    },
+    "bonnes_reponses": [
+      "A",
+      "D"
+    ],
+    "explication": "Selon les recommandations internationales actualisées du GINA (Global Initiative for Asthma) : 1) Les mesures non pharmacologiques reposent sur l'éviction des allergènes identifiés (A vrai) ; 2) Sur le plan médicamenteux, la stratégie de référence (voie préférentielle Track 1 du GINA pour les paliers 1 et 2) recommande l'association d'un corticoïde inhalé à dose faible et de formotérol (CSI-formotérol) pris à la demande en cas de symptômes, sans traitement de fond quotidien continu nécessaire à ce stade précoce (D vrai). La monothérapie par SABA seul à la demande n'est plus recommandée car elle expose au risque d'exacerbations sévères (C faux). L'activité physique et le sport sont fortement encouragés et ne doivent jamais être arrêtés chez l'asthmatique équilibré (B faux). Les LABA seuls sans corticoïdes inhalés sont formellement dangereux et interdits dans l'asthme (E faux).",
+    "justifications": {
+      "A": "Vrai. Mesure environnementale essentielle pour réduire l'inflammation bronchique allergique.",
+      "B": "Faux. Le sport n'est jamais contre-indiqué dans l'asthme bien contrôlé.",
+      "C": "Faux. La monothérapie par bronchodilatateur d'action rapide seul sans corticoïde inhalé est désormais bannie par le GINA.",
+      "D": "Vrai. Recommandation Track 1 du GINA : CSI à faible dose + Formotérol à la demande dès les symptômes légers.",
+      "E": "Faux. Les bronchodilatateurs de longue durée d'action (LABA) en monothérapie sont formellement contre-indiqués (surmortalité par crise aiguë).",
+      "_synthese": "Prise en charge moderne de l'asthme (GINA) : Tout patient asthmatique doit recevoir un corticoïde inhalé (CSI), au minimum à la demande associé au formotérol, pour traiter l'inflammation sous-jacente.",
+      "_remarque": "Règle de sécurité absolue : Jamais de LABA seul dans l'asthme !"
+    }
+  },
+  {
+    "id": "pneumo-011",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles du sommeil & Ventilation",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quels sont les symptômes qui sont souvent présents en cas de syndrome d'apnée obstructive du sommeil :",
+    "propositions": {
+      "A": "Ronflements quotidiens",
+      "B": "Nycturie",
+      "C": "Cauchemars",
+      "D": "Fatigue",
+      "E": "Céphalées matinales"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Le syndrome d'apnées-hypopnées obstructives du sommeil (SAOS) se manifeste par un cortège clinique nocturne et diurne caractéristique : 1) Symptômes nocturnes : ronflement sévère ancien, quotidien et bruyant (A vrai), apnées constatées par l'entourage, étouffements/réveils en sursaut, sommeil agité, nycturie fréquente par hypersécrétion de facteur natriurétique auriculaire ANP induite par les pressions négatives intrathoraciques (B vrai) ; 2) Symptômes diurnes : somnolence diurne excessive involontaire, fatigue chronique matinale non réparatrice (D vrai), céphalées matinales fronto-occipitales liées à l'hypercapnie nocturne et à la vasodilatation cérébrale (E vrai). Les cauchemars ne sont pas un signe clinique habituel ou évocateur du SAOS.",
+    "justifications": {
+      "A": "Vrai. Le ronflement sonore quotidien rapporté par le conjoint est le maître symptôme nocturne.",
+      "B": "Vrai. La nycturie (mictions nocturnes répétées) est très fréquente, due à la libération d'ANP par distension des oreillettes cardiaques.",
+      "C": "Faux. Les cauchemars ne font pas partie des symptômes typiques du SAOS.",
+      "D": "Vrai. Asthénie diurne chronique secondaire à la fragmentation du sommeil par les micro-éveils.",
+      "E": "Vrai. Les céphalées au réveil traduisent la vasodilatation cérébrale induite par l'hypoxie-hypercapnie nocturne.",
+      "_synthese": "Signes cliniques majeurs du SAOS : Triade cardinale = Ronflement sonore + Apnées constatées + Somnolence diurne excessive. Autres signes : nycturie, céphalées matinales, irritabilité, troubles de la mémoire.",
+      "_remarque": "L'échelle de somnolence d'Epworth (score > 10) est l'outil clinique d'évaluation standard de la somnolence diurne."
+    }
+  },
+  {
+    "id": "pneumo-012",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles du sommeil & Ventilation",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "En cas de SAOS, une apnée est définie par :",
+    "propositions": {
+      "A": "Une diminution du débit aérien de 50%",
+      "B": "Un arrêt du débit aérien de 8 sec",
+      "C": "Une diminution du débit aérien de 50% avec désaturation",
+      "D": "Un arrêt du débit aérien de 10 sec ou plus",
+      "E": "Toute diminution du débit aérien avec micro éveil"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Dans les critères polygraphiques et polysomnographiques internationaux (AASM) : une APNÉE est définie de façon stricte par l'arrêt complet (ou diminution ≥ 90%) du signal de débit aérien naso-buccal d'une durée minimale de 10 secondes (D vrai). Si l'apnée s'accompagne d'efforts respiratoires thoraco-abdominaux persistants contre l'obstacle pharyngé, elle est dite obstructive. Une hypopnée est définie par une diminution du débit aérien de 30% à 50% pendant au moins 10 secondes associée à une désaturation en oxygène (≥ 3% ou 4%) ou à un micro-éveil.",
+    "justifications": {
+      "A": "Faux. La diminution partielle du débit définit l'hypopnée, pas l'apnée.",
+      "B": "Faux. Le seuil temporel minimal réglementaire est de 10 secondes (et non 8 sec).",
+      "C": "Faux. Ceci correspond à la définition d'une hypopnée obstructive.",
+      "D": "Vrai. Arrêt du débit aérien naso-buccal d'une durée d'au moins 10 secondes.",
+      "E": "Faux. Une diminution partielle avec micro-éveil correspond à une hypopnée ou à un événement RERA.",
+      "_synthese": "Définition polysomnographique : Apnée = interruption du flux respiratoire ≥ 90% pendant au moins 10 secondes. Hypopnée = baisse du flux de 30-50% pendant ≥ 10s avec désaturation (≥ 3%) ou micro-éveil.",
+      "_remarque": "L'Index d'Apnées-Hypopnées (IAH) correspond au nombre moyen d'apnées et d'hypopnées par heure de sommeil (SAOS sévère si IAH ≥ 30/h)."
+    }
+  },
+  {
+    "id": "pneumo-013",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles du sommeil & Ventilation",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Parmi les facteurs de risque du SAOS on retrouve :",
+    "propositions": {
+      "A": "Les anomalies mandibulaires",
+      "B": "L'âge plus de 50 ans",
+      "C": "Le sexe féminin",
+      "D": "L'obésité",
+      "E": "L'hypothyroïdie"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Les facteurs de risque majeurs du SAOS sont : 1) L'obésité (facteur de risque n°1, surcharge graisseuse des parois pharyngées) (D vrai) ; 2) Les anomalies anatomiques cranio-faciales et mandibulaires (rétrognathie, micrognathie, hypertrophie amygdalienne/voile) qui rétrécissent les voies aériennes supérieures (A vrai) ; 3) L'âge mûr > 50-60 ans par perte d'élasticité et de tonicité musculaire pharyngée (B vrai) ; 4) Les endocrinopathies, tout particulièrement l'hypothyroïdie (par infiltration myxœdémateuse macroglossique) et l'acromégalie (E vrai). En revanche, c'est le sexe MASCULIN qui est un facteur de risque majeur (ratio 2 à 3 hommes pour 1 femme avant la ménopause) ; le sexe féminin n'est pas un facteur de risque.",
+    "justifications": {
+      "A": "Vrai. Rétrognathie et anomalies maxillaires favorisent le collapsus des voies aériennes postérieures.",
+      "B": "Vrai. La prévalence du SAOS augmente avec l'âge (perte du tonus des muscles dilatateurs du pharynx).",
+      "C": "Faux. Le sexe masculin est un facteur prédisposant majeur ; les femmes sont relativement protégées par la progestérone avant la ménopause.",
+      "D": "Vrai. L'obésité (IMC > 30 kg/m²) est le facteur de risque le plus puissant.",
+      "E": "Vrai. L'hypothyroïdie est une étiologie classique curable de SAOS par macroglossie et dépression musculaire.",
+      "_synthese": "Facteurs de risque du SAOS : Obésité androïde (circonférence du cou > 43 cm chez l'homme), sexe masculin, âge > 50 ans, anomalies anatomiques (rétrognathie), hypothyroïdie, sédatifs, alcool.",
+      "_remarque": "Tout patient obèse présentant une HTA résistante doit systématiquement être dépisté pour un SAOS."
+    }
+  },
+  {
+    "id": "pneumo-014",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles du sommeil & Ventilation",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Un patient présente un SAOS avec une somnolence diurne sévère, une HTA mal contrôlée et un IMC à 36. Quels sont les mesures thérapeutiques proposées au patient :",
+    "propositions": {
+      "A": "Eviter les hypnotiques ou les benzodiazépines",
+      "B": "Réduction pondérale",
+      "C": "Traitement par ventilation non invasive",
+      "D": "Chirurgie maxillo-mandibulaire",
+      "E": "Traitement par pression positive continue"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explication": "Chez un patient présentant un SAOS sévère symptomatique (somnolence diurne marquée, comorbidité cardiovasculaire avec HTA résistante et obésité de classe II avec IMC à 36) : 1) Les règles hygiéno-diététiques et d'hygiène du sommeil sont obligatoires : éviction stricte des sédatifs, hypnotiques et benzodiazépines qui aggravent l'hypotonie musculaire pharyngée nocturne (A vrai) ; 2) La perte de poids (réduction pondérale d'au moins 10-15%) est capitale (B vrai) ; 3) Le traitement de première intention de référence absolue est la PRESSION POSITIVE CONTINUE (PPC par masque nasal nocturne), qui agit comme une attelle pneumatique empêchant le collapsus des voies aériennes supérieures (E vrai). La VNI à deux niveaux de pression n'est réservée qu'au syndrome obésité-hypoventilation avec hypercapnie diurne diurne (C faux). La chirurgie d'avancée maxillo-mandibulaire n'est qu'un recours lourd d'exception en cas de refus ou échec de PPC chez des sujets jeunes non obèses (D faux).",
+    "justifications": {
+      "A": "Vrai. Les benzodiazépines aggravent la fréquence et la durée des apnées en relâchant les muscles dilatateurs.",
+      "B": "Vrai. La perte pondérale améliore significativement l'IAH et le profil hémodynamique.",
+      "C": "Faux. La VNI à double niveau (BiPAP) n'est pas le traitement standard du SAOS pur (réservée à l'hypercapnie diurne du SOH).",
+      "D": "Faux. La chirurgie maxillo-faciale lourde n'est pas proposée d'emblée chez un patient obèse à IMC 36.",
+      "E": "Vrai. La PPC nocturne est le traitement de référence ('gold standard') du SAOS sévère.",
+      "_synthese": "Prise en charge du SAOS sévère : PPC nocturne de 1ère intention + Perte de poids + Éviction des myorelaxants et de l'alcool le soir + Traitement des comorbidités (HTA).",
+      "_remarque": "L'efficacité de la PPC sur la somnolence et le risque cardiovasculaire nécessite une observance d'au moins 4 heures par nuit."
+    }
+  },
+  {
+    "id": "pneumo-015",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Parmi les facteurs suivants lesquels augmentent le risque de développer une tuberculose en cas d'infection tuberculeuse latente :",
+    "propositions": {
+      "A": "Le diabète",
+      "B": "La prise au long cours de corticoïdes",
+      "C": "La coinfection par le virus de l'hépatite B",
+      "D": "La coinfection par le VIH",
+      "E": "L'éthylisme"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Le passage d'une infection tuberculeuse latente (ITL) à une tuberculose-maladie active résulte d'une défaillance de l'immunité à médiation cellulaire maintenant le bacille quiescent dans le granulome. Les facteurs de risque majeurs prouvés de réactivation sont : 1) La co-infection par le VIH (facteur de risque n°1, multipliant le risque annuel par 20 à 30) (D vrai) ; 2) Les traitements immunosuppresseurs, en particulier la corticothérapie générale au long cours (> 15 mg/j d'équivalent prednisone pendant plus d'un mois) et les anti-TNF-alpha (B vrai) ; 3) Le diabète mal équilibré (risque multiplié par 3) (A vrai) ; 4) L'éthylisme chronique, la dénutrition et le tabagisme (E vrai). L'infection isolée par le virus de l'hépatite B n'induit pas de déficit de l'immunité cellulaire T prédisposant à la réactivation tuberculeuse (C faux).",
+    "justifications": {
+      "A": "Vrai. Le diabète altère l'immunité cellulaire et multiplie par 3 le risque de réactivation tuberculeuse.",
+      "B": "Vrai. La corticothérapie prolongée inhibe les fonctions macrophagiques et lymphocytaires.",
+      "C": "Faux. Le VHB n'est pas un facteur de risque reconnu d'immunodépression cellulaire pour la tuberculose.",
+      "D": "Vrai. Le VIH est le facteur le plus puissant de réactivation de l'infection tuberculeuse latente.",
+      "E": "Vrai. L'alcoolisme chronique et la dénutrition associée altèrent les défenses antimycobactériennes.",
+      "_synthese": "Facteurs de réactivation de l'ITL : VIH/SIDA, Anti-TNF et immunosuppresseurs, Corticothérapie prolongée, Diabète, Insuffisance rénale terminale, Silicose, Éthylisme/Dénutrition.",
+      "_remarque": "Avant d'instaurer une biothérapie par anti-TNF alpha, le dépistage et le traitement systématique d'une ITL sont obligatoires."
+    }
+  },
+  {
+    "id": "pneumo-016",
+    "module": "pneumologie",
+    "chapitre": "Insuffisance respiratoire chronique",
+    "chapitre_num": 19,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Sur le plan pratique, l'IRC est définie biologiquement par une pression artérielle partielle en oxygène (PaO2) < 70 mm Hg :",
+    "propositions": {
+      "A": "Avec une hypercapnie",
+      "B": "Avec une HTAP",
+      "C": "Mesurée à 2 reprises à au moins 1 semaine d'intervalle",
+      "D": "À l'air ambiant et en état stable",
+      "E": "Avec une hyperglobulie"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "La définition gazométrique de l'Insuffisance Respiratoire Chronique (IRC) repose sur l'incapacité permanente de l'appareil respiratoire à maintenir une hématose normale au repos. Sur le plan pratique et épidémiologique, elle est affirmée par une PaO2 < 60-70 mmHg réalisée impérativement : 1) Au repos ; 2) À l'air ambiant (en l'absence de toute oxygénothérapie) ; 3) En état stable, c'est-à-dire à distance (au moins 4 à 6 semaines) de tout épisode aigu d'exacerbation ou de décompensation respiratoire (D vrai). L'hypercapnie (A), l'HTAP pré-capillaire (B) et la polyglobulie (E) sont des complications ou des mécanismes associés inconstants, mais ne font pas partie de la définition de base.",
+    "justifications": {
+      "A": "Faux. L'hypercapnie définit le type 2 (IRC globale) mais l'IRC de type 1 est hypoxémique pure hypocapnique.",
+      "B": "Faux. L'HTAP est une complication cardiovasculaire secondaire tardive du cœur pulmonaire chronique.",
+      "C": "Faux. Le délai de confirmation pour l'OLD est généralement de 3 à 4 semaines après un épisode aigu.",
+      "D": "Vrai. Prélèvement au repos, à l'air ambiant, en état clinique stationnaire et stable.",
+      "E": "Faux. La polyglobulie est une réaction adaptative inconstante à l'hypoxémie chronique.",
+      "_synthese": "Définition de l'IRC : Hypoxémie chronique de repos (PaO2 < 60-70 mmHg) confirmée à l'air ambiant, au repos, chez un patient en état stable à distance d'une exacerbation.",
+      "_remarque": "L'oxygénothérapie de longue durée (OLD ≥ 15h/j) est indiquée si PaO2 < 55 mmHg, ou entre 55 et 60 mmHg en présence de polyglobulie, HTAP ou désaturations nocturnes."
+    }
+  },
+  {
+    "id": "pneumo-017",
+    "module": "pneumologie",
+    "chapitre": "Insuffisance respiratoire chronique",
+    "chapitre_num": 19,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Les trois causes les plus fréquentes d'Insuffisance respiratoire chronique sont :",
+    "propositions": {
+      "A": "Syndrome obésité-hypoventilation",
+      "B": "Pneumopathie interstitielle diffuse",
+      "C": "Pneumoconiose",
+      "D": "La BPCO",
+      "E": "Les maladies neuromusculaires"
+    },
+    "bonnes_reponses": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explication": "Dans les registres épidémiologiques de pneumologie et d'appareillage d'assistance respiratoire à domicile (ANTADIR / registres internationaux), les trois grandes causes prévalentes d'Insuffisance Respiratoire Chronique sont : 1) La BPCO (de loin la 1ère cause d'IRC obstructive, représentant plus de 50% des indications d'OLD) (D vrai) ; 2) Le syndrome obésité-hypoventilation (SOH / syndrome de Pickwick), dont la fréquence explose avec la pandémie d'obésité (A vrai) ; 3) Les atteintes de la pompe ventilatoire regroupant les maladies neuromusculaires (SLA, myopathies) et les déformations thoraciques sévères (cyphoscolioses) (E vrai). Sur la clé officielle certifiée de Mostaganem (Page 8), le trio ADE est validé.",
+    "justifications": {
+      "A": "Vrai. Le SOH est une cause majeure d'IRC restrictive hypercapnique traitée par VNI.",
+      "B": "Faux. Les PID sont des causes plus rares d'IRC restrictive comparées à la BPCO et au SOH.",
+      "C": "Faux. Les pneumoconioses représentent une fraction minoritaire d'origine professionnelle.",
+      "D": "Vrai. La BPCO est la première cause d'insuffisance respiratoire chronique dans le monde.",
+      "E": "Vrai. Les maladies neuromusculaires et déformations thoraciques constituent le 3e groupe étiologique majeur d'IRC restrictive.",
+      "_synthese": "Étiologies de l'IRC : Obstructives (BPCO +++), Restrictives extraparenchymateuses (SOH, neuromusculaires, cyphoscoliose), Restrictives parenchymateuses (PID).",
+      "_remarque": "BPCO = indication reine de l'Oxygénothérapie de Longue Durée (OLD) ; SOH et neuromusculaire = indications reines de la Ventilation Non Invasive (VNI) nocturne."
+    }
+  },
+  {
+    "id": "pneumo-018",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quels sont parmi les critères suivants, ceux qui sont pronostiques de la BPCO post tabagique :",
+    "propositions": {
+      "A": "Index de masse corporelle",
+      "B": "VEMS",
+      "C": "Périmètre de marche",
+      "D": "Gaz du sang artériel en Air Ambiant",
+      "E": "Présence d'une HTAP"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "Le pronostic vital et le risque de mortalité de la BPCO sont évalués par des scores multidimensionnels validés, dont le score BODE de Celli : 1) B (Body mass index / Indice de masse corporelle : la dénutrition avec IMC < 21 kg/m² est un facteur péjoratif indépendant majeur) (A vrai) ; 2) O (Obstruction : valeur du VEMS post-bronchodilatateur) (B vrai) ; 3) D (Dyspnea : échelle mMRC) ; 4) E (Exercise : distance parcourue au test de marche des 6 minutes / périmètre de marche) (C vrai). De plus, l'existence d'une Hypertension Artérielle Pulmonaire (HTAP) et d'un cœur pulmonaire chronique grève lourdement l'espérance de vie (E vrai). Sur la clé officielle certifiée de Mostaganem (Page 8), les items ABCE sont retenus.",
+    "justifications": {
+      "A": "Vrai. Composante 'B' du score BODE (l'amaigrissement et la perte de masse maigre majorent la mortalité).",
+      "B": "Vrai. Composante 'O' du score BODE (VEMS % de la valeur théorique).",
+      "C": "Vrai. Composante 'E' du score BODE (performance à l'exercice au test de marche de 6 minutes).",
+      "D": "Faux (non retenu isolément sur la clé officielle qui a ciblé les composantes BODE et l'HTAP).",
+      "E": "Vrai. L'HTAP secondaire hypoxique est un facteur prédictif indépendant majeur de mortalité.",
+      "_synthese": "Score pronostique BODE de la BPCO : B = BMI (< 21 kg/m²), O = Obstruction (VEMS), D = Dyspnea (mMRC), E = Exercise (test de marche de 6 minutes).",
+      "_remarque": "Le score BODE prédit la survie des patients BPCO de façon bien plus précise que le VEMS isolé."
+    }
+  },
+  {
+    "id": "pneumo-019",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Parmi les examens suivants, lesquels font partie du bilan diagnostique initial d'une BPCO ?",
+    "propositions": {
+      "A": "Spirométrie avec test de réversibilité",
+      "B": "Pléthysmographie",
+      "C": "Test de marche des 6 minutes",
+      "D": "TDM thoracique",
+      "E": "NFS"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "Le bilan initial d'un patient chez qui une BPCO est suspectée ou diagnostiquée comporte : 1) La spirométrie avec mesure du VEMS et de la CVF avant et après bronchodilatateur (seul examen permettant d'affirmer le diagnostic de TVO non complètement réversible avec VEMS/CVF < 0.70) (A vrai) ; 2) La pléthysmographie corporelle totale pour mesurer les volumes non mobilisables (VR, CPT) et quantifier la distension thoracique (VR/CPT > 30%) (B vrai) ; 3) Le test de marche des 6 minutes pour évaluer le retentissement fonctionnel à l'effort et la désaturation (C vrai) ; 4) La Numération Formule Sanguine (NFS) à la recherche d'une polyglobulie secondaire à l'hypoxémie chronique ou d'une anémie associée (E vrai). La TDM thoracique n'est pas un examen de routine initial (réservée au dépistage du cancer bronchique chez le fumeur ou au bilan avant chirurgie de réduction d'emphysème) (D faux).",
+    "justifications": {
+      "A": "Vrai. Examen diagnostique indispensable de référence (GOLD).",
+      "B": "Vrai. Recherche et quantifie la distension pulmonaire et l'emphysème.",
+      "C": "Vrai. Évalue la tolérance à l'effort et l'oxygénorequérance à la marche.",
+      "D": "Faux. Non recommandée systématiquement lors de l'évaluation diagnostique initiale d'une BPCO non compliquée.",
+      "E": "Vrai. Recherche une polyglobulie de compensation ou une éosinophilie sanguine orientant le traitement.",
+      "_synthese": "Bilan initial BPCO : EFR complète (Spirométrie réversible + Pléthysmographie + DLCO), Radiographie thoracique, Test de marche de 6 min, NFS, Gazométrie artérielle si VEMS < 50%.",
+      "_remarque": "L'éosinophilie sanguine (> 300 éosinophiles/µL) est désormais un biomarqueur guidant l'adjonction d'un corticoïde inhalé (CSI) chez le patient BPCO exacerbateur fréquent."
+    }
+  },
+  {
+    "id": "pneumo-020",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Concernant le TEP scanner dans le bilan d'extension des cancers du poumon, il est vrai que :",
+    "propositions": {
+      "A": "C'est l'examen le plus performant pour préciser le stade N",
+      "B": "Il réalise un bilan à distance exhaustif",
+      "C": "Il est recommandé chez les patients opérables après analyse de la TDM",
+      "D": "Une lésion de moins de 15 mm peut être faussement non hypermétabolique",
+      "E": "Il est utile à l'évaluation de la réponse à la chimiothérapie"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C"
+    ],
+    "explication": "Le TEP-scanner au 18F-FDG est l'examen d'imagerie métabolique de référence pour le bilan d'extension ganglionnaire médiastinal (stade N) des Cancers Broncho-Pulmonaires Non à Petites Cellules (CBNPC), avec une excellente valeur prédictive négative (A vrai). Il est formellement recommandé chez tout patient candidat à un traitement chirurgical curateur ou radical (patients potentiellement opérables) après analyse du scanner TAP initial pour éliminer des métastases occultes ou un envahissement ganglionnaire insoupçonné (C vrai). Le TEP n'est pas exhaustif pour le cerveau (qui capte physiologiquement le glucose : l'IRM cérébrale reste obligatoire) (B faux). Sur la clé officielle certifiée de Mostaganem (Page 8), les items A et C sont validés.",
+    "justifications": {
+      "A": "Vrai. Meilleure sensibilité et spécificité que la TDM seule pour évaluer l'atteinte ganglionnaire médiastinale N2/N3.",
+      "B": "Faux. Il est insuffisant pour explorer l'encéphale (l'IRM cérébrale avec injection est obligatoire).",
+      "C": "Vrai. Examen standard incontournable avant toute décision de résection chirurgicale d'un CBNPC.",
+      "D": "Faux (non retenu sur la clé officielle).",
+      "E": "Faux (non retenu sur la clé officielle qui a ciblé la stadification N et l'opérabilité).",
+      "_synthese": "TEP-scanner dans le cancer bronchique : Stadification ganglionnaire médiastinale (stade N) de référence, obligatoire chez tout patient opérable pour récuser les faux opérables (détection de métastases à distance).",
+      "_remarque": "Attention : toute fixation ganglionnaire anormale au TEP-TDM doit être confirmée par biopsie (EBUS ou médiastinoscopie) pour ne pas récuser à tort un patient opérable (faux positifs inflammatoires/infectieux)."
+    }
+  },
+  {
+    "id": "pneumo-021",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Les principaux facteurs pronostiques défavorables du cancer du poumon sont :",
+    "propositions": {
+      "A": "L'indice Performance Status élevé",
+      "B": "Le stade localisé",
+      "C": "L'amaigrissement",
+      "D": "Le taux de LDL élevé",
+      "E": "L'anémie"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explication": "Dans les cancers bronchiques primitifs, les facteurs pronostiques majeurs indépendants péjoratifs reconnus sont : 1) Un Performance Status (PS de l'OMS ou échelle ECOG) altéré (PS ≥ 2) témoignant de la dégradation de l'état général et de l'incapacité aux traitements lourds (A vrai) ; 2) La perte de poids significative / amaigrissement > 5-10% du poids du corps dans les 6 derniers mois (C vrai) ; 3) L'anémie biologique préthérapeutique (Hb < 10-12 g/dl), qui majore l'hypoxie tumorale et diminue la chimiosensibilité (E vrai) ; 4) Le stade TNM avancé (stade métastatique IV). Le stade localisé est au contraire un facteur de bon pronostic opérable (B faux). Le LDL-cholestérol n'a pas de valeur pronostique oncologique (D faux).",
+    "justifications": {
+      "A": "Vrai. Le Performance Status (ECOG 0 à 4) est le facteur pronostique individuel le plus puissant.",
+      "B": "Faux. Le stade localisé (stade I/II) est de bon pronostic permettant une résection chirurgicale curatrice.",
+      "C": "Vrai. L'altération de l'état général et la dénutrition (perte de poids) grèvent lourdement la survie.",
+      "D": "Faux. Le bilan lipidique n'a aucune influence pronostique sur le cancer bronchique.",
+      "E": "Vrai. L'anémie est un facteur indépendant classique de mauvais pronostic dans les cancers thoraciques.",
+      "_synthese": "Facteurs pronostiques du cancer bronchique : Stade TNM, Performance Status (PS OMS), perte de poids (> 5%), sexe, âge, anémie, syndrome inflammatoire biologique.",
+      "_remarque": "Un patient avec PS = 3 ou 4 ne peut généralement pas recevoir de chimiothérapie cytotoxique conventionnelle en raison de la toxicité létale."
+    }
+  },
+  {
+    "id": "pneumo-022",
+    "module": "pneumologie",
+    "chapitre": "Tabac et tabagisme",
+    "chapitre_num": 20,
+    "section": "Addictologie & Prévention",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Le tabagisme est un facteur de risque pour toutes ces affections, sauf une laquelle ?",
+    "propositions": {
+      "A": "Sarcoïdose",
+      "B": "BPCO",
+      "C": "Asthme",
+      "D": "Cancer",
+      "E": "Tuberculose"
+    },
+    "bonnes_reponses": [
+      "A"
+    ],
+    "explication": "Le tabagisme actif est le facteur causal direct ou favorisant prouvé de la BPCO (responsable de > 85% des cas), du cancer bronchique (> 85%), de l'aggravation sévère de l'asthme, et multiplie par 2 le risque de développer une tuberculose active. En revanche, le tabagisme n'est PAS un facteur de risque de la SARCOÏDOSE : il existe même un 'paradoxe du tabac' bien connu en pneumologie, où le tabagisme est associé à une diminution significative du risque de survenue de la sarcoïdose (et de l'alvéolite allergique extrinsèque / pneumopathie d'hypersensibilité) par effet immunosuppresseur local sur les macrophages alvéolaires et les lymphocytes Th1.",
+    "justifications": {
+      "A": "Vrai (l'exception). Le tabagisme n'est pas un facteur de risque de la sarcoïdose (incidence plus faible chez les fumeurs).",
+      "B": "Faux. Le tabac est la cause principale de la BPCO.",
+      "C": "Faux. Le tabagisme passif et actif induit une résistance aux corticoïdes et aggrave l'asthme.",
+      "D": "Faux. Le tabagisme est le cancérigène numéro un pour les voies aérodigestives et les poumons.",
+      "E": "Faux. Le tabagisme altère l'épuration mucociliaire et favorise le passage de l'ITL à la tuberculose active.",
+      "_synthese": "Pathologies non liées ou négativement associées au tabac : Sarcoïdose, Pneumopathie d'hypersensibilité, Rectocolite hémorragique (RCH).",
+      "_remarque": "Question piège classique des concours et examens de pneumologie."
+    }
+  },
+  {
+    "id": "pneumo-023",
+    "module": "pneumologie",
+    "chapitre": "Tabac et tabagisme",
+    "chapitre_num": 20,
+    "section": "Addictologie & Prévention",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Parmi les conséquences du tabagisme sur l'appareil respiratoire (reponse fausse) :",
+    "propositions": {
+      "A": "Rétrécissement des voies aériennes",
+      "B": "Risque d'une infection bronchique",
+      "C": "Restriction du débit respiratoire à long terme",
+      "D": "Rejet pénible de l'expectoration",
+      "E": "Paralysie des cils des voies aériennes supérieures"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le tabagisme entraîne une inflammation chronique avec hypersécrétion de mucus, paralysie et destruction des cils de l'épithélium respiratoire (E), réduction de la clairance mucociliaire avec rejet difficile des expectorations (D), remaniement fibreux et rétrécissement des petites voies aériennes (A), et vulnérabilité accrue aux infections bronchiques (B). Sur le plan fonctionnel respiratoire, le tabac induit un TROUBLE VENTILATOIRE OBSTRUCTIF (diminution des débits aériens expiratoires et du VEMS), et NON une 'restriction' (le trouble restrictif se définit par une diminution des volumes pulmonaires, CPT < 80%, ce qui n'est pas la conséquence caractéristique du tabac). La proposition C est donc fausse.",
+    "justifications": {
+      "A": "Vrai (conséquence exacte). Bronchiolite respiratoire du fumeur avec rétrécissement de la lumière bronchiolaire.",
+      "B": "Vrai (conséquence exacte). Paralysie ciliaire favorisant la colonisation bactérienne (Haemophilus, pneumocoque).",
+      "C": "Faux (la réponse fausse). Le tabac altère les débits par un trouble OBSTRUCTIF (VEMS/CVF abaissé), pas restrictif.",
+      "D": "Vrai (conséquence exacte). La toux et l'expectoration matinale du fumeur ('toilette bronchique').",
+      "E": "Vrai (conséquence exacte). Effet ciliotoxique direct des goudrons et de la fumée de tabac.",
+      "_synthese": "Effets respiratoires du tabagisme : Ciliotoxicité, hypersécrétion muqueuse (bronchite chronique), emphysème panlobulaire/centrolobulaire, Trouble Ventilatoire Obstructif (BPCO).",
+      "_remarque": "Rappel EFR : Obstruction = baisse des débits (VEMS/CVF < 0.70) ; Restriction = baisse des volumes (CPT < 80%). Le tabac donne une obstruction."
+    }
+  },
+  {
+    "id": "pneumo-024",
+    "module": "pneumologie",
+    "chapitre": "Tabac et tabagisme",
+    "chapitre_num": 20,
+    "section": "Addictologie & Prévention",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Le sevrage tabagique : (réponse fausse)",
+    "propositions": {
+      "A": "Consiste à l'administration de substituts nicotiniques",
+      "B": "S'adresse à des patient motivés et volontaires",
+      "C": "Le conseil minimal consiste à demander systématiquement à chaque patient s'il est fumeur et s'il a envisagé la possibilité de s'arrêter de fumer.",
+      "D": "Nécessite un accompagnement psychologique",
+      "E": "Est proposé par un professionnel de la santé lors d'une première consultation pour un motif autre que le tabagisme et en dehors de toute motivation de sevrage de la part du tabagique"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "Dans la prise en charge du tabagisme : 1) Les substituts nicotiniques (TNS : patchs, gommes, inhaleurs) sont le traitement pharmacologique de 1ère intention pour traiter la dépendance physique (A vrai) ; 2) La motivation personnelle du patient (évaluée par le test de Richmond ou le modèle de Prochaska et DiClemente) est la condition préalable indispensable au succès de la démarche de sevrage (B vrai) ; 3) Le conseil minimal de sevrage tabagique doit être délivré par tout soignant à chaque consultation ('Fumez-vous ? Souhaitez-vous arrêter ?') (C vrai) ; 4) L'accompagnement cognitivo-comportemental et psychologique multiplie les chances de succès durable (D vrai) ; 5) Imposer d'emblée un protocole de sevrage formel lors d'une première consultation chez un patient non motivé (au stade de pré-contemplation) est voué à l'échec : on doit délivrer le conseil minimal et stimuler sa motivation, sans lui imposer une tentative de sevrage non consentie (E est la réponse fausse).",
+    "justifications": {
+      "A": "Vrai. Traitement de substitution nicotinique adapté au score de Fagerström.",
+      "B": "Vrai. L'alliance thérapeutique et la motivation du patient sont obligatoires pour planifier la date d'arrêt.",
+      "C": "Vrai. Définition officielle du conseil minimal recommandé par l'OMS et la HAS.",
+      "D": "Vrai. Les thérapies comportementales et cognitives (TCC) améliorent le taux de sevrage à 1 an.",
+      "E": "Faux (la réponse fausse). On ne peut pas engager un sevrage sans l'adhésion et la motivation du fumeur.",
+      "_synthese": "Sevrage tabagique : Conseil minimal systématique, évaluation de la dépendance (Fagerström) et de la motivation (Prochaska), TNS transdermiques + oraux, suivi prolongé.",
+      "_remarque": "Le conseil minimal prend moins de 3 minutes et double à lui seul les chances d'arrêt du tabac à un an."
+    }
+  },
+  {
+    "id": "pneumo-025",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Dans les pneumonies aigües communautaires, quel(s) germe(s) sont le plus souvent responsables de formes graves ?",
+    "propositions": {
+      "A": "Mycoplasma pneumoniae",
+      "B": "Chlamydophila psittaci",
+      "C": "Streptococcus pneumoniae",
+      "D": "Neisseria gonorrheae",
+      "E": "Legionella pneumophila"
+    },
+    "bonnes_reponses": [
+      "C",
+      "E"
+    ],
+    "explication": "Dans les Pneumonies Aiguës Communautaires (PAC) sévères nécessitant une hospitalisation en réanimation ou unité de soins continus, deux agents bactériens majeurs dominent très largement l'étiologie : 1) Streptococcus pneumoniae (le pneumocoque), première cause de PAC grave avec bactériémie, choc septique et défaillance multiviscérale ; 2) Legionella pneumophila (la légionellose / maladie des légionnaires), responsable de pneumopathies alvéolaires hypoxémiantes sévères avec manifestations extra-respiratoires (confusion, troubles digestifs, hyponatrémie, cytolyse). Mycoplasma pneumoniae et Chlamydophila psittaci donnent typiquement des formes bénignes à modérées.",
+    "justifications": {
+      "A": "Faux. Bactérie atypique responsable d'infections respiratoires le plus souvent bénignes de l'adulte jeune.",
+      "B": "Faux. Psittacose/ornithose rare, le plus souvent d'évolution favorable sous cyclines.",
+      "C": "Vrai. Le pneumocoque est la première cause de mortalité par pneumonie aiguë communautaire grave.",
+      "D": "Faux. Neisseria gonorrhoeae est un agent d'IST qui ne cause pas de PAC.",
+      "E": "Vrai. Legionella pneumophila est la deuxième grande cause de pneumonie communautaire grave de réanimation.",
+      "_synthese": "Germes des PAC graves de réanimation : Streptococcus pneumoniae (1er) + Legionella pneumophila (2e) + Staphylococcus aureus (post-grippe).",
+      "_remarque": "L'antibiothérapie probabiliste d'une PAC grave de réanimation associe toujours une C3G injectable (Céfotaxime ou Ceftriaxone) et un macrolide IV (ou lévofloxacine) pour couvrir à la fois le pneumocoque et la légionelle."
+    }
+  },
+  {
+    "id": "pneumo-026",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quel(s) critère(s) clinique(s), biologique(s) et/ou radiologique(s) doit/doivent faire envisager une hospitalisation en unité de soins intensifs chez un patient présentant une pneumonie aigüe communautaire ?",
+    "propositions": {
+      "A": "Une fièvre de plus de 39°C",
+      "B": "CIVD",
+      "C": "Une pneumonie excavée",
+      "D": "Une élévation des lactates sanguins",
+      "E": "Cyanose sous oxygène"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "L'orientation d'une PAC vers une Unité de Soins Intensifs (USI) ou réanimation repose sur les critères de gravité de l'ATS/IDSA et les signes de défaillance viscérale : 1) La cyanose sous oxygène ou un rapport PaO2/FiO2 ≤ 250 traduisant une insuffisance respiratoire aiguë hypoxémique sévère (E vrai) ; 2) Une élévation des lactates sanguins (> 2-4 mmol/L) et un état de choc nécessitant des vasopresseurs (D vrai) ; 3) La survenue d'une Coagulation Intravasculaire Disséminée (CIVD) ou d'une thrombopénie sévère signant un sepsis grave décompensé (B vrai). Une fièvre isolée > 39°C est banale dans les pneumonies et ne constitue pas en soi un critère de réanimation (A faux). Une excavation radiologique évoque un abcès ou une nécrose mais n'impose pas isolément la réanimation sans signe de détresse vitale (C faux).",
+    "justifications": {
+      "A": "Faux. La fièvre élevée est le témoin normal de la réaction immunitaire et non un critère de transfert en réanimation.",
+      "B": "Vrai. Défaillance hématologique sévère signant un sepsis grave/choc septique.",
+      "C": "Faux. L'excavation nécessite une antibiothérapie adaptée mais pas obligatoirement les soins intensifs.",
+      "D": "Vrai. L'hyperlactatémie témoigne d'une hypoperfusion tissulaire métabolique majeure et d'un état de choc imminent.",
+      "E": "Vrai. Traduit l'échec de l'oxygénothérapie conventionnelle et le besoin potentiel de ventilation mécanique ou VNI.",
+      "_synthese": "Critères majeurs d'admission en réanimation pour PAC : Choc septique avec vasopresseurs ou Défaillance respiratoire aiguë nécessitant une ventilation mécanique invasive.",
+      "_remarque": "Scores d'orientation ambulatoire/hospitalisation pour PAC : CRB-65 (en médecine de ville) et score PSI / Fine (à l'hôpital)."
+    }
+  },
+  {
+    "id": "pneumo-027",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Concernant les bronchectasies (DDB). Quelle(s) est (sont) la (les) réponse(s) fausse(s) :",
+    "propositions": {
+      "A": "L'élargissement du calibre des bronches peut être réversible sous traitement",
+      "B": "Les bronchectasies localisées sont le plus souvent secondaires à une pathologie congénitale",
+      "C": "La mucoviscidose est une cause de DDB diffuse",
+      "D": "Les hémoptysies sont fréquentes au cours des DDB",
+      "E": "L'hippocratisme digital est retrouvé dans les formes débutantes"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explication": "Dans cette question, il était demandé d'identifier les réponses FAUSSES : A) Faux car les bronchectasies sont définies comme une augmentation permanente et IRREVERSIBLE du calibre bronchique avec destruction des armatures élastiques et cartilagineuses pariétales ; B) Faux car les DDB localisées sont le plus souvent ACQUISES, secondaires à une séquelle d'infection respiratoire infantile (coqueluche, rougeole, tuberculose) ou à une sténose bronchique localisée (corps étranger, tumeur bénigne) ; les causes congénitales (mucoviscidose, dyskinésie ciliaire, déficit immunitaire) donnent des DDB diffuses bilatérales ; E) Faux car l'hippocratisme digital est une complication tardive observée dans les formes chroniques évoluées avec suppuration prolongée ou hypoxie, jamais dans les formes débutantes. Les propositions C et D sont exactes (la mucoviscidose donne des DDB diffuses, et les hémoptysies par hypertrophie des artères bronchiques systémiques sont très fréquentes).",
+    "justifications": {
+      "A": "Réponse fausse (à cocher). Par définition anatomo-pathologique, la dilatation des bronches est irréversible et définitive.",
+      "B": "Réponse fausse (à cocher). Les DDB localisées sont acquises (séquelles d'infections sévères ou obstacle local).",
+      "C": "Proposition exacte. La mucoviscidose (mutation CFTR) est l'étiologie génétique majeure de DDB diffuses bilatérales des sommets.",
+      "D": "Proposition exacte. L'hémoptysie est un symptôme classique et récurrent des DDB par néovascularisation systémique sous-muqueuse.",
+      "E": "Réponse fausse (à cocher). L'hippocratisme digital n'apparaît que dans les suppurations bronchiques anciennes et évoluées.",
+      "_synthese": "Bronchectasies (DDB) : Augmentation permanente et irréversible du calibre des bronches de moyen calibre (diamètre bronchique > artère satellite). Formes diffuses (génétiques/immunitaires) vs localisées (séquellaires).",
+      "_remarque": "En cas d'hémoptysie cataclysmique sur DDB, le geste d'hémostase de référence en urgence est l'embolisation des artères bronchiques par radiologie interventionnelle."
+    }
+  },
+  {
+    "id": "pneumo-028",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Les images radiologiques dans les bronchectasies :",
+    "propositions": {
+      "A": "Se présentent sous formes d'opacités rondes",
+      "B": "Peuvent donner l'aspect de clartés tubulées",
+      "C": "Les clartés en amas donnant un aspect en « grappe de raisin » sont évocatrices",
+      "D": "Le diamètre de l'artère est supérieur à la bronche qui lui est associée",
+      "E": "Ne présentent jamais de signes de surinfection"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C"
+    ],
+    "explication": "Sur le plan tomodensitométrique (TDM thoracique en coupes millimétriques de haute résolution HR, examen de référence des DDB) : les bronchectasies cylindriques se traduisent par des clartés tubulées à parois épaissies réalisant un aspect en 'rails de chemin de fer' (B vrai) ; les bronchectasies kystiques/ampullaires ou variqueuses se présentent sous forme de cavités aériques à parois fines groupées en amas réalisant un aspect en 'grappe de raisin' ou en 'nid d'abeille', souvent avec des niveaux hydro-aériques en cas d'encombrement muco-purulent (C vrai). Le signe scanographique cardinal est le signe de la 'bague à chaton', où le diamètre interne de la bronche est SUPÉRIEUR à celui de l'artère pulmonaire adjacente accompagnatrice (rapport broncho-artériel > 1) (D faux). Les signes de surinfection (impaction mucoïde, condensation péri-bronchique) sont très fréquents (E faux).",
+    "justifications": {
+      "A": "Faux. Les DDB se traduisent par des clartés canalaires tubulées ou kystiques et non de simples opacités rondes nodulaires.",
+      "B": "Vrai. Aspect en rails de chemin de fer ou clartés tubulaires correspondant aux bronches cylindriques dilatées.",
+      "C": "Vrai. Aspect hautement évocateur des DDB kystiques en grappe de raisin ou nid d'abeille.",
+      "D": "Faux. C'est l'inverse : le diamètre bronchique dépasse celui de l'artère satellite (signe de la bague à chaton).",
+      "E": "Faux. Les surinfections bronchiques récidivantes sont constantes avec atélectasies ou impactions mucoïdes.",
+      "_synthese": "Signes scanographiques de DDB (TDM-HR) : Rapport broncho-artériel > 1 (signe de la bague à chaton), absence de rétrécissement bronchique vers la périphérie, visibilité des bronches à moins de 1 cm de la plèvre.",
+      "_remarque": "La TDM-HR a rendu la bronchographie lipiodolée historique totalement obsolète."
+    }
+  },
+  {
+    "id": "pneumo-029",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Chez un patient présentant des bronchectasies diffuses évoluant depuis l'enfance :",
+    "propositions": {
+      "A": "Il faut réaliser une électrophorèse des protéines sériques dans le cadre du bilan de sa pathologie",
+      "B": "Le scanner thoracique n'a aucun intérêt diagnostic",
+      "C": "La radiographie thoracique est préférable au scanner thoracique",
+      "D": "Une antibiothérapie préventive peut être proposée",
+      "E": "Le drainage bronchique doit être quotidien"
+    },
+    "bonnes_reponses": [
+      "A",
+      "E"
+    ],
+    "explication": "Devant des DDB diffuses débutant dans l'enfance : 1) Le bilan étiologique doit rechercher systématiquement un déficit immunitaire primitif sous-jacent (en premier lieu un déficit immunitaire commun variable DICV ou une agammaglobulinémie), justifiant une électrophorèse des protéines sériques (EPS) et un dosage pondéral des immunoglobulines IgG, IgA, IgM (A vrai) ; 2) Le pilier thérapeutique quotidien fondamental et permanent de tout patient porteur de DDB est la kinésithérapie respiratoire de drainage bronchique par désencombrement manuel ou instrumental pour évacuer les sécrétions stagnantes et rompre le cercle vicieux de Cole (E vrai). Le scanner thoracique est au contraire l'examen indispensable de référence de certitude (B et C faux).",
+    "justifications": {
+      "A": "Vrai. Recherche d'un pic hypogammaglobulinémique orientant vers un déficit humoral (indication d'immunoglobulines IV polyvalentes).",
+      "B": "Faux. Le scanner thoracique haute résolution est le seul examen permettant de cartographier avec certitude les DDB.",
+      "C": "Faux. La radiographie thoracique conventionnelle manque cruellement de sensibilité et sous-estime les lésions.",
+      "D": "Faux (non retenu isolément sur la clé officielle). L'antibiothérapie continue au long cours n'est réservée qu'aux formes colonisées très sévères.",
+      "E": "Vrai. La kinésithérapie respiratoire quotidienne de désencombrement est la mesure thérapeutique essentielle non négociable.",
+      "_synthese": "Prise en charge DDB diffuses : Bilan étiologique (dosage Ig, test de la sueur, étude ciliaire) + Kinésithérapie respiratoire de drainage quotidienne + Traitement des poussées infectieuses.",
+      "_remarque": "Le cercle vicieux de Cole : Altération du drainage -> rétention de mucus -> colonisation bactérienne chronique -> inflammation neutrophile -> destruction de la paroi bronchique."
+    }
+  },
+  {
+    "id": "pneumo-030",
+    "module": "pneumologie",
+    "chapitre": "Abcès pulmonaires et suppurations",
+    "chapitre_num": 10,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Vous recevez un patient âgé de 57 ans, tabagique qui présente une fièvre à 39,5°C, une toux productive fétide et une altération de l'état général. A l'interrogatoire vous retrouvez une notion d'éthylisme chronique. L'examen clinique retrouve des râles humides localisés à l'auscultation. A la radiographie thoracique : Image hydro-aérique intra parenchymateuse à paroi épaisse bien limitée. Quel diagnostic évoquez-vous ?",
+    "propositions": {
+      "A": "Tuberculose pulmonaire",
+      "B": "Abcès pulmonaire",
+      "C": "Exacerbation de BPCO",
+      "D": "Pneumopathie interstitielle diffuse",
+      "E": "Cancer bronchique"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "L'association d'un terrain favorisant l'inhalation bronchique (éthylisme chronique avec perte de connaissance), d'un état infectieux sévère fébrile, d'une expectoration purulente abondante nauséabonde fétide (reflétant la présence de germes anaérobies stricts de la flore buccale) et d'une image radiologique caractéristique intra-parenchymateuse excavée avec un niveau hydro-aérique horizontal à paroi épaisse bien limitée signe de façon certaine le diagnostic d'ABCÈS PULMONAIRE aigu.",
+    "justifications": {
+      "A": "Faux. La tuberculose donne des cavernes typiquement apicales souvent sans niveau liquide franc ni odeur fétide.",
+      "B": "Vrai. Tableau clinicoradiologique princeps de l'abcès du poumon chez un patient éthylotabagique.",
+      "C": "Faux. L'exacerbation de BPCO ne se présente pas sous la forme d'une cavité hydro-aérique excavée.",
+      "D": "Faux. La PID donne des opacités réticulonodulaires bilatérales sans foyer collecté purulent hydro-aérique.",
+      "E": "Faux. Le cancer excavé présente une paroi interne très épaisse, bourgeonnante et irrégulière, sans fétidité précoce typique.",
+      "_synthese": "Abcès du poumon : Suppuration collectée nécrosante à pyogènes/anaérobies, terrain éthylique/dentaire, vomique purulente fétide, radiographie = niveau hydro-aérique horizontal intra-parenchymateux.",
+      "_remarque": "L'odeur fétide de l'expectoration est le témoin pathognomonique de l'implication de bactéries anaérobies d'origine dentaire."
+    }
+  },
+  {
+    "id": "pneumo-031",
+    "module": "pneumologie",
+    "chapitre": "Abcès pulmonaires et suppurations",
+    "chapitre_num": 10,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quelle est votre conduite à tenir ? (QCM) :",
+    "propositions": {
+      "A": "Hospitalisation",
+      "B": "Scanner thoracique",
+      "C": "Antibiothérapie per-os pendant 2 semaines",
+      "D": "Echographie abdominale",
+      "E": "Examen bucco-dentaire à la recherche d'une porte d'entrée"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explication": "La prise en charge initiale de cet abcès pulmonaire chez un patient éthylique dénutri comporte : 1) Une hospitalisation en pneumologie ou médecine interne (A vrai) ; 2) Un scanner thoracique injecté pour préciser la topographie exacte de l'abcès, éliminer un cancer bronchique sous-jacent avec nécrose, rechercher un épanchement pleural purulent associé et guider un éventuel drainage (B vrai) ; 3) Un examen bucco-dentaire spécialisé systématique, car les foyers parodontaux et le mauvais état dentaire constituent la porte d'entrée princeps de l'inhalation d'anaérobies (E vrai). L'antibiothérapie doit être débutée par voie intraveineuse hospitalière à fortes doses couvrant les anaérobies (Amoxicilline-Acide clavulanique IV ou Ceftriaxone + Métronidazole) pour une durée totale prolongée de 4 à 6 semaines, et non un traitement per os court de 2 semaines (C faux).",
+    "justifications": {
+      "A": "Vrai. Infection sévère collectée chez un patient à risque imposant une prise en charge hospitalière.",
+      "B": "Vrai. Le scanner thoracique avec injection précise la paroi de l'abcès et élimine une nécrose sur tumeur bronchique.",
+      "C": "Faux. L'antibiothérapie d'un abcès du poumon doit être intraveineuse initiale puis prolongée pendant 4 à 6 semaines.",
+      "D": "Faux. L'échographie abdominale n'est pas indiquée en première intention.",
+      "E": "Vrai. Traitement impératif de la porte d'entrée dentaire infectieuse pour éviter les récidives.",
+      "_synthese": "Traitement de l'abcès du poumon : Hospitalisation, bilan scanographique, élimination d'un corps étranger ou d'un cancer par fibroscopie bronchique à distance, antibiothérapie IV prolongée (Augmentin) et soins bucco-dentaires.",
+      "_remarque": "Une fibroscopie bronchique doit toujours être réalisée après nettoyage de la cavité pour éliminer un cancer bronchique masqué par l'abcès chez le fumeur."
+    }
+  },
+  {
+    "id": "pneumo-032",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie professionnelle & Interstitielle",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Un homme de 45 ans se présente à la consultation de pneumologie pour une dyspnée d'effort apparue depuis plusieurs années. Il est portier à la mairie depuis 04 ans, date à laquelle il avait quitté son poste de sableur dans une usine métallurgique des hauts plateaux, le malade n'est pas fébrile, son état général est conservé. La radiographie du thorax montre un syndrome interstitiel réticulonodulaire bilatéral et symétrique prédominant aux sommets : Le diagnostic le plus probable est :",
+    "propositions": {
+      "A": "Cancer bronchique primitif",
+      "B": "Tuberculose",
+      "C": "Silicose",
+      "D": "Fibrose interstitielle diffuse primitive",
+      "E": "Kyste Hydatique"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le diagnostic évident est la SILICOSE PULMONAIRE : 1) Anamnèse professionnelle caractéristique d'exposition prolongée à la silice cristalline libre lors du travail de décapage par sablage dans la métallurgie pendant de nombreuses années (temps de latence habituel de 10 à 20 ans) ; 2) Dyspnée d'effort d'aggravation très lente chez un patient apyrétique en bon état général ; 3) Aspect radiologique typique de pneumoconiose collagène avec opacités micronodulaires et réticulo-nodulaires bilatérales, symétriques, prédominant nettement aux lobes supérieurs (sommets et champs moyens), pouvant confluer en masses pseudotumorales.",
+    "justifications": {
+      "A": "Faux. Le cancer donne une lésion focale asymétrique avec altération de l'état général.",
+      "B": "Faux. La tuberculose pulmonaire s'accompagne de signes d'imprégnation fébrile, amaigrissement et excavations.",
+      "C": "Vrai. Pneumoconiose minérale typique liée à l'inhalation de poussières de silice chez un sableur.",
+      "D": "Faux. La fibrose pulmonaire idiopathique (FPI) prédomine aux bases et en sous-pleural, chez un sujet plus âgé.",
+      "E": "Faux. Le kyste hydatique donne des opacités kystiques rondes bien circonscrites.",
+      "_synthese": "Silicose : Pneumoconiose inorganique à poussières de silice libre (mineurs, sableurs, céramique), nodules arrondis prédominant aux sommets, adénopathies médiastinales en coquille d'œuf.",
+      "_remarque": "Complication majeure de la silicose : La silicotuberculose (la présence de silice inhibe les macrophages et majore drastiquement le risque de tuberculose active)."
+    }
+  },
+  {
+    "id": "pneumo-033",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie professionnelle & Interstitielle",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "A un stade tardif et pour fixer le taux de l'incapacité permanente partielle, le médecin de travail demande une exploration fonctionnelle respiratoire : L'EFR objective (réponse fausse) :",
+    "propositions": {
+      "A": "Une composante restrictive marquée",
+      "B": "Une baisse du rapport de Tiffeneau",
+      "C": "Une baisse du CVF",
+      "D": "Une baisse du VEMS",
+      "E": "Une composante obstructive marquée"
+    },
+    "bonnes_reponses": [
+      "A"
+    ],
+    "explication": "Dans la silicose aux stades avancés et pseudotumoraux, les lésions fibrosantes péribronchiques et l'emphysème cicatriciel associé induisent très fréquemment un trouble ventilatoire obstructif ou mixte avec baisse du rapport de Tiffeneau (VEMS/CVF), baisse du VEMS et baisse de la CVF. Sur le corrigé type officiel certifié de la faculté de Mostaganem (Page 8), la réponse A (« Une composante restrictive marquée ») est celle validée comme réponse fausse dans cette évaluation.",
+    "justifications": {
+      "A": "Réponse fausse (validée sur le corrigé type officiel). Non retenue comme anomalie élective au stade tardif.",
+      "B": "Exacte. Baisse du rapport de Tiffeneau traduisant l'obstruction bronchique fréquente.",
+      "C": "Exacte. Diminution de la capacité vitale fonctionnelle par rétraction fibroconiotique.",
+      "D": "Exacte. Baisse parallèle du VEMS.",
+      "E": "Exacte. Présence fréquente d'une composante obstructive surajoutée.",
+      "_synthese": "Retentissement fonctionnel de la silicose : Baisse précoce de la DLCO, puis trouble ventilatoire obstructif ou mixte avec hypoxémie d'effort puis de repos.",
+      "_remarque": "Le taux d'IPP (Incapacité Permanente Partielle) en médecine du travail repose sur l'évaluation conjointe de la dyspnée, de la TDM et de l'EFR avec gazométrie."
+    }
+  },
+  {
+    "id": "pneumo-034",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie professionnelle & Interstitielle",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Après diagnostic et prise en charge thérapeutique que devriez-vous faire : (réponse juste)",
+    "propositions": {
+      "A": "Lui donner un congé de longue durée au malade et déclarer au service d'épidémiologie et de médecine préventive de son secteur",
+      "B": "Le déclarer au service d'épidémiologie et de médecine préventive de son secteur et convoquer son entourage",
+      "C": "Lui donner un congé de longue durée et convoquer son entourage",
+      "D": "Ne rien faire",
+      "E": "Le déclarer à la sécurité sociale pour réparation de sa maladie professionnelle"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "La silicose est une maladie professionnelle type indemnisable inscrite au tableau des maladies professionnelles de la Sécurité Sociale (Tableau n° 25). Dès le diagnostic posé, le médecin doit rédiger un certificat médical initial descriptif constatant la maladie professionnelle afin que le travailleur puisse déposer son dossier auprès de la Caisse Nationale des Assurances Sociales (CNAS) en vue d'une prise en charge à 100% des soins et de l'attribution d'une rente d'incapacité permanente (réparation médico-légale). La convocation de l'entourage et la déclaration au SEMEP concernent la tuberculose contagieuse, pas une pneumoconiose non transmissible.",
+    "justifications": {
+      "A": "Faux. La déclaration au SEMEP concerne les maladies transmissibles à déclaration obligatoire.",
+      "B": "Faux. La silicose n'est pas une maladie contagieuse : pas d'enquête d'entourage.",
+      "C": "Faux. L'entourage familial ne risque aucune contamination.",
+      "D": "Faux. Ne rien faire priverait le travailleur de ses droits légaux à réparation financière et médicale.",
+      "E": "Vrai. Déclaration médico-légale de maladie professionnelle indemnisable auprès de la sécurité sociale (CNAS).",
+      "_synthese": "Maladie professionnelle : Déclaration obligatoire par la victime accompagnée du certificat médical initial rédigé par le médecin traitant, délai de prise en charge et réparation médico-légale.",
+      "_remarque": "La silicose ne guérit jamais et peut continuer à s'aggraver même après l'arrêt complet de l'exposition à la silice."
+    }
+  },
+  {
+    "id": "pneumo-035",
+    "module": "pneumologie",
+    "chapitre": "Sarcoïdose",
+    "chapitre_num": 18,
+    "section": "Pneumologie interstitielle",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Parmi les formes typiques de la sarcoïdose, on retrouve (cochez la ou les réponses fausses) :",
+    "propositions": {
+      "A": "Des adénopathies médiastinales compressives",
+      "B": "L'IDRt est supérieure à 10mm",
+      "C": "L'association d'une bi-arthrite des chevilles + érythème noueux + adénopathies médiastinales",
+      "D": "Une PID micronodulaire",
+      "E": "Une association de localisation intra et extra-thoraciques"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B"
+    ],
+    "explication": "Dans cette question, il était demandé d'identifier les propositions FAUSSES concernant les formes typiques de la sarcoïdose : A) Faux car les adénopathies hilaires et médiastinales de la sarcoïdose (stade I) sont typiquement NON compressives (respectant les axes vasculaires et bronchiques), bilatérales et symétriques ; B) Faux car l'Intradermoréaction à la tuberculine (IDRt) est au contraire NÉGATIVE (anergie tuberculinique présente dans plus de 80% des sarcoïdoses actives par séquestration des lymphocytes T CD4 dans les granulomes). Les propositions C, D et E sont des présentations classiques vraies (syndrome de Löfgren associant érythème noueux, bi-arthrite des chevilles et adénopathies hilaires ; PID micronodulaire périlymphatique au stade II ; atteintes cutanées, oculaires et hépatiques associées).",
+    "justifications": {
+      "A": "Réponse fausse (à cocher). Les adénopathies sarcoïdosiques sont caractéristiquement bilatérales, symétriques et non compressives.",
+      "B": "Réponse fausse (à cocher). La sarcoïdose s'accompagne d'une anergie tuberculinique (IDR négative < 5 mm).",
+      "C": "Proposition exacte. Définition parfaite du syndrome de Löfgren (forme aiguë bénigne de sarcoïdose).",
+      "D": "Proposition exacte. Stade II radiologique associant adénopathies et infiltration micronodulaire prédominant aux champs moyens et supérieurs.",
+      "E": "Proposition exacte. La sarcoïdose est une granulomatose systémique multisystémique (œil, peau, foie, cœur, SNC).",
+      "_synthese": "Sarcoïdose médiastino-pulmonaire : Adénopathies hilaires bilatérales symétriques non compressives, anergie tuberculinique à l'IDR, granulome épithélioïde gigantocellulaire sans nécrose caséeuse.",
+      "_remarque": "Le syndrome de Löfgren ne nécessite aucune biopsie : son association clinique est pathognomonique et d'évolution spontanément résolutive dans 90% des cas."
+    }
+  },
+  {
+    "id": "pneumo-036",
+    "module": "pneumologie",
+    "chapitre": "Sarcoïdose",
+    "chapitre_num": 18,
+    "section": "Pneumologie interstitielle",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Devant la découverte d'une lésion granulomateuse, les diagnostics à éliminer avant de conclure au diagnostic de sarcoïdose sont :",
+    "propositions": {
+      "A": "Réaction inflammatoire péritumorale d'un lymphome",
+      "B": "Tuberculose",
+      "C": "Sclérose en plaque",
+      "D": "Mycose type histoplasmose",
+      "E": "Toutes les réponses sont justes"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "Le diagnostic de sarcoïdose est un diagnostic d'élimination : la présence d'un granulome tuberculoïde sans nécrose caséeuse n'est pas spécifique et impose d'exclure formellement toutes les autres causes de granulomatose : 1) La tuberculose (Mycobactéries) et les mycoses profondes (Histoplasmose, Coccidioïdomycose, Aspergillose) par colorations et cultures spécifiques ; 2) Les réactions granulomateuses satellites péritumorales (sarcoid-like reaction des lymphomes ou carcinomes) ; 3) Les atteintes neurologiques granulomateuses mimant d'autres affections démyélinisantes. Sur la grille officielle de la faculté de Mostaganem (Page 8), la réponse E (« Toutes les réponses sont justes ») est validée.",
+    "justifications": {
+      "A": "Vrai. Les réactions sarcoïdes satellites ganglionnaires de lymphomes hodgkiniens ou non hodgkiniens sont classiques.",
+      "B": "Vrai. La tuberculose est le principal diagnostic différentiel à éliminer impérativement en Algérie.",
+      "C": "Vrai. La neurosarcoïdose pose de difficiles problèmes diagnostiques avec les pathologies inflammatoires du SNC.",
+      "D": "Vrai. Les mycoses profondes granulomateuses donnent des granulomes identiques.",
+      "E": "Vrai. Réponse officielle retenue englobant l'ensemble des diagnostics d'exclusion.",
+      "_synthese": "Trépied diagnostique de la sarcoïdose : Tableau clinicoradiologique compatible + Preuve histologique de granulome épithélioïde et gigantocellulaire sans nécrose caséeuse + Élimination formelle des autres granulomatoses (BK, mycoses, néoplasies).",
+      "_remarque": "Tout granulome en pays d'endémie est une tuberculose jusqu'à preuve microbiologique du contraire."
+    }
+  },
+  {
+    "id": "pneumo-037",
+    "module": "pneumologie",
+    "chapitre": "Abcès pulmonaires et suppurations",
+    "chapitre_num": 10,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Quels sont les facteurs prédisposant à la survenue d'un abcès pulmonaire :",
+    "propositions": {
+      "A": "Ethylisme chronique",
+      "B": "Tabagisme",
+      "C": "Troubles de la déglutition",
+      "D": "Abcès hépatiques",
+      "E": "Toutes les réponses sont justes"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "La genèse d'un abcès du poumon est favorisée par deux grands mécanismes : 1) L'inhalation de sécrétions septiques oropharyngées, grandement favorisée par l'éthylisme aigu ou chronique avec coma (A), les troubles neurologiques de la déglutition (AVC, maladie de Parkinson, démence) (C), et l'altération de l'épuration bronchique par le tabagisme chronique (B) ; 2) La dissémination hématogène septique (emboles septiques) ou l'extension par contiguïté transdiaphragmatique à partir d'un foyer septique sous-phrénique ou d'un abcès hépatique (abcès amibien ou pyogène du dôme hépatique rompant dans le poumon) (D). Toutes les propositions sont exactes et la réponse E est officiellement validée.",
+    "justifications": {
+      "A": "Vrai. Facteur de risque majeur par troubles de conscience et perte des réflexes de déglutition.",
+      "B": "Vrai. Altère la clairance mucociliaire et favorise l'encombrement bronchique.",
+      "C": "Vrai. Causes neurologiques majeures de fausses routes et de pneumopathies d'inhalation abcédées.",
+      "D": "Vrai. Voie d'inoculation par contiguïté trans-diaphragmatique depuis le foie.",
+      "E": "Vrai. Réponse globale officielle validée par la faculté.",
+      "_synthese": "Facteurs de risque de l'abcès pulmonaire : Mauvais état bucco-dentaire, troubles de déglutition, altération de conscience (alcool, anesthésie, épilepsie), immunodépression, cancer bronchique obstructif.",
+      "_remarque": "L'abcès par inhalation siège préférentiellement dans les segments déclives : segment de Fowler (sommet du lobe inférieur) ou segment postérieur du lobe supérieur droit."
+    }
+  },
+  {
+    "id": "pneumo-038",
+    "module": "pneumologie",
+    "chapitre": "Pneumothorax",
+    "chapitre_num": 5,
+    "section": "Urgences pleurales",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Un pneumothorax peut mettre en jeu le pronostic vital immédiatement si :",
+    "propositions": {
+      "A": "Il est bilatéral même de minime abondance",
+      "B": "Il est compressif",
+      "C": "Il est associé au pneumomédiastin",
+      "D": "En cas de BPCO sous oxygénothérapie au long cours",
+      "E": "Associé à une pleurésie"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "Le pneumothorax constitue une urgence vitale immédiate dans deux situations cliniques redoutables : 1) Le PNEUMOTHORAX COMPRESSIF SOUS TENSION (avec mécanisme de soupape unidirectionnelle créant une surpression intrathoracique majeure, déviation médiastinale contro-latérale, collapsus de la veine cave avec désamorçage de la pompe cardiaque et arrêt cardio-circulatoire imminent) (B vrai) ; 2) Le PNEUMOTHORAX SECONDAIRE SURVENANT SUR UNE INSUFFISANCE RESPIRATOIRE SOUS-JACENTE SÉVÈRE (notamment chez le patient BPCO emphysémateux sous oxygénothérapie au long cours, où même un décollement partiel minime peut précipiter une asphyxie aiguë mortelle par épuisement de la réserve ventilatoire précaire) (D vrai).",
+    "justifications": {
+      "A": "Faux. Un pneumothorax bilatéral minime est à haut risque mais n'entraîne pas d'asphyxie immédiate sans compression.",
+      "B": "Vrai. Urgence extrême : choc obstructif par compression cavitaire, nécessite une décompression à l'aiguille immédiate.",
+      "C": "Faux. Le pneumomédiastin associé est fréquent et le plus souvent bien toléré sans mise en jeu vitale aiguë.",
+      "D": "Vrai. Absence totale de réserve fonctionnelle respiratoire chez le BPCO sévère sous OLD.",
+      "E": "Faux. L'hydropneumothorax est une situation complexe mais non suraiguë au même titre que la compression sous tension.",
+      "_synthese": "Pneumothorax asphyxique grave : 1. Pneumothorax compressif sous tension (turgescence jugulaire, collapsus, déviation trachéale) ; 2. Pneumothorax sur poumon pathologique sous-jacent sévère (BPCO stade 4).",
+      "_remarque": "Règle d'or : Devant un pneumothorax compressif suffocant avec collapsus, il ne faut PAS attendre la radiographie pour agir : décompression immédiate à l'aiguille au 2ème espace intercostal sur la ligne médio-claviculaire !"
+    }
+  },
+  {
+    "id": "pneumo-039",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie nosocomiale",
+    "chapitre_num": 6,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Une pneumonie nosocomiale est :",
+    "propositions": {
+      "A": "Rarement la cause de mortalité intra hospitalière",
+      "B": "Survient surtout chez les patients sous ventilation mécanique",
+      "C": "La re intubation des patients est un facteur de risque",
+      "D": "Le streptocoque est le principal germe en cas d'infection tardive (≥7 jours)",
+      "E": "Une antibiothérapie probabiliste est suffisante"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C"
+    ],
+    "explication": "La pneumonie nosocomiale (acquise à l'hôpital après plus de 48 heures d'admission) : 1) Touche avec prédilection les patients intubés et ventilés en réanimation (Pneumonie Acquise sous Ventilation Mécanique - PAVM), qui représentent la forme la plus fréquente et la plus grave (B vrai) ; 2) La ré-intubation après échec d'extubation multiplie par 5 à 10 le risque de micro-inhalations de sécrétions oropharyngées colonisées et constitue un facteur de risque majeur avéré (C vrai) ; 3) C'est la PREMIÈRE cause de mortalité par infection nosocomiale hospitalière (mortalité attribuable de 20 à 50%) (A faux) ; 4) Les pneumonies nosocomiales tardives (≥ 5-7 jours) sont dues à des bactéries multirésistantes (BMR) : Pseudomonas aeruginosa, Acinetobacter baumannii, entérobactéries productrices de BLSE, Staphylococcus aureus résistant à la méticilline SARM (et non le streptocoque) (D faux) ; 5) L'antibiothérapie probabiliste doit être impérativement réévaluée et adaptée secondairement à l'antibiogramme (désescalade) (E faux).",
+    "justifications": {
+      "A": "Faux. Première cause de mortalité liée aux infections associées aux soins en milieu hospitalier.",
+      "B": "Vrai. Les PAVM surviennent chez 10 à 25% des malades ventilés en réanimation.",
+      "C": "Vrai. Facteur de risque majeur d'inhalation massive de sécrétions colonisées.",
+      "D": "Faux. Les germes tardifs sont des BMR opportunistes (Pseudomonas, Acinetobacter, SARM).",
+      "E": "Faux. L'adaptation à l'antibiogramme après prélèvement distal protégé (LBA, PDP) est obligatoire.",
+      "_synthese": "Pneumonie nosocomiale : Infection respiratoire acquise > 48h après hospitalisation, dominée par les PAVM, germes précoces (< 5j = germes communautaires sensibles) vs germes tardifs (≥ 5j = BMR nosocomiales).",
+      "_remarque": "Mesure préventive clé des PAVM : Position demi-assise à 30-45°, maintien d'une pression du ballonnet endotrachéal entre 25 et 30 cmH2O."
+    }
+  },
+  {
+    "id": "pneumo-040",
+    "module": "pneumologie",
+    "chapitre": "Pleurésie infectieuse aiguë",
+    "chapitre_num": 4,
+    "section": "Pathologies pleurales",
+    "source": {
+      "texte": "EMD Février 2025 (Session Normale)",
+      "type": "EMD",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Février 2025 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Une pleurésie transudative est caractérisée par :",
+    "propositions": {
+      "A": "Un taux de glucose pleural bas",
+      "B": "Un taux de protide < 25 g/L",
+      "C": "L'augmentation de la pression oncotique est un facteur de risque",
+      "D": "Souvent bilatérale quand elle est d'origine cardiaque",
+      "E": "La thoracoscopie est indispensable au diagnostic"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "Dans l'analyse biologique d'un épanchement pleural liquide (critères de Light) : 1) Un transudat est un liquide mécanique pauvre en protéines, défini par un taux de protides pleuraux < 25-30 g/L (ou rapport protides plèvre/sérum < 0.5) et des LDH pleurales basses (B vrai) ; 2) La cause numéro 1 de pleurésie transudative est l'insuffisance cardiaque congestive gauche ou globale, qui donne classiquement un épanchement pleural bilatéral (ou prédominant à droite) (D vrai). Le glucose est normal dans le transudat (un glucose bas < 3.3 mmol/L signe un exsudat purulent, tuberculeux ou rhumatoïde) (A faux). Les mécanismes physiopathologiques d'un transudat sont l'augmentation de la pression hydrostatique capillaire (insuffisance cardiaque) ou la DIMINUTION de la pression oncotique (hypoalbuminémie sévère du syndrome néphrotique ou de la cirrhose) (C faux). La thoracoscopie n'est jamais indiquée dans les transudats (E faux).",
+    "justifications": {
+      "A": "Faux. Le glucose est normal dans les transudats ; l'hypoglycopleurie caractérise les exsudats infectieux ou inflammatoires.",
+      "B": "Vrai. Critère fondamental : protides pleuraux < 25-30 g/L (absence d'inflammation pleurale).",
+      "C": "Faux. C'est la BAISSE de la pression oncotique par hypoalbuminémie qui favorise le transudat.",
+      "D": "Vrai. L'insuffisance cardiaque donne typiquement un épanchement pleural bilatéral et symétrique.",
+      "E": "Faux. La thoracoscopie exploratrice est réservée aux exsudats néoplasiques ou tuberculeux inexpliqués.",
+      "_synthese": "Distinction pleurale princeps : Transudat = Protides < 25-30 g/L, d'origine hémodynamique (insuffisance cardiaque, cirrhose, néphrose) vs Exsudat = Protides > 30 g/L, d'origine inflammatoire/infectieuse/tumorale.",
+      "_remarque": "Devant un épanchement transudatif bilatéral chez un insuffisant cardiaque, la ponction pleurale n'est même pas nécessaire en première intention sous traitement diurétique efficace."
+    }
+  },
+  {
+    "id": "pneumo-041",
+    "module": "pneumologie",
+    "chapitre": "Pneumothorax",
+    "chapitre_num": 5,
+    "section": "Urgences pleurales",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Un pneumothorax compressif :",
+    "propositions": {
+      "A": "constitue une urgence qui peut compromettre le pronostic vital",
+      "B": "n'a aucun retentissement respiratoire et cardio vasculaire",
+      "C": "la décompression de la cavité pleurale doit être en extrême urgence avant même tout drainage",
+      "D": "a l'imagerie on a une déviation controlatérale du médiastin par rapport au poumon atteint",
+      "E": "aucune de ces propositions"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explication": "Le pneumothorax compressif sous tension est une urgence d'extrême gravité engageant le pronostic vital immédiat (A vrai). Il s'accompagne d'un retentissement cardio-vasculaire et respiratoire majeur (collapsus, désamorçage de la pompe cardiaque par compression des veines caves et détresse respiratoire aiguë) (B faux). Le geste salvateur immédiat est la décompression à l'aiguille (exsufflation à l'aiguille de gros calibre ou cathéter au 2e espace intercostal sur la ligne médio-claviculaire) avant même la pose d'un drain thoracique (C vrai). À la radiographie (si le temps le permet), on observe une hyperclarté avasculaire refoulant massivement le médiastin, le cœur et la trachée vers le côté controlatéral sain (D vrai).",
+    "justifications": {
+      "A": "Vrai. Urgence vitale absolue menaçant d'arrêt cardio-circulatoire par choc obstructif.",
+      "B": "Faux. Retentissement respiratoire et hémodynamique sévère (hypotension, turgescence jugulaire).",
+      "C": "Vrai. La décompression immédiate à l'aiguille transforme le pneumothorax compressif en pneumothorax simple avant drainage.",
+      "D": "Vrai. Refoulement médiastinal et trachéal controlatéral majeur caractéristique de la surpression pleurale.",
+      "E": "Faux. Les propositions A, C et D sont exactes.",
+      "_synthese": "Pneumothorax compressif : Urgence clinique diagnostique et thérapeutique immédiate sans attendre la radio : décompression à l'aiguille immédiate puis drainage thoracique.",
+      "_remarque": "Signes cliniques de compression : turgescence des veines jugulaires, pouls paradoxal, hypotension artérielle, déviation de la trachée."
+    }
+  },
+  {
+    "id": "pneumo-042",
+    "module": "pneumologie",
+    "chapitre": "Pneumothorax",
+    "chapitre_num": 5,
+    "section": "Urgences pleurales",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Devant un pneumothorax primitif spontané :",
+    "propositions": {
+      "A": "s'il est minime bien toléré cliniquement on peut proposer une simple surveillance ou exsufflation",
+      "B": "constitue une indication de pleurodèse chirurgicale dès le premier épisode",
+      "C": "survient sur un poumon pathologique",
+      "D": "en cas d'échec de l'exsufflation on propose un drainage thoracique",
+      "E": "la pleurodèse est proposée dès le premier épisode pour des raisons professionnelles tel que le métier de pilote"
+    },
+    "bonnes_reponses": [
+      "A",
+      "D",
+      "E"
+    ],
+    "explication": "Le Pneumothorax Spontané Primitif (PSP) survient chez un sujet jeune sans maladie pulmonaire sous-jacente connue (C faux). S'il est de faible abondance (< 2 cm au hile ou simple décollement apical) et bien toléré cliniquement, une simple surveillance ambulatoire ou une exsufflation à l'aiguille est la règle (A vrai). En cas d'échec de l'exsufflation ou de mauvaise tolérance, la pose d'un drain thoracique s'impose (D vrai). La chirurgie avec pleurodèse (symphyse pleurale) n'est indiquée en règle générale qu'au 2ème épisode (récidive homolatérale) ou en cas de fuite aérique prolongée > 4-5 jours, SAUF chez les professions à risque (pilotes de ligne, plongeurs professionnels, marins) où la pleurodèse chirurgicale est formellement proposée dès le 1er épisode pour raison de sécurité vitale (E vrai, B faux).",
+    "justifications": {
+      "A": "Vrai. Abstention avec surveillance simple ou exsufflation à l'aiguille pour les formes minimes bien tolérées.",
+      "B": "Faux. La pleurodèse n'est pas indiquée au 1er épisode chez le sujet standard sans profession à risque.",
+      "C": "Faux. Par définition, le PSP survient sur poumon sain apparent (rupture de blebs sous-pleurales apicales).",
+      "D": "Vrai. Le drainage thoracique par drain de petit calibre est le recours logique après échec d'exsufflation.",
+      "E": "Vrai. Indication exceptionnelle de pleurodèse préventive dès le 1er épisode chez les personnels navigants et plongeurs.",
+      "_synthese": "Stratégie thérapeutique du PSP : 1er épisode = Exsufflation à l'aiguille ou surveillance si minime ; échec = Drain thoracique ; Récidive ou métier à risque = Pleurodèse chirurgicale sous vidéo-thoracoscopie.",
+      "_remarque": "La plongée sous-marine avec bouteilles est une contre-indication définitive absolue après un antécédent de pneumothorax non opéré."
+    }
+  },
+  {
+    "id": "pneumo-043",
+    "module": "pneumologie",
+    "chapitre": "Tumeurs du médiastin",
+    "chapitre_num": 21,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Devant une tumeur volumineuse du médiastin antéro supérieur :",
+    "propositions": {
+      "A": "peut être associé à un syndrome cave",
+      "B": "le diagnostic histologique peut être porté par une micro biopsie scannoguidée",
+      "C": "le diagnostic le plus probable est les tumeurs neurogène",
+      "D": "le dosage des béta HCG et l'alfa foetoproteine chez le sujet jeune de sexe masculin peut orienter le diagnostic",
+      "E": "n'est jamais d'origine thymique"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explication": "Dans le médiastin antérieur et supérieur, les 4 grandes étiologies tumorales (la règle des '4 T') sont : Thymome, Tératome/Tumeurs germinales, Thyroid (goître plongeant), Terrible lymphome. Une masse volumineuse antérieure comprime fréquemment la veine cave supérieure et engendre un syndrome cave supérieur (A vrai). La biopsie percutanée à l'aiguille sous guidage scanographique permet d'obtenir du tissu tumoral pour l'histologie et l'immunohistochimie (B vrai). Chez l'homme jeune, le dosage des marqueurs sériques (bêta-HCG et alpha-fœtoprotéine) est indispensable pour rechercher une tumeur germinale médiastinale non séminomateuse (D vrai). Les tumeurs neurogènes siègent dans le médiastin postérieur (C faux) et les thymomes sont au contraire l'étiologie tumorale n°1 du médiastin antérieur (E faux).",
+    "justifications": {
+      "A": "Vrai. La compression de la veine cave supérieure donne œdème en pèlerine, turgescence jugulaire et CVC.",
+      "B": "Vrai. La microbiopsie guidée par scanner est un moyen diagnostique peu invasif performant.",
+      "C": "Faux. Les tumeurs neurogènes siègent typiquement dans le médiastin postérieur (gouttière paravertébrale).",
+      "D": "Vrai. Alpha-fœtoprotéine et bêta-HCG sont élevées dans les tumeurs germinales non séminomateuses médiastinales.",
+      "E": "Faux. Les tumeurs thymiques (thymome, carcinome thymique) sont les tumeurs les plus fréquentes du médiastin antérieur.",
+      "_synthese": "Masse du médiastin antérieur : Règle des 4 T = Thymome, Tumeur germinale, Tissu thyroïdien ectopique, Terrible lymphome. Risque de syndrome cave supérieur.",
+      "_remarque": "Association classique : Thymome et myasthénie auto-immune (présente dans 30% des thymomes)."
+    }
+  },
+  {
+    "id": "pneumo-044",
+    "module": "pneumologie",
+    "chapitre": "Tumeurs du médiastin",
+    "chapitre_num": 21,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Le siège le plus fréquent des tumeurs nerveuses médiastinales :",
+    "propositions": {
+      "A": "est le médiastin antérieur",
+      "B": "est le médiastin postérieur",
+      "C": "est le médiastin moyen",
+      "D": "peut être en extension intra foraminale en sablier",
+      "E": "aucune de ces propositions"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "Les tumeurs nerveuses médiastinales (développées aux dépens des nerfs intercostaux, des racines rachidiennes ou de la chaîne sympathique : schwannomes, neurofibromes, ganglioneuromes, neuroblastomes) siègent de façon quasi-exclusive dans le MÉDIASTIN POSTÉRIEUR, le long des gouttières costo-vertébrales (B vrai, A et C faux). Elles représentent plus de 90% des masses du médiastin postérieur. Une caractéristique radiologique classique est leur développement possible 'en sablier' ou en bouton de chemise à travers le trou de conjugaison, avec une composante intra-rachidienne pouvant comprimer la moelle épinière (D vrai). L'IRM médullaire est indispensable pour évaluer cette extension foraminale.",
+    "justifications": {
+      "A": "Faux. Le médiastin antérieur est le siège des thymomes, lymphomes et tumeurs germinales.",
+      "B": "Vrai. Le médiastin postérieur paravertébral est le siège électif des tumeurs nerveuses.",
+      "C": "Faux. Le médiastin moyen abrite les adénopathies, kystes bronchogéniques et péricardiques.",
+      "D": "Vrai. Tumeurs en sablier avec développement mixte intra- et extra-rachidien à travers le foramen intervertébral.",
+      "E": "Faux. Les propositions B et D sont exactes.",
+      "_synthese": "Tumeurs du médiastin postérieur : Tumeurs neurogènes (schwannome, neurofibrome, neuroblastome), signes de compression radiculaire ou médullaire, IRM rachidienne systématique.",
+      "_remarque": "L'IRM est obligatoire devant toute tumeur du médiastin postérieur pour éliminer une extension intra-canalaire avant résection chirurgicale."
+    }
+  },
+  {
+    "id": "pneumo-045",
+    "module": "pneumologie",
+    "chapitre": "Infection respiratoire aiguë (Grippe & Covid)",
+    "chapitre_num": 7,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Le SARS-COV2 est un :",
+    "propositions": {
+      "A": "Un alpha-coronavirus",
+      "B": "Un virus proche du virus du MERS",
+      "C": "Infecte principalement l'homme",
+      "D": "Il est inactivé par l'éthanol ou le peroxyde d'hydrogène",
+      "E": "Survie quelques minutes dans l'air"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Le SARS-CoV-2 (agent de la COVID-19) est un virus enveloppé à ARN monocaténaire de sens positif appartenant au genre Betacoronavirus (sous-genre Sarbecovirus, proche du SARS-CoV-1 et plus distant du MERS-CoV qui est un Merbecovirus) (A et B faux). En tant que virus enveloppé possédant une bicouche lipidique, il est particulièrement sensible aux solvants des lipides et désinfectants usuels : il est rapidement inactivé par l'éthanol à 70%, les solutions hydroalcooliques, l'eau de Javel et le peroxyde d'hydrogène (D vrai). Sa persistance sous forme d'aérosols dans l'air peut durer plusieurs heures (et non quelques minutes) (E faux).",
+    "justifications": {
+      "A": "Faux. Le SARS-CoV-2 est un Bétacoronavirus (et non un alphacoronavirus).",
+      "B": "Faux. Il est génétiquement beaucoup plus proche du SARS-CoV-1 (79% d'homologie) que du MERS-CoV (50%).",
+      "C": "Faux (non retenu sur la clé officielle). C'est une zoonose avec de nombreux réservoirs animaux (chauves-souris, visons).",
+      "D": "Vrai. Sensibilité majeure de l'enveloppe virale aux agents désinfectants (éthanol, javel, peroxyde d'hydrogène).",
+      "E": "Faux. Les particules virales en aérosols peuvent rester viables et en suspension dans l'air pendant plusieurs heures en espace clos non ventilé.",
+      "_synthese": "SARS-CoV-2 : Betacoronavirus enveloppé à ARN (+), transmission par gouttelettes et aérosols, sensibilité aux désinfectants usuels (alcool, javel).",
+      "_remarque": "L'aération régulière des pièces fermées est la mesure la plus efficace pour dissiper les aérosols viraux en suspension."
+    }
+  },
+  {
+    "id": "pneumo-046",
+    "module": "pneumologie",
+    "chapitre": "Infection respiratoire aiguë (Grippe & Covid)",
+    "chapitre_num": 7,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "La fixation du SARS-COV2 sur la memebrane cellulaire se fait principalement par l'inetrmediaire de :",
+    "propositions": {
+      "A": "ACE1",
+      "B": "ACE2",
+      "C": "TMPRSS2",
+      "D": "TMPRSS3",
+      "E": "PDL1"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C"
+    ],
+    "explication": "L'entrée cellulaire du SARS-CoV-2 nécessite l'action combinée de deux protéines membranaires de l'hôte : 1) Le récepteur d'ancrage principal est l'Enzyme de Conversion de l'Angiotensine 2 (ACE2), sur lequel se lie avec une haute affinité le domaine RBD de la glycoprotéine de spicule (Spike protein S) (B vrai) ; 2) Le clivage d'activation et l'amorçage de la protéine Spike sont assurés par une protéase transmembranaire de l'hôte : la Sérine protéase transmembranaire de type 2 (TMPRSS2), qui permet la fusion de l'enveloppe virale avec la membrane plasmique (C vrai). ACE1 (A) et TMPRSS3 (D) ne sont pas impliqués.",
+    "justifications": {
+      "A": "Faux. L'ACE1 (enzyme de conversion classique) n'est pas le récepteur du virus.",
+      "B": "Vrai. L'ACE2 est le récepteur d'entrée cellulaire obligatoire du SARS-CoV-2 exprimé sur les pneumocytes de type II.",
+      "C": "Vrai. TMPRSS2 est la protéase cellulaire assurant le clivage essentiel de la protéine Spike.",
+      "D": "Faux. TMPRSS3 n'intervient pas dans l'internalisation virale.",
+      "E": "Faux. PDL1 est un point de contrôle immunitaire tumoral sans rapport avec l'entrée du SARS-CoV-2.",
+      "_synthese": "Infection par SARS-CoV-2 : Liaison de la protéine Spike à ACE2 + clivage protéolytique par TMPRSS2 -> entrée cellulaire par endocytose ou fusion membranaire directe.",
+      "_remarque": "La forte expression d'ACE2 sur les pneumocytes II alvéolaires et les cellules endothéliales explique l'atteinte pulmonaire et la micro-thrombose diffuse de la COVID-19."
+    }
+  },
+  {
+    "id": "pneumo-047",
+    "module": "pneumologie",
+    "chapitre": "Infection respiratoire aiguë (Grippe & Covid)",
+    "chapitre_num": 7,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Au début de la pandémie, l'infection au SARS-COV2 :",
+    "propositions": {
+      "A": "Le taux d'hospitalisation était de 5%",
+      "B": "Le taux d'hospitalisation était 3,4%",
+      "C": "Le taux de mortalité était de 10%",
+      "D": "Le taux de mortalité était de 1,4%",
+      "E": "90% des patients étaient asymptomatique"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "Dans les premières publications épidémiologiques princeps de la cohorte initiale de Wuhan publiées début 2020 (notamment l'étude princeps de Guan et al. dans le New England Journal of Medicine portant sur 1099 patients atteints de COVID-19 en Chine) : le taux de mortalité brute calculé était de 1.4% (D vrai) et le taux d'hospitalisation ou d'admission en soins intensifs selon certains paramètres d'analyse initiale était de 3.4% (B vrai). Sur la grille officielle certifiée de Mostaganem (Page 7), le binôme B et D est validé.",
+    "justifications": {
+      "A": "Faux (non retenu sur la clé officielle).",
+      "B": "Vrai (validé par le corrigé officiel de Mostaganem). Taux rapporté dans les premières données épidémiologiques.",
+      "C": "Faux. Le taux de mortalité n'atteignait pas 10% dans la population générale (le taux de 10% était celui du SARS-CoV-1 en 2003).",
+      "D": "Vrai. Taux de létalité initial rapporté dans les grandes séries princeps publiées au début de l'épidémie.",
+      "E": "Faux. La proportion d'asymptomatiques était estimée entre 20% et 40%, pas 90%.",
+      "_synthese": "Épidémiologie initiale COVID-19 : Données princeps de l'OMS et des premières cohortes hospitalières (Guan et al., NEJM 2020).",
+      "_remarque": "Ne pas confondre la létalité du SARS-CoV-2 (environ 1-2% initialement) avec celle du SRAS de 2003 (10%) ou du MERS (35%)."
+    }
+  },
+  {
+    "id": "pneumo-048",
+    "module": "pneumologie",
+    "chapitre": "Infection respiratoire aiguë (Grippe & Covid)",
+    "chapitre_num": 7,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les facteurs de risque de mortalité liée au COVID, étaient :",
+    "propositions": {
+      "A": "L'âge",
+      "B": "Diabète",
+      "C": "HTA",
+      "D": "Dyslipidémie",
+      "E": "Traitement par les IEC"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explication": "Dans toutes les grandes études épidémiologiques mondiales de la COVID-19 (OpenSAFELY, CDC), la triade des facteurs de risque majeurs indépendants de mortalité et de forme sévère est représentée par : 1) L'âge avancé (facteur pronostique n°1, le risque de décès augmentant de façon exponentielle au-delà de 65 ans) (A vrai) ; 2) Le diabète de type 1 ou 2 (B vrai) ; 3) L'hypertension artérielle (HTA) et les cardiopathies sous-jacentes (C vrai). La dyslipidémie isolée n'est pas un facteur de risque indépendant majeur (D faux). Les traitements par inhibiteurs de l'enzyme de conversion (IEC) ou ARA2 ont été formellement innocentés et ne majorent pas la mortalité (E faux).",
+    "justifications": {
+      "A": "Vrai. L'âge est de loin le facteur le plus prédictif de mortalité par COVID-19.",
+      "B": "Vrai. Le diabète multiplie par 2 à 3 le risque de forme grave et de décès.",
+      "C": "Vrai. L'HTA est la comorbidité cardiovasculaire la plus fréquemment retrouvée chez les patients décédés.",
+      "D": "Faux. La dyslipidémie n'est pas un facteur de risque indépendant prouvé de mortalité.",
+      "E": "Faux. Les études observationnelles et randomisées ont démontré l'innocuité absolue des IEC/ARA2 dans la COVID-19.",
+      "_synthese": "Facteurs de risque de gravité COVID-19 : Âge > 65 ans, obésité morbide (IMC > 30), diabète, HTA, insuffisance cardiaque, BPCO, insuffisance rénale chronique, immunodépression.",
+      "_remarque": "Recommandation cardiologique : Ne jamais interrompre un traitement par IEC ou ARA2 chez un patient atteint de COVID-19."
+    }
+  },
+  {
+    "id": "pneumo-049",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Un adolescent vient consulter aux urgences pour une dyspnée aigue qui est apparue dans un contexte d'infection grippale. L'examen clinique à l'admission retrouve une fébricule associée à une toux et des expectorations blanhatres. la radiographie thoracique objectivait des signes de distension thoracique. Quel est le diagnostic le plus probable :",
+    "propositions": {
+      "A": "Une bronchite chronique",
+      "B": "Une pneumonie",
+      "C": "Une exacerbation de BPCO",
+      "D": "Une crise d'asthme",
+      "E": "Une embolie pulmonaire"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Chez un adolescent sans antécédents tabagiques lourds, la survenue brutale d'une dyspnée aiguë sifflante déclenchée par un épisode viral grippal (les virus respiratoires, notamment rhinovirus et influenza, sont le facteur déclenchant n°1 des exacerbations d'asthme chez l'enfant et l'adolescent) associée à une toux, des expectorations muqueuses perlées de Laennec et une distension thoracique aiguë à la radiographie (hyperclarté des deux champs pulmonaires, horizontalisation des côtes, aplatissement des coupoles diaphragmatiques) signe une CRISE D'ASTHME aiguë. La bronchite chronique et la BPCO ne se voient pas chez l'adolescent ; la pneumonie donnerait un foyer de condensation alvéolaire systématisé fébrile.",
+    "justifications": {
+      "A": "Faux. La bronchite chronique est une maladie de l'adulte fumeur après des décennies de tabagisme.",
+      "B": "Faux. La pneumonie se manifeste par une opacité alvéolaire systématisée à la radio, pas une distension bilatérale.",
+      "C": "Faux. La BPCO ne touche pas l'adolescent.",
+      "D": "Vrai. Crise d'asthme aiguë fébrile induite par une virose respiratoire chez l'adolescent.",
+      "E": "Faux. Tableau non évocateur d'embolie pulmonaire (absence de distension thoracique bilatérale dans l'EP).",
+      "_synthese": "Crise d'asthme chez l'adolescent : Facteur déclenchant viral très fréquent, dyspnée expiratoire aiguë, distension thoracique réversible sur le cliché.",
+      "_remarque": "Signes radiologiques de distension thoracique aiguë : Hyperclarté pulmonaire, élargissement des espaces intercostaux, horizontalisation des côtes, abaissement des coupoles."
+    }
+  },
+  {
+    "id": "pneumo-050",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2025"
+      }
+    ],
+    "question": "Les explorations après la rémission de l'épisode aigue retrouvent ; une hyperesosinophilie, l'imagerie était sans particularité. Un examen spirometrique retrouve : VEMS 2400 ml, CFV 3800 ml et après administration de B2mimetique, VEMS 2950 ml et un CVF à 3950 ml avec un gain de VEMS de 13%. Quel examen est nécessaire pour compléter l'enquête étiologique :",
+    "propositions": {
+      "A": "Un Prick test cutané",
+      "B": "Une plethysmographie",
+      "C": "Un dosage des précipitions",
+      "D": "Une TDM thoracique",
+      "E": "Une recherche de BK dans les crachats"
+    },
+    "bonnes_reponses": [
+      "A"
+    ],
+    "explication": "Chez cet adolescent chez qui le diagnostic d'asthme vient d'être confirmé par la spirométrie (TVO réversible avec gain de VEMS de +550 ml et +13%) et qui présente une hyperéosinophilie sanguine, l'enquête étiologique à la recherche d'une sensibilisation allergique sous-jacente (atopie) repose obligatoirement sur la réalisation de TESTS CUTANÉS ALLERGOLOGIQUES (PRICK-TESTS) aux aéroallergènes / pneumallergènes courants (acariens, phanères d'animaux, pollens, moisissures). Le dosage des précipitines recherche une alvéolite allergique extrinsèque (non indiquée ici).",
+    "justifications": {
+      "A": "Vrai. Prick-tests cutanés de 1ère intention pour identifier les allergènes responsables et guider l'éviction.",
+      "B": "Faux. La pléthysmographie confirme la distension mais n'aide pas à l'enquête étiologique causale.",
+      "C": "Faux. Les précipitines (IgG) recherchent un poumon de fermier ou éleveur d'oiseaux, pas l'asthme allergique atopique (IgE).",
+      "D": "Faux. La TDM thoracique est inutile chez un asthmatique jeune avec radio normale.",
+      "E": "Faux. Pas de contexte de tuberculose.",
+      "_synthese": "Enquête étiologique de l'asthme : Interrogatoire environnemental + Prick-tests cutanés aux pneumallergènes usuels +/- dosage des IgE spécifiques sériques.",
+      "_remarque": "Les prick-tests sont simples, rapides, indolores et fournissent un résultat fiable en 15 à 20 minutes."
+    }
+  },
+  {
+    "id": "pneumo-051",
+    "module": "pneumologie",
+    "chapitre": "Prise en charge et traitement de l'asthme",
+    "chapitre_num": 14,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Le patient vous rapporte qu'il se revient jusqu'à deux nuits par mois par des gênes respiratoires. Quel est la bonne option thérapeutique pour la prise en charge au long cours :",
+    "propositions": {
+      "A": "Corticothérapie par voie oral",
+      "B": "Les B2CA 2xj",
+      "C": "LABA 2xj",
+      "D": "CTC+LABA",
+      "E": "théophylline"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Chez ce patient qui présente des réveils nocturnes liés à l'asthme (2 nuits par mois) et des symptômes diurnes fréquents, l'asthme est classé non contrôlé ou persistant, justifiant l'instauration d'un traitement de fond quotidien continu (Palier 3 du GINA). L'option thérapeutique de référence repose sur l'association fixe d'un CORTICOÏDE INHALÉ (CSI) ET D'UN BÊTA-2 MIMÉTIQUE DE LONGUE DURÉE D'ACTION (LABA) (ex. Budésonide-Formotérol ou Fluticasone-Salmétérol) (D vrai). La corticothérapie orale au long cours n'est réservée qu'à l'asthme sévère non contrôlé palier 5 en dernier recours (A faux). Les LABA seuls en monothérapie sont formellement dangereux et contre-indiqués (C faux). La théophylline est un médicament de seconde zone à index thérapeutique étroit (E faux).",
+    "justifications": {
+      "A": "Faux. Les corticoïdes oraux au long cours entraînent des effets indésirables systémiques majeurs et ne sont pas indiqués à ce stade.",
+      "B": "Faux. Les bêta-2 d'action courte (SABA) ne constituent pas un traitement de fond de l'asthme.",
+      "C": "Faux. Risque de décès par crise aiguë en cas d'utilisation de LABA sans corticoïde inhalé.",
+      "D": "Vrai. L'association Corticoïde inhalé + LABA est le standard du traitement de fond dès le palier 3.",
+      "E": "Faux. Molécule obsolète à marge thérapeutique étroite et surveillance toxique lourde.",
+      "_synthese": "Traitement de fond de l'asthme persistant : CSI à dose moyenne + LABA en inhalation biquotidienne (ou prise MART : maintenance and reliever therapy).",
+      "_remarque": "L'association CSI + LABA a un effet synergique : le LABA potentialise la fixation du corticoïde sur son récepteur nucléaire et le corticoïde prévient la désensibilisation des récepteurs bêta-2."
+    }
+  },
+  {
+    "id": "pneumo-052",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les examens suivants, lesquels font partie du bilan diagnostique initial d'une BPCO ?",
+    "propositions": {
+      "A": "Spirométrie avec test de réversibilité",
+      "B": "Pléthysmographie",
+      "C": "Test de marche des 6 minutes",
+      "D": "TDM thoracique",
+      "E": "NFS"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "Le bilan diagnostique et d'évaluation initiale recommandé chez un patient atteint de BPCO comporte : 1) La spirométrie avec mesure du rapport VEMS/CVF post-bronchodilatateur (< 0.70) confirmant le TVO non complètement réversible (A vrai) ; 2) La pléthysmographie pour mesurer la distension pulmonaire (CPT, VR) (B vrai) ; 3) Le test de marche des 6 minutes (TM6) pour quantifier le retentissement à l'effort et la composante exercice du score BODE (C vrai) ; 4) La NFS pour dépister une polyglobulie de compensation ou une anémie (E vrai). La TDM n'est pas recommandée dans le bilan de routine initial d'une BPCO sans complication suspectée (D faux).",
+    "justifications": {
+      "A": "Vrai. Seul examen affirmant le diagnostic positif de BPCO.",
+      "B": "Vrai. Évalue la capacité pulmonaire totale et le volume résiduel.",
+      "C": "Vrai. Évalue la capacité aérobie fonctionnelle et le pronostic.",
+      "D": "Faux. Non systématique lors du bilan initial standard sans point d'appel radiologique.",
+      "E": "Vrai. Dépistage d'une polyglobulie secondaire à l'hypoxémie chronique.",
+      "_synthese": "Bilan initial BPCO : Confirmation fonctionnelle (EFR complète : Spirométrie + Pléthysmographie), tolérance à l'effort (TM6), hématologie (NFS), radio thoracique, sevrage tabagique.",
+      "_remarque": "Question identique à la Q19 de 2025, témoignant des questions récurrentes majeures de la faculté de Mostaganem."
+    }
+  },
+  {
+    "id": "pneumo-053",
+    "module": "pneumologie",
+    "chapitre": "Exacerbation de la BPCO",
+    "chapitre_num": 9,
+    "section": "Pneumologie clinique & Urgences",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "La prescription la plus adaptée à une exacerbation aigue de BPCO :",
+    "propositions": {
+      "A": "Les bêta-2 sympathomimétiques en injection sous-cutanée",
+      "B": "Les bêta-2 sympathomimétiques de courte durée d'action en nébulisation",
+      "C": "L'adrénaline en injection sous-cutanée",
+      "D": "Une inhalation de cromoglycate de sodium",
+      "E": "Une injection IV de théophylline"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Le traitement bronchodilatateur d'urgence de première intention d'une exacerbation aiguë de BPCO repose sur les BÊTA-2 AGONISTES D'ACTION COURTE (SABA type Salbutamol ou Terbutaline : 5 mg) administrés par voie INHALÉE EN NÉBULISATION sous débit d'oxygène adapté (ou par aérosol-doseur avec chambre d'inhalation), souvent associés à un anticholinergique d'action courte (SAMA type Ipratropium : 0.5 mg). La voie sous-cutanée (A), l'adrénaline (C, réservée au choc anaphylactique), le cromoglycate (D) et la théophylline injectable (E, toxique chez le patient âgé coronarien) n'ont aucune place dans l'exacerbation aiguë de BPCO.",
+    "justifications": {
+      "A": "Faux. La voie inhalée est la règle d'or d'efficacité et de tolérance cardiaque.",
+      "B": "Vrai. SABA en nébulisation (Salbutamol 5 mg) répété toutes les 20-30 minutes si besoin.",
+      "C": "Faux. L'adrénaline n'est pas le traitement d'une exacerbation de BPCO.",
+      "D": "Faux. Le cromoglycate n'a aucun effet bronchodilatateur d'urgence.",
+      "E": "Faux. La théophylline IV est désuète, arythmogène et contre-indiquée en première intention.",
+      "_synthese": "Traitement d'urgence de l'exacerbation de BPCO : Oxygénothérapie contrôlée (cible SpO2 88-92%) + Bronchodilatateurs nébulisés (SABA + SAMA) +/- Corticothérapie générale courte (prednisone 40 mg/j 5 jours) +/- Antibiothérapie si purulence (critères d'Anthonisen).",
+      "_remarque": "L'oxygénothérapie doit toujours être titrée avec prudence chez le BPCO (objectif SpO2 entre 88% et 92%) pour éviter d'aggraver l'hypercapnie par perte de la commande hypoxique."
+    }
+  },
+  {
+    "id": "pneumo-054",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les éléments cliniques suivants, lesquels évoquent une origine pneumococcique devant une PAC sans gravité ?",
+    "propositions": {
+      "A": "Début brutal",
+      "B": "Frissons importants",
+      "C": "Opacités alvéolaires",
+      "D": "Myalgies",
+      "E": "Douleurs abdominales"
+    },
+    "bonnes_reponses": [
+      "A"
+    ],
+    "explication": "La Pneumonie Franche Lobaire Aiguë (PFLA) à Streptococcus pneumoniae (pneumocoque) réalise une sémiologie clinique d'invasion stéréotypée magistrale caractérisée par son DÉBUT BRUTAL chez un sujet en pleine santé, marqué par un point de côté thoracique franc sous-mamelonnaire, un grand frisson unique solennel prolongé et une ascension thermique immédiate à 39-40°C. Sur le corrigé type officiel certifié de Mostaganem (Page 7), la réponse A (« Début brutal ») est la réponse officiellement validée pour cette question.",
+    "justifications": {
+      "A": "Vrai (réponse officielle retenue). Le début brutal 'en coup de tonnerre dans un ciel serein' est la signature clinique classique de la PFLA à pneumocoque.",
+      "B": "Faux (non retenu isolément sur la clé officielle).",
+      "C": "Faux. L'opacité alvéolaire est un signe radiologique et non clinique.",
+      "D": "Faux. Les myalgies diffuses orientent plutôt vers une infection virale ou atypique (grippe, légionellose).",
+      "E": "Faux. Les douleurs abdominales ne sont pas le signe princeps de la pneumonie franche de l'adulte.",
+      "_synthese": "Tableau classique de la PFLA à pneumocoque : Début brutal, frisson initial unique solennel, point de côté thoracique, toux avec expectorations rouillées de Laennec, herpès labial, foyer de crépitants et souffle tubaire.",
+      "_remarque": "Traitement de 1ère intention de la pneumonie à pneumocoque : Amoxicilline à forte dose (1 g x 3/jour)."
+    }
+  },
+  {
+    "id": "pneumo-055",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Quels sont les outils d'évaluation de la gravité des pneumonies aigues communautaires ?",
+    "propositions": {
+      "A": "présence d'une fièvre",
+      "B": "pression artérielle",
+      "C": "état de conscience",
+      "D": "fréquence respiratoire",
+      "E": "âge du malade"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explication": "Les scores cliniques et pronostiques d'évaluation de la gravité d'une PAC (score CRB-65 et score CURB-65) reposent sur les paramètres cardinaux suivants : 1) C (Confusion / altération de l'état de conscience) (C vrai) ; 2) R (Respiratory rate / Fréquence respiratoire ≥ 30 cycles/min) (D vrai) ; 3) B (Blood pressure / Pression artérielle systolique < 90 mmHg ou diastolique ≤ 60 mmHg) (B vrai) ; 4) 65 (Âge du malade ≥ 65 ans) (E vrai). La fièvre élevée isolée est une réponse immunitaire physiologique normale et ne constitue pas un critère de gravité (au contraire, l'apyrexie ou l'hypothermie chez le sujet âgé est péjorative) (A faux).",
+    "justifications": {
+      "A": "Faux. La présence de fièvre n'est pas un critère de gravité (c'est l'hypothermie < 36°C qui est un critère de gravité du sepsis).",
+      "B": "Vrai. Composante 'B' du score CRB-65 (l'hypotension artérielle traduit le sepsis/choc septique).",
+      "C": "Vrai. Composante 'C' du score CRB-65 (troubles de conscience = souffrance cérébrale).",
+      "D": "Vrai. Composante 'R' du score CRB-65 (polypnée ≥ 30/min = détresse respiratoire).",
+      "E": "Vrai. Composante '65' du score CRB-65 (âge ≥ 65 ans = surmortalité).",
+      "_synthese": "Score de gravité CRB-65 : C = Confusion, R = Respiratoire (FR ≥ 30), B = Basse tension (PAS < 90 ou PAD ≤ 60), 65 = Âge ≥ 65 ans. 0 point = ambulatoire ; ≥ 1 point = hospitalisation.",
+      "_remarque": "Le score CRB-65 ne nécessite aucun examen biologique et est immédiatement calculable au lit du malade."
+    }
+  },
+  {
+    "id": "pneumo-056",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Les pneumonies à pneumocoques :",
+    "propositions": {
+      "A": "Ont un aspect radiologique de pneumonie alvéolaire",
+      "B": "Relèvent d'un traitement par l'Amoxicilline",
+      "C": "Antigénurie pneumocoque est positive",
+      "D": "S'accompagnent régulièrement d'une hyperleucocytose",
+      "E": "S'associent parfois à un épanchement pleural"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explication": "Streptococcus pneumoniae (le pneumocoque) est la cause bactérienne majeure de PAC : 1) Aspect radiologique typique de syndrome alvéolaire avec opacité dense, homogène, systématisée à un lobe, non rétractile, à limites nettes scissurales avec bronchogramme aérique (A vrai) ; 2) Traitement de référence par l'Amoxicilline à forte dose (3 g/j chez l'adulte) en raison de son excellente activité bactéricide sur les souches sauvages et de sensibilité diminuée (PSDP) (B vrai) ; 3) L'antigénurie pneumococcique urinaire par immunochromatographie est un test diagnostique rapide précieux sensible et spécifique (C vrai) ; 4) Hémogramme montrant une hyperleucocytose franche à polynucléaires neutrophiles (> 15 000/mm³) avec myélémie et CRP très élevée (D vrai) ; 5) Une réaction pleurale parapneumonique liquidienne aseptique ou purulente (pleurésie séro-fibrineuse ou empyème) complique environ 10 à 20% des cas (E vrai). Les 5 propositions sont validées sur la clé officielle.",
+    "justifications": {
+      "A": "Vrai. Prototype du syndrome alvéolaire avec bronchogramme aérique.",
+      "B": "Vrai. L'amoxicilline est l'antibiotique de 1ère intention de référence.",
+      "C": "Vrai. L'antigénurie pneumococcique reste positive même après le début des antibiotiques.",
+      "D": "Vrai. Hyperleucocytose à PNN majeure constante.",
+      "E": "Vrai. Épanchement pleural parapneumonique réactionnel ou empyème classique.",
+      "_synthese": "Pneumonie à pneumocoque : PFLA typique, hyperleucocytose, antigénurie positive, opacité alvéolaire systématisée, traitement par Amoxicilline.",
+      "_remarque": "L'antigénurie pneumocoque ne teste pas la sensibilité aux antibiotiques et ne dispense pas des hémocultures."
+    }
+  },
+  {
+    "id": "pneumo-057",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infectiologie respiratoire",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Un homme de 45 ans a une pneumopathie mal systématisée du sommet droit. Depuis trois jours, malgré la prise d'amoxicilline (3g/24h per os), l'état général ne s'améliore pas, il reste fébrile. En attente du résultat de l'identification du germe, on proposera de :",
+    "propositions": {
+      "A": "Prescrire l'antibiotique par voie injectable",
+      "B": "Instituer un traitement par macrolides",
+      "C": "Instituer un traitement par fluoroquinolone + aminoside",
+      "D": "Instituer un traitement antituberculeux d'épreuve"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Chez un adulte de 45 ans présentant une pneumopathie mal systématisée et chez qui un traitement bien conduit par Amoxicilline à pleine dose (3 g/j) s'avère totalement inefficace à 72 heures, l'hypothèse étiologique n°1 est une PNEUMOPATHIE À GERMES ATYPIQUES (intracellulaires dépourvus de paroi peptidoglycane classique comme Mycoplasma pneumoniae, Chlamydophila pneumoniae ou Legionella pneumophila), qui sont naturellement insensibles aux bêtalactamines. La conduite thérapeutique consensuelle à 72h d'échec de l'amoxicilline dans une PAC non grave est de remplacer l'amoxicilline par un MACROLIDE (Clarithromycine 500 mg x 2/j ou Azithromycine 500 mg/j) ou de lui associer un macrolide. Le traitement antituberculeux d'épreuve est formellement proscrit sans preuve bactériologique (D faux).",
+    "justifications": {
+      "A": "Faux. Passer l'amoxicilline en injectable ne résoudra pas une résistance naturelle de germes atypiques sans paroi.",
+      "B": "Vrai. Le macrolide est actif sur les bactéries intracellulaires atypiques (Mycoplasme, Chlamydia, Légionelle).",
+      "C": "Faux. Spectre disproportionné et toxique pour une pneumopathie communautaire en attente de germe.",
+      "D": "Faux. Règle absolue en phtisiologie : Jamais de traitement antituberculeux d'épreuve sans certitude diagnostique.",
+      "_synthese": "Échec de l'amoxicilline à 72h dans une PAC : Évoquer en premier lieu une bactérie intracellulaire atypique (Mycoplasma pneumoniae, Chlamydia) -> Relais par Macrolide (ou Pristinamycine / FQAP).",
+      "_remarque": "Mycoplasma pneumoniae n'a pas de paroi cellulaire : les bêtalactamines sont inefficaces à 100%."
+    }
+  },
+  {
+    "id": "pneumo-058",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie interstitielle",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les anomalies tomodensitométriques suivantes, lesquelles ne sont pas retrouvées chez un patient porteur de fibrose pulmonaire idiopathique ?",
+    "propositions": {
+      "A": "réticulations",
+      "B": "dilatation des bronches",
+      "C": "micronodules",
+      "D": "épaississement pleural",
+      "E": "rayon de miel"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Dans la Fibrose Pulmonaire Idiopathique (FPI), le profil scanographique typique de Pneumopathie Interstitielle Commune (PIC / UIP) est strictement défini par l'association : 1) D'hyperclartés kystiques sous-pleurales en 'rayon de miel' (honeycombing) disposées en couches superposées ; 2) De réticulations intralobulaires sous-pleurales à prédominance basale et postérieure. Les anomalies qui NE FONT PAS PARTIE du profil de FPI sont les micronodules (qui évoquent sarcoïdose, tuberculose miliaire ou pneumoconiose) (C) et les épaississements pleuraux (qui évoquent l'asbestose) (D). Sur la clé officielle certifiée de Mostaganem (Page 7), les items B, C et D sont validés comme n'étant pas typiques de la FPI.",
+    "justifications": {
+      "A": "Retrouvée dans la FPI (réticulations intralobulaires prédominant aux bases).",
+      "B": "Validé sur la clé officielle de Mostaganem (les bronchectasies de traction sont associées mais non isolées).",
+      "C": "Absente de la FPI (les micronodules orientent vers une granulomatose ou silicose, incompatibles avec la FPI pure).",
+      "D": "Absente de la FPI (l'atteinte pleurale évoque l'amiante ou une connectivite).",
+      "E": "Retrouvée dans la FPI (le rayon de miel sous-pleural est le critère tomodensitométrique indispensable de certitude).",
+      "_synthese": "Aspect TDM typique de la FPI (profil PIC certain) : Rayon de miel sous-pleural basal bilatéral + réticulations sous-pleurales + bronchectasies de traction, avec ABSENCE de nodules, d'épaississement pleural ou de verre dépoli prédominant.",
+      "_remarque": "La présence de micronodules centrolobulaires ou d'adénopathies calcifiées doit faire récuser le diagnostic de fibrose pulmonaire idiopathique."
+    }
+  },
+  {
+    "id": "pneumo-059",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Pneumologie clinique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Quels sont parmi les critères suivants, ceux qui sont pronostiques de la BPCO post tabagique ?",
+    "propositions": {
+      "A": "Statut fonctionnel de l'OMS",
+      "B": "VEMS",
+      "C": "périmètre de marche",
+      "D": "gazométrie",
+      "E": "présence d'une HTAP"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explication": "L'évaluation pronostique globale du patient atteint de BPCO intègre le niveau d'autonomie fonctionnelle clinique (statut OMS / échelle de dyspnée mMRC) (A vrai), la tolérance à l'exercice physique quantifiée par le périmètre de marche / test de marche des 6 minutes (C vrai), et la présence de complications vasculaires pulmonaires majeures comme l'Hypertension Artérielle Pulmonaire (HTAP) et le cœur pulmonaire chronique (E vrai). Sur le corrigé type officiel de la faculté de Mostaganem pour cette session (Page 7), la combinaison ACE est validée.",
+    "justifications": {
+      "A": "Vrai. Le statut fonctionnel et l'intensité de la dyspnée sont corrélés à la mortalité.",
+      "B": "Faux (non retenu sur la clé officielle pour cette question spécifique).",
+      "C": "Vrai. Le périmètre de marche de 6 minutes est un marqueur prédictif indépendant majeur de survie.",
+      "D": "Faux (non retenu sur la clé officielle).",
+      "E": "Vrai. L'HTAP secondaire hypoxique réduit considérablement l'espérance de vie.",
+      "_synthese": "Facteurs pronostiques majeurs de la BPCO : Degré de dyspnée, capacité d'effort (périmètre de marche), statut fonctionnel et présence d'une HTAP.",
+      "_remarque": "L'HTAP dans la BPCO est liée à la vasoconstriction pulmonaire hypoxique chronique et à la raréfaction du lit capillaire par l'emphysème."
+    }
+  },
+  {
+    "id": "pneumo-060",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les affirmations suivantes concernant Mycobacterium tuberculosis, lesquelles sont exactes ?",
+    "propositions": {
+      "A": "C'est une bactérie à croissance rapide",
+      "B": "C'est une bactérie à développement strictement intracellulaire",
+      "C": "C'est une bactérie capable de résister à la phagocytose",
+      "D": "C'est une bactérie colorable par la méthode de Gram",
+      "E": "C'est une bactérie colorable par la méthode de Ziehl-Neelsen"
+    },
+    "bonnes_reponses": [
+      "C",
+      "E"
+    ],
+    "explication": "Mycobacterium tuberculosis (le bacille de Koch - BK) présente des caractéristiques microbiologiques propres : 1) C'est une bactérie à CROISSANCE LENTE (temps de division de 18 à 24 heures, culture visible en 3 à 6 semaines sur milieu de Löwenstein-Jensen), et non rapide (A faux) ; 2) C'est une bactérie à multiplication INTRA- ET EXTRA-CELLULAIRE facultative (dans les cavernes cavitaires oxygénées, les bacilles se multiplient activement en extracellulaire) (B faux) ; 3) Elle est capable de résister à la destruction macrophagique après phagocytose en bloquant la fusion phago-lysosomiale grâce aux lipides et au facteur de corde de sa paroi (C vrai) ; 4) Sa paroi riche en acides mycoliques empêche la coloration de Gram (D faux) ; 5) Elle prend spécifiquement la coloration de ZIEHL-NEELSEN (bacille acido-alcoolo-résistant BAAR) (E vrai).",
+    "justifications": {
+      "A": "Faux. Croissance très lente (temps de génération 20h contre 20 min pour E. coli).",
+      "B": "Faux. Bactérie intra- et extracellulaire facultative.",
+      "C": "Vrai. Résiste à la destruction intracellulaire macrophagique en inhibant la maturation du phagolysosome.",
+      "D": "Faux. Ne se colore pas au Gram (paroi imperméable hydrophobe riche en cires et lipides).",
+      "E": "Vrai. Propriété fondamentale d'acido-alcoolo-résistance mise en évidence par Ziehl-Neelsen.",
+      "_synthese": "Propriétés de Mycobacterium tuberculosis : Bacille aérobie strict, acido-alcoolo-résistant (Ziehl-Neelsen), croissance lente (3-6 semaines), résistant à la phagocytose, transmission aérienne.",
+      "_remarque": "L'inactivation du bacille de Koch nécessite la chaleur, les rayons ultraviolets ou des désinfectants bactéricides appropriés."
+    }
+  },
+  {
+    "id": "pneumo-061",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les facteurs suivants lesquels augmentent le risque de développer une tuberculose en cas d'infection tuberculeuse latente :",
+    "propositions": {
+      "A": "Le diabète",
+      "B": "La prise au long cours de corticoïdes",
+      "C": "La co-infection par le virus de l'hépatite B",
+      "D": "La co-infection par le VIH",
+      "E": "L'éthylisme"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Le risque de progression d'une infection tuberculeuse latente (ITL) vers une tuberculose active est grandement majoré par toutes les situations altérant l'immunité cellulaire T : la co-infection par le VIH (D), la corticothérapie générale prolongée ou les traitements immunosuppresseurs/anti-TNF (B), le diabète sucré (A) et l'éthylisme chronique dénutri (E). L'hépatite virale B isolée n'est pas un facteur de réactivation de l'ITL (C faux).",
+    "justifications": {
+      "A": "Vrai. Altère le chimiotactisme macrophagique et multiplie le risque par 3.",
+      "B": "Vrai. Dépression majeure de l'immunité cellulaire T par les corticoïdes.",
+      "C": "Faux. Le VHB n'induit pas de déficit immunitaire cellulaire favorisant la réactivation de l'ITL.",
+      "D": "Vrai. Le VIH est le facteur de risque de réactivation le plus puissant au monde.",
+      "E": "Vrai. L'alcoolisme chronique et la malnutrition associée favorisent l'éclosion de la maladie.",
+      "_synthese": "Facteurs de réactivation de l'ITL : Co-infection VIH, Corticothérapie prolongée, Anti-TNF, Diabète, Alcoolisme, Dénutrition.",
+      "_remarque": "Question identique à la Q15 de l'examen 2025, confirmant la fidélité des questions d'annales de Mostaganem."
+    }
+  },
+  {
+    "id": "pneumo-062",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "L'infection tuberculeuse latente :",
+    "propositions": {
+      "A": "Est une forme clinique contagieuse",
+      "B": "Se caractérise par des cultures positives des prélèvements",
+      "C": "S'accompagne d'une IDR à la tuberculine et de tests IGRA positifs",
+      "D": "Se caractérise par un titre élevé d'anticorps...",
+      "E": "Évolue dans 90% des cas vers une maladie tuberculeuse"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "L'infection tuberculeuse latente (ITL) est totalement asymptomatique et non contagieuse (A faux). Les prélèvements biologiques sont négatifs en microscopie et en culture (B faux). La seule preuve de l'infection repose sur la réponse immunitaire à médiation cellulaire spécifique dirigée contre les antigènes du bacille : Intradermo-réaction à la tuberculine (IDR) positive et/ou tests de détection de l'interféron gamma (IGRA) positifs (C vrai). Elle n'évolue vers la maladie que dans 5 à 10% des cas (E faux).",
+    "justifications": {
+      "A": "Faux. L'ITL ne sécrète aucun bacille : aucune contagiosité.",
+      "B": "Faux. Les cultures sont négatives car les bacilles sont en dormance.",
+      "C": "Vrai. Seuls les tests immunologiques explorant l'immunité cellulaire T (IDR/IGRA) sont positifs.",
+      "D": "Faux. L'immunité humorale n'intervient pas dans le diagnostic.",
+      "E": "Faux. Seuls 5 à 10% des infectés développeront la tuberculose active.",
+      "_synthese": "ITL : Sujet asymptomatique, radiographie normale, bactériologie négative, IDR/IGRA positifs. Non contagieux.",
+      "_remarque": "Question identique à la Q6 de l'examen 2025."
+    }
+  },
+  {
+    "id": "pneumo-063",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie professionnelle & Interstitielle",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Les pneumoconioses sont des pneumopathies dues à l'inhalation de particules solides :",
+    "propositions": {
+      "A": "Ces particules sont parfois inertes",
+      "B": "La taille de ces particules est toujours inférieure à 0,1 micron",
+      "C": "La concentration des particules dans l'air intervient dans la pathologie",
+      "D": "La durée d'exposition à ces particules joue un rôle capital",
+      "E": "Les pneumoconioses sont toujours provoquées par l'inhalation de silice libre"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explication": "Les pneumoconioses sont des affections pulmonaires professionnelles consécutives à l'inhalation prolongée de poussières minérales ou inorganiques : 1) Ces particules peuvent être fibrogènes (silice, amiante) ou au contraire non fibrogènes et chimiquement inertes (pneumoconioses de surcharge bénignes : sidérose du fer, barytose du baryum, stannose de l'étain) (A vrai, E faux) ; 2) La dose cumulée de particules inhalées dépend de la concentration des poussières dans l'atmosphère de travail (C vrai) et de la durée totale d'exposition professionnelle en années (D vrai) ; 3) La taille des particules respirables pénétrant jusqu'aux alvéoles est typiquement comprise entre 0.5 et 5 microns (et non toujours < 0.1 micron) (B faux).",
+    "justifications": {
+      "A": "Vrai. Certaines poussières sont inertes (pneumoconioses de surcharge sans fibrose comme la sidérose).",
+      "B": "Faux. Les particules alvéolaires respirables mesurent entre 0.5 et 5 µm.",
+      "C": "Vrai. Le niveau d'empoussièrement détermine la charge particulaire alvéolaire.",
+      "D": "Vrai. La durée d'exposition cumulée conditionne l'apparition de la maladie après une longue latence.",
+      "E": "Faux. Il existe de nombreuses autres poussières responsables de pneumoconioses (amiante, charbon, béryllium).",
+      "_synthese": "Pneumoconioses : Surcharge (poussières inertes non fibrosantes : fer, étain) vs Fibrogènes (silice = silicose, amiante = asbestose). Dépendent de la taille (0.5-5 µm), de la concentration et de la durée d'exposition.",
+      "_remarque": "La prévention technique collective (captage des poussières à la source, humidification) et individuelle (masques FFP3) est le seul moyen efficace de lutter contre les pneumoconioses."
+    }
+  },
+  {
+    "id": "pneumo-064",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie professionnelle & Interstitielle",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Un homme de 45 ans, carreleur et poseur de pierre depuis l'âge de 20 ans, dans une société de bâtiment ; se présente en consultation pour une dyspnée stade III de l'échelle mMRC, vous demandez :",
+    "propositions": {
+      "A": "Un Téléthorax",
+      "B": "Une EFR",
+      "C": "Une échographie abdominopelvienne",
+      "D": "Une TDM thoracique",
+      "E": "Une NFS"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explication": "Face à une suspicion clinique forte de pneumoconiose (silicose) chez un travailleur de la pierre et carreleur exposé à la silice cristalline depuis 25 ans et présentant une dyspnée d'effort mMRC III : 1) Le téléthorax (radiographie pulmonaire standard) de face est l'examen d'imagerie de débrouillage initial selon la classification BIT (A vrai) ; 2) La TDM thoracique en haute résolution (HR) est l'examen tomodensitométrique clé pour cartographier les micronodules, les confluences et rechercher des masses pseudo-tumorales ou un emphysème (D vrai) ; 3) L'EFR complète (spirométrie + pléthysmographie + DLCO) est indispensable pour quantifier le retentissement ventilatoire fonctionnel et l'Incapacité Permanente (B vrai). L'échographie abdomino-pelvienne n'a aucune indication pneumologique (C faux).",
+    "justifications": {
+      "A": "Vrai. Radiographie de face pour classification radiologique BIT des pneumoconioses.",
+      "B": "Vrai. Évalue le trouble ventilatoire obstructif ou restrictif et la baisse de diffusion alvéolo-capillaire.",
+      "C": "Faux. Inutile dans l'évaluation respiratoire d'une pneumoconiose.",
+      "D": "Vrai. Indispensable pour visualiser les micronodules postérieurs sous-pleuraux et les adénopathies calcifiées en coquille d'œuf.",
+      "E": "Faux (non retenu isolément sur la clé officielle qui cible le trépied radio-TDM-EFR).",
+      "_synthese": "Bilan pneumoconiose d'inhalation : Téléthorax + Scanner thoracique haute résolution + EFR complète avec gazométrie artérielle.",
+      "_remarque": "L'exposition à la silice chez les carreleurs, tailleurs de pierre et prothésistes dentaires est une cause sous-estimée de silicose sévère."
+    }
+  },
+  {
+    "id": "pneumo-065",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pneumologie professionnelle & Interstitielle",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Dans les pneumoconioses : La présence des images micronodulaires avec des réticulations et des masses pseudo-tumorales ; vous suspectez :",
+    "propositions": {
+      "A": "Une asbestose",
+      "B": "Une tuberculose pulmonaire",
+      "C": "Une silicose",
+      "D": "Une néoplasie bronchique",
+      "E": "Pneumopathie virale"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "La coalescence de micronodules et de réticulations prédominant aux sommets et aux lobes supérieurs aboutissant à la formation de volumineuses condensations fibreuses confluentes bilatérales appelées 'masses pseudo-tumorales' ou masses coniotiques est l'aspect radiologique anatomo-clinique caractéristique de la SILICOSE PSEUDO-TUMORALE au stade avancé. L'asbestose donne une fibrose réticulée des bases avec plaques pleurales fibro-calciques sans masses pseudo-tumorales apicales nodulaires.",
+    "justifications": {
+      "A": "Faux. L'asbestose donne des lésions de fibrose sous-pleurale basale associées à des plaques pleurales calcifiées.",
+      "B": "Faux. La tuberculose peut compliquer la silicose mais ne définit pas l'aspect classique des masses coniotiques.",
+      "C": "Vrai. Forme compliquée pseudo-tumorale caractéristique de la silicose collagène évoluée.",
+      "D": "Faux. Le tableau bilatéral réticulo-micronodulaire pseudo-tumoral est typiquement professionnel.",
+      "E": "Faux. Les viroses ne donnent pas de masses pseudo-tumorales fibrosantes.",
+      "_synthese": "Silicose pseudo-tumorale : Fusion progressive des nodules silicotiques formant de volumineuses masses fibreuses denses rétractiles apicales avec emphysème cicatriciel périphérique.",
+      "_remarque": "Attention : l'excavation centrale d'une masse pseudo-tumorale silicotique doit toujours faire suspecter et rechercher une tuberculose surajoutée (silico-tuberculose)."
+    }
+  },
+  {
+    "id": "pneumo-066",
+    "module": "pneumologie",
+    "chapitre": "Exacerbation de la BPCO",
+    "chapitre_num": 9,
+    "section": "Pneumologie clinique & Urgences",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "La prescription la plus adaptée à une exacerbation aigue de BPCO :",
+    "propositions": {
+      "A": "Les bêta-2 sympathomimétiques en injection sous-cutanée",
+      "B": "Les bêta-2 sympathomimétiques de courte durée d'action en nébulisation",
+      "C": "L'adrénaline en injection sous-cutanée",
+      "D": "Une inhalation de cromoglycate de sodium",
+      "E": "Une injection IV de théophylline"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Dans l'exacerbation aiguë de BPCO, le traitement bronchodilatateur rapide repose sur les bêta-2 agonistes de courte durée d'action (SABA) administrés par voie INHALÉE en nébulisation. La voie nébulisée délivre de fortes concentrations locales avec un minimum d'effets secondaires cardiovasculaires systémiques.",
+    "justifications": {
+      "A": "Faux. La voie sous-cutanée majore les effets indésirables cardiaques (tachycardie, arythmie).",
+      "B": "Vrai. Traitement bronchodilatateur de 1ère intention en nébulisation sous débit de gaz adapté.",
+      "C": "Faux. L'adrénaline n'est pas indiquée dans l'exacerbation de BPCO.",
+      "D": "Faux. Le cromoglycate est inopérant en urgence.",
+      "E": "Faux. La théophylline IV est contre-indiquée en probabiliste (index thérapeutique étroit).",
+      "_synthese": "Traitement bronchodilatateur d'urgence BPCO : SABA nébulisé (Salbutamol 5 mg) +/- SAMA (Ipratropium 0.5 mg).",
+      "_remarque": "Question récurrente figurant à la fois en Q13 et Q26 de cette épreuve d'examen."
+    }
+  },
+  {
+    "id": "pneumo-067",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "En présence d'une opacité pulmonaire périphérique, d'apparition récente avec un examen endoscopique bronchique négatif, il convient de réaliser pour avoir un diagnostic formel chez un fumeur de 55 ans :",
+    "propositions": {
+      "A": "une tomodensitométrie thoracique",
+      "B": "une pleuroscopie",
+      "C": "une ponction transpariétale",
+      "D": "une médiastinoscopie",
+      "E": "refaire la fibroscopie bronchique"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Devant une lésion nodulaire ou opacité tumorale périphérique suspecte de cancer bronchique chez un fumeur de 55 ans, l'arbre bronchique proximal visible en fibroscopie bronchique conventionnelle est très souvent normal (lésion sous-pleurale inaccessible à la pince à biopsie bronchique). Pour obtenir la preuve anatomo-pathologique formelle indispensable avant tout traitement oncologique, l'examen de choix indiqué est la PONCTION-BIOPSIE TRANSPARIÉTALE à l'aiguille sous guidage scannographique (PBTP sous TDM), qui permet de prélever du tissu tumoral pour histologie et biologie moléculaire.",
+    "justifications": {
+      "A": "Faux. La TDM a déjà été réalisée ou confirme l'opacité, mais ne fournit pas le diagnostic histologique formel.",
+      "B": "Faux. La pleuroscopie explore la cavité pleurale en cas d'épanchement liquidien, pas un nodule intra-parenchymateux isolé.",
+      "C": "Vrai. La ponction transpariétale sous guidage scannographique apporte la preuve histologique de la lésion périphérique.",
+      "D": "Faux. La médiastinoscopie biopsie les adénopathies médiastinales N2, pas une masse périphérique.",
+      "E": "Faux. Réitérer une endoscopie déjà négative est inutile face à une lésion périphérique sous-pleurale inaccessible.",
+      "_synthese": "Stratégie de biopsie dans le cancer bronchique : Lésion proximale centrale = Fibroscopie bronchique avec biopsies ; Lésion périphérique sous-pleurale = Ponction-biopsie transpariétale sous scanner ; Adénopathie médiastinale = EBUS ou médiastinoscopie.",
+      "_remarque": "Complication principale de la ponction transpariétale sous scanner : le pneumothorax (15-20% des cas, le plus souvent minime)."
+    }
+  },
+  {
+    "id": "pneumo-068",
+    "module": "pneumologie",
+    "chapitre": "Kyste hydatique du poumon",
+    "chapitre_num": 12,
+    "section": "Parasitologie thoracique",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Le kyste hydatique du poumon (cochez la ou les repenses justes) :",
+    "propositions": {
+      "A": "La localisation pulmonaire est la localisation hydatique la plus fréquente",
+      "B": "Dans la moitié des cas c'est une complication qui révèle l'existence d'un kyste hydatique du poumon",
+      "C": "L'image en nénuphar est l'aspect radiologique typique d'un kyste hydatique fissuré",
+      "D": "L'hydatidose pulmonaire multiple secondaire est due à l'ouverture d'un kyste viscéral dans la circulation de retour",
+      "E": "Le traitement chirurgical est réservé aux kystes hydatiques compliqués"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le kyste hydatique du poumon (hydatidose à Echinococcus granulosus) : 1) La localisation hépatique est la plus fréquente (60-70%), le poumon venant en 2ème position (20-30%) (A faux) ; 2) Lors de la rupture ou de la fissuration du kyste dans une bronche avec évacuation partielle du liquide hydatique, la membrane proligère se décolle, s'affaisse et flotte à la surface du liquide restant, réalisant l'image pathognomonique en 'nénuphar' (signe de la membrane flottante ou signe de Morquio) (C vrai) ; 3) Le traitement du kyste hydatique pulmonaire est CHIRURGICAL de principe, qu'il soit simple ou compliqué, afin d'éviter la rupture cataclysmique et le choc anaphylactique (E faux). Sur le corrigé type officiel certifié de Mostaganem (Page 7), la réponse C est la réponse officiellement validée.",
+    "justifications": {
+      "A": "Faux. Le foie est la localisation n°1 (environ 70%), le poumon est la 2ème localisation.",
+      "B": "Faux (non retenu sur la clé officielle). La découverte fortuite sur radiographie systématique est très fréquente.",
+      "C": "Vrai. L'aspect en nénuphar (membrane proligère flottant sur le niveau liquidien) est pathognomonique du kyste rompu/fissuré.",
+      "D": "Faux. L'hydatidose secondaire bronchique résulte de l'inhalation de scolex après vomique hydatique.",
+      "E": "Faux. Tout kyste hydatique pulmonaire diagnostiqué doit être opéré, même sain et non compliqué.",
+      "_synthese": "Signes radiologiques du kyste hydatique pulmonaire : Kyste sain = opacité ronde homogène 'en boulet de canon' ; Décollement péri-hydatique = image en croissant gazeux (signe de Morieux) ; Rupture avec vomique = image en nénuphar (membrane flottante de Morquio).",
+      "_remarque": "La vomique hydatique se traduit par le rejet brutal d'un liquide 'eau de roche' clair, salé, contenant des vésicules filles et des débris de membrane."
+    }
+  },
+  {
+    "id": "pneumo-069",
+    "module": "pneumologie",
+    "chapitre": "Pleurésie infectieuse aiguë",
+    "chapitre_num": 4,
+    "section": "Pathologies pleurales",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les maladies suivantes, lesquelles peuvent donner une pleurésie exsudative ? :",
+    "propositions": {
+      "A": "Péricardite constrictive",
+      "B": "Lupus",
+      "C": "Cirrhose hépatique",
+      "D": "Polyarthrite rhumatoïde",
+      "E": "Tuberculose"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Une pleurésie exsudative (liquide inflammatoire riche en protéines > 30-35 g/L et LDH plèvre/sérum > 0.6) résulte d'une agression directe ou inflammatoire de la plèvre. Les étiologies classiques d'exsudats sont : 1) Les infections bactériennes, virales et au premier chef la Tuberculose pleurale (E vrai) ; 2) Les connectivites et maladies auto-immunes systémiques, notamment le Lupus Érythémateux Systémique (B vrai) et la Polyarthrite Rhumatoïde (D vrai) ; 3) Les cancers primitifs ou métastatiques de la plèvre. À l'inverse, la péricardite constrictive (A) et la cirrhose hépatique décompensée (C) augmentent la pression veineuse ou diminuent la pression oncotique et donnent des TRANSUDATS pauvres en protéines (< 25 g/L).",
+    "justifications": {
+      "A": "Faux. La péricardite constrictive entraîne une stase veineuse systémique donnant un transudat.",
+      "B": "Vrai. Le lupus érythémateux systémique donne une pleurésie exsudative bilatérale riche en cellules.",
+      "C": "Faux. La cirrhose donne un hydrothorax hépatique transudatif par hypoalbuminémie et brèche diaphragmatique.",
+      "D": "Vrai. La polyarthrite rhumatoïde donne un exsudat pleural caractéristique avec effondrement du glucose pleural.",
+      "E": "Vrai. La pleurésie séro-fibrineuse tuberculeuse est l'exsudat lymphocytaire typique le plus fréquent en Algérie.",
+      "_synthese": "Causes d'exsudat pleural (Protides > 30 g/L) : Métastases pleurales et mésothéliome, Tuberculose pleurale, Pleurésies parapneumoniques, Connectivites (Lupus, PR), Embolie pulmonaire.",
+      "_remarque": "L'analyse biochimique (protides, LDH, glucose, pH) et cytologique du liquide pleural est la première étape obligatoire devant tout épanchement liquidien."
+    }
+  },
+  {
+    "id": "pneumo-070",
+    "module": "pneumologie",
+    "chapitre": "Pleurésie infectieuse aiguë",
+    "chapitre_num": 4,
+    "section": "Pathologies pleurales",
+    "source": {
+      "texte": "EMD Juin 2023 (Session Normale)",
+      "type": "EMD",
+      "annee": "2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
+      }
+    ],
+    "question": "La pleurésie parapneumonique (cochez la ou les repenses fausses) :",
+    "propositions": {
+      "A": "Représentent la cause la plus fréquente d'épanchement pleural exsudatif",
+      "B": "Les germes les plus fréquemment rencontrés sont les pneumocoques",
+      "C": "Les épanchements parapneumoniques dits « non compliqués » nécessite une simple antibiothérapie",
+      "D": "La ponction pleurale retrouve un liquide qui contient moins de 25 g/l de protides",
+      "E": "Surviennent principalement chez les patients présentant des comorbidités sous-jacentes"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "Dans cette question, il était demandé d'identifier les propositions FAUSSES concernant la pleurésie parapneumonique : D) Faux car toute pleurésie parapneumonique est un EXSUDAT inflammatoire caractérisé par un taux élevé de protides pleuraux > 30-35 g/L (et JAMAIS un transudat < 25 g/L) ; B) Faux (validé comme réponse fausse sur le corrigé officiel certifié de Mostaganem, Page 7 : bien que le pneumocoque soit fréquent dans les formes communautaires, la flore anaérobie et polymicrobienne domine dans de nombreux contextes nosocomiaux ou compliqués, ou la formulation a été sanctionnée par la faculté). Les propositions A, C et E sont exactes (première cause d'exsudat infectieux, les formes non compliquées guérissent sous antibiothérapie sans drainage, et le terrain débilité/comorbidités est prédominant).",
+    "justifications": {
+      "A": "Proposition exacte. Représente l'étiologie infectieuse exsudative la plus fréquente en pratique hospitalière.",
+      "B": "Réponse fausse (validée sur le corrigé type officiel).",
+      "C": "Proposition exacte. Un épanchement non compliqué (clair, stérile, pH > 7.20) régresse sous antibiothérapie adaptée.",
+      "D": "Réponse fausse (à cocher). C'est un exsudat majeur à haute teneur en protéines (> 30 g/L).",
+      "E": "Proposition exacte. Fréquent chez le sujet âgé, diabétique, éthylique ou BPCO.",
+      "_synthese": "Pleurésie parapneumonique : Exsudat accompagnant une pneumonie. Non compliquée (pH > 7.20, liquide stérile -> ATB seule) vs Compliquée / Empyème (pus franc, pH < 7.20, LDH > 1000 -> drainage thoracique obligatoire d'urgence).",
+      "_remarque": "Un pH pleural < 7.20 dans un épanchement parapneumonique est une indication formelle et urgente à la pose d'un drain thoracique sous peine d'enkystement fibreux."
+    }
+  },
+  {
+    "id": "pneumo-071",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pathologies bronchiques chroniques",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q21 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q21 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Un patient âgé de 25 ans est admis aux urgences pour une gêne respiratoire sévère. L'examen clinique retrouve des râles bronchiques et crépitants ainsi que des sibilants dans les deux champs pulmonaires. Le patient vous rapporte qu'il présentait des infections respiratoires récidivantes et décrit des crachats abondants devenus très purulents ces derniers temps. Vous suspectez le diagnostic de bronchectasie.\n\nQuel est l'examen qui permet le diagnostic de certitude avec une meilleure sensibilité et spécificité :",
+    "propositions": {
+      "A": "La bronchographie au Lipiodol",
+      "B": "L'IRM thoracique",
+      "C": "La radiographie numérique",
+      "D": "La scintigraphie ventilation/perfusion",
+      "E": "La TDM thoracique"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "Le diagnostic de certitude de dilatation des bronches (DDB) repose formellement sur la TDM thoracique haute résolution (TDM-HR).",
+    "justifications": {
+      "A": "Faux. La bronchographie au Lipiodol est un examen historique invasif totalement abandonné.",
+      "B": "Faux. L'IRM thoracique a une faible résolution spatiale pour l'analyse fine de la paroi bronchique et du parenchyme aérique.",
+      "C": "Faux. La radiographie standard peut montrer des images en 'rails' ou en 'bagues de chaton', mais sa sensibilité et sa spécificité sont insuffisantes pour affirmer ou éliminer avec certitude des DDB débutantes ou modérées.",
+      "D": "Faux. La scintigraphie V/Q évalue la distribution fonctionnelle et l'embolie pulmonaire, pas l'anatomie bronchique.",
+      "E": "Vrai (Corrigé officiel : E). La tomodensitométrie (TDM) thoracique haute résolution (TDM-HR) sans injection est l'examen de référence ('gold standard') pour le diagnostic positif de dilatation des bronches avec une sensibilité et spécificité > 95 % (signe de la bague à chaton, absence d'effilement bronchique, bronches visibles à moins de 1 cm de la plèvre costale).",
+      "_synthese": "Le diagnostic de certitude de dilatation des bronches (DDB) repose formellement sur la TDM thoracique haute résolution (TDM-HR).",
+      "_remarque": "Ne jamais proposer de bronchographie au Lipiodol en pratique moderne."
+    }
+  },
+  {
+    "id": "pneumo-072",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pathologies bronchiques chroniques",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q22 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q22 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Devant ce contexte clinique, quel est l'examen de première intention après avoir confirmé le diagnostic :",
+    "propositions": {
+      "A": "Le dosage sérique des immunoglobulines (IgA, IgG et IgM)",
+      "B": "Rechercher un déficit en Alpha 1 antitrypsine",
+      "C": "Une angiographie pulmonaire",
+      "D": "Une échocardiographie",
+      "E": "Un examen ECB des crachats avec test de sensibilité aux antibiotiques"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "Après confirmation d'une DDB en poussée fébrile ou purulente, l'ECBC avec antibiogramme est l'examen microbiologique de première intention.",
+    "justifications": {
+      "A": "Faux. Le dosage des immunoglobulines fait partie du bilan étiologique secondaire d'un déficit immunitaire humoral, mais pas de la prise en charge infectieuse immédiate de première intention.",
+      "B": "Faux. Le dosage de l'alpha-1-antitrypsine est recherché dans le bilan étiologique ou l'emphysème panlobulaire précoce.",
+      "C": "Faux. L'angiographie pulmonaire n'est indiquée qu'en cas d'hémoptysie grave pour embolisation artérielle bronchique.",
+      "D": "Faux. L'échocardiographie recherche un retentissement cardiaque droit (cœur pulmonaire chronique), mais n'est pas le premier geste urgent face à une bronchorrhée purulente.",
+      "E": "Vrai (Corrigé officiel : E). Devant une bronchorrhée devenue très purulente chez un patient suspect d'exacerbation de DDB, l'examen cytobactériologique des crachats (ECBC) avec antibiogramme est indispensable en première intention pour identifier le germe causal (Haemophilus influenzae, Pseudomonas aeruginosa, etc.) et adapter l'antibiothérapie.",
+      "_synthese": "Après confirmation d'une DDB en poussée fébrile ou purulente, l'ECBC avec antibiogramme est l'examen microbiologique de première intention.",
+      "_remarque": "L'ECBC doit être prélevé avant toute nouvelle antibiothérapie."
+    }
+  },
+  {
+    "id": "pneumo-073",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pathologies bronchiques chroniques",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q23 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q23 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Les grands axes thérapeutiques afin de lutter contre les composantes du cercle vicieux de Cole sont (cochez la reponse fausse) :",
+    "propositions": {
+      "A": "Assurer un bon drainage des sécrétions",
+      "B": "Contrôler la colonisation et l'infection bactérienne",
+      "C": "Traiter la fibrose pulmonaire associée par des anti-fibrotiques",
+      "D": "Traiter les complications non infectieuses",
+      "E": "Traiter l'inflammation systémique par les corticoïdes oraux"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explication": "Conformément à la grille officielle de la Faculté (clé ABD), les axes thérapeutiques clés incluent le désencombrement bronchique régulier (drainage), le contrôle de l'infection bactérienne et la prise en charge des complications.",
+    "justifications": {
+      "A": "Validé dans le corrigé officiel (A, B, D). Le drainage bronchique quotidien par kinésithérapie respiratoire est l'un des piliers majeurs de la rupture du cercle de Cole.",
+      "B": "Validé dans le corrigé officiel (A, B, D). La lutte contre l'infection et la colonisation bactérienne par une antibiothérapie ciblée permet de freiner les dégradations tissulaires.",
+      "C": "Non retenu dans la clé officielle. Les antifibrotiques ne font pas partie de la prise en charge des bronchectasies.",
+      "D": "Validé dans le corrigé officiel (A, B, D). Traiter les complications (hémoptysies, atélectasies, insuffisance respiratoire) fait partie intégrante de la gestion clinique globale.",
+      "E": "Non retenu dans la clé officielle. Les corticoïdes oraux au long cours ne sont pas recommandés pour une inflammation systémique dans la DDB en dehors d'une ABPA associée.",
+      "_synthese": "Conformément à la grille officielle de la Faculté (clé ABD), les axes thérapeutiques clés incluent le désencombrement bronchique régulier (drainage), le contrôle de l'infection bactérienne et la prise en charge des complications.",
+      "_remarque": "Clé officielle de la Faculté de Mostaganem : A, B, D."
+    }
+  },
+  {
+    "id": "pneumo-074",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pathologies bronchiques chroniques",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q24 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q24 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Après quelques semaines de sa sortie, le patient vous fait un épisode infectieux et l'examen bactériologique a mis en évidence une infection au Pseudomonas.\n\nQuelle est l'antibiothérapie préférable chez ce patient :",
+    "propositions": {
+      "A": "L'amoxicilline + Ac clavulanique",
+      "B": "Un betalactamine associé à l'imidazole",
+      "C": "Un betalactamine associé à un fluoroquinolone",
+      "D": "Un carbapename",
+      "E": "Un fluoroquinolone active sur le pneumocoque"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Toute infection documentée à Pseudomonas aeruginosa sur DDB justifie une bithérapie associant une bêtalactamine antipyocyanique et une fluoroquinolone antipyocyanique (ciprofloxacine) ou un aminoside.",
+    "justifications": {
+      "A": "Faux. L'amoxicilline-acide clavulanique n'a aucune activité sur Pseudomonas aeruginosa.",
+      "B": "Faux. Les imidazolés ciblent les anaérobies stricts et n'ont pas d'effet antipyocyanique.",
+      "C": "Vrai (Corrigé officiel : C). L'antibiothérapie d'une exacerbation à Pseudomonas aeruginosa nécessite une association synergique d'une bêtalactamine antipyocyanique (ex. ceftazidime, pipéracilline-tazobactam ou céfépime) associée à une fluoroquinolone antipyocyanique (ciprofloxacine) ou un aminoside (amikacine, tobramycine) pour éviter l'émergence rapide de mutants résistants.",
+      "D": "Faux. Le carbapénème (méropénème) est une molécule de réserve à garder pour les souches multi-résistantes et ne doit pas être utilisé d'emblée en monothérapie simple si d'autres options existent.",
+      "E": "Faux. La lévofloxacine/moxifloxacine (fluoroquinolones antipneumococciques) ne sont pas optimales contre Pseudomonas (la ciprofloxacine est la fluoroquinolone de référence antipyocyanique).",
+      "_synthese": "Toute infection documentée à Pseudomonas aeruginosa sur DDB justifie une bithérapie associant une bêtalactamine antipyocyanique et une fluoroquinolone antipyocyanique (ciprofloxacine) ou un aminoside.",
+      "_remarque": "Règle de prescription : ne jamais traiter Pseudomonas en monothérapie de routine."
+    }
+  },
+  {
+    "id": "pneumo-075",
+    "module": "pneumologie",
+    "chapitre": "Tumeurs du médiastin",
+    "chapitre_num": 21,
+    "section": "Pathologie médiastinale",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q25 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q25 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Un jeune patient se présente pour une douleur thoracique. L'examen radiographique objective une opacité médiastinale avec un signe de silhouette positif avec l'opacité cardiaque.\n\nQuels sont les arguments cliniques qui plaident en faveur d'un syndrome du médiastin antérieur :",
+    "propositions": {
+      "A": "La dysphagie",
+      "B": "L'œdème en pèlerine",
+      "C": "La dysphonie",
+      "D": "La turgescence des veines jugulaires",
+      "E": "La circulation veineuse collatérale du thorax"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Le syndrome du médiastin antérieur est dominé cliniquement par le syndrome de compression de la veine cave supérieure : œdème en pèlerine, turgescence des veines jugulaires, et circulation veineuse collatérale pré-thoracique (triade B, D, E).",
+    "justifications": {
+      "A": "Faux. La dysphagie résulte d'une compression œsophagienne, caractéristique du médiastin moyen ou postérieur.",
+      "B": "Vrai (Corrigé officiel : B). L'œdème en pèlerine (face, cou, partie supérieure du thorax) est l'un des signes majeurs de compression de la veine cave supérieure, située dans le médiastin antérieur et moyen.",
+      "C": "Faux. La dysphonie (paralysie de la corde vocale gauche par atteinte du nerf récurrent) oriente préférentiellement vers une atteinte sous-aortique (médiastin moyen).",
+      "D": "Vrai (Corrigé officiel : D). La turgescence jugulaire bilatérale sans reflux hépato-jugulaire est un signe cardinal du syndrome cave supérieur (médiastin antérieur/moyen).",
+      "E": "Vrai (Corrigé officiel : E). La circulation veineuse collatérale (CVC) thoracique antérieure témoigne de l'obstacle mécanique sur le retour veineux cave supérieur.",
+      "_synthese": "Le syndrome du médiastin antérieur est dominé cliniquement par le syndrome de compression de la veine cave supérieure : œdème en pèlerine, turgescence des veines jugulaires, et circulation veineuse collatérale pré-thoracique (triade B, D, E).",
+      "_remarque": "Signe de silhouette positif avec le bord du cœur = lésion située dans le même plan anatomique antérieur."
+    }
+  },
+  {
+    "id": "pneumo-076",
+    "module": "pneumologie",
+    "chapitre": "Prise en charge et traitement de l'asthme",
+    "chapitre_num": 14,
+    "section": "Maladies obstructives",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q26 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q26 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Le traitement d'une crise d'asthme légère fait intervenir :",
+    "propositions": {
+      "A": "Les bêta2 agonistes de courte durée d'action",
+      "B": "Les corticoïdes inhalés",
+      "C": "Les anti-leucotriènes",
+      "D": "Les corticoïdes par voie générale",
+      "E": "La théophylline"
+    },
+    "bonnes_reponses": [
+      "A"
+    ],
+    "explication": "La crise d'asthme légère se traite en première intention par les bêta-2 mimétiques d'action rapide et de courte durée inhalés (SABA).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Le traitement de première intention d'une crise d'asthme légère repose sur l'inhalation d'un bronchodilatateur bêta-2 agoniste d'action rapide et de courte durée (SABA : salbutamol ou terbutaline), à raison de 2 à 4 bouffées renouvelables.",
+      "B": "Faux. Les CSI sont le traitement de fond anti-inflammatoire continu (ou en association avec le formotérol selon GINA), mais pour une crise légère isolée, la réponse immédiate symptomatique repose sur le bronchodilatateur d'action rapide.",
+      "C": "Faux. Les anti-leucotriènes (montélukast) sont un traitement de fond oral de seconde intention, sans place dans le traitement aigu de la crise.",
+      "D": "Faux. La corticothérapie systémique est réservée aux crises modérées à sévères ou en cas de non-réponse aux SABA après 1 heure.",
+      "E": "Faux. La théophylline n'a aucune indication dans la crise d'asthme en raison de sa marge thérapeutique étroite et de ses effets secondaires toxiques.",
+      "_synthese": "La crise d'asthme légère se traite en première intention par les bêta-2 mimétiques d'action rapide et de courte durée inhalés (SABA).",
+      "_remarque": "Évaluation de la réponse après 15-20 minutes requise."
+    }
+  },
+  {
+    "id": "pneumo-077",
+    "module": "pneumologie",
+    "chapitre": "Prise en charge et traitement de l'asthme",
+    "chapitre_num": 14,
+    "section": "Maladies obstructives",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q27 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q27 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Au cours d'une crise d'asthme sévère, quelle est l'affirmation vraie ?",
+    "propositions": {
+      "A": "La radiographie standard n'est jamais normale",
+      "B": "Le traitement repose sur oxygénation, bronchodilatateurs et corticoïdes",
+      "C": "Il faut absolument allonger le malade bien à plat",
+      "D": "Les antibiotiques doivent être prescrits systématiquement",
+      "E": "En cas de persistance de la crise, il ne faut surtout pas orienter le malade vers un secteur spécialisé de réanimation"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "La prise en charge de la crise d'asthme sévère repose indissociablement sur le triptyque : Oxygénothérapie, Bronchodilatateurs nébulisés à forte dose et Corticoïdes systémiques précoces.",
+    "justifications": {
+      "A": "Faux. La radiographie thoracique peut être strictement normale ou montrer uniquement une distension thoracique aiguë sans foyer surajouté.",
+      "B": "Vrai (Corrigé officiel : B). Le trépied thérapeutique d'urgence de la crise d'asthme sévère associe : oxygénothérapie à fort débit (visant SpO2 93-95 %), bronchodilatateurs bêta-2 agonistes à forte dose nébulisés avec anticholinergique (ipratropium), et corticothérapie générale précoce (1 mg/kg d'équivalent prednisone).",
+      "C": "Faux. L'allongement à plat aggrave la détresse respiratoire ; le patient doit impérativement être maintenu en position assise ou demi-assise.",
+      "D": "Faux. Les antibiotiques ne sont pas indiqués systématiquement car les crises d'asthme sont déclenchées par des infections virales, des allergènes ou l'effort, et non par des bactéries.",
+      "E": "Faux. Tout asthme aigu grave persistant ou avec signes d'épuisement impose un transfert immédiat en unité de soins intensifs ou en réanimation.",
+      "_synthese": "La prise en charge de la crise d'asthme sévère repose indissociablement sur le triptyque : Oxygénothérapie, Bronchodilatateurs nébulisés à forte dose et Corticoïdes systémiques précoces.",
+      "_remarque": "Position demi-assise indispensable ; jamais couché à plat !"
+    }
+  },
+  {
+    "id": "pneumo-078",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Maladies obstructives",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q28 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q28 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Le débimètre de pointe permet :",
+    "propositions": {
+      "A": "La mesure du volume expiratoire maximal au cours de la première seconde",
+      "B": "La surveillance des patients asthmatiques hospitalisés",
+      "C": "La mesure du débit expiratoire de pointe",
+      "D": "La surveillance des patients asthmatiques à leur domicile",
+      "E": "La mesure de la capacité vitale"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le débitmètre de pointe (peak flow) mesure le débit expiratoire de pointe (DEP) et permet la surveillance clinique de l'asthme tant en milieu hospitalier qu'au domicile du patient (options B, C, D).",
+    "justifications": {
+      "A": "Faux. Le VEMS nécessite un spiromètre étalonné avec intégration du volume sur le temps ; le débitmètre de pointe mesure uniquement un débit de pointe instantané (L/min).",
+      "B": "Vrai (Corrigé officiel : B). Il permet de surveiller l'évolution objective sous traitement des patients asthmatiques hospitalisés.",
+      "C": "Vrai (Corrigé officiel : C). Le 'peak flow meter' mesure le débit expiratoire de pointe (DEP), qui correspond au débit maximal atteint lors d'une expiration forcée brève.",
+      "D": "Vrai (Corrigé officiel : D). C'est un instrument d'automesure essentiel à domicile dans le cadre du plan d'action personnalisé.",
+      "E": "Faux. La capacité vitale (CV) nécessite un spiromètre complet.",
+      "_synthese": "Le débitmètre de pointe (peak flow) mesure le débit expiratoire de pointe (DEP) et permet la surveillance clinique de l'asthme tant en milieu hospitalier qu'au domicile du patient (options B, C, D).",
+      "_remarque": "Le DEP s'exprime en L/min (contrairement au VEMS exprimé en Litres)."
+    }
+  },
+  {
+    "id": "pneumo-079",
+    "module": "pneumologie",
+    "chapitre": "Kyste hydatique du poumon",
+    "chapitre_num": 12,
+    "section": "Parasitologie pulmonaire",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q29 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q29 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "L'atteinte pulmonaire par le kyste hydatique :",
+    "propositions": {
+      "A": "Est aussi fréquente qu'au niveau du foie",
+      "B": "Résulte du développement de la forme larvaire du parasite dans le parenchyme pulmonaire",
+      "C": "Est secondaire à une localisation digestive",
+      "D": "Est secondaire au contact direct avec les moutons",
+      "E": "Entraîne la formation au niveau du parenchyme d'un périkyste"
+    },
+    "bonnes_reponses": [
+      "B",
+      "E"
+    ],
+    "explication": "Le kyste hydatique pulmonaire correspond au développement intraparenchymateux de la larve d'Echinococcus granulosus (B), entourée d'une réaction fibreuse de l'hôte formant le périkyste (E).",
+    "justifications": {
+      "A": "Faux. Le foie est la localisation la plus fréquente (60-70 %) ; le poumon vient en 2ème position (20-30 %).",
+      "B": "Vrai (Corrigé officiel : B). Le kyste hydatique pulmonaire est dû au développement dans le parenchyme de la forme larvaire d'Echinococcus granulosus (hydatide).",
+      "C": "Faux. L'embryon hexacanthe franchit la barrière intestinale puis les filtres hépatique et pulmonaire ; il ne s'agit pas d'une métastase d'un kyste digestif.",
+      "D": "Faux. La contamination humaine se fait par ingestion d'embryophores éliminés par l'hôte définitif (le chien), soit par contact direct avec le chien, soit par consommation d'eau ou de végétaux souillés, et non par le mouton (hôte intermédiaire).",
+      "E": "Vrai (Corrigé officiel : E). Le parenchyme pulmonaire de l'hôte réagit en formant une coque fibreuse fibro-conjonctive et vasculaire entourant le parasite : l'adventice ou périkyste.",
+      "_synthese": "Le kyste hydatique pulmonaire correspond au développement intraparenchymateux de la larve d'Echinococcus granulosus (B), entourée d'une réaction fibreuse de l'hôte formant le périkyste (E).",
+      "_remarque": "L'homme est un hôte intermédiaire accidentel (impasse parasitaire) contaminé par les déjections du chien."
+    }
+  },
+  {
+    "id": "pneumo-080",
+    "module": "pneumologie",
+    "chapitre": "Hypertension artérielle pulmonaire",
+    "chapitre_num": 15,
+    "section": "Vaisseaux pulmonaires",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q30 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q30 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Quelles sont les pathologies qui appartiennent au groupe 1 de la classification clinique des HTAP :",
+    "propositions": {
+      "A": "Connectivite",
+      "B": "Sténose des veines pulmonaires",
+      "C": "Maladies de système, sarcoïdose",
+      "D": "Hypertension portale",
+      "E": "Troubles ventilatoires du sommeil"
+    },
+    "bonnes_reponses": [
+      "A",
+      "D"
+    ],
+    "explication": "Le Groupe 1 de l'HTAP rassemble l'HTAP idiopathique, héritable, médicamenteuse et les HTAP associées : connectivites (A), infection par le VIH, hypertension portale (D), cardiopathies congénitales et schistosomiase.",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Les connectivites (sclérodermie systémique, lupus érythémateux disséminé) sont des causes majeures d'HTAP pré-capillaire du Groupe 1 (HTAP associée).",
+      "B": "Faux. La maladie veino-occlusive et l'hémangiomatose capillaire pulmonaire sont dans le sous-groupe 1' (ou 1b), et les sténoses des veines pulmonaires congénitales ou post-ablation sont classées avec les causes post-capillaires.",
+      "C": "Faux. La sarcoïdose et les histiocytoses appartiennent au Groupe 5 (HTAP de mécanisme complexe ou multifactoriel).",
+      "D": "Vrai (Corrigé officiel : D). L'hypertension porto-pulmonaire (secondaire à une hypertension portale) fait partie du Groupe 1 de la classification de Nice/ESC/ERS.",
+      "E": "Faux. Les troubles respiratoires du sommeil (SAOS) appartiennent au Groupe 3 (HTAP associée aux maladies respiratoires et/ou à l'hypoxémie).",
+      "_synthese": "Le Groupe 1 de l'HTAP rassemble l'HTAP idiopathique, héritable, médicamenteuse et les HTAP associées : connectivites (A), infection par le VIH, hypertension portale (D), cardiopathies congénitales et schistosomiase.",
+      "_remarque": "Groupe 1 = HTAP vraie pré-capillaire ; Groupe 2 = post-capillaire (cœur gauche) ; Groupe 3 = hypoxie/poumon ; Groupe 4 = post-embolique chronique (HTP-TEC) ; Groupe 5 = multifactoriel."
+    }
+  },
+  {
+    "id": "pneumo-081",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q31 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q31 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Les syndromes paranéoplasiques susceptibles d'être observés au cours des cancers bronchiques sont :",
+    "propositions": {
+      "A": "Le syndrome de SCHWARTZ-BARTTER",
+      "B": "L'hippocratisme digital",
+      "C": "La neuropathie sensitive de Denny-Brown",
+      "D": "Le pseudo myasthénie de Lambert-Eaton",
+      "E": "L'hypercalcémie"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "explication": "Toutes les propositions (A, B, C, D, E) constituent des syndromes paranéoplasiques classiques du cancer bronchique (endocriniens, rhumatologiques ou neurologiques).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Sécrétion inappropriée d'ADH (SIADH ou syndrome de Schwartz-Bartter), typique du CBPC (cancer bronchique à petites cellules).",
+      "B": "Vrai (Corrigé officiel : B). Hippocratisme digital isolé ou intégré au syndrome de Pierre-Marie (ostéoarthropathie hypertrophiante pneumique), très fréquent dans les CPC non à petites cellules.",
+      "C": "Vrai (Corrigé officiel : C). Neuronopathie sensitive subaiguë de Denny-Brown (anticorps anti-Hu), paranéoplasique classique du CBPC.",
+      "D": "Vrai (Corrigé officiel : D). Syndrome myasthéniforme de Lambert-Eaton (auto-anticorps dirigés contre les canaux calciques voltage-dépendants présynaptiques), associé dans > 50 % des cas au CBPC.",
+      "E": "Vrai (Corrigé officiel : E). Hypercalcémie paranéoplasique par sécrétion de PTH-rp, observée principalement dans les carcinomes épidermoïdes.",
+      "_synthese": "Toutes les propositions (A, B, C, D, E) constituent des syndromes paranéoplasiques classiques du cancer bronchique (endocriniens, rhumatologiques ou neurologiques).",
+      "_remarque": "Corrigé type officiel : A, B, C, D, E (toutes justes)."
+    }
+  },
+  {
+    "id": "pneumo-082",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q32 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q32 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Quel est le traitement d'un cancer bronchique à petites cellules localisé chez un patient de 40 ans ?",
+    "propositions": {
+      "A": "Chirurgie d'exérèse",
+      "B": "Chimiothérapie seule (6cures)",
+      "C": "Chirurgie d'exérèse suivie de chimiothérapie",
+      "D": "Radiothérapie seule",
+      "E": "Association chimiothérapie - radiothérapie"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "Pour un CBPC de stade localisé, le traitement standard est la radio-chimiothérapie concomitante.",
+    "justifications": {
+      "A": "Faux. La chirurgie n'est envisageable que dans des formes rarissimes T1-T2 N0 M0 (< 5 % des cas).",
+      "B": "Faux. Dans les formes localisées, la chimiothérapie seule donne un taux de récidive locorégionale élevé ; elle doit être combinée à la radiothérapie thoracique.",
+      "C": "Faux. La chirurgie première n'est pas le standard du CBPC.",
+      "D": "Faux. La radiothérapie seule est insuffisante pour cette tumeur hautement disséminante au niveau systémique.",
+      "E": "Vrai (Corrigé officiel : E). Le traitement de référence du cancer bronchique à petites cellules (CBPC) au stade localisé (limité à un hémithorax) chez un sujet jeune en bon état général repose sur la radio-chimiothérapie concomitante (sels de platine + étoposide associés à une irradiation thoracique précoce), suivie d'une irradiation encéphalique prophylactique (PCI) en cas de réponse complète.",
+      "_synthese": "Pour un CBPC de stade localisé, le traitement standard est la radio-chimiothérapie concomitante.",
+      "_remarque": "L'irradiation encéphalique prophylactique (PCI) complète la prise en charge après réponse."
+    }
+  },
+  {
+    "id": "pneumo-083",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pathologies interstitielles",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q33 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q33 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "L'histopathologie des PID chroniques : cochez, la ou les réponses justes :",
+    "propositions": {
+      "A": "La sarcoïdose est caractérisée par un granulome tuberculoïde avec ou sans nécrose caséeuse",
+      "B": "La pneumopathie d'hypersensibilité est caractérisée par une atteinte inflammatoire cellulaire bronchiolaire et alvéolaire",
+      "C": "L'atteinte histologique des PID chroniques concerne que les parois alvéolo-capillaires",
+      "D": "La fibrose pulmonaire idiopathique se manifeste par une atteinte fibrotique intra lobulaire",
+      "E": "L'histiocytose Langerhansienne est caractérisée par un rayon de miel"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "explication": "En histopathologie des PID : la PHS donne une infiltration bronchiolaire et alvéolaire (B), et la FPI présente une fibrose intra-lobulaire hétérogène (D). Le granulome de la sarcoïdose est dénué de caséum.",
+    "justifications": {
+      "A": "Faux. Le granulome sarcoïdien est strictement SANS nécrose caséeuse ; la présence de nécrose caséeuse signe formellement la tuberculose.",
+      "B": "Vrai (Corrigé officiel : B). La pneumopathie d'hypersensibilité (PHS) subaiguë/chronique associe une bronchiolite cellulaire, une alvéolite lymphocytaire et de petits granulomes épithélioïdes non caséeux péri-bronchiolaires.",
+      "C": "Faux. Les PID chroniques touchent également le tissu conjonctif péribronchovasculaire, les septa interlobulaires et la plèvre viscérale.",
+      "D": "Vrai (Corrigé officiel : D). La FPI correspond au patron histologique de pneumopathie interstitielle commune (PIC / UIP) caractérisé par une fibrose mutilante avec foyers de fibroblastes au sein du lobule pulmonaire secondaire (intra-lobulaire et sous-pleural).",
+      "E": "Faux. L'histiocytose langerhansienne est caractérisée par des granulomes éosinophiles péribronchiolaires à cellules de Langerhans (CD1a+), évoluant vers des nodules puis des kystes à parois épaisses puis fines à prédominance apicale.",
+      "_synthese": "En histopathologie des PID : la PHS donne une infiltration bronchiolaire et alvéolaire (B), et la FPI présente une fibrose intra-lobulaire hétérogène (D). Le granulome de la sarcoïdose est dénué de caséum.",
+      "_remarque": "Absence de caséum = critère diagnostique fondamental de la sarcoïdose."
+    }
+  },
+  {
+    "id": "pneumo-084",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pathologies interstitielles",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q34 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q34 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Vous recevez en consultation un homme âgé de 54 ans sans antécédents particuliers, tabagique à raison de 25 PA non sevré qui se plaint de toux sèche chronique avec une dyspnée d'effort depuis un an. L'examen clinique retrouve : un homme en bon état général, téguments et conjonctives normocolorés, poids : 85 kg, taille : 1 m 78, T° : 37,2 °C, FC : 90 BPM, SpO2 : 95 % à l'air ambiant, TA : 130/85. L'inspection retrouve un léger hippocratisme digital et à l'auscultation des râles crépitants secs dans les deux bases pulmonaires.\n\nQuels sont les éléments cliniques et paracliniques recherchés pour orienter votre diagnostic :",
+    "propositions": {
+      "A": "Notion de douleur thoracique à l'effort à irradiation brachiale et sous-maxillaire",
+      "B": "Des signes cliniques extra thoraciques évocateurs d'une maladie de système",
+      "C": "Une évaluation cardiaque avec épreuve d'effort",
+      "D": "Une TDM thoracique haute résolution",
+      "E": "Une spirométrie plus test de marche de 6 minutes"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Face à une suspicion de PID (crépitants secs 'Velcro' des bases et hippocratisme digital chez un fumeur de la cinquantaine), le bilan d'orientation associe la recherche de signes de maladie de système (B), la TDM-HR (D) et l'évaluation fonctionnelle (EFR + TM6, E).",
+    "justifications": {
+      "A": "Faux. C'est la sémiologie d'un angor d'effort coronarien, non liée à l'exploration étiologique d'une PID.",
+      "B": "Vrai (Corrigé officiel : B). Devant une PID, la recherche systématique de manifestations de connectivite ou maladie systémique (Raynaud, arthralgies, sclérodactylie, œil sec, éruptions) est primordiale.",
+      "C": "Faux. L'évaluation cardiaque par épreuve d'effort n'est pas le bilan orienté de première intention pour une PID.",
+      "D": "Vrai (Corrigé officiel : D). La TDM-HR en coupes millimétriques est l'examen clé fondamental pour caractériser le profil radiologique de la pneumopathie infiltrative (rayons de miel, réticulations, bronchectasies de traction).",
+      "E": "Vrai (Corrigé officiel : E). L'évaluation fonctionnelle respiratoire (spirométrie avec volumes et DLCO) et le test de marche de 6 minutes (TM6) mesurent la sévérité du déficit restrictif et la désaturation à l'exercice.",
+      "_synthese": "Face à une suspicion de PID (crépitants secs 'Velcro' des bases et hippocratisme digital chez un fumeur de la cinquantaine), le bilan d'orientation associe la recherche de signes de maladie de système (B), la TDM-HR (D) et l'évaluation fonctionnelle (EFR + TM6, E).",
+      "_remarque": "La triade B, D, E représente les piliers diagnostiques initiaux recommandés."
+    }
+  },
+  {
+    "id": "pneumo-085",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pathologies interstitielles",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q35 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q35 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "L'évaluation cardiaque ainsi que l'épreuve d'effort sont revenues normales ; la TDM thoracique montre des lésions kystiques en rayon de miel de siège sous-pleural à prédominance basale, la spirométrie CVF 49%, VEMS 48 %, VEMS/CVF : 94.\n\nQuel est votre diagnostic et quel serait votre conduite à tenir : (QCM)",
+    "propositions": {
+      "A": "Il s'agit d'une PID aigue fibrosante",
+      "B": "Cardiomyopathie dilatée avec HTAP",
+      "C": "Faire la fibroscopie avec LBA pour compléter le diagnostic",
+      "D": "C'est une fibrose pulmonaire idiopathique avec altération de la fonction pulmonaire",
+      "E": "Compléter le bilan fonctionnel et proposer un traitement de la fibrose"
+    },
+    "bonnes_reponses": [
+      "D",
+      "E"
+    ],
+    "explication": "Le tableau scanographique typique de PIC (rayon de miel sous-pleural) chez ce patient confirme une fibrose pulmonaire idiopathique (FPI) avec restriction sévère (D), justifiant un traitement antifibrotique et bilan fonctionnel complet (E).",
+    "justifications": {
+      "A": "Faux. La dyspnée évolue depuis un an ; il s'agit d'une PID chronique et non pas aiguë.",
+      "B": "Faux. L'évaluation cardiaque est normale et le trouble est purement parenchymateux interstitiel.",
+      "C": "Faux. En présence d'un aspect scanographique typique de PIC (rayons de miel sous-pleuraux basaux) chez un patient de plus de 50 ans sans cause retrouvée, le diagnostic de FPI est retenu sans nécessité d'un LBA ni de biopsie pulmonaire.",
+      "D": "Vrai (Corrigé officiel : D). Les critères ATS/ERS/JRS/ALAT de fibrose pulmonaire idiopathique (FPI) sont réunis : âge > 50 ans, aspect typique de PIC en TDM-HR (rayons de miel sous-pleuraux basaux), absence d'exposition environnementale/médicamenteuse ou de connectivite, avec syndrome ventilatoire restrictif sévère (CVF 49 %, VEMS/CVF conservé à 94 %).",
+      "E": "Vrai (Corrigé officiel : E). Il faut compléter le bilan fonctionnel (mesure de la DLCO, gazométrie artérielle, TM6) et instaurer un traitement antifibrotique spécifique (pirfénidone ou nintédanib) en concertation pluridisciplinaire.",
+      "_synthese": "Le tableau scanographique typique de PIC (rayon de miel sous-pleural) chez ce patient confirme une fibrose pulmonaire idiopathique (FPI) avec restriction sévère (D), justifiant un traitement antifibrotique et bilan fonctionnel complet (E).",
+      "_remarque": "Rayon de miel sous-pleural basal = aspect scanographique certain d'UIP (PIC) ne nécessitant pas de biopsie."
+    }
+  },
+  {
+    "id": "pneumo-086",
+    "module": "pneumologie",
+    "chapitre": "Sarcoïdose",
+    "chapitre_num": 18,
+    "section": "Pathologies interstitielles & granulomateuses",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q36 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q36 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Le diagnostic de la sarcoïdose repose sur :",
+    "propositions": {
+      "A": "Une imagerie thoracique évocatrice d'une PID fibrosante",
+      "B": "Un tableau clinique et radiologique évocateur de sarcoïdose",
+      "C": "Un bilan biologique objectivement une perturbation du bilan protidique",
+      "D": "Une anatomopathologie évocatrice d'un granulome tuberculoïde sans nécrose caséeuse",
+      "E": "Élimination des autres granulomatoses"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Le trépied diagnostique de la sarcoïdose repose obligatoirement sur : 1) Présentation clinicoradiologique compatible (B) ; 2) Preuve histologique du granulome sans nécrose caséeuse (D) ; 3) Élimination des autres causes de granulomes, notamment infectieuses (E).",
+    "justifications": {
+      "A": "Faux. L'imagerie de la sarcoïdose montre typiquement des adénopathies hilaires bilatérales et médiastinales non compressives symétriques (stade I) ou des micronodules périlymphatiques à prédominance supérieure et postérieure (stade II), et non une fibrose d'emblée.",
+      "B": "Vrai (Corrigé officiel : B). Un tableau clinicoradiologique compatible est la première condition diagnostique indispensable.",
+      "C": "Faux. L'hypergammaglobulinémie polyclonale est fréquente mais inconstante et non spécifique, ne suffisant jamais à poser le diagnostic.",
+      "D": "Vrai (Corrigé officiel : D). La mise en évidence histologique d'un granulome épithélioïde et gigantocellulaire sans nécrose caséeuse sur au moins un site biopsique.",
+      "E": "Vrai (Corrigé officiel : E). L'exclusion rigoureuse de toutes les autres causes de granulomatose (en premier lieu la tuberculose, mais aussi mycoses, bérylliose, vascularites, médicaments).",
+      "_synthese": "Le trépied diagnostique de la sarcoïdose repose obligatoirement sur : 1) Présentation clinicoradiologique compatible (B) ; 2) Preuve histologique du granulome sans nécrose caséeuse (D) ; 3) Élimination des autres causes de granulomes, notamment infectieuses (E).",
+      "_remarque": "Seul le syndrome de Löfgren typique permet de porter le diagnostic sans biopsie."
+    }
+  },
+  {
+    "id": "pneumo-087",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles respiratoires du sommeil",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q37 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q37 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "À propos de la physiopathologie du SAOS :",
+    "propositions": {
+      "A": "Réduction du calibre des voies aériennes inférieures par perturbation neurologique centrale",
+      "B": "Fermeture des VAS par diminution du tonus les muscle dilatateur oropharyngé",
+      "C": "Dépression des centres respiratoires secondaire à une prise de médicament sédatif",
+      "D": "Une grosse base de la langue, hypertrophie amygdalienne ou retrognathie sont des facteurs anatomiques impliqués dans l'obstruction des VAS lors du Sommeil",
+      "E": "L'obésité est un facteur de risque majeur d'un SAOS"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "La physiopathologie du SAOS associe un collapsus des VAS par diminution du tonus des muscles dilatateurs (B), des facteurs anatomiques pharyngés ou mandibulaires (D), favorisés au premier plan par l'obésité (E).",
+    "justifications": {
+      "A": "Faux. Le SAOS concerne les voies aériennes supérieures (VAS pharyngées) et non inférieures.",
+      "B": "Vrai (Corrigé officiel : B). Lors du passage en sommeil, la baisse physiologique du tonus des muscles dilatateurs du pharynx (notamment le génioglosse) favorise le collapsus des VAS sous l'effet de la pression négative inspiratoire.",
+      "C": "Faux. La dépression des centres respiratoires caractérise les apnées centrales du sommeil et non le mécanisme obstructif mécanique prédominant du SAOS.",
+      "D": "Vrai (Corrigé officiel : D). Les anomalies anatomiques cranio-faciales réduisant l'espace pharyngé (rétrognathie, micrognathie, macroglossie, hypertrophie amygdalienne) sont des facteurs prédisposants majeurs.",
+      "E": "Vrai (Corrigé officiel : E). L'obésité (particulièrement androïde avec infiltration graisseuse cervicale) est le facteur de risque le plus fréquent et le plus puissant de collapsus des voies aériennes supérieures au cours du sommeil.",
+      "_synthese": "La physiopathologie du SAOS associe un collapsus des VAS par diminution du tonus des muscles dilatateurs (B), des facteurs anatomiques pharyngés ou mandibulaires (D), favorisés au premier plan par l'obésité (E).",
+      "_remarque": "Obésité + rétrognathie = terrain anatomique et mécanique classique d'obstruction nocturne."
+    }
+  },
+  {
+    "id": "pneumo-088",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles respiratoires du sommeil",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q38 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q38 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "La démarche diagnostique devant la suspicion d'un SAOS :",
+    "propositions": {
+      "A": "Évaluation clinique de la qualité de vie grâce au CAT",
+      "B": "Évaluation de la probabilité clinique par l'échelle d'Epworth",
+      "C": "Un examen clinique à la recherche d'un hippocratisme digital",
+      "D": "Un enregistrement polygraphique",
+      "E": "Un examen clinique à la recherche d'obésité et de malformation crânio-faciales"
+    },
+    "bonnes_reponses": [
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "La démarche diagnostique d'un SAOS comprend l'évaluation de la somnolence par l'échelle d'Epworth (B), l'enregistrement du sommeil par polygraphie ventilatoire (D) et l'examen clinique morphologique ciblant obésité et dysmorphies cranio-faciales (E).",
+    "justifications": {
+      "A": "Faux. Le CAT (COPD Assessment Test) évalue l'impact de la BPCO sur la qualité de vie, non le SAOS.",
+      "B": "Vrai (Corrigé officiel : B). L'échelle de somnolence d'Epworth (score sur 24) quantifie la somnolence diurne subjective et oriente la probabilité clinique.",
+      "C": "Faux. L'hippocratisme digital n'a aucun lien avec le SAOS (il oriente vers cancer, DDB, PID, suppuration).",
+      "D": "Vrai (Corrigé officiel : D). La polygraphie ventilatoire nocturne (ou la polysomnographie) est l'examen paraclinique indispensable pour confirmer le diagnostic et mesurer l'IAH.",
+      "E": "Vrai (Corrigé officiel : E). L'examen clinique recherche systématiquement un surpoids/obésité (IMC, tour de cou) et des anomalies des voies aériennes ou du massif facial (score de Mallampati, rétrognathie).",
+      "_synthese": "La démarche diagnostique d'un SAOS comprend l'évaluation de la somnolence par l'échelle d'Epworth (B), l'enregistrement du sommeil par polygraphie ventilatoire (D) et l'examen clinique morphologique ciblant obésité et dysmorphies cranio-faciales (E).",
+      "_remarque": "Un score d'Epworth > 10 définit une somnolence diurne excessive anormale."
+    }
+  },
+  {
+    "id": "pneumo-089",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles respiratoires du sommeil",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q39 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q39 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "L'Enregistrement polygraphique étudie :",
+    "propositions": {
+      "A": "Le flux aérien naso-buccal",
+      "B": "L'Activité cérébrale",
+      "C": "L'Enregistrement du ronflement",
+      "D": "L'Enregistrement de l'activité oculaire",
+      "E": "L'Analyse des mouvements thoraco-abdominaux"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explication": "La polygraphie ventilatoire nocturne enregistre les paramètres cardiorespiratoires : flux d'air naso-buccal (A), ronflement (C), mouvements thoraco-abdominaux (E), oxymétrie de pouls et fréquence cardiaque. Elle n'intègre pas les signaux neurophysiologiques (EEG, EOG, EMG de menton).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Mesuré par une canule nasale (capteur de pression) et/ou une thermistance pour détecter les hypopnées et apnées.",
+      "B": "Faux. L'activité cérébrale (EEG) est étudiée en polysomnographie complète (PSG) pour définir les stades du sommeil, mais PAS en polygraphie ventilatoire nocturne.",
+      "C": "Vrai (Corrigé officiel : C). Le son trachéal ou un micro enregistre les ronflements acoustiques.",
+      "D": "Faux. L'électro-oculogramme (EOG) fait partie de la polysomnographie (pour repérer le sommeil paradoxal), non de la polygraphie.",
+      "E": "Vrai (Corrigé officiel : E). Mesurés par des sangles respiratoires à pléthysmographie d'inductance (effort respiratoire) pour différencier les apnées obstructives des apnées centrales.",
+      "_synthese": "La polygraphie ventilatoire nocturne enregistre les paramètres cardiorespiratoires : flux d'air naso-buccal (A), ronflement (C), mouvements thoraco-abdominaux (E), oxymétrie de pouls et fréquence cardiaque. Elle n'intègre pas les signaux neurophysiologiques (EEG, EOG, EMG de menton).",
+      "_remarque": "Polygraphie = respiratoire seul ; Polysomnographie = respiratoire + EEG/EOG/EMG (stades de sommeil)."
+    }
+  },
+  {
+    "id": "pneumo-090",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pathologies interstitielles",
+    "source": {
+      "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q40 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2022"
+    },
+    "sources": [
+      {
+        "texte": "Examen Cardio-vasculaire & Respiratoire 17/04/2022 - Q40 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2022"
+      }
+    ],
+    "question": "Le syndrome de CAPLAN dans les pneumoconioses est défini par l'association :",
+    "propositions": {
+      "A": "Sidérose et poly arthrite rhumatoïde",
+      "B": "Pachypleurite et calcification hilaire en coquille d'œuf",
+      "C": "Asbestose pulmonaire et épanchement pleural liquidien",
+      "D": "Silicose et poly arthrite rhumatoïde",
+      "E": "Silicose et sinusite chronique"
+    },
+    "bonnes_reponses": [
+      "D"
+    ],
+    "explication": "Le syndrome de Caplan-Colinet associe une pneumoconiose (silicose ou anthracosilicose) à une polyarthrite rhumatoïde (D), se manifestant radiologiquement par de volumineux nodules ronds sous-pleuraux.",
+    "justifications": {
+      "A": "Faux. La sidérose (surcharge en fer) n'entre pas dans la définition classique du syndrome de Caplan.",
+      "B": "Faux. Les calcifications hilaires en coquille d'œuf sont une caractéristique scanographique de la silicose pure.",
+      "C": "Faux. L'asbestose est liée à l'amiante et s'associe à des plaques pleurales et au mésothéliome.",
+      "D": "Vrai (Corrigé officiel : D). Le syndrome de Caplan-Colinet est défini par la survenue de volumineux nodules pulmonaires nécrobiotiques rhumatoïdes périphériques chez un patient atteint de pneumoconiose, classiquement la silicose (ou pneumoconiose des mineurs de charbon) associée à une polyarthrite rhumatoïde (PR).",
+      "E": "Faux. L'association sinusite et dilatation des bronches avec situs inversus définit le syndrome de Kartagener.",
+      "_synthese": "Le syndrome de Caplan-Colinet associe une pneumoconiose (silicose ou anthracosilicose) à une polyarthrite rhumatoïde (D), se manifestant radiologiquement par de volumineux nodules ronds sous-pleuraux.",
+      "_remarque": "Silicose + Polyarthrite Rhumatoïde = Syndrome de Caplan."
+    }
+  },
+  {
+    "id": "pneumo-091",
+    "module": "pneumologie",
+    "chapitre": "Tabac et tabagisme",
+    "chapitre_num": 20,
+    "section": "Tabacologie & Prévention",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q1 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q1 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Quelles sont les situations de prise en charge prioritaire du tabagisme :",
+    "propositions": {
+      "A": "Grossesse",
+      "B": "Pathologies liées au tabac",
+      "C": "Consultation de routine chez sujet sain",
+      "D": "Préparation à une chirurgie",
+      "E": "Simple demande de bilan biologique"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explication": "Le sevrage tabagique est une priorité absolue dans trois situations cliniques majeures à bénéfice immédiat vital : la grossesse (A) pour prévenir l'hypotrophie fœtale, la prématurité et l'hématome rétro-placentaire ; les pathologies avérées liées au tabac (B) comme la BPCO, la coronaropathie ou les cancers ; et la période préopératoire (D) pour réduire le risque d'atélectasie, d'infection nosocomiale et de lâchage de suture (idéalement >= 6 à 8 semaines avant).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). La grossesse est une urgence d'aide au sevrage afin d'éviter le retard de croissance intra-utérin (RCIU), la prématurité et la mort fœtale in utero.",
+      "B": "Vrai (Corrigé officiel : B). La survenue d'une maladie causée par le tabac (infarctus, BPCO, artériopathie, néoplasie) impose une intervention prioritaire pour stopper l'aggravation pronostique.",
+      "C": "Faux. Une consultation de routine chez un sujet sain justifie un conseil d'arrêt systématique, mais ne relève pas d'une situation d'urgence prioritaire.",
+      "D": "Vrai (Corrigé officiel : D). La préparation à une intervention chirurgicale requiert un sevrage précoce pour diviser par deux les complications respiratoires post-opératoires et optimiser la cicatrisation.",
+      "E": "Faux. Une simple demande de bilan biologique ne constitue aucunement une indication de prise en charge tabagique prioritaire.",
+      "_synthese": "Situations prioritaires du sevrage tabagique : Grossesse (A), Pathologies induites par le tabac (B) et Chirurgie programmée (D).",
+      "_remarque": "L'arrêt du tabac avant chirurgie doit idéalement être obtenu au moins 6 à 8 semaines avant l'anesthésie."
+    }
+  },
+  {
+    "id": "pneumo-092",
+    "module": "pneumologie",
+    "chapitre": "Tabac et tabagisme",
+    "chapitre_num": 20,
+    "section": "Tabacologie & Prévention",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q2 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q2 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant les substituts nicotiniques :",
+    "propositions": {
+      "A": "Les patchs assurent une libération continue de nicotine",
+      "B": "Les patchs existent uniquement en forme 24 heures",
+      "C": "Les formes rapides sont utilisées en cas de craving",
+      "D": "Les gommes sont des formes de libération prolongée",
+      "E": "La posologie peut être adaptée à la consommation tabagique"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explication": "Les substituts nicotiniques transdermiques (patchs) délivrent de la nicotine de façon lente et continue (A), existant en dispositifs de 16h ou 24h (B faux). Les formes orales d'action rapide (gommes, pastilles, sprays, inhaleurs) sont indiquées pour soulager les pulsions irrépressibles à fumer ou 'craving' (C vrai, D faux). La posologie initiale est directement adaptée au niveau de dépendance et au nombre de cigarettes fumées par jour (1 mg de nicotine par cigarette en moyenne) (E vrai).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Les timbres transdermiques diffusent la nicotine de manière passive et régulière à travers la couche cornée cutanée.",
+      "B": "Faux. Les patchs existent sous deux formes : dispositifs de 16 heures (retirés la nuit) et dispositifs de 24 heures.",
+      "C": "Vrai (Corrigé officiel : C). Les formes orales sublinguales ou gingivales ont un pic d'absorption plus rapide permettant de traiter les envies impérieuses ('cravings').",
+      "D": "Faux. Les gommes à mâcher sont des formes d'action rapide (absorption transmuqueuse jugale rapide) et non à libération prolongée.",
+      "E": "Vrai (Corrigé officiel : E). Le dosage est personnalisé : la règle classique d'équivalence est d'environ 1 mg de substitut nicotinique par cigarette fumée par jour.",
+      "_synthese": "Substituts nicotiniques : Timbres (libération lente continue sur 16h ou 24h) + Formes orales rapides (secours lors des cravings). Adaptation posologique individualisée.",
+      "_remarque": "L'association d'un patch (fond) et d'une forme orale (secours) est plus efficace que chaque traitement pris isolément."
+    }
+  },
+  {
+    "id": "pneumo-093",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pathologies bronchiques chroniques",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q3 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q3 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Les dilatations des bronches localisées, quelles propositions sont exactes ?",
+    "propositions": {
+      "A": "Elles sont souvent liées à une obstruction bronchique",
+      "B": "Un corps étranger peut en être une cause",
+      "C": "Une tumeur endobronchique peut être responsable",
+      "D": "La mucoviscidose est une cause typique de formes localisées de DDB",
+      "E": "Une compression ganglionnaire extrinsèque peut entraîner une DDB localisée"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "Les bronchectasies localisées à un seul lobe ou segment sont presque constamment secondaires à un obstacle bronchique focal (A) : inhalation d'un corps étranger méconnu (B), tumeur bénigne ou maligne endoluminale (C), ou adénopathie compressive extrinsèque (tuberculose ganglionnaire, syndrome du lobe moyen) (E). En revanche, la mucoviscidose, les déficits immunitaires et les dyskinésies ciliaires entraînent des DDB diffuses bilatérales (D faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Tout obstacle focalisé sur une bronche entraîne une rétention de sécrétions d'aval, une infection chronique et une destruction pariétale localisée.",
+      "B": "Vrai (Corrigé officiel : B). Un corps étranger inhalé ignoré est une étiologie classique de DDB localisée chez l'enfant ou le jeune adulte.",
+      "C": "Vrai (Corrigé officiel : C). Une tumeur bronchique (carcinoïde, épidermoïde) comprimant la lumière bronchique provoque des bronchectasies d'aval.",
+      "D": "Faux. La mucoviscidose est l'étiologie type des DDB bilatérales diffuses à prédominance apicale.",
+      "E": "Vrai (Corrigé officiel : E). Une adénopathie médiastino-hilaire compressive (adénofibrose post-tuberculeuse, syndrome de Brock) induit une DDB localisée du lobe moyen.",
+      "_synthese": "DDB localisées = cause locale obstructive (corps étranger, tumeur, compression ganglionnaire). DDB diffuses = causes génétiques (mucoviscidose, dyskinésie) ou déficits immunitaires.",
+      "_remarque": "Toute DDB localisée unilatérale impose une fibroscopie bronchique pour éliminer un obstacle endoluminal."
+    }
+  },
+  {
+    "id": "pneumo-094",
+    "module": "pneumologie",
+    "chapitre": "Dilatation des bronches",
+    "chapitre_num": 16,
+    "section": "Pathologies bronchiques chroniques",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q4 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q4 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant les examens d'imagerie dans les dilatations des bronches, quelles propositions sont exactes ?",
+    "propositions": {
+      "A": "La radiographie thoracique permet à elle seule de confirmer avec certitude le diagnostic de DDB",
+      "B": "La radiographie standard peut suggérer des anomalies indirectes comme des opacités ou clartés tubulées",
+      "C": "La bronchographie est actuellement abandonnée au profit de la TDM thoracique haute résolution",
+      "D": "La TDM thoracique (HR) est l'examen de référence pour confirmer le diagnostic et caractériser les DDB",
+      "E": "La TDM permet uniquement de confirmer la présence de DDB sans préciser leur extension ni leur type morphologique"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le diagnostic radiologique de certitude repose formellement sur la TDM thoracique haute résolution (TDM-HR) (D), qui a totalement supplanté la bronchographie invasive au Lipiodol (C). La TDM précise l'extension anatomique lobaire et le type morphologique (cylindrique, variqueuse, kystique/sacculaire) (E faux). La radiographie thoracique conventionnelle ne permet pas d'affirmer avec certitude le diagnostic (A faux), mais peut orienter en montrant des opacités linéaires en 'rails', des clartés en 'bagues à chaton' ou des atélectasies (B vrai).",
+    "justifications": {
+      "A": "Faux. La radiographie standard peut être strictement normale dans les formes débutantes ou cylindriques et ne suffit jamais à poser le diagnostic de certitude.",
+      "B": "Vrai (Corrigé officiel : B). Elle montre des signes évocateurs : épaississements de parois bronchiques, images en rails, clartés kystiques ou condensations rétractiles.",
+      "C": "Vrai (Corrigé officiel : C). La bronchographie au Lipiodol était toxique et invasive ; elle est totalement abandonnée.",
+      "D": "Vrai (Corrigé officiel : D). La TDM-HR en coupes millimétriques sans injection est le 'gold standard' avec une sensibilité et spécificité > 97 %.",
+      "E": "Faux. La TDM décrit précisément la cartographie complète de l'extension et le type morphologique (Reid : cylindrique, moniliforme/variqueux, kystique/ampullaire).",
+      "_synthese": "Imagerie de la DDB : TDM-HR = examen de référence absolu. Bronchographie = abandonnée. Radiographie = signes indirects d'orientation.",
+      "_remarque": "Signe scanographique pathognomonique : rapport broncho-artériel > 1 ('bague à chaton')."
+    }
+  },
+  {
+    "id": "pneumo-095",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infections respiratoires basses",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q5 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q5 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Pour la démarche diagnostique des pneumonies aiguës communautaires, quelles propositions sont exactes ?",
+    "propositions": {
+      "A": "La toux et l'expectoration purulente font partie des signes fonctionnels initiaux",
+      "B": "La présence d'un examen clinique normal permet d'exclure une PAC",
+      "C": "Le souffle tubaire est un signe en faveur d'un syndrome de condensation alvéolaire",
+      "D": "La radiographie thoracique est indispensable au diagnostic",
+      "E": "Une condensation alvéolaire systématisée peut être retrouvée à l'imagerie."
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "explication": "Le diagnostic positif de pneumonie aiguë communautaire (PAC) associe des signes cliniques respiratoires et généraux (fièvre, toux, expectorations purulentes, douleur thoracique) (A), des signes physiques de condensation alvéolaire (râles crépitants localisés, souffle tubaire, augmentation des vibrations vocales) (C) ET une opacité radiologique nouvellement apparue (condensation alvéolaire systématisée à bronchogramme aérique) (D, E). Chez la personne âgée ou déshydratée, l'examen clinique initial peut être pauvre sans exclure une PAC (B faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Toux fébrile avec crachats purulents ou rouillés constituent les signes fonctionnels classiques de PAC bactérienne.",
+      "B": "Faux. L'examen physique peut être trompeur ou pauvre au début, notamment chez le sujet âgé où la symptomatologie peut se limiter à une confusion ou une chute sans signes respiratoires francs.",
+      "C": "Vrai (Corrigé officiel : C). Le souffle tubaire (rude, de tonalité haute, perçu aux deux temps) traduit la transmission accrue des bruits laryngo-trachéaux à travers un parenchyme hépatisé condensé.",
+      "D": "Vrai (Corrigé officiel : D). La radiographie thoracique face et profil est indispensable selon toutes les recommandations (SPLF, SPILF) pour confirmer l'infiltrat pulmonaire et éliminer les diagnostics différentiels.",
+      "E": "Vrai (Corrigé officiel : E). L'opacité alvéolaire dense, homogène, non rétractile et systématisée avec bronchogramme aérien est l'aspect radiologique typique de la PAC à pneumocoque.",
+      "_synthese": "Diagnostic de PAC : Signes respiratoires fébriles (A) + Foyer de crépitants ou souffle tubaire (C) + Infiltrat radiologique obligatoire (D, E).",
+      "_remarque": "Pas de pneumonie sans opacité parenchymateuse à la radiographie thoracique."
+    }
+  },
+  {
+    "id": "pneumo-096",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie aiguë communautaire",
+    "chapitre_num": 3,
+    "section": "Infections respiratoires basses",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q6 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q6 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant l'évaluation de la gravité des pneumonies aiguës communautaires, quelles propositions sont exactes ?",
+    "propositions": {
+      "A": "Une SpO2 < 90% est un signe de gravité",
+      "B": "Une fréquence respiratoire > 30/min est un critère de gravité",
+      "C": "La présence d'une leucocytose isolée est un signe de sepsis sévère",
+      "D": "Les troubles de conscience font partie des signes de gravité",
+      "E": "L'hyperlactatémie peut être un marqueur de gravité biologique"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "L'évaluation initiale de gravité d'une PAC (critères du score CRB65 / CURB65 et de la SPLF) repose sur : la polypnée >= 30/min (B), la désaturation avec SpO2 < 90% à l'air (A), l'atteinte neurologique centrale avec confusion/altération de la vigilance (C du CRB65) (D), et sur le plan biologique l'élévation des lactates sanguins (> 2 mmol/L) témoignant d'une hypoperfusion tissulaire ou d'un choc septique (E). Une hyperleucocytose est une réponse inflammatoire physiologique banale qui ne définit pas à elle seule un sepsis sévère (C faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Une SpO2 < 90 % (ou PaO2 < 60 mmHg) signe une défaillance respiratoire aiguë imposant une hospitalisation immédiate.",
+      "B": "Vrai (Corrigé officiel : B). Le 'R' du score CRB65 (Respiratory rate >= 30/min) est un critère de gravité majeur.",
+      "C": "Faux. L'hyperleucocytose accompagne l'infection bactérienne standard ; ce sont la leuco-neutropénie (< 4 000/mm³) ou la thrombocytopénie qui sont des critères de gravité de l'ATS.",
+      "D": "Vrai (Corrigé officiel : D). Le 'C' du score CRB65 (Confusion mentale) traduit un retentissement systémique ou cérébral critique.",
+      "E": "Vrai (Corrigé officiel : E). L'hyperlactatémie (> 2 mmol/L) est le marqueur d'hypoxie cellulaire et d'état de choc septique.",
+      "_synthese": "Gravité des PAC : Score CRB65 (Confusion, FR >= 30, PA basse, Âge >= 65) + SpO2 < 90% + Hyperlactatémie.",
+      "_remarque": "CRB65 >= 1 : hospitalisation recommandée ; CRB65 >= 2 : hospitalisation en soins intensifs ou réanimation."
+    }
+  },
+  {
+    "id": "pneumo-097",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Maladies respiratoires obstructives",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q7 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q7 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi les examens suivants, lesquels font partie du bilan diagnostique initial d'une BPCO ?",
+    "propositions": {
+      "A": "Spirométrie avec test de réversibilité",
+      "B": "Télé thorax",
+      "C": "Pléthysmographie",
+      "D": "Test de marche des 6 minutes",
+      "E": "TDM thoracique"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le bilan diagnostique et d'évaluation initiale recommandé d'une BPCO comprend : la spirométrie avec mesure du rapport VEMS/CVF post-bronchodilatateur (clé de voûte diagnostique) (A), la radiographie thoracique systématique pour éliminer un cancer ou une cardiopathie associée (B), la pléthysmographie pour mesurer les volumes non mobilisables (VR, CPT) et quantifier la distension (C), et le test de marche de 6 minutes (TM6) pour évaluer la tolérance à l'effort et le pronostic fonctionnel (D). La TDM thoracique n'est pas recommandée en routine systématique de première intention sans point d'appel (E faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). La spirométrie avec test aux bronchodilatateurs est l'examen obligatoire pour affirmer le trouble ventilatoire obstructif non complètement réversible (VEMS/CVF < 0.70).",
+      "B": "Vrai (Corrigé officiel : B). Le téléthorax fait partie du bilan initial pour éliminer un cancer bronchique associé ou des comorbidités cardiothoraciques.",
+      "C": "Vrai (Corrigé officiel : C). Elle permet de quantifier le volume résiduel (VR) et le rapport VR/CPT pour affirmer la distension pulmonaire statique.",
+      "D": "Vrai (Corrigé officiel : D). Le TM6 évalue le handicap fonctionnel, la désaturation à l'effort et constitue l'un des paramètres du score pronostique BODE.",
+      "E": "Faux. La TDM thoracique n'est indiquée qu'en cas d'anomalie radiographique, de suspicion de bronchectasies ou dans le bilan pré-chirurgical d'emphysème.",
+      "_synthese": "Bilan initial BPCO : Spirométrie + test réversibilité (A), Radiographie thoracique (B), Pléthysmographie (C) et TM6 (D).",
+      "_remarque": "Critère diagnostique GOLD : VEMS/CVF post-bronchodilatateur < 0,70 (ou 70%)."
+    }
+  },
+  {
+    "id": "pneumo-098",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Maladies respiratoires obstructives",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q8 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q8 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "La définition de la bronchite chronique fait intervenir :",
+    "propositions": {
+      "A": "Une toux chronique",
+      "B": "Des anomalies radiologiques pulmonaires",
+      "C": "Une expectoration chronique",
+      "D": "Des râles sibilants aux bases",
+      "E": "Un tabagisme supérieur à 20 paquets/année"
+    },
+    "bonnes_reponses": [
+      "A",
+      "C"
+    ],
+    "explication": "La bronchite chronique est une définition purement clinique et épidémiologique : elle est définie par une hypersécrétion bronchique se traduisant par une toux (A) et une expectoration (C) quotidiennes ou quasi-quotidiennes, pendant au moins 3 mois consécutifs par an, durant au moins 2 années consécutives, en l'absence d'autre cause broncho-pulmonaire ou cardiaque identifiée.",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). La toux chronique productive est le symptôme cardinal de la définition.",
+      "B": "Faux. La définition est strictement clinique ; la radiographie pulmonaire est habituellement normale dans la bronchite chronique simple.",
+      "C": "Vrai (Corrigé officiel : C). L'expectoration chronique muqueuse ou mucopurulente ('crachat matinal du fumeur') est indissociable de la définition.",
+      "D": "Faux. Les râles sibilants signent un bronchospasme et ne font pas partie de la définition de la bronchite chronique.",
+      "E": "Faux. Le tabagisme est le principal facteur étiologique mais ne rentre pas dans la définition nosologique formelle (une bronchite chronique professionnelle peut survenir chez un non-fumeur).",
+      "_synthese": "Définition clinique de la bronchite chronique : Toux (A) + Expectoration (C) >= 3 mois consécutifs par an pendant au moins 2 années consécutives.",
+      "_remarque": "Bronchite chronique != BPCO. La BPCO requiert en plus la preuve spirométrique d'une obstruction bronchique permanente."
+    }
+  },
+  {
+    "id": "pneumo-099",
+    "module": "pneumologie",
+    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
+    "chapitre_num": 8,
+    "section": "Maladies respiratoires obstructives",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q9 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q9 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Chez un patient de 60 ans, tabagique, un des signes radiographiques suivants n'est pas compatible avec une distension thoracique. Lequel ?",
+    "propositions": {
+      "A": "Aplatissement des coupoles diaphragmatiques",
+      "B": "Élargissement de l'espace intercostale",
+      "C": "Raréfaction de la trame vasculaire bilatérale",
+      "D": "Élargissement de l'espace clair rétro-sternale",
+      "E": "Ascension des coupoles diaphragmatiques"
+    },
+    "bonnes_reponses": [
+      "E"
+    ],
+    "explication": "La distension thoracique (emphysème pulmonaire) se traduit radiologiquement par une augmentation des volumes pulmonaires : coupoles diaphragmatiques abaissées et aplaties (voire inversées au-dessous du 6e arc costal antérieur) (A vrai, E faux), élargissement horizontal des espaces intercostaux (B vrai), raréfaction vasculaire périphérique (C vrai), hyperclarté pulmonaire et élargissement de l'espace clair rétrosternal de profil (> 2,5 cm) (D vrai). L'ascension d'une coupole s'observe dans les atélectasies, les épanchements sous-diaphragmatiques ou les paralysies phréniques.",
+    "justifications": {
+      "A": "Compatible. L'aplatissement et l'abaissement des diaphragmes sont le signe radiographique le plus spécifique de distension.",
+      "B": "Compatible. L'horizontalisation et l'élargissement des espaces intercostaux traduisent le gonflement de la cage thoracique.",
+      "C": "Compatible. L'hyperclarté avec raréfaction des vaisseaux reflète la destruction alvéolo-capillaire emphysémateuse.",
+      "D": "Compatible. De profil, la distension élargit l'espace rétro-sternal et rétro-cardiaque.",
+      "E": "Incompatible (Corrigé officiel : E). L'ascension des coupoles diaphragmatiques est l'inverse de la distension ; c'est un signe de perte de volume ou d'élévation abdominale.",
+      "_synthese": "Distension thoracique à la radiographie : Abaissement et aplatissement des coupoles (jamais d'ascension), élargissement des espaces intercostaux et de l'espace rétrosternal.",
+      "_remarque": "Signe clé de l'emphysème : Coupoles abaissées sous la 10e côte postérieure / 6e côte antérieure."
+    }
+  },
+  {
+    "id": "pneumo-100",
+    "module": "pneumologie",
+    "chapitre": "Exacerbation de la BPCO",
+    "chapitre_num": 9,
+    "section": "Complications aiguës respiratoires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q10 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q10 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant l'évaluation de la sévérité d'une exacerbation aiguë de BPCO :",
+    "propositions": {
+      "A": "La dyspnée évaluée par l'échelle visuelle analogique (EVA) fait partie des critères de sévérité.",
+      "B": "La fréquence respiratoire est prise en compte dans l'évaluation de la sévérité.",
+      "C": "Le volume expiratoire maximal par seconde (VEMS) fait partie des critères utilisés pour classer la sévérité de l'exacerbation.",
+      "D": "La saturation pulsée en oxygène (SpO2) participe à l'évaluation de la sévérité.",
+      "E": "Les gaz du sang artériel peuvent contribuer à l'évaluation de la sévérité."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "L'évaluation de la sévérité d'une poussée aiguë de BPCO repose sur l'intensité clinique de la dyspnée (A), la tachypnée avec fréquence respiratoire >= 25-30/min (B), la désaturation oxymétrique (SpO2 < 90% ou chute de plus de 4%) (D), et les gaz du sang artériel (acidose respiratoire décompensée avec pH < 7.35, hypercapnie) (E). En phase aiguë d'exacerbation, la mesure spirométrique du VEMS est formellement déconseillée car non réalisable, trompeuse et potentiellement dangereuse (C faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). L'intensification brutale de la dyspnée ressentie quantifiée par EVA ou échelle de Borg est un paramètre de gravité clinique.",
+      "B": "Vrai (Corrigé officiel : B). Une polypnée >= 25 à 30/min est un critère décisionnel d'hospitalisation.",
+      "C": "Faux. La réalisation d'une spirométrie (VEMS) est contre-indiquée en phase aiguë d'exacerbation sévère (risque d'épuisement respiratoire et de bronchospasme).",
+      "D": "Vrai (Corrigé officiel : D). La SpO2 guide l'oxygénothérapie titrée (objectif 88-92 % chez le BPCO) et mesure l'hypoxémie aiguë.",
+      "E": "Vrai (Corrigé officiel : E). La gazométrie artérielle est indispensable pour dépister l'acidose respiratoire hypercapnique aiguë nécessitant une ventilation non invasive (VNI).",
+      "_synthese": "Évaluation de la sévérité d'une exacerbation de BPCO : Clinique (dyspnée, FR > 25/min, tirage) + SpO2 + Gazométrie (pH, PaCO2). Jamais de spirométrie en aigu.",
+      "_remarque": "Critère d'indication formelle de la VNI : acidose respiratoire avec pH < 7,35 et PaCO2 > 45 mmHg."
+    }
+  },
+  {
+    "id": "pneumo-101",
+    "module": "pneumologie",
+    "chapitre": "Exacerbation de la BPCO",
+    "chapitre_num": 9,
+    "section": "Complications aiguës respiratoires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q11 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q11 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Quel est le traitement bronchodilatateur et la corticothérapie systémique des exacerbations aiguës de BPCO :",
+    "propositions": {
+      "A": "Les bronchodilatateurs inhalés de courte durée d'action constituent le traitement initial de référence.",
+      "B": "Le salbutamol est un anticholinergique de courte durée d'action.",
+      "C": "Chez un patient coopérant, l'administration par inhalateur doseur associé à une chambre d'inhalation est possible.",
+      "D": "La prednisone est recommandée à la dose de 40 mg/j pendant 10 jours.",
+      "E": "Les glucocorticoïdes systémiques diminuent le risque d'échec thérapeutique."
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explication": "Dans les exacerbations de BPCO, les bronchodilatateurs inhalés d'action rapide (bêta-2 agonistes et anticholinergiques de courte durée) sont le traitement pharmacologique initial de première ligne (A). Le salbutamol est un bêta-2 agoniste (et non un anticholinergique qui est l'ipratropium) (B faux). L'administration par spray avec chambre d'inhalation est tout aussi efficace que la nébulisation chez le patient coopérant (C vrai). La corticothérapie systémique (prednisone 40 mg/j pendant 5 jours selon GOLD, et non 10 jours) réduit le risque d'échec de traitement et accélère la récupération du VEMS (D faux, E vrai).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Les BDCA (SABA + SAMA) nébulisés ou en spray sont la pierre angulaire immédiate du traitement.",
+      "B": "Faux. Le salbutamol est un bêta-2 mimétique d'action courte ; le bromure d'ipratropium est l'anticholinergique.",
+      "C": "Vrai (Corrigé officiel : C). L'inhalateur-doseur avec chambre d'inhalation produit une déposition pulmonaire équivalente aux nébulisations si le patient respire calmement.",
+      "D": "Faux. Les recommandations internationales GOLD préconisent une cure courte de prednisone de 40 mg/j pendant exactement 5 jours (l'étude REDUCE a prouvé la non-infériorité de 5 jours vs 14 jours avec moins d'effets indésirables).",
+      "E": "Vrai (Corrigé officiel : E). Les corticoïdes systémiques réduisent le taux d'échec thérapeutique, la durée d'hospitalisation et le délai de rechute précoce.",
+      "_synthese": "Traitement de l'exacerbation BPCO : Bronchodilatateurs de courte durée inhalés (A, C) + Corticoïdes oraux 40 mg/j pendant 5 jours (E diminue les échecs).",
+      "_remarque": "Durée optimale de la corticothérapie dans la BPCO : 5 jours (jamais au long cours)."
+    }
+  },
+  {
+    "id": "pneumo-102",
+    "module": "pneumologie",
+    "chapitre": "Hypertension artérielle pulmonaire",
+    "chapitre_num": 15,
+    "section": "Vaisseaux pulmonaires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q12 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q12 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Pour la définition hémodynamique de l'hypertension pulmonaire précapillaire, quelles sont les propositions exactes ?",
+    "propositions": {
+      "A": "Pression artérielle pulmonaire moyenne >= 20 mmHg.",
+      "B": "Pression d'occlusion de l'artère pulmonaire <= 15 mmHg.",
+      "C": "Pression d'occlusion de l'artère pulmonaire > 15 mmHg.",
+      "D": "Résistance vasculaire pulmonaire > 2 unités Wood.",
+      "E": "Résistance vasculaire pulmonaire <= 2 unités Wood."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explication": "Selon les recommandations ESC/ERS 2022 actualisées de cardiologie et pneumologie, l'hypertension pulmonaire (HTP) précapillaire est définie au cathétérisme cardiaque droit par l'association obligatoire de trois critères : 1) PAPm > 20 mmHg (ou >= 20 mmHg au repos) (A) ; 2) Pression d'occlusion de l'artère pulmonaire (POAP) <= 15 mmHg (éliminant une cause cardiaque gauche post-capillaire) (B) ; et 3) Résistances vasculaires pulmonaires (RVP) > 2 unités Wood (D).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Le seuil hémodynamique officiel consensuel de PAPm est >= 20 mmHg.",
+      "B": "Vrai (Corrigé officiel : B). Une POAP (pression capillaire pulmonaire bloquée) <= 15 mmHg atteste du caractère pré-capillaire sans obstacle sur les cavités cardiaques gauches.",
+      "C": "Faux. Une POAP > 15 mmHg définit l'HTP post-capillaire (Groupe 2 : cardiopathies gauches).",
+      "D": "Vrai (Corrigé officiel : D). Les RVP > 2 UW confirment l'atteinte intrinsèque du lit vasculaire artériel pulmonaire.",
+      "E": "Faux. Une RVP <= 2 UW exclut le critère de vasculopathie pulmonaire précapillaire.",
+      "_synthese": "Définition hémodynamique de l'HTAP précapillaire : PAPm >= 20 mmHg (A) + POAP <= 15 mmHg (B) + RVP > 2 UW (D).",
+      "_remarque": "Examen de confirmation obligatoire : Cathétérisme cardiaque droit (l'échocardiographie n'apporte qu'une estimation de probabilité)."
+    }
+  },
+  {
+    "id": "pneumo-103",
+    "module": "pneumologie",
+    "chapitre": "Hypertension artérielle pulmonaire",
+    "chapitre_num": 15,
+    "section": "Vaisseaux pulmonaires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q13 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q13 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Pour les étiologies et la classification de l'hypertension pulmonaire, quelles sont les propositions exactes ?",
+    "propositions": {
+      "A": "Les cardiopathies gauches constituent une cause fréquente d'hypertension pulmonaire et appartiennent au groupe 2.",
+      "B": "La bronchopneumopathie chronique obstructive est une cause d'hypertension pulmonaire du groupe 3.",
+      "C": "L'hypertension pulmonaire thromboembolique chronique appartient au groupe 4.",
+      "D": "Les connectivites (SCLERODERMIE) peuvent être responsables d'une hypertension artérielle pulmonaire du groupe 1.",
+      "E": "Toutes les hypertensions artérielles pulmonaires du groupe 1 sont idiopathiques."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "La classification clinique de Nice/ESC/ERS répartit l'hypertension pulmonaire en 5 groupes : Groupe 1 : HTAP (idiopathique, héritable, médicamenteuse, ou associée aux connectivites comme la sclérodermie systémique, au VIH, à l'hypertension portale) (D vrai, E faux) ; Groupe 2 : HTP des cardiopathies gauches (insuffisance cardiaque, valvulopathies), cause la plus fréquente d'HTP globale (A vrai) ; Groupe 3 : HTP liée aux maladies respiratoires/hypoxie (BPCO, PID, SAOS) (B vrai) ; Groupe 4 : HTP thromboembolique chronique (HTP-TEC) (C vrai) ; Groupe 5 : HTP de mécanismes multifactoriels ou incertains (sarcoïdose, hématologie).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Les cardiopathies gauches (post-capillaires) représentent plus de 70 % des causes d'HTP et forment le Groupe 2.",
+      "B": "Vrai (Corrigé officiel : B). La BPCO avec hypoxémie alvéolaire chronique induisant une vasoconstriction pulmonaire appartient au Groupe 3.",
+      "C": "Vrai (Corrigé officiel : C). L'HTP-TEC relève du Groupe 4 et bénéficie d'un traitement chirurgical par endartériectomie pulmonaire ou angioplastie par ballonnet.",
+      "D": "Vrai (Corrigé officiel : D). La sclérodermie systémique (notamment forme cutanée limitée) est la cause de connectivite la plus fréquente associée à l'HTAP du Groupe 1.",
+      "E": "Faux. Le Groupe 1 comprend l'HTAP idiopathique mais aussi les formes héritables, toxiques et associées (VIH, connectivites, shunts congénitaux, hypertension porto-pulmonaire).",
+      "_synthese": "Classification des HTP : Groupe 1 = HTAP (connectivites/sclérodermie) ; Groupe 2 = Cœur gauche ; Groupe 3 = Maladies respiratoires (BPCO) ; Groupe 4 = Thromboembolique chronique ; Groupe 5 = Mécanismes complexes.",
+      "_remarque": "Sclérodermie systémique : dépistage annuel systématique de l'HTAP par échocardiographie cardiaque."
+    }
+  },
+  {
+    "id": "pneumo-104",
+    "module": "pneumologie",
+    "chapitre": "Insuffisance respiratoire chronique",
+    "chapitre_num": 19,
+    "section": "Défaillances respiratoires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q14 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q14 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant l'insuffisance respiratoire chronique, quelle(s) proposition(s) est/sont correcte(s) ?",
+    "propositions": {
+      "A": "L'insuffisance respiratoire chronique est définie par une pression artérielle partielle en oxygène inférieure à 70 mmHg, avec ou sans hypercapnie.",
+      "B": "L'hypercapnie est indispensable au diagnostic d'insuffisance respiratoire chronique.",
+      "C": "Le diagnostic doit être confirmé par deux mesures des gaz du sang réalisées à au moins deux semaines d'intervalle, en ventilation spontanée, à l'air ambiant et en état stable.",
+      "D": "L'insuffisance respiratoire chronique grave est définie par une pression artérielle partielle en oxygène inférieure à 55 mmHg au repos et à l'état stable.",
+      "E": "Une pression artérielle partielle en oxygène inférieure à 60 mmHg associée à des signes d'insuffisance cardiaque droite permet également de définir une insuffisance respiratoire chronique grave."
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "explication": "L'IRC est définie biologiquement par une PaO2 < 70 mmHg à l'état stable, avec ou sans hypercapnie (A vrai, B faux). La confirmation requiert au moins 2 gazométries artérielles à distance d'une exacerbation (>= 2 à 3 semaines d'intervalle à l'état stable en air ambiant) (C vrai). L'IRC grave justifiant l'oxygénothérapie de longue durée (OLD) est définie par : PaO2 <= 55 mmHg au repos à l'état stable (D vrai) OU PaO2 entre 55 et 60 mmHg associée à des signes d'hypoxie tissulaire chronique (polyglobulie avec hématocrite > 55 %, signes d'insuffisance ventriculaire droite ou HTAP confirmée) (E vrai).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). C'est la définition biologique de l'IRC (PaO2 < 70 mmHg au repos).",
+      "B": "Faux. L'hypercapnie n'est pas constante : l'IRC peut être normocapnique ou hypocapnique (ex. PID), ou hypercapnique (BPCO, cyphoscoliose).",
+      "C": "Vrai (Corrigé officiel : C). Deux mesures reproductibles à au moins 2 semaines d'intervalle en état stable sont exigées avant toute prise en charge au long cours.",
+      "D": "Vrai (Corrigé officiel : D). Seuil officiel de l'OLD : PaO2 <= 55 mmHg (7.3 kPa) mesurée au repos à l'état stable.",
+      "E": "Vrai (Corrigé officiel : E). Seuil secondaire d'OLD : PaO2 entre 56 et 59 mmHg en présence d'un cœur pulmonaire chronique ou de polyglobulie.",
+      "_synthese": "IRC : PaO2 < 70 mmHg confirmée à 2 semaines d'intervalle. IRC grave (critères d'OLD) : PaO2 <= 55 mmHg OU 55-60 mmHg avec signes de cœur droit ou polyglobulie.",
+      "_remarque": "L'OLD doit être administrée au moins 15 heures par jour, incluant obligatoirement la nuit."
+    }
+  },
+  {
+    "id": "pneumo-105",
+    "module": "pneumologie",
+    "chapitre": "Insuffisance respiratoire chronique",
+    "chapitre_num": 19,
+    "section": "Défaillances respiratoires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q15 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q15 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi les étiologies suivantes de l'insuffisance respiratoire chronique, lesquelles sont correctement classées selon le profil ventilatoire obtenu par les EFR ?",
+    "propositions": {
+      "A": "La BPCO est une étiologie obstructive de l'IRC",
+      "B": "Les pneumopathies interstitielles diffuses (PID) sont des étiologies restrictives de l'IRC",
+      "C": "La cyphoscoliose est une étiologie restrictive pouvant conduire à une IRC",
+      "D": "La mucoviscidose est une étiologie restrictive pure",
+      "E": "La bronchectasie est une étiologie pouvant donner un trouble ventilatoire mixte."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "L'IRC obstructive est dominée par la BPCO (VEMS/CVF < 0,70) (A). L'IRC restrictive (CPT < 80 %) comprend les atteintes parenchymateuses infiltrantes (PID, fibroses) (B) et les atteintes pariétales thoraciques ou neuromusculaires (cyphoscoliose, SLA) (C). La dilatation des bronches (DDB) peut associer une obstruction des voies aériennes et une rétraction parenchymateuse fibreuse créant un profil mixte (E). En revanche, la mucoviscidose donne un trouble ventilatoire obstructif prédominant puis mixte, et non pas restrictif pur (D faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). La BPCO est le prototype de l'IRC obstructive par limitation chronique des débits aériens.",
+      "B": "Vrai (Corrigé officiel : B). Les PID réduisent la compliance parenchymateuse et entraînent un déficit restrictif homogène avec baisse de la CPT et de la CVF.",
+      "C": "Vrai (Corrigé officiel : C). Les déformations sévères de la cage thoracique (cyphoscolioses à angle de Cobb élevé) restreignent la mécanique d'expansion thoracique.",
+      "D": "Faux. La mucoviscidose débute par une atteinte bronchiolaire obstructive sévère (TVO) évoluant secondairement vers un trouble ventilatoire mixte.",
+      "E": "Vrai (Corrigé officiel : E). Les bronchectasies étendues associent souvent une obstruction bronchique et une composante restrictive par atélectasies ou destruction parenchymateuse.",
+      "_synthese": "Profils fonctionnels d'IRC : Obstructif = BPCO (A) ; Restrictif = PID (B), Cyphoscoliose (C) ; Mixte = DDB (E).",
+      "_remarque": "Trouble restrictif pur = CPT < 80% avec rapport VEMS/CV normal ou augmenté."
+    }
+  },
+  {
+    "id": "pneumo-106",
+    "module": "pneumologie",
+    "chapitre": "Kyste hydatique du poumon",
+    "chapitre_num": 12,
+    "section": "Parasitologie pulmonaire",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q16 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q16 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Quelles sont les localisations de l'hydatidose :",
+    "propositions": {
+      "A": "Le foie est la localisation la plus fréquente.",
+      "B": "Le poumon est la deuxième localisation en fréquence.",
+      "C": "Le cerveau ne peut jamais être atteint.",
+      "D": "Une atteinte multiviscérale est possible.",
+      "E": "Les os peuvent être atteints."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "L'hydatidose (Echinococcus granulosus) touche avec prédilection le filtre hépatique (60-70 % des cas, 1ère localisation) (A), puis le filtre pulmonaire (20-30 % des cas, 2ème localisation) (B). Les embryons hexacanthes qui franchissent ces deux filtres peuvent coloniser n'importe quel viscère de l'organisme : atteinte cérébrale (1 à 2 % des cas, C faux car possible), osseuse (ostéite hydatique trabéculaire) (E), splénique, rénale ou péritonéale, donnant des atteintes polyviscérales (D).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Le foie représente le premier filtre d'arrêt capillaire de l'embryon hexacanthe issu de la circulation porte.",
+      "B": "Vrai (Corrigé officiel : B). Le parenchyme pulmonaire est le deuxième filtre obligatoire et la deuxième localisation la plus fréquente.",
+      "C": "Faux. L'hydatidose cérébrale existe (kyste hydatique cérébral de l'enfant) et se manifeste par des signes d'hypertension intracrânienne.",
+      "D": "Vrai (Corrigé officiel : D). Les localisations associées hépato-pulmonaires ou disséminées sont bien documentées (échinococcose secondaire péritonéale après rupture).",
+      "E": "Vrai (Corrigé officiel : E). L'échinococcose osseuse (vertèbres, bassin, fémur) est redoutable car dénuée d'adventice fibreuse, détruisant les travées osseuses.",
+      "_synthese": "Localisations du kyste hydatique : Foie (60-70%) > Poumon (20-30%) > Cerveau, Os, Rate, Rein (atteinte multiviscérale possible).",
+      "_remarque": "Chez l'enfant, la localisation pulmonaire est proportionnellement plus fréquente que chez l'adulte en raison de la plus grande élasticité tissulaire."
+    }
+  },
+  {
+    "id": "pneumo-107",
+    "module": "pneumologie",
+    "chapitre": "Kyste hydatique du poumon",
+    "chapitre_num": 12,
+    "section": "Parasitologie pulmonaire",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q17 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q17 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Les signes radiologiques d'un kyste hydatique pulmonaire rompu comprennent :",
+    "propositions": {
+      "A": "Le signe du croissant aérien.",
+      "B": "Le signe du nénuphar (water lily sign).",
+      "C": "Un pneumothorax dans tous les cas.",
+      "D": "Un niveau hydro-aérique.",
+      "E": "Une cavité à paroi épaisse peut être observée."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "La rupture bronchique d'un kyste hydatique engendre une succession de signes radiographiques typiques : le croissant gazeux périférique apical (signe de Morquio ou ménisque gazeux annonçant la rupture) (A) ; après vomique hydatique et évacuation partielle, un niveau hydro-aérique horizontal (D) surmonté de membranes hydatiques prolabées ondulant à la surface du liquide (signe du nénuphar ou de Camalote / water-lily sign) (B) ; et enfin l'aspect de cavité déshabitée résiduelle à paroi parfois épaissie par la réaction périkystique inflammatoire (E). Le pneumothorax ne survient que lors d'une rupture dans la plèvre, ce qui est rare et non présent dans tous les cas (C faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Clarté gazeuse en croissant au pôle supérieur du kyste traduisant l'irruption d'air entre le périkyste et la membrane cuticulaire.",
+      "B": "Vrai (Corrigé officiel : B). Aspect pathognomonique de la membrane proligère collapsée et plissée flottant sur le liquide résiduel.",
+      "C": "Faux. La rupture se fait le plus souvent dans les bronches (vomique) et non dans la cavité pleurale (le pneumothorax/pyopneumothorax est exceptionnel).",
+      "D": "Vrai (Corrigé officiel : D). La vidange partielle du liquide hydatique et son remplacement par de l'air créent une image hydro-aérique.",
+      "E": "Vrai (Corrigé officiel : E). Le périkyste fibreux de l'hôte reste visible sous la forme d'une paroi bordant la cavité résiduelle.",
+      "_synthese": "Signes radiologiques du kyste hydatique rompu : Croissant aérien (A), Nénuphar (B), Niveau hydro-aérique (D), Cavité bordée d'un périkyste (E).",
+      "_remarque": "Signe du nénuphar = certitude diagnostique absolue de kyste hydatique en voie d'évacuation."
+    }
+  },
+  {
+    "id": "pneumo-108",
+    "module": "pneumologie",
+    "chapitre": "Pneumothorax",
+    "chapitre_num": 5,
+    "section": "Pathologie pleurale",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q18 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q18 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant le pneumothorax spontané primitif :",
+    "propositions": {
+      "A": "Il survient préférentiellement chez un sujet jeune et longiligne.",
+      "B": "Il est lié à une maladie pulmonaire sous-jacente.",
+      "C": "Le tabagisme est un facteur de risque majeur.",
+      "D": "Il est plus fréquent chez la femme.",
+      "E": "Il est souvent dû à la rupture de blebs sous-pleuraux."
+    },
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explication": "Le pneumothorax spontané primitif (PSP) survient typiquement chez un sujet jeune (20-30 ans), de sexe masculin (sex-ratio 4/1 à 6/1, D faux), de morphotype grand et longiligne (A). Il survient par définition sur un poumon sain sans pathologie respiratoire préexistante (B faux, qui correspondrait au pneumothorax secondaire). Le tabagisme actif est le facteur étiologique majeur (multiplie le risque relatif par 20 chez l'homme) (C). Le mécanisme causal habituel est la rupture d'une bulle ou 'bleb' aérique sous-pleurale apicale congénitale ou acquise (E).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Terrain classique : homme jeune, grand, mince et bréviligne ou longiligne (gradient de pression apical accru).",
+      "B": "Faux. C'est le pneumothorax spontané secondaire (sur BPCO, emphysème, fibrose, tuberculose) qui survient sur poumon pathologique.",
+      "C": "Vrai (Corrigé officiel : C). Le tabagisme induit une bronchiolite des voies aériennes distales et multiplie considérablement le risque d'apparition et de récidive.",
+      "D": "Faux. Il y a une nette prédominance masculine (environ 4 à 6 hommes pour 1 femme).",
+      "E": "Vrai (Corrigé officiel : E). La rupture de petites bulles sous-pleurales apicales (< 1-2 cm) fait communiquer l'arbre bronchique avec la cavité pleurale.",
+      "_synthese": "Pneumothorax spontané primitif : Homme jeune longiligne fumeur (A, C) par rupture de blebs sous-pleuraux apicaux (E) sur poumon sans antécédent.",
+      "_remarque": "L'arrêt définitif du tabac est la mesure la plus efficace pour prévenir la récidive."
+    }
+  },
+  {
+    "id": "pneumo-109",
+    "module": "pneumologie",
+    "chapitre": "Pneumothorax",
+    "chapitre_num": 5,
+    "section": "Pathologie pleurale",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q19 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q19 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Les signes cliniques d'un pneumothorax sont :",
+    "propositions": {
+      "A": "Douleur thoracique brutale.",
+      "B": "Dyspnée d'apparition brutale.",
+      "C": "Diminution du murmure vésiculaire du côté atteint.",
+      "D": "Matité à la percussion.",
+      "E": "Tympanisme à la percussion."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "Le tableau clinique typique d'un pneumothorax débute brutalement par une douleur thoracique aiguë latéro-thoracique en coup de poignard (A) et une dyspnée d'intensité variable (B). L'examen physique retrouve le syndrome d'épanchement gazeux pleural (triade de Gaillard) : abolition ou diminution du murmure vésiculaire (C), abolition des vibrations vocales, et tympanisme franc à la percussion (E). La matité caractérise les épanchements liquidiens (pleurésies) et non gazeux (D faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Douleur inaugurale brutale unilatérale exacerbée par l'inspiration profonde et la toux.",
+      "B": "Vrai (Corrigé officiel : B). La dyspnée est d'apparition soudaine contemporaine de l'effraction pleurale.",
+      "C": "Vrai (Corrigé officiel : C). L'interposition d'air filtre et éteint la transmission acoustique du murmure vésiculaire.",
+      "D": "Faux. La matité signe la présence de liquide (pleurésie) ou d'un parenchyme condensé, jamais d'air pur.",
+      "E": "Vrai (Corrigé officiel : E). Le tympanisme en 'caisse de tambour' à la percussion est le signe sémiologique d'hyperclarté gazeuse pleurale.",
+      "_synthese": "Signes de pneumothorax : Douleur brutale (A), Dyspnée (B) + Triade gazeuse de Gaillard : abolition du MV (C), abolition des VV et Tympanisme (E).",
+      "_remarque": "Tympanisme = Air (Pneumothorax) ; Matité = Liquide (Pleurésie) ou Condensation (Pneumonie)."
+    }
+  },
+  {
+    "id": "pneumo-110",
+    "module": "pneumologie",
+    "chapitre": "Pleurésie infectieuse aiguë",
+    "chapitre_num": 4,
+    "section": "Infections pleurales",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q20 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q20 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Le stade exsudatif de la pleurésie aiguë est caractérisé par :",
+    "propositions": {
+      "A": "Liquide pleural fluide.",
+      "B": "Absence de cloisonnements.",
+      "C": "Drainage facile.",
+      "D": "Présence d'une coque fibreuse épaisse.",
+      "E": "Bonne réponse aux antibiotiques."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "explication": "L'histoire naturelle d'une pleurésie parapneumonique évolue en trois phases : 1) Le stade exsudatif initial (phase non compliquée) : liquide séro-fibrineux clair et fluide (A), plèvre souple sans septa ni cloisonnements (B), évacuation et drainage très faciles (C) et excellente réponse à l'antibiothérapie par voie générale seule (E). 2) Le stade fibro-purulent (pus franc, cloisons de fibrine). 3) Le stade d'organisation chronique fibreuse avec pachypleurite et coque épaisse inextensible emprisonnant le poumon ('poumon piégé') (D faux, qui correspond au stade tardif).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Le liquide est encore stérile ou pauvre en germes, séreux et très fluide.",
+      "B": "Vrai (Corrigé officiel : B). Il n'y a pas encore de dépôts massifs de fibrine formant des logettes.",
+      "C": "Vrai (Corrigé officiel : C). Une simple ponction pleurale évacuatrice ou un drainage standard vide aisément la cavité.",
+      "D": "Faux. La coque fibreuse épaisse caractérise le 3e stade tardif d'organisation nécessitant une décortication chirurgicale.",
+      "E": "Vrai (Corrigé officiel : E). L'antibiothérapie adaptée guérit le processus sans laisser de séquelles fonctionnelles.",
+      "_synthese": "Stade exsudatif précoce de la pleurésie : Liquide fluide (A), cavité libre non cloisonnée (B), drainage facile (C) et guérison sous antibiotiques (E).",
+      "_remarque": "Prise en charge précoce = clé pour éviter l'évolution vers l'empyème enkysté et la pachypleurite."
+    }
+  },
+  {
+    "id": "pneumo-111",
+    "module": "pneumologie",
+    "chapitre": "Pleurésie infectieuse aiguë",
+    "chapitre_num": 4,
+    "section": "Infections pleurales",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q21 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q21 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Le traitement du pyothorax repose sur :",
+    "propositions": {
+      "A": "Une antibiothérapie adaptée.",
+      "B": "Le drainage pleural.",
+      "C": "La kinésithérapie respiratoire.",
+      "D": "Une chirurgie (VATS ou décortication) dans certaines situations.",
+      "E": "Les corticoïdes seuls."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le traitement curatif d'un pyothorax (pleurésie purulente ou empyème) associe obligatoirement 4 piliers médico-chirurgicaux indissociables : une antibiothérapie parentérale à large spectre prolongée (3 à 4 semaines) active sur les bactéries pyogènes et anaérobies (A) ; une évacuation complète du pus par drainage pleural précoce de gros calibre avec lavages pluriquotidiens (B) ; une kinésithérapie respiratoire quotidienne précoce et poursuivie pour éviter la symphyse rétractile (C) ; et en cas d'échec ou d'enkystement cloisonné, un geste chirurgical par vidéothoracoscopie (VATS) pour débridement ou décortication pleuro-pulmonaire à ciel ouvert (D). Les corticoïdes seuls n'ont aucune place dans une infection purulente fermée (E faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Antibiothérapie bactéricide par voie veineuse ciblant streptocoques, staphylocoques, bacilles à Gram négatif et anaérobies.",
+      "B": "Vrai (Corrigé officiel : B). Le drainage thoracique déclive au bocal avec aspiration continue est le geste thérapeutique salvateur fondamental.",
+      "C": "Vrai (Corrigé officiel : C). La kinésithérapie respiratoire intensive favorise la réexpansion pulmonaire complète et prévient la raideur thoracique.",
+      "D": "Vrai (Corrigé officiel : D). Indiquée en cas de multi-cloisonnement inaccessible aux fibrinolytiques intra-pleuraux ou d'épaississement pleural emprisonnant le poumon.",
+      "E": "Faux. La corticothérapie isolée est formellement contre-indiquée sur du pus franc.",
+      "_synthese": "Traitement du pyothorax : Antibiothérapie IV (A) + Drainage pleural aspiratif (B) + Kinésithérapie respiratoire (C) +/- Chirurgie par VATS/décortication (D).",
+      "_remarque": "Adage fondamental : 'Tout pus collecté doit être évacué sans délai'."
+    }
+  },
+  {
+    "id": "pneumo-112",
+    "module": "pneumologie",
+    "chapitre": "Tumeurs du médiastin",
+    "chapitre_num": 21,
+    "section": "Pathologie médiastinale",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q22 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q22 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Le Syndrome médiastinal peut se manifester par :",
+    "propositions": {
+      "A": "Dyspnée",
+      "B": "Dysphagie",
+      "C": "Dysphonie",
+      "D": "Syndrome cave supérieur",
+      "E": "Hématurie"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le syndrome médiastinal résulte de la compression ou de l'envahissement des structures anatomiques contenues dans les compartiments du médiastin : compression de la trachée ou des grosses bronches souches entraînant dyspnée avec bradypnée inspiratoire et stridor/cornage (A) ; compression de l'œsophage provoquant une dysphagie organique progressive (B) ; compression ou lésion du nerf récurrent (nerf laryngé inférieur récurrent, surtout à gauche sous la crosse aortique) responsable d'une dysphonie par paralysie de corde vocale (C) ; compression de la veine cave supérieure responsable du syndrome cave supérieur (œdème en pèlerine, turgescence jugulaire, circulation veineuse collatérale) (D). L'hématurie est un signe urologique sans aucun rapport avec le médiastin (E faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Liée à la compression de la trachée, de la bifurcation trachéale ou d'une bronche souche.",
+      "B": "Vrai (Corrigé officiel : B). Due à la compression de l'œsophage dans le médiastin moyen ou postérieur.",
+      "C": "Vrai (Corrigé officiel : C). Témoigne d'une atteinte du nerf récurrent gauche sous l'aorte ou du nerf phrénique.",
+      "D": "Vrai (Corrigé officiel : D). Provient de l'engorgement mécanique en amont de la veine cave supérieure comprimée.",
+      "E": "Faux. L'hématurie est un signe néphrologique ou urologique sans lien avec le médiastin.",
+      "_synthese": "Syndrome médiastinal : Compression respiratoire (dyspnée A), digestive (dysphagie B), nerveuse récurrentielle (dysphonie C) et vasculaire (syndrome cave supérieur D).",
+      "_remarque": "Signe d'alerte oncologique : toute dysphonie bitonale chez un fumeur doit faire rechercher une tumeur médiastino-pulmonaire."
+    }
+  },
+  {
+    "id": "pneumo-113",
+    "module": "pneumologie",
+    "chapitre": "Tumeurs du médiastin",
+    "chapitre_num": 21,
+    "section": "Pathologie médiastinale",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q23 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q23 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Les signes du syndrome cave supérieur sont :",
+    "propositions": {
+      "A": "Œdème cervico-facial.",
+      "B": "Turgescence des veines jugulaires.",
+      "C": "Circulation veineuse collatérale thoracique.",
+      "D": "Cyanose du visage.",
+      "E": "Bradycardie constante."
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le syndrome cave supérieur (SCS) traduit l'hypertension veineuse d'amont liée à un obstacle mécanique sur la veine cave supérieure (tumeur bronchique, lymphome, thymome, thrombose). La tétrade clinique caractéristique comporte : l'œdème cervico-facial 'en pèlerine' prédominant le matin (visage, paupières, cou, fosses sus-claviculaires) (A) ; la turgescence des veines jugulaires spontanée et non pulsatile (B) ; la circulation veineuse collatérale (CVC) pré-thoracique superficielle de dérivation (C) ; et la cyanose du visage, des lèvres et des extrémités supérieures exacerbée à la flexion antérieure du buste (signe du lacet) (D). La bradycardie n'est pas un signe constitutif du SCS (E faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Œdème blanc, mou, indolore comblant le cou et les creux sus-claviculaires ('œdème en pèlerine').",
+      "B": "Vrai (Corrigé officiel : B). Turgescence bilatérale des veines du cou qui ne s'aplatissent pas à l'inspiration profonde.",
+      "C": "Vrai (Corrigé officiel : C). Réseau de varicosités et veines sous-cutanées de dérivation vers la veine cave inférieure.",
+      "D": "Vrai (Corrigé officiel : D). Cyanose de stase passive violacée de la tête et des membres supérieurs.",
+      "E": "Faux. Il n'y a pas de bradycardie constante (une tachycardie réactionnelle est plus fréquemment retrouvée).",
+      "_synthese": "Signes cardinaux du syndrome cave supérieur : Œdème en pèlerine (A), Turgescence jugulaire bilatérale (B), Circulation veineuse collatérale (C) et Cyanose faciale (D).",
+      "_remarque": "Signe clinique de provocation : 'Signe du lacet' (majoration de la turgescence et de la cyanose lorsque le malade se penche en avant)."
+    }
+  },
+  {
+    "id": "pneumo-114",
+    "module": "pneumologie",
+    "chapitre": "Pneumonie nosocomiale",
+    "chapitre_num": 6,
+    "section": "Infections respiratoires nosocomiales",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q24 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q24 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi ces mesures préventives des pneumonies nosocomiales, laquelle est correcte ?",
+    "propositions": {
+      "A": "Administrer systématiquement des anti-H2 en prévention de l'ulcère de stress",
+      "B": "Maintenir le patient en décubitus dorsal strict",
+      "C": "Privilégier la ventilation non invasive à la ventilation mécanique",
+      "D": "Changer fréquemment le circuit du respirateur",
+      "E": "Administration de la corticothérapie systémique"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "La prévention des pneumonies nosocomiales et pneumopathies acquises sous ventilation mécanique (PAVM) repose en priorité absolue sur l'évitement de l'intubation trachéale : privilégier chaque fois que possible la ventilation non invasive (VNI) (C vrai). Le décubitus dorsal strict à plat favorise les micro-inhalations du liquide gastrique et pharyngé (le patient intubé doit être maintenu en position demi-assise à 30-45°, B faux). Les anti-H2 et IPP augmentent le pH gastrique et favorisent la prolifération de bacilles à Gram négatif dans l'estomac qui colonisent ensuite les voies aériennes (A faux). Les changements fréquents des circuits de ventilation augmentent le risque d'inoculation bactérienne (D faux). Les corticoïdes n'ont aucun effet préventif (E faux).",
+    "justifications": {
+      "A": "Faux. L'inhibition de l'acidité gastrique par anti-H2 ou IPP favorise la colonisation rétrograde pharyngée par des bacilles à Gram négatif nosocomiaux.",
+      "B": "Faux. Il faut au contraire maintenir la position demi-assise (tête de lit surélevée entre 30° et 45°) pour prévenir le reflux gastrique et les micro-inhalations.",
+      "C": "Vrai (Corrigé officiel : C). L'utilisation de la VNI à la place de l'intubation endotrachéale est la mesure prophylactique la plus puissante pour éliminer le risque d'infections respiratoires nosocomiales invasives.",
+      "D": "Faux. Les circuits de respirateur ne doivent pas être changés à intervalles réguliers programmés car les déconnexions intempestives augmentent le risque d'aérosolisation bactérienne.",
+      "E": "Faux. Les corticoïdes systémiques sont immunosuppresseurs et majorent le risque infectieux nosocomial.",
+      "_synthese": "Prévention des pneumonies nosocomiales : Privilégier la VNI (C), position demi-assise à 30-45°, hygiène des mains, limitation de la sédation et contrôle de la pression du ballonnet endotrachéal (25-30 cmH2O).",
+      "_remarque": "Règle de réanimation : chaque journée sans intubation évite une pneumonie acquise sous ventilateur."
+    }
+  },
+  {
+    "id": "pneumo-115",
+    "module": "pneumologie",
+    "chapitre": "Diagnostic et traitement de la tuberculose",
+    "chapitre_num": 2,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q25 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q25 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Selon la définition de l'OMS, une tuberculose extrapulmonaire (TEP) peut être :",
+    "propositions": {
+      "A": "Confirmée uniquement par la bactériologie",
+      "B": "Diagnostiquée cliniquement même sans preuve bactériologique",
+      "C": "Limitée aux atteintes pleurales et ganglionnaires",
+      "D": "Exclue si une atteinte pulmonaire est associée",
+      "E": "Le SNC n'est jamais atteint"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Selon les définitions opérationnelles de l'OMS, un cas de tuberculose extrapulmonaire (TEP) peut être soit bactériologiquement confirmé (culture ou PCR positive), soit diagnostiqué cliniquement par un médecin sur la base d'un faisceau d'arguments clinicoradiologiques, histopathologiques (granulome épithélioïde avec nécrose caséeuse) et d'une décision de mise sous traitement antituberculeux complet, même sans confirmation bactériologique directe en raison de la nature paucibacillaire fréquente de ces sites (B vrai, A faux). Les TEP peuvent toucher n'importe quel organe (ganglions, plèvre, os, méninges et SNC) (C et E faux).",
+    "justifications": {
+      "A": "Faux. Les atteintes extrapulmonaires sont très souvent paucibacillaires (examen direct négatif dans plus de 70-80 % des cas) et ne nécessitent pas obligatoirement une bactériologie positive pour débuter le traitement.",
+      "B": "Vrai (Corrigé officiel : B). L'OMS valide formellement la catégorie de 'cas de tuberculose cliniquement diagnostiqué' sur la base de signes cliniques, radiologiques et/ou histologiques évocateurs.",
+      "C": "Faux. Les localisations extrapulmonaires concernent aussi le système nerveux central, l'appareil génito-urinaire, le système ostéo-articulaire, l'abdomen et le péricarde.",
+      "D": "Faux. Lorsqu'une atteinte pulmonaire et une atteinte extrapulmonaire coexistent, le cas est classé par l'OMS comme tuberculose pulmonaire à des fins de surveillance épidémiologique, mais la TEP n'est pas réfutée médicalement.",
+      "E": "Faux. Le SNC est une localisation sévère classique (méningite tuberculeuse, tuberculomes cérébraux).",
+      "_synthese": "Définition OMS de la TEP : Peut être bactériologiquement confirmée OU cliniquement diagnostiquée sans preuve bactériologique (B).",
+      "_remarque": "La preuve histologique (granulome giganto-cellulaire avec nécrose caséeuse) suffit à valider le diagnostic en l'absence de BAAR à l'examen direct."
+    }
+  },
+  {
+    "id": "pneumo-116",
+    "module": "pneumologie",
+    "chapitre": "Diagnostic et traitement de la tuberculose",
+    "chapitre_num": 2,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q26 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q26 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi les localisations suivantes, lesquelles sont classées parmi les formes sévères de TEP ?",
+    "propositions": {
+      "A": "Pleurésie et adénopathie périphérique",
+      "B": "Miliaire, méningite et tuberculose vertébrale",
+      "C": "Atteinte cutanée et ostéo-articulaire des membres",
+      "D": "Tuberculose intestinale et hépatique",
+      "E": "Tuberculose cutanée"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Dans la classification d'urgence et pronostique de l'OMS et des programmes nationaux antituberculeux (PNLAT), les formes sévères / graves de tuberculose extrapulmonaire engageant le pronostic vital ou fonctionnel immédiat regroupent : la miliaire tuberculeuse hématogène, la méningite tuberculeuse (méningo-encéphalite), la tuberculose vertébrale (mal de Pott avec risque de compression médullaire) et la péricardite tuberculeuse (B vrai). À l'inverse, les adénopathies périphériques, la pleurésie séro-fibrineuse ou les formes cutanées sont classées comme formes non sévères.",
+    "justifications": {
+      "A": "Faux. L'adénite périphérique (écrouelles) et la pleurésie isolée sont des formes bénignes à faible risque vital.",
+      "B": "Vrai (Corrigé officiel : B). Miliaire, méningite et mal de Pott sont les formes sévères emblématiques nécessitant une corticothérapie adjuvante et/ou un traitement prolongé (9 à 12 mois pour le SNC).",
+      "C": "Faux. L'atteinte cutanée ou ostéo-articulaire périphérique périphérique n'engage pas le pronostic vital immédiat.",
+      "D": "Faux. Les formes digestives isolées ne font pas partie de ce triptyque classique des formes hautement létales prioritaires.",
+      "E": "Faux. La tuberculose cutanée (lupus tuberculeux) est une forme localisée non sévère.",
+      "_synthese": "Formes sévères de TEP : Méningite tuberculeuse, Miliaire hématogène, Mal de Pott vertébral (B) et Péricardite constrictive.",
+      "_remarque": "Méningite et péricardite tuberculeuses imposent une corticothérapie adjuvante précoce (prednisone 1 mg/kg/j) pour prévenir séquelles et décès."
+    }
+  },
+  {
+    "id": "pneumo-117",
+    "module": "pneumologie",
+    "chapitre": "Diagnostic et traitement de la tuberculose",
+    "chapitre_num": 2,
+    "section": "Phtisiologie",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q27 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q27 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Concernant le diagnostic bactériologique de la tuberculose pulmonaire, quelle affirmation est exacte ?",
+    "propositions": {
+      "A": "Un examen direct négatif élimine formellement le diagnostic",
+      "B": "La culture sur milieu de Löwenstein Jensen est positive en 24-48h",
+      "C": "La négativité de l'examen direct n'élimine pas le diagnostic, la culture reste nécessaire",
+      "D": "L'antibiogramme est réalisé avant l'examen direct",
+      "E": "Le test au GeneXpert est systématique"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "L'examen microscopique direct (coloration de Ziehl-Neelsen ou auramine) requiert un seuil de détection élevé (environ 5 000 à 10 000 BAAR/ml de crachat) ; sa négativité n'élimine donc en aucun cas une tuberculose maladie paucibacillaire, et la mise en culture systématique sur milieu solide de Löwenstein-Jensen ou liquide reste indispensable (C vrai, A faux). La culture sur milieu solide de Löwenstein-Jensen est lente et ne pousse qu'en 3 à 6 semaines (et non 24-48h qui correspondrait à une bactérie pyogène banale) (B faux). L'antibiogramme ne peut être réalisé que secondairement sur les colonies isolées en culture (D faux).",
+    "justifications": {
+      "A": "Faux. Un examen direct négatif n'exclut pas le diagnostic (les formes paucibacillaires représentent 30 à 40 % des tuberculoses pulmonaires).",
+      "B": "Faux. Mycobacterium tuberculosis a un temps de doublement très lent (20 heures) ; les colonies n'apparaissent qu'après 3 à 6 semaines sur milieu de Löwenstein-Jensen.",
+      "C": "Vrai (Corrigé officiel : C). La culture est la méthode de référence absolue de certitude microbiologique et doit toujours être ensemencée même si l'examen direct est négatif.",
+      "D": "Faux. L'antibiogramme phénotypique conventionnel nécessite des souches vivantes cultivées et ne peut donc être réalisé qu'après la culture.",
+      "E": "Faux. Le GeneXpert (test moléculaire rapide d'amplification génique) est une aide diagnostique précieuse mais n'est pas systématique dans tous les protocoles standards de dépistage.",
+      "_synthese": "Diagnostic bactériologique : Examen direct rapide mais peu sensible (un résultat négatif n'élimine rien C). Culture sur Löwenstein-Jensen (3-6 semaines) = référence.",
+      "_remarque": "Seuil de détection : Examen direct = 5 000 à 10 000 BAAR/mL ; Culture = 10 à 100 bacilles/mL."
+    }
+  },
+  {
+    "id": "pneumo-118",
+    "module": "pneumologie",
+    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
+    "chapitre_num": 1,
+    "section": "Phtisiologie & Épidémiologie",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q28 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q28 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi les facteurs suivants lesquels augmentent le risque de développer une tuberculose en cas d'infection tuberculeuse latente :",
+    "propositions": {
+      "A": "Le diabète",
+      "B": "La prise au long cours de corticoïdes",
+      "C": "La co-infection par le virus de l'hépatite B",
+      "D": "La coinfection par le VIH",
+      "E": "L'éthylisme"
+    },
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "explication": "Le passage d'une infection tuberculeuse latente (ITL) à une tuberculose maladie active est favorisé par tous les facteurs altérant l'immunité à médiation cellulaire dépendante des lymphocytes T CD4+ et des macrophages : l'infection par le VIH (D, facteur de risque le plus puissant avec un risque annuel de réactivation de 10 % par an au lieu de 10 % sur la vie entière) ; la corticothérapie générale prolongée (> 15 mg/j d'équivalent prednisone pendant > 1 mois) et les immunosuppresseurs/anti-TNF (B) ; le diabète sucré mal équilibré (A) ; l'alcoolisme chronique et la dénutrition (E) ; ainsi que l'insuffisance rénale terminale et la silicose. L'hépatite B isolée sans cirrhose décompensée n'est pas un facteur de risque direct d'immunodépression cellulaire pour la tuberculose (C faux).",
+    "justifications": {
+      "A": "Vrai (Corrigé officiel : A). Le diabète multiplie le risque de tuberculose active par 2 à 3 par altération des fonctions chimiotactiques et macrophagiques.",
+      "B": "Vrai (Corrigé officiel : B). La corticothérapie au long cours inhibe la transcription des cytokines Th1 (interféron gamma, TNF-alpha) maintenant le bacille quiescent au sein du granulome.",
+      "C": "Faux. L'infection virale VHB n'altère pas directement les défenses cellulaires antituberculeuses.",
+      "D": "Vrai (Corrigé officiel : D). Le VIH est le facteur multiplicateur majeur de réactivation tuberculeuse en raison de la déplétion des lymphocytes CD4.",
+      "E": "Vrai (Corrigé officiel : E). L'éthylisme chronique induit une dénutrition protéino-énergétique et une dépression immunitaire cellulaire favorisant la réactivation.",
+      "_synthese": "Facteurs de réactivation d'une ITL : VIH (D, risque maximal), Corticoïdes/anti-TNF (B), Diabète (A), Dénutrition et Éthylisme chronique (E).",
+      "_remarque": "Tout patient sous anti-TNF ou séropositif pour le VIH avec ITL avérée doit bénéficier d'un traitement préventif de l'ITL (rifampicine-isoniazide)."
+    }
+  },
+  {
+    "id": "pneumo-119",
+    "module": "pneumologie",
+    "chapitre": "Physiopathologie et diagnostic de l'asthme",
+    "chapitre_num": 13,
+    "section": "Maladies respiratoires obstructives",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q29 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q29 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Selon les critères spirométriques, quelle valeur affirme la réversibilité du trouble ventilatoire obstructif (TVO) après bronchodilatateur ?",
+    "propositions": {
+      "A": "Augmentation du VEMS > 100 ml et > 8%",
+      "B": "Augmentation du VEMS > 200 ml et > 12%",
+      "C": "Augmentation du VEMS > 500 ml et > 20%",
+      "D": "Normalisation du rapport VEMS/CVF seule",
+      "E": "Augmentation du VEMS > 500 ml et > 50%"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Selon les critères de consensus internationaux ATS/ERS et GINA, une réversibilité significative d'un trouble ventilatoire obstructif sous l'effet d'un bronchodilatateur d'action rapide (test au salbutamol 400 µg après 15 minutes) est formellement définie par : une augmentation du VEMS (ou de la CVF) d'au moins 12 % par rapport à la valeur théorique/initiale ET d'au moins 200 ml en valeur absolue (B vrai). Une réversibilité complète est affirmée lorsque le rapport VEMS/CVF se normalise au-dessus du seuil de 0,70.",
+    "justifications": {
+      "A": "Faux. Un gain de 100 ml ou 8 % est insuffisant et rentre dans la variabilité biologique intra-individuelle de la mesure spirométrique.",
+      "B": "Vrai (Corrigé officiel : B). Le critère spirométrique consensuel officiel est une amélioration du VEMS d'au moins 12 % ET d'au moins 200 mL.",
+      "C": "Faux. Un gain > 500 ml définit une très grande réversibilité (hautement évocatrice d'asthme), mais le seuil minimal requis de définition de la réversibilité est 200 ml et 12 %.",
+      "D": "Faux. La normalisation du rapport VEMS/CVF seule sans critère quantitatif sur le VEMS ne répond pas à la définition métrologique du test.",
+      "E": "Faux. Ces valeurs sont excessives et ne correspondent à aucun seuil décisionnel standard.",
+      "_synthese": "Critère de réversibilité spirométrique significative du TVO : Augmentation du VEMS >= 200 mL ET >= 12 % après inhalation d'un bêta-2 agoniste de courte durée.",
+      "_remarque": "TVO réversible sous bronchodilatateurs = argument diagnostique majeur en faveur de l'asthme."
+    }
+  },
+  {
+    "id": "pneumo-120",
+    "module": "pneumologie",
+    "chapitre": "Prise en charge et traitement de l'asthme",
+    "chapitre_num": 14,
+    "section": "Maladies respiratoires obstructives",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q30 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q30 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi ces médicaments, lequel est contre-indiqué chez un patient asthmatique ayant des antécédents d'hypersensibilité documentée ?",
+    "propositions": {
+      "A": "Corticostéroïdes inhalés",
+      "B": "Bêta-2 agonistes à longue durée d'action",
+      "C": "Aspirine et AINS",
+      "D": "Cromones",
+      "E": "Les macrolides"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Chez l'asthmatique présentant une hypersensibilité documentée, l'aspirine (acide acétylsalicylique) et tous les anti-inflammatoires non stéroïdiens (AINS) inhibiteurs de la cyclo-oxygénase-1 (COX-1) sont formellement contre-indiqués (C vrai). Ils déclenchent par déviation du métabolisme de l'acide arachidonique vers la voie de la 5-lipoxygénase une surproduction massive de leucotriènes bronchoconstricteurs, provoquant des crises d'asthme suraiguës gravissimes (maladie respiratoire exacerbée par l'aspirine ou syndrome de Fernand-Widal associant polype nasal, asthme sévère et intolérance à l'aspirine). Les corticoïdes inhalés (A) et les bêta-2 agonistes (B) constituent les traitements de choix.",
+    "justifications": {
+      "A": "Faux. Les corticoïdes inhalés sont le traitement de fond anti-inflammatoire de base de l'asthme.",
+      "B": "Faux. Les LABA sont prescrits en association avec les corticoïdes inhalés pour le contrôle de l'asthme.",
+      "C": "Vrai (Corrigé officiel : C). L'aspirine et tous les AINS traditionnels non sélectifs sont formellement contre-indiqués en raison du risque de bronchospasme fatal (asthme à l'aspirine / syndrome de Widal).",
+      "D": "Faux. Les cromones (cromoglycate) sont des antiallergiques stabilisateurs de membranes mastocytaires dénués de toxicité bronchospastique.",
+      "E": "Faux. Les macrolides sont des antibiotiques parfois utilisés pour leurs propriétés anti-inflammatoires dans l'asthme sévère non éosinophilique.",
+      "_synthese": "Contre-indication formelle chez l'asthmatique sensibilisé : Aspirine et AINS (C), ainsi que les bêta-bloquants non cardiosélectifs.",
+      "_remarque": "Syndrome de Widal (triade de Samter) = Asthme sévère + Polypose naso-sinusienne + Hypersensibilité à l'aspirine/AINS."
+    }
+  },
+  {
+    "id": "pneumo-121",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles respiratoires du sommeil",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q31 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q31 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi ces comorbidités, laquelle est la cause la plus fréquemment retrouvée d'HTA résistante ?",
+    "propositions": {
+      "A": "Hypothyroïdie",
+      "B": "Hyperaldostéronisme primaire",
+      "C": "Syndrome d'apnée obstructive du sommeil",
+      "D": "Sténose de l'artère rénale",
+      "E": "L'HTA essentielle"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le syndrome d'apnées-hypopnées obstructives du sommeil (SAOS / SAHOS) est la première cause secondaire retrouvée chez les patients présentant une hypertension artérielle résistante (non contrôlée malgré une trithérapie antihypertensive à doses optimales incluant un diurétique) : sa prévalence atteint 60 à 80 % dans cette population (C vrai). Les micro-réveils nocturnes répétés et les désaturations intermittentes entraînent une hyperactivité sympathique soutenue permanente responsable d'une HTA à prédominance nocturne (perte du 'dipping' physiologique nocturne).",
+    "justifications": {
+      "A": "Faux. L'hypothyroïdie peut causer une HTA modérée à prédominance diastolique, mais reste une cause rare d'HTA résistante.",
+      "B": "Faux. L'hyperaldostéronisme primaire (adénome de Conn) est une cause endocrinienne classique d'HTA résistante (environ 10-15 % des cas), mais nettement moins fréquente que le SAOS.",
+      "C": "Vrai (Corrigé officiel : C). Le SAOS est retrouvé chez plus de 70 % des hypertendus résistants, ce qui en fait la cause secondaire la plus fréquente.",
+      "D": "Faux. La sténose de l'artère rénale (HTA réno-vasculaire) ne représente que 5 à 10 % des HTA résistantes.",
+      "E": "Faux. Par définition, l'HTA résistante impose la recherche d'une cause secondaire sous-jacente au premier rang de laquelle figure le SAOS.",
+      "_synthese": "Comorbidités cardiovasculaires du SAOS : 1ère cause d'HTA résistante (C), profil 'non-dipper', arythmies nocturnes (FA) et AVC.",
+      "_remarque": "Le traitement du SAOS par pression positive continue (PPC) permet de réduire significativement les chiffres tensionnels de 5 à 10 mmHg."
+    }
+  },
+  {
+    "id": "pneumo-122",
+    "module": "pneumologie",
+    "chapitre": "Syndrome d'apnée obstructive du sommeil",
+    "chapitre_num": 22,
+    "section": "Troubles respiratoires du sommeil",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q32 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q32 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi ces symptômes nocturnes, lequel est le plus fréquemment rapporté dans le SAHOS ?",
+    "propositions": {
+      "A": "Nycturie",
+      "B": "Arythmies cardiaques nocturnes",
+      "C": "Ronflements (environ 80%)",
+      "D": "Sueurs nocturnes",
+      "E": "Mouvement périodiques des jambes"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le ronflement nocturne sévère, sonore, permanent et ancien (présent chez 80 à 95 % des patients) est le symptôme nocturne de très loin le plus fréquent et le motif principal de consultation rapporté par le conjoint dans le SAHOS (C vrai). La nycturie (sécrétion de facteur atrial natriurétique induite par les pressions intrathoraciques négatives) est fréquente (environ 50 %) (A), tout comme les sueurs nocturnes ou les réveils en suffocation, mais leur fréquence reste inférieure à celle du ronflement chronique.",
+    "justifications": {
+      "A": "Faux. La nycturie est un symptôme très évocateur présent dans 50 % des cas, mais moins constant que le ronflement.",
+      "B": "Faux. Les arythmies sont des complications cardiovasculaires nocturnes et non le symptôme le plus fréquemment rapporté.",
+      "C": "Vrai (Corrigé officiel : C). Le ronflement est présent chez environ 80 à 95 % des patients atteints de SAHOS.",
+      "D": "Faux. Les sueurs nocturnes du cou et du tronc sont inconstantes (30-40 %).",
+      "E": "Faux. Les mouvements périodiques des jambes sont un syndrome du sommeil distinct parfois associé, mais non le symptôme princeps.",
+      "_synthese": "Signes cardinaux du SAHOS : Ronflement sévère nocturne (80-90% C) + Pauses respiratoires constatées par l'entourage + Somnolence diurne excessive (score d'Epworth > 10).",
+      "_remarque": "Ronflement + Pauses respiratoires nocturnes + Somnolence diurne = triade évocatrice imposant une polygraphie ventilatoire."
+    }
+  },
+  {
+    "id": "pneumo-123",
+    "module": "pneumologie",
+    "chapitre": "Sarcoïdose",
+    "chapitre_num": 18,
+    "section": "Pathologies interstitielles & granulomateuses",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q33 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q33 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Quelle est la caractéristique histologique fondamentale qui distingue le granulome sarcoïdosique du granulome tuberculeux ?",
+    "propositions": {
+      "A": "Présence de cellules épithélioïdes et géantes multinucléées",
+      "B": "Absence de nécrose caséeuse",
+      "C": "Infiltration par des polynucléaires neutrophiles",
+      "D": "Présence d'une couronne lymphocytaire dense",
+      "E": "Taux élevé de CD20"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Le granulome de la sarcoïdose est un granulome épithélioïde et gigantocellulaire 'nu', compact et bien délimité, dont la caractéristique fondamentale absolue est l'absence totale de nécrose caséeuse (nécrose de caséification) (B vrai). À l'inverse, la présence d'une nécrose caséeuse éosinophile anhiste et acellulaire est la signature histopathologique de la tuberculose (granulome caséeux) ou d'infections mycobactériennes. Les cellules épithélioïdes et les cellules géantes de Langhans sont communes aux deux granulomatoses (A faux).",
+    "justifications": {
+      "A": "Faux. Les deux granulomes partagent la présence de cellules géantes multinucléées de type Langhans et de cellules épithélioïdes macrophagiques.",
+      "B": "Vrai (Corrigé officiel : B). L'absence formelle de nécrose caséeuse est le critère anatomopathologique obligatoire pour retenir le granulome sarcoïdien.",
+      "C": "Faux. L'infiltrat est essentiellement lympho-histiocytaire (lymphocytes T CD4+) et non à polynucléaires neutrophiles.",
+      "D": "Faux. Le granulome sarcoïdien est caractérisé par une discrète couronne lymphocytaire périphérique ('granulome nu').",
+      "E": "Faux. Les lymphocytes impliqués dans le granulome sarcoïdien sont des lymphocytes T auxiliaires (CD4+) et non des lymphocytes B (CD20+).",
+      "_synthese": "Distinction histologique fondamentale : Granulome de la sarcoïdose = Épithélioïde et gigantocellulaire SANS nécrose caséeuse (B). Tuberculose = AVEC nécrose caséeuse.",
+      "_remarque": "Toute mise en évidence d'une nécrose caséeuse élimine formellement le diagnostic de sarcoïdose."
+    }
+  },
+  {
+    "id": "pneumo-124",
+    "module": "pneumologie",
+    "chapitre": "Sarcoïdose",
+    "chapitre_num": 18,
+    "section": "Pathologies interstitielles & granulomateuses",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q34 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q34 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Un patient de 32 ans présente une radiographie thoracique montrant des adénopathies hilaires bilatérales symétriques sans atteinte parenchymateuse. Quel stade radiographique de sarcoïdose correspond à ce tableau ?",
+    "propositions": {
+      "A": "Stade 0",
+      "B": "Stade I",
+      "C": "Stade II",
+      "D": "Stade III",
+      "E": "Stade IV"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "La classification radiographique historique de Scadding pour la sarcoïdose thoracique comporte 5 stades : Stade 0 : radiographie thoracique normale (manifestations extrathoraciques pures) ; Stade I : adénopathies hilaires bilatérales symétriques et médiastinales pures, sans atteinte parenchymateuse visible (B vrai) ; Stade II : adénopathies hilaires et médiastinales associées à une infiltration parenchymateuse (micronodules réticulo-nodulaires) ; Stade III : atteinte parenchymateuse pulmonaire isolée sans adénopathies ; Stade IV : fibrose pulmonaire irréversible avec distorsion architecturale et rétractions apicales.",
+    "justifications": {
+      "A": "Faux. Stade 0 = radiographie thoracique strictement normale.",
+      "B": "Vrai (Corrigé officiel : B). Le Stade I correspond à l'atteinte ganglionnaire hilaire bilatérale et symétrique isolée sans anomalie parenchymateuse.",
+      "C": "Faux. Stade II = association d'adénopathies hilaires ET d'atteinte du parenchyme pulmonaire.",
+      "D": "Faux. Stade III = atteinte parenchymateuse pulmonaire isolée sans adénopathies.",
+      "E": "Faux. Stade IV = fibrose pulmonaire constituée avec lésions rétractiles irréversibles.",
+      "_synthese": "Classification radiologique de Scadding dans la sarcoïdose : Stade I = Adénopathies hilaires bilatérales symétriques isolées (B). Excellent pronostic de résolution spontanée (80%).",
+      "_remarque": "Stade I typique asymptomatique ou syndrome de Löfgren : surveillance simple sans corticothérapie."
+    }
+  },
+  {
+    "id": "pneumo-125",
+    "module": "pneumologie",
+    "chapitre": "Abcès pulmonaires et suppurations",
+    "chapitre_num": 10,
+    "section": "Suppurations broncho-pulmonaires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q35 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q35 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Un patient de 45 ans, éthylique chronique, présente une fièvre à 40°C, une toux douloureuse et une expectoration abondante de pus fétide apparue brutalement après une sensation de douleur déchirante thoracique. La radiographie thoracique montre une image hydro-aérique à limite horizontale. À quel stade de l'abcès pulmonaire correspond ce tableau ?",
+    "propositions": {
+      "A": "Stade de foyer fermé",
+      "B": "Stade de condensation parenchymateuse",
+      "C": "Stade de foyer ouvert",
+      "D": "Stade de suppuration secondaire",
+      "E": "Stade de surinfection secondaire"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "L'abcès pulmonaire primitif évolue classiquement en trois phases : 1) Stade de foyer fermé (ou de foyer plein / condensation pré-suppurative) : tableau de pneumonie fébrile avec opacité radiologique dense et homogène sans nécrose excavée ; 2) La vomique purulente : rupture brutale de la collection dans une bronche de drainage avec rejet massif d'expectoration purulente ou fétide ; 3) Stade de foyer ouvert (ou de foyer évacué) : apparition consécutive d'une image hydro-aérique ronde à paroi épaisse avec niveau liquide horizontal à la radiographie thoracique (C vrai).",
+    "justifications": {
+      "A": "Faux. Le stade de foyer fermé est l'étape initiale avant la vomique où la cavité est pleine de pus sans air (opacité ronde dense).",
+      "B": "Faux. La condensation parenchymateuse correspond à la phase de pneumopathie bactérienne initiale avant liquéfaction suppurée.",
+      "C": "Vrai (Corrigé officiel : C). L'extériorisation brutale de pus fétide (vomique) laissant place à une cavité avec niveau hydro-aérique définit le stade de foyer ouvert.",
+      "D": "Faux. Terme nosologique inapproprié pour décrire la phase clinique de drainage bronchique de l'abcès.",
+      "E": "Faux. La surinfection secondaire désigne une complication bactérienne surajoutée d'une lésion préexistante.",
+      "_synthese": "Histoire de l'abcès pulmonaire : 1. Foyer fermé (pneumonie dense) -> 2. Vomique purulente -> 3. Stade de foyer ouvert avec image hydro-aérique à niveau horizontal (C).",
+      "_remarque": "Pus fétide à l'odeur cadavérique = signature pathognomonique de bactéries anaérobies de la sphère buccale."
+    }
+  },
+  {
+    "id": "pneumo-126",
+    "module": "pneumologie",
+    "chapitre": "Abcès pulmonaires et suppurations",
+    "chapitre_num": 10,
+    "section": "Suppurations broncho-pulmonaires",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q36 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q36 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi ces éléments, lequel oriente spécifiquement vers une étiologie anaérobie dans un abcès pulmonaire ?",
+    "propositions": {
+      "A": "Abcès unique au lobe supérieur droit",
+      "B": "Haleine et expectoration fétides, mauvais état dentaire, contexte d'éthylisme",
+      "C": "Abcès multiples avec évolution bulleuse chez un nourrisson",
+      "D": "Pus couleur chocolat avec antécédent de séjour en zone tropicale",
+      "E": "Présence d'opacités nodulaires"
+    },
+    "bonnes_reponses": [
+      "B"
+    ],
+    "explication": "Les bactéries anaérobies strictes (Fusobacterium nucleatum, Peptostreptococcus, Prevotella, Bacteroides) colonisent le sillon gingivo-dentaire. En cas de fausse route chez un patient à conscience altérée (éthylisme aigu ou chronique, comblement comateux, anesthésie) ayant un foyer bucco-dentaire septique (dents cariées, pyorrhée alvéolo-dentaire), l'inhalation induit une pneumonie nécrosante. La production d'acides gras volatils et de composés soufrés par les anaérobies confère à l'haleine et aux crachats une odeur fétide, pestilentielle et répugnante pathognomonique (B vrai). L'évolution bulleuse chez le nourrisson évoque le staphylocoque (C), et le pus 'chocolat' évoque l'amibiase pleuropulmonaire (D).",
+    "justifications": {
+      "A": "Faux. La localisation au segment de Fowler ou axillaire est fréquente en inhalation mais n'est pas spécifique des anaérobies par rapport à d'autres germes inhalés.",
+      "B": "Vrai (Corrigé officiel : B). L'association fétidité de l'haleine/expectoration, foyers dentaires infectés et éthylisme chronique est la signature clinique classique d'une infection à anaérobies.",
+      "C": "Faux. Chez le nourrisson, la pneumonie bulleuse extensive est caractéristique de la staphylococcie pleuropulmonaire à Staphylococcus aureus producteur de toxine de Panton-Valentine.",
+      "D": "Faux. Le crachat ou pus 'chocolat' (aspect en pâte d'anchois) après séjour tropical signe l'amibiase hépatique rompue dans le thorax (Entamoeba histolytica).",
+      "E": "Faux. Les opacités nodulaires orientent plutôt vers des emboles septiques (endocardite du cœur droit) ou des mycoses (aspergillose).",
+      "_synthese": "Étiologie anaérobie de l'abcès pulmonaire : Fétidité des expectorations (B) + Terrain d'inhalation (éthylisme) + Mauvais état bucco-dentaire. Antibiothérapie = Amoxicilline-acide clavulanique ou Clindamycine.",
+      "_remarque": "La culture des anaérobies est difficile ; le diagnostic repose essentiellement sur cette clinique fétide caractéristique."
+    }
+  },
+  {
+    "id": "pneumo-127",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q37 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q37 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "En présence d'une opacité pulmonaire périphérique, d'apparition récente avec un examen endoscopique bronchique négatif, il convient de réaliser pour avoir un diagnostic formel chez un fumeur de 55 ans :",
+    "propositions": {
+      "A": "Une tomodensitométrie thoracique",
+      "B": "Une pleuroscopie",
+      "C": "Une ponction transpariétale",
+      "D": "Une médiastinoscopie",
+      "E": "Refaire la fibroscopie bronchique"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Chez un patient fumeur de 55 ans porteur d'une opacité pulmonaire périphérique suspecte de malignité dont l'endoscopie bronchique est revenue négative (lésion trop distale hors de portée visuelle directe des pinces de biopsie bronchique), l'examen diagnostique percutané de première intention pour obtenir une preuve histologique ou cytologique formelle est la ponction-biopsie transpariétale guidée par scanner (PTT sous guidage scanographique) (C vrai). La TDM est un examen d'imagerie qui a déjà mis en évidence la lésion mais ne donne pas de diagnostic anatomopathologique formel (A). La pleuroscopie nécessite un épanchement pleural (B), et la médiastinoscopie explore les adénopathies médiastinales (D).",
+    "justifications": {
+      "A": "Faux. La TDM thoracique décrit la lésion mais n'apporte pas la confirmation anatomopathologique nécessaire pour débuter un traitement oncologique.",
+      "B": "Faux. La pleuroscopie (thoracoscopie médicale) n'est indiquée qu'en cas d'épanchement pleural exsudatif associé.",
+      "C": "Vrai (Corrigé officiel : C). La ponction-biopsie transpariétale à l'aiguille sous guidage scanographique est l'examen de référence pour l'obtention du tissu tumoral des masses périphériques.",
+      "D": "Faux. La médiastinoscopie est un geste chirurgical d'évaluation des ganglions médiastinaux de la loge de Barety ou sous-carinaire.",
+      "E": "Faux. Répéter une fibroscopie standard à l'identique a une rentabilité diagnostique quasi nulle pour une lésion périphérique distale sous-pleurale.",
+      "_synthese": "Opacité périphérique suspecte avec endoscopie normale -> Ponction-biopsie transpariétale sous guidage TDM (C) pour preuve histologique formelle.",
+      "_remarque": "Complication la plus fréquente de la ponction transpariétale : le pneumothorax (15-20 % des cas)."
+    }
+  },
+  {
+    "id": "pneumo-128",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q38 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q38 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Quel est le traitement d'un cancer épidermoïde bronchique classé T1 N0 M0 chez un sujet de 50 ans asymptomatique ?",
+    "propositions": {
+      "A": "Immunothérapie",
+      "B": "Résection endobronchique par laser",
+      "C": "Exérèse chirurgicale",
+      "D": "Chimiothérapie anti-cancéreuse par voie générale",
+      "E": "Chimiothérapie avec radiothérapie néo adjuvante"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Le cancer épidermoïde bronchique classé T1 N0 M0 correspond à un cancer bronchique non à petites cellules (CBNPC) au Stade précoce IA (tumeur <= 3 cm sans ganglion envahi et sans métastase). Chez un sujet jeune de 50 ans sans comorbidité majeure et fonctionnellement opérable, le traitement de référence curatif exclusif est l'exérèse chirurgicale complète (lobectomie pulmonaire réglée associée à un curage ganglionnaire médiastinal systématique) (C vrai). Aucune chimiothérapie, radiothérapie ou immunothérapie adjuvante n'est requise pour un stade IA (A, D, E faux). Le laser n'est qu'un traitement palliatif de désobstruction (B faux).",
+    "justifications": {
+      "A": "Faux. L'immunothérapie (anti-PD1/PD-L1) est réservée aux stades avancés/métastatiques ou en adjuvant/néoadjuvant des stades II et III.",
+      "B": "Faux. La résection laser endobronchique est une technique palliative pour désobstruer une bronche centrale chez un patient inopérable.",
+      "C": "Vrai (Corrigé officiel : C). La chirurgie d'exérèse (lobectomie avec curage ganglionnaire) est le traitement curateur standard de référence pour un CBNPC de Stade IA.",
+      "D": "Faux. La chimiothérapie adjuvante n'est pas indiquée au stade IA (surmortalité sans bénéfice de survie globale).",
+      "E": "Faux. Pas d'indication de radio-chimiothérapie néoadjuvante pour une petite tumeur T1 N0 M0 d'emblée résécable.",
+      "_synthese": "CBNPC stade IA (T1 N0 M0) chez un patient opérable = Exérèse chirurgicale première (lobectomie + curage ganglionnaire) à visée curative.",
+      "_remarque": "Taux de survie à 5 ans après chirurgie exclusive d'un stade IA : supérieur à 75-80 %."
+    }
+  },
+  {
+    "id": "pneumo-129",
+    "module": "pneumologie",
+    "chapitre": "Cancer bronchique",
+    "chapitre_num": 11,
+    "section": "Oncologie thoracique",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q39 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q39 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Au cours d'un cancer bronchique, vous suspectez une métastase cérébrale. L'examen le plus adapté pour affirmer le diagnostic est :",
+    "propositions": {
+      "A": "Ponction lombaire",
+      "B": "Fond d'œil",
+      "C": "Scanographie",
+      "D": "Électroencéphalogramme",
+      "E": "Artériographie cérébrale"
+    },
+    "bonnes_reponses": [
+      "C"
+    ],
+    "explication": "Dans le bilan d'extension et devant toute suspicion clinique de métastase cérébrale au cours d'un cancer bronchique, l'examen d'imagerie en coupe de référence est la tomodensitométrie cérébrale (scanographie cérébrale injectée) ou idéalement l'IRM cérébrale avec injection de gadolinium (C vrai). La scanographie met en évidence les nodules cérébraux avec prise de contraste annulaire et œdème péri-lésionnel digitiforme en doigt de gant. La ponction lombaire est dangereuse (risque d'engagement cérébral en cas d'hypertension intracrânienne, A faux). Le fond d'œil dépiste un œdème papillaire mais ne visualise pas les métastases (B faux).",
+    "justifications": {
+      "A": "Faux. La ponction lombaire est formellement contre-indiquée avant imagerie cérébrale en raison du risque fatal d'engagement des amygdales cérébelleuses.",
+      "B": "Faux. Le fond d'œil recherche un œdème papillaire de stase mais ne pose pas le diagnostic étiologique lésionnel de métastase.",
+      "C": "Vrai (Corrigé officiel : C). La scanographie cérébrale (TDM cérébrale injectée / IRM) est l'examen radiologique de choix pour affirmer et dénombrer les métastases cérébrales.",
+      "D": "Faux. L'EEG enregistre une activité électrique anormale non spécifique sans valeur morphologique diagnostique.",
+      "E": "Faux. L'artériographie cérébrale est un examen invasif vasculaire sans intérêt pour la détection de métastases parenchymateuses.",
+      "_synthese": "Suspicion de métastase cérébrale dans le cancer bronchique : Imagerie en coupe cérébrale obligatoire (Scanographie / TDM cérébrale injectée ou IRM cérébrale C).",
+      "_remarque": "L'IRM cérébrale avec produit de contraste est supérieure à la TDM pour détecter les micrométastases infracentimétriques et de la fosse postérieure."
+    }
+  },
+  {
+    "id": "pneumo-130",
+    "module": "pneumologie",
+    "chapitre": "Pneumopathies infiltratives diffuses",
+    "chapitre_num": 17,
+    "section": "Pathologies interstitielles",
+    "source": {
+      "texte": "Examen Pneumologie 28/06/2026 - Q40 (Mostaganem)",
+      "type": "EMD",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q40 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
+      }
+    ],
+    "question": "Parmi les anomalies tomodensitométriques suivantes, lesquelles ne sont pas retrouvées chez un patient porteur de fibrose pulmonaire idiopathique ?",
+    "propositions": {
+      "A": "réticulations",
+      "B": "dilatation des bronches",
+      "C": "micronodules",
+      "D": "épaississement pleural",
+      "E": "Kystes en rayon de miel"
+    },
+    "bonnes_reponses": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explication": "Le profil scanographique typique de pneumopathie interstitielle commune (PIC / UIP) caractéristique de la fibrose pulmonaire idiopathique (FPI) comporte des opacités réticulaires sous-pleurales et basales (A), et des kystes en rayons de miel (honeycombing) sous-pleuraux en couches superposées (E). Selon la grille officielle de correction de la Faculté (clé B, C, D) : les micronodules (C) orientent vers une sarcoïdose, une miliaire ou une PHS ; les épaississements pleuraux (D) évoquent une pathologie de l'amiante ou une sérite ; et la mention isolée de 'dilatation des bronches' sans précision de mécanisme de traction (B) a été retenue parmi les anomalies non caractéristiques de la FPI.",
+    "justifications": {
+      "A": "Retrouvée dans la FPI. Les réticulations intralobulaires sous-pleurales basales sont une composante constante du pattern scanographique d'UIP.",
+      "B": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). La DDB primitive des bronchectasies est absente dans la FPI (où seules des bronchectasies de traction distales secondaires à la rétraction fibreuse peuvent exister).",
+      "C": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). Les micronodules centro-lobulaires ou périlymphatiques sont incompatibles avec le diagnostic d'UIP et doivent faire suspecter une sarcoïdose ou une PHS.",
+      "D": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). L'épaississement pleural ou plaques pleurales ne font pas partie de la FPI (orientent vers l'asbestose).",
+      "E": "Retrouvée dans la FPI. Les kystes en rayons de miel sous-pleuraux à prédominance basale sont le signe scanographique cardinal indispensable pour affirmer le pattern d'UIP certain.",
+      "_synthese": "Conformément à la grille officielle de la Faculté (clé B, C, D) : les anomalies NON retrouvées dans la FPI sont les dilatations bronchiques primitives (B), les micronodules (C) et l'épaississement pleural (D).",
+      "_remarque": "Signes scanographiques certains de FPI : Réticulations sous-pleurales (A) et Rayon de miel basal (E)."
+    }
+  }
+];
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = window.QCM_PNEUMO;
+}
