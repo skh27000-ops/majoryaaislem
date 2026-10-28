@@ -1,0 +1,5 @@
+node_modules/
+scratch/
+generate_data.js
+old/
+.claude/
