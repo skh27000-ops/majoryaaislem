@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAJORY — Les annales en QCM, corrigées</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F7F3EA; --paper2:#EFE8D8; --card:#FFFDF6;
+  --ink:#101B2D; --ink-soft:#43506B;
+  --red:#D8402A; --red-soft:#F6E3DF;
+  --green:#12855B; --green-soft:#E1EFE6;
+  --blue:#2B4FD8;
+  --line:rgba(16,27,45,.16); --line-hard:#101B2D;
+  --dk:#0C1524; --dk-text:#F2EDE0; --dk-line:rgba(242,237,224,.16);
+  --mono:'IBM Plex Mono',monospace; --disp:'Fraunces',serif; --body:'Instrument Sans',sans-serif; --hand:'Caveat',cursive;
+  --shadow:8px 8px 0 rgba(16,27,45,.10);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;overflow-x:hidden}
+::selection{background:var(--red);color:var(--paper)}
+img{display:block;max-width:100%}
+a{color:inherit}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px dashed var(--red);outline-offset:3px}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:120;opacity:.045;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.container{max-width:1180px;margin:0 auto;padding:0 24px}
+.overline{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--red);display:inline-flex;align-items:center;gap:10px}
+.overline::before{content:"";width:26px;height:2px;background:var(--red)}
+h1,h2,h3{font-family:var(--disp);font-weight:800;line-height:1.04;letter-spacing:-.015em}
+.h2{font-size:clamp(2rem,4.2vw,3.1rem);margin:14px 0 18px}
+.lead{color:var(--ink-soft);font-size:1.06rem;max-width:56ch}
+section{position:relative}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;gap:10px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);
+  font-weight:600;font-size:.95rem;padding:.95rem 1.5rem;text-decoration:none;transition:transform .16s ease,box-shadow .16s ease,background .16s}
+.btn .ar{transition:transform .16s}
+.btn:hover{transform:translate(-3px,-3px);box-shadow:5px 5px 0 var(--red)}
+.btn:hover .ar{transform:translateX(4px)}
+.btn:active{transform:translate(0,0);box-shadow:0 0 0 var(--red)}
+.btn-solid{background:var(--ink);color:var(--paper)}
+.btn-red{background:var(--red);border-color:var(--red);color:#fff}
+.btn-red:hover{box-shadow:5px 5px 0 var(--ink)}
+
+/* ---------- ticker ---------- */
+.ticker{background:var(--ink);color:var(--paper);overflow:hidden;border-bottom:1px solid var(--ink)}
+.ticker-track{display:flex;width:max-content;animation:tick 30s linear infinite}
+.ticker span{font-family:var(--mono);font-size:11.5px;letter-spacing:.18em;text-transform:uppercase;padding:9px 0;white-space:nowrap}
+.ticker b{color:var(--red);font-weight:400;padding:0 14px}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ---------- header ---------- */
+header{position:sticky;top:0;z-index:100;background:var(--paper);border-bottom:1px solid var(--line);transition:box-shadow .25s}
+header.scrolled{box-shadow:0 8px 24px rgba(16,27,45,.08)}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo-cross{width:34px;height:34px;background:var(--red);color:#fff;display:grid;place-items:center;font-size:20px;font-weight:700;box-shadow:3px 3px 0 var(--ink)}
+.logo-word{font-family:var(--disp);font-weight:900;font-size:1.45rem;letter-spacing:-.02em}
+.logo-sub{display:block;font-family:var(--mono);font-size:9px;letter-spacing:.28em;color:var(--ink-soft);margin-top:-3px}
+.nav-links{display:flex;gap:30px;list-style:none}
+.nav-links a{text-decoration:none;font-size:.93rem;font-weight:500;position:relative;padding:4px 0}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--red);transition:width .25s}
+.nav-links a:hover::after{width:100%}
+.nav-cta{display:flex;align-items:center;gap:14px}
+.nav-cta .btn{padding:.65rem 1.15rem;font-size:.88rem}
+
+/* ---------- hero ---------- */
+.hero{padding:76px 0 100px;overflow:hidden;
+  background:
+   repeating-linear-gradient(to bottom,transparent 0 33px,rgba(16,27,45,.05) 33px 34px)}
+.hero::before{content:"";position:absolute;top:0;bottom:0;left:clamp(10px,4vw,64px);width:1.5px;background:rgba(216,64,42,.35)}
+.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:64px;align-items:center}
+.hero h1{font-size:clamp(2.9rem,6.4vw,4.9rem);font-weight:900;margin:22px 0 20px}
+.line{display:block;overflow:hidden;padding-bottom:.06em}
+.line-inner{display:block;transform:translateY(112%);animation:rise .9s cubic-bezier(.22,1,.36,1) forwards}
+.line:nth-child(2) .line-inner{animation-delay:.12s}
+.line:nth-child(3) .line-inner{animation-delay:.24s}
+@keyframes rise{to{transform:translateY(0)}}
+.hero h1 em{font-style:italic;color:var(--red);position:relative;white-space:nowrap}
+.hero h1 em svg{position:absolute;left:0;right:0;bottom:-10px;width:100%;height:12px}
+.hero .lead{margin-bottom:30px}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.hero-note{font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.hero-note b{color:var(--green)}
+.hero-stats{display:flex;margin-top:38px;border-top:1.5px solid var(--ink)}
+.hs{padding:18px 26px 0 0;margin-right:26px;border-right:1px solid var(--line)}
+.hs:last-child{border-right:none;margin-right:0}
+.hs b{font-family:var(--mono);font-size:1.5rem;font-weight:600;display:block}
+.hs span{font-size:.78rem;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.08em}
+.hand-note{font-family:var(--hand);color:var(--red);font-size:1.35rem;transform:rotate(-2deg);display:inline-block;margin-top:10px}
+
+/* ---------- quiz card ---------- */
+.quiz-wrap{position:relative}
+.quiz-wrap::before{content:"";position:absolute;inset:14px -14px -14px 14px;background:var(--paper2);border:1.5px solid var(--ink);z-index:0}
+.quiz{position:relative;z-index:1;background:var(--card);border:1.5px solid var(--ink);box-shadow:var(--shadow);
+  padding:26px 26px 26px 40px}
+.quiz::before{content:"";position:absolute;top:0;bottom:0;left:24px;width:1.5px;background:rgba(216,64,42,.5)}
+.quiz-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:5px 10px;border:1px solid var(--line);background:var(--paper)}
+.chip-mod{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip-time{color:var(--red);border-color:var(--red);min-width:64px;text-align:center}
+.stamp{position:absolute;top:-16px;right:-14px;transform:rotate(8deg);border:2px solid var(--red);color:var(--red);
+  font-family:var(--mono);font-size:10px;letter-spacing:.22em;padding:6px 10px;background:var(--card);z-index:2}
+.qbar{height:4px;background:var(--paper2);margin:4px 0 18px;overflow:hidden}
+.qbar i{display:block;height:100%;background:var(--red);width:20%;transition:width .5s cubic-bezier(.22,1,.36,1)}
+.qtext{font-family:var(--disp);font-size:1.32rem;font-weight:700;line-height:1.3;margin-bottom:18px}
+.qchoices{display:grid;gap:9px}
+.choice{display:flex;align-items:flex-start;gap:12px;text-align:left;background:#fff;border:1.5px solid var(--line);
+  padding:11px 13px;font-size:.94rem;transition:border-color .15s,transform .15s,background .2s}
+.choice:hover:not(:disabled){border-color:var(--ink);transform:translateX(4px)}
+.choice .key{font-family:var(--mono);font-weight:600;font-size:.8rem;width:26px;height:26px;flex:none;display:grid;place-items:center;border:1.5px solid var(--ink)}
+.choice.correct{border-color:var(--green);background:var(--green-soft)}
+.choice.correct .key{background:var(--green);border-color:var(--green);color:#fff}
+.choice.wrong{border-color:var(--red);background:var(--red-soft);animation:shake .4s}
+.choice.wrong .key{background:var(--red);border-color:var(--red);color:#fff}
+.choice.dim{opacity:.45}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.qexpl{margin-top:18px;border-top:1.5px dashed var(--line);padding-top:14px;animation:fadeUp .4s ease}
+.qexpl h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:10px}
+.qexpl li{list-style:none;display:flex;gap:10px;font-size:.86rem;padding:6px 0;border-bottom:1px dotted var(--line)}
+.qexpl li:last-child{border-bottom:none}
+.tag{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 7px;flex:none;height:fit-content;margin-top:2px}
+.tag.v{background:var(--green);color:#fff}
+.tag.f{background:var(--red);color:#fff}
+.qexpl .why{color:var(--ink-soft)}
+.qnote{font-family:var(--hand);color:var(--red);font-size:1.2rem;margin-top:10px}
+.qfoot{display:flex;align-items:center;justify-content:space-between;margin-top:20px;gap:12px}
+.qscore{font-family:var(--mono);font-size:.82rem}
+.qscore b{color:var(--green)}
+.hidden{display:none!important}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.qresult{text-align:center;padding:20px 0;animation:fadeUp .4s ease}
+.qresult .big{font-family:var(--disp);font-size:4rem;font-weight:900;line-height:1}
+.qresult .big span{color:var(--red)}
+.qresult p{color:var(--ink-soft);margin:12px 0 20px}
+
+/* ---------- modules ---------- */
+.modules{padding:100px 0 90px;background:var(--card);border-top:1.5px solid var(--ink);border-bottom:1.5px solid var(--ink)}
+.mod-top{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:34px}
+.years{display:flex;gap:8px;flex-wrap:wrap}
+.ychip{font-family:var(--mono);font-size:12px;padding:8px 14px;border:1.5px solid var(--line);background:transparent;transition:.15s}
+.ychip:hover{border-color:var(--ink)}
+.ychip.on{background:var(--ink);color:var(--paper);border-color:var(--ink);box-shadow:3px 3px 0 var(--red)}
+.mod-total{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-top:12px}
+.mod-total b{color:var(--red)}
+.mod-rail{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(240px,1fr);gap:18px;overflow-x:auto;padding:6px 2px 18px;scroll-snap-type:x mandatory}
+.mod-rail::-webkit-scrollbar{height:8px}
+.mod-rail::-webkit-scrollbar-thumb{background:var(--ink);border-radius:0}
+.mod-rail::-webkit-scrollbar-track{background:var(--paper2)}
+.mcard{scroll-snap-align:start;background:var(--paper);border:1.5px solid var(--ink);padding:22px;transition:transform .2s,box-shadow .2s;position:relative;text-decoration:none;color:inherit;display:block}
+.mcard:hover{transform:translateY(-6px);box-shadow:6px 6px 0 var(--ink)}
+.mcard .mg{font-family:var(--mono);font-size:11px;border:1.5px solid var(--ink);width:38px;height:38px;display:grid;place-items:center;background:var(--card);margin-bottom:16px}
+.mcard h3{font-size:1.25rem;margin-bottom:4px}
+.mcount{font-family:var(--mono);font-size:1.9rem;font-weight:600;color:var(--red);transition:opacity .2s}
+.mcount.flip{opacity:0}
+.mcount small{font-size:.72rem;color:var(--ink-soft);font-weight:400;display:block;letter-spacing:.1em;text-transform:uppercase}
+.mchaps{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
+.mchaps li{list-style:none;font-size:.8rem;color:var(--ink-soft);display:flex;justify-content:space-between;padding:4px 0}
+.mchaps li b{font-family:var(--mono);font-weight:500;color:var(--ink)}
+
+/* ---------- explain (corrections) ---------- */
+.explain{padding:110px 0}
+.explain-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:70px;align-items:center}
+.explain ul{list-style:none;margin-top:26px}
+.explain li{padding:14px 0 14px 34px;border-top:1px solid var(--line);position:relative;font-size:1rem}
+.explain li::before{content:"✚";position:absolute;left:2px;color:var(--red);font-weight:700}
+.copy-card{background:var(--card);border:1.5px solid var(--ink);box-shadow:var(--shadow);padding:30px 30px 30px 46px;position:relative;transform:rotate(.6deg)}
+.copy-card::before{content:"";position:absolute;top:0;bottom:0;left:28px;width:1.5px;background:rgba(216,64,42,.5)}
+.copy-card h4{font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;margin-bottom:18px;color:var(--ink-soft)}
+.copy-row{padding:14px 0;border-bottom:1px dotted var(--line)}
+.copy-row .st{font-weight:600;font-size:.98rem;display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+.copy-row .why{font-size:.87rem;color:var(--ink-soft);margin-top:6px}
+.copy-row.bad .st span{text-decoration:line-through;text-decoration-color:var(--red);text-decoration-thickness:2px}
+.hand{font-family:var(--hand);color:var(--red);font-size:1.5rem;line-height:1.2}
+.copy-note{margin-top:16px;display:flex;gap:12px;align-items:center}
+
+/* ---------- methode (sticky) ---------- */
+.methode{padding:110px 0;background:var(--paper2);border-top:1.5px solid var(--ink)}
+.meth-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:start}
+.meth-left{position:sticky;top:110px}
+.meth-left .lead{margin-bottom:24px}
+.step{background:var(--card);border:1.5px solid var(--ink);padding:34px;margin-bottom:26px;display:grid;grid-template-columns:auto 1fr;gap:26px;transition:transform .2s,box-shadow .2s}
+.step:hover{transform:translateX(8px);box-shadow:-6px 6px 0 var(--red)}
+.step .num{font-family:var(--disp);font-style:italic;font-weight:900;font-size:2.6rem;color:var(--red);line-height:1}
+.step h3{font-size:1.35rem;margin-bottom:8px}
+.step p{color:var(--ink-soft);font-size:.95rem}
+.mock{margin-top:18px;border:1px dashed var(--line);padding:14px;background:var(--paper)}
+.mock-chips{display:flex;gap:8px;flex-wrap:wrap}
+.mock-chips i{font-style:normal;font-family:var(--mono);font-size:10.5px;padding:5px 9px;border:1px solid var(--line);background:var(--card)}
+.mock-chips i.on{background:var(--red);color:#fff;border-color:var(--red)}
+.mock-rows .mrow{display:flex;justify-content:space-between;font-size:.82rem;padding:7px 10px;border:1px solid var(--line);background:var(--card);margin-bottom:6px}
+.mock-rows .mrow.ok{border-color:var(--green);background:var(--green-soft)}
+.mbar{height:8px;background:var(--paper2);border:1px solid var(--line);position:relative}
+.mbar i{position:absolute;inset:0;width:72%;background:var(--green)}
+.mock-score{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;margin-bottom:8px}
+
+/* ---------- exam (dark) ---------- */
+.exam{background:var(--dk);color:var(--dk-text);padding:110px 0;overflow:hidden}
+.exam::before{content:"EXAMEN";position:absolute;top:30px;right:-30px;font-family:var(--disp);font-weight:900;font-size:clamp(6rem,16vw,13rem);
+  color:transparent;-webkit-text-stroke:1px rgba(242,237,224,.07);pointer-events:none;line-height:1}
+.exam .overline{color:#E8806E}.exam .overline::before{background:#E8806E}
+.exam-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center;position:relative;z-index:1}
+.exam-feats{list-style:none;margin-top:26px}
+.exam-feats li{padding:13px 0 13px 30px;border-top:1px solid var(--dk-line);position:relative;font-size:.98rem}
+.exam-feats li::before{content:"▸";position:absolute;left:2px;color:var(--red)}
+.exam-widget{background:#111D31;border:1px solid var(--dk-line);padding:36px;text-align:center;box-shadow:12px 12px 0 rgba(216,64,42,.18)}
+.ring-wrap{position:relative;width:180px;margin:0 auto 20px}
+.ring-wrap svg{transform:rotate(-90deg)}
+.ring-bg{fill:none;stroke:rgba(242,237,224,.12);stroke-width:6}
+.ring-fg{fill:none;stroke:var(--red);stroke-width:6;stroke-dasharray:339.3;stroke-dashoffset:0;transition:stroke-dashoffset .12s linear}
+.ring-time{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--mono);font-size:1.7rem;font-weight:600}
+.dots{display:flex;justify-content:center;gap:7px;flex-wrap:wrap;margin-bottom:24px}
+.dots i{width:14px;height:14px;border:1px solid var(--dk-line);transition:.2s}
+.dots i.f{background:var(--red);border-color:var(--red)}
+.dots i.d{background:#3A4A6B;border-color:#3A4A6B}
+.exam-res{animation:fadeUp .4s ease}
+.exam-res .score{font-family:var(--disp);font-weight:900;font-size:3.4rem;line-height:1}
+.exam-res .score span{font-size:1.4rem;color:rgba(242,237,224,.5)}
+.rechips{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:16px 0 22px}
+.rechips i{font-style:normal;font-family:var(--mono);font-size:10.5px;padding:5px 10px;border:1px solid var(--red);color:#E8806E}
+.exam-widget .btn{border-color:var(--dk-text);color:var(--dk-text)}
+.exam-widget .btn:hover{box-shadow:5px 5px 0 var(--red)}
+.exam-widget .btn-solid{background:var(--red);border-color:var(--red);color:#fff}
+
+/* ---------- stats ---------- */
+.stats{padding:80px 0;border-bottom:1.5px solid var(--ink)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);position:relative}
+.stat{padding:10px 30px;border-left:1px solid var(--line)}
+.stat:first-child{border-left:none;padding-left:0}
+.stat b{font-family:var(--mono);font-size:clamp(2rem,3.6vw,2.9rem);font-weight:600;display:block;line-height:1.1}
+.stat b em{font-style:normal;color:var(--red)}
+.stat span{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft)}
+.stamp-big{position:absolute;right:-8px;top:-46px;transform:rotate(-9deg);border:3px solid var(--red);color:var(--red);
+  font-family:var(--mono);font-size:13px;letter-spacing:.3em;padding:10px 16px;opacity:.85;background:var(--paper)}
+
+/* ---------- anywhere (photos) ---------- */
+.anywhere{padding:110px 0}
+.any-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.collage{position:relative;height:480px}
+.collage figure{position:absolute;border:1.5px solid var(--ink);background:var(--card);padding:10px 10px 34px;box-shadow:var(--shadow);overflow:visible}
+.collage .ph{overflow:hidden}
+.collage img{width:100%;height:100%;object-fit:cover}
+.kb img{animation:kb 16s ease-in-out infinite alternate}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.1) translate(-2%,1.5%)}}
+.collage figcaption{font-family:var(--hand);font-size:1.25rem;color:var(--ink-soft);position:absolute;bottom:6px;left:12px}
+.c1{width:56%;top:0;left:0;transform:rotate(-2.5deg);z-index:2}.c1 .ph{height:280px}
+.c2{width:46%;top:120px;right:0;transform:rotate(2deg);z-index:3}.c2 .ph{height:230px}
+.c3{width:44%;bottom:0;left:16%;transform:rotate(-1deg);z-index:1}.c3 .ph{height:170px}
+.dev-chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+.dev-chips i{font-style:normal;font-family:var(--mono);font-size:12px;padding:9px 14px;border:1.5px solid var(--ink);background:var(--card)}
+
+/* ---------- testimonials ---------- */
+.testi{padding:100px 0;background:var(--card);border-top:1.5px solid var(--ink)}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:46px}
+.tcard{background:var(--paper);border:1.5px solid var(--ink);padding:30px;position:relative;transition:transform .25s,box-shadow .25s}
+.tcard:nth-child(1){transform:rotate(-1.4deg)}
+.tcard:nth-child(2){transform:rotate(1deg) translateY(16px)}
+.tcard:nth-child(3){transform:rotate(-.6deg)}
+.tcard:hover{transform:rotate(0) translateY(-6px);box-shadow:8px 8px 0 var(--ink);z-index:2}
+.tstars{color:var(--red);letter-spacing:4px;font-size:.9rem;margin-bottom:14px}
+.tcard blockquote{font-family:var(--disp);font-style:italic;font-size:1.12rem;line-height:1.45;font-weight:500}
+.tcard cite{display:block;margin-top:18px;font-style:normal;font-family:var(--mono);font-size:12px;color:var(--ink-soft)}
+.tcard cite b{display:block;color:var(--ink);font-size:13px}
+.tcard .pin{position:absolute;top:-10px;left:50%;width:18px;height:18px;border-radius:50%;background:var(--red);border:2px solid var(--ink);transform:translateX(-50%)}
+
+/* ---------- pricing ---------- */
+.pricing{padding:110px 0}
+.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:50px;align-items:stretch}
+.pcard{border:1.5px solid var(--ink);background:var(--card);padding:34px;display:flex;flex-direction:column;position:relative;transition:transform .2s,box-shadow .2s}
+.pcard:hover{transform:translateY(-6px);box-shadow:8px 8px 0 rgba(16,27,45,.15)}
+.pcard.feat{background:var(--ink);color:var(--paper);box-shadow:10px 10px 0 var(--red)}
+.pcard .pname{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--red)}
+.pcard .price{font-family:var(--disp);font-weight:900;font-size:2.9rem;margin:12px 0 2px}
+.pcard .price small{font-size:1rem;font-weight:400;font-family:var(--body)}
+.pcard .pdesc{font-size:.88rem;color:var(--ink-soft);margin-bottom:20px}
+.pcard.feat .pdesc{color:rgba(242,237,224,.65)}
+.pcard ul{list-style:none;margin-bottom:28px;flex:1}
+.pcard li{padding:9px 0 9px 26px;border-top:1px dashed var(--line);font-size:.9rem;position:relative}
+.pcard.feat li{border-color:var(--dk-line)}
+.pcard li::before{content:"✚";position:absolute;left:0;color:var(--red);font-size:.8rem;font-weight:700}
+.pcard li.no{opacity:.4}.pcard li.no::before{content:"—"}
+.pbadge{position:absolute;top:-15px;right:22px;background:var(--red);color:#fff;font-family:var(--mono);font-size:10px;letter-spacing:.2em;padding:7px 12px;transform:rotate(3deg);border:1.5px solid var(--ink)}
+.pcard .btn{justify-content:center}
+.pcard.feat .btn{border-color:var(--paper);color:var(--paper)}
+
+/* ---------- faq ---------- */
+.faq{padding:100px 0;background:var(--paper2);border-top:1.5px solid var(--ink)}
+.faq-list{max-width:780px;margin:44px auto 0}
+.faq-item{border-bottom:1.5px solid var(--ink)}
+.faq-q{width:100%;background:none;border:none;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  text-align:left;padding:24px 4px;font-family:var(--disp);font-size:1.2rem;font-weight:700;color:var(--ink)}
+.faq-q .ic{font-family:var(--mono);font-size:1.3rem;color:var(--red);transition:transform .3s;flex:none}
+.faq-item.open .ic{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.22,1,.36,1)}
+.faq-a p{padding:0 4px 26px;color:var(--ink-soft);max-width:62ch}
+
+/* ---------- final cta ---------- */
+.final{padding:130px 0;text-align:center;position:relative;overflow:hidden;
+  background:repeating-linear-gradient(to bottom,transparent 0 33px,rgba(16,27,45,.045) 33px 34px)}
+.final::before,.final::after{content:"";position:absolute;top:0;bottom:0;width:1.5px;background:rgba(216,64,42,.3)}
+.final::before{left:8%}.final::after{right:8%}
+.final h2{font-size:clamp(2.4rem,5.6vw,4.2rem);max-width:16ch;margin:18px auto 16px}
+.final .lead{margin:0 auto 34px}
+.final .hand-note{margin-top:22px}
+
+/* ---------- footer ---------- */
+footer{background:var(--dk);color:var(--dk-text);padding:70px 0 34px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:50px}
+.foot-brand p{color:rgba(242,237,224,.55);font-size:.9rem;max-width:30ch;margin-top:14px}
+.foot-col h5{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--red);margin-bottom:16px}
+.foot-col a{display:block;text-decoration:none;color:rgba(242,237,224,.75);font-size:.9rem;padding:5px 0;transition:color .15s,transform .15s}
+.foot-col a:hover{color:#fff;transform:translateX(4px)}
+.foot-bottom{border-top:1px solid var(--dk-line);padding-top:26px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;
+  font-family:var(--mono);font-size:11.5px;color:rgba(242,237,224,.5)}
+
+/* ---------- reveal ---------- */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,1,.36,1)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.1s}.reveal.d2{transition-delay:.2s}.reveal.d3{transition-delay:.3s}
+
+/* ---------- responsive ---------- */
+@media(max-width:1020px){
+  .hero-grid,.explain-grid,.meth-grid,.exam-grid,.any-grid{grid-template-columns:1fr;gap:56px}
+  .meth-left{position:static}
+  .stats-grid{grid-template-columns:repeat(2,1fr);gap:30px}
+  .stat{border-left:none;padding:0}
+  .stamp-big{display:none}
+  .testi-grid,.price-grid{grid-template-columns:1fr;max-width:520px;margin-left:auto;margin-right:auto}
+  .tcard:nth-child(2){transform:rotate(1deg)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .collage{height:420px}
+}
+@media(max-width:860px){.nav-links{display:none}}
+@media(max-width:640px){
+  .hero{padding:56px 0 80px}
+  .hero-stats{flex-wrap:wrap;gap:18px}
+  .hs{border-right:none;margin-right:0;padding:14px 24px 0 0}
+  .quiz{padding:22px 18px 22px 32px}
+  .step{grid-template-columns:1fr;gap:12px}
+  .collage{height:360px}
+  .mod-rail{grid-auto-columns:82%}
+}
+/* ---------- reduced motion ---------- */
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .line-inner{transform:none;animation:none}
+  .reveal{opacity:1;transform:none}
+  .ticker-track{animation:none}
+  .kb img{animation:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ======= TICKER ======= -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="tickerTrack">
+    <span>Annales corrigées<b>✚</b>Anatomie<b>✚</b>Physiologie<b>✚</b>Biochimie<b>✚</b>Histologie<b>✚</b>Endocrinologie<b>✚</b>Pharmacologie<b>✚</b>Sémiologie<b>✚</b>Sessions 2022 → 2026<b>✚</b>Gratuit pour démarrer<b>✚</b></span>
+    <span>Annales corrigées<b>✚</b>Anatomie<b>✚</b>Physiologie<b>✚</b>Biochimie<b>✚</b>Histologie<b>✚</b>Endocrinologie<b>✚</b>Pharmacologie<b>✚</b>Sémiologie<b>✚</b>Sessions 2022 → 2026<b>✚</b>Gratuit pour démarrer<b>✚</b></span>
+  </div>
+</div>
+
+<!-- ======= HEADER ======= -->
+<header id="header">
+  <div class="container nav">
+    <a class="logo" href="#">
+      <span class="logo-cross">✚</span>
+      <span><span class="logo-word">MAJORY</span><span class="logo-sub">ANNALES · QCM · CORRIGÉS</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#banque">La banque</a></li>
+      <li><a href="#methode">Méthode</a></li>
+      <li><a href="#examen">Mode examen</a></li>
+      <li><a href="#tarifs">Tarifs</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="dashboard.html" class="btn btn-solid">Accéder au Dashboard</a>
+    </div>
+  </div>
+</header>
+
+<!-- ======= HERO / LIVE QCM ======= -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="overline" data-scramble>Révision médicale — annales officielles</span>
+      <h1>
+        <span class="line"><span class="line-inner">Les annales</span></span>
+        <span class="line"><span class="line-inner">en QCM.</span></span>
+        <span class="line"><span class="line-inner"><em>Corrigées.<svg viewBox="0 0 200 12" preserveAspectRatio="none"><path d="M2 8 Q 50 2 100 7 T 198 5" fill="none" stroke="#D8402A" stroke-width="3" stroke-linecap="round"/></svg></em></span></span>
+      </h1>
+      <p class="lead">Entraîne-toi sur les <strong>vrais sujets d'examen</strong>, module par module, et comprends chaque réponse. Réponds, comprends, recommence.</p>
+      <div class="hero-ctas">
+        <a href="dashboard.html" class="btn btn-red">Ouvrir le Dashboard QCM <span class="ar">→</span></a>
+        <a href="#methode" class="btn">Voir la méthode</a>
+      </div>
+      <p class="hero-note"><b>✓</b> Gratuit pour démarrer · <b>✓</b> Sans carte bancaire</p>
+      <div class="hero-stats">
+        <div class="hs"><b>4 350</b><span>QCM corrigés</span></div>
+        <div class="hs"><b>7</b><span>Modules</span></div>
+        <div class="hs"><b>5</b><span>Sessions</span></div>
+        <div class="hs"><b>100%</b><span>Expliqués</span></div>
+      </div>
+    </div>
+
+    <div class="quiz-wrap reveal">
+      <div class="quiz" id="quiz" aria-live="polite">
+        <span class="stamp" id="qStamp">ANNALE 2024</span>
+        <div class="quiz-head">
+          <span class="chip chip-mod" id="qModule">Endocrinologie</span>
+          <span class="chip" id="qNum">Question 4 / 10</span>
+          <span class="chip chip-time" id="qTime">01:30</span>
+        </div>
+        <div class="qbar"><i id="qBar"></i></div>
+        <div id="qBody">
+          <p class="qtext" id="qText"></p>
+          <div class="qchoices" id="qChoices"></div>
+          <div class="qexpl hidden" id="qExpl">
+            <h4>La correction</h4>
+            <ul id="qExplList"></ul>
+            <p class="qnote" id="qNote"></p>
+          </div>
+          <div class="qfoot">
+            <span class="qscore">Score : <b id="qScore">0</b> / <span id="qTotal">5</span></span>
+            <button class="btn btn-solid hidden" id="qNext" style="padding:.7rem 1.2rem;font-size:.88rem">Question suivante <span class="ar">→</span></button>
+          </div>
+        </div>
+        <div class="qresult hidden" id="qResult">
+          <div class="big"><span id="rScore">0</span><span style="font-size:2rem"> / 5</span></div>
+          <p id="rMsg"></p>
+          <button class="btn btn-red" id="qRestart">Recommencer la série <span class="ar">↻</span></button>
+        </div>
+      </div>
+      <span class="hand-note" style="position:absolute;bottom:-46px;left:8px">tombe chaque année, celle-là ! ↗</span>
+    </div>
+  </div>
+</section>
+
+<!-- ======= MODULES ======= -->
+<section class="modules" id="banque">
+  <div class="container">
+    <div class="mod-top">
+      <div class="reveal">
+        <span class="overline" data-scramble>La banque de QCM</span>
+        <h2 class="h2">Classée par module<br>et par année.</h2>
+        <p class="mod-total"><b id="modTotal">4 350</b> questions d'examen disponibles — filtre en deux clics.</p>
+      </div>
+      <div class="years reveal d1" role="group" aria-label="Filtrer par année">
+        <button class="ychip on" data-year="all">Toutes</button>
+        <button class="ychip" data-year="2026">2026</button>
+        <button class="ychip" data-year="2025">2025</button>
+        <button class="ychip" data-year="2024">2024</button>
+        <button class="ychip" data-year="2023">2023</button>
+        <button class="ychip" data-year="2022">2022</button>
+      </div>
+    </div>
+    <div class="mod-rail reveal d1" id="modRail"></div>
+  </div>
+</section>
+
+<!-- ======= EXPLICATIONS ======= -->
+<section class="explain" id="corrections">
+  <div class="container explain-grid">
+    <div class="reveal">
+      <span class="overline" data-scramble>Corrections détaillées</span>
+      <h2 class="h2">Chaque réponse est expliquée.</h2>
+      <p class="lead">Recopier la bonne réponse ne sert à rien. Comprendre pourquoi les autres sont fausses, c'est ça qui fait gagner des places le jour J.</p>
+      <ul>
+        <li><strong>Vrai ou faux :</strong> tu sais pourquoi, proposition par proposition.</li>
+        <li><strong>Une explication courte</strong> par item, pensée pour être retenue.</li>
+        <li><strong>Les pièges récurrents</strong> signalés d'une croix rouge, comme sur ta copie.</li>
+      </ul>
+    </div>
+    <div class="reveal d2">
+      <div class="copy-card">
+        <h4>Correction — Endocrinologie · Q4</h4>
+        <div class="copy-row bad">
+          <p class="st"><span>A. L'ACTH est sécrétée par la post-hypophyse</span><span class="tag f">FAUX</span></p>
+          <p class="why">L'ACTH vient de l'antéhypophyse — c'est le piège classique.</p>
+        </div>
+        <div class="copy-row">
+          <p class="st"><span>B. L'ocytocine est libérée par la post-hypophyse</span><span class="tag v">VRAI</span></p>
+          <p class="why">Synthétisée par l'hypothalamus, stockée puis libérée par la post-hypophyse.</p>
+        </div>
+        <div class="copy-note">
+          <span class="hand">Pense aussi à l'ADH ! →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= MÉTHODE (sticky) ======= -->
+<section class="methode" id="methode">
+  <div class="container meth-grid">
+    <div class="meth-left reveal">
+      <span class="overline" data-scramble>Comment ça marche</span>
+      <h2 class="h2">Trois étapes.<br>Zéro perte de temps.</h2>
+      <p class="lead">MAJORY est conçu pour réviser vite : tu trouves la bonne question, tu réponds, tu comprends, tu recommences.</p>
+      <a href="dashboard.html" class="btn btn-solid">Essayer maintenant <span class="ar">→</span></a>
+    </div>
+    <div>
+      <div class="step reveal">
+        <span class="num">01</span>
+        <div>
+          <h3>Choisis un module</h3>
+          <p>Sélectionne la matière et les chapitres à travailler. Filtre par année pour cibler exactement ce qui est tombé.</p>
+          <div class="mock"><div class="mock-chips">
+            <i>Anatomie</i><i class="on">Endocrino ✚</i><i>Physio</i><i>Biochimie</i><i>Sémio</i><i>Pharma</i>
+          </div></div>
+        </div>
+      </div>
+      <div class="step reveal d1">
+        <span class="num">02</span>
+        <div>
+          <h3>Réponds aux QCM</h3>
+          <p>En mode libre pour apprendre, ou en conditions d'examen avec le chrono qui tourne.</p>
+          <div class="mock mock-rows">
+            <div class="mrow"><span>B. Ocytocine</span><span style="color:var(--green)">✓</span></div>
+            <div class="mrow"><span>C. TSH</span><span style="color:var(--ink-soft)">…</span></div>
+            <div class="mrow" style="justify-content:flex-end;border:none;background:none"><span class="chip chip-time" style="font-size:10px">⏱ 03:12</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="step reveal d2">
+        <span class="num">03</span>
+        <div>
+          <h3>Corrige et progresse</h3>
+          <p>Lis les explications, refais tes erreurs. MAJORY garde tes ratés de côté pour la prochaine session.</p>
+          <div class="mock">
+            <div class="mock-score"><span>SCORE</span><span>72 / 100 · à revoir : 8</span></div>
+            <div class="mbar"><i></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= MODE EXAMEN ======= -->
+<section class="exam" id="examen">
+  <div class="container exam-grid">
+    <div class="reveal">
+      <span class="overline" data-scramble>Mode examen</span>
+      <h2 class="h2" style="color:var(--dk-text)">Le jour J se prépare<br>chrono en main.</h2>
+      <p class="lead" style="color:rgba(242,237,224,.7)">Simule les conditions réelles de l'épreuve : temps limité, aucune correction avant la fin. Puis consulte ton score et les questions à retravailler.</p>
+      <ul class="exam-feats">
+        <li>Chrono identique aux conditions de l'épreuve</li>
+        <li>Score détaillé module par module</li>
+        <li>Liste automatique des questions à revoir</li>
+        <li>Séries blanches complètes, tirées des annales</li>
+      </ul>
+    </div>
+    <div class="exam-widget reveal d2">
+      <div id="examIdle">
+        <div class="ring-wrap">
+          <svg width="180" height="180" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="54"/>
+            <circle class="ring-fg" id="ringFg" cx="60" cy="60" r="54"/>
+          </svg>
+          <div class="ring-time" id="ringTime">05:00</div>
+        </div>
+        <div class="dots" id="examDots"></div>
+        <button class="btn btn-solid" id="examStart">▶ Lancer la simulation</button>
+      </div>
+      <div class="exam-res hidden" id="examRes">
+        <p style="font-family:var(--mono);font-size:11px;letter-spacing:.25em;color:#E8806E">RÉSULTAT DE LA SIMULATION</p>
+        <p class="score">72<span> / 100</span></p>
+        <p style="color:rgba(242,237,224,.6);font-size:.9rem;margin-top:8px">8 questions à revoir</p>
+        <div class="rechips">
+          <i>Endocrino ×3</i><i>Physio ×2</i><i>Biochimie ×2</i><i>Sémio ×1</i>
+        </div>
+        <button class="btn" id="examReset">Recommencer ↻</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= STATS ======= -->
+<section class="stats">
+  <div class="container" style="position:relative">
+    <span class="stamp-big">CORRIGÉ ✓</span>
+    <div class="stats-grid">
+      <div class="stat reveal"><b><span data-count="4350">0</span><em>+</em></b><span>QCM corrigés</span></div>
+      <div class="stat reveal d1"><b><span data-count="5">0</span></b><span>Sessions d'annales</span></div>
+      <div class="stat reveal d2"><b><span data-count="7">0</span></b><span>Modules couverts</span></div>
+      <div class="stat reveal d3"><b><span data-count="98">0</span><em>%</em></b><span>D'étudiants satisfaits</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= PARTOUT ======= -->
+<section class="anywhere">
+  <div class="container any-grid">
+    <div class="collage reveal">
+      <figure class="c1 kb"><div class="ph"><img src="https://picsum.photos/seed/bibliotheque-medecine-revision/640/460" alt="Étudiante qui révise à la bibliothèque"></div><figcaption>à la BU, entre deux cours</figcaption></figure>
+      <figure class="c2 kb"><div class="ph"><img src="https://picsum.photos/seed/fiches-revision-qcm/520/400" alt="Fiches de révision"></div><figcaption>mes fiches raturées ✚</figcaption></figure>
+      <figure class="c3 kb"><div class="ph"><img src="https://picsum.photos/seed/tramway-smartphone-etudiant/500/340" alt="Révision sur téléphone dans le tram"></div><figcaption>dans le tram, 10 QCM</figcaption></figure>
+    </div>
+    <div class="reveal d1">
+      <span class="overline" data-scramble>Partout avec toi</span>
+      <h2 class="h2">Dans le bus, en amphi,<br>à 23h avant le concours.</h2>
+      <p class="lead">Le site s'adapte à tous les écrans. Une file d'attente, un trajet, une insomnie : chaque minute devient une série de QCM. Ta progression est synchronisée sur tous tes appareils.</p>
+      <div class="dev-chips">
+        <i>📱 Mobile</i><i>💻 Ordinateur</i><i>▭ Tablette</i><i>☾ Mode sombre bientôt</i>
+      </div>
+      <span class="hand-note">« encore 5 questions et j'arrête » — tout le monde, 23h47</span>
+    </div>
+  </div>
+</section>
+
+<!-- ======= TÉMOIGNAGES ======= -->
+<section class="testi">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="overline" data-scramble>Ils ont majoré</span>
+      <h2 class="h2">La preuve par les classés.</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="tcard reveal"><span class="pin"></span>
+        <div class="tstars">✚✚✚✚✚</div>
+        <blockquote>« J'ai révisé toutes mes annales d'endocrino dans le bus. Les corrections courtes, c'est exactement ce qu'il faut entre deux amphis. »</blockquote>
+        <cite><b>Salomé T.</b>Major de promo</cite>
+      </div>
+      <div class="tcard reveal d1"><span class="pin"></span>
+        <div class="tstars">✚✚✚✚✚</div>
+        <blockquote>« Le mode examen m'a sauvé le jour J : même chrono, même stress — sauf que moi, j'étais déjà prêt. »</blockquote>
+        <cite><b>Ilyes B.</b>Classé 87ᵉ</cite>
+      </div>
+      <div class="tcard reveal d2"><span class="pin"></span>
+        <div class="tstars">✚✚✚✚✚</div>
+        <blockquote>« Enfin un site qui t'explique pourquoi c'est faux, pas juste laquelle était la bonne réponse. Ça change tout. »</blockquote>
+        <cite><b>Mayssane K.</b>Parcours santé</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= TARIFS ======= -->
+<section class="pricing" id="tarifs">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="overline" data-scramble>Tarifs</span>
+      <h2 class="h2">Commence gratis.<br>Monte en puissance.</h2>
+    </div>
+    <div class="price-grid">
+      <div class="pcard reveal">
+        <span class="pname">Découverte</span>
+        <p class="price">0€</p>
+        <p class="pdesc">Pour tester la méthode dès aujourd'hui.</p>
+        <ul>
+          <li>Sélection de 300 QCM offerts</li>
+          <li>Mode d'entraînement libre</li>
+          <li>Corrections expliquées</li>
+          <li>Sans carte bancaire</li>
+          <li class="no">Mode examen chrono</li>
+          <li class="no">Carnet d'erreurs</li>
+        </ul>
+        <a href="dashboard.html" class="btn">Accéder au Dashboard</a>
+      </div>
+      <div class="pcard feat reveal d1">
+        <span class="pbadge">LE PLUS CHOISI</span>
+        <span class="pname">Prépa</span>
+        <p class="price">9,90€<small> / mois</small></p>
+        <p class="pdesc">Toute la banque, toutes les corrections.</p>
+        <ul>
+          <li>Banque complète — 4 350 QCM</li>
+          <li>Toutes les sessions 2022 → 2026</li>
+          <li>Mode examen chrono</li>
+          <li>Carnet d'erreurs automatique</li>
+          <li>Statistiques par chapitre</li>
+          <li>Nouveautés chaque session</li>
+        </ul>
+        <a href="dashboard.html" class="btn btn-solid">Choisir Prépa <span class="ar">→</span></a>
+      </div>
+      <div class="pcard reveal d2">
+        <span class="pname">Major</span>
+        <p class="price">69€<small> / an</small></p>
+        <p class="pdesc">Prépa −42% · pour viser le top classement.</p>
+        <ul>
+          <li>Tout le plan Prépa</li>
+          <li>Planning jusqu'au jour J</li>
+          <li>Simulations blanches complètes</li>
+          <li>Estimation de percentile</li>
+          <li>Support prioritaire</li>
+          <li class="no">&nbsp;</li>
+        </ul>
+        <a href="dashboard.html" class="btn">Choisir Major</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= FAQ ======= -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="overline" data-scramble>Questions fréquentes</span>
+      <h2 class="h2">Tout ce qu'on nous demande.</h2>
+    </div>
+    <div class="faq-list reveal d1">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">MAJORY est-il gratuit ?<span class="ic">✚</span></button>
+        <div class="faq-a"><p>L'inscription est gratuite et donne accès à une sélection de QCM pour tester la plateforme. Des offres complètes débloquent toute la banque de questions — sans engagement, et sans carte bancaire pour commencer.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">D'où viennent les questions ?<span class="ic">✚</span></button>
+        <div class="faq-a"><p>D'anciens sujets d'examen, retranscrits fidèlement puis classés par module et par année. Chaque question est relue et corrigée avant publication.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Les corrections sont-elles détaillées ?<span class="ic">✚</span></button>
+        <div class="faq-a"><p>Oui. Chaque proposition — vraie ou fausse — est accompagnée d'une explication courte, pensée pour comprendre et retenir. Pas de pavés, juste l'essentiel.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Puis-je réviser sur mon téléphone ?<span class="ic">✚</span></button>
+        <div class="faq-a"><p>Oui, le site s'adapte à tous les écrans : téléphone, tablette, ordinateur. Ta progression est synchronisée, tu reprends où tu t'étais arrêté.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Les annales couvrent-elles ma faculté ?<span class="ic">✚</span></button>
+        <div class="faq-a"><p>Les questions sont issues de plusieurs facultés et classées par chapitre : le programme est couvert module par module. De nouvelles sessions sont ajoutées régulièrement.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Comment signaler une erreur dans une question ?<span class="ic">✚</span></button>
+        <div class="faq-a"><p>Un bouton « signaler » est présent sur chaque QCM. L'équipe pédagogique vérifie et corrige sous 48 h — la justesse des corrections est notre priorité absolue.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= FINAL CTA ======= -->
+<section class="final" id="inscription">
+  <div class="container">
+    <span class="overline reveal" data-scramble>Accès en moins d'une minute</span>
+    <h2 class="reveal d1">Commence à t'entraîner dès aujourd'hui.</h2>
+    <p class="lead reveal d2">Accède à ton dashboard, choisis ton module, et réponds à ta première question dans la minute.</p>
+    <div class="reveal d3">
+      <a href="dashboard.html" class="btn btn-red" style="font-size:1.05rem;padding:1.1rem 2rem">Ouvrir le Dashboard QCM <span class="ar">→</span></a>
+    </div>
+    <span class="hand-note reveal d3">l'examen n'attend pas ✚</span>
+  </div>
+</section>
+
+<!-- ======= FOOTER ======= -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="logo" href="#" style="text-decoration:none">
+          <span class="logo-cross">✚</span>
+          <span><span class="logo-word" style="color:var(--dk-text)">MAJORY</span><span class="logo-sub" style="color:rgba(242,237,224,.5)">ANNALES · QCM · CORRIGÉS</span></span>
+        </a>
+        <p>Les vraies annales, corrigées et expliquées, pour les étudiant·es en santé. Réponds, comprends, recommence.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Plateforme</h5>
+        <a href="dashboard.html">Dashboard QCM</a><a href="#banque">Banque de QCM</a><a href="#methode">La méthode</a><a href="#examen">Mode examen</a><a href="#tarifs">Tarifs</a>
+      </div>
+      <div class="foot-col">
+        <h5>Ressources</h5>
+        <a href="#faq">FAQ</a><a href="#">Annales récentes</a><a href="#">Guide de révision</a><a href="#">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h5>Modules</h5>
+        <a href="dashboard.html#endocrinologie">Endocrinologie</a><a href="dashboard.html#otr">OTR</a><a href="dashboard.html#uro-nephrologie">Uro-néphrologie</a><a href="dashboard.html#pediatrie">Pédiatrie</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 MAJORY — Fait pour les étudiant·es en santé.</span>
+      <span><a href="#" style="color:inherit;text-decoration:none">Mentions légales</a> · <a href="#" style="color:inherit;text-decoration:none">Confidentialité</a> · <a href="#" style="color:inherit;text-decoration:none">Contact</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const RM = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- header shadow ---------- */
+const header = document.getElementById('header');
+addEventListener('scroll', () => header.classList.toggle('scrolled', scrollY > 10), {passive:true});
+
+/* ---------- scramble decode ---------- */
+function scramble(el){
+  const final = el.dataset.text || el.textContent;
+  el.dataset.text = final;
+  if (RM) { el.textContent = final; return; }
+  const chars = 'ABCDEFGHJKMNPQRSTUVWXYZ0123456789✚%#';
+  const total = Math.max(16, final.length * 2);
+  let frame = 0;
+  const iv = setInterval(() => {
+    frame++;
+    el.textContent = final.split('').map((c,i) =>
+      c === ' ' ? ' ' : (i < (frame/total)*final.length ? c : chars[Math.random()*chars.length|0])
+    ).join('');
+    if (frame >= total) { el.textContent = final; clearInterval(iv); }
+  }, 26);
+}
+
+/* ---------- count-up ---------- */
+function countUp(el){
+  const target = +el.dataset.count;
+  if (RM) { el.textContent = target.toLocaleString('fr-FR'); return; }
+  const dur = 1400, t0 = performance.now();
+  (function tick(t){
+    const p = Math.min(1, (t - t0)/dur);
+    el.textContent = Math.round(target * (1 - Math.pow(1-p,3))).toLocaleString('fr-FR');
+    if (p < 1) requestAnimationFrame(tick);
+  })(t0);
+}
+
+/* ---------- reveal on scroll ---------- */
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    e.target.classList.add('in');
+    e.target.querySelectorAll('[data-scramble]').forEach(el => { if(!el.dataset.done){ el.dataset.done=1; scramble(el);} });
+    if (e.target.matches('[data-scramble]') && !e.target.dataset.done){ e.target.dataset.done=1; scramble(e.target); }
+    e.target.querySelectorAll('[data-count]').forEach(el => { if(!el.dataset.done){ el.dataset.done=1; countUp(el);} });
+    io.unobserve(e.target);
+  });
+}, {threshold:.18});
+document.querySelectorAll('.reveal, [data-scramble], .stat').forEach(el => io.observe(el));
+
+/* ---------- MODULES data + year filter ---------- */
+const MODULES = [
+  {g:'AN', name:'Anatomie',       y:{2026:132,2025:128,2024:126,2023:129,2022:125}, ch:[['Médiastin',14],['Neuro-anatomie',22]]},
+  {g:'PH', name:'Physiologie',    y:{2026:148,2025:140,2024:142,2023:138,2022:142}, ch:[['Cardiovasculaire',18],['Physio rénale',12]]},
+  {g:'BC', name:'Biochimie',      y:{2026:112,2025:108,2024:115,2023:110,2022:110}, ch:[['Enzymologie',11],['Métab. glucidique',16]]},
+  {g:'HI', name:'Histologie',     y:{2026:88,2025:84,2024:86,2023:87,2022:85},       ch:[['Tissus épithéliaux',9],['Sang & moelle',10]]},
+  {g:'EN', name:'Endocrinologie', y:{2026:128,2025:122,2024:124,2023:125,2022:121}, ch:[['Thyroïde & métabolisme',12],['Axe hypothalamo-hypophysaire',9]]},
+  {g:'PM', name:'Pharmacologie',  y:{2026:140,2025:138,2024:141,2023:136,2022:135}, ch:[['Antibiotiques',15],['Pharmacocinétique',8]]},
+  {g:'SL', name:'Sémiologie',     y:{2026:145,2025:142,2024:140,2023:139,2022:139}, ch:[['Sémio cardiaque',20],['Sémio digestive',13]]}
+];
+const rail = document.getElementById('modRail');
+MODULES.forEach(m => {
+  const total = Object.values(m.y).reduce((a,b)=>a+b,0);
+  rail.insertAdjacentHTML('beforeend', `
+    <a href="dashboard.html" class="mcard">
+      <span class="mg">${m.g}</span>
+      <h3>${m.name}</h3>
+      <p class="mcount" data-total="${total}" data-y='${JSON.stringify(m.y)}'>${total.toLocaleString('fr-FR')}<small>QCM corrigés</small></p>
+      <ul class="mchaps">
+        ${m.ch.map(c=>`<li><span>${c[0]}</span><b>${c[1]} QCM</b></li>`).join('')}
+      </ul>
+    </a>`);
+});
+const fmt = n => n.toLocaleString('fr-FR');
+function setYear(year){
+  let grand = 0;
+  document.querySelectorAll('.mcount').forEach(el => {
+    const val = year === 'all' ? +el.dataset.total : JSON.parse(el.dataset.y)[year];
+    grand += val;
+    el.classList.add('flip');
+    setTimeout(() => { el.innerHTML = fmt(val) + '<small>QCM corrigés</small>'; el.classList.remove('flip'); }, RM?0:180);
+  });
+  document.getElementById('modTotal').textContent = fmt(grand);
+}
+document.querySelectorAll('.ychip').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.ychip').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');
+  setYear(b.dataset.year);
+}));
+
+/* ---------- QUIZ ENGINE ---------- */
+const QUESTIONS = [
+  {module:'Endocrinologie', year:'2024', num:'Question 4 / 10',
+   q:"Quelle hormone est libérée par la post-hypophyse ?",
+   c:[{k:'A',t:'ACTH',ok:false,w:"Sécrétée par l'antéhypophyse."},
+      {k:'B',t:'Ocytocine',ok:true,w:"Synthétisée par l'hypothalamus, libérée par la post-hypophyse."},
+      {k:'C',t:'TSH',ok:false,w:"Sécrétée par l'antéhypophyse."},
+      {k:'D',t:'Prolactine',ok:false,w:"Sécrétée par l'antéhypophyse."}],
+   note:"Pense aussi à l'ADH (vasopressine) !"},
+  {module:'Anatomie', year:'2023', num:'Question 2 / 12',
+   q:"L'artère thyroïdienne supérieure est une branche directe de :",
+   c:[{k:'A',t:"L'artère carotide interne",ok:false,w:"Elle vascularise l'encéphale et l'orbite."},
+      {k:'B',t:"L'artère carotide externe",ok:true,w:"Première branche de la carotide externe."},
+      {k:'C',t:"L'artère sous-clavière",ok:false,w:"Elle donne la thyroïdienne inférieure via le tronc thyro-cervical."},
+      {k:'D',t:"Le tronc brachio-céphalique",ok:false,w:"Il se divise en carotide commune droite et sous-clavière droite."}],
+   note:"Classique : confusions carotide externe / sous-clavière."},
+  {module:'Physiologie', year:'2024', num:'Question 7 / 15',
+   q:"Quel est le principal cation du liquide extracellulaire ?",
+   c:[{k:'A',t:'K⁺ (potassium)',ok:false,w:"C'est le cation majeur du milieu intracellulaire."},
+      {k:'B',t:'Na⁺ (sodium)',ok:true,w:"≈ 140 mmol/L dans le plasma : c'est le cation extracellulaire dominant."},
+      {k:'C',t:'Ca²⁺ (calcium)',ok:false,w:"Présent, mais en concentration bien moindre."},
+      {k:'D',t:'Mg²⁺ (magnésium)',ok:false,w:"Principalement intracellulaire et osseux."}],
+   note:"Na⁺ dehors, K⁺ dedans — la base de tous les potentiels."},
+  {module:'Biochimie', year:'2022', num:'Question 9 / 14',
+   q:"Quel marqueur biologique est le plus spécifique de la nécrose myocardique ?",
+   c:[{k:'A',t:'LDH',ok:false,w:"Peu spécifique, présente dans de nombreux tissus."},
+      {k:'B',t:'Troponine Ic',ok:true,w:"Spécifique du myocarde : référence diagnostique."},
+      {k:'C',t:'ASAT',ok:false,w:"Également hépatique, peu spécifique."},
+      {k:'D',t:'CK totale',ok:false,w:"La CK-MB est plus évocatrice, mais moins spécifique que la troponine."}],
+   note:"Troponine = réflexe devant une douleur thoracique."},
+  {module:'Pharmacologie', year:'2023', num:'Question 5 / 11',
+   q:"Quel antidiabétique oral est contre-indiqué en cas d'insuffisance rénale sévère ?",
+   c:[{k:'A',t:'Metformine',ok:true,w:"Risque d'acidose lactique : CI si DFG < 30 mL/min."},
+      {k:'B',t:'Gliclazide',ok:false,w:"Sulfamide utilisable avec précaution selon la fonction rénale."},
+      {k:'C',t:'Sitagliptine',ok:false,w:"Adaptation de dose, mais pas de CI absolue."},
+      {k:'D',t:'Empagliflozine',ok:false,w:"Non initiée à faible DFG, mais la CI emblématique reste la metformine."}],
+   note:"Metformine + rein fragile = réflexe d'examen."}
+];
+let qi = 0, qScore = 0, qAnswered = false, qTimer = null, qSec = 90;
+const $ = id => document.getElementById(id);
+
+function fmtT(s){ return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0'); }
+function startQTimer(){
+  clearInterval(qTimer); qSec = 90; $('qTime').textContent = fmtT(qSec);
+  if (RM) return;
+  qTimer = setInterval(() => { qSec--; $('qTime').textContent = fmtT(Math.max(0,qSec)); if(qSec<=0) clearInterval(qTimer); }, 1000);
+}
+function renderQ(){
+  const d = QUESTIONS[qi];
+  qAnswered = false;
+  $('qModule').textContent = d.module;
+  $('qNum').textContent = d.num;
+  $('qStamp').textContent = 'ANNALE ' + d.year;
+  $('qBar').style.width = ((qi+1)/QUESTIONS.length*100) + '%';
+  $('qText').textContent = d.q;
+  $('qExpl').classList.add('hidden');
+  $('qNext').classList.add('hidden');
+  $('qChoices').innerHTML = d.c.map((c,i) =>
+    `<button class="choice" data-i="${i}" aria-pressed="false"><span class="key">${c.k}</span><span>${c.t}</span></button>`).join('');
+  $('qChoices').querySelectorAll('.choice').forEach(btn => btn.addEventListener('click', () => answer(+btn.dataset.i, btn)));
+  startQTimer();
+}
+function answer(i, btn){
+  if (qAnswered) return;
+  qAnswered = true; clearInterval(qTimer);
+  const d = QUESTIONS[qi];
+  const ok = d.c[i].ok;
+  if (ok) qScore++;
+  $('qScore').textContent = qScore;
+  const btns = $('qChoices').querySelectorAll('.choice');
+  btns.forEach((b, j) => {
+    b.disabled = true;
+    if (d.c[j].ok) b.classList.add('correct');
+    else if (j === i) b.classList.add('wrong');
+    else b.classList.add('dim');
+  });
+  $('qExplList').innerHTML = d.c.map(c =>
+    `<li><span class="tag ${c.ok?'v':'f'}">${c.ok?'VRAI':'FAUX'}</span><span><b>${c.k}.</b> ${d.c.find(x=>x.k===c.k).t}<br><span class="why">${c.w}</span></span></li>`).join('');
+  $('qNote').textContent = '✎ ' + d.note;
+  $('qExpl').classList.remove('hidden');
+  const next = $('qNext');
+  next.innerHTML = qi === QUESTIONS.length-1 ? 'Voir mon résultat <span class="ar">→</span>' : 'Question suivante <span class="ar">→</span>';
+  next.classList.remove('hidden');
+}
+$('qNext').addEventListener('click', () => {
+  qi++;
+  if (qi >= QUESTIONS.length) showResult();
+  else renderQ();
+});
+function showResult(){
+  clearInterval(qTimer);
+  $('qBody').classList.add('hidden');
+  $('qResult').classList.remove('hidden');
+  $('rScore').textContent = qScore;
+  $('rMsg').textContent =
+    qScore === 5 ? "Sans faute. Niveau major, clairement." :
+    qScore >= 3 ? "Solide. Repère tes erreurs, elles valent des points." :
+    "C'est en refaisant qu'on retient. Recommence la série !";
+}
+$('qRestart').addEventListener('click', () => {
+  qi = 0; qScore = 0; $('qScore').textContent = 0;
+  $('qResult').classList.add('hidden');
+  $('qBody').classList.remove('hidden');
+  renderQ();
+});
+$('qTotal').textContent = QUESTIONS.length;
+renderQ();
+
+/* ---------- EXAM SIMULATOR ---------- */
+const CIRC = 339.3, TOTAL = 300;
+const dotsWrap = $('examDots');
+for (let i=0;i<10;i++) dotsWrap.insertAdjacentHTML('beforeend','<i></i>');
+let examIv = null;
+$('examStart').addEventListener('click', () => {
+  if (examIv) return;
+  let t = TOTAL, step = 0;
+  const dots = dotsWrap.querySelectorAll('i');
+  examIv = setInterval(() => {
+    step++; t -= 6;
+    const p = Math.max(0, t/TOTAL);
+    $('ringFg').style.strokeDashoffset = CIRC * (1-p);
+    $('ringTime').textContent = fmtT(Math.max(0,t));
+    dots.forEach((d,i) => {
+      d.className = i < Math.floor(step/5) ? 'f' : (i < Math.floor(step/5)+1 && step%5>2 ? 'd' : '');
+    });
+    if (t <= 0) {
+      clearInterval(examIv); examIv = null;
+      setTimeout(() => {
+        $('examIdle').classList.add('hidden');
+        $('examRes').classList.remove('hidden');
+      }, 350);
+    }
+  }, RM ? 60 : 120);
+});
+$('examReset').addEventListener('click', () => {
+  $('examRes').classList.add('hidden');
+  $('examIdle').classList.remove('hidden');
+  $('ringFg').style.strokeDashoffset = 0;
+  $('ringTime').textContent = '05:00';
+  dotsWrap.querySelectorAll('i').forEach(d => d.className = '');
+});
+
+/* ---------- FAQ ---------- */
+document.querySelectorAll('.faq-item').forEach(item => {
+  const q = item.querySelector('.faq-q'), a = item.querySelector('.faq-a');
+  q.addEventListener('click', () => {
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(o => {
+      o.classList.remove('open');
+      o.querySelector('.faq-a').style.maxHeight = null;
+      o.querySelector('.faq-q').setAttribute('aria-expanded','false');
+    });
+    if (!open) {
+      item.classList.add('open');
+      a.style.maxHeight = a.scrollHeight + 'px';
+      q.setAttribute('aria-expanded','true');
+    }
+  });
+});
+</script>
+</body>
+</html>

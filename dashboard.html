@@ -1,0 +1,3744 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAJORY — Dashboard & QCM d'Annales</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F7F3EA; --paper2:#EFE8D8; --card:#FFFDF6;
+  --ink:#101B2D; --ink-soft:#43506B;
+  --red:#D8402A; --red-soft:#F6E3DF;
+  --green:#12855B; --green-soft:#E1EFE6;
+  --blue:#2B4FD8; --orange:#D97E1F;
+  --line:rgba(16,27,45,.16);
+  --dk:#0C1524; --dk2:#111D31; --dk-text:#F2EDE0; --dk-line:rgba(242,237,224,.15);
+  --mono:'IBM Plex Mono',monospace; --disp:'Fraunces',serif; --body:'Instrument Sans',sans-serif; --hand:'Caveat',cursive;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.6;overflow-x:hidden}
+::selection{background:var(--red);color:#fff}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px dashed var(--red);outline-offset:3px}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:200;opacity:.045;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.overline{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--red);display:inline-flex;align-items:center;gap:10px}
+.overline::before{content:"";width:24px;height:2px;background:var(--red)}
+h1,h2,h3{font-family:var(--disp);font-weight:800;line-height:1.08;letter-spacing:-.015em}
+.hand{font-family:var(--hand);color:var(--red)}
+.mono{font-family:var(--mono)}
+.hidden{display:none !important}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);
+  font-weight:600;font-size:.92rem;padding:.8rem 1.3rem;text-decoration:none;transition:transform .16s,box-shadow .16s;white-space:nowrap}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:4px 4px 0 var(--red)}
+.btn:active{transform:translate(0,0);box-shadow:none}
+.btn-solid{background:var(--ink);color:var(--paper)}
+.btn-red{background:var(--red);border-color:var(--red);color:#fff}
+.btn-red:hover{box-shadow:4px 4px 0 var(--ink)}
+.btn-ghost{border-color:var(--line)}
+.btn-restart-hero{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:linear-gradient(135deg,#E63920 0%,#D8402A 50%,#B82B17 100%);color:#fff;border:2px solid var(--ink);font-family:var(--body);font-size:.92rem;font-weight:700;letter-spacing:.02em;padding:.65rem 1.35rem;box-shadow:4px 4px 0 var(--ink);cursor:pointer;position:relative;overflow:hidden;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,.25);transition:transform .18s cubic-bezier(.22,1,.36,1),box-shadow .18s cubic-bezier(.22,1,.36,1),background .18s;animation:heroPulseGlow 3.5s ease-in-out infinite}
+@keyframes heroPulseGlow{0%,100%{box-shadow:4px 4px 0 var(--ink)}50%{box-shadow:4px 4px 0 var(--ink),0 0 16px rgba(216,64,42,.45)}}
+.btn-restart-hero::before{content:"";position:absolute;top:0;left:-100%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);transform:skewX(-25deg);transition:none}
+.btn-restart-hero:hover{transform:translate(-3px,-3px);box-shadow:7px 7px 0 var(--ink),0 0 20px rgba(216,64,42,.55);background:linear-gradient(135deg,#f24b33 0%,#E63920 50%,#c8321e 100%)}
+.btn-restart-hero:hover::before{left:180%;transition:left .65s ease}
+.btn-restart-hero:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.btn-restart-hero .spin-ico{display:inline-block;font-size:1.25rem;line-height:1;font-weight:800;transition:transform .55s cubic-bezier(.22,1,.36,1)}
+.btn-restart-hero:hover .spin-ico{transform:rotate(-180deg) scale(1.2)}
+.btn-restart-hero.btn-sm{padding:.42rem .95rem;font-size:.82rem;box-shadow:3px 3px 0 var(--ink);animation:none}
+.btn-restart-hero.btn-sm:hover{box-shadow:5px 5px 0 var(--ink);transform:translate(-2px,-2px)}
+
+/* ---------- layout ---------- */
+.app{display:grid;grid-template-columns:262px 1fr;min-height:100vh}
+aside{background:var(--dk);color:var(--dk-text);position:sticky;top:0;height:100vh;display:flex;flex-direction:column;padding:26px 20px;overflow-y:auto}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--dk-text)}
+.logo-cross{width:36px;height:36px;background:var(--red);color:#fff;display:grid;place-items:center;font-size:22px;font-weight:700;box-shadow:3px 3px 0 rgba(242,237,224,.25);flex:none}
+.logo-word{font-family:var(--disp);font-weight:900;font-size:1.4rem;letter-spacing:-.02em;line-height:1}
+.logo-sub{display:block;font-family:var(--mono);font-size:8.5px;letter-spacing:.24em;color:rgba(242,237,224,.55);margin-top:3px}
+.year-toggle-wrap{margin:18px 0 14px}
+.year-toggle-lbl{font-family:var(--mono);font-size:9px;letter-spacing:.18em;color:rgba(242,237,224,.55);text-transform:uppercase;margin-bottom:6px}
+.year-toggle-btns{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--dk2);padding:4px;border:1px solid var(--dk-line)}
+.year-btn{background:transparent;border:1px solid transparent;color:rgba(242,237,224,.72);font-family:var(--mono);font-size:11px;font-weight:600;padding:7px 4px;transition:.18s;text-align:center;cursor:pointer}
+.year-btn:hover{color:#fff;border-color:var(--dk-line)}
+.year-btn.on{background:var(--red);color:#fff;border-color:var(--red);box-shadow:2px 2px 0 rgba(0,0,0,.35)}
+.fac{margin:12px 0 20px;padding:12px 14px;border:1px dashed var(--dk-line);font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:rgba(242,237,224,.7);line-height:1.7}
+.fac b{color:#E8806E;font-weight:600}
+nav{display:flex;flex-direction:column;gap:6px;flex:1}
+.nav-it{display:flex;align-items:center;gap:12px;background:none;border:1px solid transparent;color:rgba(242,237,224,.72);
+  padding:12px 14px;font-size:.94rem;font-weight:500;text-align:left;position:relative;transition:.18s}
+.nav-it .ic{width:22px;text-align:center}
+.nav-it .bdg{margin-left:auto;font-family:var(--mono);font-size:10px;background:var(--red);color:#fff;padding:2px 8px;border-radius:2px}
+.nav-it:hover{color:#fff;border-color:var(--dk-line);transform:translateX(3px)}
+.nav-it.on{color:#fff;background:var(--dk2);border-color:var(--dk-line)}
+.nav-it.on::before{content:"";position:absolute;left:-20px;top:8px;bottom:8px;width:4px;background:var(--red)}
+.side-foot{margin-top:20px;border-top:1px solid var(--dk-line);padding-top:18px}
+.side-prog{font-family:var(--mono);font-size:10.5px;color:rgba(242,237,224,.6);margin-bottom:8px;display:flex;justify-content:space-between}
+.side-bar{height:6px;background:rgba(242,237,224,.12);margin-bottom:16px}
+.side-bar i{display:block;height:100%;background:var(--red);width:0%;transition:width .6s cubic-bezier(.22,1,.36,1)}
+.reset-btn{width:100%;background:none;border:1px solid var(--dk-line);color:rgba(242,237,224,.7);font-family:var(--mono);font-size:11px;letter-spacing:.1em;padding:10px;transition:.15s}
+.reset-btn:hover{border-color:var(--red);color:#E8806E}
+
+main{min-width:0;position:relative;padding:40px clamp(20px,4vw,52px) 80px;
+  background:repeating-linear-gradient(to bottom,transparent 0 33px,rgba(16,27,45,.045) 33px 34px)}
+main::before{content:"";position:absolute;top:0;bottom:0;left:clamp(8px,1.6vw,26px);width:1.5px;background:rgba(216,64,42,.28);pointer-events:none}
+.wrap{max-width:1120px;margin:0 auto}
+
+/* ---------- views ---------- */
+.view{display:none;animation:fadeUp .45s ease}
+.view.on{display:block}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.view-head{margin-bottom:34px}
+.view-head h1{font-size:clamp(2rem,3.8vw,2.9rem);margin:12px 0 8px}
+.view-head h1 em{font-style:italic;color:var(--red)}
+.view-head .sub{color:var(--ink-soft);max-width:64ch}
+.date-line{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;color:var(--ink-soft);text-transform:uppercase;margin-top:14px}
+.date-line b{color:var(--red)}
+
+/* ---------- cards / stats ---------- */
+.card{background:var(--card);border:1.5px solid var(--ink);padding:24px;transition:transform .2s,box-shadow .2s}
+.card.lift:hover{transform:translateY(-5px);box-shadow:7px 7px 0 rgba(16,27,45,.14)}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-bottom:30px}
+.stat{background:var(--card);border:1.5px solid var(--ink);padding:20px 22px;position:relative;overflow:hidden}
+.stat::after{content:"✚";position:absolute;right:-8px;bottom:-16px;font-size:56px;color:rgba(216,64,42,.09);font-weight:700}
+.stat b{font-family:var(--mono);font-size:2rem;font-weight:600;display:block;line-height:1.15}
+.stat b em{font-style:normal;color:var(--red);font-size:1.2rem}
+.stat span{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft)}
+.grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:30px}
+.wtitle{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:16px;display:flex;justify-content:space-between;align-items:center}
+.wtitle .hand{font-size:1.15rem;letter-spacing:0;text-transform:none}
+
+/* ---------- modules ---------- */
+.mod-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.mcard{background:var(--card);border:1.5px solid var(--ink);padding:22px;cursor:pointer;position:relative;transition:transform .2s,box-shadow .2s}
+.mcard:hover{transform:translateY(-6px);box-shadow:7px 7px 0 rgba(16,27,45,.16)}
+.mcard .emo{font-size:2rem;width:56px;height:56px;display:grid;place-items:center;border:1.5px solid var(--ink);background:var(--paper);margin-bottom:16px}
+.mcard h3{font-size:1.2rem;margin-bottom:4px}
+.mcard .meta{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-bottom:14px}
+.mstatus{position:absolute;top:16px;right:16px;font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;padding:4px 9px}
+.mstatus.act{background:var(--green);color:#fff}
+.mstatus.prep{border:1px solid var(--line);color:var(--ink-soft)}
+.mbar{height:6px;background:var(--paper2);margin-top:6px}
+.mbar i{display:block;height:100%;background:var(--red);transition:width .5s}
+.mcard .foot{display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-top:12px}
+
+/* ---------- breadcrumb / chips ---------- */
+.crumbs{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-bottom:22px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.crumbs a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid transparent;cursor:pointer}
+.crumbs a:hover{color:var(--red);border-color:var(--red)}
+.crumbs .sep{color:var(--red)}
+.chip{font-family:var(--mono);font-size:10.5px;letter-spacing:.05em;padding:5px 10px;border:1px solid var(--line);background:var(--paper);display:inline-flex;align-items:center;gap:6px}
+.chip.g{background:var(--green-soft);border-color:var(--green);color:var(--green)}
+.chip.r{background:var(--red-soft);border-color:var(--red);color:var(--red)}
+.chip.b{background:#E4E9F8;border-color:var(--blue);color:var(--blue)}
+.fgroup{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.fgroup .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-right:4px;min-width:68px;display:inline-block}
+.fchip{font-family:var(--mono);font-size:11px;padding:7px 12px;border:1.5px solid var(--line);background:transparent;transition:.15s;cursor:pointer}
+.fchip:hover{border-color:var(--ink)}
+.fchip.on{background:var(--ink);color:var(--paper);border-color:var(--ink);box-shadow:3px 3px 0 var(--red)}
+
+/* ---------- chapter list & QCM rows ---------- */
+.chap-list{display:flex;flex-direction:column;gap:10px}
+.chap-row{display:grid;grid-template-columns:52px 1fr auto auto;gap:16px;align-items:center;background:var(--card);
+  border:1.5px solid var(--ink);padding:16px 20px;cursor:pointer;transition:transform .18s,box-shadow .18s}
+.chap-row:hover{transform:translateX(6px);box-shadow:-6px 6px 0 rgba(216,64,42,.25)}
+.chap-num{font-family:var(--mono);font-weight:600;font-size:.95rem;width:44px;height:44px;display:grid;place-items:center;border:1.5px solid var(--ink);background:var(--paper)}
+.chap-row h4{font-size:1.02rem;font-weight:600;font-family:var(--body)}
+.chap-row .cm{font-family:var(--mono);font-size:10.5px;color:var(--ink-soft);margin-top:2px}
+.qrow{display:grid;grid-template-columns:34px 1fr auto;gap:16px;align-items:center;background:var(--card);border:1.5px solid var(--line);
+  padding:15px 18px;cursor:pointer;transition:.18s;margin-bottom:10px}
+.qrow:hover{border-color:var(--ink);transform:translateX(5px)}
+.qrow .st{font-family:var(--mono);font-weight:600;width:30px;height:30px;display:grid;place-items:center;border:1.5px solid var(--line);font-size:.8rem}
+.qrow.ok .st{background:var(--green);border-color:var(--green);color:#fff}
+.qrow.ko .st{background:var(--red);border-color:var(--red);color:#fff}
+.qrow .qt{font-size:.93rem;font-weight:500;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.qrow .qm{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.qrow .star{color:var(--red);font-size:.85rem}
+.empty{border:1.5px dashed var(--line);padding:50px 30px;text-align:center;background:rgba(255,253,246,.6)}
+.empty .big{font-family:var(--disp);font-size:1.5rem;font-weight:700;margin-bottom:8px}
+.empty p{color:var(--ink-soft);font-size:.92rem;max-width:44ch;margin:0 auto}
+
+/* ---------- player ---------- */
+.player{background:var(--card);border:1.5px solid var(--ink);box-shadow:10px 10px 0 rgba(16,27,45,.1);padding:0;position:relative}
+.player::before{content:"";position:absolute;top:0;bottom:0;left:26px;width:1.5px;background:rgba(216,64,42,.45);pointer-events:none}
+.p-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:20px 28px;border-bottom:1.5px solid var(--line)}
+.p-body{padding:30px 30px 28px 46px}
+.p-q{font-family:var(--disp);font-size:clamp(1.25rem,2.2vw,1.6rem);font-weight:700;line-height:1.3;margin-bottom:22px}
+.choices{display:grid;gap:10px}
+.choice{display:flex;align-items:flex-start;gap:12px;text-align:left;background:#fff;border:1.5px solid var(--line);padding:12px 14px;font-size:.95rem;transition:.15s;cursor:pointer}
+.choice:hover:not(:disabled){border-color:var(--ink);transform:translateX(4px)}
+.choice.sel{border-color:var(--blue);background:#EEF1FC}
+.choice .key{font-family:var(--mono);font-weight:600;font-size:.8rem;width:27px;height:27px;flex:none;display:grid;place-items:center;border:1.5px solid var(--ink)}
+.choice.sel .key{background:var(--blue);border-color:var(--blue);color:#fff}
+.choice.correct{border-color:var(--green);background:var(--green-soft)}
+.choice.correct .key{background:var(--green);border-color:var(--green);color:#fff}
+.choice.miss{border-color:var(--green);background:var(--green-soft);opacity:.85}
+.choice.miss .key{background:transparent;border-color:var(--green);color:var(--green)}
+.choice.wrong{border-color:var(--red);background:var(--red-soft);animation:shake .4s}
+.choice.wrong .key{background:var(--red);border-color:var(--red);color:#fff}
+.choice.dim{opacity:.5}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.expl{margin-top:22px;border-top:1.5px dashed var(--line);padding-top:16px;animation:fadeUp .35s ease}
+.expl h4{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:12px}
+.expl li{list-style:none;display:flex;gap:10px;font-size:.86rem;padding:7px 0;border-bottom:1px dotted var(--line)}
+.expl li:last-child{border-bottom:none}
+.tag{font-family:var(--mono);font-size:10px;font-weight:600;padding:2px 7px;flex:none;height:fit-content;margin-top:2px}
+.tag.v{background:var(--green);color:#fff}.tag.f{background:var(--red);color:#fff}
+.expl .why{color:var(--ink-soft)}
+.stamp{position:absolute;top:18px;right:-14px;transform:rotate(7deg);border:2.5px solid;font-family:var(--mono);font-size:12px;letter-spacing:.24em;padding:8px 14px;background:var(--card);z-index:3}
+.stamp.ok{color:var(--green);border-color:var(--green)}
+.stamp.ko{color:var(--red);border-color:var(--red)}
+.stamp.info{color:var(--orange);border-color:var(--orange)}
+.p-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-top:24px}
+.qbar{height:5px;background:var(--paper2)}
+.qbar i{display:block;height:100%;background:var(--red);transition:width .5s cubic-bezier(.22,1,.36,1)}
+
+/* ---------- QCM STEPPER & ONE-BY-ONE NAV ---------- */
+.qcm-stepper-wrap{background:var(--card);border:2px solid var(--ink);padding:14px 18px;margin-bottom:20px;box-shadow:4px 4px 0 rgba(16,27,45,.08);transition:.2s}
+.qcm-stepper-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:12px;font-family:var(--mono);font-size:12px}
+.qcm-palette{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.qcm-num-btn{min-width:34px;height:34px;padding:0 6px;border:1.5px solid var(--line);background:#fff;color:var(--ink);font-family:var(--mono);font-size:12px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:3px;transition:.15s;position:relative}
+.qcm-num-btn:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:2px 2px 0 var(--ink)}
+.qcm-num-btn.cur{border:2px solid var(--ink);background:var(--ink);color:var(--paper);box-shadow:3px 3px 0 var(--red);transform:translateY(-2px);font-weight:700}
+.qcm-num-btn.ok{background:var(--green-soft);border-color:var(--green);color:var(--green)}
+.qcm-num-btn.part{background:#EEF1FC;border-color:var(--blue);color:var(--blue)}
+.qcm-num-btn.ko{background:var(--red-soft);border-color:var(--red);color:var(--red)}
+.qcm-num-btn.cur.ok{background:var(--green);color:#fff;border-color:var(--ink);box-shadow:3px 3px 0 var(--ink)}
+.qcm-num-btn.cur.part{background:var(--blue);color:#fff;border-color:var(--ink);box-shadow:3px 3px 0 var(--ink)}
+.qcm-num-btn.cur.ko{background:var(--red);color:#fff;border-color:var(--ink);box-shadow:3px 3px 0 var(--ink)}
+.qcm-num-btn .star-dot{position:absolute;top:-4px;right:-4px;color:var(--red);font-size:11px;line-height:1}
+
+.btn-next-hero{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--ink);color:var(--paper);border:2px solid var(--ink);font-family:var(--body);font-weight:700;font-size:.92rem;padding:.65rem 1.45rem;box-shadow:4px 4px 0 var(--red);cursor:pointer;transition:transform .16s,box-shadow .16s,background .16s;white-space:nowrap}
+.btn-next-hero:hover{background:var(--red);border-color:var(--red);color:#fff;transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+.btn-next-hero:active{transform:translate(0,0);box-shadow:none}
+
+/* ---------- tracker ---------- */
+.layer-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:28px}
+.lc{background:var(--card);border:1.5px solid var(--ink);padding:18px 20px}
+.lc .pct{font-family:var(--mono);font-size:1.6rem;font-weight:600}
+.lc .nm{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink-soft);margin:2px 0 10px}
+.lbar{height:7px;background:var(--paper2);position:relative}
+.lbar i{position:absolute;inset:0;right:auto;background:var(--red);transition:width .5s cubic-bezier(.22,1,.36,1)}
+.lbar i.g{background:var(--green)}
+.ttbl{width:100%;border-collapse:collapse;background:var(--card);border:1.5px solid var(--ink)}
+.ttbl th{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);text-align:left;padding:12px 14px;border-bottom:1.5px solid var(--ink);background:var(--paper)}
+.ttbl td{padding:12px 14px;border-bottom:1px solid var(--line);font-size:.9rem;vertical-align:middle}
+.ttbl tr:last-child td{border-bottom:none}
+.ttbl tbody tr{transition:background .15s}
+.ttbl tbody tr:hover{background:var(--paper)}
+.lchk{width:30px;height:30px;border:1.5px solid var(--line);background:#fff;font-size:.85rem;color:transparent;transition:.15s;display:grid;place-items:center;cursor:pointer}
+.lchk:hover:not(.lock){border-color:var(--ink)}
+.lchk.on{background:var(--red);border-color:var(--red);color:#fff;transform:rotate(360deg)}
+.lchk.lock{opacity:.28;cursor:not-allowed}
+.lchk.no360{transition:background .15s,border-color .15s,opacity .15s}
+.tch-name b{display:block;font-weight:600}
+.tch-name span{font-family:var(--mono);font-size:10px;color:var(--ink-soft)}
+
+/* ---------- flashcards ---------- */
+.deck-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.dcard{background:var(--card);border:1.5px solid var(--ink);padding:22px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.dcard:hover{transform:translateY(-5px);box-shadow:7px 7px 0 rgba(16,27,45,.16)}
+.dcard h3{font-size:1.15rem;margin-bottom:4px}
+.dcard .mod{font-family:var(--mono);font-size:10.5px;color:var(--red);margin-bottom:12px}
+.drow{display:flex;justify-content:space-between;font-size:.82rem;color:var(--ink-soft);padding:6px 0;border-bottom:1px dotted var(--line)}
+.drow b{font-family:var(--mono);color:var(--ink)}
+.dcard .btns{display:flex;gap:8px;margin-top:auto;padding-top:16px}
+.fstat{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:26px}
+
+/* ---------- study overlay ---------- */
+#study{position:fixed;inset:0;background:var(--dk);z-index:150;display:none;flex-direction:column;align-items:center;padding:30px 20px;overflow-y:auto;
+  background-image:repeating-linear-gradient(to bottom,transparent 0 33px,rgba(242,237,224,.03) 33px 34px)}
+#study.on{display:flex;animation:fadeUp .3s ease}
+.s-top{width:100%;max-width:760px;display:flex;justify-content:space-between;align-items:center;margin-bottom:30px;color:var(--dk-text)}
+.s-top .btn{border-color:var(--dk-line);color:var(--dk-text)}
+.s-count{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:#E8806E}
+.fcard{width:100%;max-width:640px;min-height:340px;perspective:1400px;flex:1}
+.fcard-in{position:relative;width:100%;height:100%;min-height:340px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.2,.2,1)}
+.fcard.flip .fcard-in{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;background:var(--card);border:1.5px solid var(--ink);box-shadow:12px 12px 0 rgba(216,64,42,.22);padding:34px;display:flex;flex-direction:column}
+.face.back{transform:rotateY(180deg)}
+.face .fq{font-family:var(--disp);font-size:1.35rem;font-weight:700;line-height:1.35;flex:1;white-space:pre-line}
+.face .fh{margin-top:18px}
+.hint-btn{background:none;border:none;font-family:var(--hand);color:var(--red);font-size:1.3rem;text-align:left;cursor:pointer}
+.hint-txt{font-family:var(--hand);font-size:1.35rem;color:var(--red);margin-top:6px}
+.face .ans-lbl{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--green);margin-bottom:12px}
+.face .ans{font-size:1rem;color:var(--ink);flex:1;overflow-y:auto;white-space:pre-line}
+.reveal-btn{margin-top:18px}
+.ratings{width:100%;max-width:640px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+.rate{border:1.5px solid;padding:12px 8px;font-weight:600;font-size:.92rem;color:#fff;text-align:center;transition:transform .15s;cursor:pointer}
+.rate small{display:block;font-family:var(--mono);font-weight:400;font-size:10px;opacity:.85;margin-top:3px}
+.rate:hover{transform:translateY(-3px)}
+.rate.r1{background:var(--red);border-color:var(--red)}
+.rate.r2{background:var(--orange);border-color:var(--orange)}
+.rate.r3{background:var(--green);border-color:var(--green)}
+.rate.r4{background:var(--blue);border-color:var(--blue)}
+.s-hint{margin-top:18px;font-family:var(--mono);font-size:10.5px;color:rgba(242,237,224,.5);letter-spacing:.1em}
+.s-done{text-align:center;color:var(--dk-text);max-width:520px;margin:auto}
+.s-done .big{font-size:4rem;margin-bottom:6px}
+.s-done h2{color:var(--dk-text);font-size:2rem;margin-bottom:10px}
+.s-done p{color:rgba(242,237,224,.65);margin-bottom:26px}
+
+/* ---------- modals ---------- */
+.overlay{position:fixed;inset:0;background:rgba(12,21,36,.6);z-index:300;display:none;align-items:flex-start;justify-content:center;padding:6vh 20px;overflow-y:auto}
+.overlay.on{display:flex;animation:fadeUp .2s ease}
+.modal{background:var(--card);border:1.5px solid var(--ink);box-shadow:14px 14px 0 rgba(12,21,36,.35);width:100%;max-width:540px;padding:30px;position:relative;animation:pop .3s cubic-bezier(.22,1,.36,1)}
+@keyframes pop{from{opacity:0;transform:translateY(20px) scale(.97)}to{opacity:1;transform:none}}
+.modal h3{font-size:1.45rem;margin-bottom:6px}
+.modal .msub{color:var(--ink-soft);font-size:.92rem;margin-bottom:22px}
+.modal .x{position:absolute;top:14px;right:14px;background:none;border:1.5px solid var(--line);width:32px;height:32px;font-size:1rem;transition:.15s;cursor:pointer}
+.modal .x:hover{background:var(--red);border-color:var(--red);color:#fff;transform:rotate(90deg)}
+.field{margin-bottom:16px}
+.field label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:7px}
+.field input,.field select,.field textarea{width:100%;border:1.5px solid var(--line);background:#fff;padding:11px 13px;font-family:var(--body);font-size:.94rem;color:var(--ink);transition:border-color .15s}
+.field textarea{min-height:84px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--ink);box-shadow:3px 3px 0 rgba(216,64,42,.25)}
+.fgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.fgrid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.form-note{font-size:.78rem;color:var(--ink-soft);margin-top:5px;font-family:var(--mono)}
+.m-actions{display:flex;gap:12px;justify-content:flex-end;margin-top:24px}
+.warn{background:var(--red-soft);border:1.5px solid var(--red);padding:12px 14px;font-size:.85rem;margin-bottom:16px}
+.settings-row{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dotted var(--line)}
+.settings-row .dot{width:12px;height:12px;flex:none}
+.settings-row .txt{flex:1;font-size:.88rem}
+.settings-row .txt small{display:block;font-size:.75rem;color:var(--ink-soft)}
+.settings-row input{width:74px;border:1.5px solid var(--line);padding:8px;font-family:var(--mono);text-align:center}
+.prep-ico{font-size:3rem;width:80px;height:80px;border:1.5px solid var(--ink);display:grid;place-items:center;background:var(--paper);margin-bottom:18px}
+
+/* ---------- toast ---------- */
+#toasts{position:fixed;left:20px;bottom:20px;z-index:400;display:flex;flex-direction:column;gap:10px}
+.toast{background:var(--ink);color:var(--paper);font-family:var(--mono);font-size:12px;padding:13px 18px;border-left:4px solid var(--red);
+  transform:translateX(-120%);transition:transform .35s cubic-bezier(.22,1,.36,1);max-width:340px}
+.toast.show{transform:none}
+
+/* ---------- responsive ---------- */
+.score-scoreboard-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+@media(max-width:1080px){.stat-grid,.layer-cards,.fstat{grid-template-columns:repeat(2,1fr)}.mod-grid,.deck-grid{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+@media(max-width:960px){
+  .app{grid-template-columns:1fr}
+  aside{position:sticky;height:auto;flex-direction:row;align-items:center;gap:14px;padding:14px 18px;overflow:visible}
+  .fac,.side-foot,.logo-sub{display:none}
+  nav{flex-direction:row;overflow-x:auto;gap:4px}
+  .nav-it{white-space:nowrap;padding:9px 12px;font-size:.85rem}
+  .nav-it.on::before{left:0;right:0;top:auto;bottom:-14px;width:auto;height:3px}
+  main::before{display:none}
+  .score-scoreboard-grid{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .mod-grid,.deck-grid{grid-template-columns:1fr}
+  .ratings{grid-template-columns:repeat(2,1fr)}
+  .chap-row{grid-template-columns:44px 1fr}
+  .chap-row .chip,.chap-row .btn{display:none}
+  .ttbl{display:block;overflow-x:auto}
+  .fgrid,.fgrid4{grid-template-columns:repeat(2,1fr)}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .fcard-in{transition:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+<!-- ================= SIDEBAR ================= -->
+<aside>
+  <a class="logo" href="#" onclick="go('dashboard');return false">
+    <span class="logo-cross">✚</span>
+    <span><span class="logo-word">MAJORY</span><span class="logo-sub">ANNALES MÉDICALES EN QCM</span></span>
+  </a>
+
+  <div class="year-toggle-wrap">
+    <div class="year-toggle-lbl">PROMOTION / ANNÉE</div>
+    <div class="year-toggle-btns">
+      <button type="button" class="year-btn on" id="btnYear4" onclick="switchAcademicYear('4eme')">4ᵉ Année</button>
+      <button type="button" class="year-btn" id="btnYear5" onclick="switchAcademicYear('5eme')">5ᵉ Année</button>
+    </div>
+  </div>
+
+  <div class="fac">UNIVERSITÉ DE <b>MOSTAGANEM</b><br><span id="sideYearLabel">4ᵉ ANNÉE · MÉDECINE</span></div>
+  <nav>
+    <button class="nav-it on" data-view="dashboard"><span class="ic">⌂</span> Accueil</button>
+    <button class="nav-it" data-view="annales"><span class="ic">📚</span> Annales &amp; QCM</button>
+    <button class="nav-it" data-view="tracker"><span class="ic">🎯</span> Cours Tracker <span class="bdg" style="background:var(--dk2);border:1px solid var(--dk-line)">3 couches</span></button>
+    <button class="nav-it" data-view="flash"><span class="ic">🗂️</span> Flashcards Anki <span class="bdg" id="navDue">0</span></button>
+  </nav>
+  <div class="side-foot">
+    <div class="side-prog"><span id="sideProgLabel">PROGRESSION 4A</span><span id="sidePct">0%</span></div>
+    <div class="side-bar"><i id="sideBar"></i></div>
+    <button class="reset-btn" id="resetBtn">↺ RÉINITIALISER LA PROGRESSION</button>
+  </div>
+</aside>
+
+<!-- ================= MAIN ================= -->
+<main>
+<div class="wrap">
+
+<!-- ===== VIEW: DASHBOARD ===== -->
+<section class="view on" id="view-dashboard">
+  <div class="view-head">
+    <span class="overline" id="dashYearOverline">Université de Mostaganem · 4ème année</span>
+    <h1>Dashboard <em>étudiant</em></h1>
+    <p class="sub">Sélectionne un module pour accéder à la liste de ses chapitres de cours. Entraîne-toi sur les annales officielles avec correction détaillée.</p>
+    <p class="date-line" id="dateLine"></p>
+  </div>
+  <div id="dash-body"></div>
+</section>
+
+<!-- ===== VIEW: ANNALES ===== -->
+<section class="view" id="view-annales">
+  <div class="view-head">
+    <span class="overline">Annales d'examen officielles</span>
+    <h1>Annales &amp; <em>QCM</em></h1>
+    <p class="sub">Sélectionne un module pour accéder à la liste de ses chapitres. Filtre par session et type d'épreuve.</p>
+  </div>
+  <div id="an-body"></div>
+</section>
+
+<!-- ===== VIEW: TRACKER ===== -->
+<section class="view" id="view-tracker">
+  <div class="view-head">
+    <span class="overline">Méthode de révision médicale · Système des 3 couches</span>
+    <h1>Cours <em>Tracker</em></h1>
+    <p class="sub">Suis méthodiquement ta progression par chapitre : coche la <b>1ère couche</b> (compréhension globale), la <b>2ème couche</b> (mémorisation active des détails), la <b>3ème couche</b> (consolidation rapide) et passe directement aux QCM d'annales avec le bouton Practise.</p>
+  </div>
+  <div id="tr-body"></div>
+</section>
+
+<!-- ===== VIEW: FLASHCARDS ===== -->
+<section class="view" id="view-flash">
+  <div class="view-head">
+    <span class="overline">Mémorisation médicale active · Répétition espacée</span>
+    <h1>Flashcards <em>Anki</em></h1>
+    <p class="sub">Crée tes paquets de révision par module et mémorise tes cours durablement grâce à l'algorithme de répétition espacée (SM-2). Évalue la difficulté de chaque carte pour programmer son rappel idéal.</p>
+  </div>
+  <div id="fl-body"></div>
+</section>
+
+</div>
+</main>
+</div>
+
+<!-- ===== STUDY SESSION OVERLAY ===== -->
+<div id="study">
+  <div class="s-top">
+    <button class="btn btn-sm" id="studyQuit">← Quitter la session</button>
+    <span class="chip" id="studyDeck" style="background:var(--dk2);border-color:var(--dk-line);color:var(--dk-text)"></span>
+    <span class="s-count" id="studyCount"></span>
+  </div>
+  <div id="studyArea" style="width:100%;max-width:760px;flex:1;display:flex;flex-direction:column"></div>
+</div>
+
+<!-- ===== MODALS ===== -->
+<div class="overlay" id="ov-prep">
+  <div class="modal">
+    <button class="x" data-close>✕</button>
+    <div class="prep-ico" id="prepIco">❤️</div>
+    <h3 id="prepTitle">Module en préparation</h3>
+    <p class="msub" id="prepSub" style="margin-bottom:8px">Les annales officielles de ce module sont en cours de <b>numérisation, vérification et indexation pédagogique</b>. Ce module sera disponible très prochainement pour les étudiants de la faculté.</p>
+    <p class="hand" style="font-size:1.3rem">on y travaille, promis ✚</p>
+    <div class="m-actions"><button class="btn btn-solid" data-close>Fermer</button></div>
+  </div>
+</div>
+
+<div class="overlay" id="ov-deck">
+  <div class="modal">
+    <button class="x" data-close>✕</button>
+    <h3>Créer un nouveau paquet</h3>
+    <p class="msub">Flashcards Anki — organise tes cartes par module.</p>
+    <form id="deckForm">
+      <div class="field"><label>Nom du paquet *</label><input required id="dkName" placeholder="ex. Valvulopathies — critères"></div>
+      <div class="field"><label>Module associé</label>
+        <select id="dkModule">
+          <optgroup label="4ème Année (Mostaganem)">
+            <option value="Cardiologie">❤️ Cardiologie</option>
+            <option value="Infectiologie">🦠 Infectiologie</option>
+            <option value="Hémato-Oncologie">🩸 Hémato-Oncologie</option>
+            <option value="Neurologie">🧠 Neurologie</option>
+            <option value="Gastro-entérologie">🩺 Gastro-entérologie</option>
+            <option value="Pneumologie">🫁 Pneumologie</option>
+          </optgroup>
+          <optgroup label="5ème Année (Mostaganem)">
+            <option value="Endocrinologie">🩺 Endocrinologie</option>
+            <option value="OTR">🦴 OTR</option>
+            <option value="Uro-néphrologie">🫘 Uro-néphrologie</option>
+            <option value="Psychiatrie">🧠 Psychiatrie</option>
+            <option value="Gynécologie">🤰 Gynécologie</option>
+            <option value="Pédiatrie">👶 Pédiatrie</option>
+          </optgroup>
+          <option value="Général">📚 Général / Transversal</option>
+        </select>
+      </div>
+      <div class="field"><label>Description (optionnelle)</label><input id="dkDesc" placeholder="À quoi sert ce paquet ?"></div>
+      <div class="field"><label>⚡ Rythme de révision &amp; délais</label>
+        <div class="fgrid4">
+          <div><input type="number" min="1" value="20" id="dkDay"><p class="form-note">Cartes / jour</p></div>
+          <div><input value="10" disabled><p class="form-note">À revoir (min)</p></div>
+          <div><input type="number" min="1" value="1" id="dkHard"><p class="form-note">Difficile (j)</p></div>
+          <div><input type="number" min="1" value="3" id="dkGood"><p class="form-note">Bon (j)</p></div>
+        </div>
+        <div style="margin-top:10px"><input type="number" min="1" value="7" id="dkEasy" style="width:74px"><p class="form-note">Facile (jours)</p></div>
+      </div>
+      <div class="m-actions"><button type="button" class="btn" data-close>Annuler</button><button type="submit" class="btn btn-solid">Créer le paquet ✚</button></div>
+    </form>
+  </div>
+</div>
+
+<div class="overlay" id="ov-card">
+  <div class="modal">
+    <button class="x" data-close>✕</button>
+    <h3 id="cardTitle">Ajouter une carte</h3>
+    <p class="msub" id="cardSub">Flashcard — mémorisation active.</p>
+    <div class="warn hidden" id="cardWarn">⚠️ Tu n'as pas encore créé de paquet. Clique sur « ✚ Créer un nouveau paquet » ci-dessous pour commencer !</div>
+    <form id="cardForm">
+      <div class="field"><label>Paquet de destination *</label>
+        <select id="cdDeck"></select>
+        <button type="button" class="btn btn-sm btn-ghost" style="margin-top:8px" onclick="closeOv('ov-card');openOv('ov-deck')">✚ Créer un nouveau paquet</button>
+      </div>
+      <div class="field"><label>Recto (Question / Définition / Cas) *</label><textarea required id="cdFront"></textarea></div>
+      <div class="field"><label>Verso (Réponse complète / Explication) *</label><textarea required id="cdBack"></textarea></div>
+      <div class="field"><label>Indice (optionnel)</label><input id="cdHint" placeholder="Un mot-clé pour t'aider…"></div>
+      <div class="m-actions"><button type="button" class="btn" data-close>Annuler</button><button type="submit" class="btn btn-solid" id="cdSubmit">Enregistrer la carte</button></div>
+    </form>
+  </div>
+</div>
+
+<div class="overlay" id="ov-settings">
+  <div class="modal">
+    <button class="x" data-close>✕</button>
+    <h3>⚙️ Paramètres de révision &amp; délais</h3>
+    <p class="msub">Définis ton objectif quotidien de cartes et les délais personnalisés de révision pour ce paquet.</p>
+    <div class="settings-row"><span class="dot" style="background:var(--ink)"></span><span class="txt">📊 Cartes / jour<small>Limite max à étudier chaque jour (0 = illimité)</small></span><input type="number" min="0" id="stDay"></div>
+    <div class="settings-row"><span class="dot" style="background:var(--red)"></span><span class="txt">🔴 À revoir<small>Reste fixé sur 10 min (rappel immédiat)</small></span><input value="10 min" disabled></div>
+    <div class="settings-row"><span class="dot" style="background:var(--orange)"></span><span class="txt">🟠 Difficile<small>Délai avant rappel si difficile</small></span><input type="number" min="1" id="stHard"> </div>
+    <div class="settings-row"><span class="dot" style="background:var(--green)"></span><span class="txt">🟢 Bon<small>Délai avant rappel si bonne réponse</small></span><input type="number" min="1" id="stGood"></div>
+    <div class="settings-row"><span class="dot" style="background:var(--blue)"></span><span class="txt">🔵 Facile<small>Délai avant rappel si facile</small></span><input type="number" min="1" id="stEasy"></div>
+    <div class="m-actions"><button class="btn" data-close>Annuler</button><button class="btn btn-solid" id="stSave">💾 Enregistrer les réglages</button></div>
+  </div>
+</div>
+
+<div class="overlay" id="ov-scoring">
+  <div class="modal" style="max-width:680px">
+    <button class="x" data-close>✕</button>
+    <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+      <span class="chip g" id="scmModBadge">🩺 ENDOCRINOLOGIE</span>
+      <span class="chip" id="scmCountBadge">QCM D'ANNALES</span>
+    </div>
+    <h3 id="scmChTitle" style="font-size:1.55rem;margin:6px 0 4px">Nom du Chapitre</h3>
+    <p class="msub" style="margin-bottom:20px">Choisis la méthode de correction et de notation pour cette session de révision :</p>
+    
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+      <!-- Option 1: Notation Partielle -->
+      <div class="card lift" id="cardScPartiel" style="cursor:pointer;border:2px solid var(--blue);background:#F3F6FD;padding:18px;display:flex;flex-direction:column;justify-content:space-between" onclick="setChapterScoringMode('partiel')">
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <span style="font-size:1.5rem">🎯</span>
+            <b style="font-size:1.1rem;color:var(--blue)">Notation Partielle</b>
+          </div>
+          <p style="font-size:.86rem;line-height:1.5;color:var(--ink);margin-bottom:10px">
+            Points proportionnels aux bonnes réponses cochées : si les réponses justes sont <b>ABC</b> et que tu réponds <b>AB</b>, tu gagnes <b>2/3 de la note</b> (+0.67 pt).
+          </p>
+          <div style="background:#FFF1EF;border:1px solid #E8806E;padding:8px 10px;font-size:.8rem;color:var(--red);line-height:1.4;margin-bottom:14px">
+            ⚠️ <b>Règle éliminatoire :</b> Si tu coches <b>au moins une réponse fausse</b> (ex : ACE au lieu de ABC), tu obtiens <b>0 sur la question</b>.
+          </div>
+        </div>
+        <button type="button" class="btn btn-sm btn-solid" style="width:100%;background:var(--blue);border-color:var(--blue);color:#fff" onclick="setChapterScoringMode('partiel')">
+          Choisir Notation Partielle →
+        </button>
+      </div>
+
+      <!-- Option 2: Tout ou Rien -->
+      <div class="card lift" id="cardScTor" style="cursor:pointer;border:2px solid var(--ink);padding:18px;display:flex;flex-direction:column;justify-content:space-between" onclick="setChapterScoringMode('tor')">
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <span style="font-size:1.5rem">⚡</span>
+            <b style="font-size:1.1rem">Tout ou Rien</b>
+          </div>
+          <p style="font-size:.86rem;line-height:1.5;color:var(--ink);margin-bottom:10px">
+            Tu dois cocher <b>strictement toutes les réponses justes</b> et aucune fausse (ex : cocher exactement <b>ABC</b>) pour valider la question (+1 pt).
+          </p>
+          <div style="background:var(--paper);border:1px solid var(--line);padding:8px 10px;font-size:.8rem;color:var(--ink-soft);line-height:1.4;margin-bottom:14px">
+            ⚡ <b>Exigence concours :</b> Tout oubli ou toute erreur donne <b>0 point</b>. Barème strict classique des épreuves médicales.
+          </div>
+        </div>
+        <button type="button" class="btn btn-sm btn-solid" style="width:100%" onclick="setChapterScoringMode('tor')">
+          Choisir Tout ou Rien →
+        </button>
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;padding-top:12px;border-top:1px solid var(--line);font-size:.82rem;color:var(--ink-soft)">
+      <span>💡 Tu pourras consulter la 2ème méthode et basculer à tout moment dans le chapitre.</span>
+      <button type="button" class="btn btn-sm btn-ghost" data-close>Fermer</button>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="ov-faculty-select">
+  <div class="modal" style="max-width:640px">
+    <button class="x" data-close>✕</button>
+    <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
+      <span class="chip g" id="facModBadge">🫘 URO-NÉPHROLOGIE</span>
+      <span class="chip" id="facTotalBadge">ANNALES MÉDICALES</span>
+    </div>
+    <h3 style="font-size:1.55rem;margin:6px 0 4px">🏛️ Choisir les Facultés</h3>
+    <p class="msub" style="margin-bottom:18px">
+      Sélectionne la ou les facultés dont tu souhaites inclure les questions d'annales pour réviser :
+    </p>
+
+    <!-- Faculty selection cards -->
+    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:18px" id="facOptionsList">
+      <!-- Options injected dynamically by openFacultyModal() -->
+    </div>
+
+    <!-- Quick actions -->
+    <div style="display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:20px;padding-top:12px;border-top:1px solid var(--dk-line, #E5E1D8)">
+      <div style="display:flex;gap:8px">
+        <button type="button" class="btn btn-sm btn-ghost" onclick="selectAllFaculties(true)">Tout cocher</button>
+        <button type="button" class="btn btn-sm btn-ghost" onclick="selectOnlyMosta()">Mostaganem seule</button>
+      </div>
+      <span class="mono" style="font-size:11.5px;color:var(--ink-soft)" id="facSelectedSummary">3 facultés sélectionnées</span>
+    </div>
+
+    <div class="m-actions" style="margin-top:0">
+      <button class="btn" data-close>Annuler</button>
+      <button class="btn btn-solid" onclick="applyFacultySelection()">Valider et s'entraîner →</button>
+    </div>
+  </div>
+</div>
+
+<div id="toasts"></div>
+
+<!-- ================= OFFICIAL FACULTY DATA & JUSTIFICATIONS ================= -->
+<script src="data/qcm-endocrinologie.js"></script>
+<script src="data/qcm-gastro.js"></script>
+<script src="data/qcm-infectieux.js"></script>
+<script src="data/qcm-pneumo.js"></script>
+<script src="data/qcm-hemato.js"></script>
+<script src="data/qcm-neuro.js"></script>
+<script src="data/qcm-cardio.js"></script>
+<script src="data/qcm-gyneco.js"></script>
+<script src="data/qcm-psy.js"></script>
+<script src="data/qcm-pediatrie.js"></script>
+<script src="data/qcm-uro.js"></script>
+<script src="data/database.js"></script>
+<script src="data/justifications-part1.js"></script>
+<script src="data/justifications-part2.js"></script>
+<script src="data/justifications-part3.js"></script>
+<script src="data/justifications-part4.js"></script>
+<script src="data/justifications-part5.js"></script>
+<script src="data/justifications-gastro.js"></script>
+<script src="data/justifications-infectieux.js"></script>
+<script src="data/justifications-pneumo.js"></script>
+<script src="data/justifications-hemato.js"></script>
+<script src="data/justifications-neuro.js"></script>
+<script src="data/justifications-cardio.js"></script>
+<script src="data/justifications-gyneco.js"></script>
+<script src="data/justifications-psy.js"></script>
+<script src="data/justifications-pediatrie.js"></script>
+<script src="data/justifications-uro.js"></script>
+<script src="data/qcm-otr.js"></script>
+<script src="data/justifications-otr.js"></script>
+
+<script>
+/* ================= DATA & INITIALIZATION ================= */
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const ACADEMIC_YEARS = {
+  '4eme': {
+    id: '4eme',
+    title: '4ème Année',
+    code: '4A',
+    facBadge: '4ᵉ ANNÉE · MÉDECINE',
+    subTitle: 'Université de Mostaganem · 4ème année',
+    desc: 'Programme officiel du 2ème cycle · 6 modules cliniques',
+    modules: [
+      { id:'cardio', ico:'❤️', name:'Cardiologie', active:true, chaps:25, qcm:510, desc:'Pathologies cardiovasculaires, valvulopathies, coronaropathies, HTA · 25 cours officiels' },
+      { id:'infectieux', ico:'🦠', name:'Infectiologie', active:true, chaps:27, qcm:80, desc:'Maladies infectieuses et transmissibles, antibiothérapie · 27 cours officiels' },
+      { id:'hemato', ico:'🩸', name:'Hémato-Oncologie', active:true, chaps:22, qcm:145, desc:'Hémopathies bénignes et malignes, anémies, hémostase, oncologie générale · 22 cours officiels' },
+      { id:'neuro', ico:'🧠', name:'Neurologie', active:true, chaps:29, qcm:650, desc:'Annales officielles EMD Mostaganem & Alger (2022-2026)' },
+      { id:'gastro', ico:'🩺', name:'Gastro-entérologie', active:true, chaps:30, qcm:184, desc:'Évaluation en Hépatologie, Gastro-entérologie et Chirurgie Viscérale · 30 cours officiels' },
+      { id:'pneumo', ico:'🫁', name:'Pneumologie', active:true, chaps:22, qcm:130, desc:'Pathologies respiratoires, infections, BPCO, asthme, cancer · 22 cours officiels' },
+      { id:'gen4', ico:'📚', name:'Général / Transversal 4A', desc:'Questions transversales communes aux 6 modules de 4ème année', transversal:true }
+    ]
+  },
+  '5eme': {
+    id: '5eme',
+    title: '5ème Année',
+    code: '5A',
+    facBadge: '5ᵉ ANNÉE · MÉDECINE',
+    subTitle: 'Université de Mostaganem · 5ème année',
+    desc: 'Programme officiel du 2ème cycle · 6 modules cliniques',
+    modules: [
+      { id:'endo', ico:'🩺', name:'Endocrinologie', active:true, chaps:25, qcm:374, desc:'Annales complètes EMD, contrôles et rattrapages' },
+      { id:'otr', ico:'🦴', name:'OTR (Orthopédie - Traumatologie - Rhumatologie - MPR)', active:true, chaps:48, qcm:695, desc:'Auto-évaluation officielle et EMD Mostaganem - Dr Belkacem Aw.Bk' },
+      { id:'uro', ico:'🫘', name:'Uro-néphrologie', active:true, chaps:34, qcm:973, desc:'Urologie et néphrologie · 22 cours & 12 TD officiels' },
+      { id:'psy', ico:'🧠', name:'Psychiatrie', active:true, chaps:23, qcm:220, desc:'Psychiatrie et santé mentale · 23 cours & TD · 220 QCM d\'annales certifiées (Mostaganem & Oran)' },
+      { id:'gyn', ico:'🤰', name:'Gynécologie', active:true, chaps:37, qcm:531, desc:'Gynécologie et obstétrique · 37 cours officiels · 531 QCM d\'annales' },
+      { id:'ped', ico:'👶', name:'Pédiatrie', active:true, chaps:57, qcm:192, desc:'Pédiatrie et néonatalogie · 49 cours & 8 TD officiels' },
+      { id:'gen5', ico:'📚', name:'Général / Transversal 5A', desc:'Questions transversales communes aux modules de 5ème année', transversal:true }
+    ]
+  }
+};
+
+const STORAGE_YEAR_KEY = 'majory_academic_year_v2';
+let currentAcademicYear = localStorage.getItem(STORAGE_YEAR_KEY) || '4eme';
+
+function getActiveModules(){
+  return ACADEMIC_YEARS[currentAcademicYear] ? ACADEMIC_YEARS[currentAcademicYear].modules : ACADEMIC_YEARS['4eme'].modules;
+}
+
+let MODULES = [...getActiveModules()];
+
+function updateModulesRef(){
+  MODULES.length = 0;
+  MODULES.push(...getActiveModules());
+}
+
+/* ================= MODULE CONFIGURATIONS (4A & 5A) ================= */
+const MODULE_CONFIGS = {
+  'cardio': {
+    id: 'cardio',
+    year: '4eme',
+    title: 'Cardiologie',
+    ico: '❤️',
+    fullName: 'Cardiologie & Pathologies Vasculaires',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ALGER · 4ÈME ANNÉE · 25 COURS OFFICIELS · 510 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+      "Ecg normal",
+      "Rhumatisme articulaire aigue",
+      "Rétrécissement mitral",
+      "Insuffisance mitrale",
+      "Rétrécissement aortique",
+      "Insuffisance aortique",
+      "Surveillance d'un opéré du cœur",
+      "Syndrome coronarien chronique",
+      "Endocardite",
+      "Insuffisance cardiaque",
+      "Hypertension artérielle",
+      "Myocardiopathies",
+      "Syndrome coronarien aigue",
+      "Thrombose veineuse profonde",
+      "Embolie pulmonaire",
+      "Pathologie de l'aorte",
+      "Troubles de l'excitabilité",
+      "Troubles de la conduction",
+      "Péricardites aigues et chroniques",
+      "Cœur pulmonaire chronique",
+      "Ischémie aigue",
+      "Artériopathies des membres inférieurs",
+      "Hypertension pulmonaire",
+      "Pathologie cardiovasculaires gravides",
+      "Cardiopathies congénitales"
+],
+    getRawQcms: () => (window.QCM_CARDIO && Array.isArray(window.QCM_CARDIO)) ? window.QCM_CARDIO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_CARDIO || {})
+  },
+  'gastro': {
+    id: 'gastro',
+    year: '4eme',
+    title: 'Gastro-entérologie',
+    ico: '🩺',
+    fullName: 'Hépatologie, Gastro-entérologie & Chirurgie Viscérale',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 30 COURS OFFICIELS · 184 QCM D\'ANNALES',
+    chapters: [
+      "L'œsophagite caustique",
+      "Cancer de l'œsophage",
+      "Reflux gastro-œsophagien",
+      "Dyspepsie",
+      "Maladie ulcéreuse gastroduodénale",
+      "Gastrite",
+      "Cancer de l'estomac",
+      "Cirrhose du foie",
+      "HTP (hypertension portale)",
+      "Hépatite chronique",
+      "Hépatite aiguë",
+      "Hépatite toxique",
+      "Tumeur du foie",
+      "Lithiase biliaire",
+      "Tumeur de la vésicule biliaire",
+      "Pancréatite chronique",
+      "Pancréatite aiguë",
+      "Cancer du pancréas",
+      "MICI",
+      "Cancer colo-rectal",
+      "Polypes et polypose recto-colique",
+      "Tuberculose digestive",
+      "Syndrome de l'intestin irritable",
+      "Maladie cœliaque",
+      "Hémorroïdes",
+      "Hémorragie digestive",
+      "Occlusion intestinale",
+      "Traumatisme abdominal",
+      "Appendicite & péritonite",
+      "Hernie de l'aine"
+    ],
+    getRawQcms: () => (window.QCM_GASTRO && Array.isArray(window.QCM_GASTRO)) ? window.QCM_GASTRO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_GASTRO || {})
+  },
+  'endo': {
+    id: 'endo',
+    year: '5eme',
+    title: 'Endocrinologie',
+    ico: '🩺',
+    fullName: 'Endocrinologie, Diabétologie et Maladies Métaboliques',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 5ÈME ANNÉE · 25 CHAPITRES · 374 QCM D\'ANNALES',
+    chapters: [
+      "Syndrome métabolique",
+      "Diabète : diagnostic et classification",
+      "Complications aiguës diabète",
+      "Prise en charge du diabète",
+      "Complications dégénératives diabète",
+      "Goitre simple",
+      "Hypothyroïdie",
+      "Hyperthyroïdie",
+      "Hirsutisme",
+      "Cancer de la thyroïde",
+      "Thyroïdites",
+      "Obésité",
+      "Nutrition et prévention",
+      "Dyscalcémies",
+      "Hypertension artérielles endocrines",
+      "Adénomes hypophysaires",
+      "Dyslipidémies",
+      "Insuffisance surrénalienne",
+      "Syndrome de Cushing",
+      "Insuffisance antéhypophysaire",
+      "Diabète insipide",
+      "TD : gynécomastie endocrinienne",
+      "TD : nodule thyroïdien",
+      "TD : aménorrhée endocrinienne",
+      "TD : dysthyroïdie chez femme enceinte"
+    ],
+    getRawQcms: () => (window.QCM_ENDOCRINOLOGIE && Array.isArray(window.QCM_ENDOCRINOLOGIE)) ? window.QCM_ENDOCRINOLOGIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_ENDOCRINOLOGIE || {})
+  },
+  'infectieux': {
+    id: 'infectieux',
+    year: '4eme',
+    title: 'Infectiologie',
+    ico: '🦠',
+    fullName: 'Maladies Infectieuses & Transmissibles · Antibiothérapie',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 27 COURS OFFICIELS · 80 QCM D\'ANNALES',
+    chapters: [
+      "Choc septique",
+      "Dermohypodermites",
+      "Tétanos",
+      "Brucellose",
+      "Sepsis à staphylocoque",
+      "Fièvre boutonneuse méditerranéenne",
+      "La leptospirose",
+      "Rubéole",
+      "Méningite à liquide clair",
+      "Le choléra",
+      "Fièvre typhoïde",
+      "Infection nosocomiale",
+      "Toxoplasmose",
+      "Infection à streptocoque",
+      "VIH",
+      "Méningite purulente",
+      "La diphtérie",
+      "Infection à herpès virus",
+      "Paludisme",
+      "La rage",
+      "Amoebose",
+      "TIAC",
+      "Sepsis à BGN",
+      "Coqueluche",
+      "Éruption fébrile",
+      "AES",
+      "ATB"
+    ],
+    getRawQcms: () => (window.QCM_INFECTIEUX && Array.isArray(window.QCM_INFECTIEUX)) ? window.QCM_INFECTIEUX : [],
+    getJustifications: () => (window.JUSTIFICATIONS_INFECTIEUX || {})
+  },
+  'pneumo': {
+    id: 'pneumo',
+    year: '4eme',
+    title: 'Pneumologie',
+    ico: '🫁',
+    fullName: 'Pneumo-phtisiologie & Pathologies Respiratoires',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 22 COURS OFFICIELS · 130 QCM D\'ANNALES',
+    chapters: [
+      "Épidémiologie et microbiologie de la tuberculose",
+      "Diagnostic et traitement de la tuberculose",
+      "Pneumonie aiguë communautaire",
+      "Pleurésie infectieuse aiguë",
+      "Pneumothorax",
+      "Pneumonie nosocomiale",
+      "Infection respiratoire aiguë (Grippe & Covid)",
+      "Bronchopneumopathie chronique obstructive (BPCO)",
+      "Exacerbation de la BPCO",
+      "Abcès pulmonaires et suppurations",
+      "Cancer bronchique",
+      "Kyste hydatique du poumon",
+      "Physiopathologie et diagnostic de l'asthme",
+      "Prise en charge et traitement de l'asthme",
+      "Hypertension artérielle pulmonaire",
+      "Dilatation des bronches",
+      "Pneumopathies infiltratives diffuses",
+      "Sarcoïdose",
+      "Insuffisance respiratoire chronique",
+      "Tabac et tabagisme",
+      "Tumeurs du médiastin",
+      "Syndrome d'apnée obstructive du sommeil"
+    ],
+    getRawQcms: () => (window.QCM_PNEUMO && Array.isArray(window.QCM_PNEUMO)) ? window.QCM_PNEUMO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_PNEUMO || {})
+  },
+  'hemato': {
+    id: 'hemato',
+    year: '4eme',
+    title: 'Hémato-Oncologie',
+    ico: '🩸',
+    fullName: 'Hématologie Clinique, Biologique & Oncologie Médicale',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 22 COURS OFFICIELS · 145 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+      "Anémies par carence martiale",
+      "Anémies par carence en facteurs anti-pernicieux",
+      "Hémolyse et Anémies hémolytiques",
+      "Cytopénies et aplasie médullaire",
+      "Groupes sanguins et transfusions",
+      "Leucémies aigues",
+      "Leucémie myéloïde chronique (LMC)",
+      "Leucémie lymphoïde chronique (LLC)",
+      "Dysglobulinémies / Gammapathies monoclonales",
+      "Hémostase primaire",
+      "Purpura thrombopénique idiopatique",
+      "Coagulopathies",
+      "Lymphomes hodgkiniens",
+      "Lymphomes non hodgkiniens",
+      "Thérapies cellulaires",
+      "Épidémiologie, cancérogenèse et facteurs de risque",
+      "Prévention et dépistage du cancer",
+      "Échelles d'évaluation et classification en cancérologie",
+      "Principes diagnostiques et bilan pré-thérapeutique",
+      "Principes thérapeutiques et parcours de soins en oncologie",
+      "Urgences métaboliques en oncologie",
+      "Prise en charge de la douleur cancéreuse"
+    ],
+    getRawQcms: () => (window.QCM_HEMATO && Array.isArray(window.QCM_HEMATO)) ? window.QCM_HEMATO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_HEMATO || {})
+  },
+  'psy': {
+    id: 'psy',
+    year: '5eme',
+    title: 'Psychiatrie',
+    ico: '🧠',
+    fullName: 'Psychiatrie & Santé Mentale',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 18 COURS & 5 TD OFFICIELS · 220 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+            "Introduction générale à la santé mentale",
+            "Trouble délirant",
+            "Schizophrénies",
+            "Trouble psychotique bref",
+            "Trouble dépressif",
+            "Trouble bipolaire",
+            "Addictions",
+            "PTSD et troubles liés au stress",
+            "Les urgences psychiatriques & CAT",
+            "Trouble veille/sommeil",
+            "Troubles anxieux et TOC",
+            "Généralité sur le développement de l'enfant",
+            "Déficiences mentales",
+            "Psychiatrie légale",
+            "Troubles sexuelles",
+            "Autisme",
+            "Les carences de soins maternels",
+            "L'adolescence et ses troubles",
+            "TD : CAT devant un état d'agitation",
+            "TD : Prescription et surveillance d'un traitement psychotrope",
+            "TD : CAT devant une insomnie",
+            "TD : CAT devant un trouble confusionnel",
+            "TD : Dépistage des TSA"
+      ],
+    getRawQcms: () => (window.QCM_PSY && Array.isArray(window.QCM_PSY)) ? window.QCM_PSY : [],
+    getJustifications: () => (window.JUSTIFICATIONS_PSY || {})
+  },
+  'gyn': {
+    id: 'gyn',
+    year: '5eme',
+    title: 'Gynécologie',
+    ico: '🤰',
+    fullName: 'Gynécologie & Obstétrique',
+    subText: 'FACULTÉS DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 37 COURS OFFICIELS · 531 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+            "Le Cycle menstruel",
+            "Fécondation",
+            "Bassin obstétrical",
+            "Diagnostic et surveillance de la grossesse",
+            "Mécanisme général de l'accouchement",
+            "Les suites de couches",
+            "Contractions utérines et ses anomalies",
+            "Les présentations fœtales",
+            "Grossesse extra-utérine",
+            "Avortements et complications",
+            "Menace d'accouchement prématuré",
+            "Rupture prématurée des membranes",
+            "Procidence du cordon",
+            "Placenta prævia",
+            "Hématome retro placentaire",
+            "Délivrance normale et pathologique",
+            "Utérus cicatriciel",
+            "Rupture utérine",
+            "Dépassement de terme",
+            "Diabète gestationnel",
+            "La macrosomie fœtale",
+            "La souffrance fœtale",
+            "Anomalies du liquide amniotique",
+            "HTA & grossesse",
+            "Anémie et grossesse",
+            "Cat couple hypofertile",
+            "Les aménorrhées",
+            "Endométriose",
+            "La Contraception",
+            "Les hémorragies génitales",
+            "Dépistage des cancers gynécologiques",
+            "Les Maladies trophoblastiques",
+            "Fibrome utérin",
+            "Les tumeurs du sein",
+            "Cancer de l'endomètre",
+            "Le cancer du col utérin",
+            "Les tumeurs de l'ovaire"
+      ],
+    getRawQcms: () => (window.QCM_GYNECO && Array.isArray(window.QCM_GYNECO)) ? window.QCM_GYNECO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_GYNECO || {})
+  },
+  'otr': {
+    id: 'otr',
+    year: '5eme',
+    title: 'OTR',
+    ico: '🦴',
+    fullName: 'Orthopédie - Traumatologie - Rhumatologie - MPR',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM • 5ÈME ANNÉE • 48 CHAPITRES • 695 QCM D\'AUTO-ÉVALUATION (DR BELKACEM)',
+    chapters: [
+      "Arthrite septique à germe banal",
+      "Arthrose",
+      "Boiterie chez l'enfant",
+      "Complications de l'immobilité et du décubitus",
+      "Déviations rachidiennes",
+      "Épaule douloureuse",
+      "Fractures bimalléolaires",
+      "Fracture de l'extrémité inférieure du radius",
+      "Fracture de la diaphyse humérale",
+      "Fracture du col du fémur",
+      "Fractures du massif trochantérien",
+      "Fractures du pilon tibial",
+      "Fracture du scaphoïde carpien",
+      "Fractures de jambe",
+      "Maladies auto-immunes et articulaires (PR et spondylarthrite)",
+      "La goutte et arthropathies microcristallines",
+      "Fractures de l'extrémité supérieure de l'humérus et palette",
+      "Fractures de la clavicule",
+      "Fractures des deux os de l'avant-bras",
+      "Ostéomyélite aiguë de l'enfant : diagnostic et traitement",
+      "Les fractures des membres (Traumatologie générale)",
+      "Syndrome douloureux régional complexe (SDRC / Algodystrophie)",
+      "Principes de base en MPR et complications de décubitus",
+      "Lombosciatique",
+      "Infections ostéo-articulaires de l'enfant",
+      "Situations de handicap et concept de qualité",
+      "Luxation congénitale de la hanche",
+      "Séquelles de l'amputation et appareillage",
+      "Traumatisme du rachis",
+      "Luxation du coude",
+      "Luxation du coude (Partie 2)",
+      "Membre supérieur et préhension",
+      "Luxation traumatique de la hanche",
+      "Syndrome du canal carpien et compressions nerveuses",
+      "Spondylarthrites (incluant spondylarthrite ankylosante)",
+      "Ostéopathies déminéralisantes (ostéoporose, ostéomalacie)",
+      "Membre inférieur et locomotion (Marche, Bassin, Genou, Cheville)",
+      "Malformations congénitales du pied chez l'enfant",
+      "Prise en charge des atteintes articulaires (dégénératives et inflammatoires)",
+      "Traumatismes du poignet (fractures du poignet)",
+      "Traumatismes de l'épaule (luxation, disjonction acromio-claviculaire)",
+      "Tumeurs osseuses (bénignes et malignes)",
+      "Traumatismes ligamentaires du genou",
+      "Traumatismes ligamentaires du genou (Partie 2)",
+      "Traumatismes osseux du genou (rotule, plateaux tibiaux)",
+      "Fractures de l'extrémité proximale des 2 os de l'avant-bras",
+      "Syndrome des loges",
+      "Tuberculose ostéo-articulaire et Mal de Pott"
+],
+    getRawQcms: () => (window.QCM_OTR && Array.isArray(window.QCM_OTR)) ? window.QCM_OTR : [],
+    getJustifications: () => (window.JUSTIFICATIONS_OTR || {})
+  },
+  'neuro': {
+    id: 'neuro',
+    year: '4eme',
+    title: 'Neurologie',
+    ico: '🧠',
+    fullName: 'Neurologie Clinique & Neurochirurgie',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 29 COURS OFFICIELS · 650 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+      "Neuropathies périphériques",
+      "Syndrome de Guillain-Barré (SGB)",
+      "Myasthénie",
+      "Hémorragie sous-arachnoïdienne (HSA)",
+      "Tumeurs cérébrales",
+      "Maladie de Parkinson et syndromes parkinsoniens",
+      "Traumatismes crâniens (TC)",
+      "Sclérose en plaques (SEP)",
+      "Démences",
+      "Hydrocéphalies",
+      "Ataxies cérébelleuses et héréditaires",
+      "Sclérose latérale amyotrophique (SLA)",
+      "Accidents vasculaires cérébraux (AVC)",
+      "Infections et parasitoses du système nerveux",
+      "Hypertension intra-crânienne (HIC)",
+      "Dystrophies musculaires progressives (DMP)",
+      "Myopathies inflammatoires",
+      "Épilepsies",
+      "Comas neurologiques",
+      "Céphalées secondaires",
+      "Névralgie du trijumeau",
+      "Encéphalites",
+      "Migraine",
+      "Compression médullaire",
+      "Malformations cranio-cervicales",
+      "Craniosténoses",
+      "Spina bifida",
+      "Syndrome cérébelleux",
+      "Syndrome pyramidal"
+    ],
+    getRawQcms: () => (window.QCM_NEURO && Array.isArray(window.QCM_NEURO)) ? window.QCM_NEURO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_NEURO || {})
+  },
+  'ped': {
+    id: 'ped',
+    year: '5eme',
+    title: 'Pédiatrie',
+    ico: '👶',
+    fullName: 'Pédiatrie & Néonatalogie',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 5ÈME ANNÉE · 49 COURS & 8 TD OFFICIELS · 192 QCM DISPONIBLES',
+    chapters: [
+      
+      "Détresse respiratoire néonatale",
+      "Ictère néonatal à bilirubine libre",
+      "Cyanose néonatale",
+      "Infections néonatales",
+      "Mauvaise adaptation du nouveau-né à la vie extra-utérine",
+      "Prématurité et retard de croissance intra-utérin (RCIU)",
+      "Développement psychomoteur",
+      "Dépistage et prévention en ORL, orthopédie et santé mentale",
+      "Vaccination",
+      "Alimentation et besoins nutritionnels du nourrisson",
+      "Rachitisme carentiel",
+      "Tuberculose de l'enfant",
+      "Dépistage de la tuberculose",
+      "Infections respiratoires aiguës (IRA)",
+      "Asthme de l'enfant",
+      "Dyspnée de l'enfant",
+      "Détresse respiratoire du nourrisson",
+      "Méningites de l'enfant",
+      "Éruptions fébriles de l'enfant",
+      "Arrêt cardio-respiratoire (ACR) chez l'enfant",
+      "Malaise du nourrisson",
+      "Comas non traumatiques chez l'enfant",
+      "État de choc en pédiatrie",
+      "Convulsions et épilepsies chez l'enfant",
+      "Diarrhée aiguë chez l'enfant",
+      "Déshydratation aiguë chez l'enfant (DSH)",
+      "Diarrhée chronique",
+      "Vomissements de l'enfant",
+      "Douleurs abdominales et constipation chez l'enfant",
+      "Abdomen chirurgical de l'enfant",
+      "Diabète chez l'enfant",
+      "Complications aiguës du diabète (DT1)",
+      "Obésité chez l'enfant",
+      "Dysthyroïdies chez le nourrisson et l'enfant",
+      "Puberté normale et pathologique",
+      "Infection urinaire chez l'enfant",
+      "Protéinurie et syndrome néphrotique",
+      "Glomérulonéphrite aiguë (GNA)",
+      "Dysurie et énurésie",
+      "Pathologie inguino-scrotale de l'enfant",
+      "Anémies carentielles",
+      "Anémies hémolytiques",
+      "Anémies constitutionnelles",
+      "Syndrome hémorragique chez l'enfant",
+      "Tumeurs abdominales de l'enfant",
+      "Tumeurs thoraciques de l'enfant",
+      "Rhumatisme articulaire aigu (RAA)",
+      "Arthrite juvénile idiopathique (AJI)",
+      "Conseil génétique et diagnostic prénatal",
+      "TD : Allaitement maternel",
+      "TD : CAT devant une fièvre aiguë chez l'enfant",
+      "TD : Comment interpréter une image radiologique (RX)",
+      "TD : Examen du nouveau-né",
+      "TD : Hématurie chez l'enfant",
+      "TD : Les dermatoses courantes en pédiatrie",
+      "TD : Radiographie du thorax de face",
+      "TD : Maltraitance et enfants en danger"
+    ],
+    getRawQcms: () => (window.QCM_PEDIATRIE && Array.isArray(window.QCM_PEDIATRIE)) ? window.QCM_PEDIATRIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_PEDIATRIE || {})
+  },
+  'uro': {
+    id: 'uro',
+    year: '5eme',
+    title: 'Uro-néphrologie',
+    ico: '🫘',
+    fullName: 'Urologie & Néphrologie',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 973 QCM DISPONIBLES · CORRIGÉS OFFICIELS',
+    chapters: [
+      
+      "Cancer de la prostate",
+      "Cancer du rein",
+      "Cancer du testicule",
+      "Dysfonction érectile (DE)",
+      "Hypertrophie bénigne de la prostate (HBP)",
+      "Incontinence urinaire",
+      "Les grosses bourses",
+      "Stérilité du couple",
+      "Tumeurs de la vessie (TV)",
+      "Désordres de l'équilibre acido-basique",
+      "Dyskaliémies",
+      "Glomérulonéphrites chroniques (GNC)",
+      "Insuffisance rénale aiguë (IRA)",
+      "Maladie rénale chronique et insuffisance rénale chronique (IRC)",
+      "Lithiases urinaires",
+      "Néphropathies interstitielles chroniques (NIC)",
+      "Néphropathies vasculaires",
+      "Rein et grossesse",
+      "Rein et hypertension artérielle (Rein et HTA)",
+      "Rein et médicaments (Néphropathies médicamenteuses)",
+      "Transplantation rénale (TR)",
+      "Troubles de l'hydratation (cellulaire et extracellulaire)",
+      "TD : Bandelette urinaire",
+      "TD : CAT devant une anurie obstructive",
+      "TD : CAT devant une hématurie",
+      "TD : Colique néphrétique",
+      "TD : Les diurétiques",
+      "TD : Épuration extra-rénale (EER)",
+      "TD : Les dyscalcémies",
+      "TD : Les infections urinaires",
+      "TD : Rétention d'urine (Rétention aiguë d'urine)",
+      "TD : CAT devant une protéinurie",
+      "TD : Syndrome néphrotique",
+      "TD : Syndromes œdémateux"
+    ],
+    getRawQcms: () => (window.QCM_URO && Array.isArray(window.QCM_URO)) ? window.QCM_URO : [],
+    getJustifications: () => (window.JUSTIFICATIONS_URO || {})
+  },
+};
+  MODULE_CONFIGS['infectiologie'] = MODULE_CONFIGS['infectieux'];
+MODULE_CONFIGS['pneumologie'] = MODULE_CONFIGS['pneumo'];
+MODULE_CONFIGS['hemato-oncologie'] = MODULE_CONFIGS['hemato'];
+MODULE_CONFIGS['hematologie'] = MODULE_CONFIGS['hemato'];
+MODULE_CONFIGS['neurologie'] = MODULE_CONFIGS['neuro'];
+MODULE_CONFIGS['cardiologie'] = MODULE_CONFIGS['cardio'];
+MODULE_CONFIGS['gynecologie'] = MODULE_CONFIGS['gyn'];
+MODULE_CONFIGS['psychiatrie'] = MODULE_CONFIGS['psy'];
+MODULE_CONFIGS['orthopedie'] = MODULE_CONFIGS['otr'];
+MODULE_CONFIGS['rhumatologie'] = MODULE_CONFIGS['otr'];
+MODULE_CONFIGS['pediatrie'] = MODULE_CONFIGS['ped'];
+  MODULE_CONFIGS['uro-nephrologie'] = MODULE_CONFIGS['uro'];
+  MODULE_CONFIGS['urologie'] = MODULE_CONFIGS['uro'];
+  MODULE_CONFIGS['nephrologie'] = MODULE_CONFIGS['uro'];
+
+const STORAGE_ACTIVE_MOD_KEY = 'majory_active_module_id_v2';
+let currentModuleId = localStorage.getItem(STORAGE_ACTIVE_MOD_KEY) || (currentAcademicYear === '4eme' ? 'gastro' : 'endo');
+if (!MODULE_CONFIGS[currentModuleId]) currentModuleId = currentAcademicYear === '4eme' ? 'gastro' : 'endo';
+
+const YEARS = ['2026', '2025', '2024', '2023', '2022', '2021', '2020/21'];
+
+const CHAPTERS = [];
+const QCMS = [];
+
+function buildModuleQcms(){
+  const cfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
+  CHAPTERS.length = 0;
+  CHAPTERS.push(...cfg.chapters);
+
+  const raw = cfg.getRawQcms();
+  const justifsMap = cfg.getJustifications();
+
+  QCMS.length = 0;
+  cfg.chapters.forEach(ch => {
+    const filtered = raw.filter(q => q.chapitre === ch);
+    const mapped = filtered.map(q => {
+      const pSource = (q.sources && q.sources[0]) || q.source || { annee: '2025', type: 'EMD' };
+      const annee = pSource.annee || '2025';
+      const type = pSource.type || 'EMD';
+
+      const justifs = justifsMap[q.id] || q.justifications || {};
+      const choices = Object.entries(q.propositions || {}).map(([letter, text]) => {
+        const isOk = q.bonnes_reponses ? q.bonnes_reponses.includes(letter) : false;
+        let why = justifs[letter] || q.explication || '';
+        if (!why) {
+          if (q.bonnes_reponses === null) {
+            why = 'Question sans corrigé officiel dans les archives de la faculté.';
+          } else if (isOk) {
+            why = 'Proposition exacte selon les recommandations cliniques.';
+          } else {
+            why = 'Proposition inexacte selon les recommandations cliniques.';
+          }
+        }
+        return { letter, t: text, ok: isOk ? 1 : 0, w: why };
+      });
+
+      const srcText = (pSource.texte || '') + ' ' + (q.id || '');
+      const isAlger = /alger/i.test(srcText) || (q.sources && q.sources.some(s => /alger/i.test(s.texte || '')));
+      const isOran = /oran/i.test(srcText) || (q.sources && q.sources.some(s => /oran/i.test(s.texte || ''))) || !!q.isOran;
+
+      return {
+        id: q.id,
+        y: annee,
+        t: type,
+        sources: q.sources || (q.source ? [q.source] : []),
+        q: q.question,
+        c: choices,
+        bonnes_reponses: q.bonnes_reponses,
+        explication: q.explication || '',
+        synthese: justifs._synthese || '',
+        remarque: (justifs._remarque || q.remarque || ''),
+        isAlger: !!isAlger,
+        isOran: !!isOran,
+        faculty: isAlger ? 'Alger' : (isOran ? 'Oran' : (q.faculty || 'Mostaganem'))
+      };
+    });
+    QCMS.push(mapped);
+  });
+}
+
+function getRawQcms(){
+  return (MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro']).getRawQcms();
+}
+
+/* ================= STATE & PERSISTENCE ================= */
+const STORAGE_DECKS_KEY   = 'majory_anki_flashcards_v2';
+
+function getModuleStorageKeys(modId){
+  if (modId === 'endo') {
+    return {
+      ans: 'majory_progression_mostaganem_5eme_v2',
+      trk: 'majory_cours_tracker_mostaganem_5eme_v2',
+      sc:  'majory_scoring_modes_v2'
+    };
+  }
+  return {
+    ans: `majory_progression_mostaganem_${modId}_v2`,
+    trk: `majory_cours_tracker_mostaganem_${modId}_v2`,
+    sc:  `majory_scoring_modes_${modId}_v2`
+  };
+}
+
+function freshState(){
+  return {
+    layers: CHAPTERS.map(() => [false,false,false]),
+    answers: {}, // "ch:idx" -> { ok, chosen: ['A',...], star: false }
+    scoringModes: {}, // ch -> 'partiel' | 'tor'
+    decks: []    // Starts at 0 decks and 0 cards, user managed!
+  };
+}
+
+let state = freshState();
+
+function loadModuleState(modId){
+  const keys = getModuleStorageKeys(modId);
+  state.answers = {};
+  state.layers = CHAPTERS.map(() => [false, false, false]);
+  state.scoringModes = {};
+  try {
+    const sAns = localStorage.getItem(keys.ans);
+    if (sAns) state.answers = JSON.parse(sAns);
+    const sTrk = localStorage.getItem(keys.trk);
+    if (sTrk) state.layers = JSON.parse(sTrk);
+    const sSc = localStorage.getItem(keys.sc);
+    if (sSc) state.scoringModes = JSON.parse(sSc);
+  } catch(e) {
+    console.warn('Error loading module state', e);
+  }
+}
+
+// Initial bootstrap of module, QCMS and state
+buildModuleQcms();
+loadModuleState(currentModuleId);
+
+try {
+  const sDk = localStorage.getItem(STORAGE_DECKS_KEY);
+  if (sDk) {
+    const parsed = JSON.parse(sDk);
+    if (Array.isArray(parsed)) {
+      state.decks = parsed.filter(d => d.id !== 'deck-endo-essentiels');
+    }
+  }
+} catch(e) {
+  console.warn('Decks failed to load', e);
+}
+
+function saveState(){
+  try {
+    const keys = getModuleStorageKeys(currentModuleId);
+    localStorage.setItem(keys.ans, JSON.stringify(state.answers));
+    localStorage.setItem(keys.trk, JSON.stringify(state.layers));
+    localStorage.setItem(STORAGE_DECKS_KEY, JSON.stringify(state.decks));
+    localStorage.setItem(keys.sc, JSON.stringify(state.scoringModes || {}));
+  } catch(e){}
+  updateSide();
+}
+
+function setActiveModule(modId){
+  if (!MODULE_CONFIGS[modId]) {
+    modId = currentAcademicYear === '4eme' ? 'gastro' : 'endo';
+  }
+  saveState();
+  currentModuleId = modId;
+  localStorage.setItem(STORAGE_ACTIVE_MOD_KEY, modId);
+  const cfg = MODULE_CONFIGS[modId];
+  currentAcademicYear = cfg.year;
+  localStorage.setItem(STORAGE_YEAR_KEY, cfg.year);
+  updateModulesRef();
+  buildModuleQcms();
+  loadModuleState(modId);
+}
+
+function switchAcademicYear(year){
+  if (!ACADEMIC_YEARS[year]) return;
+  currentAcademicYear = year;
+  localStorage.setItem(STORAGE_YEAR_KEY, year);
+  updateModulesRef();
+  const nextMod = year === '4eme' ? 'gastro' : 'endo';
+  setActiveModule(nextMod);
+  anView.page = 'list';
+  renderAll();
+  toast(`🎓 Basculé sur la ${ACADEMIC_YEARS[year].title} (Mostaganem)`);
+}
+
+/* ================= HELPERS ================= */
+const $ = id => document.getElementById(id);
+const fmt = n => Number(n).toLocaleString('fr-FR');
+
+function toast(msg){
+  const t = document.createElement('div'); t.className = 'toast'; t.innerHTML = msg;
+  $('toasts').appendChild(t);
+  requestAnimationFrame(() => t.classList.add('show'));
+  setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 350); }, 2600);
+}
+
+function openOv(id){ $(id).classList.add('on'); document.body.style.overflow = 'hidden'; }
+function closeOv(id){ $(id).classList.remove('on'); document.body.style.overflow = ''; }
+
+document.querySelectorAll('.overlay').forEach(ov => {
+  ov.addEventListener('click', e => { if (e.target === ov) closeOv(ov.id); });
+  ov.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', () => closeOv(ov.id)));
+});
+
+addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.querySelectorAll('.overlay.on').forEach(o => closeOv(o.id));
+});
+
+function countUp(el){
+  const target = +el.dataset.count, suffix = el.dataset.suffix || '';
+  if (RM) { el.textContent = fmt(target) + suffix; return; }
+  const t0 = performance.now(), dur = 1100;
+  (function tick(t){
+    const p = Math.min(1, (t - t0) / dur);
+    el.textContent = fmt(Math.round(target * (1 - Math.pow(1 - p, 3)))) + suffix;
+    if (p < 1) requestAnimationFrame(tick);
+  })(t0);
+}
+
+function runCounts(scope){
+  scope.querySelectorAll('[data-count]').forEach(el => countUp(el));
+}
+
+/* progress aggregates */
+function qcmStats(){
+  let ans = 0, ok = 0, stars = 0, retrav = 0;
+  Object.values(state.answers).forEach(a => {
+    ans++;
+    if (a.ok) ok++;
+    if (a.star) stars++;
+    if (!a.ok && a.ok !== null) retrav++;
+  });
+  return { ans, ok, stars, retrav, rate: ans ? Math.round(ok / ans * 100) : null };
+}
+
+function chapterDone(i){
+  const qs = QCMS[i] || [];
+  return qs.length > 0 && qs.every((_, j) => state.answers[i + ':' + j]);
+}
+
+function chapterAnswered(i){
+  const qs = QCMS[i] || [];
+  return qs.filter((_, j) => state.answers[i + ':' + j]).length;
+}
+
+function trackerStats(){
+  const L = state.layers;
+  const l1 = L.filter(x => x[0]).length, l2 = L.filter(x => x[1]).length, l3 = L.filter(x => x[2]).length;
+  const qv = CHAPTERS.map((_, i) => chapterDone(i)).filter(Boolean).length;
+  return { l1, l2, l3, qv };
+}
+
+function cardsDue(){
+  return state.decks.reduce((n, d) => n + d.cards.filter(c => (c.due || 0) <= 0).length, 0);
+}
+
+function flashStats(){
+  let total = 0, learning = 0, mature = 0;
+  state.decks.forEach(d => d.cards.forEach(c => {
+    total++;
+    if ((c.ivl || 0) >= 21) mature++;
+    else if ((c.ivl || 0) > 0) learning++;
+  }));
+  return { total, due: cardsDue(), learning, mature };
+}
+
+/* ================= NAV ================= */
+function go(view){
+  document.querySelectorAll('.nav-it').forEach(b => b.classList.toggle('on', b.dataset.view === view));
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('on'));
+  const target = $('view-' + view);
+  if (target) target.classList.add('on');
+  window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+  renderAll();
+}
+
+document.querySelectorAll('.nav-it').forEach(b => b.addEventListener('click', () => go(b.dataset.view)));
+
+$('resetBtn').addEventListener('click', () => {
+  if (!confirm('Souhaites-tu réinitialiser l\'ensemble de tes réponses aux QCM, les cases du Tracker et remettre les Flashcards à zéro ?')) return;
+  state = freshState();
+  saveState();
+  anView = { page: 'list' };
+  renderAll();
+  toast('↺ Progression entièrement réinitialisée');
+});
+
+/* ================= DASHBOARD ================= */
+function renderDash(){
+  const qs = qcmStats(), ts = trackerStats(), fs = flashStats();
+  const d = new Date();
+  $('dateLine').innerHTML = d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) + ' · <b>SESSION 2025/26</b>';
+
+  const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
+  const totalAllQcm = QCMS.reduce((acc, qList) => acc + qList.length, 0);
+  const activeModsCount = MODULES.filter(m => m.active).length;
+  const modsCount = MODULES.filter(m => !m.transversal).length;
+
+  const lastAnsCh = 0;
+  const ch0Answered = chapterAnswered(lastAnsCh);
+  const ch0Total = QCMS[lastAnsCh]?.length || 0;
+  const ch0Pct = ch0Total ? Math.round(ch0Answered / ch0Total * 100) : 0;
+
+  const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['4eme'];
+
+  $('dash-body').innerHTML = `
+    <div class="stat-grid">
+      <div class="stat"><b><span data-count="${totalAllQcm}">0</span></b><span>QCM disponibles</span></div>
+      <div class="stat"><b><span data-count="${modsCount}">0</span> <em>(${activeModsCount ? activeModsCount + ' actif' : '6 prévus'})</em></b><span>Modules de ${yearInfo.title}</span></div>
+      <div class="stat"><b><span data-count="${qs.ans}">0</span></b><span>Questions révisées</span></div>
+      <div class="stat"><b>${qs.rate === null ? '–' : `<span data-count="${qs.rate}" data-suffix="%">0</span>`}</b><span>Taux de réussite</span></div>
+    </div>
+    <div class="grid2">
+      <div class="card lift" style="cursor:pointer" onclick="go('annales');chooseChapter(${lastAnsCh})">
+        <p class="wtitle">REPRENDRE OÙ TU T'ES ARRÊTÉ <span class="hand">on continue ? →</span></p>
+        <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+          <div class="emo" style="font-size:2rem;width:60px;height:60px;display:grid;place-items:center;border:1.5px solid var(--ink);background:var(--paper)">${modCfg.ico}</div>
+          <div style="flex:1;min-width:180px">
+            <h3 style="font-size:1.2rem">${modCfg.title} — Chapitre 01</h3>
+            <p class="mono" style="font-size:11px;color:var(--ink-soft);margin:4px 0 8px">${(CHAPTERS[lastAnsCh] || '').toUpperCase()} · ${ch0Answered}/${ch0Total} RÉPONDUS</p>
+            <div class="mbar"><i style="width:${ch0Pct}%"></i></div>
+          </div>
+          <span class="btn btn-red btn-sm">Continuer →</span>
+        </div>
+      </div>
+      <div class="card">
+        <p class="wtitle">AUJOURD'HUI</p>
+        <div class="drow"><span>🗂️ Cartes à réviser</span><b>${fs.due}</b></div>
+        <div class="drow"><span>★ QCM à retravailler</span><b>${qs.retrav}</b></div>
+        <div class="drow" style="border-bottom:none"><span>🎯 Couches validées</span><b>${ts.l1 + ts.l2 + ts.l3} / ${CHAPTERS.length * 3}</b></div>
+        <div style="display:flex;gap:8px;margin-top:16px">
+          <button class="btn btn-sm btn-solid" onclick="go('flash')" style="flex:1">Réviser les cartes</button>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin:24px 0 14px">
+      <p class="wtitle" id="dashProgramTitle" style="margin:0">PROGRAMME ACADÉMIQUE · MODULES DE ${yearInfo.title.toUpperCase()}</p>
+      <div style="display:flex;gap:8px;align-items:center">
+        <span class="mono" style="font-size:11px;color:var(--ink-soft)">Année :</span>
+        <button class="fchip ${currentAcademicYear==='4eme'?'on':''}" onclick="switchAcademicYear('4eme')">4ᵉ Année (6 modules)</button>
+        <button class="fchip ${currentAcademicYear==='5eme'?'on':''}" onclick="switchAcademicYear('5eme')">5ᵉ Année (6 modules)</button>
+      </div>
+    </div>
+    <div class="mod-grid">${MODULES.filter(m => !m.transversal).map(modCard).join('') + wideCard()}</div>
+    <p class="hand" style="font-size:1.5rem;margin-top:26px;display:block">✚ Valide tes 3 couches avant de passer aux QCM : c'est ça, la méthode des majors.</p>`;
+
+  $('dash-body').querySelectorAll('.mcard').forEach(bindModCard);
+  runCounts($('dash-body'));
+}
+
+function modCard(m){
+  const isAct = !!m.active;
+  const isCur = isAct && m.id === currentModuleId;
+  const done = isCur ? chapterAnswered(0) : 0;
+  const totalCh0 = isCur ? (QCMS[0]?.length || 0) : 0;
+  const pct = totalCh0 ? Math.round(done / totalCh0 * 100) : 0;
+  return `<article class="mcard" data-mod="${m.id}">
+    <span class="mstatus ${isAct ? 'act' : 'prep'}">${isAct ? 'ACTIF' : 'EN COURS'}</span>
+    <div class="emo">${m.ico}</div>
+    <h3>${m.name}</h3>
+    <p class="meta">${isAct ? `${m.chaps} CHAPITRES · ${m.qcm} QCM` : (m.desc || 'ANNALES EN COURS DE NUMÉRISATION')}</p>
+    ${isAct ? `<div class="mbar"><i style="width:${pct}%"></i></div><p class="foot"><span>${done}/${totalCh0} QCM CH.01</span><span style="color:var(--red)">→</span></p>`
+    : `<p class="foot"><span>DISPONIBLE BIENTÔT</span><span>✚</span></p>`}
+  </article>`;
+}
+
+function wideCard(){
+  const m = MODULES.find(x => x.transversal);
+  if (!m) return '';
+  return `<article class="mcard" data-mod="${m.id}" style="grid-column:1/-1;display:flex;align-items:center;gap:22px">
+    <div class="emo" style="margin-bottom:0">${m.ico}</div>
+    <div style="flex:1"><h3 style="font-size:1.15rem">${m.name}</h3><p class="meta">${m.desc || 'QUESTIONS TRANSVERSALES · COMMUNES AUX MODULES'}</p></div>
+    <span class="mstatus prep" style="position:static">EN PRÉPARATION</span>
+  </article>`;
+}
+
+function bindModCard(el){
+  el.addEventListener('click', () => {
+    const m = MODULES.find(x => x.id === el.dataset.mod);
+    if (!m) return;
+    if (m.active && (MODULE_CONFIGS[m.id] || m.id === 'endo' || m.id === 'gastro' || m.id === 'infectieux' || m.id === 'pneumo' || m.id === 'hemato' || m.id === 'neuro' || m.id === 'otr' || m.id === 'cardio' || m.id === 'gyn' || m.id === 'psy' || m.id === 'ped' || m.id === 'uro')) {
+      setActiveModule(m.id);
+      go('annales');
+      openModule();
+      openFacultyModal();
+    } else {
+      $('prepIco').textContent = m.ico;
+      $('prepTitle').textContent = m.name;
+      const yearLabel = ACADEMIC_YEARS[currentAcademicYear]?.title || '4ème Année';
+      const msub = $('prepSub');
+      if (msub) {
+        msub.innerHTML = `Module officiel de <b>${yearLabel}</b> (Faculté de Médecine de Mostaganem).<br><br>
+        <b>Description :</b> ${m.desc || 'Pathologies et clinique médicale.'}<br><br>
+        Les annales d'examens (EMD, rattrapages) et chapitres de ce module sont prêts à être indexés avec leurs questions corrigées.`;
+      }
+      openOv('ov-prep');
+    }
+  });
+}
+
+/* ================= ANNALES & SCORING MODES ================= */
+const STORAGE_FACULTY_FILTER_KEY = 'majory_qcm_faculty_filter';
+let savedFacultyFilter = localStorage.getItem(STORAGE_FACULTY_FILTER_KEY) || 'all';
+let anView = { page: 'list', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', faculties: getStoredFaculties(), displayMode: 'single' };
+let pendingChapterIdx = null;
+
+function getQuestionScore(q, a, mode){
+  if (!q || !a || !Array.isArray(a.chosen) || a.chosen.length === 0) return null;
+  const K = q.bonnes_reponses;
+  if (!K || !Array.isArray(K) || K.length === 0) return null; // Non noté / sans corrigé officiel
+
+  const S = a.chosen;
+  const hasWrong = S.some(l => !K.includes(l));
+
+  if (mode === 'tor'){
+    // Tout ou Rien : exactitude 100% requise
+    const isExact = !hasWrong && S.length === K.length && K.every(l => S.includes(l));
+    return {
+      pts: isExact ? 1.0 : 0.0,
+      max: 1.0,
+      status: isExact ? 'exact' : (hasWrong ? 'wrong' : 'incomplete'),
+      ratio: isExact ? '1/1' : '0/1',
+      details: isExact ? 'Tout ou Rien : validé (+1 pt)' : (hasWrong ? 'Tout ou Rien : erreur (0 pt)' : 'Tout ou Rien : incomplet (0 pt)')
+    };
+  }
+
+  // Notation Partielle :
+  // Si au moins une réponse fausse est cochée -> 0 pt (règle éliminatoire stricte)
+  if (hasWrong){
+    return {
+      pts: 0.0,
+      max: 1.0,
+      status: 'eliminated',
+      ratio: '0/' + K.length,
+      details: 'Notation Partielle : faute cochée → éliminé (0 pt)'
+    };
+  }
+
+  // Proportionnel aux bonnes réponses cochées
+  const correctCount = S.filter(l => K.includes(l)).length;
+  const pts = correctCount / K.length;
+  const isFull = correctCount === K.length;
+  return {
+    pts: Number(pts.toFixed(4)),
+    max: 1.0,
+    status: isFull ? 'exact' : 'partial',
+    ratio: `${correctCount}/${K.length}`,
+    details: isFull ? 'Notation Partielle : plein score (+1 pt)' : `Notation Partielle : ${correctCount}/${K.length} (+${pts.toFixed(2)} pt)`
+  };
+}
+
+function computeChapterFullSummary(ch){
+  const modeActive = (state.scoringModes && state.scoringModes[ch]) || 'partiel';
+  const modeOther = modeActive === 'partiel' ? 'tor' : 'partiel';
+
+  const qs = QCMS[ch] || [];
+  const gradableQs = qs.filter(q => q.bonnes_reponses !== null && Array.isArray(q.bonnes_reponses) && q.bonnes_reponses.length > 0);
+  const totalGradable = gradableQs.length;
+  const totalQuestions = qs.length;
+
+  let answeredCount = 0;
+  let answeredGradable = 0;
+
+  let ptsActive = 0;
+  let ptsOther = 0;
+
+  let activeFull = 0, activePartial = 0, activeZero = 0;
+  let otherFull = 0, otherPartial = 0, otherZero = 0;
+
+  qs.forEach((q, j) => {
+    const a = state.answers[ch + ':' + j];
+    if (!a || !Array.isArray(a.chosen) || a.chosen.length === 0) return;
+    answeredCount++;
+
+    if (q.bonnes_reponses === null) return;
+    answeredGradable++;
+
+    const resActive = getQuestionScore(q, a, modeActive);
+    if (resActive) {
+      ptsActive += resActive.pts;
+      if (resActive.status === 'exact') activeFull++;
+      else if (resActive.status === 'partial') activePartial++;
+      else activeZero++;
+    }
+
+    const resOther = getQuestionScore(q, a, modeOther);
+    if (resOther) {
+      ptsOther += resOther.pts;
+      if (resOther.status === 'exact') otherFull++;
+      else if (resOther.status === 'partial') otherPartial++;
+      else otherZero++;
+    }
+  });
+
+  const noteActiveGlobal = totalGradable > 0 ? (ptsActive / totalGradable) * 20 : 0;
+  const noteActiveRep = answeredGradable > 0 ? (ptsActive / answeredGradable) * 20 : 0;
+
+  const noteOtherGlobal = totalGradable > 0 ? (ptsOther / totalGradable) * 20 : 0;
+  const noteOtherRep = answeredGradable > 0 ? (ptsOther / answeredGradable) * 20 : 0;
+
+  return {
+    ch,
+    modeActive,
+    modeOther,
+    totalQuestions,
+    totalGradable,
+    answeredCount,
+    answeredGradable,
+    ptsActive: Number(ptsActive.toFixed(2)),
+    ptsOther: Number(ptsOther.toFixed(2)),
+    noteActiveGlobal: Number(noteActiveGlobal.toFixed(2)),
+    noteActiveRep: Number(noteActiveRep.toFixed(2)),
+    noteOtherGlobal: Number(noteOtherGlobal.toFixed(2)),
+    noteOtherRep: Number(noteOtherRep.toFixed(2)),
+    activeFull, activePartial, activeZero,
+    otherFull, otherPartial, otherZero,
+    diffRep: Number((noteActiveRep - noteOtherRep).toFixed(2)),
+    diffGlobal: Number((noteActiveGlobal - noteOtherGlobal).toFixed(2))
+  };
+}
+
+function chooseChapter(i){
+  i = Number(i);
+  if (isNaN(i) || i < 0 || i >= CHAPTERS.length) i = 0;
+  pendingChapterIdx = i;
+  const qs = QCMS[i] || [];
+  const curMode = (state.scoringModes && state.scoringModes[i]) || 'partiel';
+
+  const titleEl = $('scmChTitle');
+  if (titleEl) titleEl.textContent = `Chapitre ${String(i + 1).padStart(2, '0')} : ${CHAPTERS[i]}`;
+  const badgeEl = $('scmCountBadge');
+  if (badgeEl) badgeEl.textContent = `${qs.length} QCM D'ANNALES`;
+
+  const cPartiel = $('cardScPartiel');
+  const cTor = $('cardScTor');
+  if (cPartiel && cTor) {
+    if (curMode === 'partiel') {
+      cPartiel.style.borderColor = 'var(--blue)';
+      cPartiel.style.background = '#F3F6FD';
+      cPartiel.style.boxShadow = '5px 5px 0 var(--blue)';
+      cTor.style.borderColor = 'var(--ink)';
+      cTor.style.background = 'var(--card)';
+      cTor.style.boxShadow = 'none';
+    } else {
+      cTor.style.borderColor = 'var(--red)';
+      cTor.style.background = '#FFF5F3';
+      cTor.style.boxShadow = '5px 5px 0 var(--red)';
+      cPartiel.style.borderColor = 'var(--ink)';
+      cPartiel.style.background = 'var(--card)';
+      cPartiel.style.boxShadow = 'none';
+    }
+  }
+
+  openOv('ov-scoring');
+}
+
+function setChapterScoringMode(mode){
+  if (pendingChapterIdx === null || pendingChapterIdx === undefined) pendingChapterIdx = 0;
+  if (!state.scoringModes) state.scoringModes = {};
+  state.scoringModes[pendingChapterIdx] = mode;
+  saveState();
+  closeOv('ov-scoring');
+  openChapter(pendingChapterIdx);
+  toast(mode === 'partiel' ? '🎯 Mode Notation Partielle appliqué' : '⚡ Mode Tout ou Rien appliqué');
+}
+
+function toggleChapterScoringMode(ch){
+  if (!state.scoringModes) state.scoringModes = {};
+  const cur = state.scoringModes[ch] || 'partiel';
+  const next = cur === 'partiel' ? 'tor' : 'partiel';
+  state.scoringModes[ch] = next;
+  saveState();
+  renderAnnales();
+  toast(next === 'partiel' ? '🎯 Basculé en Notation Partielle' : '⚡ Basculé en Tout ou Rien');
+}
+
+function restartChapterSession(ch){
+  ch = Number(ch);
+  if (isNaN(ch) || ch < 0 || ch >= CHAPTERS.length) ch = 0;
+  if (!confirm(`Souhaites-tu réinitialiser toutes tes réponses et refaire la session pour le Chapitre ${ch + 1} (${CHAPTERS[ch]}) ?`)) return;
+  const qs = QCMS[ch] || [];
+  qs.forEach((_, j) => {
+    const star = state.answers[ch + ':' + j]?.star || false;
+    delete state.answers[ch + ':' + j];
+    if (state.showExpl) delete state.showExpl[ch + ':' + j];
+    if (star) state.answers[ch + ':' + j] = { ok: null, chosen: [], star: true };
+  });
+  anView.qi = 0;
+  anView.showReport = false;
+  saveState();
+  renderAnnales();
+  toast('↺ Session réinitialisée — C\'est reparti pour un 20/20 ! ✚');
+  setTimeout(() => {
+    window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+  }, 40);
+}
+const resetChapterAnswers = restartChapterSession;
+
+function openModuleList(){
+  savedFacultyFilter = localStorage.getItem(STORAGE_FACULTY_FILTER_KEY) || 'all';
+  anView = { page: 'list', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', fa: savedFacultyFilter, displayMode: anView.displayMode || 'single' };
+  renderAnnales();
+  window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+}
+function openModule(modId){
+  if (modId) setActiveModule(modId);
+  savedFacultyFilter = localStorage.getItem(STORAGE_FACULTY_FILTER_KEY) || 'all';
+  anView = { page: 'module', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', faculties: getStoredFaculties(), displayMode: anView.displayMode || 'single' };
+  renderAnnales();
+  window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+}
+function openChapter(i, qi){
+  i = Number(i);
+  if (isNaN(i) || i < 0 || i >= CHAPTERS.length) i = 0;
+  if (!state.scoringModes) state.scoringModes = {};
+  if (!state.scoringModes[i]) state.scoringModes[i] = 'partiel';
+  const savedDisplayMode = localStorage.getItem('majory_qcm_display_mode') || 'single';
+  savedFacultyFilter = localStorage.getItem(STORAGE_FACULTY_FILTER_KEY) || 'all';
+  const qs = QCMS[i] || [];
+  const answered = qs.filter((_, j) => state.answers[i + ':' + j]?.chosen?.length > 0).length;
+  const isFinished = qs.length > 0 && answered === qs.length;
+  anView = { 
+    page: 'chapter', 
+    ch: i, 
+    qi: (typeof qi === 'number' && !isNaN(qi) ? qi : 0), 
+    fy: 'all', 
+    ft: 'all', 
+    fs: 'all', 
+    faculties: getStoredFaculties(),
+    displayMode: savedDisplayMode,
+    showReport: isFinished 
+  };
+
+  const annalesView = $('view-annales');
+  if (annalesView && !annalesView.classList.contains('on')) {
+    document.querySelectorAll('.nav-it').forEach(b => b.classList.toggle('on', b.dataset.view === 'annales'));
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('on'));
+    annalesView.classList.add('on');
+  }
+
+  renderAnnales();
+  window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+}
+function openPlayer(ch, qi){
+  openChapter(ch, qi);
+}
+
+
+/* ================= FACULTY MULTI-SELECTION SYSTEM ================= */
+const STORAGE_FACULTIES_KEY = 'majory_qcm_selected_faculties_v3';
+
+function getStoredFaculties(){
+  try {
+    const raw = localStorage.getItem(STORAGE_FACULTIES_KEY);
+    if (raw) {
+      const arr = JSON.parse(raw);
+      if (Array.isArray(arr) && arr.length > 0) return arr;
+    }
+  } catch(e){}
+  return ['mosta', 'alger', 'oran']; // Par défaut : toutes les facultés
+}
+
+function setStoredFaculties(facs){
+  if (!Array.isArray(facs) || facs.length === 0) facs = ['mosta'];
+  localStorage.setItem(STORAGE_FACULTIES_KEY, JSON.stringify(facs));
+  if (anView) anView.faculties = facs;
+}
+
+function isFacultySelected(fac){
+  const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+  return facs.includes(fac);
+}
+
+function isAllFacultiesSelected(){
+  const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+  return ['mosta', 'alger', 'oran'].every(f => facs.includes(f));
+}
+
+function getFacultyCountsForCurrentModule(){
+  const allQuestions = [];
+  CHAPTERS.forEach((_, i) => {
+    const qs = QCMS[i] || [];
+    qs.forEach(q => allQuestions.push(q));
+  });
+  let mosta = 0, alger = 0, oran = 0;
+  allQuestions.forEach(q => {
+    if (q.isAlger || (q.faculty && q.faculty.toLowerCase() === 'alger')) alger++;
+    else if (q.isOran || (q.faculty && q.faculty.toLowerCase() === 'oran')) oran++;
+    else mosta++;
+  });
+  return { mosta, alger, oran, total: allQuestions.length };
+}
+
+function getFacultyBadgeSummary(){
+  const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+  if (facs.length === 3) return 'Toutes (3/3)';
+  const names = [];
+  if (facs.includes('mosta')) names.push('Mosta');
+  if (facs.includes('alger')) names.push('Alger');
+  if (facs.includes('oran')) names.push('Oran');
+  return names.join(' + ') + ' (' + facs.length + '/3)';
+}
+
+function renderActiveFacultyBadges(){
+  const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+  const counts = getFacultyCountsForCurrentModule();
+  const chips = [];
+  if (facs.includes('mosta')) {
+    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">🎓 Mostaganem (${counts.mosta} QCM)</span>`);
+  }
+  if (facs.includes('alger')) {
+    chips.push(`<span class="chip" style="background:#EBF3FE;color:#185ABC;border:1px solid #C2E7FF;font-weight:700">🇩🇿 Alger (${counts.alger} QCM)</span>`);
+  }
+  if (facs.includes('oran')) {
+    chips.push(`<span class="chip" style="background:#EAF6F0;color:#0F6B3A;border:1px solid #A8DAB5;font-weight:700">🏥 Oran (${counts.oran} QCM)</span>`);
+  }
+  return chips.join(' ');
+}
+
+function updateFacultyModalSummary(){
+  const checked = Array.from(document.querySelectorAll('#facOptionsList input[name="facSelect"]:checked')).map(cb => cb.value);
+  const sumEl = $('facSelectedSummary');
+  if (sumEl) {
+    if (checked.length === 3) sumEl.textContent = '3 facultés sélectionnées (Toutes)';
+    else if (checked.length === 0) sumEl.textContent = '⚠️ Aucune sélectionnée';
+    else sumEl.textContent = checked.length + ' faculté' + (checked.length > 1 ? 's sélectionnées' : ' sélectionnée');
+  }
+}
+
+function onFacultyCheckboxChange(){
+  document.querySelectorAll('#facOptionsList label.fac-select-card').forEach(label => {
+    const cb = label.querySelector('input[type="checkbox"]');
+    if (cb && cb.checked) {
+      label.style.borderColor = 'var(--blue)';
+      label.style.background = '#F3F6FD';
+    } else if (label) {
+      label.style.borderColor = 'var(--dk-line, #E5E1D8)';
+      label.style.background = 'var(--card)';
+    }
+  });
+  updateFacultyModalSummary();
+}
+
+function openFacultyModal(){
+  const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
+  const counts = getFacultyCountsForCurrentModule();
+  const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+
+  const modBadge = $('facModBadge');
+  if (modBadge) modBadge.innerHTML = `${modCfg.ico} ${modCfg.title.toUpperCase()}`;
+  
+  const totalBadge = $('facTotalBadge');
+  if (totalBadge) totalBadge.innerHTML = `${counts.total} QCM AU TOTAL`;
+
+  const listEl = $('facOptionsList');
+  if (listEl) {
+    const options = [
+      {
+        id: 'mosta',
+        ico: '🎓',
+        name: 'Faculté de Médecine de Mostaganem',
+        sub: 'Programme officiel local · Annales EMD & Rattrapages de Mostaganem',
+        count: counts.mosta,
+        badgeBg: '#FFF9F0',
+        badgeColor: '#925400',
+        checked: facs.includes('mosta')
+      },
+      {
+        id: 'alger',
+        ico: '🇩🇿',
+        name: 'Faculté de Médecine d\'Alger',
+        sub: 'Annales officielles théoriques, concours et EMD de la Faculté d\'Alger',
+        count: counts.alger,
+        badgeBg: '#EBF3FE',
+        badgeColor: '#185ABC',
+        checked: facs.includes('alger')
+      },
+      {
+        id: 'oran',
+        ico: '🏥',
+        name: 'Faculté de Médecine d\'Oran',
+        sub: 'Annales officielles certifiées d\'Oran · Questions d\'évaluation',
+        count: counts.oran,
+        badgeBg: '#EAF6F0',
+        badgeColor: '#0F6B3A',
+        checked: facs.includes('oran')
+      }
+    ];
+
+    listEl.innerHTML = options.map(opt => `
+      <label class="card lift fac-select-card" style="display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer;border:2px solid ${opt.checked ? 'var(--blue)' : 'var(--dk-line, #E5E1D8)'};background:${opt.checked ? '#F3F6FD' : 'var(--card)'};border-radius:8px;transition:all .15s ease">
+        <input type="checkbox" name="facSelect" value="${opt.id}" ${opt.checked ? 'checked' : ''} style="width:20px;height:20px;accent-color:var(--blue);cursor:pointer" onchange="onFacultyCheckboxChange()">
+        <span style="font-size:1.8rem">${opt.ico}</span>
+        <div style="flex:1">
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            <b style="font-size:1.02rem;color:var(--ink)">${opt.name}</b>
+            <span class="chip" style="background:${opt.badgeBg};color:${opt.badgeColor};font-weight:700;font-size:11px">
+              ${opt.count > 0 ? opt.count + ' QCM disponibles' : (opt.id === 'mosta' ? 'En cours d\'indexation' : 'Bientôt disponible')}
+            </span>
+          </div>
+          <p style="font-size:.82rem;color:var(--ink-soft);margin:3px 0 0">${opt.sub}</p>
+        </div>
+      </label>
+    `).join('');
+  }
+
+  updateFacultyModalSummary();
+  openOv('ov-faculty-select');
+}
+
+function applyFacultySelection(){
+  const checked = Array.from(document.querySelectorAll('#facOptionsList input[name="facSelect"]:checked')).map(cb => cb.value);
+  if (checked.length === 0) {
+    toast('⚠️ Sélectionne au moins une faculté pour continuer');
+    return;
+  }
+  setStoredFaculties(checked);
+  closeOv('ov-faculty-select');
+  anView.qi = 0;
+  renderAnnales();
+  toast(`🏛️ Facultés actives : ${getFacultyBadgeSummary()}`);
+}
+
+function selectAllFaculties(checkAll){
+  document.querySelectorAll('#facOptionsList input[name="facSelect"]').forEach(cb => {
+    cb.checked = checkAll;
+  });
+  onFacultyCheckboxChange();
+}
+
+function selectOnlyMosta(){
+  document.querySelectorAll('#facOptionsList input[name="facSelect"]').forEach(cb => {
+    cb.checked = (cb.value === 'mosta');
+  });
+  onFacultyCheckboxChange();
+}
+
+function toggleSingleFaculty(fac){
+  let facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+  if (facs.includes(fac)) {
+    if (facs.length === 1) {
+      toast('⚠️ Au moins une faculté doit rester active');
+      return;
+    }
+    facs = facs.filter(f => f !== fac);
+  } else {
+    facs = [...facs, fac];
+  }
+  setStoredFaculties(facs);
+  anView.qi = 0;
+  renderAnnales();
+  toast(`🏛️ Facultés mises à jour : ${getFacultyBadgeSummary()}`);
+}
+
+function toggleAllFaculties(){
+  if (isAllFacultiesSelected()) {
+    setStoredFaculties(['mosta']);
+    toast('🎓 Filtre activé : Mostaganem uniquement');
+  } else {
+    setStoredFaculties(['mosta', 'alger', 'oran']);
+    toast('🏛️ Toutes les facultés activées (Mostaganem + Alger + Oran)');
+  }
+  anView.qi = 0;
+  renderAnnales();
+}
+
+function getFilteredQcms(ch){
+  const qs = QCMS[ch] || [];
+  const fy = anView.fy || 'all', ft = anView.ft || 'all', fs = anView.fs || 'all';
+  const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
+  return qs.map((q, j) => ({ q, j })).filter(({ q, j }) => {
+    const qFac = q.isAlger ? 'alger' : (q.isOran ? 'oran' : 'mosta');
+    if (!facs.includes(qFac)) return false;
+    if (fy !== 'all' && q.y !== fy) return false;
+    if (ft !== 'all' && q.t !== ft) return false;
+    const a = state.answers[ch + ':' + j];
+    if (fs === 'star' && !(a && a.star)) return false;
+    if (fs === 'none' && a) return false;
+    if (fs === 'retry' && !(a && !a.ok && a.ok !== null)) return false;
+    if (fs === 'ok' && !(a && a.ok)) return false;
+    return true;
+  });
+}
+
+function setFacultyFilter(fac){
+  anView.fa = fac;
+  localStorage.setItem(STORAGE_FACULTY_FILTER_KEY, fac);
+  anView.qi = 0;
+  renderAnnales();
+  scrollToQcm();
+  if (fac === 'mosta') {
+    toast('🎓 Filtre activé : Questions de Mostaganem uniquement (annales externes masquées)');
+  } else if (fac === 'alger') {
+    toast('🇩🇿 Filtre activé : Questions de la Faculté d\'Alger uniquement');
+  } else if (fac === 'oran') {
+    toast('🏥 Filtre activé : Questions de la Faculté d\'Oran uniquement');
+  } else {
+    toast('🏛️ Toutes les questions affichées (Mostaganem + Annales externes)');
+  }
+}
+
+function setDisplayMode(mode){
+  anView.displayMode = mode;
+  localStorage.setItem('majory_qcm_display_mode', mode);
+  renderAnnales();
+  scrollToQcm();
+}
+
+function goToQcm(idx){
+  idx = Number(idx);
+  const ch = anView.ch;
+  const filtered = getFilteredQcms(ch);
+  if (isNaN(idx) || idx < 0) idx = 0;
+  if (idx >= filtered.length) idx = Math.max(0, filtered.length - 1);
+  anView.qi = idx;
+  renderAnnales();
+  scrollToQcm();
+}
+
+function nextQcm(){
+  const ch = anView.ch;
+  const filtered = getFilteredQcms(ch);
+  if (anView.qi < filtered.length - 1) {
+    anView.qi++;
+    renderAnnales();
+    scrollToQcm();
+  } else {
+    showBilanAndScroll();
+  }
+}
+
+function prevQcm(){
+  if (anView.qi > 0) {
+    anView.qi--;
+    renderAnnales();
+    scrollToQcm();
+  }
+}
+
+function scrollToQcm(){
+  setTimeout(() => {
+    const anchor = $('qcm-focus-anchor') || $('qcm-stepper-container') || $('an-body');
+    if (anchor) {
+      anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, 25);
+}
+
+function showBilanAndScroll(){
+  anView.showReport = true;
+  renderAnnales();
+  window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+  toast('🏆 Compte-rendu final de la session !');
+}
+
+function renderAnnales(){
+  const v = anView, el = $('an-body');
+  if (v.page === 'list'){
+    const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['4eme'];
+    const crumbs = `<div class="crumbs">
+      <a onclick="go('dashboard')">Dashboard</a><span class="sep">/</span>
+      <span style="color:var(--red)">Choix des modules (${yearInfo.title})</span>
+    </div>`;
+    el.innerHTML = crumbs + `
+      <div class="card" style="margin-bottom:22px;background:var(--card)">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+          <div>
+            <span class="chip g">PROGRAMME OFFICIEL · MOSTAGANEM</span>
+            <h2 style="font-size:1.8rem;margin:8px 0 4px">Modules de ${yearInfo.title}</h2>
+            <p class="mono" style="font-size:11px;color:var(--ink-soft)">FACULTÉ DE MÉDECINE DE MOSTAGANEM · ${MODULES.filter(m => !m.transversal).length} MODULES CLINIQUES</p>
+          </div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <button class="fchip ${currentAcademicYear==='4eme'?'on':''}" onclick="switchAcademicYear('4eme')">4ᵉ Année</button>
+            <button class="fchip ${currentAcademicYear==='5eme'?'on':''}" onclick="switchAcademicYear('5eme')">5ᵉ Année</button>
+          </div>
+        </div>
+      </div>
+      <div class="mod-grid">${MODULES.filter(m => !m.transversal).map(modCard).join('')}</div>`;
+    el.querySelectorAll('.mcard').forEach(bindModCard);
+    return;
+  }
+
+  const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
+
+  const crumbs = `<div class="crumbs">
+    <a onclick="go('dashboard')">Dashboard</a><span class="sep">/</span>
+    <a onclick="openModuleList()">Modules</a><span class="sep">/</span>
+    ${v.page === 'module' ? `<span>${modCfg.title} (${CHAPTERS.length} chapitres)</span>` : `<a onclick="openModule()">${modCfg.title}</a>`}
+    ${v.page === 'chapter' ? `<span class="sep">/</span><span>Chapitre ${String(v.ch + 1).padStart(2, '0')} : ${CHAPTERS[v.ch]}</span>` : ''}
+    ${v.page === 'player' ? `<span class="sep">/</span><a onclick="openChapter(${v.ch})">Chapitre ${String(v.ch + 1).padStart(2, '0')} : ${CHAPTERS[v.ch]}</a><span class="sep">/</span><span style="color:var(--red)">Question ${v.qi + 1}</span>` : ''}
+  </div>`;
+
+  if (v.page === 'module'){
+    const facBadgeSummary = getFacultyBadgeSummary();
+    el.innerHTML = crumbs + `
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px;flex-wrap:wrap">
+        <button class="btn btn-sm btn-solid" onclick="openModuleList()">
+          ← Revenir au choix de module
+        </button>
+        <button class="btn btn-sm btn-solid" onclick="openFacultyModal()" style="display:inline-flex;align-items:center;gap:8px;background:var(--dk);color:#fff;border-color:var(--dk);box-shadow:0 2px 6px rgba(0,0,0,.15)" title="Changer les facultés de révision">
+          🏛️ Choisir les Facultés <span class="chip" style="background:var(--red);color:#fff;font-size:10.5px;padding:2px 8px;font-weight:700">${facBadgeSummary}</span>
+        </button>
+      </div>
+      <div class="card" style="margin-bottom:22px">
+        <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center">
+          <div>
+            <span class="chip g">MODULE ACTIF</span>
+            <h2 style="font-size:1.9rem;margin:10px 0 4px">${modCfg.ico} ${modCfg.title}</h2>
+            <p class="mono" style="font-size:11.5px;color:var(--ink-soft)">${modCfg.subText}</p>
+          </div>
+          <div style="text-align:right" class="mono">
+            <b style="font-size:1.7rem;color:var(--red)">${qcmStats().ans}</b><span style="font-size:.8rem;color:var(--ink-soft)"> répondus</span><br>
+            <b style="font-size:1.1rem">${qcmStats().rate === null ? '–' : qcmStats().rate + '%'}</b><span style="font-size:.8rem;color:var(--ink-soft)"> réussite</span>
+          </div>
+        </div>
+        <div style="margin-top:14px;padding-top:12px;border-top:1px dashed var(--dk-line,#E5E1D8);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+          <div style="display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap">
+            <span style="font-weight:700;color:var(--ink)">🏛️ Facultés sélectionnées :</span>
+            ${renderActiveFacultyBadges()}
+          </div>
+          <button class="btn btn-sm" onclick="openFacultyModal()" style="padding:4px 12px;font-size:11.5px">
+            Modifier les facultés ⚙️
+          </button>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:10px">
+        <p class="wtitle" style="margin:0">CHAPITRES DU MODULE · <span class="hand" style="font-size:1.15rem">choisis un chapitre</span></p>
+        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Changer de module</button>
+      </div>
+      <div class="chap-list">${CHAPTERS.map((c, i) => {
+        const qs = QCMS[i] || [], done = chapterAnswered(i);
+        return `<div class="chap-row" onclick="chooseChapter(${i})">
+          <span class="chap-num">${String(i + 1).padStart(2, '0')}</span>
+          <div><h4>${c}</h4><p class="cm">${qs.length ? qs.length + ' QUESTIONS D\'ANNALES OFFICIELLES' : 'ANNALES EN COURS D\'INDEXATION'}</p></div>
+          ${qs.length ? `<span class="chip ${done === qs.length ? 'g' : ''}">${done}/${qs.length} QCM</span>` : `<span class="chip">BIENTÔT</span>`}
+          <span class="btn btn-sm btn-ghost">Practise →</span>
+        </div>`;
+      }).join('')}</div>
+      <div style="margin-top:24px;padding-top:16px;border-top:1.5px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+        <button class="btn btn-sm btn-solid" onclick="openModuleList()">← Revenir au choix de module</button>
+        <button class="btn btn-sm btn-ghost" onclick="go('dashboard')">← Retour au Dashboard</button>
+      </div>`;
+    return;
+  }
+
+  if (v.page === 'chapter'){
+    const ch = v.ch, qs = QCMS[ch] || [];
+    const navCh = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;gap:10px;flex-wrap:wrap">
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn btn-sm btn-solid" onclick="openModule()">← Retour au choix du chapitre</button>
+        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Revenir au choix de module</button>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button type="button" class="btn-restart-hero btn-sm" onclick="restartChapterSession(${ch})" title="Recommencer ce chapitre à zéro">
+          <span class="spin-ico">↺</span> Refaire la session
+        </button>
+        <button class="btn btn-sm btn-ghost" ${ch === 0 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.max(0, ch - 1)})">← Chapitre précédent</button>
+        <button class="btn btn-sm btn-ghost" ${ch >= CHAPTERS.length - 1 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.min(CHAPTERS.length - 1, ch + 1)})">Chapitre suivant →</button>
+      </div>
+    </div>`;
+
+    const bottomNav = `<div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;gap:10px;flex-wrap:wrap;padding-top:18px;border-top:1.5px solid var(--line)">
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn btn-sm btn-solid" onclick="openModule()">← Retour au choix du chapitre</button>
+        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Revenir au choix de module</button>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button type="button" class="btn-restart-hero btn-sm" onclick="restartChapterSession(${ch})" title="Recommencer ce chapitre à zéro">
+          <span class="spin-ico">↺</span> Refaire la session
+        </button>
+        <button class="btn btn-sm btn-ghost" ${ch === 0 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.max(0, ch - 1)})">← Chapitre précédent</button>
+        <button class="btn btn-sm btn-ghost" ${ch >= CHAPTERS.length - 1 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.min(CHAPTERS.length - 1, ch + 1)})">Chapitre suivant →</button>
+      </div>
+    </div>`;
+
+    if (!qs.length){
+      el.innerHTML = crumbs + navCh + `<div class="card" style="margin-bottom:18px"><span class="chip">CHAPITRE ${String(ch + 1).padStart(2, '0')}</span>
+        <h2 style="font-size:1.7rem;margin:10px 0 4px">${modCfg.title}</h2><p class="mono" style="font-size:11px;color:var(--ink-soft)">CHAPITRE ${String(ch + 1).padStart(2, '0')} · ${CHAPTERS[ch].toUpperCase()}</p></div>` +
+        `<div class="empty"><div class="big">Aucun QCM ne correspond</div><p>Les annales officielles de ce chapitre sont en cours de numérisation et d'indexation pédagogique. Reviens très prochainement ✚</p></div>` + bottomNav;
+      return;
+    }
+
+    const fy = v.fy, ft = v.ft, fs = v.fs, fa = v.fa || 'all';
+    const hasAlger = qs.some(q => q.isAlger);
+    const hasOran = qs.some(q => q.isOran);
+    const hasExternal = hasAlger || hasOran;
+    const mostaTotal = qs.filter(q => !q.isAlger && !q.isOran).length;
+    const algerTotal = qs.filter(q => q.isAlger).length;
+    const oranTotal = qs.filter(q => q.isOran).length;
+
+    // Faculty-scoped set for status counts
+    const faScoped = qs.map((q, j) => ({ q, j })).filter(({ q }) => {
+      if (fa === 'alger' && !q.isAlger) return false;
+      if (fa === 'oran' && !q.isOran) return false;
+      if (fa === 'mosta' && (q.isAlger || q.isOran)) return false;
+      return true;
+    });
+
+    const filtered = getFilteredQcms(ch);
+    const displayMode = v.displayMode || 'single';
+    if (typeof v.qi !== 'number' || isNaN(v.qi) || v.qi < 0) v.qi = 0;
+    if (filtered.length > 0 && v.qi >= filtered.length) v.qi = filtered.length - 1;
+
+    const cnt = {
+      all: faScoped.length,
+      totalChapter: qs.length,
+      mosta: mostaTotal,
+      alger: algerTotal,
+      oran: oranTotal,
+      star: faScoped.filter(({ j }) => { const a = state.answers[ch + ':' + j]; return a && a.star; }).length,
+      none: faScoped.filter(({ j }) => !state.answers[ch + ':' + j]).length,
+      retry: faScoped.filter(({ j }) => { const a = state.answers[ch + ':' + j]; return a && !a.ok && a.ok !== null; }).length
+    };
+
+    const sum = computeChapterFullSummary(ch);
+    const isChapterFinished = sum.totalQuestions > 0 && sum.answeredCount >= sum.totalQuestions;
+    const showReport = isChapterFinished || v.showReport === true;
+
+    const modeActiveLabel = sum.modeActive === 'partiel' ? 'Notation Partielle' : 'Tout ou Rien';
+    const modeOtherLabel = sum.modeOther === 'partiel' ? 'Notation Partielle' : 'Tout ou Rien';
+
+    const pPts = sum.modeActive === 'partiel' ? sum.ptsActive : sum.ptsOther;
+    const pNoteG = sum.modeActive === 'partiel' ? sum.noteActiveGlobal : sum.noteOtherGlobal;
+    const pNoteR = sum.modeActive === 'partiel' ? sum.noteActiveRep : sum.noteOtherRep;
+    const pFull = sum.modeActive === 'partiel' ? sum.activeFull : sum.otherFull;
+    const pPart = sum.modeActive === 'partiel' ? sum.activePartial : sum.otherPartial;
+    const pZero = sum.modeActive === 'partiel' ? sum.activeZero : sum.otherZero;
+
+    const tPts = sum.modeActive === 'tor' ? sum.ptsActive : sum.ptsOther;
+    const tNoteG = sum.modeActive === 'tor' ? sum.noteActiveGlobal : sum.noteOtherGlobal;
+    const tNoteR = sum.modeActive === 'tor' ? sum.noteActiveRep : sum.noteOtherRep;
+    const tFull = sum.modeActive === 'tor' ? sum.activeFull : sum.otherFull;
+    const tZero = sum.modeActive === 'tor' ? sum.activeZero : sum.otherZero;
+
+    const practiceHeaderHtml = `
+      <div class="card" style="margin-bottom:18px;border:1.5px solid var(--ink);background:var(--card);padding:18px 22px">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:12px;padding-bottom:10px;border-bottom:1.5px solid var(--line)">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <span class="chip" style="font-weight:700">CHAPITRE ${String(ch + 1).padStart(2, '0')}</span>
+            <span class="chip ${sum.modeActive === 'partiel' ? 'b' : ''}" style="${sum.modeActive === 'partiel' ? 'background:var(--blue);color:#fff' : 'background:var(--ink);color:#fff'};font-weight:700">
+              ${sum.modeActive === 'partiel' ? '🎯 Barème : Notation Partielle' : '⚡ Barème : Tout ou Rien'}
+            </span>
+            <span class="mono" style="font-size:11px;color:var(--ink-soft)">
+              ${hasAlger && fa === 'alger' ? '🇩🇿 ANNALES FACULTÉ DE MÉDECINE D\'ALGER' : (hasOran && fa === 'oran' ? '🏥 ANNALES FACULTÉ DE MÉDECINE D\'ORAN' : (hasExternal && fa === 'mosta' ? '🎓 FACULTÉ DE MÉDECINE DE MOSTAGANEM (ANNALES EXTERNES DÉSÉLECTIONNÉES)' : (hasAlger ? 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ALGER' : (hasOran ? 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN' : 'FACULTÉ DE MÉDECINE DE MOSTAGANEM'))))}
+            </span>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <button type="button" class="btn-restart-hero" onclick="restartChapterSession(${ch})" title="Réinitialiser toutes tes réponses et refaire la session à zéro">
+              <span class="spin-ico">↺</span> Refaire la session
+            </button>
+            <button class="btn btn-sm btn-ghost" onclick="chooseChapter(${ch})" title="Reconfigurer le barème de correction">
+              ⚙️ Changer barème
+            </button>
+            ${sum.answeredCount > 0 ? `
+              <button class="btn btn-sm btn-ghost" onclick="showBilanAndScroll()" title="Afficher le compte-rendu intermédiaire">
+                📊 Bilan (${sum.answeredCount}/${sum.totalQuestions})
+              </button>
+            ` : ''}
+          </div>
+        </div>
+
+        <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:12px">
+          <div>
+            <h2 style="font-size:1.65rem;margin:0 0 4px">${CHAPTERS[ch]}</h2>
+            <p class="mono" style="font-size:11px;color:var(--ink-soft);margin:0">
+              ENTRAÎNEMENT EN COURS · ${sum.totalQuestions} QUESTIONS D'ANNALES AU TOTAL
+            </p>
+          </div>
+          <div style="text-align:right">
+            <div class="mono" style="font-size:12px;font-weight:600;margin-bottom:4px">
+              PROGRESSION : <b id="chDoneCount" style="color:var(--red);font-size:14px">${sum.answeredCount}</b> / ${sum.totalQuestions} QCM RÉPONDUS
+            </div>
+            <div class="qbar" style="width:240px;height:8px;background:rgba(16,27,45,.08);margin-left:auto">
+              <i id="chProgressBar" style="width:${Math.round(sum.answeredCount / Math.max(1, sum.totalQuestions) * 100)}%"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    const reportHtml = `
+      <div class="card" style="margin-bottom:24px;border:2px solid var(--ink);background:var(--card);box-shadow:6px 6px 0 rgba(16,27,45,.12);padding:22px">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:16px;padding-bottom:12px;border-bottom:1.5px solid var(--line)">
+          <div>
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px">
+              <span class="chip ${isChapterFinished ? 'g' : 'b'}" style="font-weight:700;font-size:11px">
+                ${isChapterFinished ? '🏆 SESSION TERMINÉE · COMPTE-RENDU FINAL' : '📊 COMPTE-RENDU DE SESSION'}
+              </span>
+              <span class="chip" style="font-weight:700">CHAPITRE ${String(ch + 1).padStart(2, '0')}</span>
+              <span class="chip ${sum.modeActive === 'partiel' ? 'b' : ''}" style="${sum.modeActive === 'partiel' ? 'background:var(--blue);color:#fff' : 'background:var(--ink);color:#fff'};font-weight:700">
+                ${sum.modeActive === 'partiel' ? '🎯 Barème Actif : Notation Partielle' : '⚡ Barème Actif : Tout ou Rien'}
+              </span>
+            </div>
+            <h2 style="font-size:1.95rem;margin:0 0 4px">${CHAPTERS[ch]}</h2>
+            <p class="mono" style="font-size:11.5px;color:var(--ink-soft);margin:0">
+              FACULTÉ DE MÉDECINE DE MOSTAGANEM · ${sum.answeredCount} / ${sum.totalQuestions} QCM RÉPONDUS (${sum.totalGradable} ÉVALUABLES)
+            </p>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <button type="button" class="btn-restart-hero" onclick="restartChapterSession(${ch})" title="Réinitialiser toutes tes réponses et refaire la session à zéro">
+              <span class="spin-ico">↺</span> Refaire la session
+            </button>
+            <button class="btn btn-sm btn-solid" onclick="toggleChapterScoringMode(${ch})" title="Basculer instantanément la méthode de notation">
+              Basculer en ${modeOtherLabel} ⇄
+            </button>
+            <button class="btn btn-sm btn-ghost" onclick="anView.showReport = false; renderAnnales(); scrollToQcm();" title="Masquer le rapport et revoir les questions une par une">
+              👁️ Revoir questions
+            </button>
+            <button class="btn btn-sm btn-ghost" onclick="chooseChapter(${ch})" title="Reconfigurer le barème">
+              ⚙️ Changer barème
+            </button>
+          </div>
+        </div>
+
+        <div class="score-scoreboard-grid" style="margin-bottom:20px">
+          <div style="background:${sum.modeActive === 'partiel' ? '#F6F9FF' : '#FFFDF7'};border:2px solid ${sum.modeActive === 'partiel' ? 'var(--blue)' : 'var(--ink)'};padding:18px;display:flex;flex-direction:column;justify-content:space-between">
+            <div>
+              <div style="font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:${sum.modeActive === 'partiel' ? 'var(--blue)' : 'var(--ink)'};margin-bottom:8px;font-weight:700">
+                ${sum.modeActive === 'partiel' ? '🎯 NOTE SUR 20 · NOTATION PARTIELLE (SÉLECTIONNÉE)' : '⚡ NOTE SUR 20 · TOUT OU RIEN (SÉLECTIONNÉE)'}
+              </div>
+              <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:6px">
+                <b id="chScoreSur20" style="font-size:2.8rem;font-family:var(--disp);color:var(--red);line-height:1">
+                  ${sum.noteActiveGlobal.toFixed(2)}
+                </b>
+                <span style="font-size:1.3rem;font-family:var(--mono);color:var(--ink-soft);font-weight:600">/ 20</span>
+                <span class="chip" style="font-size:10px;margin-left:auto">NOTE GLOBALE</span>
+              </div>
+              <div style="font-size:.85rem;color:var(--ink);line-height:1.5;margin-bottom:6px" id="chScoreRepondues">
+                Moyenne sur questions traitées : <b>${sum.answeredGradable > 0 ? sum.noteActiveRep.toFixed(2) + ' / 20' : '–'}</b>
+                <span style="color:var(--ink-soft);font-size:.8rem"> (${sum.answeredGradable}/${sum.totalGradable} QCM notés)</span>
+              </div>
+              <div style="font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-bottom:10px" id="chPointsCumul">
+                Points cumulés : <b>${sum.ptsActive.toFixed(2)}</b> / ${sum.totalGradable} pts possibles
+              </div>
+              <div class="side-bar" style="height:8px;background:rgba(16,27,45,.08);margin-bottom:12px;border-radius:4px;overflow:hidden">
+                <i id="chScoreBar" style="display:block;height:100%;width:${Math.min(100, (sum.noteActiveGlobal/20)*100)}%;background:${sum.noteActiveGlobal >= 14 ? 'var(--green)' : (sum.noteActiveGlobal >= 10 ? 'var(--blue)' : 'var(--red)')};transition:width .4s"></i>
+              </div>
+            </div>
+            <div style="display:flex;gap:12px;font-family:var(--mono);font-size:11px;flex-wrap:wrap;padding-top:8px;border-top:1px dotted var(--line)" id="chBreakdownCounters">
+              <span style="color:var(--green)">✓ Exacts : <b>${sum.activeFull}</b></span>
+              <span style="color:var(--blue)">🎯 Partiels : <b>${sum.activePartial}</b></span>
+              <span style="color:var(--red)">✕ Zéro : <b>${sum.activeZero}</b></span>
+            </div>
+          </div>
+
+          <div style="background:#FAF8F3;border:1.5px dashed var(--ink);padding:18px;display:flex;flex-direction:column;justify-content:space-between">
+            <div>
+              <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+                <span style="font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-weight:600">
+                  2ÈME MÉTHODE (NON SÉLECTIONNÉE)
+                </span>
+                <span id="chScoreDiffTag" class="chip ${sum.diffGlobal >= 0 ? 'g' : 'r'}" style="font-size:10.5px;font-weight:700">
+                  ${sum.diffGlobal === 0 ? '= Équivalent' : (sum.diffGlobal > 0 ? `+${sum.diffGlobal.toFixed(2)} pts écart` : `${sum.diffGlobal.toFixed(2)} pts écart`)}
+                </span>
+              </div>
+              <div style="font-weight:700;font-size:.95rem;margin-bottom:6px">
+                ${sum.modeOther === 'partiel' ? '🎯 Notation Partielle (points au prorata)' : '⚡ Tout ou Rien (concours strict)'}
+              </div>
+              <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px">
+                <b id="chOtherScoreSur20" style="font-size:2.3rem;font-family:var(--disp);color:var(--ink-soft);line-height:1">
+                  ${sum.noteOtherGlobal.toFixed(2)}
+                </b>
+                <span style="font-size:1.15rem;font-family:var(--mono);color:var(--ink-soft)">/ 20</span>
+              </div>
+              <div style="font-size:.83rem;color:var(--ink-soft);margin-bottom:6px" id="chOtherScoreRepondues">
+                Moyenne sur traitées : <b>${sum.answeredGradable > 0 ? sum.noteOtherRep.toFixed(2) + ' / 20' : '–'}</b>
+              </div>
+              <p style="font-size:.8rem;color:var(--ink-soft);line-height:1.4" id="chComparisonHelp">
+                ${sum.modeActive === 'partiel'
+                  ? `En Tout ou Rien, tes <b>${sum.activePartial}</b> questions partielles vaudraient 0 pt (perte de ${(sum.ptsActive - sum.ptsOther).toFixed(2)} pts).`
+                  : `En Notation Partielle, tu aurais sauvé <b>${sum.otherPartial}</b> questions (+${(sum.ptsOther - sum.ptsActive).toFixed(2)} pts).`}
+              </p>
+            </div>
+            <button class="btn btn-sm btn-solid" style="width:100%;margin-top:12px" onclick="toggleChapterScoringMode(${ch})">
+              Basculer en ${modeOtherLabel} ⇄
+            </button>
+          </div>
+        </div>
+
+        <div style="border-top:1.5px solid var(--line);padding-top:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:12px">
+            <div>
+              <h3 style="font-size:1.25rem;margin:0 0 2px">Comparatif Détaillé des 2 Méthodes de Correction</h3>
+              <p class="mono" style="font-size:10.5px;color:var(--ink-soft);margin:0">Évaluation comparative sur l'ensemble des questions du chapitre</p>
+            </div>
+            <button class="btn btn-sm btn-ghost" onclick="toggleChapterScoringMode(${ch})">
+              Basculer en ${modeOtherLabel} ⇄
+            </button>
+          </div>
+
+          <table class="ttbl" style="margin-bottom:14px">
+            <thead>
+              <tr>
+                <th>Critère de délibération</th>
+                <th style="color:var(--blue)">🎯 Notation Partielle</th>
+                <th>⚡ Tout ou Rien</th>
+                <th>Impact sur ta note</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Note finale globale (/20)</b></td>
+                <td><b style="font-size:1.15rem;color:var(--blue)">${pNoteG.toFixed(2)} / 20</b></td>
+                <td><b style="font-size:1.15rem">${tNoteG.toFixed(2)} / 20</b></td>
+                <td><span class="chip ${(pNoteG - tNoteG) > 0 ? 'g' : ''}">${(pNoteG - tNoteG) >= 0 ? '+' : ''}${(pNoteG - tNoteG).toFixed(2)} pts</span></td>
+              </tr>
+              <tr>
+                <td><b>Note sur questions traitées (/20)</b></td>
+                <td><b>${sum.answeredGradable > 0 ? pNoteR.toFixed(2) + ' / 20' : '–'}</b></td>
+                <td><b>${sum.answeredGradable > 0 ? tNoteR.toFixed(2) + ' / 20' : '–'}</b></td>
+                <td><span class="chip ${(pNoteR - tNoteR) > 0 ? 'b' : ''}">${(pNoteR - tNoteR) >= 0 ? '+' : ''}${(pNoteR - tNoteR).toFixed(2)} pts</span></td>
+              </tr>
+              <tr>
+                <td><b>Total des points obtenus</b></td>
+                <td><b>${pPts.toFixed(2)}</b> / ${sum.totalGradable} pts</td>
+                <td><b>${tPts.toFixed(2)}</b> / ${sum.totalGradable} pts</td>
+                <td><b>${Math.abs(pPts - tPts).toFixed(2)} pts d'écart</b></td>
+              </tr>
+              <tr>
+                <td><b>Questions 100% exactes (+1 pt)</b></td>
+                <td><span style="color:var(--green);font-weight:600">✓ ${pFull} questions</span></td>
+                <td><span style="color:var(--green);font-weight:600">✓ ${tFull} questions</span></td>
+                <td>Identique</td>
+              </tr>
+              <tr>
+                <td><b>Questions partielles (fraction de pt)</b></td>
+                <td><span style="color:var(--blue);font-weight:600">🎯 ${pPart} questions valorisées</span></td>
+                <td><span style="color:var(--red);font-weight:600">✕ 0 point (non admises)</span></td>
+                <td>Sauvées par le partiel</td>
+              </tr>
+              <tr>
+                <td><b>Questions à 0 point</b></td>
+                <td>${pZero} questions (faute éliminatoire)</td>
+                <td>${tZero} questions (incomplets ou faux)</td>
+                <td>–</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div style="background:var(--paper);border:1px solid var(--line);padding:12px 14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+            <div style="font-size:.85rem">
+              <b>Méthode actuellement affichée :</b> 
+              <span class="chip ${sum.modeActive === 'partiel' ? 'b' : ''}" style="${sum.modeActive === 'partiel' ? 'background:var(--blue);color:#fff' : 'background:var(--ink);color:#fff'};font-weight:700">
+                ${sum.modeActive === 'partiel' ? '🎯 Notation Partielle' : '⚡ Tout ou Rien'}
+              </span>
+            </div>
+            <button class="btn btn-sm btn-solid" onclick="toggleChapterScoringMode(${ch})">
+              Basculer l'affichage en ${modeOtherLabel} ⇄
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    el.innerHTML = crumbs + navCh + (showReport ? reportHtml : practiceHeaderHtml) + `
+      <div class="card" style="margin-bottom:18px">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px dashed var(--line)">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <span class="mono" style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--ink)">MODE D'ENTRAÎNEMENT :</span>
+            <button class="fchip ${displayMode === 'single' ? 'on' : ''}" onclick="setDisplayMode('single')">◻️ Un par un (Focus &amp; Rapide)</button>
+            <button class="fchip ${displayMode === 'list' ? 'on' : ''}" onclick="setDisplayMode('list')">☰ Liste continue</button>
+          </div>
+          <span class="mono" style="font-size:11px;color:var(--ink-soft)">
+            ${displayMode === 'single' ? 'Touches : ← / → (naviguer), A-E (cocher), Entrée (valider)' : ''}
+          </span>
+        </div>
+        <div class="fgroup" style="margin-bottom:12px"><span class="lbl">Session</span>
+          <button class="fchip ${fy === 'all' ? 'on' : ''}" onclick="anView.fy='all';anView.qi=0;renderAnnales()">Toutes les années</button>
+          ${YEARS.map(y => `<button class="fchip ${fy === y ? 'on' : ''}" onclick="anView.fy='${y}';anView.qi=0;renderAnnales()">Session ${y}</button>`).join('')}
+        </div>
+        <div class="fgroup" style="margin-bottom:12px"><span class="lbl">Type</span>
+          <button class="fchip ${ft === 'all' ? 'on' : ''}" onclick="anView.ft='all';anView.qi=0;renderAnnales()">Tous les types</button>
+          ${['EMD', 'Rattrapage', 'Cas clinique'].map(t => `<button class="fchip ${ft === t ? 'on' : ''}" onclick="anView.ft='${t}';anView.qi=0;renderAnnales()">${t}</button>`).join('')}
+        </div>
+        
+        <div class="fgroup" style="margin-bottom:12px">
+          <span class="lbl">Facultés</span>
+          <button class="fchip ${isAllFacultiesSelected() ? 'on' : ''}" onclick="toggleAllFaculties()" title="Toutes les facultés (Mostaganem + Alger + Oran)">
+            🏛️ Toutes (${cnt.totalChapter})
+          </button>
+          <button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Basculer Mostaganem">
+            🎓 Mostaganem (${cnt.mosta})
+          </button>
+          ${hasAlger || cnt.alger > 0 ? `
+          <button class="fchip ${isFacultySelected('alger') ? 'on' : ''}" onclick="toggleSingleFaculty('alger')" title="Basculer Alger">
+            🇩🇿 Alger (${cnt.alger})
+          </button>` : ''}
+          ${hasOran || cnt.oran > 0 ? `
+          <button class="fchip ${isFacultySelected('oran') ? 'on' : ''}" onclick="toggleSingleFaculty('oran')" title="Basculer Oran">
+            🏥 Oran (${cnt.oran})
+          </button>` : ''}
+          <button class="btn btn-sm btn-ghost" onclick="openFacultyModal()" style="padding:2px 9px;font-size:11px;margin-left:4px" title="Ouvrir le panneau de sélection des facultés">
+            ⚙️ Gérer les facultés
+          </button>
+        </div>
+        <div class="fgroup"><span class="lbl">Filtrer</span>
+          <button class="fchip ${fs === 'all' ? 'on' : ''}" onclick="anView.fs='all';anView.qi=0;renderAnnales()">Tous (${cnt.all})</button>
+          <button class="fchip ${fs === 'star' ? 'on' : ''}" onclick="anView.fs='star';anView.qi=0;renderAnnales()">★ À revoir (${cnt.star})</button>
+          <button class="fchip ${fs === 'none' ? 'on' : ''}" onclick="anView.fs='none';anView.qi=0;renderAnnales()">Non répondus (${cnt.none})</button>
+          <button class="fchip ${fs === 'retry' ? 'on' : ''}" onclick="anView.fs='retry';anView.qi=0;renderAnnales()">À retravailler (${cnt.retry})</button>
+        </div>
+        ${hasAlger && fa === 'mosta' ? `
+          <div style="background:#FAF8F3;border:1.5px dashed #D3CBBF;padding:9px 13px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11.5px">
+            <span style="color:var(--ink)">
+              🎓 <b>QCM d'Alger désélectionnés :</b> Tu t'entraînes uniquement sur les <b>${cnt.mosta}</b> questions de Mostaganem (${cnt.alger} QCM d'Alger masqués).
+            </span>
+            <button class="btn btn-sm btn-solid" style="padding:4px 10px;font-size:11px" onclick="setFacultyFilter('all')">
+              Réinclure les QCM d'Alger ✚
+            </button>
+          </div>
+        ` : ''}
+        ${hasOran && fa === 'mosta' ? `
+          <div style="background:#FAF8F3;border:1.5px dashed #D3CBBF;padding:9px 13px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11.5px">
+            <span style="color:var(--ink)">
+              🎓 <b>QCM d'Oran désélectionnés :</b> Tu t'entraînes uniquement sur les <b>${cnt.mosta}</b> questions de Mostaganem (${cnt.oran} QCM d'Oran masqués).
+            </span>
+            <button class="btn btn-sm btn-solid" style="padding:4px 10px;font-size:11px" onclick="setFacultyFilter('all')">
+              Réinclure les QCM d'Oran ✚
+            </button>
+          </div>
+        ` : ''}
+        ${hasAlger && fa === 'alger' ? `
+          <div style="background:#EBF3FE;border:1.5px dashed #90BFF9;padding:9px 13px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11.5px">
+            <span style="color:#185ABC">
+              🇩🇿 <b>Filtre Alger actif :</b> Tu t'entraînes exclusivement sur les <b>${cnt.alger}</b> questions officielles de la Faculté d'Alger.
+            </span>
+            <button class="btn btn-sm btn-solid" style="padding:4px 10px;font-size:11px" onclick="setFacultyFilter('all')">
+              Afficher tout (Mostaganem + Alger) ✚
+            </button>
+          </div>
+        ` : ''}
+        ${hasOran && fa === 'oran' ? `
+          <div style="background:#EAF6F0;border:1.5px dashed #82C7A5;padding:9px 13px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11.5px">
+            <span style="color:#0F6B3A">
+              🏥 <b>Filtre Oran actif :</b> Tu t'entraînes exclusivement sur les <b>${cnt.oran}</b> questions officielles de la Faculté d'Oran.
+            </span>
+            <button class="btn btn-sm btn-solid" style="padding:4px 10px;font-size:11px" onclick="setFacultyFilter('all')">
+              Afficher tout (Mostaganem + Oran) ✚
+            </button>
+          </div>
+        ` : ''}
+      </div>
+
+      <div id="qcm-focus-anchor"></div>
+      ${!filtered.length ? `
+        <div class="empty">
+          <div class="big">Aucun QCM ne correspond</div>
+          <p>Modifie tes filtres d'année, de type ou de faculté pour afficher les questions de ce chapitre.</p>
+          ${hasExternal && fa !== 'all' ? `
+            <button class="btn btn-sm btn-solid" style="margin-top:12px" onclick="setFacultyFilter('all')">
+              Réinitialiser le filtre faculté (Afficher toutes les questions) ✚
+            </button>
+          ` : ''}
+        </div>
+      ` : (displayMode === 'single' ? `
+        <div class="qcm-stepper-wrap" id="qcm-stepper-container">
+          <div class="qcm-stepper-head">
+            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+              <span style="font-weight:700;font-size:13px;color:var(--ink)">
+                QUESTION ${v.qi + 1} / ${filtered.length}
+              </span>
+              <span class="chip" style="font-size:10px">
+                ${Math.round(((v.qi + 1) / filtered.length) * 100)}% DU CHAPITRE
+              </span>
+              <span style="font-size:11.5px;color:var(--ink-soft)">
+                (Session ${filtered[v.qi].q.y} · ${filtered[v.qi].q.t} · ${filtered[v.qi].q.isAlger ? '🇩🇿 Alger' : (filtered[v.qi].q.isOran ? '🏥 Oran' : '🎓 Mostaganem')})
+              </span>
+            </div>
+            <div style="display:flex;align-items:center;gap:8px">
+              <button type="button" class="btn btn-sm btn-ghost" style="padding:.3rem .75rem;font-size:11.5px" onclick="prevQcm()" ${v.qi === 0 ? 'disabled style="opacity:.4"' : ''}>
+                ← Question précédente
+              </button>
+              <button type="button" class="btn btn-sm btn-solid" style="padding:.3rem .9rem;font-size:11.5px" onclick="nextQcm()" ${v.qi >= filtered.length - 1 ? 'disabled style="opacity:.4"' : ''}>
+                Question suivante →
+              </button>
+            </div>
+          </div>
+          <div class="qcm-palette" id="qcm-stepper-palette">
+            ${filtered.map(({ q, j }, idx) => {
+              const a = state.answers[ch + ':' + j];
+              const isCur = idx === v.qi;
+              let statusCls = '';
+              let icon = '';
+              if (a && q.bonnes_reponses !== null) {
+                const sc = getQuestionScore(q, a, sum.modeActive);
+                if (sc.status === 'exact') { statusCls = 'ok'; icon = '✓'; }
+                else if (sc.status === 'partial') { statusCls = 'part'; icon = '🎯'; }
+                else { statusCls = 'ko'; icon = '✕'; }
+              } else if (a) {
+                statusCls = 'ok'; icon = '✓';
+              }
+              return `
+                <button type="button" 
+                        class="qcm-num-btn ${isCur ? 'cur' : ''} ${statusCls}" 
+                        onclick="goToQcm(${idx})" 
+                        title="Question ${idx + 1} (${q.y} ${q.t}) : ${a ? (icon + ' Répondue') : 'Non répondue'}">
+                  ${a && a.star ? '<span class="star-dot">★</span>' : ''}
+                  <span>${idx + 1}</span>
+                  ${icon ? `<span style="font-size:9.5px;margin-left:1px">${icon}</span>` : ''}
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </div>
+
+        <div id="qcm-stream">
+          ${renderQcmCardHtml(ch, filtered[v.qi].j, filtered[v.qi].q, true, v.qi, filtered.length)}
+        </div>
+      ` : `
+        <div id="qcm-stream">
+          ${filtered.map(({ q, j }, idx) => renderQcmCardHtml(ch, j, q, false, idx, filtered.length)).join('')}
+        </div>
+      `)}
+
+      ${!showReport && sum.answeredCount > 0 ? `
+        <div style="background:var(--paper);border:1.5px dashed var(--line);padding:14px 20px;margin-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+          <div style="font-size:.88rem;color:var(--ink-soft)">
+            💡 Tu as répondu à <b>${sum.answeredCount} / ${sum.totalQuestions}</b> QCM. Termine tous les QCM pour débloquer automatiquement ton <b>Compte-Rendu Officiel</b> avec ta note sur 20 et le comparatif de barème !
+          </div>
+          <button class="btn btn-sm btn-solid" onclick="showBilanAndScroll()">
+            🏁 Voir le Compte-Rendu (/20)
+          </button>
+        </div>
+      ` : ''}
+      ${bottomNav}`;
+    return;
+  }
+
+  if (v.page === 'player'){
+    openPlayer(v.ch, v.qi);
+  }
+}
+
+/* ================= CONTINUOUS QCM CARDS & ACTIONS ================= */
+function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
+  if (isSingleMode === undefined) {
+    isSingleMode = (anView.displayMode || 'single') !== 'list';
+  }
+  const displayNum = (typeof qiIndex === 'number' ? qiIndex : j) + 1;
+  const displayTotal = totalCount || (QCMS[ch] || []).length;
+  const key = ch + ':' + j;
+  const a = state.answers[key];
+  const isExplVisible = !!(state.showExpl && state.showExpl[key]);
+  const letters = ['A','B','C','D','E'];
+  const isRepeated = q.sources && q.sources.length > 1;
+  const modeActive = (state.scoringModes && state.scoringModes[ch]) || 'partiel';
+  const modeOther = modeActive === 'partiel' ? 'tor' : 'partiel';
+
+  let scActive = null;
+  let scOther = null;
+  if (a && q.bonnes_reponses !== null) {
+    scActive = getQuestionScore(q, a, modeActive);
+    scOther = getQuestionScore(q, a, modeOther);
+  }
+
+  let stampHtml = '';
+  if (a && q.bonnes_reponses === null) {
+    stampHtml = `<span class="stamp info">SANS CORRIGÉ</span>`;
+  } else if (a && scActive) {
+    if (scActive.status === 'exact') stampHtml = `<span class="stamp ok">PLEIN SCORE 1/1</span>`;
+    else if (scActive.status === 'partial') stampHtml = `<span class="stamp" style="color:var(--blue);border-color:var(--blue)">PARTIEL ${scActive.ratio}</span>`;
+    else stampHtml = `<span class="stamp ko">0 POINT</span>`;
+  }
+
+  let scoringCartoucheHtml = '';
+  if (a) {
+    if (q.bonnes_reponses === null) {
+      scoringCartoucheHtml = `
+        <div style="margin:14px 0;padding:12px 14px;background:var(--paper);border:1px dashed var(--line);font-size:.84rem;color:var(--ink-soft)">
+          ℹ️ <b>Question d'archives sans corrigé officiel</b> : tes choix ont été enregistrés mais cette question n'est pas prise en compte dans le calcul de la note sur 20.
+        </div>
+      `;
+    } else if (modeActive === 'partiel') {
+      if (scActive.status === 'exact') {
+        scoringCartoucheHtml = `
+          <div style="margin:14px 0;padding:12px 16px;background:var(--green-soft);border:1.5px solid var(--green);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div>
+              <b style="color:var(--green);font-size:.95rem">🎯 Notation Partielle : +1.00 pt / 1.00 pt (Plein score exact)</b>
+              <div style="font-size:.82rem;color:var(--ink);margin-top:2px">Toutes les bonnes réponses ([${q.bonnes_reponses.join(', ')}]) ont été cochées sans aucune faute.</div>
+            </div>
+            <div style="font-family:var(--mono);font-size:.82rem;background:#fff;border:1px solid var(--line);padding:4px 10px;color:var(--ink-soft)">
+              ⚡ En Tout ou Rien : <b>+1.00 pt</b>
+            </div>
+          </div>
+        `;
+      } else if (scActive.status === 'partial') {
+        scoringCartoucheHtml = `
+          <div style="margin:14px 0;padding:12px 16px;background:#F0F5FF;border:1.5px solid var(--blue);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div>
+              <b style="color:var(--blue);font-size:.95rem">🎯 Notation Partielle : +${scActive.pts.toFixed(2)} pt / 1.00 pt (${scActive.ratio} réponses justes)</b>
+              <div style="font-size:.82rem;color:var(--ink);margin-top:2px">Bonnes réponses cochées sans aucune faute. Tu obtiens ${scActive.ratio} de la note.</div>
+            </div>
+            <div style="font-family:var(--mono);font-size:.82rem;background:#fff;border:1px solid var(--red);padding:4px 10px;color:var(--red)">
+              ⚡ En Tout ou Rien : <b>0.00 pt</b> (incomplet)
+            </div>
+          </div>
+        `;
+      } else {
+        const wrongLetters = a.chosen.filter(l => !q.bonnes_reponses.includes(l));
+        scoringCartoucheHtml = `
+          <div style="margin:14px 0;padding:12px 16px;background:var(--red-soft);border:1.5px solid var(--red);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div>
+              <b style="color:var(--red);font-size:.95rem">⚠️ Notation Partielle : 0.00 pt (Règle éliminatoire)</b>
+              <div style="font-size:.82rem;color:var(--ink);margin-top:2px">
+                ${wrongLetters.length ? `Tu as coché la fausse réponse <b>${wrongLetters.join(', ')}</b>. Une seule erreur annule la note de la question.` : 'Aucune bonne réponse cochée.'}
+              </div>
+            </div>
+            <div style="font-family:var(--mono);font-size:.82rem;background:#fff;border:1px solid var(--red);padding:4px 10px;color:var(--red)">
+              ⚡ En Tout ou Rien : <b>0.00 pt</b>
+            </div>
+          </div>
+        `;
+      }
+    } else {
+      // modeActive === 'tor'
+      if (scActive.status === 'exact') {
+        scoringCartoucheHtml = `
+          <div style="margin:14px 0;padding:12px 16px;background:var(--green-soft);border:1.5px solid var(--green);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div>
+              <b style="color:var(--green);font-size:.95rem">⚡ Tout ou Rien : +1.00 pt / 1.00 pt (Validé)</b>
+              <div style="font-size:.82rem;color:var(--ink);margin-top:2px">Combinaison strictement conforme au corrigé officiel du concours.</div>
+            </div>
+            <div style="font-family:var(--mono);font-size:.82rem;background:#fff;border:1px solid var(--line);padding:4px 10px;color:var(--ink-soft)">
+              🎯 En Notation Partielle : <b>+1.00 pt</b>
+            </div>
+          </div>
+        `;
+      } else if (scActive.status === 'incomplete') {
+        scoringCartoucheHtml = `
+          <div style="margin:14px 0;padding:12px 16px;background:#FFF5F3;border:1.5px solid var(--red);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div>
+              <b style="color:var(--red);font-size:.95rem">⚡ Tout ou Rien : 0.00 pt / 1.00 pt (Réponse incomplète)</b>
+              <div style="font-size:.82rem;color:var(--ink);margin-top:2px">En barème concours Tout ou Rien, l'oubli d'une proposition juste donne 0 point.</div>
+            </div>
+            <div style="font-family:var(--mono);font-size:.82rem;background:#fff;border:1px solid var(--blue);padding:4px 10px;color:var(--blue)">
+              🎯 En Notation Partielle tu aurais eu : <b>+${scOther.pts.toFixed(2)} pt</b> (${scOther.ratio})
+            </div>
+          </div>
+        `;
+      } else {
+        const wrongLetters = a.chosen.filter(l => !q.bonnes_reponses.includes(l));
+        scoringCartoucheHtml = `
+          <div style="margin:14px 0;padding:12px 16px;background:var(--red-soft);border:1.5px solid var(--red);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+            <div>
+              <b style="color:var(--red);font-size:.95rem">⚡ Tout ou Rien : 0.00 pt / 1.00 pt (Erreur)</b>
+              <div style="font-size:.82rem;color:var(--ink);margin-top:2px">
+                ${wrongLetters.length ? `Erreur sur proposition(s) : <b>${wrongLetters.join(', ')}</b>.` : 'Combinaison erronée.'}
+              </div>
+            </div>
+            <div style="font-family:var(--mono);font-size:.82rem;background:#fff;border:1px solid var(--red);padding:4px 10px;color:var(--red)">
+              🎯 En Notation Partielle : <b>0.00 pt</b> (faute éliminatoire)
+            </div>
+          </div>
+        `;
+      }
+    }
+  }
+
+  let statusBadge = `<span class="chip" style="opacity:.65">NON RÉPONDUE</span>`;
+  if (a) {
+    if (q.bonnes_reponses === null) {
+      statusBadge = `<span class="chip b">ENREGISTRÉE (SANS CORRIGÉ)</span>`;
+    } else if (scActive.pts === 1.0) {
+      statusBadge = `<span class="chip g">✓ +1.00 PT (PLEIN SCORE)</span>`;
+    } else if (scActive.pts > 0) {
+      statusBadge = `<span class="chip b">🎯 +${scActive.pts.toFixed(2)} PT (PARTIEL)</span>`;
+    } else {
+      statusBadge = `<span class="chip r">✕ 0.00 PT (À REVOIR)</span>`;
+    }
+  }
+
+  return `
+    <div class="player qcm-card" id="qcard-${ch}-${j}" style="margin-bottom:30px">
+      ${stampHtml}
+      <div class="p-head">
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <span class="chip" style="font-weight:700;background:var(--ink);color:var(--paper)">QUESTION ${String(displayNum).padStart(2, '0')} / ${displayTotal}</span>
+          <span class="chip b">SESSION ${q.y}</span>
+          <span class="chip">${q.t.toUpperCase()}</span>
+          ${q.isAlger ? `<span class="chip" style="background:#EBF3FE;color:#185ABC;font-weight:700;border:1px solid #C2E7FF">🇩🇿 ALGER</span>` : (q.isOran ? `<span class="chip" style="background:#EAF6F0;color:#0F6B3A;font-weight:700;border:1px solid #A8DCBF">🏥 ORAN</span>` : `<span class="chip" style="background:#F4EFE6;color:var(--ink);font-weight:600">🎓 MOSTAGANEM</span>`)}
+          ${isRepeated ? `<span class="chip">POSÉE ${q.sources.length}×</span>` : ''}
+          ${q.bonnes_reponses === null ? `<span class="chip" style="background:var(--paper2)">SANS CORRIGÉ OFFICIEL</span>` : ''}
+          ${statusBadge}
+        </div>
+        <div style="display:flex;gap:8px;align-items:center">
+          <button type="button" class="btn btn-sm ${a && a.star ? 'btn-red' : 'btn-ghost'}" onclick="toggleStarQcm(${ch}, ${j})" title="Mettre de côté cette question">
+            ${a && a.star ? '★ Notée' : '☆ À revoir'}
+          </button>
+          <button type="button" class="btn btn-sm btn-ghost" onclick="addQcmToFlash(${ch}, ${j})" title="Créer une flashcard depuis cette question">
+            🗂 Flashcard
+          </button>
+        </div>
+      </div>
+      <div class="p-body">
+        <p class="p-q">${q.q}</p>
+        <div class="choices">
+          ${q.c.map((c, i) => {
+            const letter = c.letter || letters[i];
+            const isSel = a && Array.isArray(a.chosen) && a.chosen.includes(letter);
+            let cls = '';
+            if (a) {
+              if (c.ok && isSel) cls = 'correct';
+              else if (c.ok && !isSel) cls = 'miss';
+              else if (!c.ok && isSel) cls = 'wrong';
+              else cls = 'dim';
+            }
+            return `<button type="button" class="choice ${cls} ${isSel ? 'sel' : ''}" data-letter="${letter}" ${a ? 'disabled' : ''} onclick="handleChoiceClick(this, ${ch}, ${j})">
+              <span class="key">${letter}</span>
+              <span>${c.t}</span>
+            </button>`;
+          }).join('')}
+        </div>
+
+        ${scoringCartoucheHtml}
+
+        ${a ? `
+          <div style="margin:16px 0 10px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px">
+            <button type="button" id="btn-expl-${ch}-${j}" class="btn btn-sm btn-ghost" onclick="toggleExplanation(${ch}, ${j})" style="border:1.5px solid var(--ink);font-weight:600;padding:.45rem 1.1rem;background:var(--card)" title="Afficher ou masquer les justifications médicales">
+              ${isExplVisible ? '🙈 Masquer l\'explication' : '💡 Voir l\'explication'}
+            </button>
+            <button type="button" class="btn btn-sm btn-ghost" onclick="addQcmToFlash(${ch}, ${j})" style="font-size:11.5px;padding:.35rem .75rem" title="Enregistrer cette question dans tes flashcards Anki">
+              🗂 Ajouter aux Flashcards
+            </button>
+          </div>
+
+          <div id="expl-${ch}-${j}" class="expl" style="display:${isExplVisible ? 'block' : 'none'};margin-top:10px">
+            <h4>La correction détaillée &amp; justifications médicales</h4>
+            <ul>
+              ${q.c.map(c => `<li>
+                <span class="tag ${c.ok ? 'v' : 'f'}">${c.ok ? 'VRAI' : 'FAUX'}</span>
+                <span><b>${c.letter}.</b> ${c.t}<br><span class="why">${c.w}</span></span>
+              </li>`).join('')}
+            </ul>
+            ${q.synthese ? `<div class="warn" style="margin-top:14px;background:var(--paper);border-color:var(--blue);color:var(--ink)">
+              <b>📌 Point clé du cours :</b> ${q.synthese}
+            </div>` : ''}
+            ${q.remarque ? `<div class="warn" style="margin-top:14px;background:var(--paper);border-color:var(--line)">
+              <b>💡 Remarque pédagogique :</b> ${q.remarque}
+            </div>` : ''}
+          </div>
+        ` : ''}
+
+        <div class="p-foot" style="margin-top:24px">
+          ${!a ? `
+            <div style="display:flex;justify-content:space-between;align-items:center;width:100%;flex-wrap:wrap;gap:12px">
+              <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+                <button type="button" class="btn btn-solid btn-sm" id="btn-val-${ch}-${j}" onclick="validateQcm(${ch}, ${j})" disabled style="padding:.65rem 1.4rem;font-weight:700">
+                  Valider ma réponse
+                </button>
+                <span class="mono" style="font-size:11px;color:var(--ink-soft);opacity:.8">Sélectionne une ou plusieurs réponses</span>
+              </div>
+              <div style="display:flex;gap:8px;align-items:center;margin-left:auto">
+                ${isSingleMode && typeof qiIndex === 'number' && qiIndex > 0 ? `
+                  <button type="button" class="btn btn-ghost btn-sm" onclick="prevQcm()" title="Question précédente">
+                    ← Précédente
+                  </button>
+                ` : ''}
+                ${isSingleMode && typeof qiIndex === 'number' && qiIndex < displayTotal - 1 ? `
+                  <button type="button" class="btn btn-ghost btn-sm" onclick="nextQcm()" title="Passer à la question suivante">
+                    Passer →
+                  </button>
+                ` : ''}
+                <div class="mono" style="font-size:11px;color:var(--ink-soft);margin-left:6px">
+                  #${q.id.toUpperCase()}
+                </div>
+              </div>
+            </div>
+          ` : `
+            <div style="display:flex;justify-content:space-between;align-items:center;width:100%;flex-wrap:wrap;gap:14px;padding-top:14px;border-top:1.5px solid var(--line)">
+              <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+                <button type="button" class="btn btn-ghost btn-sm" onclick="resetQcmAnswer(${ch}, ${j})">
+                  ↺ Recommencer cette question
+                </button>
+                <span class="mono" style="font-size:11.5px;font-weight:600;color:${scActive && scActive.pts > 0 ? 'var(--green)' : 'var(--red)'}">
+                  ${scActive ? (scActive.pts === 1.0 ? '✓ Plein score (+1 pt) — bien joué !' : (scActive.pts > 0 ? `🎯 Score partiel (+${scActive.pts.toFixed(2)} pt)` : '✕ 0 point — consulte la correction ci-dessus')) : (q.bonnes_reponses === null ? 'Question enregistrée sans corrigé officiel' : '✕ Erreur')}
+                </span>
+              </div>
+              <div style="display:flex;gap:10px;align-items:center;margin-left:auto;flex-wrap:wrap">
+                ${isSingleMode && typeof qiIndex === 'number' && qiIndex > 0 ? `
+                  <button type="button" class="btn btn-ghost btn-sm" onclick="prevQcm()">
+                    ← Question précédente
+                  </button>
+                ` : ''}
+                ${isSingleMode && typeof qiIndex === 'number' && qiIndex < displayTotal - 1 ? `
+                  <button type="button" class="btn-next-hero" onclick="nextQcm()" title="Passer directement au QCM suivant">
+                    Question suivante →
+                  </button>
+                ` : (isSingleMode ? `
+                  <button type="button" class="btn-next-hero" onclick="showBilanAndScroll()" style="background:var(--green);border-color:var(--green)" title="Voir le récapitulatif complet de la note">
+                    🏁 Voir le Bilan Final (/20)
+                  </button>
+                ` : '')}
+                <div class="mono" style="font-size:11px;color:var(--ink-soft);margin-left:4px">
+                  #${q.id.toUpperCase()}
+                </div>
+              </div>
+            </div>
+          `}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function handleChoiceClick(btn, ch, j){
+  if (state.answers[ch + ':' + j]) return;
+  btn.classList.toggle('sel');
+  const card = $('qcard-' + ch + '-' + j);
+  if (!card) return;
+  const hasSel = card.querySelectorAll('.choice.sel').length > 0;
+  const valBtn = $('btn-val-' + ch + '-' + j);
+  if (valBtn) valBtn.disabled = !hasSel;
+}
+
+function validateQcm(ch, j){
+  const qs = QCMS[ch] || [], q = qs[j], key = ch + ':' + j;
+  if (!q) return;
+  const card = $('qcard-' + ch + '-' + j);
+  if (!card) return;
+  const selectedEls = card.querySelectorAll('.choice.sel');
+  const chosen = Array.from(selectedEls).map(el => el.dataset.letter);
+  if (chosen.length === 0) {
+    toast('Sélectionne au moins une proposition ✚');
+    return;
+  }
+  let ok = true;
+  if (q.bonnes_reponses === null) {
+    ok = null;
+  } else {
+    const req = q.bonnes_reponses;
+    ok = chosen.length === req.length && chosen.every(l => req.includes(l));
+  }
+  const curStar = state.answers[key]?.star || false;
+  state.answers[key] = { ok, chosen, star: curStar };
+  saveState();
+
+  const mode = (state.scoringModes && state.scoringModes[ch]) || 'partiel';
+  const sc = getQuestionScore(q, { chosen }, mode);
+  if (q.bonnes_reponses === null) {
+    toast('ℹ️ Réponse enregistrée');
+  } else if (mode === 'partiel') {
+    if (sc.status === 'exact') toast('🎯 +1.00 pt — Plein score sans faute !');
+    else if (sc.status === 'partial') toast(`🎯 +${sc.pts.toFixed(2)} pt — Réponse partielle validée (${sc.ratio})`);
+    else toast('✕ 0 pt — Faute éliminatoire cochée');
+  } else {
+    if (sc.status === 'exact') toast('⚡ +1.00 pt — Tout ou Rien validé !');
+    else toast('✕ 0 pt — Tout ou Rien non validé');
+  }
+
+  const sumAfter = computeChapterFullSummary(ch);
+  if (sumAfter.totalQuestions > 0 && sumAfter.answeredCount >= sumAfter.totalQuestions) {
+    anView.showReport = true;
+    renderAnnales();
+    window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+    toast('🎉 Félicitations ! Tous les QCM sont terminés. Découvre ton compte-rendu officiel avec ta note sur 20 🏆');
+    updateSide();
+    return;
+  }
+
+  renderSingleCard(ch, j);
+  updateChapterHeader(ch);
+  updateSide();
+}
+
+function toggleExplanation(ch, j){
+  const key = ch + ':' + j;
+  if (!state.showExpl) state.showExpl = {};
+  state.showExpl[key] = !state.showExpl[key];
+  const el = $('expl-' + ch + '-' + j);
+  const btn = $('btn-expl-' + ch + '-' + j);
+  if (el) el.style.display = state.showExpl[key] ? 'block' : 'none';
+  if (btn) {
+    btn.innerHTML = state.showExpl[key] 
+      ? '🙈 Masquer l\'explication' 
+      : '💡 Voir l\'explication';
+  }
+}
+
+function resetQcmAnswer(ch, j){
+  const key = ch + ':' + j;
+  const star = state.answers[key]?.star || false;
+  delete state.answers[key];
+  if (state.showExpl) delete state.showExpl[key];
+  if (star) state.answers[key] = { ok: null, chosen: [], star: true };
+  saveState();
+  renderSingleCard(ch, j);
+  updateChapterHeader(ch);
+  updateSide();
+}
+
+function toggleStarQcm(ch, j){
+  const key = ch + ':' + j;
+  if (!state.answers[key]) {
+    state.answers[key] = { ok: null, chosen: [], star: true };
+  } else {
+    state.answers[key].star = !state.answers[key].star;
+  }
+  saveState();
+  toast(state.answers[key].star ? '★ Question marquée à revoir' : 'Retirée de ta liste ★');
+  renderSingleCard(ch, j);
+}
+
+function addQcmToFlash(ch, j){
+  const qs = QCMS[ch] || [], q = qs[j];
+  if (!q) return;
+  const frontText = `${q.q}\n\n` + q.c.map(c => `${c.letter}. ${c.t}`).join('\n');
+  let backText = '';
+  if (q.bonnes_reponses && q.bonnes_reponses.length > 0) {
+    backText = `✓ Bonnes réponses : ${q.bonnes_reponses.join(', ')}\n\n` +
+      q.c.filter(c => c.ok).map(c => `• ${c.letter} : ${c.t}\n  → ${c.w}`).join('\n\n');
+  } else {
+    backText = `⚠️ Question d'annale sans corrigé officiel dans les archives.\n\n` +
+      q.c.map(c => `• ${c.letter} : ${c.t}\n  → ${c.w}`).join('\n\n');
+  }
+  if (q.synthese) backText += `\n\n📌 Point clé du cours :\n${q.synthese}`;
+  if (q.remarque) backText += `\n\n💡 Remarque pédagogique :\n${q.remarque}`;
+
+  openCardModal({
+    front: frontText,
+    back: backText,
+    hint: `${CHAPTERS[ch]} (${q.y})`
+  });
+}
+
+function renderSingleCard(ch, j){
+  const card = $('qcard-' + ch + '-' + j);
+  if (!card) return;
+  const qs = QCMS[ch] || [], q = qs[j];
+  if (!q) return;
+  const temp = document.createElement('div');
+  const isSingle = (anView.displayMode || 'single') !== 'list';
+  const filtered = getFilteredQcms(ch);
+  const qiIndex = filtered.findIndex(item => item.j === j);
+  temp.innerHTML = renderQcmCardHtml(ch, j, q, isSingle, qiIndex >= 0 ? qiIndex : 0, filtered.length);
+  const newCard = temp.firstElementChild;
+  card.parentNode.replaceChild(newCard, card);
+  updateStepperPalette(ch);
+}
+
+function updateStepperPalette(ch){
+  const palette = $('qcm-stepper-palette');
+  if (!palette) return;
+  const filtered = getFilteredQcms(ch);
+  const sum = computeChapterFullSummary(ch);
+  palette.innerHTML = filtered.map(({ q, j }, idx) => {
+    const a = state.answers[ch + ':' + j];
+    const isCur = idx === anView.qi;
+    let statusCls = '';
+    let icon = '';
+    if (a && q.bonnes_reponses !== null) {
+      const sc = getQuestionScore(q, a, sum.modeActive);
+      if (sc.status === 'exact') { statusCls = 'ok'; icon = '✓'; }
+      else if (sc.status === 'partial') { statusCls = 'part'; icon = '🎯'; }
+      else { statusCls = 'ko'; icon = '✕'; }
+    } else if (a) {
+      statusCls = 'ok'; icon = '✓';
+    }
+    return `
+      <button type="button" 
+              class="qcm-num-btn ${isCur ? 'cur' : ''} ${statusCls}" 
+              onclick="goToQcm(${idx})" 
+              title="Question ${idx + 1} (${q.y} ${q.t}) : ${a ? (icon + ' Répondue') : 'Non répondue'}">
+        ${a && a.star ? '<span class="star-dot">★</span>' : ''}
+        <span>${idx + 1}</span>
+        ${icon ? `<span style="font-size:9.5px;margin-left:1px">${icon}</span>` : ''}
+      </button>
+    `;
+  }).join('');
+}
+
+function updateChapterHeader(ch){
+  const sum = computeChapterFullSummary(ch);
+  
+  const countEl = $('chDoneCount');
+  if (countEl) countEl.textContent = sum.answeredCount;
+  
+  const barEl = $('chProgressBar');
+  if (barEl) barEl.style.width = Math.round(sum.answeredCount / Math.max(1, sum.totalQuestions) * 100) + '%';
+
+  const scoreEl = $('chScoreSur20');
+  if (scoreEl) scoreEl.textContent = sum.noteActiveGlobal.toFixed(2);
+
+  const repEl = $('chScoreRepondues');
+  if (repEl) {
+    repEl.innerHTML = `Moyenne sur questions traitées : <b>${sum.answeredGradable > 0 ? sum.noteActiveRep.toFixed(2) + ' / 20' : '–'}</b> <span style="color:var(--ink-soft);font-size:.8rem">(${sum.answeredGradable}/${sum.totalGradable} QCM notés)</span>`;
+  }
+
+  const ptsEl = $('chPointsCumul');
+  if (ptsEl) {
+    ptsEl.innerHTML = `Points cumulés : <b>${sum.ptsActive.toFixed(2)}</b> / ${sum.totalGradable} pts possibles`;
+  }
+
+  const scoreBar = $('chScoreBar');
+  if (scoreBar) {
+    scoreBar.style.width = Math.min(100, (sum.noteActiveGlobal / 20) * 100) + '%';
+    scoreBar.style.background = sum.noteActiveGlobal >= 14 ? 'var(--green)' : (sum.noteActiveGlobal >= 10 ? 'var(--blue)' : 'var(--red)');
+  }
+
+  const otherScoreEl = $('chOtherScoreSur20');
+  if (otherScoreEl) otherScoreEl.textContent = sum.noteOtherGlobal.toFixed(2);
+
+  const otherRepEl = $('chOtherScoreRepondues');
+  if (otherRepEl) {
+    otherRepEl.innerHTML = `Moyenne sur traitées : <b>${sum.answeredGradable > 0 ? sum.noteOtherRep.toFixed(2) + ' / 20' : '–'}</b>`;
+  }
+
+  const diffTag = $('chScoreDiffTag');
+  if (diffTag) {
+    diffTag.className = `chip ${sum.diffGlobal >= 0 ? 'g' : 'r'}`;
+    diffTag.textContent = sum.diffGlobal === 0 ? '= Équivalent' : (sum.diffGlobal > 0 ? `+${sum.diffGlobal.toFixed(2)} pts écart` : `${sum.diffGlobal.toFixed(2)} pts écart`);
+  }
+
+  const breakdownEl = $('chBreakdownCounters');
+  if (breakdownEl) {
+    breakdownEl.innerHTML = `
+      <span style="color:var(--green)">✓ Exacts : <b>${sum.activeFull}</b></span>
+      <span style="color:var(--blue)">🎯 Partiels : <b>${sum.activePartial}</b></span>
+      <span style="color:var(--red)">✕ Zéro : <b>${sum.activeZero}</b></span>
+    `;
+  }
+
+  const helpEl = $('chComparisonHelp');
+  if (helpEl) {
+    helpEl.innerHTML = sum.modeActive === 'partiel'
+      ? `En Tout ou Rien, tes <b>${sum.activePartial}</b> questions partielles vaudraient 0 pt (perte de ${(sum.ptsActive - sum.ptsOther).toFixed(2)} pts).`
+      : `En Notation Partielle, tu aurais sauvé <b>${sum.otherPartial}</b> questions (+${(sum.ptsOther - sum.ptsActive).toFixed(2)} pts).`;
+  }
+}
+
+function openPlayer(ch, qi){
+  openChapter(ch, qi);
+}
+
+// Keyboard shortcuts for one-by-one mode (ArrowLeft, ArrowRight, A-E, Enter)
+window.addEventListener('keydown', (e) => {
+  if (['INPUT', 'TEXTAREA'].includes(document.activeElement?.tagName)) return;
+  if (!anView || anView.page !== 'chapter' || anView.displayMode === 'list') return;
+
+  const ch = anView.ch;
+  const filtered = getFilteredQcms(ch);
+  if (!filtered.length) return;
+  const cur = filtered[anView.qi];
+  if (!cur) return;
+  const { q, j } = cur;
+
+  if (e.key === 'ArrowRight') {
+    e.preventDefault();
+    nextQcm();
+  } else if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    prevQcm();
+  } else if (['a','b','c','d','e','A','B','C','D','E'].includes(e.key)) {
+    const letter = e.key.toUpperCase();
+    const btn = document.querySelector(`#qcard-${ch}-${j} .choice[data-letter="${letter}"]`);
+    if (btn && !state.answers[ch + ':' + j]) {
+      e.preventDefault();
+      handleChoiceClick(btn, ch, j);
+    }
+  } else if (e.key === 'Enter') {
+    const valBtn = $(`btn-val-${ch}-${j}`);
+    if (valBtn && !valBtn.disabled) {
+      e.preventDefault();
+      validateQcm(ch, j);
+    } else if (state.answers[ch + ':' + j]) {
+      e.preventDefault();
+      nextQcm();
+    }
+  }
+});
+
+/* ================= TRACKER ================= */
+let trFilter = 'all', trSearch = '';
+
+function renderTracker(){
+  const ts = trackerStats(), n = CHAPTERS.length;
+  const rows = CHAPTERS.map((c, i) => {
+    const L = state.layers[i] || [false,false,false];
+    const done = chapterAnswered(i);
+    const tot = (QCMS[i] || []).length;
+    const qcmValid = tot > 0 && done === tot;
+    const started = L.some(Boolean) || done > 0;
+    const valid = L.every(Boolean) && (tot === 0 ? true : qcmValid);
+    return { c, i, L, done, tot, qcmValid, started, valid };
+  }).filter(r => {
+    if (trFilter === 'valid' && !r.valid) return false;
+    if (trFilter === 'prog' && !(r.started && !r.valid)) return false;
+    if (trFilter === 'todo' && r.started) return false;
+    if (trSearch && !r.c.toLowerCase().includes(trSearch.toLowerCase())) return false;
+    return true;
+  });
+
+  const validCount = CHAPTERS.filter((_, i) => (state.layers[i] || []).every(Boolean)).length;
+
+  $('tr-body').innerHTML = `
+    <div class="layer-cards">
+      ${[
+        ['1ÈRE COUCHE', 'Compréhension globale', ts.l1],
+        ['2ÈME COUCHE', 'Mémorisation active', ts.l2],
+        ['3ÈME COUCHE', 'Consolidation rapide', ts.l3],
+        ['QCM VALIDÉS', 'Annales terminées', ts.qv]
+      ].map(([t, s, v], k) => `
+      <div class="lc">
+        <span class="mono" style="font-size:10px;color:var(--red)">${String(k + 1).padStart(2, '0')}</span>
+        <p class="pct">${Math.round(v / n * 100)}%</p>
+        <p class="nm">${t}</p>
+        <div class="lbar"><i class="${k === 3 ? 'g' : ''}" style="width:${Math.round(v / n * 100)}%"></i></div>
+        <p class="mono" style="font-size:10.5px;color:var(--ink-soft);margin-top:8px">${v} / ${n}</p>
+      </div>`).join('')}
+    </div>
+    <div class="card" style="margin-bottom:18px">
+      <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center">
+        <div class="fgroup">
+          <button class="fchip ${trFilter === 'all' ? 'on' : ''}" onclick="trFilter='all';renderTracker()">Tous (${n})</button>
+          <button class="fchip ${trFilter === 'valid' ? 'on' : ''}" onclick="trFilter='valid';renderTracker()">Validés</button>
+          <button class="fchip ${trFilter === 'prog' ? 'on' : ''}" onclick="trFilter='prog';renderTracker()">En cours</button>
+          <button class="fchip ${trFilter === 'todo' ? 'on' : ''}" onclick="trFilter='todo';renderTracker()">À faire (${n - validCount})</button>
+        </div>
+        <input id="trSearch" placeholder="Rechercher un chapitre…" value="${trSearch}"
+          style="border:1.5px solid var(--line);background:#fff;padding:9px 13px;font-family:var(--body);min-width:220px">
+      </div>
+    </div>
+    <div style="overflow-x:auto">
+    <table class="ttbl">
+      <thead>
+        <tr>
+          <th>Chapitre du module</th>
+          <th>1ère couche</th>
+          <th>2ème couche</th>
+          <th>3ème couche</th>
+          <th>QCM</th>
+          <th>Entraînement</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${rows.map(r => `
+        <tr>
+          <td class="tch-name"><span>CH. ${String(r.i + 1).padStart(2, '0')} ${r.qcmValid ? '✓' : ''}</span><b>${r.c}</b></td>
+          ${[0, 1, 2].map(nl => {
+            const locked = nl > 0 && !r.L[nl - 1];
+            return `<td><button class="lchk no360 ${r.L[nl] ? 'on' : ''} ${locked ? 'lock' : ''}" aria-label="Couche ${nl + 1}"
+              onclick="toggleLayer(${r.i},${nl})">✚</button></td>`;
+          }).join('')}
+          <td class="mono" style="font-size:.8rem">${r.tot ? `<span class="chip ${r.qcmValid ? 'g' : ''}">${r.done}/${r.tot}</span>` : '<span style="color:var(--ink-soft)">—</span>'}</td>
+          <td><button class="btn btn-sm btn-ghost" onclick="go('annales');chooseChapter(${r.i})">Practise →</button></td>
+        </tr>`).join('') || `<tr><td colspan="6"><div class="empty" style="border:none"><div class="big">Aucun chapitre ne correspond</div><p>Modifie ta recherche ou tes filtres pour afficher les chapitres.</p></div></td></tr>`}
+      </tbody>
+    </table>
+    </div>
+    <p class="hand" style="font-size:1.4rem;margin-top:20px;display:block">une couche par passage — comme les majors, pas plus, pas moins ✚</p>`;
+
+  const searchEl = $('trSearch');
+  if (searchEl) {
+    searchEl.addEventListener('input', e => {
+      trSearch = e.target.value;
+      renderTracker();
+      const inp = $('trSearch');
+      if (inp) { inp.focus(); inp.setSelectionRange(inp.value.length, inp.value.length); }
+    });
+  }
+}
+
+function toggleLayer(ch, n){
+  if (!state.layers[ch]) state.layers[ch] = [false, false, false];
+  const L = state.layers[ch];
+  if (!L[n] && n > 0 && !L[n - 1]){
+    toast('⚠ Valide d\'abord la couche précédente');
+    return;
+  }
+  if (L[n]){
+    for (let k = n; k < 3; k++) L[k] = false;
+  } else {
+    L[n] = true;
+  }
+  saveState();
+  renderTracker();
+}
+
+/* ================= FLASHCARDS ANKI ================= */
+function renderFlash(){
+  const fs = flashStats();
+  const pct = x => fs.total ? Math.round(x / fs.total * 100) + '%' : '0%';
+
+  $('fl-body').innerHTML = `
+    <div class="fstat">
+      <div class="lc"><p class="pct"><span data-count="${fs.total}">0</span></p><p class="nm">Cartes totales</p><p class="mono" style="font-size:10px;color:var(--ink-soft)">${state.decks.length} paquet${state.decks.length > 1 ? 's' : ''}</p></div>
+      <div class="lc"><p class="pct" style="color:var(--red)"><span data-count="${fs.due}">0</span></p><p class="nm">À réviser aujourd'hui</p><div class="lbar"><i style="width:${pct(fs.due)}"></i></div></div>
+      <div class="lc"><p class="pct" style="color:var(--orange)"><span data-count="${fs.learning}">0</span></p><p class="nm">En apprentissage</p><div class="lbar"><i style="width:${pct(fs.learning)};background:var(--orange)"></i></div></div>
+      <div class="lc"><p class="pct" style="color:var(--green)"><span data-count="${fs.mature}">0</span></p><p class="nm">Maîtrisées (≥ 21 j)</p><div class="lbar"><i class="g" style="width:${pct(fs.mature)}"></i></div></div>
+    </div>
+    <div style="display:flex;gap:12px;margin-bottom:22px;flex-wrap:wrap">
+      <button class="btn btn-red" onclick="openOv('ov-deck')">✚ Nouveau Paquet</button>
+      <button class="btn" onclick="openCardModal()">✚ Créer une Flashcard</button>
+    </div>
+    ${state.decks.length ? `<div class="deck-grid">${state.decks.map(d => {
+      const due = d.cards.filter(c => (c.due || 0) <= 0).length;
+      return `<article class="dcard">
+        <h3>${d.name}</h3><p class="mod">${(d.module || 'MÉDECINE').toUpperCase()}</p>
+        <div class="drow"><span>Cartes</span><b>${d.cards.length}</b></div>
+        <div class="drow"><span>À réviser aujourd'hui</span><b style="color:${due ? 'var(--red)' : 'var(--green)'}">${due}</b></div>
+        <div class="drow"><span>Cartes / jour</span><b>${d.perDay || '∞'}</b></div>
+        <div class="drow" style="border-bottom:none"><span>Délais</span><b>${d.hard}j / ${d.good}j / ${d.easy}j · 10m</b></div>
+        <div class="btns">
+          <button class="btn btn-sm btn-solid" style="flex:1" ${due ? '' : 'disabled style="opacity:.45"'} onclick="startStudy('${d.id}',false)">⚡ Étudier (${due})</button>
+          <button class="btn btn-sm btn-ghost" title="Paramètres" onclick="openSettings('${d.id}')">⚙️</button>
+          <button class="btn btn-sm btn-ghost" title="Voir les cartes" onclick="showDeckCards('${d.id}')">🗂</button>
+          <button class="btn btn-sm btn-ghost" style="color:var(--red)" title="Supprimer le paquet" onclick="deleteDeck('${d.id}')">🗑</button>
+        </div>
+        <div id="dc-${d.id}" class="hidden" style="margin-top:14px;border-top:1px dashed var(--line);padding-top:10px;max-height:220px;overflow-y:auto">
+          ${d.cards.map((c, i) => `<div class="drow"><span style="flex:1;font-size:.8rem">${c.f.length > 52 ? c.f.slice(0, 52) + '…' : c.f}</span>
+            <b style="font-size:.72rem">${(c.due || 0) <= 0 ? 'AUJ.' : (c.ivl >= 21 ? '✓ MAÎT.' : 'J+' + c.due)}</b>
+            <button class="btn btn-sm btn-ghost" style="padding:2px 8px;margin-left:6px" onclick="delCard('${d.id}',${i})">✕</button></div>`).join('') || '<p style="font-size:.8rem;color:var(--ink-soft)">0 carte dans ce paquet</p>'}
+        </div>
+      </article>`;
+    }).join('')}</div>`
+    : `<div class="empty">
+        <div class="big">Aucun paquet pour l'instant</div>
+        <p>Crée ton premier paquet pour commencer la répétition espacée ✚</p>
+        <button class="btn btn-solid" style="margin-top:14px" onclick="openOv('ov-deck')">✚ Créer mon premier paquet</button>
+      </div>`}
+    <p class="hand" style="font-size:1.4rem;margin-top:24px;display:block">10 cartes par jour, tous les jours — c'est ça qui fait les majors ✚</p>`;
+
+  runCounts($('fl-body'));
+}
+
+function showDeckCards(id){ const el = $('dc-' + id); if (el) el.classList.toggle('hidden'); }
+
+function delCard(id, i){
+  const d = state.decks.find(x => x.id === id);
+  if (!d) return;
+  d.cards.splice(i, 1);
+  saveState();
+  toast('Carte supprimée');
+  renderFlash();
+}
+
+function deleteDeck(id){
+  const d = state.decks.find(x => x.id === id);
+  if (!d) return;
+  if (!confirm(`Supprimer le paquet « ${d.name} » et ses ${d.cards.length} carte(s) ?`)) return;
+  state.decks = state.decks.filter(x => x.id !== id);
+  saveState();
+  toast('Paquet supprimé');
+  renderFlash();
+}
+
+/* --- Create Deck --- */
+$('deckForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const name = $('dkName').value.trim();
+  if (!name) return;
+
+  state.decks.push({
+    id: 'd' + Date.now(),
+    name,
+    module: $('dkModule').value,
+    desc: $('dkDesc').value.trim(),
+    perDay: +$('dkDay').value || 20,
+    hard: +$('dkHard').value || 1,
+    good: +$('dkGood').value || 3,
+    easy: +$('dkEasy').value || 7,
+    cards: []
+  });
+
+  saveState();
+  closeOv('ov-deck');
+  e.target.reset();
+  renderFlash();
+  toast('✚ Paquet créé avec succès');
+});
+
+/* --- Add Card (Standalone or from QCM) --- */
+function openCardModal(prefill){
+  const sel = $('cdDeck');
+  sel.innerHTML = state.decks.map(d => `<option value="${d.id}">${d.name}</option>`).join('');
+  $('cardWarn').classList.toggle('hidden', state.decks.length > 0);
+  $('cdFront').value = prefill ? prefill.front : '';
+  $('cdBack').value  = prefill ? prefill.back  : '';
+  $('cdHint').value  = prefill ? (prefill.hint || '') : '';
+  $('cardTitle').textContent = prefill ? 'Ajouter cette question aux Flashcards' : 'Ajouter une carte';
+  $('cardSub').textContent = prefill ? "Choisis le paquet dans lequel enregistrer ce QCM pour le réviser avec l'algorithme Anki." : 'Flashcard — mémorisation active.';
+  openOv('ov-card');
+}
+
+$('cardForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const d = state.decks.find(x => x.id === $('cdDeck').value);
+  if (!d) {
+    toast('⚠ Crée d\'abord un paquet');
+    return;
+  }
+  const f = $('cdFront').value.trim(), b = $('cdBack').value.trim(), h = $('cdHint').value.trim();
+  if (!f || !b) return;
+
+  d.cards.push({ f, b, h, ivl: 0, due: 0, reps: 0 });
+  saveState();
+  closeOv('ov-card');
+  renderFlash();
+  toast('🗂 Carte ajoutée au paquet « ' + d.name + ' »');
+});
+
+/* --- Settings --- */
+let stId = null;
+function openSettings(id){
+  stId = id;
+  const d = state.decks.find(x => x.id === id);
+  if (!d) return;
+  $('stDay').value  = d.perDay || 20;
+  $('stHard').value = d.hard || 1;
+  $('stGood').value = d.good || 3;
+  $('stEasy').value = d.easy || 7;
+  openOv('ov-settings');
+}
+
+$('stSave').addEventListener('click', () => {
+  const d = state.decks.find(x => x.id === stId);
+  if (!d) return;
+  d.perDay = +$('stDay').value;
+  d.hard   = +$('stHard').value || 1;
+  d.good   = +$('stGood').value || 3;
+  d.easy   = +$('stEasy').value || 7;
+  saveState();
+  closeOv('ov-settings');
+  renderFlash();
+  toast('✓ Réglages de révision enregistrés avec succès pour ce paquet !');
+});
+
+/* --- Study Session Overlay --- */
+let study = null;
+
+function startStudy(deckId, intensive){
+  const d = state.decks.find(x => x.id === deckId);
+  if (!d) return;
+
+  let queue = intensive ? d.cards.slice() : d.cards.filter(c => (c.due || 0) <= 0);
+
+  // Apply daily cards limit if not intensive
+  if (!intensive && d.perDay > 0 && queue.length > d.perDay) {
+    queue = queue.slice(0, d.perDay);
+  }
+
+  if (!queue.length){
+    toast('Aucune carte à réviser aujourd\'hui ✚');
+    return;
+  }
+
+  study = { deck: d, queue, done: 0, total: queue.length, idx: 0, flipped: false };
+  $('studyDeck').textContent = d.name.toUpperCase();
+  $('study').classList.add('on');
+  document.body.style.overflow = 'hidden';
+  renderStudyCard();
+}
+
+function renderStudyCard(){
+  const s = study, area = $('studyArea');
+  if (!s) return;
+
+  if (s.idx >= s.queue.length){
+    area.innerHTML = `<div class="s-done">
+      <p class="big">🎉</p>
+      <h2>Session terminée !</h2>
+      <p>Tu as révisé toutes les cartes prévues pour ce paquet aujourd'hui. L'algorithme a ajusté les prochaines dates selon tes réponses.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <button class="btn" onclick="closeStudy()">Retour aux paquets</button>
+        <button class="btn btn-red" onclick="startStudy('${s.deck.id}',true)">Réviser en mode intensif (toutes)</button>
+      </div>
+    </div>`;
+    $('studyCount').textContent = 'TERMINÉ';
+    return;
+  }
+
+  const c = s.queue[s.idx];
+  $('studyCount').textContent = `CARTE ${s.done + 1} / ${s.total}`;
+
+  area.innerHTML = `
+    <div class="fcard ${s.flipped ? 'flip' : ''}" id="fcWrap">
+      <div class="fcard-in">
+        <div class="face front">
+          <span class="chip" style="align-self:flex-start;margin-bottom:16px">${s.deck.name.toUpperCase()}</span>
+          <p class="fq">${c.f}</p>
+          <div class="fh">
+            ${s.flipped ? '' : `<button class="hint-btn" id="hintBtn">💡 Afficher l'indice</button>
+            ${c.h ? `<p class="hint-txt hidden" id="hintTxt">${c.h}</p>` : ''}`}
+          </div>
+          ${s.flipped ? '' : `<button class="btn btn-solid reveal-btn" id="revealBtn">Afficher la réponse <span class="mono" style="font-weight:400;opacity:.7">(Espace)</span></button>`}
+        </div>
+        <div class="face back">
+          <span class="ans-lbl">RÉPONSE</span>
+          <p class="ans">${c.b}</p>
+        </div>
+      </div>
+    </div>
+    <div class="ratings ${s.flipped ? '' : 'hidden'}" id="rateBar">
+      <button class="rate r1" onclick="rate(1)">[1] À revoir<small>&lt; 10 min</small></button>
+      <button class="rate r2" onclick="rate(2)">[2] Difficile<small>${s.deck.hard} j</small></button>
+      <button class="rate r3" onclick="rate(3)">[3] Bon<small>${s.deck.good} j</small></button>
+      <button class="rate r4" onclick="rate(4)">[4] Facile<small>${s.deck.easy} j</small></button>
+    </div>
+    <p class="s-hint">ESPACE POUR RÉVÉLER · 1–4 POUR ÉVALUER</p>`;
+
+  const hb = $('hintBtn');
+  if (hb) hb.addEventListener('click', () => { const ht = $('hintTxt'); if (ht) ht.classList.remove('hidden'); });
+
+  const rb = $('revealBtn');
+  if (rb) rb.addEventListener('click', flipCard);
+
+  const wrap = $('fcWrap');
+  if (wrap && !s.flipped) wrap.addEventListener('click', flipCard);
+}
+
+function flipCard(){
+  if (!study || study.flipped || study.idx >= study.queue.length) return;
+  study.flipped = true;
+  const wrap = $('fcWrap');
+  if (wrap) wrap.classList.add('flip');
+  setTimeout(() => {
+    const rb = $('rateBar');
+    if (rb) rb.classList.remove('hidden');
+    renderStudyCard();
+  }, RM ? 0 : 320);
+}
+
+function rate(r){
+  const s = study;
+  if (!s || !s.flipped) return;
+  const d = s.deck, c = s.queue[s.idx];
+  const real = d.cards.find(x => x === c) || c;
+
+  if (r === 1){
+    real.due = 0;
+    real.ivl = 0;
+    s.queue.push(real);
+    s.total++;
+  } else if (r === 2){
+    real.due = d.hard;
+    real.ivl = Math.max(real.ivl || 0, d.hard);
+  } else if (r === 3){
+    real.due = d.good;
+    real.ivl = Math.max(real.ivl || 0, d.good);
+  } else {
+    real.due = d.easy;
+    real.ivl = Math.max(real.ivl || 0, d.easy);
+  }
+
+  s.done++;
+  s.idx++;
+  s.flipped = false;
+  saveState();
+  renderStudyCard();
+  renderFlash();
+}
+
+function closeStudy(){
+  $('study').classList.remove('on');
+  document.body.style.overflow = '';
+  study = null;
+  renderFlash();
+}
+
+$('studyQuit').addEventListener('click', closeStudy);
+
+addEventListener('keydown', e => {
+  if (!study || !$('study').classList.contains('on')) return;
+  if (e.code === 'Space') {
+    e.preventDefault();
+    if (!study.flipped) flipCard();
+    else rate(3);
+  }
+  if (study && study.flipped && ['1','2','3','4'].includes(e.key)){
+    rate(+e.key);
+  }
+});
+
+/* ================= GLOBAL RENDER ================= */
+function updateSide(){
+  const is4A = currentAcademicYear === '4eme';
+  const L = state.layers, total = CHAPTERS.length * 3;
+  const doneLayers = is4A ? 0 : L.flat().filter(Boolean).length;
+  const doneQcms = is4A ? 0 : Object.keys(state.answers).length;
+  const pct = is4A ? 0 : Math.min(100, Math.round((doneLayers + doneQcms) / (total + 30) * 100));
+
+  const sideBar = $('sideBar');
+  if (sideBar) sideBar.style.width = pct + '%';
+  const sidePct = $('sidePct');
+  if (sidePct) sidePct.textContent = pct + '%';
+  const navDue = $('navDue');
+  if (navDue) navDue.textContent = cardsDue();
+
+  const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['4eme'];
+  const sideYearLabel = $('sideYearLabel');
+  if (sideYearLabel) sideYearLabel.textContent = yearInfo.facBadge;
+  const sideProgLabel = $('sideProgLabel');
+  if (sideProgLabel) sideProgLabel.textContent = 'PROGRESSION ' + yearInfo.code;
+
+  const b4 = $('btnYear4'), b5 = $('btnYear5');
+  if (b4) b4.classList.toggle('on', currentAcademicYear === '4eme');
+  if (b5) b5.classList.toggle('on', currentAcademicYear === '5eme');
+
+  const dashYearOverline = $('dashYearOverline');
+  if (dashYearOverline) dashYearOverline.textContent = yearInfo.subTitle;
+  const dashProgTitle = $('dashProgramTitle');
+  if (dashProgTitle) dashProgTitle.textContent = `PROGRAMME ACADÉMIQUE · MODULES DE ${yearInfo.title.toUpperCase()}`;
+}
+
+function renderAll(){
+  renderDash();
+  renderAnnales();
+  renderTracker();
+  renderFlash();
+  updateSide();
+}
+
+// Initial render
+renderAll();
+</script>
+</body>
+</html>
