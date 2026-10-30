@@ -1,0 +1,37 @@
+/* MAJORY — mascotte partagée (mêmes règles que la landing, keyframes préfixés m- pour éviter les collisions) */
+[data-mascot]{display:contents}
+.mc{display:block;overflow:visible;animation:m-bob 3.6s ease-in-out infinite;--px:0px;--py:0px}
+.mc .m-o,.mc .m-s,.mc .bw,.mc .bs,.mc .spk,.mc .dr{display:none}
+.mc.wow .m-h,.mc.sad .m-h{display:none}
+.mc.wow .m-o,.mc.wow .bw,.mc.wow .spk{display:block}
+.mc.sad .m-s,.mc.sad .bs,.mc.sad .dr{display:block}
+.mc.head .body{display:none}
+.mc .eye{transform-box:fill-box;transform-origin:center;animation:m-blink 5.2s infinite}.mc .e2{animation-delay:.05s}
+.mc .pu{transform:translate(var(--px),var(--py));transition:transform .18s ease-out}
+.mc .wave{transform-origin:328px 164px;animation:m-wave 3.2s ease-in-out infinite}
+.mc:hover .wave{animation-duration:.9s}
+.mc .crown{transform-box:fill-box;transform-origin:50% 100%;scale:.1;opacity:0;transition:scale .5s cubic-bezier(.34,1.56,.64,1),opacity .2s}
+.mc.king .crown{scale:1;opacity:1}
+.mc.wow{animation:m-jump .8s cubic-bezier(.23,1,.32,1),m-bob 3.6s ease-in-out .8s infinite}
+.mc.sad{animation:m-shake .6s ease-in-out,m-bob 3.6s ease-in-out .6s infinite}
+.mc.sleep .eye{animation:none;transform:scaleY(.08)}
+.mc.sleep{animation-duration:6.5s}
+@keyframes m-bob{50%{translate:0 -7px}}
+@keyframes m-jump{0%,100%{translate:0 0}30%{translate:0 -26px}58%{translate:0 0}78%{translate:0 -8px}}
+@keyframes m-shake{25%{rotate:-5deg}75%{rotate:5deg}}
+@keyframes m-blink{0%,92%,100%{transform:scaleY(1)}95.5%{transform:scaleY(.08)}}
+@keyframes m-wave{0%,60%,100%{transform:rotate(0)}10%{transform:rotate(-16deg)}22%{transform:rotate(8deg)}34%{transform:rotate(-14deg)}46%{transform:rotate(6deg)}}
+@keyframes m-spin{to{rotate:360deg}}
+@keyframes m-breathe{50%{scale:1.04}}
+@keyframes m-pop{from{scale:.85;opacity:.3}}
+/* atterrissage : chute (gravité = ease-in), écrasement à l'impact, rebond (ease-out) */
+@keyframes m-land{
+  0%{opacity:0;transform:translateY(-95%) scale(.92,1.14);animation-timing-function:cubic-bezier(.55,0,1,.45)}
+  52%{opacity:1;transform:translateY(0) scale(.92,1.14);animation-timing-function:cubic-bezier(.23,1,.32,1)}
+  62%{transform:translateY(0) scale(1.16,.8);animation-timing-function:cubic-bezier(.23,1,.32,1)}
+  80%{transform:scale(.97,1.05);animation-timing-function:cubic-bezier(.23,1,.32,1)}
+  100%{transform:none}
+}
+.m-bubble{position:relative;width:max-content;max-width:100%;background:#fff;color:#1A1626;border:3px solid #1A1626;border-radius:18px 18px 18px 4px;padding:.55rem 1rem;font:700 1.25rem/1.1 'Caveat',cursive;box-shadow:0 4px 0 #1A1626}
+.m-bubble.pop{animation:m-pop .45s cubic-bezier(.34,1.56,.64,1)}
+@media(prefers-reduced-motion:reduce){.mc,.mc *,.m-bubble{animation:none!important;transition:none!important}.mc .crown{transition:none}}

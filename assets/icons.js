@@ -1,0 +1,27 @@
+/* MAJORY — icônes de modules dessinées sur mesure.
+   Même trait que la mascotte : contour encre arrondi, aplats de la palette, pastille colorée.
+   IC('cardio') renvoie un <svg> inline (les parties .a s'animent au survol via assets/app.css). */
+(function(){
+const INK='#1A1626',Y='#FFD25A',B='#5BC8F0',O='#FF9466',P='#C9A9F2',W='#FAF6F3';
+const G={
+cardio:{t:Y,g:`<path class="a heart" d="M32 56C14 42 8 31 8 22A13 13 0 0 1 32 15A13 13 0 0 1 56 22C56 31 50 42 32 56Z" fill="${O}"/><path d="M13 32h11l4-9 6 17 4-8h13" fill="none" stroke="#fff" stroke-width="4.2"/>`},
+neuro:{t:B,g:`<g class="a brain"><g transform="translate(-6.5 5) scale(.205)" stroke-width="17.5"><path d="M120 215C80 220 55 185 72 155C52 130 70 92 105 90C110 55 160 38 188 62C205 40 262 42 275 82C318 78 345 118 328 148C350 178 330 222 285 218C270 236 235 240 215 226C190 242 150 238 120 215Z" fill="${P}"/><g fill="none" stroke="#A07BE3"><path d="M190 64C182 84 200 96 192 114"/><path d="M100 122C115 112 125 126 140 118"/><path d="M298 122C284 112 272 126 258 118"/><path d="M120 190C135 180 148 190 160 182"/><path d="M240 184C252 190 266 184 280 176"/></g></g></g>`},
+psy:{t:O,g:`<path class="a bubble" d="M18 44C8 44 5 32 13 28C11 18 22 12 29 18C34 9 48 13 49 23C59 24 60 40 50 44Z" fill="${Y}"/><circle cx="15" cy="52" r="4.4" fill="${Y}"/><circle cx="8" cy="59" r="2.6" fill="${Y}"/><g fill="${INK}" stroke="none"><circle class="d1" cx="23" cy="32" r="2.7"/><circle class="d2" cx="32" cy="32" r="2.7"/><circle class="d3" cx="41" cy="32" r="2.7"/></g>`},
+pneumo:{t:P,g:`<g class="a lung"><path d="M27 19C14 21 6 36 6 50C6 58 16 59 22 55C26 52 28 46 28 38Z" fill="${W}"/><path d="M37 19C50 21 58 36 58 50C58 58 48 59 42 55C38 52 36 46 36 38Z" fill="${W}"/><path d="M16 38v8M48 38v8" fill="none" stroke="${B}" stroke-width="4"/></g><path d="M32 7v21M32 24l-7 8M32 24l7 8" fill="none" stroke-width="4.2"/>`},
+hemato:{t:B,g:`<path class="a drop" d="M32 6C32 6 13 28 13 40A19 19 0 0 0 51 40C51 28 32 6 32 6Z" fill="${O}"/><path d="M23 39a9.5 9.5 0 0 0 6.5 9" fill="none" stroke="#fff" stroke-width="4"/>`},
+infectieux:{t:O,g:`<g class="a spin"><g stroke-width="4">${[0,45,90,135,180,225,270,315].map(a=>`<path d="M32 32L${(32+22*Math.cos(a*Math.PI/180)).toFixed(1)} ${(32+22*Math.sin(a*Math.PI/180)).toFixed(1)}" fill="none"/><circle cx="${(32+22*Math.cos(a*Math.PI/180)).toFixed(1)}" cy="${(32+22*Math.sin(a*Math.PI/180)).toFixed(1)}" r="4" fill="${Y}"/>`).join('')}</g><circle cx="32" cy="32" r="15" fill="${B}"/></g><g fill="${INK}" stroke="none"><circle cx="27" cy="29" r="2.6"/><circle cx="37" cy="29" r="2.6"/></g><path d="M27 37q5 4 10 0" fill="none" stroke-width="3.4"/>`},
+gastro:{t:P,g:`<path class="a belly" d="M16 6H27V15C27 20 30 23 36 23C48 23 57 30 57 41C57 51 48 58 35 58C21 58 9 51 9 38C9 28 16 26 16 18Z" fill="${Y}"/><path d="M26 38c4-3 9-3 13 0M28 47c4-2 8-2 12 0" fill="none" stroke-width="3.4"/>`},
+endo:{t:Y,g:`<rect x="26" y="3" width="12" height="58" rx="5" fill="${W}"/><path d="M26 10h12M26 16h12M26 55h12" fill="none" stroke-width="3"/><g class="a thy"><path d="M30 19C21 13 7 22 8 38C9 52 23 57 31 49Z" fill="${P}"/><path d="M34 19C43 13 57 22 56 38C55 52 41 57 33 49Z" fill="${P}"/><path d="M29 33H35V44H29Z" fill="${P}" stroke-width="0"/><path d="M29 33h6M29 44h6" fill="none"/></g><path d="M16 29c-3 4-3 9-1 13M48 29c3 4 3 9 1 13" fill="none" stroke="#fff" stroke-width="3.2"/>`},
+otr:{t:O,g:`<g transform="rotate(-45 32 32)"><g class="a bone"><path d="M19.3 27H44.7A6.5 6.5 0 1 1 51 32A6.5 6.5 0 1 1 44.7 37H19.3A6.5 6.5 0 1 1 13 32A6.5 6.5 0 1 1 19.3 27Z" fill="${W}"/><path d="M27 30.5v3M32 30.5v3M37 30.5v3" stroke-width="2.6" fill="none"/></g></g>`},
+uro:{t:B,g:`<path class="a kidney" d="M38 8C50 8 57 20 56 32C55 46 45 56 34 55C25 54 24 46 29 42C34 38 33 34 28 30C22 25 24 14 31 11C34 9 36 8 38 8Z" fill="${O}"/><path d="M29 33H17M17 33v12" fill="none" stroke-width="4"/><path d="M46 20c3 4 4 9 3 14" fill="none" stroke="#fff" stroke-width="3.6"/>`},
+gyn:{t:Y,g:`<g class="a fem"><circle cx="32" cy="24" r="15" fill="${P}"/><path d="M32 39v19M23 49h18" fill="none" stroke-width="5"/></g><path class="heart" d="M32 30C26 26 24 22 27 19.5C29 18 31 19 32 21C33 19 35 18 37 19.5C40 22 38 26 32 30Z" fill="${O}" stroke-width="2.6"/>`},
+ped:{t:P,g:`<g class="a bear"><circle cx="16" cy="21" r="8" fill="${Y}"/><circle cx="48" cy="21" r="8" fill="${Y}"/><circle cx="16" cy="21" r="3.2" fill="${O}" stroke="none"/><circle cx="48" cy="21" r="3.2" fill="${O}" stroke="none"/><circle cx="32" cy="36" r="20" fill="${Y}"/><ellipse cx="32" cy="42" rx="9" ry="7" fill="${W}"/><g fill="${INK}" stroke="none"><circle cx="24" cy="31" r="2.8"/><circle cx="40" cy="31" r="2.8"/><ellipse cx="32" cy="39" rx="3" ry="2.2"/></g><path d="M32 41v3M27 45q5 4 10 0" fill="none" stroke-width="3"/></g>`},
+books:{t:W,g:`<rect x="9" y="12" width="46" height="13" rx="4" fill="${Y}"/><rect x="13" y="27" width="42" height="13" rx="4" fill="${B}"/><rect x="7" y="42" width="48" height="13" rx="4" fill="${O}"/><path d="M16 18.5h9M20 33.5h9M14 48.5h9" fill="none" stroke-width="3"/>`}
+};
+G.gen4=G.books;G.gen5=G.books;G.gyneco=G.gyn;
+window.IC=function(id){
+  const o=G[id];if(!o)return'';
+  return '<svg class="mi" viewBox="0 0 64 64" aria-hidden="true"><rect x="2" y="2" width="60" height="60" rx="18" fill="'+o.t+'" stroke="'+INK+'" stroke-width="3.4"/><g transform="translate(10.5 10.5) scale(.67)" stroke="'+INK+'" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round">'+o.g+'</g></svg>';
+};
+window.IC.ids=Object.keys(G);
+})();
