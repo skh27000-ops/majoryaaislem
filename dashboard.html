@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400..700&family=DM+Mono:wght@500&family=Caveat:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/mascot.css">
 <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
@@ -38,37 +39,47 @@
 <path d="M200 188c-14 0-18 28 0 28s14-28 0-28z" fill="#1A1626"/></g></symbol>
 </defs></svg>
 
+<div class="halo" aria-hidden="true"><i class="h1"></i><i class="h2"></i><i class="h3"></i></div>
 <div class="app">
-<!-- ================= BARRE DU HAUT ================= -->
-<aside>
-  <a class="logo" href="#" onclick="go('dashboard');return false" aria-label="MAJORY, accueil">
-    <span class="logo-word">MAJORY</span>
-  </a>
-  <div class="bar-mascot-center" onclick="go('dashboard')" title="MAJORY Mascotte">
-    <svg aria-hidden="true" viewBox="40 30 320 220"><use href="#brain"/></svg>
-  </div>
-  <div class="badge-id">
-    <div class="fac">UNIVERSITÉ DE <b>MOSTAGANEM</b><br><span id="sideYearLabel">4ᵉ ANNÉE · MÉDECINE</span></div>
-    <div class="year-toggle-wrap">
-      <div class="year-toggle-btns">
-        <button type="button" class="year-btn on" id="btnYear4" onclick="switchAcademicYear('4eme')">4ᵉ année</button>
-        <button type="button" class="year-btn" id="btnYear5" onclick="switchAcademicYear('5eme')">5ᵉ année</button>
+<!-- ================= BARRE PILULE ================= -->
+<header class="pill-header" id="hdr">
+  <div class="pill-bar">
+    <div class="pill-left">
+      <a class="brand" href="#" onclick="go('dashboard');return false" aria-label="MAJORY, accueil">MAJORY</a>
+      <div class="fac">UNIVERSITÉ DE <b>MOSTAGANEM</b><br><span id="sideYearLabel">4ᵉ ANNÉE · MÉDECINE</span></div>
+    </div>
+    <a class="pill-mascot-center" href="#" aria-label="Mascotte MAJORY"><span data-mascot data-head></span></a>
+    <div class="pill-right">
+      <div class="year-toggle-wrap">
+        <div class="year-toggle-btns">
+          <button type="button" class="year-btn on" id="btnYear4" onclick="switchAcademicYear('4eme')">4ᵉ année</button>
+          <button type="button" class="year-btn" id="btnYear5" onclick="switchAcademicYear('5eme')">5ᵉ année</button>
+        </div>
       </div>
+      <div class="side-prog-wrap">
+        <div class="side-prog"><span id="sideProgLabel">PROGRESSION 4A</span><span id="sidePct">0%</span></div>
+        <div class="side-bar"><i id="sideBar"></i></div>
+      </div>
+      <button class="reset-btn" id="resetBtn" title="Réinitialiser la progression" aria-label="Réinitialiser la progression">↺</button>
     </div>
   </div>
-  <div class="side-prog-wrap">
-    <div class="side-prog"><span id="sideProgLabel">PROGRESSION 4A</span><span id="sidePct">0%</span></div>
-    <div class="side-bar"><i id="sideBar"></i></div>
-  </div>
-  <button class="reset-btn" id="resetBtn" title="Réinitialiser la progression" aria-label="Réinitialiser la progression">↺</button>
-</aside>
+</header>
 
 <!-- ================= DOCK ================= -->
-<nav aria-label="Navigation">
-  <button class="nav-it on" data-view="dashboard"><span class="ic">⚡</span> Tableau de bord</button>
-  <button class="nav-it" data-view="annales"><span class="ic">📚</span> Modules &amp; QCM</button>
-  <button class="nav-it" data-view="tracker"><span class="ic">🎯</span> Tracker <span class="bdg">3 couches</span></button>
-  <button class="nav-it" data-view="flash"><span class="ic">🗂️</span> Flashcards <span class="bdg" id="navDue">0</span></button>
+<nav aria-label="Navigation" data-on="dashboard">
+  <i class="ind" id="ind"></i>
+  <button class="nav-it on" data-view="dashboard" aria-current="page">
+    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/><path class="door" d="M10 19.5v-5h4v5"/></svg><span>Hall</span>
+  </button>
+  <button class="nav-it" data-view="annales">
+    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path class="bk l" d="M12 6.5C10 5 7 4.6 4 5v13c3-.4 6 .1 8 1.5Z"/><path class="bk r" d="M12 6.5C14 5 17 4.6 20 5v13c-3-.4-6 .1-8 1.5Z"/></svg><span>Annales &amp; QCM</span>
+  </button>
+  <button class="nav-it" data-view="tracker">
+    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="13" r="8"/><circle cx="11" cy="13" r="4.2"/><path class="dart" d="M11 13 19.5 4.5M16.5 4v4.5H21"/></svg><span>Tracker</span>
+  </button>
+  <button class="nav-it" data-view="flash">
+    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path class="fc2" d="M8 5.5h11a1.5 1.5 0 0 1 1.5 1.5v9"/><rect class="fc1" x="3.5" y="8.5" width="14" height="11" rx="2.5"/></svg><span>Flashcards</span><span class="bdg" id="navDue">0</span>
+  </button>
 </nav>
 <!-- ================= MAIN ================= -->
 <main>
@@ -79,18 +90,15 @@
   <div class="hall">
     <div class="hall-main">
       <span class="overline" id="dashYearOverline">Université de Mostaganem · 4ème année</span>
-      <h1>Bonjour, <span>futur·e major</span> !</h1>
+      <h1><span id="hallHi">Bonjour</span>, docteur·e !</h1>
       <p class="date-line" id="dateLine"></p>
-      <p class="sub" style="margin-top:12px">Choisis un module, entraîne-toi sur les séries de QCM et lis chaque correction détaillée. Ton assistant veille sur ta progression en temps réel.</p>
+      <p class="sub" style="margin-top:12px">Choisis un module, entraîne-toi sur les annales officielles et lis chaque correction. Ton cerveau de garde veille sur ta progression.</p>
       <div id="hall-resume"></div>
     </div>
-    <div class="hall-mascot">
-      <div class="say" id="hallSay">Prêt·e à t'entraîner ?</div>
-      <div class="m">
-        <svg viewBox="40 30 320 220" style="width:240px;height:160px;display:block" role="img" aria-label="Mascotte MAJORY">
-          <use href="#brain"/>
-        </svg>
-      </div>
+    <div class="stage">
+      <div class="disc"></div>
+      <div class="m-bubble" id="hallSay">Prêt·e pour la garde ?</div>
+      <span data-mascot></span>
     </div>
   </div>
   <div id="dash-body"></div>
@@ -286,38 +294,29 @@
 </div>
 
 <div class="overlay" id="ov-faculty-select">
-  <div class="modal" style="max-width:640px">
-    <button class="x" data-close>✕</button>
-    <div style="display:flex;gap:8px;align-items:center;margin-bottom:8px">
-      <span class="chip g" id="facModBadge">🫘 URO-NÉPHROLOGIE</span>
-      <span class="chip" id="facTotalBadge">ANNALES MÉDICALES</span>
-    </div>
-    <h3 style="font-size:1.55rem;margin:6px 0 4px">🏛️ Choisir les Facultés</h3>
-    <p class="msub" style="margin-bottom:18px">
-      Sélectionne la ou les facultés dont tu souhaites inclure les questions d'annales pour réviser :
-    </p>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="fmTitle">
+    <button class="x" data-close aria-label="Fermer">×</button>
+    <p class="fm-meta"><span id="facModBadge">Module</span><span class="fm-dot"></span><span id="facTotalBadge">Annales</span></p>
+    <h3 class="fm-title" id="fmTitle">Facultés</h3>
+    <p class="fm-sub">Choisis les facultés dont tu veux réviser les annales.</p>
 
-    <!-- Faculty selection cards -->
-    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:18px" id="facOptionsList">
-      <!-- Options injected dynamically by openFacultyModal() -->
+    <div class="fm-list" id="facOptionsList">
+      <!-- Options injectées par openFacultyModal() -->
     </div>
 
-    <!-- Quick actions -->
-    <div style="display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:20px;padding-top:12px;border-top:1px solid var(--dk-line, #E5E1D8)">
-      <div style="display:flex;gap:8px">
-        <button type="button" class="btn btn-sm btn-ghost" onclick="selectAllFaculties(true)">Tout cocher</button>
-        <button type="button" class="btn btn-sm btn-ghost" onclick="selectOnlyMosta()">Mostaganem seule</button>
+    <div class="fm-foot">
+      <div class="fm-links">
+        <button type="button" class="fm-link" onclick="selectAllFaculties(true)">Tout cocher</button>
       </div>
-      <span class="mono" style="font-size:11.5px;color:var(--ink-soft)" id="facSelectedSummary">3 facultés sélectionnées</span>
+      <span class="fm-sum" id="facSelectedSummary">3 facultés sélectionnées</span>
     </div>
 
-    <div class="m-actions" style="margin-top:0">
-      <button class="btn" data-close>Annuler</button>
-      <button class="btn btn-solid" onclick="applyFacultySelection()">Valider et s'entraîner →</button>
+    <div class="fm-actions">
+      <button class="fm-btn" data-close>Annuler</button>
+      <button class="fm-btn p" onclick="applyFacultySelection()">Valider et s'entraîner</button>
     </div>
   </div>
 </div>
-
 <div id="toasts"></div>
 
 <!-- ================= OFFICIAL FACULTY DATA & JUSTIFICATIONS ================= -->
@@ -351,6 +350,7 @@
 <script src="data/qcm-otr.js"></script>
 <script src="data/justifications-otr.js"></script>
 
+<script src="assets/icons.js"></script>
 <script>
 /* ================= DATA & INITIALIZATION ================= */
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1223,8 +1223,9 @@ $('resetBtn').addEventListener('click', () => {
 /* ================= DASHBOARD ================= */
 function renderDash(){
   const qs = qcmStats(), ts = trackerStats(), fs = flashStats();
-  const d = new Date();
+  const d = new Date(), hr = d.getHours();
   $('dateLine').innerHTML = d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) + ' · <b>session 2025/26</b>';
+  $('hallHi').textContent = hr < 5 || hr >= 18 ? 'Bonsoir' : (hr < 12 ? 'Bonjour' : 'Bon après-midi');
 
   const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
   const totalAllQcm = QCMS.reduce((acc, qList) => acc + qList.length, 0);
@@ -1245,27 +1246,26 @@ function renderDash(){
         <p class="mono">${(CHAPTERS[lastAnsCh] || '').toUpperCase()} · ${ch0Answered}/${ch0Total} RÉPONDUS</p>
         <div class="mbar"><i style="width:${ch0Pct}%"></i></div>
       </div>
-      <span class="btn btn-red btn-sm">Reprendre l'entraînement →</span>
+      <span class="btn btn-red btn-sm">Reprendre →</span>
     </div>`;
 
-  let say = 'Prêt·e ? Choisis un module !';
+  let say = 'Première garde ? Choisis un module !';
   if (qs.ans > 0) say = qs.rate >= 70 ? 'Excellent taux ! On continue ?' : (qs.rate < 50 ? 'On reprend les erreurs, tu vas y arriver.' : 'Bon rythme, encore une série !');
   if (fs.due > 0 && qs.ans > 0) say = fs.due + ' carte' + (fs.due > 1 ? 's' : '') + ' à réviser aujourd\'hui !';
-  $('hallSay').textContent = say;
+  const bub = $('hallSay'); bub.textContent = say; bub.dataset.base = say;
 
   $('dash-body').innerHTML = `
     <div class="vitals">
-      <div class="vit"><span class="k">QCM disponibles</span><span class="v" data-count="${totalAllQcm}">0</span><div class="ecg"></div></div>
-      <div class="vit b"><span class="k">Questions révisées</span><span class="v" data-count="${qs.ans}">0</span><div class="ecg"></div></div>
-      <div class="vit p"><span class="k">Taux de réussite</span><span class="v">${qs.rate === null ? '–' : `<span data-count="${qs.rate}" data-suffix="%">0</span>`}</span><div class="ecg"></div></div>
-      <div class="vit o"><span class="k">Cartes à réviser</span><span class="v" data-count="${fs.due}">0</span><div class="ecg"></div></div>
+      <div class="vit"><span class="k">QCM disponibles</span><span class="v" data-count="${totalAllQcm}">0</span></div>
+      <div class="vit b"><span class="k">Questions révisées</span><span class="v" data-count="${qs.ans}">0</span></div>
+      <div class="vit p"><span class="k">Taux de réussite</span><span class="v">${qs.rate === null ? '–' : `<span data-count="${qs.rate}" data-suffix="%">0</span>`}</span></div>
+      <div class="vit o"><span class="k">Cartes à réviser</span><span class="v" data-count="${fs.due}">0</span></div>
     </div>
-    <div class="wtitle"><span>Modules d'apprentissage</span><span class="hand">choisis un module →</span></div>
     <div class="building">
-      <div class="bld-bar"><span id="dashProgramTitle">Programme <b>${yearInfo.code}</b> · ${yearInfo.title}</span><span>${mods.length} modules · ${activeModsCount} disponibles</span></div>
+      <div class="bld-bar"><span id="dashProgramTitle">Bâtiment <b>${yearInfo.code}</b> · ${yearInfo.title}</span><span>${mods.length} modules · ${activeModsCount} ouverts</span></div>
       <div class="mod-grid">${mods.map(modCard).join('') + wideCard()}</div>
     </div>
-    <p class="hand" style="font-size:1.5rem;margin-top:26px;display:block">✦ Valide tes 3 couches avant de passer aux QCM : c'est ça, la méthode des majors.</p>`;
+    <p class="hand" style="font-size:1.5rem;margin-top:26px;display:block">✚ Valide tes 3 couches avant de passer aux QCM : c'est ça, la méthode des majors.</p>`;
 
   $('dash-body').querySelectorAll('.mcard').forEach(bindModCard);
   runCounts($('dash-body'));
@@ -1277,10 +1277,8 @@ function modCard(m, i){
   const done = isCur ? chapterAnswered(0) : 0;
   const totalCh0 = isCur ? (QCMS[0]?.length || 0) : 0;
   const pct = totalCh0 ? Math.round(done / totalCh0 * 100) : 0;
-  const room = (currentAcademicYear === '4eme' ? '40' : '50') + (i + 1);
   const short = m.name.split(' (')[0];
-  return `<article class="mcard" data-mod="${m.id}" title="${m.name}">
-    <span class="no">${room}</span>
+  return `<article class="mcard" data-mod="${m.id}" title="${m.name}" style="--i:${i}">
     <span class="mstatus ${isAct ? 'act' : 'prep'}">${isAct ? 'OUVERT' : 'BIENTÔT'}</span>
     <div class="emo">${m.ico}</div>
     <h3>${short}</h3>
@@ -1309,7 +1307,7 @@ function bindModCard(el){
       openModule();
       openFacultyModal();
     } else {
-      $('prepIco').textContent = m.ico;
+      $('prepIco').innerHTML = m.ico;
       $('prepTitle').textContent = m.name;
       const yearLabel = ACADEMIC_YEARS[currentAcademicYear]?.title || '4ème Année';
       const msub = $('prepSub');
@@ -1631,13 +1629,13 @@ function renderActiveFacultyBadges(){
   const counts = getFacultyCountsForCurrentModule();
   const chips = [];
   if (facs.includes('mosta')) {
-    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">🎓 Mostaganem (${counts.mosta} QCM)</span>`);
+    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">Mostaganem (${counts.mosta} QCM)</span>`);
   }
   if (facs.includes('alger')) {
-    chips.push(`<span class="chip" style="background:#EBF3FE;color:#185ABC;border:1px solid #C2E7FF;font-weight:700">🇩🇿 Alger (${counts.alger} QCM)</span>`);
+    chips.push(`<span class="chip" style="background:#EBF3FE;color:#185ABC;border:1px solid #C2E7FF;font-weight:700">Alger (${counts.alger} QCM)</span>`);
   }
   if (facs.includes('oran')) {
-    chips.push(`<span class="chip" style="background:#EAF6F0;color:#0F6B3A;border:1px solid #A8DAB5;font-weight:700">🏥 Oran (${counts.oran} QCM)</span>`);
+    chips.push(`<span class="chip" style="background:#EAF6F0;color:#0F6B3A;border:1px solid #A8DAB5;font-weight:700">Oran (${counts.oran} QCM)</span>`);
   }
   return chips.join(' ');
 }
@@ -1646,23 +1644,13 @@ function updateFacultyModalSummary(){
   const checked = Array.from(document.querySelectorAll('#facOptionsList input[name="facSelect"]:checked')).map(cb => cb.value);
   const sumEl = $('facSelectedSummary');
   if (sumEl) {
-    if (checked.length === 3) sumEl.textContent = '3 facultés sélectionnées (Toutes)';
-    else if (checked.length === 0) sumEl.textContent = '⚠️ Aucune sélectionnée';
+    if (checked.length === 3) sumEl.textContent = 'Toutes les facultés';
+    else if (checked.length === 0) sumEl.textContent = 'Aucune sélectionnée';
     else sumEl.textContent = checked.length + ' faculté' + (checked.length > 1 ? 's sélectionnées' : ' sélectionnée');
   }
 }
 
 function onFacultyCheckboxChange(){
-  document.querySelectorAll('#facOptionsList label.fac-select-card').forEach(label => {
-    const cb = label.querySelector('input[type="checkbox"]');
-    if (cb && cb.checked) {
-      label.style.borderColor = 'var(--blue)';
-      label.style.background = '#F3F6FD';
-    } else if (label) {
-      label.style.borderColor = 'var(--dk-line, #E5E1D8)';
-      label.style.background = 'var(--card)';
-    }
-  });
   updateFacultyModalSummary();
 }
 
@@ -1672,7 +1660,7 @@ function openFacultyModal(){
   const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
 
   const modBadge = $('facModBadge');
-  if (modBadge) modBadge.innerHTML = `${modCfg.ico} ${modCfg.title.toUpperCase()}`;
+  if (modBadge) modBadge.textContent = modCfg.title;
   
   const totalBadge = $('facTotalBadge');
   if (totalBadge) totalBadge.innerHTML = `${counts.total} QCM AU TOTAL`;
@@ -1712,23 +1700,17 @@ function openFacultyModal(){
       }
     ];
 
-    listEl.innerHTML = options.map(opt => `
-      <label class="card lift fac-select-card" style="display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer;border:2px solid ${opt.checked ? 'var(--blue)' : 'var(--dk-line, #E5E1D8)'};background:${opt.checked ? '#F3F6FD' : 'var(--card)'};border-radius:8px;transition:all .15s ease">
-        <input type="checkbox" name="facSelect" value="${opt.id}" ${opt.checked ? 'checked' : ''} style="width:20px;height:20px;accent-color:var(--blue);cursor:pointer" onchange="onFacultyCheckboxChange()">
-        <span style="font-size:1.8rem">${opt.ico}</span>
-        <div style="flex:1">
-          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
-            <b style="font-size:1.02rem;color:var(--ink)">${opt.name}</b>
-            <span class="chip" style="background:${opt.badgeBg};color:${opt.badgeColor};font-weight:700;font-size:11px">
-              ${opt.count > 0 ? opt.count + ' QCM disponibles' : (opt.id === 'mosta' ? 'En cours d\'indexation' : 'Bientôt disponible')}
-            </span>
-          </div>
-          <p style="font-size:.82rem;color:var(--ink-soft);margin:3px 0 0">${opt.sub}</p>
-        </div>
-      </label>
-    `).join('');
+    listEl.innerHTML = options.map(opt => {
+      const note = opt.count > 0 ? opt.count + ' QCM' : (opt.id === 'mosta' ? 'En cours d\'indexation' : 'Bientôt');
+      return `
+      <label class="fm-row fac-select-card c-${opt.id}">
+        <input type="checkbox" name="facSelect" value="${opt.id}" ${opt.checked ? 'checked' : ''} onchange="onFacultyCheckboxChange()">
+        <span class="fm-box" aria-hidden="true"></span>
+        <span class="fm-main"><b>${({mosta:'Mostaganem',alger:'Alger',oran:'Oran'})[opt.id]}</b><small>${opt.sub}</small></span>
+        <span class="fm-count${opt.count > 0 ? '' : ' off'}">${note}</span>
+      </label>`;
+    }).join('');
   }
-
   updateFacultyModalSummary();
   openOv('ov-faculty-select');
 }
@@ -1736,14 +1718,14 @@ function openFacultyModal(){
 function applyFacultySelection(){
   const checked = Array.from(document.querySelectorAll('#facOptionsList input[name="facSelect"]:checked')).map(cb => cb.value);
   if (checked.length === 0) {
-    toast('⚠️ Sélectionne au moins une faculté pour continuer');
+    toast('Sélectionne au moins une faculté pour continuer');
     return;
   }
   setStoredFaculties(checked);
   closeOv('ov-faculty-select');
   anView.qi = 0;
   renderAnnales();
-  toast(`🏛️ Facultés actives : ${getFacultyBadgeSummary()}`);
+  toast(`Facultés actives : ${getFacultyBadgeSummary()}`);
 }
 
 function selectAllFaculties(checkAll){
@@ -1774,7 +1756,7 @@ function toggleSingleFaculty(fac){
   setStoredFaculties(facs);
   anView.qi = 0;
   renderAnnales();
-  toast(`🏛️ Facultés mises à jour : ${getFacultyBadgeSummary()}`);
+  toast(`Facultés mises à jour : ${getFacultyBadgeSummary()}`);
 }
 
 function toggleAllFaculties(){
@@ -1783,7 +1765,7 @@ function toggleAllFaculties(){
     toast('🎓 Filtre activé : Mostaganem uniquement');
   } else {
     setStoredFaculties(['mosta', 'alger', 'oran']);
-    toast('🏛️ Toutes les facultés activées (Mostaganem + Alger + Oran)');
+    toast('Toutes les facultés activées (Mostaganem + Alger + Oran)');
   }
   anView.qi = 0;
   renderAnnales();
@@ -1820,7 +1802,7 @@ function setFacultyFilter(fac){
   } else if (fac === 'oran') {
     toast('🏥 Filtre activé : Questions de la Faculté d\'Oran uniquement');
   } else {
-    toast('🏛️ Toutes les questions affichées (Mostaganem + Annales externes)');
+    toast('Toutes les questions affichées (Mostaganem + Annales externes)');
   }
 }
 
@@ -1923,7 +1905,7 @@ function renderAnnales(){
           ← Revenir au choix de module
         </button>
         <button class="btn btn-sm btn-solid" onclick="openFacultyModal()" style="display:inline-flex;align-items:center;gap:8px;background:var(--dk);color:#fff;border-color:var(--dk);box-shadow:0 2px 6px rgba(0,0,0,.15)" title="Changer les facultés de révision">
-          🏛️ Choisir les Facultés <span class="chip" style="background:var(--red);color:#fff;font-size:10.5px;padding:2px 8px;font-weight:700">${facBadgeSummary}</span>
+          Choisir les facultés <span class="chip" style="background:var(--red);color:#fff;font-size:10.5px;padding:2px 8px;font-weight:700">${facBadgeSummary}</span>
         </button>
       </div>
       <div class="card" style="margin-bottom:22px">
@@ -1940,7 +1922,7 @@ function renderAnnales(){
         </div>
         <div style="margin-top:14px;padding-top:12px;border-top:1px dashed var(--dk-line,#E5E1D8);display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
           <div style="display:flex;align-items:center;gap:8px;font-size:12px;flex-wrap:wrap">
-            <span style="font-weight:700;color:var(--ink)">🏛️ Facultés sélectionnées :</span>
+            <span style="font-weight:700;color:var(--ink)">Facultés sélectionnées :</span>
             ${renderActiveFacultyBadges()}
           </div>
           <button class="btn btn-sm" onclick="openFacultyModal()" style="padding:4px 12px;font-size:11.5px">
@@ -2301,18 +2283,18 @@ function renderAnnales(){
         <div class="fgroup" style="margin-bottom:12px">
           <span class="lbl">Facultés</span>
           <button class="fchip ${isAllFacultiesSelected() ? 'on' : ''}" onclick="toggleAllFaculties()" title="Toutes les facultés (Mostaganem + Alger + Oran)">
-            🏛️ Toutes (${cnt.totalChapter})
+            Toutes (${cnt.totalChapter})
           </button>
           <button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Basculer Mostaganem">
-            🎓 Mostaganem (${cnt.mosta})
+            Mostaganem (${cnt.mosta})
           </button>
           ${hasAlger || cnt.alger > 0 ? `
           <button class="fchip ${isFacultySelected('alger') ? 'on' : ''}" onclick="toggleSingleFaculty('alger')" title="Basculer Alger">
-            🇩🇿 Alger (${cnt.alger})
+            Alger (${cnt.alger})
           </button>` : ''}
           ${hasOran || cnt.oran > 0 ? `
           <button class="fchip ${isFacultySelected('oran') ? 'on' : ''}" onclick="toggleSingleFaculty('oran')" title="Basculer Oran">
-            🏥 Oran (${cnt.oran})
+            Oran (${cnt.oran})
           </button>` : ''}
           <button class="btn btn-sm btn-ghost" onclick="openFacultyModal()" style="padding:2px 9px;font-size:11px;margin-left:4px" title="Ouvrir le panneau de sélection des facultés">
             ⚙️ Gérer les facultés
@@ -3434,8 +3416,17 @@ function renderAll(){
   updateSide();
 }
 
+// Icônes sur mesure (assets/icons.js) : remplacent les emojis des modules
+(function(){
+  Object.keys(MODULE_CONFIGS).forEach(k => { if (window.IC(k)) MODULE_CONFIGS[k].ico = window.IC(k); });
+  const all = [].concat(typeof ACADEMIC_YEARS === 'object' ? Object.values(ACADEMIC_YEARS).flatMap(y => y.modules || []) : [], MODULES);
+  all.forEach(m => { if (m && window.IC(m.id)) m.ico = window.IC(m.id); });
+})();
+
 // Initial render
 renderAll();
 </script>
+<script src="assets/mascot.js"></script>
+<script src="assets/dash-fx.js"></script>
 </body>
 </html>
