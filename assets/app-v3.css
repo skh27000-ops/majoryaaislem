@@ -1,0 +1,265 @@
+/* =====================================================================
+   MAJORY — dashboard v3 : design minimaliste du prototype, appliqué au vrai site.
+   Fines lignes, ombres douces, un seul violet d'action, aucune pastille « sticker ».
+   Chargé APRÈS app.css : ne change que l'apparence, jamais la logique.
+   ===================================================================== */
+:root{
+  --stk:1px solid rgba(26,22,38,.16);
+  --line:rgba(26,22,38,.1); --line2:rgba(26,22,38,.18);
+  --soft:#6A6478; --mute:#A09BAB; --violet:#6C5CE7; --violet-soft:#EEEBFD;
+  --bg:#FBF8F4; --paper:#FBF8F4;
+  --shadow-s:0 1px 2px rgba(26,22,38,.05),0 6px 18px rgba(26,22,38,.04);
+  --shadow-m:0 14px 36px rgba(26,22,38,.1);
+}
+body{background-color:var(--bg);background-image:radial-gradient(60vw 40vh at 85% -10%,rgba(201,169,242,.26),transparent 70%),radial-gradient(50vw 40vh at -5% 10%,rgba(91,200,240,.16),transparent 70%)}
+.halo{display:none}
+.app{padding-bottom:130px}
+main{padding-top:40px}
+
+/* ---------- barre pilule ---------- */
+.pill-bar{height:62px;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border:var(--stk);box-shadow:0 8px 30px rgba(26,22,38,.08)}
+.pill-header .year-toggle-btns{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:3px;gap:1px}
+.year-btn{border-radius:999px;color:var(--soft);font-size:11.5px;padding:6px 9px;transition:background-color .2s var(--e),color .2s var(--e)}
+.year-btn.on{background:var(--ink);color:#fff;box-shadow:none}
+.side-bar{height:6px;border:0;background:var(--line)}
+.side-bar i{background:var(--violet);border:0}
+.reset-btn{border:1px solid var(--line2);box-shadow:none;width:38px;height:38px}
+@media(hover:hover) and (pointer:fine){.reset-btn:hover{background:var(--bg);border-color:var(--ink)}}
+
+/* ---------- dock ---------- */
+nav{background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border:var(--stk);box-shadow:0 12px 40px rgba(26,22,38,.14)}
+nav .ind{border:0}
+.nav-it.on{opacity:1}
+
+/* ---------- titres de page ---------- */
+.overline{background:none;border:0;border-radius:0;padding:0;rotate:0deg;color:var(--soft);font:500 11.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:6px}
+.overline::before{display:none}
+.view-head h1{font-size:clamp(2.4rem,5vw,3.8rem);margin:8px 0 10px}
+.view-head h1 em{font-style:normal;white-space:normal}
+.view-head h1 em::before{display:none}
+.view-head h1 em{background:linear-gradient(transparent 62%,rgba(255,210,90,.75) 62%)}
+.view-head .sub{color:var(--soft)}
+.view{animation:vin .26s var(--e)}
+.date-line{color:var(--soft)}
+
+/* ---------- accueil ---------- */
+.hello{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;margin-bottom:44px}
+.hello h1{font-size:clamp(2.6rem,5.6vw,4.6rem);margin:12px 0 10px}
+.hello h1 em{font-style:normal;background:linear-gradient(transparent 62%,rgba(255,210,90,.75) 62%)}
+.hello .lead{color:var(--soft);font-size:1.06rem;max-width:34em;margin:6px 0 24px}
+.hello .lead b{color:var(--ink)}
+.resume{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;width:100%;max-width:540px;text-align:left;background:#fff;border:var(--stk);border-radius:20px;padding:18px 20px;box-shadow:none;cursor:pointer;transition:border-color .2s var(--e),translate .3s var(--e),box-shadow .3s var(--e)}
+@media(hover:hover) and (pointer:fine){.resume:hover{border-color:var(--ink);translate:0 -2px;box-shadow:var(--shadow-m)}}
+.resume small{display:block;font:500 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--soft)}
+.resume b{display:block;font:800 1.2rem var(--disp);letter-spacing:-.03em;margin:3px 0 10px}
+.segs{display:flex;gap:4px}.segs i{flex:1;height:5px;border-radius:9px;background:var(--line)}.segs i.d{background:var(--violet)}.segs i.c{background:var(--violet);opacity:.4}
+.resume .go{width:42px;height:42px;border-radius:50%;background:var(--violet);color:#fff;display:grid;place-items:center;transition:translate .3s var(--e)}
+.resume .go svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+@media(hover:hover) and (pointer:fine){.resume:hover .go{translate:3px 0}}
+.goal{position:relative;width:min(100%,340px);aspect-ratio:1;margin-left:auto;display:grid;place-items:center;--c:565.5;--p:0}
+.goal .ring{position:absolute;inset:0;rotate:-90deg;width:100%;height:100%}
+.goal circle{fill:none;stroke-width:10;stroke-linecap:round}
+.goal .tr{stroke:var(--line)}
+.goal .fg{stroke:var(--violet);stroke-dasharray:var(--c);stroke-dashoffset:calc(var(--c) * (1 - var(--p)));transition:stroke-dashoffset 1.3s var(--e) .25s}
+.goal .in{position:relative;text-align:center;display:grid;gap:4px;justify-items:center}
+.goal .mc{width:150px}
+.goal .n{font:800 1.6rem var(--disp);letter-spacing:-.04em}.goal .n span{color:var(--soft);font-weight:600}
+.goal .l{font:500 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--soft)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:52px}
+.stats .st{background:#fff;border:var(--stk);border-radius:20px;padding:18px 20px;transition:border-color .2s var(--e)}
+@media(hover:hover) and (pointer:fine){.stats .st:hover{border-color:var(--ink)}}
+.stats .k{font:500 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--soft)}
+.stats .v{font:800 2.3rem var(--disp);letter-spacing:-.05em;line-height:1.1;margin:6px 0 8px;font-variant-numeric:tabular-nums}
+.stats .v small{font:600 .9rem var(--body);letter-spacing:0;color:var(--soft);margin-left:4px}
+.stats .days{display:flex;gap:5px}.stats .days i{width:100%;height:6px;border-radius:9px;background:var(--line)}.stats .days i.d{background:var(--violet)}
+.stats .bar2{height:5px;border-radius:9px;background:var(--line);overflow:hidden}.stats .bar2 i{display:block;height:100%;border-radius:9px;background:var(--violet)}
+.stats .btn{padding:.4rem .9rem;font-size:.82rem}
+.secH{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin-bottom:18px}
+.secH h2{font-size:1.7rem}
+.tip{margin-top:26px;color:var(--soft);font-size:.95rem}
+@media(max-width:1000px){.hello{grid-template-columns:1fr}.goal{margin:0 auto;width:min(100%,300px)}.stats{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- cartes de modules ---------- */
+.mod-grid,.building .mod-grid{gap:16px}
+body .mcard,body .mcard:nth-child(n){background:#fff;border:var(--stk);border-radius:22px;box-shadow:none;min-height:0;padding:20px;transition:border-color .25s var(--e),translate .35s var(--e),box-shadow .35s var(--e)}
+@media(hover:hover) and (pointer:fine){body .mcard:hover{background:#fff;border-color:var(--ink);translate:0 -3px;box-shadow:var(--shadow-m)}}
+body .mcard .emo{width:56px;height:56px}
+body .mcard .meta{color:var(--soft)}
+body .mcard:hover .meta{color:var(--soft)}
+.mstatus{background:var(--bg);border:1px solid var(--line);color:var(--soft);font-weight:500}
+.mstatus.act{background:rgba(45,175,134,.14);border-color:rgba(45,175,134,.4);color:#0F7A5A}
+.mbar{height:5px;border:0;background:var(--line);border-radius:9px}
+.mbar i{background:var(--violet)}
+.mcard-actions{display:flex;gap:8px;margin-top:6px}
+.mcard-btn{flex:1;font:700 .85rem var(--body);padding:.6rem .8rem;border-radius:12px;border:1px solid var(--line2);background:#fff;color:var(--ink);transition:background-color .2s var(--e),border-color .2s var(--e),transform .1s}
+.mcard-btn.qcm{background:var(--ink);border-color:var(--ink);color:#fff}
+.mcard-btn:active{transform:scale(.97)}
+@media(hover:hover) and (pointer:fine){.mcard-btn:hover{border-color:var(--ink)}.mcard-btn.qcm:hover{background:#2f2842}}
+
+/* ---------- boutons ---------- */
+body .btn,body .btn-restart-hero,body .btn-next-hero{border:1px solid var(--line2);border-radius:12px;box-shadow:none;font-weight:700;transition:background-color .2s var(--e),border-color .2s var(--e),transform .12s var(--e)}
+body .btn:hover,body .btn-restart-hero:hover,body .btn-next-hero:hover{transform:none;box-shadow:none;border-color:var(--ink)}
+body .btn:active{transform:scale(.97);box-shadow:none}
+body .btn-solid,body .btn-next-hero{background:var(--ink);border-color:var(--ink);color:#fff}
+body .btn-solid:hover,body .btn-next-hero:hover{background:#2f2842;box-shadow:none}
+body .btn-red,body .btn-restart-hero{background:var(--violet);border-color:var(--violet);color:#fff}
+body .btn-red:hover,body .btn-restart-hero:hover{background:#5b4bd4;border-color:#5b4bd4;box-shadow:none}
+body .btn-ghost{background:#fff}
+body .btn-sm{box-shadow:none;border-radius:10px}
+
+/* ---------- cartes génériques ---------- */
+body .card,body .stat,body .lc,body .dcard,body .qcm-stepper-wrap,body .player,body .empty,body .warn,body .rg{border:var(--stk);box-shadow:none}
+body .card,body .dcard,body .player,body .qcm-stepper-wrap{border-radius:22px;background:#fff}
+body .player{box-shadow:var(--shadow-s)}
+body .card.lift:hover,body .dcard:hover{transform:none;box-shadow:var(--shadow-m);border-color:var(--ink)}
+body .modal{border:var(--stk);border-radius:24px;box-shadow:0 30px 80px rgba(26,22,38,.22)}
+body .modal .x{border:0;box-shadow:none;background:transparent}
+body .modal .x:hover{background:rgba(26,22,38,.06);transform:none}
+body .p-head{border-bottom:1px dashed var(--line2)}
+body .expl{border-top:1px dashed var(--line2)}
+body .chap-row{border:var(--stk);box-shadow:none;border-radius:18px}
+body .chap-row:hover{transform:none;border-color:var(--ink);box-shadow:var(--shadow-s);translate:0 -2px}
+body .chap-num{border:0;border-radius:12px;background:var(--violet-soft);color:var(--violet)}
+body .qrow{border:var(--stk);border-radius:16px}
+body .qrow:hover{box-shadow:none;border-color:var(--ink)}
+body .qrow .st{border:1px solid var(--line2)}
+
+/* ---------- réponses ---------- */
+body .choice{border:1px solid var(--line2);box-shadow:none;border-radius:16px;background:#fff}
+body .choice:hover:not(:disabled){transform:none;box-shadow:none;border-color:var(--ink)}
+body .choice:active:not(:disabled){transform:scale(.99);box-shadow:none}
+body .choice .key{border:1px solid var(--line2);background:var(--bg)}
+body .choice.sel{border-color:var(--ink);background:rgba(26,22,38,.03)}
+body .choice.sel .key{background:var(--ink);border-color:var(--ink);color:#fff}
+body .choice.correct,body .choice.miss{border-color:var(--green);background:rgba(45,175,134,.08)}
+body .choice.correct .key{background:var(--green);border-color:var(--green);color:#fff}
+body .choice.wrong{border-color:var(--red);background:rgba(232,112,58,.08)}
+body .choice.wrong .key{background:var(--red);border-color:var(--red);color:#fff}
+body .tag{border:0;border-radius:6px}
+body .stamp{border:1px solid var(--line2);box-shadow:var(--shadow-s);border-radius:10px;font-weight:500}
+
+/* ---------- filtres & pastilles ---------- */
+body .chip{border:1px solid var(--line2);border-radius:999px;background:#fff;font-weight:500}
+body .fchip{border:1px solid var(--line2);border-radius:999px;background:#fff;font-weight:600}
+body .fchip:hover{background:#fff;border-color:var(--ink)}
+body .fchip.on{background:var(--ink);color:#fff;border-color:var(--ink);box-shadow:none;transform:none}
+body .qcm-num-btn{border:1px solid var(--line2);border-radius:11px}
+body .qcm-num-btn:hover{box-shadow:none;transform:none;border-color:var(--ink)}
+body .qcm-num-btn.cur{background:var(--ink);color:#fff;box-shadow:none;transform:none}
+body .qcm-num-btn.cur.ok{background:var(--green)}body .qcm-num-btn.cur.ko{background:var(--red);color:#fff}body .qcm-num-btn.cur.part{background:var(--b);color:var(--ink)}
+body .qbar,body .lbar{border:0;background:var(--line);height:6px}
+body .qbar i{background:var(--violet);border:0}
+
+/* ---------- checklist ---------- */
+body .lc{background:#fff;border-radius:20px;box-shadow:inset 0 3px 0 var(--y)}
+body .lc:nth-child(4n+2){background:#fff;box-shadow:inset 0 3px 0 var(--b)}
+body .lc:nth-child(4n+3){background:#fff;box-shadow:inset 0 3px 0 var(--p)}
+body .lc:nth-child(4n+4){background:#fff;box-shadow:inset 0 3px 0 var(--o)}
+body .lbar i{background:var(--ink)}
+body .ttbl{border:var(--stk);box-shadow:none;border-radius:20px}
+body .ttbl th{background:var(--bg);border-bottom:1px solid var(--line2);color:var(--soft)}
+body .lchk{border:1.5px solid var(--line2);border-radius:50%}
+body .lchk.on{background:var(--violet);border-color:var(--violet);color:#fff}
+
+/* ---------- flashcards ---------- */
+body .face{border:var(--stk);box-shadow:0 24px 60px rgba(26,22,38,.12)}
+body .face.back{background:var(--violet-soft)}
+body .rate{border:1px solid var(--line2);box-shadow:none;color:var(--ink);background:#fff}
+body .rate.r1:hover{background:rgba(232,112,58,.12)}body .rate.r2:hover{background:rgba(255,210,90,.3)}body .rate.r3:hover{background:rgba(45,175,134,.14)}body .rate.r4:hover{background:rgba(91,200,240,.25)}
+body .toast{border:1px solid rgba(255,255,255,.12);border-bottom:3px solid var(--violet)}
+body .field input,body .field select,body .field textarea{border:1px solid var(--line2);border-radius:12px}
+body .field input:focus,body .field select:focus,body .field textarea:focus{border-color:var(--ink);box-shadow:none}
+
+@media(prefers-reduced-motion:reduce){.goal .fg{transition:none}}
+
+/* ---------- compléments v3 (checklist, semestres, détails) ---------- */
+body .overline,body .view-head .overline{background:none;border:0;rotate:0deg;padding:0;border-radius:0;display:block;color:var(--soft)}
+body .mcard-btn,body .mcard-btn.trk,body .mcard-btn.qcm{border:1px solid var(--line2);box-shadow:none;transform:none}
+body .mcard-btn.trk{background:#fff}
+body .mcard-btn.qcm{background:var(--ink);border-color:var(--ink);color:#fff}
+body .mcard-btn.trk:hover{background:#fff;border-color:var(--ink);box-shadow:none;transform:none}
+body .mcard-btn.qcm:hover{background:#2f2842;box-shadow:none;transform:none}
+body .tr-mod-wrap,body .tr-active-hero{border:var(--stk);box-shadow:none;border-radius:22px;background:#fff}
+body .tr-mod-pill{border:1px solid var(--line2);box-shadow:none;border-radius:14px;transition:border-color .2s var(--e),background-color .2s var(--e)}
+body .tr-mod-pill:hover{background:#fff;border-color:var(--ink);transform:none;box-shadow:none}
+body .tr-mod-pill.on{background:var(--violet-soft);border-color:var(--violet);box-shadow:none;outline:0;transform:none}
+body .tr-hero-ico{border:0;box-shadow:none;background:transparent}
+body .tr-mod-badge{border:0;border-radius:8px}
+body .sem-card{border:var(--stk);box-shadow:none;border-radius:20px}
+body .sem-card:hover{transform:none;box-shadow:var(--shadow-m);border-color:var(--ink)}
+body .sem-card-btn{border:1px solid var(--line2);box-shadow:none}
+body .sem-switcher{border:1px solid var(--line2);box-shadow:none;border-radius:999px}
+body .sem-tab.on{background:var(--ink);border-color:var(--ink);box-shadow:none}
+body .player .p-body .btn{box-shadow:none}
+body .face{box-shadow:0 24px 60px rgba(26,22,38,.12)}
+body .resume{box-shadow:none}
+body .year-toggle-btns{box-shadow:none}
+/* attrape-tout : styles en ligne hérités (ombres dures / bordures épaisses) */
+body [style*="box-shadow:0 3px 0 var(--ink)"],body [style*="box-shadow:0 4px 0 var(--ink)"],body [style*="box-shadow:0 2px 0 var(--ink)"]{box-shadow:none!important}
+body [style*="border:2.5px solid var(--ink)"],body [style*="border:2px solid var(--ink)"]{border:1px solid var(--line2)!important}
+body .tr-hero-actions .btn{background:var(--violet)!important;border-color:var(--violet)!important}
+/* =====================================================================
+   v3b — moins de noir, plus de nos couleurs (jaune, bleu, orange, violet)
+   ===================================================================== */
+/* actions : violet de marque au lieu du noir */
+body .btn-solid,body .btn-next-hero,body .mcard-btn.qcm,body .stats .btn-solid{background:var(--violet);border-color:var(--violet);color:#fff}
+body .btn-solid:hover,body .btn-next-hero:hover,body .mcard-btn.qcm:hover{background:#5b4bd4;border-color:#5b4bd4}
+/* sélections : jaune, comme la landing */
+body .year-btn.on{background:var(--y);color:var(--ink);box-shadow:0 0 0 1.5px var(--ink) inset}
+body .fchip.on{background:var(--y);color:var(--ink);border-color:var(--ink)}
+body .qcm-num-btn.cur{background:var(--y);color:var(--ink);border-color:var(--ink)}
+body .qcm-num-btn.cur.ok{background:var(--green);color:#fff;border-color:var(--green)}
+body .qcm-num-btn.cur.ko{background:var(--o);color:var(--ink);border-color:var(--o)}
+body .qcm-num-btn.cur.part{background:var(--b);color:var(--ink);border-color:var(--b)}
+body .sem-tab.on{background:var(--violet);border-color:var(--violet)}
+body .tr-mod-badge{background:var(--b);color:var(--ink)}
+body .choice.sel:not(.correct):not(.wrong):not(.miss){border-color:var(--violet);background:var(--violet-soft)}
+body .choice.sel:not(.correct):not(.wrong):not(.miss) .key{background:var(--violet);border-color:var(--violet)}
+body [style*="background:var(--ink)"],body [style*="background:var(--dk)"]{background:var(--violet)!important;color:#fff!important}
+
+/* accueil : disque jaune derrière la mascotte, cartes teintées */
+.goal::before{content:"";position:absolute;inset:13%;border-radius:50%;background:var(--y);box-shadow:0 0 0 1.5px rgba(26,22,38,.18)}
+.goal .in{z-index:1}
+.goal .fg{stroke:var(--violet)}
+.resume{border-left:5px solid var(--y)}
+.stats .st:nth-child(1){background:color-mix(in srgb,var(--y) 20%,#fff);border-color:color-mix(in srgb,var(--y) 55%,#fff)}
+.stats .st:nth-child(2){background:color-mix(in srgb,var(--b) 18%,#fff);border-color:color-mix(in srgb,var(--b) 55%,#fff)}
+.stats .st:nth-child(3){background:color-mix(in srgb,var(--p) 24%,#fff);border-color:color-mix(in srgb,var(--p) 60%,#fff)}
+.stats .st:nth-child(4){background:color-mix(in srgb,var(--o) 18%,#fff);border-color:color-mix(in srgb,var(--o) 55%,#fff)}
+.stats .st:nth-child(1) .v{color:#B07A00}.stats .st:nth-child(2) .v{color:#1384AE}.stats .st:nth-child(3) .v{color:#6C5CE7}.stats .st:nth-child(4) .v{color:#C9501B}
+.stats .days i.d{background:#E8A800}.stats .st:nth-child(2) .bar2 i{background:#1E9CCB}.stats .st:nth-child(3) .bar2 i{background:var(--violet)}
+.stats .st:nth-child(3) .bar2,.stats .st:nth-child(2) .bar2{background:rgba(255,255,255,.7)}
+.stats .st:nth-child(4) .btn{background:var(--o);border-color:var(--o);color:var(--ink)}
+.stats .st:nth-child(4) .btn:hover{background:#ff8550;border-color:#ff8550}
+
+/* modules : une couleur par carte (barre du haut, progression, survol) */
+body .mcard,body .mcard:nth-child(n){--c:var(--y);border-top:4px solid var(--c)}
+body .mcard:nth-child(4n+2){--c:var(--b);border-top-color:var(--b)}body .mcard:nth-child(4n+3){--c:var(--o);border-top-color:var(--o)}body .mcard:nth-child(4n){--c:var(--p);border-top-color:var(--p)}
+body .mcard .mbar i{background:var(--c)}
+body .mcard .mbar{background:color-mix(in srgb,var(--c) 22%,#fff)}
+@media(hover:hover) and (pointer:fine){body .mcard:hover{border-color:var(--c);border-top-color:var(--c);box-shadow:0 14px 36px color-mix(in srgb,var(--c) 28%,transparent)}}
+body .mcard-btn.trk:hover{border-color:var(--c);background:color-mix(in srgb,var(--c) 14%,#fff)}
+
+/* pages : un accent par vue */
+#view-annales .view-head h1 em{background:linear-gradient(transparent 60%,rgba(91,200,240,.65) 60%)}
+#view-tracker .view-head h1 em{background:linear-gradient(transparent 60%,rgba(201,169,242,.75) 60%)}
+#view-flash .view-head h1 em{background:linear-gradient(transparent 60%,rgba(255,148,102,.6) 60%)}
+body .lc{background:color-mix(in srgb,var(--y) 14%,#fff)}
+body .lc:nth-child(4n+2){background:color-mix(in srgb,var(--b) 14%,#fff)}
+body .lc:nth-child(4n+3){background:color-mix(in srgb,var(--p) 18%,#fff)}
+body .lc:nth-child(4n+4){background:color-mix(in srgb,var(--o) 14%,#fff)}
+body .lc .lbar i{background:var(--violet)}
+body .tr-active-hero{border-left:5px solid var(--p)}
+body .qcm-stepper-wrap{border-left:5px solid var(--b)}
+body .dcard{border-top:4px solid var(--o)}body .dcard:nth-child(3n+2){border-top-color:var(--b)}body .dcard:nth-child(3n){border-top-color:var(--p)}
+body .ttbl th{background:color-mix(in srgb,var(--p) 22%,#fff);color:var(--ink)}
+body .stamp{background:var(--y);color:var(--ink);border-color:var(--ink)}
+
+/* flashcards : écran d'étude clair et coloré */
+body #study{background-color:var(--bg);background-image:radial-gradient(60vw 40vh at 85% -10%,rgba(201,169,242,.3),transparent 70%),radial-gradient(50vw 40vh at -5% 100%,rgba(255,210,90,.28),transparent 70%)}
+body .s-top,body .s-top .btn{color:var(--ink)}
+body .s-count{color:var(--violet)}
+body .s-hint{color:var(--soft)}
+body .s-done,body .s-done h2{color:var(--ink)}body .s-done p{color:var(--soft)}
+body .face.back{background:color-mix(in srgb,var(--y) 28%,#fff)}
+body .rate.r1{background:color-mix(in srgb,var(--o) 28%,#fff)}body .rate.r2{background:color-mix(in srgb,var(--y) 40%,#fff)}body .rate.r3{background:color-mix(in srgb,var(--green) 22%,#fff);color:var(--ink)}body .rate.r4{background:color-mix(in srgb,var(--b) 30%,#fff)}

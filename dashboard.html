@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MAJORY — Dashboard & QCM d'Annales</title>
-<meta name="description" content="Dashboard MAJORY : choisis une spécialité et révise les QCM d'annales de médecine avec correction détaillée.">
+<title>MAJORY — Dashboard QCM</title>
+<meta name="description" content="Dashboard MAJORY : choisis une spécialité et révise les QCM de médecine, de la 1ère à la 6ème année, avec correction détaillée.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,8 +52,12 @@
     <div class="pill-right">
       <div class="year-toggle-wrap">
         <div class="year-toggle-btns">
-          <button type="button" class="year-btn on" id="btnYear4" onclick="switchAcademicYear('4eme')">4ᵉ année</button>
-          <button type="button" class="year-btn" id="btnYear5" onclick="switchAcademicYear('5eme')">5ᵉ année</button>
+          <button type="button" class="year-btn" id="btnYear1" onclick="switchAcademicYear('1ere')" title="1ʳᵉ année">1ʳᵉ</button>
+          <button type="button" class="year-btn" id="btnYear2" onclick="switchAcademicYear('2eme')" title="2ᵉ année">2ᵉ</button>
+          <button type="button" class="year-btn" id="btnYear3" onclick="switchAcademicYear('3eme')" title="3ᵉ année">3ᵉ</button>
+          <button type="button" class="year-btn on" id="btnYear4" onclick="switchAcademicYear('4eme')" title="4ᵉ année">4ᵉ</button>
+          <button type="button" class="year-btn" id="btnYear5" onclick="switchAcademicYear('5eme')" title="5ᵉ année">5ᵉ</button>
+          <button type="button" class="year-btn" id="btnYear6" onclick="switchAcademicYear('6eme')" title="6ᵉ année">6ᵉ</button>
         </div>
       </div>
       <div class="side-prog-wrap">
@@ -72,10 +76,10 @@
     <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/><path class="door" d="M10 19.5v-5h4v5"/></svg><span>Hall</span>
   </button>
   <button class="nav-it" data-view="annales">
-    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path class="bk l" d="M12 6.5C10 5 7 4.6 4 5v13c3-.4 6 .1 8 1.5Z"/><path class="bk r" d="M12 6.5C14 5 17 4.6 20 5v13c-3-.4-6 .1-8 1.5Z"/></svg><span>Annales &amp; QCM</span>
+    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path class="bk l" d="M12 6.5C10 5 7 4.6 4 5v13c3-.4 6 .1 8 1.5Z"/><path class="bk r" d="M12 6.5C14 5 17 4.6 20 5v13c-3-.4-6 .1-8 1.5Z"/></svg><span>QCM</span>
   </button>
   <button class="nav-it" data-view="tracker">
-    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="13" r="8"/><circle cx="11" cy="13" r="4.2"/><path class="dart" d="M11 13 19.5 4.5M16.5 4v4.5H21"/></svg><span>Tracker</span>
+    <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="13" r="8"/><circle cx="11" cy="13" r="4.2"/><path class="dart" d="M11 13 19.5 4.5M16.5 4v4.5H21"/></svg><span>Checklist</span>
   </button>
   <button class="nav-it" data-view="flash">
     <svg class="ni" viewBox="0 0 24 24" aria-hidden="true"><path class="fc2" d="M8 5.5h11a1.5 1.5 0 0 1 1.5 1.5v9"/><rect class="fc1" x="3.5" y="8.5" width="14" height="11" rx="2.5"/></svg><span>Flashcards</span><span class="bdg" id="navDue">0</span>
@@ -92,7 +96,7 @@
       <span class="overline" id="dashYearOverline">Université de Mostaganem · 4ème année</span>
       <h1><span id="hallHi">Bonjour</span>, docteur·e !</h1>
       <p class="date-line" id="dateLine"></p>
-      <p class="sub" style="margin-top:12px">Choisis un module, entraîne-toi sur les annales officielles et lis chaque correction. Ton cerveau de garde veille sur ta progression.</p>
+      <p class="sub" style="margin-top:12px">Choisis un module, entraîne-toi sur les QCM officiels et lis chaque correction. Ton cerveau de garde veille sur ta progression.</p>
       <div id="hall-resume"></div>
     </div>
     <div class="stage">
@@ -107,19 +111,19 @@
 <!-- ===== VIEW: ANNALES ===== -->
 <section class="view" id="view-annales">
   <div class="view-head">
-    <span class="overline">Annales d'examen officielles</span>
-    <h1>Annales &amp; <em>QCM</em></h1>
+    <span class="overline">Questions d'examen officielles</span>
+    <h1><em>QCM</em></h1>
     <p class="sub">Sélectionne un module pour accéder à la liste de ses chapitres. Filtre par session et type d'épreuve.</p>
   </div>
   <div id="an-body"></div>
 </section>
 
-<!-- ===== VIEW: TRACKER ===== -->
+<!-- ===== VIEW: TRACKER / CHECKLIST ===== -->
 <section class="view" id="view-tracker">
   <div class="view-head">
-    <span class="overline">Méthode de révision médicale · Système des 3 couches</span>
-    <h1>Cours <em>Tracker</em></h1>
-    <p class="sub">Suis méthodiquement ta progression par chapitre : coche la <b>1ère couche</b> (compréhension globale), la <b>2ème couche</b> (mémorisation active des détails), la <b>3ème couche</b> (consolidation rapide) et passe directement aux QCM d'annales avec le bouton Practise.</p>
+    <span class="overline" id="trYearOverline">Université de Mostaganem · Méthode des 3 couches</span>
+    <h1>Checklist <em>des Cours</em></h1>
+    <p class="sub">Suis méthodiquement ta progression par cours : valide la <b>1ère couche</b> (compréhension globale), la <b>2ème couche</b> (mémorisation active des détails) et la <b>3ème couche</b> (consolidation rapide), puis teste tes connaissances avec le bouton <b>Practise</b>.</p>
   </div>
   <div id="tr-body"></div>
 </section>
@@ -296,9 +300,9 @@
 <div class="overlay" id="ov-faculty-select">
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="fmTitle">
     <button class="x" data-close aria-label="Fermer">×</button>
-    <p class="fm-meta"><span id="facModBadge">Module</span><span class="fm-dot"></span><span id="facTotalBadge">Annales</span></p>
+    <p class="fm-meta"><span id="facModBadge">Module</span><span class="fm-dot"></span><span id="facTotalBadge">QCM</span></p>
     <h3 class="fm-title" id="fmTitle">Facultés</h3>
-    <p class="fm-sub">Choisis les facultés dont tu veux réviser les annales.</p>
+    <p class="fm-sub">Choisis les facultés dont tu veux réviser les QCM.</p>
 
     <div class="fm-list" id="facOptionsList">
       <!-- Options injectées par openFacultyModal() -->
@@ -317,6 +321,38 @@
     </div>
   </div>
 </div>
+<!-- ===== MODAL: SÉLECTION DU SEMESTRE (1ÈRE ANNÉE : S1 / S2) ===== -->
+<div class="overlay" id="ov-semester-select">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="semModalTitle" style="max-width:560px">
+    <button class="x" data-close aria-label="Fermer">×</button>
+    <p class="fm-meta"><span id="semModBadge">1ère Année</span><span class="fm-dot"></span><span>Choix du semestre</span></p>
+    <div style="display:flex;align-items:center;gap:16px;margin:10px 0 16px">
+      <div id="semModIco" style="width:62px;height:62px;flex:none;display:grid;place-items:center;font-size:2.8rem">💀</div>
+      <div>
+        <h3 class="fm-title" id="semModalTitle" style="margin:0;font-size:1.75rem">Anatomie</h3>
+        <p class="fm-sub" style="margin:4px 0 0">Choisis le semestre à travailler :</p>
+      </div>
+    </div>
+
+    <div class="sem-cards-grid">
+      <div class="sem-card s1" onclick="applySemesterChoice('s1')" role="button" tabindex="0">
+        <span class="sem-card-badge">S1</span>
+        <div class="sem-card-ico">📘</div>
+        <h4>1er Semestre</h4>
+        <p>Cours &amp; Annales du S1</p>
+        <button class="sem-card-btn" type="button">Choisir S1 →</button>
+      </div>
+      <div class="sem-card s2" onclick="applySemesterChoice('s2')" role="button" tabindex="0">
+        <span class="sem-card-badge">S2</span>
+        <div class="sem-card-ico">📙</div>
+        <h4>2ème Semestre</h4>
+        <p>Cours &amp; Annales du S2</p>
+        <button class="sem-card-btn" type="button">Choisir S2 →</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="toasts"></div>
 
 <!-- ================= OFFICIAL FACULTY DATA & JUSTIFICATIONS ================= -->
@@ -349,6 +385,8 @@
 <script src="data/justifications-uro.js"></script>
 <script src="data/qcm-otr.js"></script>
 <script src="data/justifications-otr.js"></script>
+<script src="data/qcm-ssh.js"></script>
+<script src="data/justifications-ssh.js"></script>
 
 <script src="assets/icons.js"></script>
 <script>
@@ -356,6 +394,27 @@
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 const ACADEMIC_YEARS = {
+  '1ere': {
+    id: '1ere',
+    title: '1ère Année',
+    code: '1A',
+    facBadge: '1ʳᵉ ANNÉE · MÉDECINE',
+    subTitle: 'Université de Mostaganem · 1ère année',
+    desc: 'Programme officiel du 1er cycle · 10 modules fondamentaux',
+    modules: [
+      { id:'anatomie', ico:'💀', name:'Anatomie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Anatomie générale et appareil locomoteur · S1 & S2' },
+      { id:'cytologie', ico:'🔬', name:'Cytologie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biologie cellulaire et génétique · S1 & S2' },
+      { id:'biochimie', ico:'🧬', name:'Biochimie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biochimie structurale et métabolique · S1 & S2' },
+      { id:'biophysique', ico:'⚛️', name:'Biophysique', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biophysique médicale et rayonnements · S1 & S2' },
+      { id:'biostat', ico:'📊', name:'Biostat', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biostatistiques et épidémiologie · S1 & S2' },
+      { id:'chimie', ico:'🧪', name:'Chimie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Chimie générale et organique · S1 & S2' },
+      { id:'embryologie', ico:'🐣', name:'Embryologie', active:true, chaps:0, qcm:0, desc:'Embryologie générale et organogenèse' },
+      { id:'physiologie', ico:'⚡', name:'Physiologie', active:true, chaps:0, qcm:0, desc:'Physiologie générale et grands systèmes' },
+      { id:'histologie', ico:'🧫', name:'Histologie', active:true, chaps:0, qcm:0, desc:'Histologie générale et étude des tissus' },
+      { id:'ssh', ico:'🤝', name:'SSH', active:true, chaps:7, qcm:139, desc:'Santé, Société et Humanité · 7 Annales d\'EMD (FR & EN)' },
+      { id:'gen1', ico:'📚', name:'Général / Transversal 1A', desc:'Questions transversales communes aux 10 modules de 1ère année', transversal:true }
+    ]
+  },
   '4eme': {
     id: '4eme',
     title: '4ème Année',
@@ -933,8 +992,142 @@ const MODULE_CONFIGS = {
     getRawQcms: () => (window.QCM_URO && Array.isArray(window.QCM_URO)) ? window.QCM_URO : [],
     getJustifications: () => (window.JUSTIFICATIONS_URO || {})
   },
+  'anatomie': {
+    id: 'anatomie',
+    year: '1ere',
+    hasSemesters: true,
+    title: 'Anatomie',
+    ico: '💀',
+    fullName: 'Anatomie Générale & Appareil Locomoteur',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    semesters: { s1: [], s2: [] },
+    chapters: [],
+    getRawQcms: () => (window.QCM_ANATOMIE && Array.isArray(window.QCM_ANATOMIE)) ? window.QCM_ANATOMIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_ANATOMIE || {})
+  },
+  'cytologie': {
+    id: 'cytologie',
+    year: '1ere',
+    hasSemesters: true,
+    title: 'Cytologie',
+    ico: '🔬',
+    fullName: 'Biologie Cellulaire & Cytologie',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    semesters: { s1: [], s2: [] },
+    chapters: [],
+    getRawQcms: () => (window.QCM_CYTOLOGIE && Array.isArray(window.QCM_CYTOLOGIE)) ? window.QCM_CYTOLOGIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_CYTOLOGIE || {})
+  },
+  'biochimie': {
+    id: 'biochimie',
+    year: '1ere',
+    hasSemesters: true,
+    title: 'Biochimie',
+    ico: '🧬',
+    fullName: 'Biochimie Structurale & Métabolique',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    semesters: { s1: [], s2: [] },
+    chapters: [],
+    getRawQcms: () => (window.QCM_BIOCHIMIE && Array.isArray(window.QCM_BIOCHIMIE)) ? window.QCM_BIOCHIMIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_BIOCHIMIE || {})
+  },
+  'biophysique': {
+    id: 'biophysique',
+    year: '1ere',
+    hasSemesters: true,
+    title: 'Biophysique',
+    ico: '⚛️',
+    fullName: 'Biophysique Médicale',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    semesters: { s1: [], s2: [] },
+    chapters: [],
+    getRawQcms: () => (window.QCM_BIOPHYSIQUE && Array.isArray(window.QCM_BIOPHYSIQUE)) ? window.QCM_BIOPHYSIQUE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_BIOPHYSIQUE || {})
+  },
+  'biostat': {
+    id: 'biostat',
+    year: '1ere',
+    hasSemesters: true,
+    title: 'Biostat',
+    ico: '📊',
+    fullName: 'Biostatistiques & Épidémiologie',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    semesters: { s1: [], s2: [] },
+    chapters: [],
+    getRawQcms: () => (window.QCM_BIOSTAT && Array.isArray(window.QCM_BIOSTAT)) ? window.QCM_BIOSTAT : [],
+    getJustifications: () => (window.JUSTIFICATIONS_BIOSTAT || {})
+  },
+  'chimie': {
+    id: 'chimie',
+    year: '1ere',
+    hasSemesters: true,
+    title: 'Chimie',
+    ico: '🧪',
+    fullName: 'Chimie Générale & Organique',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    semesters: { s1: [], s2: [] },
+    chapters: [],
+    getRawQcms: () => (window.QCM_CHIMIE && Array.isArray(window.QCM_CHIMIE)) ? window.QCM_CHIMIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_CHIMIE || {})
+  },
+  'embryologie': {
+    id: 'embryologie',
+    year: '1ere',
+    hasSemesters: false,
+    title: 'Embryologie',
+    ico: '🐣',
+    fullName: 'Embryologie Générale & Développement',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    chapters: [],
+    getRawQcms: () => (window.QCM_EMBRYOLOGIE && Array.isArray(window.QCM_EMBRYOLOGIE)) ? window.QCM_EMBRYOLOGIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_EMBRYOLOGIE || {})
+  },
+  'physiologie': {
+    id: 'physiologie',
+    year: '1ere',
+    hasSemesters: false,
+    title: 'Physiologie',
+    ico: '⚡',
+    fullName: 'Physiologie Générale',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    chapters: [],
+    getRawQcms: () => (window.QCM_PHYSIOLOGIE && Array.isArray(window.QCM_PHYSIOLOGIE)) ? window.QCM_PHYSIOLOGIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_PHYSIOLOGIE || {})
+  },
+  'histologie': {
+    id: 'histologie',
+    year: '1ere',
+    hasSemesters: false,
+    title: 'Histologie',
+    ico: '🧫',
+    fullName: 'Histologie Générale & Tissus',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
+    chapters: [],
+    getRawQcms: () => (window.QCM_HISTOLOGIE && Array.isArray(window.QCM_HISTOLOGIE)) ? window.QCM_HISTOLOGIE : [],
+    getJustifications: () => (window.JUSTIFICATIONS_HISTOLOGIE || {})
+  },
+  'ssh': {
+    id: 'ssh',
+    year: '1ere',
+    hasSemesters: false,
+    title: 'SSH',
+    ico: '🤝',
+    fullName: 'Santé, Société & Humanité',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · 7 SUJETS D\'EMD OFFICIELS (2018-2026) · VERSION BILINGUE FR & EN',
+    chapters: [
+      "EMD 2025-2026 (19 Janvier 2026)",
+      "EMD 2024-2025",
+      "EMD 2023-2024",
+      "EMD 2022-2023",
+      "EMD 2020-2021",
+      "EMD 2019-2020",
+      "EMD 2018-2019"
+    ],
+    getRawQcms: () => (window.QCM_SSH && Array.isArray(window.QCM_SSH)) ? window.QCM_SSH : [],
+    getJustifications: () => (window.JUSTIFICATIONS_SSH || {})
+  },
 };
-  MODULE_CONFIGS['infectiologie'] = MODULE_CONFIGS['infectieux'];
+MODULE_CONFIGS['infectiologie'] = MODULE_CONFIGS['infectieux'];
 MODULE_CONFIGS['pneumologie'] = MODULE_CONFIGS['pneumo'];
 MODULE_CONFIGS['hemato-oncologie'] = MODULE_CONFIGS['hemato'];
 MODULE_CONFIGS['hematologie'] = MODULE_CONFIGS['hemato'];
@@ -945,13 +1138,81 @@ MODULE_CONFIGS['psychiatrie'] = MODULE_CONFIGS['psy'];
 MODULE_CONFIGS['orthopedie'] = MODULE_CONFIGS['otr'];
 MODULE_CONFIGS['rhumatologie'] = MODULE_CONFIGS['otr'];
 MODULE_CONFIGS['pediatrie'] = MODULE_CONFIGS['ped'];
-  MODULE_CONFIGS['uro-nephrologie'] = MODULE_CONFIGS['uro'];
-  MODULE_CONFIGS['urologie'] = MODULE_CONFIGS['uro'];
-  MODULE_CONFIGS['nephrologie'] = MODULE_CONFIGS['uro'];
+MODULE_CONFIGS['uro-nephrologie'] = MODULE_CONFIGS['uro'];
+MODULE_CONFIGS['urologie'] = MODULE_CONFIGS['uro'];
+MODULE_CONFIGS['nephrologie'] = MODULE_CONFIGS['uro'];
+MODULE_CONFIGS['anat'] = MODULE_CONFIGS['anatomie'];
+MODULE_CONFIGS['cyto'] = MODULE_CONFIGS['cytologie'];
+MODULE_CONFIGS['bioch'] = MODULE_CONFIGS['biochimie'];
+MODULE_CONFIGS['biophys'] = MODULE_CONFIGS['biophysique'];
+MODULE_CONFIGS['biostatistiques'] = MODULE_CONFIGS['biostat'];
+MODULE_CONFIGS['embryo'] = MODULE_CONFIGS['embryologie'];
+MODULE_CONFIGS['physio'] = MODULE_CONFIGS['physiologie'];
+MODULE_CONFIGS['histo'] = MODULE_CONFIGS['histologie'];
+
+function getDefaultModuleForYear(year){
+  if (year === '1ere') return 'anatomie';
+  if (year === '4eme') return 'cardio';
+  return 'endo';
+}
+
+/* ================= GESTION DES SEMESTRES (S1 / S2 - 1ÈRE ANNÉE) ================= */
+const SEMESTER_MODULE_IDS = ['anatomie', 'cytologie', 'biochimie', 'biophysique', 'biostat', 'chimie'];
+let pendingSemesterModuleId = null;
+let pendingSemesterTargetView = 'annales';
+
+function isSemesterModule(modId){
+  return SEMESTER_MODULE_IDS.includes(modId);
+}
+
+function getModuleSemester(modId){
+  return localStorage.getItem('majory_sem_' + modId) || 's1';
+}
+
+function openSemesterModal(modId, targetView = 'annales'){
+  pendingSemesterModuleId = modId;
+  pendingSemesterTargetView = targetView;
+  const cfg = MODULE_CONFIGS[modId];
+  if (!cfg) return;
+
+  const badge = $('semModBadge');
+  if (badge) badge.textContent = '1ère Année · ' + cfg.title;
+  const ico = $('semModIco');
+  if (ico) ico.innerHTML = cfg.ico;
+  const title = $('semModalTitle');
+  if (title) title.textContent = cfg.title;
+  openOv('ov-semester-select');
+}
+
+function applySemesterChoice(sem){
+  const modId = pendingSemesterModuleId || currentModuleId;
+  const targetView = pendingSemesterTargetView || 'annales';
+  closeOv('ov-semester-select');
+  
+  localStorage.setItem('majory_sem_' + modId, sem);
+  setActiveModule(modId);
+  
+  if (targetView === 'tracker') {
+    go('tracker');
+    renderTracker();
+  } else {
+    go('annales');
+    openModule(modId);
+    openFacultyModal();
+  }
+}
+
+function setModuleSemester(modId, sem){
+  if (sem !== 's1' && sem !== 's2') sem = 's1';
+  localStorage.setItem('majory_sem_' + modId, sem);
+  buildModuleQcms();
+  loadModuleState(modId);
+  renderAll();
+}
 
 const STORAGE_ACTIVE_MOD_KEY = 'majory_active_module_id_v2';
-let currentModuleId = localStorage.getItem(STORAGE_ACTIVE_MOD_KEY) || (currentAcademicYear === '4eme' ? 'gastro' : 'endo');
-if (!MODULE_CONFIGS[currentModuleId]) currentModuleId = currentAcademicYear === '4eme' ? 'gastro' : 'endo';
+let currentModuleId = localStorage.getItem(STORAGE_ACTIVE_MOD_KEY) || getDefaultModuleForYear(currentAcademicYear);
+if (!MODULE_CONFIGS[currentModuleId]) currentModuleId = getDefaultModuleForYear(currentAcademicYear);
 
 const YEARS = ['2026', '2025', '2024', '2023', '2022', '2021', '2020/21'];
 
@@ -959,15 +1220,21 @@ const CHAPTERS = [];
 const QCMS = [];
 
 function buildModuleQcms(){
-  const cfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
+  const cfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['cardio'];
   CHAPTERS.length = 0;
-  CHAPTERS.push(...cfg.chapters);
+  if (cfg.hasSemesters && cfg.semesters) {
+    const sem = getModuleSemester(cfg.id);
+    const semChaps = cfg.semesters[sem] || [];
+    CHAPTERS.push(...semChaps);
+  } else if (Array.isArray(cfg.chapters)) {
+    CHAPTERS.push(...cfg.chapters);
+  }
 
   const raw = cfg.getRawQcms();
   const justifsMap = cfg.getJustifications();
 
   QCMS.length = 0;
-  cfg.chapters.forEach(ch => {
+  CHAPTERS.forEach(ch => {
     const filtered = raw.filter(q => q.chapitre === ch);
     const mapped = filtered.map(q => {
       const pSource = (q.sources && q.sources[0]) || q.source || { annee: '2025', type: 'EMD' };
@@ -987,7 +1254,9 @@ function buildModuleQcms(){
             why = 'Proposition inexacte selon les recommandations cliniques.';
           }
         }
-        return { letter, t: text, ok: isOk ? 1 : 0, w: why };
+        const textEn = (q.propositions_en && q.propositions_en[letter]) ? q.propositions_en[letter] : null;
+        const textFr = (q.propositions_fr && q.propositions_fr[letter]) ? q.propositions_fr[letter] : text;
+        return { letter, t: text, t_fr: textFr, t_en: textEn, ok: isOk ? 1 : 0, w: why };
       });
 
       const srcText = (pSource.texte || '') + ' ' + (q.id || '');
@@ -1000,6 +1269,8 @@ function buildModuleQcms(){
         t: type,
         sources: q.sources || (q.source ? [q.source] : []),
         q: q.question,
+        question_fr: q.question_fr || q.question,
+        question_en: q.question_en || null,
         c: choices,
         bonnes_reponses: q.bonnes_reponses,
         explication: q.explication || '',
@@ -1012,6 +1283,34 @@ function buildModuleQcms(){
     });
     QCMS.push(mapped);
   });
+}
+
+/* ================= GESTION BILINGUE (FRANÇAIS / ANGLAIS) ================= */
+let qcmGlobalLang = localStorage.getItem('majory_qcm_lang_pref') || 'fr';
+let qcmCardLangOverrides = {};
+
+function getQcmLang(cardKey){
+  if (qcmCardLangOverrides[cardKey]) return qcmCardLangOverrides[cardKey];
+  return qcmGlobalLang;
+}
+
+function setQcmGlobalLang(lang){
+  qcmGlobalLang = (lang === 'en') ? 'en' : 'fr';
+  localStorage.setItem('majory_qcm_lang_pref', qcmGlobalLang);
+  qcmCardLangOverrides = {};
+  renderAll();
+}
+
+function setQcmCardLang(cardKey, lang){
+  qcmCardLangOverrides[cardKey] = (lang === 'en') ? 'en' : 'fr';
+  renderAll();
+}
+
+function toggleQcmCardLang(ch, j){
+  const key = ch + ':' + j;
+  const current = getQcmLang(key);
+  qcmCardLangOverrides[key] = (current === 'fr') ? 'en' : 'fr';
+  renderAll();
 }
 
 function getRawQcms(){
@@ -1029,10 +1328,12 @@ function getModuleStorageKeys(modId){
       sc:  'majory_scoring_modes_v2'
     };
   }
+  const cfg = MODULE_CONFIGS[modId];
+  const semSuffix = (cfg && cfg.hasSemesters) ? `_${getModuleSemester(modId)}` : '';
   return {
-    ans: `majory_progression_mostaganem_${modId}_v2`,
-    trk: `majory_cours_tracker_mostaganem_${modId}_v2`,
-    sc:  `majory_scoring_modes_${modId}_v2`
+    ans: `majory_progression_mostaganem_${modId}${semSuffix}_v2`,
+    trk: `majory_cours_tracker_mostaganem_${modId}${semSuffix}_v2`,
+    sc:  `majory_scoring_modes_${modId}${semSuffix}_v2`
   };
 }
 
@@ -1093,7 +1394,7 @@ function saveState(){
 
 function setActiveModule(modId){
   if (!MODULE_CONFIGS[modId]) {
-    modId = currentAcademicYear === '4eme' ? 'gastro' : 'endo';
+    modId = getDefaultModuleForYear(currentAcademicYear);
   }
   saveState();
   currentModuleId = modId;
@@ -1106,13 +1407,26 @@ function setActiveModule(modId){
   loadModuleState(modId);
 }
 
+const COMING_YEARS = { '2eme': '2ᵉ année', '3eme': '3ᵉ année', '6eme': '6ᵉ année' };
+
 function switchAcademicYear(year){
+  if (COMING_YEARS[year] && !ACADEMIC_YEARS[year]) {
+    const lbl = COMING_YEARS[year];
+    $('prepIco').innerHTML = window.IC ? window.IC('books') : '';
+    $('prepTitle').textContent = lbl[0] + (lbl[1] === 'ᵉ' ? 'ᵉ' : '') + ' ' + lbl.split(' ').slice(1).join(' ');
+    const sub = $('prepSub');
+    if (sub) sub.innerHTML = 'Les QCM de la <b>' + lbl + '</b> sont en cours d\'ajout sur MAJORY. Reviens très bientôt !';
+    openOv('ov-prep');
+    return;
+  }
   if (!ACADEMIC_YEARS[year]) return;
   currentAcademicYear = year;
   localStorage.setItem(STORAGE_YEAR_KEY, year);
   updateModulesRef();
-  const nextMod = year === '4eme' ? 'gastro' : 'endo';
+  const nextMod = getDefaultModuleForYear(year);
   setActiveModule(nextMod);
+  trFilter = 'all';
+  trSearch = '';
   anView.page = 'list';
   renderAll();
   toast(`🎓 Basculé sur la ${ACADEMIC_YEARS[year].title} (Mostaganem)`);
@@ -1278,12 +1592,30 @@ function modCard(m, i){
   const totalCh0 = isCur ? (QCMS[0]?.length || 0) : 0;
   const pct = totalCh0 ? Math.round(done / totalCh0 * 100) : 0;
   const short = m.name.split(' (')[0];
+  const isSem = isSemesterModule(m.id);
+
+  let metaDesc = m.desc || 'Annales en cours de numérisation';
+  if (isAct) {
+    if (m.chaps > 0) metaDesc = `${m.chaps} chapitres · ${m.qcm} QCM`;
+    else if (isSem) metaDesc = `Semestre 1 & Semestre 2 · Choix S1/S2`;
+    else metaDesc = `Programme officiel · En cours`;
+  }
+
   return `<article class="mcard" data-mod="${m.id}" title="${m.name}" style="--i:${i}">
-    <span class="mstatus ${isAct ? 'act' : 'prep'}">${isAct ? 'OUVERT' : 'BIENTÔT'}</span>
+    <span class="mstatus ${isAct ? 'act' : 'prep'}">${isAct ? (isSem ? 'S1 & S2' : 'OUVERT') : 'BIENTÔT'}</span>
     <div class="emo">${m.ico}</div>
     <h3>${short}</h3>
-    <p class="meta">${isAct ? `${m.chaps} chapitres · ${m.qcm} QCM` : (m.desc || 'Annales en cours de numérisation')}</p>
-    ${isAct ? `<div class="mbar"><i style="width:${pct}%"></i></div><p class="foot"><span>${done}/${totalCh0} QCM ch.01</span><span>Entrer →</span></p>`
+    <p class="meta">${metaDesc}</p>
+    ${isAct ? `
+      <div class="mbar"><i style="width:${pct}%"></i></div>
+      <div class="mcard-actions">
+        <button class="mcard-btn trk" type="button" onclick="event.stopPropagation(); ${isSem ? `openSemesterModal('${m.id}', 'tracker')` : `selectTrackerModule('${m.id}'); go('tracker');`}" title="Voir la checklist des cours de ${short}">
+          <span>📋 Checklist</span>
+        </button>
+        <button class="mcard-btn qcm" type="button" onclick="event.stopPropagation(); ${isSem ? `openSemesterModal('${m.id}', 'annales')` : `setActiveModule('${m.id}'); go('annales'); openModule(); openFacultyModal();`}" title="Pratiquer les QCM de ${short}">
+          <span>Entrer →</span>
+        </button>
+      </div>`
     : `<p class="foot"><span>Disponible bientôt</span><span>✚</span></p>`}
   </article>`;
 }
@@ -1301,11 +1633,15 @@ function bindModCard(el){
   el.addEventListener('click', () => {
     const m = MODULES.find(x => x.id === el.dataset.mod);
     if (!m) return;
-    if (m.active && (MODULE_CONFIGS[m.id] || m.id === 'endo' || m.id === 'gastro' || m.id === 'infectieux' || m.id === 'pneumo' || m.id === 'hemato' || m.id === 'neuro' || m.id === 'otr' || m.id === 'cardio' || m.id === 'gyn' || m.id === 'psy' || m.id === 'ped' || m.id === 'uro')) {
-      setActiveModule(m.id);
-      go('annales');
-      openModule();
-      openFacultyModal();
+    if (m.active && MODULE_CONFIGS[m.id]) {
+      if (isSemesterModule(m.id)) {
+        openSemesterModal(m.id, 'annales');
+      } else {
+        setActiveModule(m.id);
+        go('annales');
+        openModule();
+        openFacultyModal();
+      }
     } else {
       $('prepIco').innerHTML = m.ico;
       $('prepTitle').textContent = m.name;
@@ -1672,7 +2008,7 @@ function openFacultyModal(){
         id: 'mosta',
         ico: '🎓',
         name: 'Faculté de Médecine de Mostaganem',
-        sub: 'Programme officiel local · Annales EMD & Rattrapages de Mostaganem',
+        sub: 'Programme officiel local · EMD & rattrapages de Mostaganem',
         count: counts.mosta,
         badgeBg: '#FFF9F0',
         badgeColor: '#925400',
@@ -1682,7 +2018,7 @@ function openFacultyModal(){
         id: 'alger',
         ico: '🇩🇿',
         name: 'Faculté de Médecine d\'Alger',
-        sub: 'Annales officielles théoriques, concours et EMD de la Faculté d\'Alger',
+        sub: 'Sujets officiels théoriques, concours et EMD de la Faculté d\'Alger',
         count: counts.alger,
         badgeBg: '#EBF3FE',
         badgeColor: '#185ABC',
@@ -1692,7 +2028,7 @@ function openFacultyModal(){
         id: 'oran',
         ico: '🏥',
         name: 'Faculté de Médecine d\'Oran',
-        sub: 'Annales officielles certifiées d\'Oran · Questions d\'évaluation',
+        sub: 'Sujets officiels certifiés d\'Oran · Questions d\'évaluation',
         count: counts.oran,
         badgeBg: '#EAF6F0',
         badgeColor: '#0F6B3A',
@@ -1876,9 +2212,13 @@ function renderAnnales(){
             <h2 style="font-size:1.8rem;margin:8px 0 4px">Modules de ${yearInfo.title}</h2>
             <p class="mono" style="font-size:11px;color:var(--ink-soft)">FACULTÉ DE MÉDECINE DE MOSTAGANEM · ${MODULES.filter(m => !m.transversal).length} MODULES CLINIQUES</p>
           </div>
-          <div style="display:flex;gap:8px;align-items:center">
-            <button class="fchip ${currentAcademicYear==='4eme'?'on':''}" onclick="switchAcademicYear('4eme')">4ᵉ Année</button>
-            <button class="fchip ${currentAcademicYear==='5eme'?'on':''}" onclick="switchAcademicYear('5eme')">5ᵉ Année</button>
+          <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+            <button class="fchip ${currentAcademicYear==='1ere'?'on':''}" onclick="switchAcademicYear('1ere')">1ʳᵉ</button>
+            <button class="fchip" onclick="switchAcademicYear('2eme')">2ᵉ</button>
+            <button class="fchip" onclick="switchAcademicYear('3eme')">3ᵉ</button>
+            <button class="fchip ${currentAcademicYear==='4eme'?'on':''}" onclick="switchAcademicYear('4eme')">4ᵉ</button>
+            <button class="fchip ${currentAcademicYear==='5eme'?'on':''}" onclick="switchAcademicYear('5eme')">5ᵉ</button>
+            <button class="fchip" onclick="switchAcademicYear('6eme')">6ᵉ</button>
           </div>
         </div>
       </div>
@@ -1899,21 +2239,44 @@ function renderAnnales(){
 
   if (v.page === 'module'){
     const facBadgeSummary = getFacultyBadgeSummary();
+    const isSem = isSemesterModule(currentModuleId);
+    const curSem = getModuleSemester(currentModuleId);
+    const semLabel = curSem === 's1' ? '1er Semestre (S1)' : '2ème Semestre (S2)';
     el.innerHTML = crumbs + `
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px;flex-wrap:wrap">
         <button class="btn btn-sm btn-solid" onclick="openModuleList()">
           ← Revenir au choix de module
         </button>
-        <button class="btn btn-sm btn-solid" onclick="openFacultyModal()" style="display:inline-flex;align-items:center;gap:8px;background:var(--dk);color:#fff;border-color:var(--dk);box-shadow:0 2px 6px rgba(0,0,0,.15)" title="Changer les facultés de révision">
-          Choisir les facultés <span class="chip" style="background:var(--red);color:#fff;font-size:10.5px;padding:2px 8px;font-weight:700">${facBadgeSummary}</span>
-        </button>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <button class="btn btn-sm" onclick="selectTrackerModule('${modCfg.id}');go('tracker')" style="background:#fff;border:2px solid var(--ink);border-radius:10px;font-weight:700;display:inline-flex;align-items:center;gap:6px;box-shadow:0 2px 0 var(--ink);cursor:pointer">
+            <span>📋 Checklist du module</span>
+          </button>
+          <button class="btn btn-sm btn-solid" onclick="openFacultyModal()" style="display:inline-flex;align-items:center;gap:8px;background:var(--dk);color:#fff;border-color:var(--dk);box-shadow:0 2px 6px rgba(0,0,0,.15)" title="Changer les facultés de révision">
+            Choisir les facultés <span class="chip" style="background:var(--red);color:#fff;font-size:10.5px;padding:2px 8px;font-weight:700">${facBadgeSummary}</span>
+          </button>
+        </div>
       </div>
       <div class="card" style="margin-bottom:22px">
         <div style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center">
           <div>
-            <span class="chip g">MODULE ACTIF</span>
+            <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+              <span class="chip g">MODULE ACTIF</span>
+              ${isSem ? `<span class="chip" style="background:var(--ink);color:#fff;font-weight:700">${semLabel}</span>` : ''}
+            </div>
             <h2 style="font-size:1.9rem;margin:10px 0 4px">${modCfg.ico} ${modCfg.title}</h2>
             <p class="mono" style="font-size:11.5px;color:var(--ink-soft)">${modCfg.subText}</p>
+            ${isSem ? `
+              <div style="margin-top:10px">
+                <div class="sem-switcher">
+                  <span class="sem-lbl">Semestre :</span>
+                  <button class="sem-tab ${curSem === 's1' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's1')">
+                    📘 S1 · 1er Semestre
+                  </button>
+                  <button class="sem-tab ${curSem === 's2' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's2')">
+                    📙 S2 · 2ème Semestre
+                  </button>
+                </div>
+              </div>` : ''}
           </div>
           <div style="text-align:right" class="mono">
             <b style="font-size:1.7rem;color:var(--red)">${qcmStats().ans}</b><span style="font-size:.8rem;color:var(--ink-soft)"> répondus</span><br>
@@ -1934,7 +2297,7 @@ function renderAnnales(){
         <p class="wtitle" style="margin:0">CHAPITRES DU MODULE · <span class="hand" style="font-size:1.15rem">choisis un chapitre</span></p>
         <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Changer de module</button>
       </div>
-      <div class="chap-list">${CHAPTERS.map((c, i) => {
+      <div class="chap-list">${CHAPTERS.length > 0 ? CHAPTERS.map((c, i) => {
         const qs = QCMS[i] || [], done = chapterAnswered(i);
         return `<div class="chap-row" onclick="chooseChapter(${i})">
           <span class="chap-num">${String(i + 1).padStart(2, '0')}</span>
@@ -1942,7 +2305,11 @@ function renderAnnales(){
           ${qs.length ? `<span class="chip ${done === qs.length ? 'g' : ''}">${done}/${qs.length} QCM</span>` : `<span class="chip">BIENTÔT</span>`}
           <span class="btn btn-sm btn-ghost">Practise →</span>
         </div>`;
-      }).join('')}</div>
+      }).join('') : `
+        <div class="empty" style="border:none;padding:50px 20px;text-align:center">
+          <div class="big">${isSem ? (curSem === 's1' ? '📘 S1 · 1er Semestre' : '📙 S2 · 2ème Semestre') : '📚'} En attente des cours</div>
+          <p style="color:var(--ink-soft);margin-top:8px">Les cours officiels ${isSem ? `du <b>${semLabel}</b>` : ''} de ce module seront ajoutés dès réception.</p>
+        </div>`}</div>
       <div style="margin-top:24px;padding-top:16px;border-top:1.5px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
         <button class="btn btn-sm btn-solid" onclick="openModuleList()">← Revenir au choix de module</button>
         <button class="btn btn-sm btn-ghost" onclick="go('dashboard')">← Retour au Dashboard</button>
@@ -1952,10 +2319,18 @@ function renderAnnales(){
 
   if (v.page === 'chapter'){
     const ch = v.ch, qs = QCMS[ch] || [];
+    const hasBilingual = qs.some(q => !!q.question_en);
     const navCh = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;gap:10px;flex-wrap:wrap">
-      <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
         <button class="btn btn-sm btn-solid" onclick="openModule()">← Retour au choix du chapitre</button>
         <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Revenir au choix de module</button>
+        ${hasBilingual ? `
+          <div style="display:inline-flex;align-items:center;gap:6px;background:#fff;border:2px solid var(--ink);border-radius:12px;padding:3px 10px;box-shadow:0 2px 0 var(--ink)">
+            <span style="font-size:11.5px;font-weight:700">🌐 Langue :</span>
+            <button class="btn btn-sm ${qcmGlobalLang === 'fr' ? 'btn-solid' : 'btn-ghost'}" type="button" onclick="setQcmGlobalLang('fr')" style="padding:2px 8px;font-size:11px">🇫🇷 Français</button>
+            <button class="btn btn-sm ${qcmGlobalLang === 'en' ? 'btn-solid' : 'btn-ghost'}" type="button" onclick="setQcmGlobalLang('en')" style="padding:2px 8px;font-size:11px">🇬🇧 English</button>
+          </div>
+        ` : ''}
       </div>
       <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
         <button type="button" class="btn-restart-hero btn-sm" onclick="restartChapterSession(${ch})" title="Recommencer ce chapitre à zéro">
@@ -2576,6 +2951,11 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
     }
   }
 
+  const isBilingual = !!q.question_en;
+  const cardLang = isBilingual ? getQcmLang(key) : 'fr';
+  const displayQ = (isBilingual && cardLang === 'en') ? q.question_en : (q.question_fr || q.q);
+  const secondaryQ = (isBilingual && cardLang === 'en') ? (q.question_fr || q.q) : q.question_en;
+
   return `
     <div class="player qcm-card" id="qcard-${ch}-${j}" style="margin-bottom:30px">
       ${stampHtml}
@@ -2588,6 +2968,12 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
           ${isRepeated ? `<span class="chip">POSÉE ${q.sources.length}×</span>` : ''}
           ${q.bonnes_reponses === null ? `<span class="chip" style="background:var(--paper2)">SANS CORRIGÉ OFFICIEL</span>` : ''}
           ${statusBadge}
+          ${isBilingual ? `
+            <div style="display:inline-flex;align-items:center;background:#fff;border:1.5px solid var(--ink);border-radius:10px;padding:2px 3px;gap:2px;box-shadow:0 1.5px 0 var(--ink)" title="Changer la langue (FR / EN)">
+              <button type="button" onclick="event.stopPropagation();setQcmCardLang('${key}','fr')" style="background:${cardLang === 'fr' ? 'var(--blue)' : 'transparent'};color:${cardLang === 'fr' ? '#fff' : 'var(--ink)'};border:none;border-radius:6px;padding:2px 7px;font-weight:700;font-size:11px;cursor:pointer">🇫🇷 FR</button>
+              <button type="button" onclick="event.stopPropagation();setQcmCardLang('${key}','en')" style="background:${cardLang === 'en' ? 'var(--red)' : 'transparent'};color:${cardLang === 'en' ? '#fff' : 'var(--ink)'};border:none;border-radius:6px;padding:2px 7px;font-weight:700;font-size:11px;cursor:pointer">🇬🇧 EN</button>
+            </div>
+          ` : ''}
         </div>
         <div style="display:flex;gap:8px;align-items:center">
           <button type="button" class="btn btn-sm ${a && a.star ? 'btn-red' : 'btn-ghost'}" onclick="toggleStarQcm(${ch}, ${j})" title="Mettre de côté cette question">
@@ -2599,11 +2985,21 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
         </div>
       </div>
       <div class="p-body">
-        <p class="p-q">${q.q}</p>
+        <p class="p-q">${displayQ}</p>
+        ${isBilingual && secondaryQ ? `
+          <div style="margin:-2px 0 16px;padding:8px 12px;background:#F9F7F2;border-left:3.5px solid ${cardLang === 'fr' ? 'var(--blue)' : 'var(--red)'};border-radius:6px;font-size:0.9rem;color:var(--ink-soft);display:flex;align-items:center;justify-content:space-between;gap:10px">
+            <div>
+              <span style="font-weight:700;font-size:11px;text-transform:uppercase;color:var(--ink);display:inline-block;margin-bottom:2px">${cardLang === 'fr' ? '🇬🇧 Énoncé original en anglais (Exam Mostaganem) :' : '🇫🇷 Traduction française de référence :'}</span><br>
+              <span>${secondaryQ}</span>
+            </div>
+            <button type="button" onclick="toggleQcmCardLang(${ch}, ${j})" style="background:#fff;border:1px solid var(--line);border-radius:6px;padding:3px 8px;font-weight:700;font-size:11px;color:var(--ink);cursor:pointer;white-space:nowrap;box-shadow:0 1px 0 var(--line)" title="Basculer vers cette langue">⇄ Basculer</button>
+          </div>
+        ` : ''}
         <div class="choices">
           ${q.c.map((c, i) => {
             const letter = c.letter || letters[i];
             const isSel = a && Array.isArray(a.chosen) && a.chosen.includes(letter);
+            const choiceText = (isBilingual && cardLang === 'en' && c.t_en) ? c.t_en : (c.t_fr || c.t);
             let cls = '';
             if (a) {
               if (c.ok && isSel) cls = 'correct';
@@ -2613,7 +3009,7 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
             }
             return `<button type="button" class="choice ${cls} ${isSel ? 'sel' : ''}" data-letter="${letter}" ${a ? 'disabled' : ''} onclick="handleChoiceClick(this, ${ch}, ${j})">
               <span class="key">${letter}</span>
-              <span>${c.t}</span>
+              <span>${choiceText}</span>
             </button>`;
           }).join('')}
         </div>
@@ -2975,13 +3371,37 @@ window.addEventListener('keydown', (e) => {
   }
 });
 
-/* ================= TRACKER ================= */
+/* ================= TRACKER & CHECKLIST ================= */
 let trFilter = 'all', trSearch = '';
 
+function selectTrackerModule(modId){
+  if (!MODULE_CONFIGS[modId]) return;
+  setActiveModule(modId);
+  trFilter = 'all';
+  trSearch = '';
+  renderTracker();
+  updateSide();
+}
+
 function renderTracker(){
+  // Isolation stricte par année d'étude :
+  // Le module sélectionné doit impérativement appartenir à l'année en cours
+  const yearMods = MODULES.filter(m => !m.transversal && m.active);
+  if (!yearMods.some(m => m.id === currentModuleId)) {
+    const fallbackMod = yearMods[0]?.id || getDefaultModuleForYear(currentAcademicYear);
+    setActiveModule(fallbackMod);
+  }
+
+  const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS[getDefaultModuleForYear(currentAcademicYear)];
+  const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['1ere'];
+  const isSem = isSemesterModule(currentModuleId);
+  const curSem = getModuleSemester(currentModuleId);
+  const semLabel = curSem === 's1' ? '1er Semestre (S1)' : '2ème Semestre (S2)';
   const ts = trackerStats(), n = CHAPTERS.length;
+  const safeN = n || 1;
+
   const rows = CHAPTERS.map((c, i) => {
-    const L = state.layers[i] || [false,false,false];
+    const L = state.layers[i] || [false, false, false];
     const done = chapterAnswered(i);
     const tot = (QCMS[i] || []).length;
     const qcmValid = tot > 0 && done === tot;
@@ -2999,6 +3419,71 @@ function renderTracker(){
   const validCount = CHAPTERS.filter((_, i) => (state.layers[i] || []).every(Boolean)).length;
 
   $('tr-body').innerHTML = `
+    <!-- SÉLECTEUR DE MODULES (FILTRE STRICT PAR ANNÉE D'ÉTUDE : 1A, 4A OU 5A) -->
+    <div class="tr-mod-wrap">
+      <div class="tr-mod-head">
+        <div class="tr-mod-head-title">
+          <h3><span>📚</span> Choisis un module (${yearInfo.title})</h3>
+          <span class="tr-mod-badge">${yearInfo.facBadge}</span>
+        </div>
+        <span class="mono" style="font-size:11px;color:var(--ink-soft)">
+          ${yearMods.length} modules officiels · Université de Mostaganem
+        </span>
+      </div>
+      <div class="tr-mod-grid">
+        ${yearMods.map(m => {
+          const isCur = m.id === currentModuleId;
+          const short = m.name.split(' (')[0];
+          const pillCnt = isSemesterModule(m.id) ? 'S1 & S2' : (m.chaps > 0 ? `${m.chaps} cours` : 'Cours bientôt');
+          return `
+            <button class="tr-mod-pill ${isCur ? 'on' : ''}" type="button" onclick="selectTrackerModule('${m.id}')" title="Checklist des cours de ${short}">
+              <span class="p-ico">${m.ico}</span>
+              <span class="p-meta">
+                <span class="p-name">${short}</span>
+                <span class="p-cnt">${pillCnt}</span>
+              </span>
+              ${isCur ? '<span class="tr-mod-cur-dot" title="Module actif"></span>' : ''}
+            </button>
+          `;
+        }).join('')}
+      </div>
+    </div>
+
+    <!-- CARTE HERO DU MODULE SÉLECTIONNÉ -->
+    <div class="tr-active-hero">
+      <div class="tr-hero-left">
+        <div class="tr-hero-ico">${modCfg.ico}</div>
+        <div class="tr-hero-text">
+          <div class="tr-hero-tag">${yearInfo.title} · FACULTÉ DE MÉDECINE DE MOSTAGANEM</div>
+          <h2 class="tr-hero-title">${modCfg.fullName || modCfg.title}</h2>
+          ${isSem ? `
+            <div style="display:flex;align-items:center;gap:10px;margin:8px 0 4px;flex-wrap:wrap">
+              <div class="sem-switcher">
+                <span class="sem-lbl">Semestre :</span>
+                <button class="sem-tab ${curSem === 's1' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's1')">
+                  📘 S1 · 1er Semestre
+                </button>
+                <button class="sem-tab ${curSem === 's2' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's2')">
+                  📙 S2 · 2ème Semestre
+                </button>
+              </div>
+            </div>` : ''}
+          <p class="tr-hero-meta">
+            <b>${n} cours officiels répertoriés</b> · 
+            <span style="color:var(--green)">${validCount}/${safeN} cours validés aux 3 couches</span> · 
+            <span>${ts.qv}/${safeN} séries de QCM terminées</span>
+          </p>
+        </div>
+      </div>
+      <div class="tr-hero-actions">
+        <button class="btn btn-sm" type="button" onclick="go('annales');openModule('${currentModuleId}')" style="background:var(--purple-brand);color:#fff;border:2.5px solid var(--ink);border-radius:12px;font-weight:700;padding:9px 16px;box-shadow:0 3px 0 var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:6px">
+          <span>Pratiquer les QCM →</span>
+        </button>
+      </div>
+    </div>
+
+    ${n > 0 ? `
+    <!-- STATISTIQUES DES 3 COUCHES -->
     <div class="layer-cards">
       ${[
         ['1ÈRE COUCHE', 'Compréhension globale', ts.l1],
@@ -3008,52 +3493,70 @@ function renderTracker(){
       ].map(([t, s, v], k) => `
       <div class="lc">
         <span class="mono" style="font-size:10px;color:var(--red)">${String(k + 1).padStart(2, '0')}</span>
-        <p class="pct">${Math.round(v / n * 100)}%</p>
+        <p class="pct">${Math.round(v / safeN * 100)}%</p>
         <p class="nm">${t}</p>
-        <div class="lbar"><i class="${k === 3 ? 'g' : ''}" style="width:${Math.round(v / n * 100)}%"></i></div>
+        <div class="lbar"><i class="${k === 3 ? 'g' : ''}" style="width:${Math.round(v / safeN * 100)}%"></i></div>
         <p class="mono" style="font-size:10.5px;color:var(--ink-soft);margin-top:8px">${v} / ${n}</p>
       </div>`).join('')}
     </div>
+
+    <!-- FILTRES & BARRE DE RECHERCHE -->
     <div class="card" style="margin-bottom:18px">
       <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center">
         <div class="fgroup">
           <button class="fchip ${trFilter === 'all' ? 'on' : ''}" onclick="trFilter='all';renderTracker()">Tous (${n})</button>
-          <button class="fchip ${trFilter === 'valid' ? 'on' : ''}" onclick="trFilter='valid';renderTracker()">Validés</button>
+          <button class="fchip ${trFilter === 'valid' ? 'on' : ''}" onclick="trFilter='valid';renderTracker()">Validés (${validCount})</button>
           <button class="fchip ${trFilter === 'prog' ? 'on' : ''}" onclick="trFilter='prog';renderTracker()">En cours</button>
           <button class="fchip ${trFilter === 'todo' ? 'on' : ''}" onclick="trFilter='todo';renderTracker()">À faire (${n - validCount})</button>
         </div>
-        <input id="trSearch" placeholder="Rechercher un chapitre…" value="${trSearch}"
-          style="border:1.5px solid var(--line);background:#fff;padding:9px 13px;font-family:var(--body);min-width:220px">
+        <input id="trSearch" placeholder="Rechercher un cours de ${modCfg.title}…" value="${trSearch}"
+          style="border:2px solid var(--ink);border-radius:12px;background:#fff;padding:9px 13px;font-family:var(--body);min-width:240px;box-shadow:0 2px 0 var(--ink)">
       </div>
     </div>
+
+    <!-- TABLEAU INTERACTIF DES COURS -->
     <div style="overflow-x:auto">
     <table class="ttbl">
       <thead>
         <tr>
-          <th>Chapitre du module</th>
-          <th>1ère couche</th>
-          <th>2ème couche</th>
-          <th>3ème couche</th>
-          <th>QCM</th>
-          <th>Entraînement</th>
+          <th>Cours du module (${modCfg.title})</th>
+          <th style="text-align:center">1ère couche</th>
+          <th style="text-align:center">2ème couche</th>
+          <th style="text-align:center">3ème couche</th>
+          <th style="text-align:center">QCM</th>
+          <th style="text-align:center">Entraînement</th>
         </tr>
       </thead>
       <tbody>
         ${rows.map(r => `
         <tr>
-          <td class="tch-name"><span>CH. ${String(r.i + 1).padStart(2, '0')} ${r.qcmValid ? '✓' : ''}</span><b>${r.c}</b></td>
+          <td class="tch-name"><span>COURS ${String(r.i + 1).padStart(2, '0')} ${r.qcmValid ? '✓' : ''}</span><b>${r.c}</b></td>
           ${[0, 1, 2].map(nl => {
             const locked = nl > 0 && !r.L[nl - 1];
-            return `<td><button class="lchk no360 ${r.L[nl] ? 'on' : ''} ${locked ? 'lock' : ''}" aria-label="Couche ${nl + 1}"
-              onclick="toggleLayer(${r.i},${nl})">✚</button></td>`;
+            return `<td style="text-align:center"><button class="lchk no360 ${r.L[nl] ? 'on' : ''} ${locked ? 'lock' : ''}" aria-label="Couche ${nl + 1}"
+              onclick="toggleLayer(${r.i},${nl})" style="margin:0 auto">✚</button></td>`;
           }).join('')}
-          <td class="mono" style="font-size:.8rem">${r.tot ? `<span class="chip ${r.qcmValid ? 'g' : ''}">${r.done}/${r.tot}</span>` : '<span style="color:var(--ink-soft)">—</span>'}</td>
-          <td><button class="btn btn-sm btn-ghost" onclick="go('annales');chooseChapter(${r.i})">Practise →</button></td>
-        </tr>`).join('') || `<tr><td colspan="6"><div class="empty" style="border:none"><div class="big">Aucun chapitre ne correspond</div><p>Modifie ta recherche ou tes filtres pour afficher les chapitres.</p></div></td></tr>`}
+          <td class="mono" style="font-size:.8rem;text-align:center">${r.tot ? `<span class="chip ${r.qcmValid ? 'g' : ''}">${r.done}/${r.tot}</span>` : '<span style="color:var(--ink-soft)">—</span>'}</td>
+          <td style="text-align:center"><button class="btn btn-sm btn-ghost" onclick="go('annales');chooseChapter(${r.i})" style="font-weight:700">Practise →</button></td>
+        </tr>`).join('') || `<tr><td colspan="6"><div class="empty" style="border:none"><div class="big">Aucun cours ne correspond</div><p>Modifie ta recherche ou tes filtres pour afficher les cours.</p></div></td></tr>`}
       </tbody>
     </table>
     </div>
-    <p class="hand" style="font-size:1.4rem;margin-top:20px;display:block">une couche par passage — comme les majors, pas plus, pas moins ✚</p>`;
+    <p class="hand" style="font-size:1.4rem;margin-top:20px;display:block">une couche par passage — comme les majors, pas plus, pas moins ✚</p>`
+    : `
+    <!-- ÉTAT EN ATTENTE DES COURS FOURNIS PAR L'UTILISATEUR -->
+    <div class="card" style="text-align:center;padding:46px 20px;background:var(--card);border:var(--stk);border-radius:24px;box-shadow:0 6px 0 var(--ink);margin-top:14px">
+      <div style="font-size:3.2rem;margin-bottom:12px">${isSem ? (curSem === 's1' ? '📘' : '📙') : '📚'}</div>
+      <h3 style="font-size:1.6rem;margin-bottom:8px">Cours en attente de programmation</h3>
+      <p style="color:var(--ink-soft);max-width:540px;margin:0 auto 16px;font-size:1rem;line-height:1.5">
+        ${isSem ? `Les cours officiels du <b>${semLabel}</b> pour <b>${modCfg.title}</b> n'ont pas encore été enregistrés.` : `Les cours officiels de <b>${modCfg.title}</b> (1ère Année) n'ont pas encore été enregistrés.`}
+        <br>Dès que tu fourniras la liste des cours, ils apparaîtront ici avec le système des 3 couches.
+      </p>
+      <span class="chip" style="background:var(--y);color:var(--ink);font-weight:700;font-size:12px;padding:6px 14px;border:2px solid var(--ink)">
+        ${isSem ? `${curSem.toUpperCase()} · 1ÈRE ANNÉE MÉDECINE` : '1ÈRE ANNÉE MÉDECINE'}
+      </span>
+    </div>
+    `}`;
 
   const searchEl = $('trSearch');
   if (searchEl) {
@@ -3080,6 +3583,7 @@ function toggleLayer(ch, n){
   }
   saveState();
   renderTracker();
+  updateSide();
 }
 
 /* ================= FLASHCARDS ANKI ================= */
@@ -3379,11 +3883,10 @@ addEventListener('keydown', e => {
 
 /* ================= GLOBAL RENDER ================= */
 function updateSide(){
-  const is4A = currentAcademicYear === '4eme';
-  const L = state.layers, total = CHAPTERS.length * 3;
-  const doneLayers = is4A ? 0 : L.flat().filter(Boolean).length;
-  const doneQcms = is4A ? 0 : Object.keys(state.answers).length;
-  const pct = is4A ? 0 : Math.min(100, Math.round((doneLayers + doneQcms) / (total + 30) * 100));
+  const L = state.layers, total = Math.max(1, CHAPTERS.length * 3);
+  const doneLayers = L.flat().filter(Boolean).length;
+  const doneQcms = Object.keys(state.answers).length;
+  const pct = Math.min(100, Math.round((doneLayers + doneQcms) / (total + 30) * 100));
 
   const sideBar = $('sideBar');
   if (sideBar) sideBar.style.width = pct + '%';
@@ -3398,7 +3901,11 @@ function updateSide(){
   const sideProgLabel = $('sideProgLabel');
   if (sideProgLabel) sideProgLabel.textContent = 'PROGRESSION ' + yearInfo.code;
 
-  const b4 = $('btnYear4'), b5 = $('btnYear5');
+  const trYearOverline = $('trYearOverline');
+  if (trYearOverline) trYearOverline.textContent = `${yearInfo.subTitle} · Méthode des 3 couches`;
+
+  const b1 = $('btnYear1'), b4 = $('btnYear4'), b5 = $('btnYear5');
+  if (b1) b1.classList.toggle('on', currentAcademicYear === '1ere');
   if (b4) b4.classList.toggle('on', currentAcademicYear === '4eme');
   if (b5) b5.classList.toggle('on', currentAcademicYear === '5eme');
 

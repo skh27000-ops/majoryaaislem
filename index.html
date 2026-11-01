@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MAJORY — QCM de médecine corrigés · bech tMAJORY</title>
-<meta name="description" content="MAJORY : la plateforme de révision de médecine. Plus de 4 680 QCM corrigés avec justifications détaillées, rangés par module. Révise intelligemment et vise le majorat.">
+<meta name="description" content="MAJORY : la plateforme de QCM pour les étudiants en médecine en Algérie, de la 1ère à la 6ème année. Corrections détaillées proposition par proposition.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="MAJORY">
 <meta property="og:title" content="MAJORY — QCM de médecine corrigés · bech tMAJORY">
-<meta property="og:description" content="4 684 QCM de médecine corrigés et expliqués. Entraîne-toi par module et majore ta promo.">
+<meta property="og:description" content="Toutes les années de médecine, de la 1ère à la 6ème : des QCM corrigés et expliqués pour les étudiants en Algérie.">
 <meta name="theme-color" content="#FFD25A">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -418,7 +418,76 @@ body{position:relative}
 .walk .wk{position:absolute;left:0;top:0;width:78px;margin-left:-39px;will-change:transform}
 .walk .wk .mc{width:100%}
 @media(max-width:880px){.walk{display:none}}
-</style>
+
+/* ---- cartes des années (remplacent la section des modules) ---- */
+.yr-grid{grid-template-columns:repeat(3,1fr)}
+.yr-grid .mcard .ic{font:800 3rem/1 var(--disp);letter-spacing:-.05em}
+@media(max-width:720px){.yr-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.yr-grid{grid-template-columns:1fr}}
+/* ================= iPad (aperçu de la plateforme) ================= */
+.ipad-sec{padding:90px 0 40px;position:relative}
+.ipad-stage{position:relative;max-width:980px;margin:0 auto}
+.js .ipad-stage:not(.in){opacity:0;transform:translateY(46px) rotate(-2deg)}
+.ipad-stage{transition:opacity .8s var(--e),transform 1s var(--e)}
+.ipad{position:relative;rotate:-1.2deg;transition:rotate .7s var(--e),translate .7s var(--e)}
+@media(hover:hover) and (pointer:fine){.ipad:hover{rotate:0deg;translate:0 -6px}}
+.ip-body{position:relative;padding:18px;border-radius:46px;
+  background:linear-gradient(145deg,#2A2536,#14111C 55%,#1E1A29);
+  border:3px solid var(--ink);box-shadow:0 0 0 2px #CFCADB inset,0 0 0 4px #1A1626 inset,0 44px 70px -20px rgba(26,22,38,.45),0 12px 0 var(--ink)}
+.ip-cam{position:absolute;left:50%;top:6px;width:8px;height:8px;margin-left:-4px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#4A4560,#0B0910)}
+.ip-screen{position:relative;border-radius:28px;overflow:hidden;background:#fff;aspect-ratio:1180/820}
+.ip-track{display:flex;height:100%;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;cursor:grab;outline:none}
+.ip-track::-webkit-scrollbar{display:none}
+.ip-track.drag{scroll-snap-type:none;cursor:grabbing}
+.ip-track:focus-visible{outline:3px solid var(--b);outline-offset:-3px}
+.ip-slide{flex:0 0 100%;scroll-snap-align:center;margin:0}
+.ip-slide img{width:100%;height:100%;object-fit:cover;object-position:top;pointer-events:none;user-select:none;-webkit-user-drag:none}
+.ip-nav{position:absolute;top:50%;translate:0 -50%;width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.94);border:2.5px solid var(--ink);box-shadow:0 4px 0 var(--ink);display:grid;place-items:center;opacity:0;transition:opacity .25s var(--e),transform .15s var(--e),box-shadow .15s var(--e)}
+.ip-nav svg{width:20px;height:20px;stroke:var(--ink);fill:none;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ip-nav.prev{left:14px}.ip-nav.next{right:14px}
+.ip-nav[disabled]{display:none}
+.ip-screen:hover .ip-nav{opacity:1}
+.ip-nav:active{transform:translateY(3px);box-shadow:0 1px 0 var(--ink)}
+@media(hover:none){.ip-nav{display:none}}
+.ip-hint{position:absolute;right:20px;bottom:18px;background:var(--y);border:3px solid var(--ink);border-radius:999px;padding:.3rem 1rem;font-size:1.35rem;box-shadow:0 4px 0 var(--ink);pointer-events:none;transition:opacity .4s var(--e),translate .4s var(--e)}
+.ip-hint span{display:inline-block;animation:ipNudge 1.4s var(--e) infinite}
+@keyframes ipNudge{0%,100%{translate:0 0}50%{translate:6px 0}}
+.ip-hint.gone{opacity:0;translate:0 8px}
+.pencil{position:absolute;z-index:3;left:9%;top:-15px;width:64%;height:auto;filter:drop-shadow(0 6px 5px rgba(26,22,38,.28));pointer-events:none}
+.ip-peek{position:absolute;z-index:0;right:6%;top:-58px;width:104px;rotate:5deg}
+.ip-peek .mc{width:100%}
+.ip-cap{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap;margin-top:34px;padding:0 6px}
+.ip-txt{display:grid;gap:2px;max-width:34em;transition:opacity .25s var(--e),translate .3s var(--e)}
+.ip-txt.sw{opacity:0;translate:0 6px}
+.ip-txt b{font:800 1.5rem var(--disp);letter-spacing:-.03em}
+.ip-txt span{color:var(--soft)}
+.ip-dots{display:flex;gap:10px}
+.ip-dots button{width:14px;height:14px;border-radius:50%;border:2.5px solid var(--ink);background:#fff;padding:0;transition:background-color .25s var(--e),width .35s var(--e),border-radius .35s var(--e)}
+.ip-dots button.on{width:38px;border-radius:99px;background:var(--y)}
+@media(hover:hover) and (pointer:fine){.ip-dots button:not(.on):hover{background:var(--b)}}
+@media(max-width:700px){.ip-body{padding:9px;border-radius:26px;box-shadow:0 0 0 1.5px #CFCADB inset,0 26px 40px -16px rgba(26,22,38,.4),0 7px 0 var(--ink)}.ip-screen{border-radius:16px}.ip-cam{display:none}.pencil{display:none}.ip-peek{width:74px;top:-40px}.ip-hint{font-size:1.1rem;padding:.2rem .75rem}.ipad-sec{padding-top:60px}.ip-cap{margin-top:24px}}
+@media(prefers-reduced-motion:reduce){.ipad{rotate:0deg}.js .ipad-stage:not(.in){opacity:1;transform:none}.ip-hint span{animation:none}}
+/* ---- stylet qui swipe et annote tout seul ---- */
+.ipad{--pw:340px}
+.ip-slide{position:relative}
+.ink{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.ink path{fill:none;stroke-width:.62;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;opacity:.92;filter:drop-shadow(0 .3px .2px rgba(26,22,38,.25))}
+.pen{position:absolute;z-index:5;left:0;top:0;width:var(--pw);aspect-ratio:720/26;margin-top:calc(var(--pw) * -13 / 720);transform-origin:0 50%;opacity:0;pointer-events:none;will-change:transform;filter:drop-shadow(0 10px 8px rgba(26,22,38,.3))}
+.pen svg{display:block;width:100%;height:auto;overflow:visible}
+.pen-ring{position:absolute;z-index:4;left:0;top:0;width:38px;height:38px;margin:-19px 0 0 -19px;border-radius:50%;border:2.5px solid rgba(108,92,231,.6);background:rgba(108,92,231,.16);opacity:0;scale:.5;pointer-events:none;transition:opacity .15s var(--e),scale .22s var(--e)}
+.pen-ring.on{opacity:1;scale:1}
+.ipad.lifted .pencil{opacity:0}
+.ipad.lifted .pen{opacity:1}
+.pencil{transition:opacity .2s var(--e)}
+.ip-ctl{display:flex;align-items:center;gap:16px}
+.ip-play{width:38px;height:38px;border-radius:50%;border:2.5px solid var(--ink);background:#fff;display:grid;place-items:center;box-shadow:0 3px 0 var(--ink);transition:transform .12s var(--e),box-shadow .12s var(--e),background-color .2s var(--e)}
+.ip-play svg{width:16px;height:16px;fill:none;stroke:var(--ink);stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.ip-play .i-play{display:none;fill:var(--ink)}
+.ip-play[aria-pressed="true"] .i-pause{display:none}.ip-play[aria-pressed="true"] .i-play{display:block}
+.ip-play:active{transform:translateY(3px);box-shadow:0 0 0 var(--ink)}
+@media(hover:hover) and (pointer:fine){.ip-play:hover{background:var(--y)}}
+@media(max-width:700px){.ipad{--pw:190px}.pen-ring{width:30px;height:30px;margin:-15px 0 0 -15px}.ip-play{width:34px;height:34px}}
+@media(prefers-reduced-motion:reduce){.ip-play{display:none}.ink path{stroke-dashoffset:0}}</style>
 </head>
 <body>
 
@@ -448,7 +517,7 @@ body{position:relative}
 <section class="hero" id="top">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <span class="hero-tag">✦ Plateforme de révision médicale · 4ᵉ &amp; 5ᵉ année</span>
+      <span class="hero-tag">✦ Pour les étudiants en médecine · Algérie · 1ʳᵉ à 6ᵉ année</span>
       <h1 class="wr" id="h1" aria-label="Les QCM de médecine bech tMAJORY">
         <span class="w"><i style="--k:0">Les</i></span> <span class="w"><i style="--k:1">QCM</i></span> <span class="w"><i style="--k:2">de</i></span> <span class="w"><i style="--k:3">médecine</i></span><br>
         <span class="l2"><span class="w"><i style="--k:3">bech</i></span> <span class="w"><i style="--k:4">t</i></span><span class="mj"><span class="w"><i style="--k:5"><b style="--j:0">M</b><b style="--j:1">A</b><b style="--j:2">J</b><b style="--j:3">O</b><b style="--j:4">R</b><b style="--j:5">Y</b></i></span><svg class="circ" viewBox="0 0 420 120" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M150 14C60 20 12 50 24 76C40 106 150 112 230 108C340 104 408 82 400 52C392 22 300 6 200 8C150 9 110 14 80 26"/></svg><svg class="sp s1" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z" fill="#FFD25A" stroke="#1A1626" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="sp s2" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z" fill="#FFD25A" stroke="#1A1626" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="sp s3" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0l2.5 9.5L24 12l-9.5 2.5L12 24l-2.5-9.5L0 12l9.5-2.5z" fill="#FFD25A" stroke="#1A1626" stroke-width="1.6" stroke-linejoin="round"/></svg></span></span>
@@ -476,16 +545,16 @@ body{position:relative}
         <span class="lbl">QCM corrigés &amp; justifiés</span>
       </div>
       <div class="stat-box">
-        <span class="num">12</span>
-        <span class="lbl">Modules complets</span>
+        <span class="num">6</span>
+        <span class="lbl">Années, de la 1ʳᵉ à la 6ᵉ</span>
       </div>
       <div class="stat-box">
         <span class="num">100%</span>
         <span class="lbl">Explications mot à mot</span>
       </div>
       <div class="stat-box">
-        <span class="num">4A &amp; 5A</span>
-        <span class="lbl">Mostaganem, Oran &amp; plus</span>
+        <span class="num">Algérie</span>
+        <span class="lbl">Facultés de médecine</span>
       </div>
     </div>
   </div>
@@ -493,6 +562,67 @@ body{position:relative}
 
 <div class="band" aria-hidden="true"><div id="bandin"></div></div>
 
+<!-- ================= APERÇU : iPAD ================= -->
+<section class="ipad-sec" id="apercu">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="sec-tag b">Aperçu</span>
+      <h2>La plateforme, en vrai</h2>
+      <p>Voici ce que tu verras en ouvrant MAJORY, avec la 5ᵉ année comme exemple. Glisse pour tout découvrir.</p>
+    </div>
+
+    <div class="ipad-stage" id="ipStage">
+      <div class="ip-peek" aria-hidden="true"><span data-mascot data-head></span></div>
+      <div class="ipad" id="ipad">
+        <svg class="pencil" viewBox="0 0 720 26" aria-hidden="true">
+          <defs>
+            <linearGradient id="pbody" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#F1EEF6"/><stop offset="1" stop-color="#CFCADB"/></linearGradient>
+            <linearGradient id="ptip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBFAFD"/><stop offset="1" stop-color="#C9C4D6"/></linearGradient>
+          </defs>
+          <path d="M70 3H700a8 8 0 0 1 8 8v4a8 8 0 0 1-8 8H70Z" fill="url(#pbody)" stroke="#1A1626" stroke-width="2.4"/>
+          <path d="M70 3L14 11.2Q8 13 14 14.8L70 23Z" fill="url(#ptip)" stroke="#1A1626" stroke-width="2.4" stroke-linejoin="round"/>
+          <path d="M12 12.4L7 13L12 13.6Z" fill="#1A1626"/>
+          <rect x="660" y="3" width="3" height="20" fill="#1A1626" opacity=".12"/>
+          <path d="M96 8H640" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+        </svg>
+        <div class="pen" id="pen" aria-hidden="true"></div>
+        <i class="pen-ring" id="penRing" aria-hidden="true"></i>
+        <div class="ip-body">
+          <i class="ip-cam" aria-hidden="true"></i>
+          <div class="ip-screen">
+            <div class="ip-track" id="ipTrack" tabindex="0" role="group" aria-roledescription="carrousel" aria-label="Captures de la plateforme">
+              <figure class="ip-slide"><img src="assets/shots/hall.webp" width="1770" height="1230" alt="Accueil de MAJORY : objectif du jour, progression et prochain QCM" draggable="false"></figure>
+              <figure class="ip-slide"><img src="assets/shots/qcm-chapitres.webp" width="1770" height="1230" alt="Page QCM de la 5ᵉ année avec les six modules" loading="lazy" decoding="async" draggable="false"></figure>
+              <figure class="ip-slide"><img src="assets/shots/qcm-question.webp" width="1770" height="1230" alt="Une question de QCM corrigée proposition par proposition" loading="lazy" decoding="async" draggable="false"></figure>
+              <figure class="ip-slide"><img src="assets/shots/checklist.webp" width="1770" height="1230" alt="La checklist des cours avec les trois couches de révision" loading="lazy" decoding="async" draggable="false"></figure>
+              <figure class="ip-slide"><img src="assets/shots/facultes.webp" width="1770" height="1230" alt="Le choix des facultés pour filtrer les questions" loading="lazy" decoding="async" draggable="false"></figure>
+            </div>
+            <button class="ip-nav prev" type="button" aria-label="Capture précédente"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button class="ip-nav next" type="button" aria-label="Capture suivante"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button>
+            <div class="ip-hint hand" id="ipHint" aria-hidden="true">Glisse <span>→</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ip-cap">
+        <div class="ip-txt" id="ipTxt"><b id="ipT">Accueil</b><span id="ipD">Ton espace : objectif du jour, progression et prochain QCM.</span></div>
+        <div class="ip-ctl">
+          <button class="ip-play" id="ipPlay" type="button" aria-pressed="false" aria-label="Mettre en pause le défilement automatique">
+            <svg class="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14"/></svg>
+            <svg class="i-play" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7Z"/></svg>
+          </button>
+          <div class="ip-dots" role="tablist" aria-label="Choisir une capture">
+            <button type="button" role="tab" aria-selected="true" aria-label="Accueil" class="on"></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Choix du module"></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Question corrigée"></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Checklist"></button>
+            <button type="button" role="tab" aria-selected="false" aria-label="Facultés"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- ================= SECTION 1 : FEATURES ================= -->
 <section class="feat-sec" id="features">
   <div class="wrap">
@@ -524,7 +654,7 @@ body{position:relative}
       <div class="fcard">
         <div class="ficon"><svg viewBox="0 0 64 64" aria-hidden="true"><g stroke="#1A1626" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="30" cy="35" r="22" fill="#fff"/><circle cx="30" cy="35" r="14" fill="#FF9466" stroke-width="3"/><circle cx="30" cy="35" r="6" fill="#fff" stroke-width="3"/><path d="M30 35L53 12" fill="none"/><path d="M47 18l-7-1M47 18l1-7M53 12l-6-1M53 12l1-6" fill="none" stroke-width="3"/></g></svg></div>
         <h3>Filtres par Faculté &amp; Année</h3>
-        <p>Cible avec précision les questions posées à Mostaganem, Oran ou les annales générales pour orienter tes révisions selon tes examens.</p>
+        <p>Cible avec précision les questions posées à Mostaganem, Oran ou les sujets nationaux pour orienter tes révisions selon tes examens.</p>
       </div>
     </div>
   </div>
@@ -536,7 +666,7 @@ body{position:relative}
     <div class="sec-head">
       <span class="sec-tag b">Plateforme</span>
       <h2>La plateforme de QCM la plus complète</h2>
-      <p>Entraîne-toi directement en ligne sur les 12 modules officiels avec correction instantanée.</p>
+      <p>Entraîne-toi directement en ligne, de la 1ʳᵉ à la 6ᵉ année de médecine, avec correction instantanée.</p>
     </div>
 
     <!-- Mini QCM Interactive Box -->
@@ -548,7 +678,7 @@ body{position:relative}
         
         <div class="host"><span data-mascot id="inter"></span><div class="bubble" id="say">Allez, première question !</div></div>
 
-        <a href="dashboard.html" class="btn o">Ouvrir tous les modules →</a>
+        <a href="dashboard.html" class="btn o">Ouvrir la plateforme →</a>
       </div>
 
       <div class="qcm-box" aria-live="polite">
@@ -570,76 +700,22 @@ body{position:relative}
       </div>
     </div>
 
-    <!-- 12 Modules Explorer -->
+    <!-- Toutes les années -->
     <div class="sec-head" style="margin-top:60px;margin-bottom:32px">
-      <h3 style="font-size:2.2rem">12 Modules académiques prêts à l'entraînement</h3>
+      <h3 style="font-size:2.2rem">Toutes les années de médecine, de la 1ʳᵉ à la 6ᵉ</h3>
+      <p>Du premier cycle au second cycle, retrouve les QCM de ton année, classés par module et par cours.</p>
     </div>
 
-    <div class="mod-grid">
-      <a class="mcard y" href="dashboard.html">
-        <div class="top-line"><span class="ic">🫘</span><span class="cnt">973 QCM</span></div>
-        <div><b>Uro-Néphrologie</b><small>Oran, Mostaganem &amp; annales</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard b" href="dashboard.html">
-        <div class="top-line"><span class="ic">🦴</span><span class="cnt">695 QCM</span></div>
-        <div><b>Orthopédie (OTR)</b><small>Traumatologie, Rhumato</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard o" href="dashboard.html">
-        <div class="top-line"><span class="ic">🧠</span><span class="cnt">650 QCM</span></div>
-        <div><b>Neurologie</b><small>Neuropathies, AVC, épilepsies</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard p" href="dashboard.html">
-        <div class="top-line"><span class="ic">🤰</span><span class="cnt">531 QCM</span></div>
-        <div><b>Gynécologie</b><small>Oran &amp; Mostaganem complet</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard b" href="dashboard.html">
-        <div class="top-line"><span class="ic">❤️</span><span class="cnt">510 QCM</span></div>
-        <div><b>Cardiologie</b><small>Insuffisance, coronaires, HTA</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard p" href="dashboard.html">
-        <div class="top-line"><span class="ic">🦋</span><span class="cnt">374 QCM</span></div>
-        <div><b>Endocrinologie</b><small>Diabète, thyroïde, surrénales</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard y" href="dashboard.html">
-        <div class="top-line"><span class="ic">💭</span><span class="cnt">220 QCM</span></div>
-        <div><b>Psychiatrie</b><small>Troubles de l'humeur, psychoses</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard o" href="dashboard.html">
-        <div class="top-line"><span class="ic">🧸</span><span class="cnt">192 QCM</span></div>
-        <div><b>Pédiatrie</b><small>Développement, urgences</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard o" href="dashboard.html">
-        <div class="top-line"><span class="ic">🍽️</span><span class="cnt">184 QCM</span></div>
-        <div><b>Gastro-entérologie</b><small>Hépato, MICI, hémorragies</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard y" href="dashboard.html">
-        <div class="top-line"><span class="ic">🩸</span><span class="cnt">145 QCM</span></div>
-        <div><b>Hématologie</b><small>Anémies, hémopathies, hémostase</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard p" href="dashboard.html">
-        <div class="top-line"><span class="ic">🫁</span><span class="cnt">130 QCM</span></div>
-        <div><b>Pneumologie</b><small>Asthme, BPCO, infections</small></div>
-        <span class="arr">→</span>
-      </a>
-      <a class="mcard b" href="dashboard.html">
-        <div class="top-line"><span class="ic">🦠</span><span class="cnt">80 QCM</span></div>
-        <div><b>Maladies Infectieuses</b><small>Antibiotiques, fièvres, VIH</small></div>
-        <span class="arr">→</span>
-      </a>
+    <div class="mod-grid yr-grid">
+      <a class="mcard y" href="dashboard.html"><div class="top-line"><span class="ic">1</span><span class="cnt">1er cycle</span></div><div><b>1ʳᵉ année</b><small>Modules, cours et corrections</small></div><span class="arr">→</span></a>
+      <a class="mcard b" href="dashboard.html"><div class="top-line"><span class="ic">2</span><span class="cnt">1er cycle</span></div><div><b>2ᵉ année</b><small>Modules, cours et corrections</small></div><span class="arr">→</span></a>
+      <a class="mcard o" href="dashboard.html"><div class="top-line"><span class="ic">3</span><span class="cnt">1er cycle</span></div><div><b>3ᵉ année</b><small>Modules, cours et corrections</small></div><span class="arr">→</span></a>
+      <a class="mcard p" href="dashboard.html"><div class="top-line"><span class="ic">4</span><span class="cnt">2ᵉ cycle</span></div><div><b>4ᵉ année</b><small>Modules, cours et corrections</small></div><span class="arr">→</span></a>
+      <a class="mcard y" href="dashboard.html"><div class="top-line"><span class="ic">5</span><span class="cnt">2ᵉ cycle</span></div><div><b>5ᵉ année</b><small>Modules, cours et corrections</small></div><span class="arr">→</span></a>
+      <a class="mcard b" href="dashboard.html"><div class="top-line"><span class="ic">6</span><span class="cnt">2ᵉ cycle</span></div><div><b>6ᵉ année</b><small>Modules, cours et corrections</small></div><span class="arr">→</span></a>
     </div>
   </div>
 </section>
-
 <!-- ================= SECTION 3 : GUIDE ================= -->
 <section class="guide-sec" id="guide">
   <div class="wrap">
@@ -709,7 +785,7 @@ body{position:relative}
         <div class="cost">9,90€ <small>/ mois</small></div>
         <ul>
           <li>Accès total aux <b>4 684 QCM</b></li>
-          <li>Toutes les annales Oran, Mostaganem &amp; autres</li>
+          <li>Toutes les années de médecine, de la 1ʳᵉ à la 6ᵉ</li>
           <li>Mode Examen &amp; chronomètre officiel</li>
           <li>Carnet d'erreurs automatique</li>
           <li>Flashcards &amp; répétition espacée Anki</li>
@@ -746,8 +822,8 @@ body{position:relative}
     </div>
 
     <div class="faq-box">
-      <details class="faq-it"><summary>MAJORY est-il gratuit ?</summary><p>Oui ! L'accès découverte aux modules et séries de QCM est 100% gratuit, sans inscription compliquée ni carte bancaire.</p></details>
-      <details class="faq-it"><summary>D'où proviennent les questions ?</summary><p>Les QCM proviennent des examens officiels et annales des facultés de médecine (Mostaganem, Oran et sessions nationales), scrupuleusement classés par cours.</p></details>
+      <details class="faq-it"><summary>MAJORY est-il gratuit ?</summary><p>Oui ! L'accès découverte aux séries de QCM est 100% gratuit, sans inscription compliquée ni carte bancaire.</p></details>
+      <details class="faq-it"><summary>D'où proviennent les questions ?</summary><p>Les QCM proviennent des examens officiels des facultés de médecine algériennes, scrupuleusement classés par année, par module et par cours.</p></details>
       <details class="faq-it"><summary>Les justifications sont-elles complètes ?</summary><p>Oui. Chaque proposition vraie ou fausse est accompagnée d'une explication courte et précise pour t'aider à comprendre pourquoi et ne plus jamais refaire l'erreur.</p></details>
       <details class="faq-it"><summary>Puis-je réviser sur smartphone ?</summary><p>Absolument. L'interface est 100% responsive et fluide sur smartphone, tablette et ordinateur portable.</p></details>
       <details class="faq-it"><summary>Comment fonctionne la méthode des 3 couches ?</summary><p>C'est une stratégie de travail qui combine compréhension initiale, entraînement ciblé sur QCM et répétition espacée (Flashcards) pour ancrer les cours dans la mémoire à long terme.</p></details>
@@ -826,7 +902,7 @@ hm.onclick=()=>{react(hm,'wow',1100);put(hb,quips[Math.random()*quips.length|0])
 QA('.pill-mascot-center,.buddy-btn').forEach(a=>{const m=a.querySelector('.mc');a.addEventListener('pointerenter',()=>react(m,'wow',900))});
 
 /* ---------- bandeau défilant des modules ---------- */
-$('bandin').innerHTML=(QA('.mcard').map(c=>'<span><em>'+c.querySelector('.ic').textContent+'</em>'+c.querySelector('b').textContent+'</span>').join('')).repeat(2);
+$('bandin').innerHTML=(['1ʳᵉ année','2ᵉ année','3ᵉ année','4ᵉ année','5ᵉ année','6ᵉ année'].map(y=>'<span><em>✦</em>'+y+'</span>').join('')).repeat(4).repeat(2);
 
 /* ---------- révélations ---------- */
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
@@ -957,7 +1033,7 @@ $('q-next').textContent=qi===QZ.length-1?'Voir mon bilan →':'Question suivante
 $('q-next').onclick=function(){
 if(fin){fin=0;qi=0;score=0;render();return}
 if(qi<QZ.length-1){qi++;render();return}
-fin=1;$('q-text').textContent=score===3?'Score parfait : 3/3 ! Tu as le niveau pour majorer.':'Bilan : '+score+'/3. Prêt·e à t\'entraîner sur les modules complets ?';
+fin=1;$('q-text').textContent=score===3?'Score parfait : 3/3 ! Tu as le niveau pour majorer.':'Bilan : '+score+'/3. Prêt·e à t\'entraîner sur toute la plateforme ?';
 $('q-opts').innerHTML='';$('q-expl').className='expl';$('q-hint').textContent='';this.textContent='Recommencer ↻';
 if(score===3){react(qm,'wow');qm.classList.add('king');const r=qm.getBoundingClientRect();burst(r.left+r.width/2,r.top+r.height*.3,170)}else react(qm,null);
 say(score===3?'Futur·e major ! 🏆':'On réessaie ?')};
@@ -984,5 +1060,117 @@ document.body.insertAdjacentHTML('afterbegin','<div class="halo" aria-hidden="tr
 setTimeout(()=>document.getElementById('h1').classList.add('done'),RM?0:2000);
 })();
 </script>
-</body>
+<script>
+(function(){
+  const $=id=>document.getElementById(id),RMq=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const ipad=$('ipad'),body=ipad.querySelector('.ip-body'),scr=ipad.querySelector('.ip-screen'),track=$('ipTrack'),stage=$('ipStage'),
+    dots=[...document.querySelectorAll('.ip-dots button')],prev=document.querySelector('.ip-nav.prev'),next=document.querySelector('.ip-nav.next'),
+    hint=$('ipHint'),txt=$('ipTxt'),dock=ipad.querySelector('.pencil'),pen=$('pen'),ring=$('penRing'),playBtn=$('ipPlay');
+  const T=[['Accueil','Ton espace : objectif du jour, progression et prochain QCM.'],['QCM','Choisis ton année puis ton module. Ici, la 5ᵉ année.'],['Correction','Chaque proposition, vraie ou fausse, est corrigée et expliquée.'],['Checklist','Valide les 3 couches de chaque cours : comprendre, s\'entraîner, consolider.'],['Facultés','Filtre les questions par faculté pour cibler tes examens.']];
+  const n=T.length;let cur=0;
+
+  /* ---------- navigation ---------- */
+  function set(i){
+    if(i===cur)return;cur=i;
+    dots.forEach((d,k)=>{d.classList.toggle('on',k===i);d.setAttribute('aria-selected',k===i)});
+    prev.disabled=i===0;next.disabled=i===n-1;
+    txt.classList.add('sw');setTimeout(()=>{$('ipT').textContent=T[i][0];$('ipD').textContent=T[i][1];txt.classList.remove('sw')},170);
+  }
+  const idx=()=>Math.round(track.scrollLeft/track.clientWidth);
+  function go(i){i=Math.max(0,Math.min(n-1,i));track.scrollTo({left:i*track.clientWidth,behavior:RMq?'auto':'smooth'})}
+  track.addEventListener('scroll',()=>set(idx()),{passive:true});
+  prev.disabled=true;
+
+  /* ---------- annotations (cercles et soulignements, tracés par le stylet) ---------- */
+  const VH=69.49,Y=p=>p*VH/100;
+  const NOTE=[['circle',61.6,79.3,8.6,5.8,'#6C5CE7'],['circle',88.6,51,3.7,3.9,'#6C5CE7'],['line',6,51.5,49.7,'#FF9466'],['line',12.7,46.8,77.7,'#FF9466'],['circle',66.7,31.4,5.9,3.5,'#6C5CE7']];
+  function circleD(cx,cy,rx,ry){let d='';for(let k=0;k<=72;k++){const t=k/72,th=-2.5+Math.PI*2*1.1*t,j=1+.05*Math.sin(3*th)+.07*t;d+=(k?'L':'M')+(cx+rx*j*Math.cos(th)).toFixed(2)+' '+(Y(cy)+Y(ry)*j*Math.sin(th)).toFixed(2)}return d}
+  function lineD(x1,x2,y){let d='';for(let k=0;k<=40;k++){const t=k/40;d+=(k?'L':'M')+(x1+(x2-x1)*t).toFixed(2)+' '+(Y(y)+.35*Math.sin(t*Math.PI*3.2)-.5*t).toFixed(2)}return d}
+  const paths=NOTE.map((a,i)=>{
+    const fig=track.children[i],svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+    svg.setAttribute('class','ink');svg.setAttribute('viewBox','0 0 100 '+VH);svg.setAttribute('preserveAspectRatio','none');svg.setAttribute('aria-hidden','true');
+    const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('pathLength','1');p.setAttribute('stroke',a[a.length-1]);
+    p.setAttribute('d',a[0]==='circle'?circleD(a[1],a[2],a[3],a[4]):lineD(a[1],a[2],a[3]));
+    svg.appendChild(p);fig.appendChild(svg);return p;
+  });
+  const drawn=NOTE.map(()=>false);
+  function eraseAll(){paths.forEach((p,i)=>{p.style.strokeDashoffset=1;drawn[i]=false})}
+  if(RMq){paths.forEach((p,i)=>{p.style.strokeDashoffset=0;drawn[i]=true})}
+
+  /* ---------- le stylet ---------- */
+  const penSvg=dock.cloneNode(true);penSvg.removeAttribute('class');pen.appendChild(penSvg);
+  const P={x:0,y:0,a:0,s:1};
+  const render=()=>{pen.style.transform='translate('+P.x.toFixed(1)+'px,'+P.y.toFixed(1)+'px) rotate('+P.a.toFixed(1)+'deg) scale('+P.s.toFixed(3)+')';ring.style.transform='translate('+P.x.toFixed(1)+'px,'+P.y.toFixed(1)+'px)'};
+  const geo=()=>{const W=scr.offsetWidth,H=scr.offsetHeight,ox=body.offsetLeft+scr.offsetLeft,oy=body.offsetTop+scr.offsetTop;return{W,H,ox,oy}};
+  const dockTip=()=>{const w=ipad.offsetWidth*.64,h=w*26/720;return{x:ipad.offsetWidth*.09+w*.01,y:-15+h/2,s:w/pen.offsetWidth}};
+  const eio=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2,eout=t=>1-Math.pow(1-t,3);
+  let run=0,running=false;
+  function tween(dur,fn,id){return new Promise(res=>{const t0=performance.now();(function f(now){if(run!==id){res(false);return}const t=Math.min(1,(now-t0)/dur);fn(t);if(t<1)requestAnimationFrame(f);else res(true)})(t0)})}
+  const wait=(ms,id)=>tween(ms,()=>{},id);
+  async function penTo(x,y,dur,id,a=-38,s=1){const f={x:P.x,y:P.y,a:P.a,s:P.s};return tween(dur,t=>{const e=eio(t);P.x=f.x+(x-f.x)*e;P.y=f.y+(y-f.y)*e-22*Math.sin(Math.PI*t);P.a=f.a+(a-f.a)*e;P.s=f.s+(s-f.s)*e;render()},id)}
+  function lift(){const d=dockTip();P.x=d.x;P.y=d.y;P.a=0;P.s=d.s;render();ipad.classList.add('lifted')}
+  async function undock(id){const d=dockTip();const ok=await penTo(d.x,d.y,520,id,0,d.s);if(ok)ipad.classList.remove('lifted')}
+  async function draw(i,id){
+    const p=paths[i],L=p.getTotalLength(),dur=NOTE[i][0]==='circle'?1150:850;
+    const ok=await tween(dur,t=>{const e=eio(t),g=geo(),pt=p.getPointAtLength(e*L);p.style.strokeDashoffset=1-e;P.x=g.ox+pt.x/100*g.W;P.y=g.oy+pt.y/VH*g.H;P.a=-38+5*Math.sin(t*Math.PI*2);render()},id);
+    if(ok)drawn[i]=true;return ok;
+  }
+  function startPt(i){const g=geo(),pt=paths[i].getPointAtLength(0);return[g.ox+pt.x/100*g.W,g.oy+pt.y/VH*g.H]}
+  async function dragTo(fromI,toI,id){
+    /* le stylet attrape l'écran à droite et le fait glisser vers la gauche (ou l'inverse), comme un vrai swipe */
+    const g=geo(),back=toI<fromI,W=track.clientWidth;
+    const sx=g.ox+g.W*(back?.2:.82),ex=g.ox+g.W*(back?.8:.22),sy=g.oy+g.H*.6;
+    if(!await penTo(sx,sy,520,id))return false;
+    ring.classList.add('on');track.classList.add('drag');
+    const x0=track.scrollLeft,span=Math.abs(sx-ex);
+    let ok=await tween(760,t=>{const e=eio(t);P.x=sx+(ex-sx)*e;P.y=sy+7*Math.sin(Math.PI*t);render();track.scrollLeft=x0+(back?-1:1)*span*e},id);
+    ring.classList.remove('on');
+    if(!ok){track.classList.remove('drag');return false}
+    const x1=track.scrollLeft,x2=toI*W;
+    ok=await tween(Math.abs(toI-fromI)>1?820:380,t=>{track.scrollLeft=x1+(x2-x1)*eout(t)},id);
+    track.classList.remove('drag');
+    if(ok)track.scrollLeft=x2;return ok;
+  }
+  async function cycle(id){
+    let at=idx();
+    if(!ipad.classList.contains('lifted'))lift();
+    while(run===id){
+      if(!drawn[at]){
+        const[x,y]=startPt(at);
+        if(!await penTo(x,y,780,id))return;
+        if(!await draw(at,id))return;
+        if(!await wait(1700,id))return;
+      }else if(!await wait(1700,id))return;
+      if(at<n-1){if(!await dragTo(at,at+1,id))return;at++}
+      else{if(!await dragTo(at,0,id))return;eraseAll();at=0}
+    }
+  }
+
+  /* ---------- lecture automatique, pause, reprise ---------- */
+  let inView=false,manual=false,timer=0;
+  function start(){if(RMq||manual||running||!inView||document.hidden)return;running=true;if(hint)hint.classList.add('gone');cycle(++run)}
+  function stop(){if(!running&&!ipad.classList.contains('lifted'))return;running=false;const id=++run;ring.classList.remove('on');track.classList.remove('drag');
+    track.scrollLeft=Math.round(track.scrollLeft/track.clientWidth)*track.clientWidth;if(ipad.classList.contains('lifted'))undock(id)}
+  function pauseFor(ms){clearTimeout(timer);stop();timer=setTimeout(start,ms)}
+  scr.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse')pauseFor(2600)});
+  scr.addEventListener('pointerleave',e=>{if(e.pointerType==='mouse'){clearTimeout(timer);timer=setTimeout(start,2600)}});
+  track.addEventListener('pointerdown',e=>{clearTimeout(timer);if(e.pointerType!=='mouse')pauseFor(9000)});
+  track.addEventListener('touchstart',()=>pauseFor(9000),{passive:true});
+  const nav=fn=>()=>{pauseFor(9000);fn()};
+  dots.forEach((d,k)=>d.addEventListener('click',nav(()=>go(k))));
+  prev.addEventListener('click',nav(()=>go(idx()-1)));next.addEventListener('click',nav(()=>go(idx()+1)));
+  track.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();pauseFor(9000);go(idx()+1)}if(e.key==='ArrowLeft'){e.preventDefault();pauseFor(9000);go(idx()-1)}});
+  playBtn.addEventListener('click',()=>{manual=!manual;playBtn.setAttribute('aria-pressed',manual);playBtn.setAttribute('aria-label',manual?'Reprendre le défilement automatique':'Mettre en pause le défilement automatique');clearTimeout(timer);manual?stop():start()});
+  document.addEventListener('visibilitychange',()=>{document.hidden?stop():setTimeout(start,400)});
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(es=>es.forEach(e=>{inView=e.isIntersecting&&e.intersectionRatio>=.4;if(inView){stage.classList.add('in');clearTimeout(timer);timer=setTimeout(start,900)}else{clearTimeout(timer);stop()}}),{threshold:[0,.18,.4,.6]}).observe(stage);
+  }else{stage.classList.add('in');inView=true;setTimeout(start,900)}
+
+  /* ---------- glisser à la souris ---------- */
+  let down=false,sx0=0,sl0=0;
+  track.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0)return;down=true;sx0=e.clientX;sl0=track.scrollLeft;track.classList.add('drag')});
+  addEventListener('pointermove',e=>{if(down)track.scrollLeft=sl0-(e.clientX-sx0)});
+  addEventListener('pointerup',()=>{if(!down)return;down=false;track.classList.remove('drag');go(idx())});
+})();
+</script></body>
 </html>

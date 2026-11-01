@@ -61,9 +61,11 @@ let streak=0;
 const _validate=validateQcm;
 validateQcm=function(ch,j){
   const key=ch+':'+j,before=state.answers[key],rep0=!!(anView&&anView.showReport);
+  const lastCh=ch;
   _validate.apply(this,arguments);
   const a=state.answers[key];
   if(!a||a===before)return;
+  try{if(typeof mjActAdd==='function')mjActAdd();localStorage.setItem('mj_last_v1',JSON.stringify({mod:currentModuleId,ch:lastCh}))}catch(e){}
   answered(ch,j,a,rep0);
 };
 function crown(n){
