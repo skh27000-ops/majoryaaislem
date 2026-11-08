@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -321,37 +321,6 @@
     </div>
   </div>
 </div>
-<!-- ===== MODAL: SÉLECTION DU SEMESTRE (1ÈRE ANNÉE : S1 / S2) ===== -->
-<div class="overlay" id="ov-semester-select">
-  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="semModalTitle" style="max-width:560px">
-    <button class="x" data-close aria-label="Fermer">×</button>
-    <p class="fm-meta"><span id="semModBadge">1ère Année</span><span class="fm-dot"></span><span>Choix du semestre</span></p>
-    <div style="display:flex;align-items:center;gap:16px;margin:10px 0 16px">
-      <div id="semModIco" style="width:62px;height:62px;flex:none;display:grid;place-items:center;font-size:2.8rem">💀</div>
-      <div>
-        <h3 class="fm-title" id="semModalTitle" style="margin:0;font-size:1.75rem">Anatomie</h3>
-        <p class="fm-sub" style="margin:4px 0 0">Choisis le semestre à travailler :</p>
-      </div>
-    </div>
-
-    <div class="sem-cards-grid">
-      <div class="sem-card s1" onclick="applySemesterChoice('s1')" role="button" tabindex="0">
-        <span class="sem-card-badge">S1</span>
-        <div class="sem-card-ico">📘</div>
-        <h4>1er Semestre</h4>
-        <p>Cours &amp; Annales du S1</p>
-        <button class="sem-card-btn" type="button">Choisir S1 →</button>
-      </div>
-      <div class="sem-card s2" onclick="applySemesterChoice('s2')" role="button" tabindex="0">
-        <span class="sem-card-badge">S2</span>
-        <div class="sem-card-ico">📙</div>
-        <h4>2ème Semestre</h4>
-        <p>Cours &amp; Annales du S2</p>
-        <button class="sem-card-btn" type="button">Choisir S2 →</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div id="toasts"></div>
 
@@ -387,6 +356,26 @@
 <script src="data/justifications-otr.js"></script>
 <script src="data/qcm-ssh.js"></script>
 <script src="data/justifications-ssh.js"></script>
+<script src="data/qcm-anatomie.js"></script>
+<script src="data/qcm-anatomie-s2.js"></script>
+<script src="data/justifications-anatomie.js"></script>
+<script src="data/justifications-anatomie-s2.js"></script>
+<script src="data/qcm-biochimie.js"></script>
+<script src="data/justifications-biochimie.js"></script>
+<script src="data/qcm-biophysique.js"></script>
+<script src="data/justifications-biophysique.js"></script>
+<script src="data/qcm-chimie.js"></script>
+<script src="data/justifications-chimie.js"></script>
+<script src="data/qcm-biostat.js"></script>
+<script src="data/justifications-biostat.js"></script>
+<script src="data/qcm-cytologie.js"></script>
+<script src="data/justifications-cytologie.js"></script>
+<script src="data/qcm-physiologie.js"></script>
+<script src="data/justifications-physiologie.js"></script>
+<script src="data/qcm-histologie.js"></script>
+<script src="data/justifications-histologie.js"></script>
+<script src="data/qcm-embryologie.js"></script>
+<script src="data/justifications-embryologie.js"></script>
 
 <script src="assets/icons.js"></script>
 <script>
@@ -402,16 +391,16 @@ const ACADEMIC_YEARS = {
     subTitle: 'Université de Mostaganem · 1ère année',
     desc: 'Programme officiel du 1er cycle · 10 modules fondamentaux',
     modules: [
-      { id:'anatomie', ico:'💀', name:'Anatomie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Anatomie générale et appareil locomoteur · S1 & S2' },
-      { id:'cytologie', ico:'🔬', name:'Cytologie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biologie cellulaire et génétique · S1 & S2' },
-      { id:'biochimie', ico:'🧬', name:'Biochimie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biochimie structurale et métabolique · S1 & S2' },
-      { id:'biophysique', ico:'⚛️', name:'Biophysique', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biophysique médicale et rayonnements · S1 & S2' },
-      { id:'biostat', ico:'📊', name:'Biostat', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Biostatistiques et épidémiologie · S1 & S2' },
-      { id:'chimie', ico:'🧪', name:'Chimie', active:true, chaps:0, qcm:0, hasSemesters:true, desc:'Chimie générale et organique · S1 & S2' },
-      { id:'embryologie', ico:'🐣', name:'Embryologie', active:true, chaps:0, qcm:0, desc:'Embryologie générale et organogenèse' },
-      { id:'physiologie', ico:'⚡', name:'Physiologie', active:true, chaps:0, qcm:0, desc:'Physiologie générale et grands systèmes' },
-      { id:'histologie', ico:'🧫', name:'Histologie', active:true, chaps:0, qcm:0, desc:'Histologie générale et étude des tissus' },
-      { id:'ssh', ico:'🤝', name:'SSH', active:true, chaps:7, qcm:139, desc:'Santé, Société et Humanité · 7 Annales d\'EMD (FR & EN)' },
+      { id:'anatomie', ico:'💀', name:'Anatomie', active:true, chaps:46, qcm:336, desc:'Programme officiel · 42 cours + 4 TP · 336 QCMs (S1 + S2, EMD 2020-2025 + TP)' },
+      { id:'cytologie', ico:'🔬', name:'Cytologie', active:true, chaps:12, qcm:213, desc:'Biologie cellulaire & cytologie · 12 cours officiels · 213 QCMs (EMD & S2 2019-2026)' },
+      { id:'biochimie', ico:'🧬', name:'Biochimie', active:true, chaps:20, qcm:390, desc:'Biochimie structurale & métabolique · 20 cours officiels · 390 QCMs (S1 + S2, 2019-2026)' },
+      { id:'biophysique', ico:'⚛️', name:'Biophysique', active:true, chaps:20, qcm:247, desc:'Biophysique médicale & rayonnements · 16 cours officiels + 4 thèmes · 247 QCMs (S1 + S2, EMD 2018-2026)' },
+      { id:'biostat', ico:'📊', name:'Biostat', active:true, chaps:19, qcm:93, desc:'Biostatistiques & probabilités · 19 cours officiels · 93 QCMs (EMD 2019-2026)' },
+      { id:'chimie', ico:'🧪', name:'Chimie', active:true, chaps:10, qcm:105, desc:'Chimie générale & organique · 8 cours officiels + 2 thèmes · 105 QCMs (S1 + S2, EMD 2020-2026)' },
+      { id:'embryologie', ico:'🐣', name:'Embryologie', active:true, chaps:16, qcm:60, desc:'Embryologie générale & organogenèse · 16 cours officiels · 60 QCMs (EMD 2025-2026 Mostaganem)' },
+      { id:'physiologie', ico:'⚡', name:'Physiologie', active:true, chaps:14, qcm:190, desc:'Physiologie générale & métabolique · 14 cours officiels · 190 QCMs (EMD 2019-2026 + Annales)' },
+      { id:'histologie', ico:'🧫', name:'Histologie', active:true, chaps:11, qcm:214, desc:'Histologie générale & étude des tissus · 11 cours officiels · 214 QCMs (EMD 2019-2026 + Annales)' },
+      { id:'ssh', ico:'🤝', name:'SSH', active:true, chaps:24, qcm:139, desc:'Santé, Société et Humanité · 24 cours officiels (Programme annuel)' },
       { id:'gen1', ico:'📚', name:'Général / Transversal 1A', desc:'Questions transversales communes aux 10 modules de 1ère année', transversal:true }
     ]
   },
@@ -423,12 +412,12 @@ const ACADEMIC_YEARS = {
     subTitle: 'Université de Mostaganem · 4ème année',
     desc: 'Programme officiel du 2ème cycle · 6 modules cliniques',
     modules: [
-      { id:'cardio', ico:'❤️', name:'Cardiologie', active:true, chaps:25, qcm:510, desc:'Pathologies cardiovasculaires, valvulopathies, coronaropathies, HTA · 25 cours officiels' },
+      { id:'cardio', ico:'❤️', name:'Cardiologie', active:true, chaps:25, qcm:503, desc:'Pathologies cardiovasculaires, valvulopathies, coronaropathies, HTA · 25 cours officiels' },
       { id:'infectieux', ico:'🦠', name:'Infectiologie', active:true, chaps:27, qcm:80, desc:'Maladies infectieuses et transmissibles, antibiothérapie · 27 cours officiels' },
-      { id:'hemato', ico:'🩸', name:'Hémato-Oncologie', active:true, chaps:22, qcm:145, desc:'Hémopathies bénignes et malignes, anémies, hémostase, oncologie générale · 22 cours officiels' },
-      { id:'neuro', ico:'🧠', name:'Neurologie', active:true, chaps:29, qcm:650, desc:'Annales officielles EMD Mostaganem & Alger (2022-2026)' },
+      { id:'hemato', ico:'🩸', name:'Hémato-Oncologie', active:true, chaps:22, qcm:127, desc:'Hémopathies bénignes et malignes, anémies, hémostase, oncologie générale · 22 cours officiels' },
+      { id:'neuro', ico:'🧠', name:'Neurologie', active:true, chaps:29, qcm:597, desc:'Annales officielles EMD Mostaganem & Alger (2022-2026)' },
       { id:'gastro', ico:'🩺', name:'Gastro-entérologie', active:true, chaps:30, qcm:184, desc:'Évaluation en Hépatologie, Gastro-entérologie et Chirurgie Viscérale · 30 cours officiels' },
-      { id:'pneumo', ico:'🫁', name:'Pneumologie', active:true, chaps:22, qcm:130, desc:'Pathologies respiratoires, infections, BPCO, asthme, cancer · 22 cours officiels' },
+      { id:'pneumo', ico:'🫁', name:'Pneumologie', active:true, chaps:22, qcm:124, desc:'Pathologies respiratoires, infections, BPCO, asthme, cancer · 22 cours officiels' },
       { id:'gen4', ico:'📚', name:'Général / Transversal 4A', desc:'Questions transversales communes aux 6 modules de 4ème année', transversal:true }
     ]
   },
@@ -440,12 +429,12 @@ const ACADEMIC_YEARS = {
     subTitle: 'Université de Mostaganem · 5ème année',
     desc: 'Programme officiel du 2ème cycle · 6 modules cliniques',
     modules: [
-      { id:'endo', ico:'🩺', name:'Endocrinologie', active:true, chaps:25, qcm:374, desc:'Annales complètes EMD, contrôles et rattrapages' },
-      { id:'otr', ico:'🦴', name:'OTR (Orthopédie - Traumatologie - Rhumatologie - MPR)', active:true, chaps:48, qcm:695, desc:'Auto-évaluation officielle et EMD Mostaganem - Dr Belkacem Aw.Bk' },
-      { id:'uro', ico:'🫘', name:'Uro-néphrologie', active:true, chaps:34, qcm:973, desc:'Urologie et néphrologie · 22 cours & 12 TD officiels' },
-      { id:'psy', ico:'🧠', name:'Psychiatrie', active:true, chaps:23, qcm:220, desc:'Psychiatrie et santé mentale · 23 cours & TD · 220 QCM d\'annales certifiées (Mostaganem & Oran)' },
-      { id:'gyn', ico:'🤰', name:'Gynécologie', active:true, chaps:37, qcm:531, desc:'Gynécologie et obstétrique · 37 cours officiels · 531 QCM d\'annales' },
-      { id:'ped', ico:'👶', name:'Pédiatrie', active:true, chaps:57, qcm:192, desc:'Pédiatrie et néonatalogie · 49 cours & 8 TD officiels' },
+      { id:'endo', ico:'🩺', name:'Endocrinologie', active:true, chaps:25, qcm:369, desc:'Annales complètes EMD, contrôles et rattrapages' },
+      { id:'otr', ico:'🦴', name:'OTR (Orthopédie - Traumatologie - Rhumatologie - MPR)', active:true, chaps:45, qcm:686, desc:'Annales Officielles Mostaganem & Banque Oran · 686 QCM' },
+      { id:'uro', ico:'🫘', name:'Uro-néphrologie', active:true, chaps:34, qcm:920, desc:'Urologie et néphrologie · 22 cours & 12 TD officiels' },
+      { id:'psy', ico:'🧠', name:'Psychiatrie', active:true, chaps:23, qcm:197, desc:'Psychiatrie et santé mentale · 23 cours & TD · 197 QCM d\'annales certifiées (Mostaganem & Oran)' },
+      { id:'gyn', ico:'🤰', name:'Gynécologie', active:true, chaps:37, qcm:466, desc:'Gynécologie et obstétrique · 37 cours officiels · 466 QCM d\'annales' },
+      { id:'ped', ico:'👶', name:'Pédiatrie', active:true, chaps:57, qcm:190, desc:'Pédiatrie et néonatalogie · 49 cours & 8 TD officiels' },
       { id:'gen5', ico:'📚', name:'Général / Transversal 5A', desc:'Questions transversales communes aux modules de 5ème année', transversal:true }
     ]
   }
@@ -473,7 +462,7 @@ const MODULE_CONFIGS = {
     title: 'Cardiologie',
     ico: '❤️',
     fullName: 'Cardiologie & Pathologies Vasculaires',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ALGER · 4ÈME ANNÉE · 25 COURS OFFICIELS · 510 QCM D\'ANNALES CERTIFIÉES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ALGER · 4ÈME ANNÉE · 25 COURS OFFICIELS · 503 QCM D\'ANNALES CERTIFIÉES',
     chapters: [
       "Ecg normal",
       "Rhumatisme articulaire aigue",
@@ -552,7 +541,7 @@ const MODULE_CONFIGS = {
     title: 'Endocrinologie',
     ico: '🩺',
     fullName: 'Endocrinologie, Diabétologie et Maladies Métaboliques',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 5ÈME ANNÉE · 25 CHAPITRES · 374 QCM D\'ANNALES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 5ÈME ANNÉE · 25 CHAPITRES · 369 QCM D\'ANNALES',
     chapters: [
       "Syndrome métabolique",
       "Diabète : diagnostic et classification",
@@ -628,7 +617,7 @@ const MODULE_CONFIGS = {
     title: 'Pneumologie',
     ico: '🫁',
     fullName: 'Pneumo-phtisiologie & Pathologies Respiratoires',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 22 COURS OFFICIELS · 130 QCM D\'ANNALES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 22 COURS OFFICIELS · 124 QCM D\'ANNALES',
     chapters: [
       "Épidémiologie et microbiologie de la tuberculose",
       "Diagnostic et traitement de la tuberculose",
@@ -662,7 +651,7 @@ const MODULE_CONFIGS = {
     title: 'Hémato-Oncologie',
     ico: '🩸',
     fullName: 'Hématologie Clinique, Biologique & Oncologie Médicale',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 22 COURS OFFICIELS · 145 QCM D\'ANNALES CERTIFIÉES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 22 COURS OFFICIELS · 127 QCM D\'ANNALES CERTIFIÉES',
     chapters: [
       "Anémies par carence martiale",
       "Anémies par carence en facteurs anti-pernicieux",
@@ -696,7 +685,7 @@ const MODULE_CONFIGS = {
     title: 'Psychiatrie',
     ico: '🧠',
     fullName: 'Psychiatrie & Santé Mentale',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 18 COURS & 5 TD OFFICIELS · 220 QCM D\'ANNALES CERTIFIÉES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 18 COURS & 5 TD OFFICIELS · 197 QCM D\'ANNALES CERTIFIÉES',
     chapters: [
             "Introduction générale à la santé mentale",
             "Trouble délirant",
@@ -731,7 +720,7 @@ const MODULE_CONFIGS = {
     title: 'Gynécologie',
     ico: '🤰',
     fullName: 'Gynécologie & Obstétrique',
-    subText: 'FACULTÉS DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 37 COURS OFFICIELS · 531 QCM D\'ANNALES CERTIFIÉES',
+    subText: 'FACULTÉS DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 37 COURS OFFICIELS · 466 QCM D\'ANNALES CERTIFIÉES',
     chapters: [
             "Le Cycle menstruel",
             "Fécondation",
@@ -780,57 +769,54 @@ const MODULE_CONFIGS = {
     title: 'OTR',
     ico: '🦴',
     fullName: 'Orthopédie - Traumatologie - Rhumatologie - MPR',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM • 5ÈME ANNÉE • 48 CHAPITRES • 695 QCM D\'AUTO-ÉVALUATION (DR BELKACEM)',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM • 5ÈME ANNÉE • 45 COURS • ANNALES OFFICIELLES MOSTAGANEM (2019-2026: 144 QCM) & BANQUE ORAN (558 QCM)',
     chapters: [
-      "Arthrite septique à germe banal",
-      "Arthrose",
+      "Algoneurodystrophie",
+      "Arthrite septique",
+      "Arthrose (hanche, genou)",
       "Boiterie chez l'enfant",
-      "Complications de l'immobilité et du décubitus",
+      "Complications de l'immobilité et décubitus",
+      "Connectivites",
       "Déviations rachidiennes",
       "Épaule douloureuse",
-      "Fractures bimalléolaires",
-      "Fracture de l'extrémité inférieure du radius",
-      "Fracture de la diaphyse humérale",
-      "Fracture du col du fémur",
-      "Fractures du massif trochantérien",
-      "Fractures du pilon tibial",
-      "Fracture du scaphoïde carpien",
-      "Fractures de jambe",
-      "Maladies auto-immunes et articulaires (PR et spondylarthrite)",
-      "La goutte et arthropathies microcristallines",
-      "Fractures de l'extrémité supérieure de l'humérus et palette",
-      "Fractures de la clavicule",
-      "Fractures des deux os de l'avant-bras",
-      "Ostéomyélite aiguë de l'enfant : diagnostic et traitement",
-      "Les fractures des membres (Traumatologie générale)",
-      "Syndrome douloureux régional complexe (SDRC / Algodystrophie)",
-      "Principes de base en MPR et complications de décubitus",
-      "Lombosciatique",
-      "Infections ostéo-articulaires de l'enfant",
-      "Situations de handicap et concept de qualité",
-      "Luxation congénitale de la hanche",
-      "Séquelles de l'amputation et appareillage",
-      "Traumatisme du rachis",
+      "Fracture de jambe ouverte et fermée",
+      "Fracture de l'anneau pelvien",
+      "Fracture de l'extrémité proximale de l'avant-bras",
+      "Fracture de l'humérus",
+      "Fracture des os du carpe",
+      "Fracture diaphysaire des deux os de l'avant-bras",
+      "Fracture du cou du pied",
+      "Fracture du fémur proximal",
+      "Fracture du poignet",
+      "Généralités Fractures de l'adulte",
+      "Généralités Fractures de l'enfant",
+      "Infections ostéo-articulaires",
+      "Les amputations des membres",
+      "Lésions nerveuses périphériques",
+      "Les maladies luxantes de la hanche",
+      "Les traumatismes de l'épaule",
+      "Les traumatismes vertébraux médullaires",
+      "Lombalgies et lombosciatalgies",
       "Luxation du coude",
-      "Luxation du coude (Partie 2)",
-      "Membre supérieur et préhension",
-      "Luxation traumatique de la hanche",
-      "Syndrome du canal carpien et compressions nerveuses",
-      "Spondylarthrites (incluant spondylarthrite ankylosante)",
-      "Ostéopathies déminéralisantes (ostéoporose, ostéomalacie)",
-      "Membre inférieur et locomotion (Marche, Bassin, Genou, Cheville)",
+      "Mal de Pott et tuberculose ostéo-articulaire",
       "Malformations congénitales du pied chez l'enfant",
-      "Prise en charge des atteintes articulaires (dégénératives et inflammatoires)",
-      "Traumatismes du poignet (fractures du poignet)",
-      "Traumatismes de l'épaule (luxation, disjonction acromio-claviculaire)",
-      "Tumeurs osseuses (bénignes et malignes)",
-      "Traumatismes ligamentaires du genou",
-      "Traumatismes ligamentaires du genou (Partie 2)",
-      "Traumatismes osseux du genou (rotule, plateaux tibiaux)",
-      "Fractures de l'extrémité proximale des 2 os de l'avant-bras",
+      "Membre inférieur et locomotion",
+      "Membre supérieur et préhension",
+      "Ostéopathies reminéralisantes",
+      "Paralysie obstétricale du plexus brachial",
+      "PEC des atteintes articulaires",
+      "PEC des lésions traumatiques en MPR",
+      "Polyarthrite rhumatoïde",
+      "Principes et base en MPR",
+      "Rhumatisme métabolique (goutte)",
+      "Situations d'handicap et qualité de vie",
+      "Spondylarthrites",
       "Syndrome des loges",
-      "Tuberculose ostéo-articulaire et Mal de Pott"
-],
+      "Syndrome du canal carpien",
+      "Traumatisme du bassin",
+      "Traumatismes ligamentaires et osseux du genou",
+      "Tumeurs osseuses"
+    ],
     getRawQcms: () => (window.QCM_OTR && Array.isArray(window.QCM_OTR)) ? window.QCM_OTR : [],
     getJustifications: () => (window.JUSTIFICATIONS_OTR || {})
   },
@@ -840,7 +826,7 @@ const MODULE_CONFIGS = {
     title: 'Neurologie',
     ico: '🧠',
     fullName: 'Neurologie Clinique & Neurochirurgie',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 29 COURS OFFICIELS · 650 QCM D\'ANNALES CERTIFIÉES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 4ÈME ANNÉE · 29 COURS OFFICIELS · 597 QCM D\'ANNALES CERTIFIÉES',
     chapters: [
       "Neuropathies périphériques",
       "Syndrome de Guillain-Barré (SGB)",
@@ -881,7 +867,7 @@ const MODULE_CONFIGS = {
     title: 'Pédiatrie',
     ico: '👶',
     fullName: 'Pédiatrie & Néonatalogie',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 5ÈME ANNÉE · 49 COURS & 8 TD OFFICIELS · 192 QCM DISPONIBLES',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 5ÈME ANNÉE · 49 COURS & 8 TD OFFICIELS · 190 QCM DISPONIBLES',
     chapters: [
       
       "Détresse respiratoire néonatale",
@@ -951,7 +937,7 @@ const MODULE_CONFIGS = {
     title: 'Uro-néphrologie',
     ico: '🫘',
     fullName: 'Urologie & Néphrologie',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 973 QCM DISPONIBLES · CORRIGÉS OFFICIELS',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 5ÈME ANNÉE · 920 QCM DISPONIBLES · CORRIGÉS OFFICIELS',
     chapters: [
       
       "Cancer de la prostate",
@@ -995,133 +981,311 @@ const MODULE_CONFIGS = {
   'anatomie': {
     id: 'anatomie',
     year: '1ere',
-    hasSemesters: true,
     title: 'Anatomie',
     ico: '💀',
     fullName: 'Anatomie Générale & Appareil Locomoteur',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    semesters: { s1: [], s2: [] },
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 42 COURS + 4 TP',
+    chapters: [
+      "Généralités sur le corps humain",
+      "Généralités sur l'ostéologie",
+      "La ceinture scapulaire (clavicule et scapula)",
+      "L'humérus",
+      "Squelette de l'avant-bras (ulna et radius)",
+      "Squelette de la main",
+      "Généralités sur l'arthrologie",
+      "L'articulation de l'épaule",
+      "L'articulation du coude",
+      "L'articulation du poignet",
+      "L'articulation de la main",
+      "Généralités sur la myologie",
+      "Les muscles de l'épaule",
+      "Les muscles du bras",
+      "Les muscles de l'avant-bras",
+      "Les muscles de la main",
+      "Généralités sur l'angiologie",
+      "Vascularisation artérielle du membre thoracique",
+      "Les veines du membre thoracique",
+      "Lymphatiques du membre thoracique",
+      "Les artères de la main",
+      "Généralités sur la névrologie",
+      "Plexus brachial",
+      "Les nerfs du membre thoracique",
+      "L'os coxal",
+      "Le fémur et patella",
+      "Les os de la jambe (tibia et fibula)",
+      "Les os du pied",
+      "L'articulation coxo-fémorale",
+      "L'articulation du genou",
+      "L'articulation talo-crurale (de la cheville)",
+      "Les articulations du pied",
+      "Les muscles de la hanche",
+      "Les muscles de la cuisse",
+      "Les muscles de la jambe",
+      "Les muscles du pied",
+      "L'artère fémorale",
+      "L'artère poplitée",
+      "Les artères de la jambe",
+      "Les artères du pied",
+      "Plexus lombaire (nerf lombaire et nerf fémoral)",
+      "Plexus sacral (nerf sciatique)",
+"TP · Schéma du coude",
+"TP · Schéma 2 · Coupe du bras",
+"TP · Pli du coude (2024-2025)",
+"TP · Triangle fémoral (2023-2024)"
+    ],
     getRawQcms: () => (window.QCM_ANATOMIE && Array.isArray(window.QCM_ANATOMIE)) ? window.QCM_ANATOMIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_ANATOMIE || {})
   },
   'cytologie': {
     id: 'cytologie',
     year: '1ere',
-    hasSemesters: true,
     title: 'Cytologie',
     ico: '🔬',
     fullName: 'Biologie Cellulaire & Cytologie',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    semesters: { s1: [], s2: [] },
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 12 COURS',
+    chapters: [
+      "Organisation générale de la cellule (Eucaryotes, Procaryotes, Virus)",
+      "Les méthodes d'études de la cellule (Microscopie, Échantillons)",
+      "La membrane plasmique (Structure, Transport, Adhésivité)",
+      "Le cytosquelette",
+      "Hyaloplasme",
+      "Différenciation de la membrane plasmique",
+      "Le Système Endomembranaire (REG, REL, Golgi, Lysosomes, Endosomes)",
+      "Le noyau interphasique",
+      "Les ribosomes",
+      "Le cycle cellulaire",
+      "La mitochondrie",
+      "Les peroxysomes"
+    ],
     getRawQcms: () => (window.QCM_CYTOLOGIE && Array.isArray(window.QCM_CYTOLOGIE)) ? window.QCM_CYTOLOGIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_CYTOLOGIE || {})
   },
   'biochimie': {
     id: 'biochimie',
     year: '1ere',
-    hasSemesters: true,
     title: 'Biochimie',
     ico: '🧬',
     fullName: 'Biochimie Structurale & Métabolique',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    semesters: { s1: [], s2: [] },
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 20 COURS · 390 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+      "Biochimie structurale des glucides",
+      "Glycolyse et cycle de Krebs",
+      "La néoglucogenèse",
+      "La voie des pentoses phosphate",
+      "Métabolisme du glycogène",
+      "Les lipides structuraux",
+      "Lipides simples",
+      "Lipides complexes",
+      "Métabolisme des acides gras",
+      "Le Cholestérol",
+      "Les Lipoprotéines",
+      "La structure des AA",
+      "Les propriétés physiques et chimiques des AA",
+      "Études des peptides",
+      "La structure Tridimensionnelle des protéines",
+      "Le métabolisme des AA",
+      "Enzymologie : Définition",
+      "Enzymologie : Structure et Classification",
+      "Les Réactions enzymatiques",
+      "Les enzymes allostériques"
+    ],
     getRawQcms: () => (window.QCM_BIOCHIMIE && Array.isArray(window.QCM_BIOCHIMIE)) ? window.QCM_BIOCHIMIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_BIOCHIMIE || {})
   },
   'biophysique': {
     id: 'biophysique',
     year: '1ere',
-    hasSemesters: true,
     title: 'Biophysique',
     ico: '⚛️',
     fullName: 'Biophysique Médicale',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    semesters: { s1: [], s2: [] },
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 16 COURS + 4 THÈMES',
+    chapters: [
+      "La Radioactivité",
+      "Les rayonnements électromagnétiques",
+      "Les interactions des photons avec la matière",
+      "Les interactions des particules chargées avec la matière",
+      "La production des rayonnements X",
+      "L'effet biologique des rayonnements (1)",
+      "L'effet biologique des rayonnements (2)",
+      "Les lois fondamentales de l'optique géométrique",
+      "Le prisme",
+      "Le dioptre sphérique",
+      "Le miroir sphérique",
+      "L'électrostatique",
+      "Le potentiel électrique",
+      "Le dioptre oculaire",
+      "Les amétropies sphériques",
+      "L'astigmatisme",
+      "Radioprotection, dosimétrie et détection",
+      "Applications médicales (imagerie, médecine nucléaire, radiothérapie)",
+      "Solutions, osmose et diffusion",
+      "Électrocinétique et bioélectricité"
+    ],
     getRawQcms: () => (window.QCM_BIOPHYSIQUE && Array.isArray(window.QCM_BIOPHYSIQUE)) ? window.QCM_BIOPHYSIQUE : [],
     getJustifications: () => (window.JUSTIFICATIONS_BIOPHYSIQUE || {})
   },
   'biostat': {
     id: 'biostat',
     year: '1ere',
-    hasSemesters: true,
     title: 'Biostat',
     ico: '📊',
     fullName: 'Biostatistiques & Épidémiologie',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    semesters: { s1: [], s2: [] },
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 19 COURS',
+    chapters: [
+      "La variabilité et types de variables dans les sciences biomédicales",
+      "Organisation & description des données",
+      "Paramètres de position (1) : La Moyenne et La Médiane",
+      "Paramètres de position (2) : Le Mode et Les Quartiles",
+      "Paramètres de dispersion",
+      "Paramètres de forme",
+      "Statistique Bidimensionnelle (1)",
+      "Statistique Bidimensionnelle (2)",
+      "Théorie des ensembles",
+      "Analyse Combinatoire",
+      "Théorie Des Probabilités (1)",
+      "Théorie Des Probabilités (2)",
+      "Théorie Des Probabilités (3)",
+      "Valeur Informationnelle D'un Test Diagnostique",
+      "Variable Aléatoire Et Loi De Probabilité",
+      "Loi Binomiale & Loi De Poisson",
+      "Loi Normale",
+      "Estimation En Statistique",
+      "Tests D'hypothèse"
+    ],
     getRawQcms: () => (window.QCM_BIOSTAT && Array.isArray(window.QCM_BIOSTAT)) ? window.QCM_BIOSTAT : [],
     getJustifications: () => (window.JUSTIFICATIONS_BIOSTAT || {})
   },
   'chimie': {
     id: 'chimie',
     year: '1ere',
-    hasSemesters: true,
     title: 'Chimie',
     ico: '🧪',
     fullName: 'Chimie Générale & Organique',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    semesters: { s1: [], s2: [] },
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 8 COURS + 2 THÈMES',
+    chapters: [
+      "Atomistique",
+      "Les liaisons chimiques",
+      "Les équilibres chimiques (Acido-basique, Oxydo-réduction, Solubilité)",
+      "La cinétique chimique",
+      "Nomenclature des composés organiques",
+      "La Stéréochimie",
+      "Les effets électroniques",
+      "Mécanismes réactionnels",
+      "Thermochimie et premier principe",
+      "Solutions et calculs de concentration"
+    ],
     getRawQcms: () => (window.QCM_CHIMIE && Array.isArray(window.QCM_CHIMIE)) ? window.QCM_CHIMIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_CHIMIE || {})
   },
   'embryologie': {
     id: 'embryologie',
     year: '1ere',
-    hasSemesters: false,
     title: 'Embryologie',
     ico: '🐣',
     fullName: 'Embryologie Générale & Développement',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 16 COURS · 60 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+      "L'introduction à l'embryologie",
+      "L'appareil génital féminin",
+      "L'appareil génital mâle",
+      "La fécondation",
+      "La 1ère semaine de développement embryonnaire",
+      "La 2ème semaine de développement embryonnaire",
+      "La 3ème semaine de développement embryonnaire",
+      "La 4ème semaine de développement embryonnaire",
+      "Embryon de 32 jours",
+      "La reconnaissance materno-fœtale",
+      "Évolution définitive des annexes embryonnaires",
+      "Évolution définitive des feuillets embryonnaires",
+      "L'accouchement (La naissance)",
+      "La Grossesse gémellaire",
+      "Les cellules souches",
+      "Les malformations embryonnaires (tératologie)"
+    ],
     getRawQcms: () => (window.QCM_EMBRYOLOGIE && Array.isArray(window.QCM_EMBRYOLOGIE)) ? window.QCM_EMBRYOLOGIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_EMBRYOLOGIE || {})
   },
   'physiologie': {
     id: 'physiologie',
     year: '1ere',
-    hasSemesters: false,
     title: 'Physiologie',
     ico: '⚡',
     fullName: 'Physiologie Générale',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 14 COURS',
+    chapters: [
+      "Le potentiel de repos",
+      "Le potentiel d'action",
+      "Les synapses et la transmission synaptique",
+      "La synapse neuro-neurale",
+      "La synapse neuro-musculaire",
+      "Les neurotransmetteurs",
+      "La physiologie du muscle strié squelettique",
+      "La contraction musculaire de MMS",
+      "Le système nerveux autonome",
+      "La ration alimentaire énergétique",
+      "La ration alimentaire non énergétique",
+      "La bioénergétique",
+      "La thermorégulation",
+      "Les Compartiments liquidiens"
+    ],
     getRawQcms: () => (window.QCM_PHYSIOLOGIE && Array.isArray(window.QCM_PHYSIOLOGIE)) ? window.QCM_PHYSIOLOGIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_PHYSIOLOGIE || {})
   },
   'histologie': {
     id: 'histologie',
     year: '1ere',
-    hasSemesters: false,
     title: 'Histologie',
     ico: '🧫',
     fullName: 'Histologie Générale & Tissus',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE',
-    chapters: [],
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 11 COURS · 214 QCM D\'ANNALES CERTIFIÉES',
+    chapters: [
+      "Tissu épithélial : Tissu de revêtements",
+      "Tissu épithélial : Tissu glandulaire",
+      "Les Tissus conjonctifs communs",
+      "Le Tissu sanguin",
+      "Le Tissu cartilagineux",
+      "Le Tissu osseux",
+      "Le Tissu musculaire strié squelettique",
+      "Le Tissu musculaire strié myocardique",
+      "Le Tissu musculaire lisse",
+      "Le Tissu nerveux",
+      "Les fibres nerveuses"
+    ],
     getRawQcms: () => (window.QCM_HISTOLOGIE && Array.isArray(window.QCM_HISTOLOGIE)) ? window.QCM_HISTOLOGIE : [],
     getJustifications: () => (window.JUSTIFICATIONS_HISTOLOGIE || {})
   },
   'ssh': {
     id: 'ssh',
     year: '1ere',
-    hasSemesters: false,
     title: 'SSH',
     ico: '🤝',
     fullName: 'Santé, Société & Humanité',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · 7 SUJETS D\'EMD OFFICIELS (2018-2026) · VERSION BILINGUE FR & EN',
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 1ÈRE ANNÉE · PROGRAMME ANNUEL OFFICIEL · 24 COURS · 139 QCM BILINGUES',
     chapters: [
-      "EMD 2025-2026 (19 Janvier 2026)",
-      "EMD 2024-2025",
-      "EMD 2023-2024",
-      "EMD 2022-2023",
-      "EMD 2020-2021",
-      "EMD 2019-2020",
-      "EMD 2018-2019"
+      "Introduction aux sources du droit",
+      "La vocation humaniste de la médecine",
+      "Le secret médical",
+      "Les instances de contrôle de l'acte médical",
+      "L'informations et consentement du malade",
+      "L'éthique de la Procréation",
+      "Constat médico - légaux",
+      "Le système de santé en Algérie",
+      "Les prélèvements et transplantation d'organes",
+      "L'avortement",
+      "L'euthanasie",
+      "La responsabilité médicale (civile et pénale)",
+      "La Santé et la culture",
+      "Vulnérabilité et stigmatisation",
+      "La décision médicale",
+      "Introduction à l'économie de la santé",
+      "Les dépenses de santé et organisation du système",
+      "La sécurité sociale et le système de soins en Algérie",
+      "La normal pathologique 1 et 2",
+      "La relation soignant-soigné",
+      "Les indicateurs de la santé",
+      "La transition épidémiologique",
+      "Introduction à la santé publique",
+      "La surveillance épidémiologique"
     ],
     getRawQcms: () => (window.QCM_SSH && Array.isArray(window.QCM_SSH)) ? window.QCM_SSH : [],
     getJustifications: () => (window.JUSTIFICATIONS_SSH || {})
@@ -1156,65 +1320,16 @@ function getDefaultModuleForYear(year){
   return 'endo';
 }
 
-/* ================= GESTION DES SEMESTRES (S1 / S2 - 1ÈRE ANNÉE) ================= */
-const SEMESTER_MODULE_IDS = ['anatomie', 'cytologie', 'biochimie', 'biophysique', 'biostat', 'chimie'];
-let pendingSemesterModuleId = null;
-let pendingSemesterTargetView = 'annales';
-
-function isSemesterModule(modId){
-  return SEMESTER_MODULE_IDS.includes(modId);
-}
-
-function getModuleSemester(modId){
-  return localStorage.getItem('majory_sem_' + modId) || 's1';
-}
-
-function openSemesterModal(modId, targetView = 'annales'){
-  pendingSemesterModuleId = modId;
-  pendingSemesterTargetView = targetView;
-  const cfg = MODULE_CONFIGS[modId];
-  if (!cfg) return;
-
-  const badge = $('semModBadge');
-  if (badge) badge.textContent = '1ère Année · ' + cfg.title;
-  const ico = $('semModIco');
-  if (ico) ico.innerHTML = cfg.ico;
-  const title = $('semModalTitle');
-  if (title) title.textContent = cfg.title;
-  openOv('ov-semester-select');
-}
-
-function applySemesterChoice(sem){
-  const modId = pendingSemesterModuleId || currentModuleId;
-  const targetView = pendingSemesterTargetView || 'annales';
-  closeOv('ov-semester-select');
-  
-  localStorage.setItem('majory_sem_' + modId, sem);
-  setActiveModule(modId);
-  
-  if (targetView === 'tracker') {
-    go('tracker');
-    renderTracker();
-  } else {
-    go('annales');
-    openModule(modId);
-    openFacultyModal();
-  }
-}
-
-function setModuleSemester(modId, sem){
-  if (sem !== 's1' && sem !== 's2') sem = 's1';
-  localStorage.setItem('majory_sem_' + modId, sem);
-  buildModuleQcms();
-  loadModuleState(modId);
-  renderAll();
-}
+function isSemesterModule(){ return false; }
 
 const STORAGE_ACTIVE_MOD_KEY = 'majory_active_module_id_v2';
 let currentModuleId = localStorage.getItem(STORAGE_ACTIVE_MOD_KEY) || getDefaultModuleForYear(currentAcademicYear);
 if (!MODULE_CONFIGS[currentModuleId]) currentModuleId = getDefaultModuleForYear(currentAcademicYear);
 
 const YEARS = ['2026', '2025', '2024', '2023', '2022', '2021', '2020/21'];
+// Sessions et types réellement présents dans le module courant (les listes fixes masquaient 2017-2019, 2018/2019, Contrôle, TD…)
+function getSessionYears(){ const s = new Set(); QCMS.forEach(ch => ch.forEach(q => { if (q.y) s.add(String(q.y)); })); return [...s].sort((a, b) => (parseInt(b) || 0) - (parseInt(a) || 0) || b.localeCompare(a)); }
+function getSessionTypes(){ const s = new Set(); QCMS.forEach(ch => ch.forEach(q => { if (q.t) s.add(String(q.t)); })); return [...s].sort(); }
 
 const CHAPTERS = [];
 const QCMS = [];
@@ -1222,11 +1337,7 @@ const QCMS = [];
 function buildModuleQcms(){
   const cfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['cardio'];
   CHAPTERS.length = 0;
-  if (cfg.hasSemesters && cfg.semesters) {
-    const sem = getModuleSemester(cfg.id);
-    const semChaps = cfg.semesters[sem] || [];
-    CHAPTERS.push(...semChaps);
-  } else if (Array.isArray(cfg.chapters)) {
+  if (Array.isArray(cfg.chapters)) {
     CHAPTERS.push(...cfg.chapters);
   }
 
@@ -1235,18 +1346,46 @@ function buildModuleQcms(){
 
   QCMS.length = 0;
   CHAPTERS.forEach(ch => {
-    const filtered = raw.filter(q => q.chapitre === ch);
+    const filtered = raw.filter(q => (q.chapitre === ch || q.chapter === ch));
     const mapped = filtered.map(q => {
-      const pSource = (q.sources && q.sources[0]) || q.source || { annee: '2025', type: 'EMD' };
-      const annee = pSource.annee || '2025';
-      const type = pSource.type || 'EMD';
+      const pSource = (q.sources && q.sources[0]) || q.source || { annee: q.year || '2025', type: q.session || 'EMD' };
+      const annee = pSource.annee || q.year || '2025';
+      const type = pSource.type || q.session || 'EMD';
 
       const justifs = justifsMap[q.id] || q.justifications || {};
-      const choices = Object.entries(q.propositions || {}).map(([letter, text]) => {
-        const isOk = q.bonnes_reponses ? q.bonnes_reponses.includes(letter) : false;
+
+      let propsObj = q.propositions;
+      if (!propsObj && Array.isArray(q.options)) {
+        propsObj = {};
+        q.options.forEach(opt => {
+          propsObj[opt.label] = opt.text_fr || opt.text;
+        });
+      }
+
+      let propsEnObj = q.propositions_en;
+      if (!propsEnObj && Array.isArray(q.options)) {
+        propsEnObj = {};
+        q.options.forEach(opt => {
+          if (opt.text_en) propsEnObj[opt.label] = opt.text_en;
+        });
+      }
+
+      let propsFrObj = q.propositions_fr;
+      if (!propsFrObj && Array.isArray(q.options)) {
+        propsFrObj = {};
+        q.options.forEach(opt => {
+          propsFrObj[opt.label] = opt.text_fr || opt.text;
+        });
+      }
+
+      // null = question sans corrigé officiel (non notée) : on le conserve tel quel
+      const correctList =q.bonnes_reponses === null ? null : (q.bonnes_reponses || q.correct || q.answer || []);
+
+      const choices = Object.entries(propsObj || {}).map(([letter, text]) => {
+        const isOk = correctList ? correctList.includes(letter) : false;
         let why = justifs[letter] || q.explication || '';
         if (!why) {
-          if (q.bonnes_reponses === null) {
+          if (correctList === null) {
             why = 'Question sans corrigé officiel dans les archives de la faculté.';
           } else if (isOk) {
             why = 'Proposition exacte selon les recommandations cliniques.';
@@ -1254,10 +1393,14 @@ function buildModuleQcms(){
             why = 'Proposition inexacte selon les recommandations cliniques.';
           }
         }
-        const textEn = (q.propositions_en && q.propositions_en[letter]) ? q.propositions_en[letter] : null;
-        const textFr = (q.propositions_fr && q.propositions_fr[letter]) ? q.propositions_fr[letter] : text;
+        const textEn = (propsEnObj && propsEnObj[letter]) ? propsEnObj[letter] : null;
+        const textFr = (propsFrObj && propsFrObj[letter]) ? propsFrObj[letter] : text;
         return { letter, t: text, t_fr: textFr, t_en: textEn, ok: isOk ? 1 : 0, w: why };
       });
+
+      const qText = q.question || q.text_fr || q.text || '';
+      const qTextFr = q.question_fr || q.text_fr || qText;
+      const qTextEn = q.question_en || q.text_en || null;
 
       const srcText = (pSource.texte || '') + ' ' + (q.id || '');
       const isAlger = /alger/i.test(srcText) || (q.sources && q.sources.some(s => /alger/i.test(s.texte || '')));
@@ -1268,17 +1411,21 @@ function buildModuleQcms(){
         y: annee,
         t: type,
         sources: q.sources || (q.source ? [q.source] : []),
-        q: q.question,
-        question_fr: q.question_fr || q.question,
-        question_en: q.question_en || null,
+        q: qText,
+        question_fr: qTextFr,
+        question_en: qTextEn,
         c: choices,
-        bonnes_reponses: q.bonnes_reponses,
+        bonnes_reponses: correctList,
         explication: q.explication || '',
         synthese: justifs._synthese || '',
-        remarque: (justifs._remarque || q.remarque || ''),
+        remarque: [justifs._remarque || q.remarque || '', (q.note_cle && !String(justifs._remarque || '').includes(q.note_cle)) ? '⚠ ' + q.note_cle : ''].filter(Boolean).join(' '),
         isAlger: !!isAlger,
         isOran: !!isOran,
-        faculty: isAlger ? 'Alger' : (isOran ? 'Oran' : (q.faculty || 'Mostaganem'))
+        faculty: isAlger ? 'Alger' : (isOran ? 'Oran' : (q.faculty || 'Mostaganem')),
+        image: q.image || '',
+        image_legende: q.image_legende || '',
+        groupe: q.groupe || '',
+        tableaux: q.tableaux || null
       };
     });
     QCMS.push(mapped);
@@ -1328,12 +1475,10 @@ function getModuleStorageKeys(modId){
       sc:  'majory_scoring_modes_v2'
     };
   }
-  const cfg = MODULE_CONFIGS[modId];
-  const semSuffix = (cfg && cfg.hasSemesters) ? `_${getModuleSemester(modId)}` : '';
   return {
-    ans: `majory_progression_mostaganem_${modId}${semSuffix}_v2`,
-    trk: `majory_cours_tracker_mostaganem_${modId}${semSuffix}_v2`,
-    sc:  `majory_scoring_modes_${modId}${semSuffix}_v2`
+    ans: `majory_progression_mostaganem_${modId}_v2`,
+    trk: `majory_cours_tracker_mostaganem_${modId}_v2`,
+    sc:  `majory_scoring_modes_${modId}_v2`
   };
 }
 
@@ -1436,6 +1581,21 @@ function switchAcademicYear(year){
 const $ = id => document.getElementById(id);
 const fmt = n => Number(n).toLocaleString('fr-FR');
 
+function escAttr(s){ return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;"); }
+
+function openQImage(btn){
+  const ov = document.createElement("div");
+  ov.className = "q-lightbox";
+  ov.setAttribute("role", "dialog"); ov.setAttribute("aria-modal", "true");
+  ov.innerHTML = `<figure><img alt=""><figcaption></figcaption></figure><button type="button" class="q-lightbox-x" aria-label="Fermer">×</button>`;
+  ov.querySelector("img").src = btn.dataset.src;
+  ov.querySelector("figcaption").textContent = btn.dataset.cap || "";
+  const close = () => { ov.remove(); document.removeEventListener("keydown", onKey); };
+  const onKey = e => { if (e.key === "Escape") close(); };
+  ov.addEventListener("click", close);
+  document.addEventListener("keydown", onKey);
+  document.body.appendChild(ov);
+}
 function toast(msg){
   const t = document.createElement('div'); t.className = 'toast'; t.innerHTML = msg;
   $('toasts').appendChild(t);
@@ -1482,14 +1642,41 @@ function qcmStats(){
   return { ans, ok, stars, retrav, rate: ans ? Math.round(ok / ans * 100) : null };
 }
 
+/* Recherche (sans accents, insensible à la casse) */
+function normS(s){ return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+function filterModCards(v){
+  const t = normS(v).trim();
+  document.querySelectorAll('#an-body .mod-grid .mcard').forEach(c => { c.style.display = (!t || normS((c.querySelector('h3') || c).textContent).includes(t)) ? '' : 'none'; });
+}
+function filterChapRows(v){
+  const t = normS(v).trim();
+  document.querySelectorAll('#an-body .chap-row').forEach(r => {
+    const i = Number(r.dataset.i);
+    let ok = !t || normS(CHAPTERS[i]).includes(t);
+    let hits = 0;
+    if (t) hits = (QCMS[i] || []).filter(q => qInFac(q) && normS((q.q || '') + ' ' + (q.question_fr || '')).includes(t)).length;
+    r.style.display = (ok || hits) ? '' : 'none';
+    let tag = r.querySelector('.srch-hit'); if (tag) tag.remove();
+    if (t && hits) { const p = r.querySelector('.cm'); if (p) p.insertAdjacentHTML('beforeend', ` <b class="srch-hit" style="color:var(--red)">· ${hits} question${hits > 1 ? 's' : ''} trouvée${hits > 1 ? 's' : ''}</b>`); }
+  });
+}
+
+// Question retenue par le filtre de facultés actif (Mosta / Alger / Oran)
+function qInFac(q){
+  let facs; try { facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties(); } catch(e){ facs = ['mosta','alger','oran']; }
+  return facs.includes(q.isAlger ? 'alger' : (q.isOran ? 'oran' : 'mosta'));
+}
+function chapterQsCount(i){ return (QCMS[i] || []).filter(qInFac).length; }
+
 function chapterDone(i){
   const qs = QCMS[i] || [];
-  return qs.length > 0 && qs.every((_, j) => state.answers[i + ':' + j]);
+  const n = qs.filter(qInFac).length;
+  return n > 0 && qs.every((q, j) => !qInFac(q) || state.answers[i + ':' + j]);
 }
 
 function chapterAnswered(i){
   const qs = QCMS[i] || [];
-  return qs.filter((_, j) => state.answers[i + ':' + j]).length;
+  return qs.filter((q, j) => qInFac(q) && state.answers[i + ':' + j]).length;
 }
 
 function trackerStats(){
@@ -1597,22 +1784,21 @@ function modCard(m, i){
   let metaDesc = m.desc || 'Annales en cours de numérisation';
   if (isAct) {
     if (m.chaps > 0) metaDesc = `${m.chaps} chapitres · ${m.qcm} QCM`;
-    else if (isSem) metaDesc = `Semestre 1 & Semestre 2 · Choix S1/S2`;
     else metaDesc = `Programme officiel · En cours`;
   }
 
   return `<article class="mcard" data-mod="${m.id}" title="${m.name}" style="--i:${i}">
-    <span class="mstatus ${isAct ? 'act' : 'prep'}">${isAct ? (isSem ? 'S1 & S2' : 'OUVERT') : 'BIENTÔT'}</span>
+    <span class="mstatus ${isAct ? 'act' : 'prep'}">${isAct ? 'OUVERT' : 'BIENTÔT'}</span>
     <div class="emo">${m.ico}</div>
     <h3>${short}</h3>
     <p class="meta">${metaDesc}</p>
     ${isAct ? `
       <div class="mbar"><i style="width:${pct}%"></i></div>
       <div class="mcard-actions">
-        <button class="mcard-btn trk" type="button" onclick="event.stopPropagation(); ${isSem ? `openSemesterModal('${m.id}', 'tracker')` : `selectTrackerModule('${m.id}'); go('tracker');`}" title="Voir la checklist des cours de ${short}">
+        <button class="mcard-btn trk" type="button" onclick="event.stopPropagation(); selectTrackerModule('${m.id}'); go('tracker');" title="Voir la checklist des cours de ${short}">
           <span>📋 Checklist</span>
         </button>
-        <button class="mcard-btn qcm" type="button" onclick="event.stopPropagation(); ${isSem ? `openSemesterModal('${m.id}', 'annales')` : `setActiveModule('${m.id}'); go('annales'); openModule(); openFacultyModal();`}" title="Pratiquer les QCM de ${short}">
+        <button class="mcard-btn qcm" type="button" onclick="event.stopPropagation(); setActiveModule('${m.id}'); go('annales'); openModule(); openFacultyModal();" title="Pratiquer les QCM de ${short}">
           <span>Entrer →</span>
         </button>
       </div>`
@@ -1634,14 +1820,10 @@ function bindModCard(el){
     const m = MODULES.find(x => x.id === el.dataset.mod);
     if (!m) return;
     if (m.active && MODULE_CONFIGS[m.id]) {
-      if (isSemesterModule(m.id)) {
-        openSemesterModal(m.id, 'annales');
-      } else {
-        setActiveModule(m.id);
-        go('annales');
-        openModule();
-        openFacultyModal();
-      }
+      setActiveModule(m.id);
+      go('annales');
+      openModule();
+      openFacultyModal();
     } else {
       $('prepIco').innerHTML = m.ico;
       $('prepTitle').textContent = m.name;
@@ -1660,7 +1842,7 @@ function bindModCard(el){
 /* ================= ANNALES & SCORING MODES ================= */
 const STORAGE_FACULTY_FILTER_KEY = 'majory_qcm_faculty_filter';
 let savedFacultyFilter = localStorage.getItem(STORAGE_FACULTY_FILTER_KEY) || 'all';
-let anView = { page: 'list', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', faculties: getStoredFaculties(), displayMode: 'single' };
+let anView = { page: 'list', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', faculties: getStoredFaculties(), displayMode: 'single', showFilters: false, showPalette: false };
 let pendingChapterIdx = null;
 
 function getQuestionScore(q, a, mode){
@@ -1713,9 +1895,9 @@ function computeChapterFullSummary(ch){
   const modeOther = modeActive === 'partiel' ? 'tor' : 'partiel';
 
   const qs = QCMS[ch] || [];
-  const gradableQs = qs.filter(q => q.bonnes_reponses !== null && Array.isArray(q.bonnes_reponses) && q.bonnes_reponses.length > 0);
+  const gradableQs = qs.filter(q => qInFac(q) && q.bonnes_reponses !== null && Array.isArray(q.bonnes_reponses) && q.bonnes_reponses.length > 0);
   const totalGradable = gradableQs.length;
-  const totalQuestions = qs.length;
+  const totalQuestions = qs.filter(qInFac).length;
 
   let answeredCount = 0;
   let answeredGradable = 0;
@@ -1727,6 +1909,7 @@ function computeChapterFullSummary(ch){
   let otherFull = 0, otherPartial = 0, otherZero = 0;
 
   qs.forEach((q, j) => {
+    if (!qInFac(q)) return;
     const a = state.answers[ch + ':' + j];
     if (!a || !Array.isArray(a.chosen) || a.chosen.length === 0) return;
     answeredCount++;
@@ -1782,7 +1965,7 @@ function chooseChapter(i){
   i = Number(i);
   if (isNaN(i) || i < 0 || i >= CHAPTERS.length) i = 0;
   pendingChapterIdx = i;
-  const qs = QCMS[i] || [];
+  const qs = (QCMS[i] || []).filter(qInFac);
   const curMode = (state.scoringModes && state.scoringModes[i]) || 'partiel';
 
   const titleEl = $('scmChTitle');
@@ -1875,8 +2058,8 @@ function openChapter(i, qi){
   if (!state.scoringModes[i]) state.scoringModes[i] = 'partiel';
   const savedDisplayMode = localStorage.getItem('majory_qcm_display_mode') || 'single';
   savedFacultyFilter = localStorage.getItem(STORAGE_FACULTY_FILTER_KEY) || 'all';
-  const qs = QCMS[i] || [];
-  const answered = qs.filter((_, j) => state.answers[i + ':' + j]?.chosen?.length > 0).length;
+  const qs = (QCMS[i] || []).filter(qInFac);
+  const answered = (QCMS[i] || []).filter((q, j) => qInFac(q) && state.answers[i + ':' + j]?.chosen?.length > 0).length;
   const isFinished = qs.length > 0 && answered === qs.length;
   anView = { 
     page: 'chapter', 
@@ -1887,7 +2070,9 @@ function openChapter(i, qi){
     fs: 'all', 
     faculties: getStoredFaculties(),
     displayMode: savedDisplayMode,
-    showReport: isFinished 
+    showReport: isFinished,
+    showFilters: false,
+    showPalette: false
   };
 
   const annalesView = $('view-annales');
@@ -2114,7 +2299,7 @@ function getFilteredQcms(ch){
   return qs.map((q, j) => ({ q, j })).filter(({ q, j }) => {
     const qFac = q.isAlger ? 'alger' : (q.isOran ? 'oran' : 'mosta');
     if (!facs.includes(qFac)) return false;
-    if (fy !== 'all' && q.y !== fy) return false;
+    if (fy !== 'all' && String(q.y) !== String(fy)) return false;
     if (ft !== 'all' && q.t !== ft) return false;
     const a = state.answers[ch + ':' + j];
     if (fs === 'star' && !(a && a.star)) return false;
@@ -2172,6 +2357,36 @@ function nextQcm(){
   }
 }
 
+function toggleQcmFilters(){
+  anView.showFilters = !anView.showFilters;
+  const drawer = $('qcm-filters-collapsible');
+  const btn = $('btn-toggle-filters');
+  if (drawer) {
+    drawer.style.display = anView.showFilters ? 'block' : 'none';
+  }
+  if (btn) {
+    btn.classList.toggle('btn-solid', !!anView.showFilters);
+    btn.classList.toggle('btn-ghost', !anView.showFilters);
+    const arrow = btn.querySelector('.toggle-arrow');
+    if (arrow) arrow.textContent = anView.showFilters ? '▲' : '▼';
+  }
+}
+
+function toggleQcmPalette(){
+  anView.showPalette = !anView.showPalette;
+  const drawer = $('qcm-palette-collapsible');
+  const btn = $('btn-toggle-palette');
+  if (drawer) {
+    drawer.style.display = anView.showPalette ? 'block' : 'none';
+  }
+  if (btn) {
+    btn.classList.toggle('btn-solid', !!anView.showPalette);
+    btn.classList.toggle('btn-ghost', !anView.showPalette);
+    const arrow = btn.querySelector('.toggle-arrow');
+    if (arrow) arrow.textContent = anView.showPalette ? '▲' : '▼';
+  }
+}
+
 function prevQcm(){
   if (anView.qi > 0) {
     anView.qi--;
@@ -2222,6 +2437,7 @@ function renderAnnales(){
           </div>
         </div>
       </div>
+      <input type="search" class="srch-in" placeholder="🔍 Rechercher un module…" oninput="filterModCards(this.value)" style="width:100%;max-width:420px;padding:9px 14px;margin:0 0 16px;border:1.5px solid var(--ink);border-radius:10px;font:inherit">
       <div class="mod-grid">${MODULES.filter(m => !m.transversal).map(modCard).join('')}</div>`;
     el.querySelectorAll('.mcard').forEach(bindModCard);
     return;
@@ -2239,9 +2455,6 @@ function renderAnnales(){
 
   if (v.page === 'module'){
     const facBadgeSummary = getFacultyBadgeSummary();
-    const isSem = isSemesterModule(currentModuleId);
-    const curSem = getModuleSemester(currentModuleId);
-    const semLabel = curSem === 's1' ? '1er Semestre (S1)' : '2ème Semestre (S2)';
     el.innerHTML = crumbs + `
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px;flex-wrap:wrap">
         <button class="btn btn-sm btn-solid" onclick="openModuleList()">
@@ -2261,22 +2474,9 @@ function renderAnnales(){
           <div>
             <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
               <span class="chip g">MODULE ACTIF</span>
-              ${isSem ? `<span class="chip" style="background:var(--ink);color:#fff;font-weight:700">${semLabel}</span>` : ''}
             </div>
             <h2 style="font-size:1.9rem;margin:10px 0 4px">${modCfg.ico} ${modCfg.title}</h2>
             <p class="mono" style="font-size:11.5px;color:var(--ink-soft)">${modCfg.subText}</p>
-            ${isSem ? `
-              <div style="margin-top:10px">
-                <div class="sem-switcher">
-                  <span class="sem-lbl">Semestre :</span>
-                  <button class="sem-tab ${curSem === 's1' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's1')">
-                    📘 S1 · 1er Semestre
-                  </button>
-                  <button class="sem-tab ${curSem === 's2' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's2')">
-                    📙 S2 · 2ème Semestre
-                  </button>
-                </div>
-              </div>` : ''}
           </div>
           <div style="text-align:right" class="mono">
             <b style="font-size:1.7rem;color:var(--red)">${qcmStats().ans}</b><span style="font-size:.8rem;color:var(--ink-soft)"> répondus</span><br>
@@ -2297,18 +2497,19 @@ function renderAnnales(){
         <p class="wtitle" style="margin:0">CHAPITRES DU MODULE · <span class="hand" style="font-size:1.15rem">choisis un chapitre</span></p>
         <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Changer de module</button>
       </div>
+      <input type="search" class="srch-in" placeholder="🔍 Rechercher un cours ou une question dans ce module…" oninput="filterChapRows(this.value)" style="width:100%;max-width:520px;padding:9px 14px;margin:0 0 14px;border:1.5px solid var(--ink);border-radius:10px;font:inherit">
       <div class="chap-list">${CHAPTERS.length > 0 ? CHAPTERS.map((c, i) => {
-        const qs = QCMS[i] || [], done = chapterAnswered(i);
-        return `<div class="chap-row" onclick="chooseChapter(${i})">
+        const rawN = (QCMS[i] || []).length, n = chapterQsCount(i), done = chapterAnswered(i);
+        return `<div class="chap-row" data-i="${i}" onclick="chooseChapter(${i})">
           <span class="chap-num">${String(i + 1).padStart(2, '0')}</span>
-          <div><h4>${c}</h4><p class="cm">${qs.length ? qs.length + ' QUESTIONS D\'ANNALES OFFICIELLES' : 'ANNALES EN COURS D\'INDEXATION'}</p></div>
-          ${qs.length ? `<span class="chip ${done === qs.length ? 'g' : ''}">${done}/${qs.length} QCM</span>` : `<span class="chip">BIENTÔT</span>`}
+          <div><h4>${c}</h4><p class="cm">${n ? n + ' QUESTIONS D\'ANNALES OFFICIELLES' : (rawN ? 'AUCUNE QUESTION POUR LES FACULTÉS CHOISIES' : 'ANNALES EN COURS D\'INDEXATION')}</p></div>
+          ${n ? `<span class="chip ${done === n ? 'g' : ''}">${done}/${n} QCM</span>` : `<span class="chip">${rawN ? '0 QCM' : 'BIENTÔT'}</span>`}
           <span class="btn btn-sm btn-ghost">Practise →</span>
         </div>`;
       }).join('') : `
         <div class="empty" style="border:none;padding:50px 20px;text-align:center">
-          <div class="big">${isSem ? (curSem === 's1' ? '📘 S1 · 1er Semestre' : '📙 S2 · 2ème Semestre') : '📚'} En attente des cours</div>
-          <p style="color:var(--ink-soft);margin-top:8px">Les cours officiels ${isSem ? `du <b>${semLabel}</b>` : ''} de ce module seront ajoutés dès réception.</p>
+          <div class="big">📚 En attente des cours</div>
+          <p style="color:var(--ink-soft);margin-top:8px">Les cours officiels de ce module seront ajoutés dès réception.</p>
         </div>`}</div>
       <div style="margin-top:24px;padding-top:16px;border-top:1.5px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
         <button class="btn btn-sm btn-solid" onclick="openModuleList()">← Revenir au choix de module</button>
@@ -2371,12 +2572,7 @@ function renderAnnales(){
     const oranTotal = qs.filter(q => q.isOran).length;
 
     // Faculty-scoped set for status counts
-    const faScoped = qs.map((q, j) => ({ q, j })).filter(({ q }) => {
-      if (fa === 'alger' && !q.isAlger) return false;
-      if (fa === 'oran' && !q.isOran) return false;
-      if (fa === 'mosta' && (q.isAlger || q.isOran)) return false;
-      return true;
-    });
+    const faScoped = qs.map((q, j) => ({ q, j })).filter(({ q }) => qInFac(q));
 
     const filtered = getFilteredQcms(ch);
     const displayMode = v.displayMode || 'single';
@@ -2634,25 +2830,30 @@ function renderAnnales(){
       </div>
     `;
 
-    el.innerHTML = crumbs + navCh + (showReport ? reportHtml : practiceHeaderHtml) + `
-      <div class="card" style="margin-bottom:18px">
-        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px dashed var(--line)">
+    const hasActiveFilters = (fy !== 'all' || ft !== 'all' || fs !== 'all' || (hasExternal && fa !== 'all'));
+
+    const filtersHtml = `
+      <!-- SECTION 1 (MASQUÉE PAR DÉFAUT) : PANNEAU DES FILTRES & SESSIONS -->
+      <div id="qcm-filters-collapsible" class="card" style="display:${anView.showFilters ? 'block' : 'none'};margin-bottom:16px;background:var(--card);border:1.5px solid var(--ink)">
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:12px;padding-bottom:10px;border-bottom:1px dashed var(--line)">
           <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-            <span class="mono" style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--ink)">MODE D'ENTRAÎNEMENT :</span>
-            <button class="fchip ${displayMode === 'single' ? 'on' : ''}" onclick="setDisplayMode('single')">◻️ Un par un (Focus &amp; Rapide)</button>
-            <button class="fchip ${displayMode === 'list' ? 'on' : ''}" onclick="setDisplayMode('list')">☰ Liste continue</button>
+            <span class="mono" style="font-size:11.5px;font-weight:700;text-transform:uppercase;color:var(--ink)">⚙️ Options &amp; Filtres d'entraînement</span>
+            <span class="mono" style="font-size:11px;color:var(--ink-soft)">
+              ${displayMode === 'single' ? 'Touches : ← / → (naviguer), A-E (cocher), Entrée (valider)' : ''}
+            </span>
           </div>
-          <span class="mono" style="font-size:11px;color:var(--ink-soft)">
-            ${displayMode === 'single' ? 'Touches : ← / → (naviguer), A-E (cocher), Entrée (valider)' : ''}
-          </span>
+          <button type="button" class="btn btn-sm btn-ghost" onclick="toggleQcmFilters()" style="padding:2px 8px;font-size:11px">
+            Fermer les filtres ✕
+          </button>
         </div>
+
         <div class="fgroup" style="margin-bottom:12px"><span class="lbl">Session</span>
           <button class="fchip ${fy === 'all' ? 'on' : ''}" onclick="anView.fy='all';anView.qi=0;renderAnnales()">Toutes les années</button>
-          ${YEARS.map(y => `<button class="fchip ${fy === y ? 'on' : ''}" onclick="anView.fy='${y}';anView.qi=0;renderAnnales()">Session ${y}</button>`).join('')}
+          ${getSessionYears().map(y => `<button class="fchip ${fy === y ? 'on' : ''}" onclick="anView.fy='${y}';anView.qi=0;renderAnnales()">Session ${y}</button>`).join('')}
         </div>
         <div class="fgroup" style="margin-bottom:12px"><span class="lbl">Type</span>
           <button class="fchip ${ft === 'all' ? 'on' : ''}" onclick="anView.ft='all';anView.qi=0;renderAnnales()">Tous les types</button>
-          ${['EMD', 'Rattrapage', 'Cas clinique'].map(t => `<button class="fchip ${ft === t ? 'on' : ''}" onclick="anView.ft='${t}';anView.qi=0;renderAnnales()">${t}</button>`).join('')}
+          ${getSessionTypes().map(t => `<button class="fchip ${ft === t ? 'on' : ''}" onclick="anView.ft='${t}';anView.qi=0;renderAnnales()">${t}</button>`).join('')}
         </div>
         
         <div class="fgroup" style="margin-bottom:12px">
@@ -2694,7 +2895,7 @@ function renderAnnales(){
         ${hasOran && fa === 'mosta' ? `
           <div style="background:#FAF8F3;border:1.5px dashed #D3CBBF;padding:9px 13px;margin-top:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11.5px">
             <span style="color:var(--ink)">
-              🎓 <b>QCM d'Oran désélectionnés :</b> Tu t'entraînes uniquement sur les <b>${cnt.mosta}</b> questions de Mostaganem (${cnt.oran} QCM d'Oran masqués).
+              🏥 <b>QCM d'Oran désélectionnés :</b> Tu t'entraînes uniquement sur les <b>${cnt.mosta}</b> questions de Mostaganem (${cnt.oran} QCM d'Oran masqués).
             </span>
             <button class="btn btn-sm btn-solid" style="padding:4px 10px;font-size:11px" onclick="setFacultyFilter('all')">
               Réinclure les QCM d'Oran ✚
@@ -2722,9 +2923,58 @@ function renderAnnales(){
           </div>
         ` : ''}
       </div>
+    `;
 
+    const paletteHtml = `
+      <!-- SECTION 2 (MASQUÉE PAR DÉFAUT) : GRILLE DES QUESTIONS -->
+      <div id="qcm-palette-collapsible" class="qcm-stepper-wrap" style="display:${anView.showPalette ? 'block' : 'none'};margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;padding-bottom:8px;border-bottom:1px dashed var(--line)">
+          <span class="mono" style="font-size:11px;font-weight:700;text-transform:uppercase;color:var(--ink)">
+            🔢 Grille des ${filtered.length} questions du chapitre — Clique pour naviguer directement :
+          </span>
+          <button type="button" class="btn btn-sm btn-ghost" onclick="toggleQcmPalette()" style="padding:2px 8px;font-size:11px">
+            Masquer la grille ✕
+          </button>
+        </div>
+        <div class="qcm-palette" id="qcm-stepper-palette">
+          ${filtered.map(({ q, j }, idx) => {
+            const a = state.answers[ch + ':' + j];
+            const isCur = idx === v.qi;
+            let statusCls = '';
+            let icon = '';
+            if (a && q.bonnes_reponses !== null) {
+              const sc = getQuestionScore(q, a, sum.modeActive);
+              if (sc.status === 'exact') { statusCls = 'ok'; icon = '✓'; }
+              else if (sc.status === 'partial') { statusCls = 'part'; icon = '🎯'; }
+              else { statusCls = 'ko'; icon = '✕'; }
+            } else if (a) {
+              statusCls = 'ok'; icon = '✓';
+            }
+            return `
+              <button type="button" 
+                      class="qcm-num-btn ${isCur ? 'cur' : ''} ${statusCls}" 
+                      onclick="goToQcm(${idx})" 
+                      title="Question ${idx + 1} (${q.y} ${q.t}) : ${a ? (icon + ' Répondue') : 'Non répondue'}">
+                ${a && a.star ? '<span class="star-dot">★</span>' : ''}
+                <span>${idx + 1}</span>
+                ${icon ? `<span style="font-size:9.5px;margin-left:1px">${icon}</span>` : ''}
+              </button>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+
+    el.innerHTML = crumbs + navCh + (showReport ? reportHtml : practiceHeaderHtml) + `
       <div id="qcm-focus-anchor"></div>
       ${!filtered.length ? `
+        <div class="qcm-stepper-wrap" id="qcm-stepper-container" style="padding:10px 16px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+          <span style="font-weight:700;font-size:13px;color:var(--ink)">0 QUESTION CORRESPONDANTE</span>
+          <button type="button" class="btn btn-sm btn-solid" onclick="toggleQcmFilters()" id="btn-toggle-filters">
+            ⚙️ Modifier les filtres
+          </button>
+        </div>
+        ${filtersHtml}
         <div class="empty">
           <div class="big">Aucun QCM ne correspond</div>
           <p>Modifie tes filtres d'année, de type ou de faculté pour afficher les questions de ce chapitre.</p>
@@ -2735,60 +2985,94 @@ function renderAnnales(){
           ` : ''}
         </div>
       ` : (displayMode === 'single' ? `
-        <div class="qcm-stepper-wrap" id="qcm-stepper-container">
-          <div class="qcm-stepper-head">
-            <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-              <span style="font-weight:700;font-size:13px;color:var(--ink)">
-                QUESTION ${v.qi + 1} / ${filtered.length}
-              </span>
-              <span class="chip" style="font-size:10px">
-                ${Math.round(((v.qi + 1) / filtered.length) * 100)}% DU CHAPITRE
-              </span>
-              <span style="font-size:11.5px;color:var(--ink-soft)">
-                (Session ${filtered[v.qi].q.y} · ${filtered[v.qi].q.t} · ${filtered[v.qi].q.isAlger ? '🇩🇿 Alger' : (filtered[v.qi].q.isOran ? '🏥 Oran' : '🎓 Mostaganem')})
-              </span>
-            </div>
-            <div style="display:flex;align-items:center;gap:8px">
-              <button type="button" class="btn btn-sm btn-ghost" style="padding:.3rem .75rem;font-size:11.5px" onclick="prevQcm()" ${v.qi === 0 ? 'disabled style="opacity:.4"' : ''}>
-                ← Question précédente
-              </button>
-              <button type="button" class="btn btn-sm btn-solid" style="padding:.3rem .9rem;font-size:11.5px" onclick="nextQcm()" ${v.qi >= filtered.length - 1 ? 'disabled style="opacity:.4"' : ''}>
-                Question suivante →
-              </button>
+        <!-- BARRE DE CONTRÔLE COMPACTE (MODE 1 PAR 1) -->
+        <div class="qcm-stepper-wrap" id="qcm-stepper-container" style="padding:10px 16px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <span style="font-weight:800;font-size:13.5px;color:var(--ink)">
+              QUESTION ${v.qi + 1} / ${filtered.length}
+            </span>
+            <span class="chip" style="font-size:10px;font-weight:700">
+              ${Math.round(((v.qi + 1) / filtered.length) * 100)}% DU CHAPITRE
+            </span>
+            <span style="font-size:11.5px;color:var(--ink-soft)">
+              (Session ${filtered[v.qi].q.y} · ${filtered[v.qi].q.t} · ${filtered[v.qi].q.isAlger ? '🇩🇿 Alger' : (filtered[v.qi].q.isOran ? '🏥 Oran' : '🎓 Mostaganem')})
+            </span>
+          </div>
+
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            <button type="button" 
+                    class="btn btn-sm ${anView.showFilters ? 'btn-solid' : 'btn-ghost'}" 
+                    id="btn-toggle-filters" 
+                    onclick="toggleQcmFilters()" 
+                    style="padding:4px 12px;font-size:11.5px;display:inline-flex;align-items:center;gap:6px"
+                    title="Afficher/Masquer les filtres (Session, Type, Faculté)">
+              <span>⚙️ Filtres &amp; Session</span>
+              ${hasActiveFilters ? '<span class="chip" style="background:var(--red);color:#fff;font-size:9.5px;padding:1px 5px;line-height:1">Actif</span>' : ''}
+              <span class="toggle-arrow" style="font-size:9px">${anView.showFilters ? '▲' : '▼'}</span>
+            </button>
+
+            <button type="button" 
+                    class="btn btn-sm ${anView.showPalette ? 'btn-solid' : 'btn-ghost'}" 
+                    id="btn-toggle-palette" 
+                    onclick="toggleQcmPalette()" 
+                    style="padding:4px 12px;font-size:11.5px;display:inline-flex;align-items:center;gap:6px"
+                    title="Afficher/Masquer la grille des questions">
+              <span>🔢 Grille des questions (${v.qi + 1}/${filtered.length})</span>
+              <span class="toggle-arrow" style="font-size:9px">${anView.showPalette ? '▲' : '▼'}</span>
+            </button>
+
+            <div style="display:inline-flex;background:var(--paper);border:1.5px solid var(--line);border-radius:9px;padding:2px">
+              <button type="button" class="fchip ${displayMode === 'single' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('single')" title="Afficher une question à la fois">◻️ 1 par 1</button>
+              <button type="button" class="fchip ${displayMode === 'list' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('list')" title="Afficher toutes les questions">☰ Liste</button>
             </div>
           </div>
-          <div class="qcm-palette" id="qcm-stepper-palette">
-            ${filtered.map(({ q, j }, idx) => {
-              const a = state.answers[ch + ':' + j];
-              const isCur = idx === v.qi;
-              let statusCls = '';
-              let icon = '';
-              if (a && q.bonnes_reponses !== null) {
-                const sc = getQuestionScore(q, a, sum.modeActive);
-                if (sc.status === 'exact') { statusCls = 'ok'; icon = '✓'; }
-                else if (sc.status === 'partial') { statusCls = 'part'; icon = '🎯'; }
-                else { statusCls = 'ko'; icon = '✕'; }
-              } else if (a) {
-                statusCls = 'ok'; icon = '✓';
-              }
-              return `
-                <button type="button" 
-                        class="qcm-num-btn ${isCur ? 'cur' : ''} ${statusCls}" 
-                        onclick="goToQcm(${idx})" 
-                        title="Question ${idx + 1} (${q.y} ${q.t}) : ${a ? (icon + ' Répondue') : 'Non répondue'}">
-                  ${a && a.star ? '<span class="star-dot">★</span>' : ''}
-                  <span>${idx + 1}</span>
-                  ${icon ? `<span style="font-size:9.5px;margin-left:1px">${icon}</span>` : ''}
-                </button>
-              `;
-            }).join('')}
+
+          <div style="display:flex;align-items:center;gap:8px">
+            <button type="button" class="btn btn-sm btn-ghost" style="padding:.35rem .8rem;font-size:11.5px" onclick="prevQcm()" ${v.qi === 0 ? 'disabled style="opacity:.35"' : ''} title="Question précédente (Touche ←)">
+              ← Précédente
+            </button>
+            <button type="button" class="btn btn-sm btn-solid" style="padding:.35rem .95rem;font-size:11.5px" onclick="nextQcm()" ${v.qi >= filtered.length - 1 ? 'disabled style="opacity:.35"' : ''} title="Question suivante (Touche →)">
+              Suivante →
+            </button>
           </div>
         </div>
+
+        ${filtersHtml}
+        ${paletteHtml}
 
         <div id="qcm-stream">
           ${renderQcmCardHtml(ch, filtered[v.qi].j, filtered[v.qi].q, true, v.qi, filtered.length)}
         </div>
       ` : `
+        <!-- BARRE DE CONTRÔLE COMPACTE (MODE LISTE CONTINUE) -->
+        <div class="qcm-stepper-wrap" id="qcm-stepper-container" style="padding:10px 16px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+          <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+            <span style="font-weight:800;font-size:13.5px;color:var(--ink)">
+              LISTE CONTINUE · ${filtered.length} QUESTIONS D'ANNALES
+            </span>
+          </div>
+
+          <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+            <button type="button" 
+                    class="btn btn-sm ${anView.showFilters ? 'btn-solid' : 'btn-ghost'}" 
+                    id="btn-toggle-filters" 
+                    onclick="toggleQcmFilters()" 
+                    style="padding:4px 12px;font-size:11.5px;display:inline-flex;align-items:center;gap:6px"
+                    title="Afficher/Masquer les filtres (Session, Type, Faculté)">
+              <span>⚙️ Filtres &amp; Session</span>
+              ${hasActiveFilters ? '<span class="chip" style="background:var(--red);color:#fff;font-size:9.5px;padding:1px 5px;line-height:1">Actif</span>' : ''}
+              <span class="toggle-arrow" style="font-size:9px">${anView.showFilters ? '▲' : '▼'}</span>
+            </button>
+
+            <div style="display:inline-flex;background:var(--paper);border:1.5px solid var(--line);border-radius:9px;padding:2px">
+              <button type="button" class="fchip ${displayMode === 'single' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('single')" title="Afficher une question à la fois">◻️ 1 par 1</button>
+              <button type="button" class="fchip ${displayMode === 'list' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('list')" title="Afficher toutes les questions">☰ Liste</button>
+            </div>
+          </div>
+        </div>
+
+        ${filtersHtml}
+
         <div id="qcm-stream">
           ${filtered.map(({ q, j }, idx) => renderQcmCardHtml(ch, j, q, false, idx, filtered.length)).join('')}
         </div>
@@ -2985,6 +3269,13 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
         </div>
       </div>
       <div class="p-body">
+        ${q.tableaux ? `<div class="q-tbls">${q.tableaux.map(t => `<div class="q-tbl-w"><table class="q-tbl">${t.titre ? `<caption>${t.titre}</caption>` : ''}${t.head ? `<thead><tr>${t.head.map(h => `<th>${h}</th>`).join('')}</tr></thead>` : ''}<tbody>${t.rows.map(r => `<tr>${r.map((c, k) => c === '' ? '<td class="blank"></td>' : (k === 0 && t.labels ? `<th>${c}</th>` : `<td>${c}</td>`)).join('')}</tr>`).join('')}</tbody></table></div>`).join('')}</div>` : ''}
+        ${q.image ? (() => {
+          const grp = q.groupe ? QCMS[ch].map((x, idx) => ({ x, idx })).filter(o => o.x.groupe === q.groupe) : [];
+          const pos = grp.findIndex(o => o.idx === j);
+          const link = grp.length > 1 ? `<div class="q-link"><span class="q-link-t"><b>Questions liées</b> · même schéma</span><span class="q-link-dots" aria-label="Question ${pos + 1} sur ${grp.length}">${grp.map((o, k) => `<i class="${k === pos ? 'on' : (QCMS[ch][o.idx] && state.answers[ch + ':' + o.idx] ? 'done' : '')}">${k + 1}</i>`).join('')}</span></div>` : '';
+          return `<div class="q-group">${link}<figure class="q-fig"><button type="button" class="q-fig-btn" data-src="${q.image}" data-cap="${escAttr(q.image_legende || '')}" onclick="event.stopPropagation();openQImage(this)" title="Agrandir le schéma" aria-label="Agrandir le schéma"><img src="${q.image}" alt="${escAttr(q.image_legende || 'Schéma du TP')}" loading="lazy"></button>${q.image_legende ? `<figcaption>${q.image_legende}</figcaption>` : ''}</figure></div>`;
+        })() : ''}
         <p class="p-q">${displayQ}</p>
         ${isBilingual && secondaryQ ? `
           <div style="margin:-2px 0 16px;padding:8px 12px;background:#F9F7F2;border-left:3.5px solid ${cardLang === 'fr' ? 'var(--blue)' : 'var(--red)'};border-radius:6px;font-size:0.9rem;color:var(--ink-soft);display:flex;align-items:center;justify-content:space-between;gap:10px">
@@ -3394,16 +3685,13 @@ function renderTracker(){
 
   const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS[getDefaultModuleForYear(currentAcademicYear)];
   const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['1ere'];
-  const isSem = isSemesterModule(currentModuleId);
-  const curSem = getModuleSemester(currentModuleId);
-  const semLabel = curSem === 's1' ? '1er Semestre (S1)' : '2ème Semestre (S2)';
   const ts = trackerStats(), n = CHAPTERS.length;
   const safeN = n || 1;
 
   const rows = CHAPTERS.map((c, i) => {
     const L = state.layers[i] || [false, false, false];
     const done = chapterAnswered(i);
-    const tot = (QCMS[i] || []).length;
+    const tot = chapterQsCount(i);
     const qcmValid = tot > 0 && done === tot;
     const started = L.some(Boolean) || done > 0;
     const valid = L.every(Boolean) && (tot === 0 ? true : qcmValid);
@@ -3434,7 +3722,7 @@ function renderTracker(){
         ${yearMods.map(m => {
           const isCur = m.id === currentModuleId;
           const short = m.name.split(' (')[0];
-          const pillCnt = isSemesterModule(m.id) ? 'S1 & S2' : (m.chaps > 0 ? `${m.chaps} cours` : 'Cours bientôt');
+          const pillCnt = m.chaps > 0 ? `${m.chaps} cours` : 'Cours bientôt';
           return `
             <button class="tr-mod-pill ${isCur ? 'on' : ''}" type="button" onclick="selectTrackerModule('${m.id}')" title="Checklist des cours de ${short}">
               <span class="p-ico">${m.ico}</span>
@@ -3456,18 +3744,6 @@ function renderTracker(){
         <div class="tr-hero-text">
           <div class="tr-hero-tag">${yearInfo.title} · FACULTÉ DE MÉDECINE DE MOSTAGANEM</div>
           <h2 class="tr-hero-title">${modCfg.fullName || modCfg.title}</h2>
-          ${isSem ? `
-            <div style="display:flex;align-items:center;gap:10px;margin:8px 0 4px;flex-wrap:wrap">
-              <div class="sem-switcher">
-                <span class="sem-lbl">Semestre :</span>
-                <button class="sem-tab ${curSem === 's1' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's1')">
-                  📘 S1 · 1er Semestre
-                </button>
-                <button class="sem-tab ${curSem === 's2' ? 'on' : ''}" type="button" onclick="setModuleSemester('${modCfg.id}', 's2')">
-                  📙 S2 · 2ème Semestre
-                </button>
-              </div>
-            </div>` : ''}
           <p class="tr-hero-meta">
             <b>${n} cours officiels répertoriés</b> · 
             <span style="color:var(--green)">${validCount}/${safeN} cours validés aux 3 couches</span> · 
@@ -3534,7 +3810,7 @@ function renderTracker(){
           ${[0, 1, 2].map(nl => {
             const locked = nl > 0 && !r.L[nl - 1];
             return `<td style="text-align:center"><button class="lchk no360 ${r.L[nl] ? 'on' : ''} ${locked ? 'lock' : ''}" aria-label="Couche ${nl + 1}"
-              onclick="toggleLayer(${r.i},${nl})" style="margin:0 auto">✚</button></td>`;
+              onclick="toggleLayer(${r.i},${nl})" style="margin:0 auto">${r.L[nl] ? '✓' : ''}</button></td>`;
           }).join('')}
           <td class="mono" style="font-size:.8rem;text-align:center">${r.tot ? `<span class="chip ${r.qcmValid ? 'g' : ''}">${r.done}/${r.tot}</span>` : '<span style="color:var(--ink-soft)">—</span>'}</td>
           <td style="text-align:center"><button class="btn btn-sm btn-ghost" onclick="go('annales');chooseChapter(${r.i})" style="font-weight:700">Practise →</button></td>
@@ -3546,14 +3822,14 @@ function renderTracker(){
     : `
     <!-- ÉTAT EN ATTENTE DES COURS FOURNIS PAR L'UTILISATEUR -->
     <div class="card" style="text-align:center;padding:46px 20px;background:var(--card);border:var(--stk);border-radius:24px;box-shadow:0 6px 0 var(--ink);margin-top:14px">
-      <div style="font-size:3.2rem;margin-bottom:12px">${isSem ? (curSem === 's1' ? '📘' : '📙') : '📚'}</div>
+      <div style="font-size:3.2rem;margin-bottom:12px">📚</div>
       <h3 style="font-size:1.6rem;margin-bottom:8px">Cours en attente de programmation</h3>
       <p style="color:var(--ink-soft);max-width:540px;margin:0 auto 16px;font-size:1rem;line-height:1.5">
-        ${isSem ? `Les cours officiels du <b>${semLabel}</b> pour <b>${modCfg.title}</b> n'ont pas encore été enregistrés.` : `Les cours officiels de <b>${modCfg.title}</b> (1ère Année) n'ont pas encore été enregistrés.`}
+        Les cours officiels de <b>${modCfg.title}</b> (1ère Année) n'ont pas encore été enregistrés.
         <br>Dès que tu fourniras la liste des cours, ils apparaîtront ici avec le système des 3 couches.
       </p>
       <span class="chip" style="background:var(--y);color:var(--ink);font-weight:700;font-size:12px;padding:6px 14px;border:2px solid var(--ink)">
-        ${isSem ? `${curSem.toUpperCase()} · 1ÈRE ANNÉE MÉDECINE` : '1ÈRE ANNÉE MÉDECINE'}
+        1ÈRE ANNÉE MÉDECINE
       </span>
     </div>
     `}`;
@@ -3601,19 +3877,30 @@ function renderFlash(){
     <div style="display:flex;gap:12px;margin-bottom:22px;flex-wrap:wrap">
       <button class="btn btn-red" onclick="openOv('ov-deck')">✚ Nouveau Paquet</button>
       <button class="btn" onclick="openCardModal()">✚ Créer une Flashcard</button>
+      <button class="btn btn-ghost" onclick="exportAnki()" title="Télécharger toutes tes cartes au format importable dans Anki">⬇ Exporter vers Anki</button>
     </div>
     ${state.decks.length ? `<div class="deck-grid">${state.decks.map(d => {
       const due = d.cards.filter(c => (c.due || 0) <= 0).length;
       return `<article class="dcard">
-        <h3>${d.name}</h3><p class="mod">${(d.module || 'MÉDECINE').toUpperCase()}</p>
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
+          <div>
+            <h3 style="margin:0 0 4px">${d.name}</h3>
+            <p class="mod" style="margin-bottom:12px">${(d.module || 'MÉDECINE').toUpperCase()}</p>
+          </div>
+          <button type="button" class="btn btn-sm" onclick="openCardModal(null,'${d.id}')" title="Ajouter rapidement une flashcard à ce paquet" style="background:#fff;border:2px solid var(--ink);border-radius:10px;padding:3px 9px;font-weight:800;font-size:12px;display:inline-flex;align-items:center;gap:4px;box-shadow:0 2px 0 var(--ink);cursor:pointer">
+            <span style="font-size:15px;color:var(--green);font-weight:900;line-height:1">+</span> Carte
+          </button>
+        </div>
         <div class="drow"><span>Cartes</span><b>${d.cards.length}</b></div>
         <div class="drow"><span>À réviser aujourd'hui</span><b style="color:${due ? 'var(--red)' : 'var(--green)'}">${due}</b></div>
         <div class="drow"><span>Cartes / jour</span><b>${d.perDay || '∞'}</b></div>
         <div class="drow" style="border-bottom:none"><span>Délais</span><b>${d.hard}j / ${d.good}j / ${d.easy}j · 10m</b></div>
         <div class="btns">
           <button class="btn btn-sm btn-solid" style="flex:1" ${due ? '' : 'disabled style="opacity:.45"'} onclick="startStudy('${d.id}',false)">⚡ Étudier (${due})</button>
+          <button type="button" class="btn btn-sm btn-ghost" title="Ajouter rapidement une flashcard à ce paquet" onclick="openCardModal(null,'${d.id}')" style="font-weight:900;font-size:1.2rem;padding:0 10px;color:var(--green)">+</button>
           <button class="btn btn-sm btn-ghost" title="Paramètres" onclick="openSettings('${d.id}')">⚙️</button>
           <button class="btn btn-sm btn-ghost" title="Voir les cartes" onclick="showDeckCards('${d.id}')">🗂</button>
+          <button class="btn btn-sm btn-ghost" title="Exporter ce paquet vers Anki" onclick="exportAnki('${d.id}')">⬇ Anki</button>
           <button class="btn btn-sm btn-ghost" style="color:var(--red)" title="Supprimer le paquet" onclick="deleteDeck('${d.id}')">🗑</button>
         </div>
         <div id="dc-${d.id}" class="hidden" style="margin-top:14px;border-top:1px dashed var(--line);padding-top:10px;max-height:220px;overflow-y:auto">
@@ -3631,6 +3918,30 @@ function renderFlash(){
     <p class="hand" style="font-size:1.4rem;margin-top:24px;display:block">10 cartes par jour, tous les jours — c'est ça qui fait les majors ✚</p>`;
 
   runCounts($('fl-body'));
+}
+
+/* Export Anki : fichier texte séparé par tabulations (Anki > Fichier > Importer), champs en HTML.
+   Un paquet = un fichier ; sans id, tous les paquets dans un seul fichier avec colonne « paquet ». */
+function exportAnki(id){
+  const decks = id ? state.decks.filter(d => d.id === id) : state.decks;
+  const n = decks.reduce((s, d) => s + d.cards.length, 0);
+  if (!n){ toast('⚠ Aucune carte à exporter'); return; }
+  const esc = s => String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/\t/g, ' ').replace(/\r?\n/g, '<br>');
+  const tag = s => String(s || 'majory').trim().replace(/\s+/g, '_');
+  const head = ['#separator:tab', '#html:true', '#tags column:4', '#deck column:3'];
+  const rows = [];
+  decks.forEach(d => d.cards.forEach(c => {
+    const back = esc(c.b) + (c.h ? '<br><br><i>Indice : ' + esc(c.h) + '</i>' : '');
+    rows.push([esc(c.f), back, String(d.name).replace(/\s+/g, ' ').trim(), tag(d.module)].join('\t'));
+  }));
+  const blob = new Blob([head.join('\n') + '\n' + rows.join('\n') + '\n'], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'majory-anki-' + (id ? tag(decks[0].name) : 'tous-les-paquets') + '.txt';
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  toast('⬇ ' + n + ' carte(s) exportée(s) — importe le fichier dans Anki');
 }
 
 function showDeckCards(id){ const el = $('dc-' + id); if (el) el.classList.toggle('hidden'); }
@@ -3680,16 +3991,24 @@ $('deckForm').addEventListener('submit', e => {
 });
 
 /* --- Add Card (Standalone or from QCM) --- */
-function openCardModal(prefill){
+function openCardModal(prefill, deckId){
   const sel = $('cdDeck');
   sel.innerHTML = state.decks.map(d => `<option value="${d.id}">${d.name}</option>`).join('');
+  if (deckId && state.decks.some(d => d.id === deckId)) {
+    sel.value = deckId;
+  }
   $('cardWarn').classList.toggle('hidden', state.decks.length > 0);
   $('cdFront').value = prefill ? prefill.front : '';
   $('cdBack').value  = prefill ? prefill.back  : '';
   $('cdHint').value  = prefill ? (prefill.hint || '') : '';
-  $('cardTitle').textContent = prefill ? 'Ajouter cette question aux Flashcards' : 'Ajouter une carte';
-  $('cardSub').textContent = prefill ? "Choisis le paquet dans lequel enregistrer ce QCM pour le réviser avec l'algorithme Anki." : 'Flashcard — mémorisation active.';
+  const targetDeck = deckId ? state.decks.find(d => d.id === deckId) : null;
+  $('cardTitle').textContent = prefill ? 'Ajouter cette question aux Flashcards' : (targetDeck ? `Ajouter une carte · ${targetDeck.name}` : 'Ajouter une carte');
+  $('cardSub').textContent = prefill ? "Choisis le paquet dans lequel enregistrer ce QCM pour le réviser avec l'algorithme Anki." : (targetDeck ? `Cette carte sera directement ajoutée au paquet « ${targetDeck.name} »` : 'Flashcard — mémorisation active.');
   openOv('ov-card');
+  setTimeout(() => {
+    const fInput = $('cdFront');
+    if (fInput) fInput.focus();
+  }, 60);
 }
 
 $('cardForm').addEventListener('submit', e => {
