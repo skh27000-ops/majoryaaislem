@@ -223,6 +223,12 @@ window.QCM_PEDIATRIE = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine de Mostaganem - EMD Pédiatrie 2018/2019 (03/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Rattrapage / Théorique",
+        "type": "Examen",
+        "texte": "Faculté de Médecine de Mostaganem - Epreuve Théorique Pédiatrie (21/02/2021)"
       }
     ],
     "faculty": "Mostaganem",
@@ -988,6 +994,12 @@ window.QCM_PEDIATRIE = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine de Mostaganem - EMD Pédiatrie 2018/2019 (03/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Rattrapage / Théorique",
+        "type": "Examen",
+        "texte": "Faculté de Médecine de Mostaganem - Epreuve Théorique Pédiatrie (21/02/2021)"
       }
     ],
     "faculty": "Mostaganem",
@@ -1621,7 +1633,8 @@ window.QCM_PEDIATRIE = [
     },
     "bonnes_reponses": [
       "A",
-      "C"
+      "C",
+      "E"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : A, C.",
     "source": {
@@ -1640,7 +1653,8 @@ window.QCM_PEDIATRIE = [
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé complétée (AC → ACE) : la mort subite du nourrisson présente une recrudescence hivernale."
   },
   {
     "id": "ped-044",
@@ -4812,43 +4826,6 @@ window.QCM_PEDIATRIE = [
     "isAlger": false
   },
   {
-    "id": "ped-127",
-    "num": 127,
-    "module": "pediatrie",
-    "chapitre": "Alimentation et besoins nutritionnels du nourrisson",
-    "chapitre_num": 10,
-    "section": "Alimentation et besoins nutritionnels du nourrisson",
-    "question": "Dans le traitement de la malnutrition protéino-énergétique grave, quelle est la réponse fausse ?",
-    "propositions": {
-      "A": "L'apport hydrique doit etre limité au début",
-      "B": "L'apport calorique et protidique est faible au début",
-      "C": "L'apport en potassium est élevé tandis que celui du sodium est limité",
-      "D": "La transfusion sanguine est indiquée pour améliorer l'hématose et prévenir l'insuffisance Cardiaque",
-      "E": "La supplémentation en fer est nécessaire."
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : D.",
-    "source": {
-      "annee": 2021,
-      "session": "Rattrapage / Théorique",
-      "type": "Examen",
-      "texte": "Faculté de Médecine de Mostaganem - Epreuve Théorique Pédiatrie (21/02/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Rattrapage / Théorique",
-        "type": "Examen",
-        "texte": "Faculté de Médecine de Mostaganem - Epreuve Théorique Pédiatrie (21/02/2021)"
-      }
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "ped-128",
     "num": 128,
     "module": "pediatrie",
@@ -5133,45 +5110,6 @@ window.QCM_PEDIATRIE = [
       "E"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : B, E.",
-    "source": {
-      "annee": 2021,
-      "session": "Rattrapage / Théorique",
-      "type": "Examen",
-      "texte": "Faculté de Médecine de Mostaganem - Epreuve Théorique Pédiatrie (21/02/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Rattrapage / Théorique",
-        "type": "Examen",
-        "texte": "Faculté de Médecine de Mostaganem - Epreuve Théorique Pédiatrie (21/02/2021)"
-      }
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "ped-136",
-    "num": 136,
-    "module": "pediatrie",
-    "chapitre": "Puberté normale et pathologique",
-    "chapitre_num": 35,
-    "section": "Puberté normale et pathologique",
-    "question": "Quelles sont parmi ces causes celles qui peuvent être responsable d'un retard ou absence de la Puberté chez l'enfant :",
-    "propositions": {
-      "A": "Pan hypopituitarisme",
-      "B": "Neuroblastome",
-      "C": "Syndrome de Turner",
-      "D": "Hyperplasie congénitale des surrénales",
-      "E": "Insuffisance rénale chronique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : A, C, E.",
     "source": {
       "annee": 2021,
       "session": "Rattrapage / Théorique",

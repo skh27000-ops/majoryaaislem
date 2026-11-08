@@ -302,7 +302,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, C, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, B, C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-010",
@@ -331,7 +331,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, C)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, C, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-011",
@@ -360,7 +360,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-012",
@@ -715,6 +715,11 @@ window.QCM_ENDOCRINOLOGIE = [
         "texte": "EMD 2024",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "EMD 2026",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Au cours du coma hyperosmolaire, on peut retrouver :",
@@ -966,7 +971,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-030",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2025",
       "type": "EMD",
@@ -1000,7 +1005,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-031",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2025",
       "type": "EMD",
@@ -1032,7 +1037,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-032",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2025",
       "type": "EMD",
@@ -1064,7 +1069,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-033",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2024",
       "type": "EMD",
@@ -1098,7 +1103,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-034",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2024",
       "type": "EMD",
@@ -1135,7 +1140,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-035",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD mars 2023",
       "type": "EMD",
@@ -1167,7 +1172,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-036",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD mars 2023",
       "type": "EMD",
@@ -1199,7 +1204,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-037",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "Rattr. juil. 2023",
       "type": "Rattrapage",
@@ -1231,7 +1236,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-038",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2024",
       "type": "EMD",
@@ -1262,7 +1267,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-039",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "Rattr. juil. 2023",
       "type": "Rattrapage",
@@ -1298,7 +1303,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-040",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2024",
       "type": "EMD",
@@ -1331,7 +1336,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-041",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD mars 2023",
       "type": "EMD",
@@ -1364,7 +1369,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-042",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "Rattr. sept. 2025",
       "type": "Rattrapage",
@@ -1402,7 +1407,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-043",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD mars 2023",
       "type": "EMD",
@@ -1434,7 +1439,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-044",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2024",
       "type": "EMD",
@@ -1455,6 +1460,11 @@ window.QCM_ENDOCRINOLOGIE = [
         "texte": "EMD 2021",
         "type": "EMD",
         "annee": "2021"
+      },
+      {
+        "texte": "EMD 2026",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "La neuropathie autonome diabétique peut être responsable de :",
@@ -1479,7 +1489,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-045",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2025",
       "type": "EMD",
@@ -1513,7 +1523,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-046",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "Rattr. juil. 2023",
       "type": "Rattrapage",
@@ -1545,7 +1555,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-047",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2025",
       "type": "EMD",
@@ -1578,7 +1588,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-048",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2025",
       "type": "EMD",
@@ -1612,7 +1622,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-049",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "Rattr. sept. 2025",
       "type": "Rattrapage",
@@ -3819,6 +3829,11 @@ window.QCM_ENDOCRINOLOGIE = [
         "texte": "EMD 2024",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "EMD 2026",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Signes cliniques de l'insuffisance surrénalienne périphérique :",
@@ -3852,6 +3867,11 @@ window.QCM_ENDOCRINOLOGIE = [
         "texte": "EMD 2024",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "EMD 2026",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Dans l'insuffisance surrénalienne centrale, on a :",
@@ -4617,7 +4637,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-140",
@@ -4646,7 +4666,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C, D, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, D, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-141",
@@ -5128,7 +5148,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-155",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD mars 2023",
       "type": "EMD",
@@ -5160,7 +5180,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-156",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "Rattr. sept. 2025",
       "type": "Rattrapage",
@@ -5192,7 +5212,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-157",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD mars 2023",
       "type": "EMD",
@@ -5225,7 +5245,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-158",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "Rattr. juil. 2023",
       "type": "Rattrapage",
@@ -5257,7 +5277,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-159",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -5280,13 +5300,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, C, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-160",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -5309,13 +5329,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-161",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -5338,13 +5358,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, D, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, D, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-162",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -5367,7 +5387,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, D, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, B, D, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-163",
@@ -5396,13 +5416,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-164",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -5425,7 +5445,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, C, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, B, C, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-165",
@@ -5454,7 +5474,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, C)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, B, C, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-166",
@@ -5483,7 +5503,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : C, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-167",
@@ -5512,7 +5532,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : C, D, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée C, D, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-168",
@@ -5541,7 +5561,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : C, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-169",
@@ -5570,7 +5590,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, C, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, C, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-170",
@@ -5599,7 +5619,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-171",
@@ -5628,7 +5648,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-172",
@@ -5657,7 +5677,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-173",
@@ -5686,7 +5706,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, C, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-174",
@@ -5715,7 +5735,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C, D)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-175",
@@ -5990,6 +6010,11 @@ window.QCM_ENDOCRINOLOGIE = [
         "texte": "EMD 2024",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "EMD 2026",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Pour confirmer l'origine centrale de l'insuffisance surrénalienne, l'examen demandé est :",
@@ -7451,13 +7476,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, B, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-228",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -7480,13 +7505,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, D, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, B, D, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-229",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -7509,13 +7534,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-230",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -7538,13 +7563,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-231",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2020/21",
       "type": "EMD",
@@ -7567,13 +7592,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, C, E)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée A, C, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-232",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2021",
       "type": "EMD",
@@ -7606,7 +7631,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-233",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2021",
       "type": "EMD",
@@ -8124,7 +8149,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-249",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -8157,7 +8182,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-250",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -8190,7 +8215,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-251",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -8222,7 +8247,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-252",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -8445,7 +8470,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-259",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "Rattr. juil. 2023",
       "type": "Rattrapage",
@@ -9819,13 +9844,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Corrigé illisible sur la photo : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : D)"
+    "remarque": "Corrigé illisible sur le document : réponse proposée D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-301",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -9848,13 +9873,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Corrigé illisible sur la photo : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C, D)"
+    "remarque": "Corrigé illisible sur le document : réponse proposée B, C, D, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-302",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -9877,13 +9902,13 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Corrigé illisible sur la photo : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : A, B, C, E)"
+    "remarque": "Corrigé illisible sur le document : réponse proposée A, B, C, E, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-303",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2021 · cas clinique 1",
       "type": "Cas clinique",
@@ -9906,7 +9931,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Corrigé illisible sur la photo : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B)"
+    "remarque": "Corrigé illisible sur le document : réponse proposée B, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-304",
@@ -10107,7 +10132,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-310",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2021",
       "type": "EMD",
@@ -10231,7 +10256,7 @@ window.QCM_ENDOCRINOLOGIE = [
     },
     "bonnes_reponses": null,
     "explication": "",
-    "remarque": "Sujet sans corrigé officiel : réponse proposée par Claude, à vérifier avec ton cours. (Proposition suggérée dans les fichiers : B, C)"
+    "remarque": "Aucun corrigé officiel pour cette question : réponse proposée B, C, à vérifier avec ton cours. Question non notée."
   },
   {
     "id": "endo-314",
@@ -10403,7 +10428,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-319",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2026",
       "type": "EMD",
@@ -10437,7 +10462,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-320",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2026",
       "type": "EMD",
@@ -10469,7 +10494,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-321",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2026",
       "type": "EMD",
@@ -10501,7 +10526,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-322",
     "module": "endocrinologie",
     "chapitre": "Prise en charge du diabète",
-    "chapitre_num": 5,
+    "chapitre_num": 4,
     "source": {
       "texte": "EMD 2026",
       "type": "EMD",
@@ -10552,39 +10577,6 @@ window.QCM_ENDOCRINOLOGIE = [
       "C": "Son traitement fait appel à une insulinothérapie, une supplémentation potassique et une réhydratation.",
       "D": "C'est une complication exclusive du diabète de type 1.",
       "E": "Le coma est agité et profond"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explication": "",
-    "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."
-  },
-  {
-    "id": "endo-324",
-    "module": "endocrinologie",
-    "chapitre": "Complications aiguës diabète",
-    "chapitre_num": 3,
-    "source": {
-      "texte": "EMD 2026",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "EMD 2026",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Au cours du coma hyperosmolaire, on peut retrouver :",
-    "propositions": {
-      "A": "Une déshydratation globale",
-      "B": "Des troubles de la conscience",
-      "C": "Une glycémie très élevée pouvant atteindre 8 g/L",
-      "D": "Une osmolarité plasmatique basse.",
-      "E": "Il existe une polypnée de Kussmaul"
     },
     "bonnes_reponses": [
       "A",
@@ -10662,7 +10654,7 @@ window.QCM_ENDOCRINOLOGIE = [
     "id": "endo-327",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2026",
       "type": "EMD",
@@ -10692,45 +10684,10 @@ window.QCM_ENDOCRINOLOGIE = [
     "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."
   },
   {
-    "id": "endo-328",
-    "module": "endocrinologie",
-    "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
-    "source": {
-      "texte": "EMD 2026",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "EMD 2026",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "La neuropathie autonome diabétique peut être responsable de :",
-    "propositions": {
-      "A": "Gastroparésie",
-      "B": "Tachycardie au repos",
-      "C": "Impuissance",
-      "D": "Hypotension orthostatique",
-      "E": "Atonie vésicale avec résidu post mictionnel"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "",
-    "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."
-  },
-  {
     "id": "endo-329",
     "module": "endocrinologie",
     "chapitre": "Complications dégénératives diabète",
-    "chapitre_num": 4,
+    "chapitre_num": 5,
     "source": {
       "texte": "EMD 2026",
       "type": "EMD",
@@ -11819,103 +11776,6 @@ window.QCM_ENDOCRINOLOGIE = [
       "B",
       "C",
       "E"
-    ],
-    "explication": "",
-    "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."
-  },
-  {
-    "id": "endo-362",
-    "module": "endocrinologie",
-    "chapitre": "Insuffisance surrénalienne",
-    "chapitre_num": 18,
-    "source": {
-      "texte": "EMD 2026",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "EMD 2026",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Les signes cliniques de l'insuffisance surrénalienne périphérique sont : réponse juste",
-    "propositions": {
-      "A": "L'asthénie",
-      "B": "La pâleur",
-      "C": "L'hypertension artérielle",
-      "D": "L'amaigrissement",
-      "E": "Baisse de la libido"
-    },
-    "bonnes_reponses": [
-      "A",
-      "D",
-      "E"
-    ],
-    "explication": "",
-    "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."
-  },
-  {
-    "id": "endo-363",
-    "module": "endocrinologie",
-    "chapitre": "Insuffisance surrénalienne",
-    "chapitre_num": 18,
-    "source": {
-      "texte": "EMD 2026",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "EMD 2026",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Dans l'insuffisance surrénalienne centrale, on a : les réponses justes",
-    "propositions": {
-      "A": "Une mélanodermie",
-      "B": "Une asthénie",
-      "C": "Des céphalées",
-      "D": "Une hyperkaliémie",
-      "E": "Des troubles visuels"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "",
-    "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."
-  },
-  {
-    "id": "endo-364",
-    "module": "endocrinologie",
-    "chapitre": "Insuffisance surrénalienne",
-    "chapitre_num": 18,
-    "source": {
-      "texte": "EMD 2026",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "EMD 2026",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Pour confirmer l'origine centrale de l'insuffisance surrénalienne. L'examen demandé est :",
-    "propositions": {
-      "A": "Dosage de l'ACTH.",
-      "B": "Dosage de la cortisolémie.",
-      "C": "Le test d'hypoglycémie insulinique.",
-      "D": "Dosage du cortisol libre urinaire.",
-      "E": "Un test au synacthène."
-    },
-    "bonnes_reponses": [
-      "A"
     ],
     "explication": "",
     "remarque": "Examen théorique 5ème année 2026/2027 (15/10/2026). Corrigé officiel validé par la faculté."

@@ -3226,6 +3226,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique 2024/2025 - Q24 (Mostaganem)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q24 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Concernant la prévention de l'allo-immunisation :",
@@ -3271,6 +3276,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique 2024/2025 - Q25 (Mostaganem)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q25 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Le diagnostic de la MAP repose sur les critères suivants, sauf un :",
@@ -3359,6 +3369,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique 2024/2025 - Q27 (Mostaganem)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q27 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Un fibromyome est : (la ou les réponses justes)",
@@ -3941,6 +3956,21 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q1 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q16 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2018"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q35 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q30 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Quelle est la conduite à tenir devant une hémorragie de la délivrance :",
@@ -3968,7 +3998,8 @@ window.QCM_GYNECO = [
     },
     "isAlger": false,
     "isOran": false,
-    "faculty": "Mostaganem"
+    "faculty": "Mostaganem",
+    "note_cle": "Clé divergente (deux épreuves de Mostaganem : BCE ; Oran 2020/2021 : ABCDE). Clé de Mostaganem retenue."
   },
   {
     "id": "gyn-091",
@@ -4162,6 +4193,16 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q6 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q13 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2020"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q37 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Quel est le signe révélateur le plus fréquent du cancer du col utérin :",
@@ -4250,6 +4291,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q8 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q31 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Le cancer de l'endomètre est fréquent chez :",
@@ -4338,6 +4384,16 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q10 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q15 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2021"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q32 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "L'examen complémentaire à demander en cas de suspicion du cancer de l'endomètre est :",
@@ -4381,6 +4437,16 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q11 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q14 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2020"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q16 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Le fibrome utérin est une :",
@@ -4514,6 +4580,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q14 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q33 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Le placenta prævia est :",
@@ -4558,6 +4629,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q15 (Mostaganem)",
         "type": "Rattrapage",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q22 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Le diagnostic du placenta prævia repose sur les signes suivants :",
@@ -4647,6 +4723,16 @@ window.QCM_GYNECO = [
       {
         "texte": "Examen de Gynécologie-Obstétrique (Session Octobre 2018) - Q17 (Mostaganem)",
         "type": "Rattrapage",
+        "annee": "2018"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q9 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2020"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q19 (Mostaganem)",
+        "type": "EMD",
         "annee": "2018"
       }
     ],
@@ -4922,7 +5008,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "La souffrance fœtale  chronique : cocher la ou les réponses justes",
+    "question": "La souffrance fœtale chronique : cocher la ou les réponses justes",
     "propositions": {
       "A": "Ses étiologies sont multiples",
       "B": "Se traduit cliniquement par un RCIU",
@@ -5318,7 +5404,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "La cancer de  l’endomètre  est fréquent chez :",
+    "question": "La cancer de l’endomètre est fréquent chez :",
     "propositions": {
       "A": "Femmes avant 50 ans",
       "B": "La multipare",
@@ -5382,93 +5468,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : D). « Métrorragie post ménopausique » est validé par le collège d'enseignants de gynécologie-obstétrique.",
       "E": "Faux. « Découverte fortuite » est inexact dans cette situation clinique (Corrigé officiel : D).",
       "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2020/2021 - Q14) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2020/2021."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-123",
-    "module": "gynecologie",
-    "chapitre": "Cancer de l'endomètre",
-    "chapitre_num": 35,
-    "section": "Cancer de l'endomètre",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q15 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q15 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "L'examen complémentaire à demander en cas de suspicion du cancer de  l’endomètre  est :",
-    "propositions": {
-      "A": "Colposcopie avec biopsie",
-      "B": "Hystérographie",
-      "C": "Hystéroscopie avec prélèvement",
-      "D": "Échographie endovaginale",
-      "E": "Frottis cervico-utérin"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen de Gynécologie-Obstétrique 2020/2021), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Cancer de l'endomètre ».",
-    "justifications": {
-      "A": "Faux. « Colposcopie avec biopsie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Hystérographie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Hystéroscopie avec prélèvement » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "D": "Faux. « Échographie endovaginale » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Frottis cervico-utérin » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2020/2021 - Q15) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2020/2021."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-124",
-    "module": "gynecologie",
-    "chapitre": "Fibrome utérin",
-    "chapitre_num": 33,
-    "section": "Fibrome utérin",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q16 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q16 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Le fibrome utérin est une :",
-    "propositions": {
-      "A": "Tumeur développée au dépend de l’endomètre",
-      "B": "Tumeur bénigne du myomètre",
-      "C": "Tumeur hormono dépendante",
-      "D": "Tumeur haut risque de dégénérescent sarcomateuse",
-      "E": "Tumeur qui apparait avant la puberté"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen de Gynécologie-Obstétrique 2020/2021), la ou les réponses exactes sont BC. Cette question valide les objectifs d'apprentissage du cours « Fibrome utérin ».",
-    "justifications": {
-      "A": "Faux. « Tumeur développée au dépend de l’endomètre » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "B": "Vrai (Corrigé officiel : BC). « Tumeur bénigne du myomètre » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "C": "Vrai (Corrigé officiel : BC). « Tumeur hormono dépendante » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "D": "Faux. « Tumeur haut risque de dégénérescent sarcomateuse » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "E": "Faux. « Tumeur qui apparait avant la puberté » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2020/2021 - Q16) portant sur le cours « Fibrome utérin ». Bonne(s) réponse(s) : BC.",
       "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2020/2021."
     },
     "isAlger": false,
@@ -5693,51 +5692,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « Responsable d'un décollement prématuré avec du sang noirâtre » est inexact dans cette situation clinique (Corrigé officiel : BC).",
       "E": "Faux. « De diagnostic facile grâce à la touche vaginale » est inexact dans cette situation clinique (Corrigé officiel : BC).",
       "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2020/2021 - Q21) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : BC.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2020/2021."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-130",
-    "module": "gynecologie",
-    "chapitre": "Placenta prævia",
-    "chapitre_num": 14,
-    "section": "Placenta prævia",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q22 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2020/2021 - Q22 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Le diagnostic du placenta prævia repose sur les signes suivants :",
-    "propositions": {
-      "A": "Hémorragie de sang rouge, indolore, brutale",
-      "B": "Hémorragies faites de sang noir survenant sur un utérus douloureux",
-      "C": "Contracture utérine Permanente",
-      "D": "Utérus souple sans contracture",
-      "E": "Hémorragie survenant au repos au 3eme trimestre"
-    },
-    "bonnes_reponses": [
-      "A",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen de Gynécologie-Obstétrique 2020/2021), la ou les réponses exactes sont ADE. Cette question valide les objectifs d'apprentissage du cours « Placenta prævia ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ADE). « Hémorragie de sang rouge, indolore, brutale » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "B": "Faux. « Hémorragies faites de sang noir survenant sur un utérus douloureux » est inexact dans cette situation clinique (Corrigé officiel : ADE).",
-      "C": "Faux. « Contracture utérine Permanente » est inexact dans cette situation clinique (Corrigé officiel : ADE).",
-      "D": "Vrai (Corrigé officiel : ADE). « Utérus souple sans contracture » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "E": "Vrai (Corrigé officiel : ADE). « Hémorragie survenant au repos au 3eme trimestre » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2020/2021 - Q22) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : ADE.",
       "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2020/2021."
     },
     "isAlger": false,
@@ -6029,7 +5983,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quelles sont les moyens de la surveillance  fœtale  au cours de la toxémie gravidique :",
+    "question": "Quelles sont les moyens de la surveillance fœtale au cours de la toxémie gravidique :",
     "propositions": {
       "A": "Echographie obstétricale",
       "B": "Doppler obstétrical",
@@ -6074,7 +6028,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Madame X présente après une aménorrhée de 2 mois et demi des métrorragies d'abondance modérée. Parmi les examens ci-dessous, quel est celui qui permet d'affirmer  l’évolution de la grossesse  ?",
+    "question": "Madame X présente après une aménorrhée de 2 mois et demi des métrorragies d'abondance modérée. Parmi les examens ci-dessous, quel est celui qui permet d'affirmer l’évolution de la grossesse ?",
     "propositions": {
       "A": "Le dosage de l’HCG urinaire",
       "B": "Le dosage de  l’HCG béta  plasmatique",
@@ -6117,7 +6071,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quelle  est l’ indication thérapeutique parait la plus Iogique chez une femme de 50 ans présentant un gros utérus fibromateuse avec méno-métrorragie importantes?",
+    "question": "Quelle est l’ indication thérapeutique parait la plus Iogique chez une femme de 50 ans présentant un gros utérus fibromateuse avec méno-métrorragie importantes?",
     "propositions": {
       "A": "Myomectomie",
       "B": "Progestatifs",
@@ -6296,7 +6250,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quels sont les facteurs de risques de la mac rosomie fœtale  :",
+    "question": "Quels sont les facteurs de risques de la mac rosomie fœtale :",
     "propositions": {
       "A": "Multiparité.",
       "B": "Obésité",
@@ -6575,7 +6529,7 @@ window.QCM_GYNECO = [
         "annee": "2020"
       }
     ],
-    "question": "Parmi les propositions suivantes,  quelle est celle qui n'est pas à l’origine  d'une hémorragie de la délivrance par atonie utérine ?",
+    "question": "Parmi les propositions suivantes, quelle est celle qui n'est pas à l’origine d'une hémorragie de la délivrance par atonie utérine ?",
     "propositions": {
       "A": "Un travail prolonge",
       "B": "Une surdistension utérine",
@@ -6882,6 +6836,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q8 (Mostaganem)",
         "type": "EMD",
         "annee": "2020"
+      },
+      {
+        "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q15 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Dans l'insertion basse du placenta :",
@@ -6906,52 +6865,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : ACDE). « L'hémorragie lie à l'insertion basse du placenta peut entrainer une anémie  fœtale » est validé par le collège d'enseignants de gynécologie-obstétrique.",
       "E": "Vrai (Corrigé officiel : ACDE). « L'échographie fait le diagnostic » est validé par le collège d'enseignants de gynécologie-obstétrique.",
       "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2019/2020 - Q8) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : ACDE.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 04/10/2020."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-157",
-    "module": "gynecologie",
-    "chapitre": "Hématome retro placentaire",
-    "chapitre_num": 15,
-    "section": "Hématome retro placentaire",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q9 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q9 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Quelles sont les complications de l'hématome rétro placentaire :",
-    "propositions": {
-      "A": "Accouchement prématuré.",
-      "B": "Mort fœtale in utero.",
-      "C": "Troubles de la coagulation,",
-      "D": "Décès maternel.",
-      "E": "Une toxémie gravidique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen de Gynécologie-Obstétrique 2019/2020 du 04/10/2020), la ou les réponses exactes sont ABCD. Cette question valide les objectifs d'apprentissage du cours « Hématome retro placentaire ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCD). « Accouchement prématuré. » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "B": "Vrai (Corrigé officiel : ABCD). « Mort fœtale in utero. » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "C": "Vrai (Corrigé officiel : ABCD). « Troubles de la coagulation, » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "D": "Vrai (Corrigé officiel : ABCD). « Décès maternel. » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "E": "Faux. « Une toxémie gravidique » est inexact dans cette situation clinique (Corrigé officiel : ABCD).",
-      "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2019/2020 - Q9) portant sur le cours « Hématome retro placentaire ». Bonne(s) réponse(s) : ABCD.",
       "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 04/10/2020."
     },
     "isAlger": false,
@@ -7018,6 +6931,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q11 (Mostaganem)",
         "type": "EMD",
         "annee": "2020"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q36 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Une patiente consulte pour une tumeur du sein, Quel(s) est (sont) le(s) élément(s) qui vous fait (font) penser qu'elle est à haut risque du cancer du sein?",
@@ -7087,93 +7005,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « Une biopsie uniquement en cas d'anomalies au FCV et à la colposcopie » est inexact dans cette situation clinique (Corrigé officiel : ABCE).",
       "E": "Vrai (Corrigé officiel : ABCE). « Une résection chirurgical ou au laser de la lésion selon l'âge de la patiente » est validé par le collège d'enseignants de gynécologie-obstétrique.",
       "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2019/2020 - Q12) portant sur le cours « Le cancer du col utérin ». Bonne(s) réponse(s) : ABCE.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 04/10/2020."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-161",
-    "module": "gynecologie",
-    "chapitre": "Le cancer du col utérin",
-    "chapitre_num": 36,
-    "section": "Le cancer du col utérin",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q13 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q13 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Quel est le signe révélateur le plus fréquent du cancer du col utérin :",
-    "propositions": {
-      "A": "Douleurs pelviennes",
-      "B": "Hémorragies utérines",
-      "C": "Hémorragies de contact « post-coïtal »",
-      "D": "Leucorrhées importantes",
-      "E": "Aucune des réponses suivantes"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen de Gynécologie-Obstétrique 2019/2020 du 04/10/2020), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Le cancer du col utérin ».",
-    "justifications": {
-      "A": "Faux. « Douleurs pelviennes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Hémorragies utérines » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Hémorragies de contact « post-coïtal » » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "D": "Faux. « Leucorrhées importantes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Aucune des réponses suivantes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2019/2020 - Q13) portant sur le cours « Le cancer du col utérin ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 04/10/2020."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-162",
-    "module": "gynecologie",
-    "chapitre": "Fibrome utérin",
-    "chapitre_num": 33,
-    "section": "Fibrome utérin",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q14 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2019/2020 (04/10/2020) - Q14 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Le fibrome utérin est une :",
-    "propositions": {
-      "A": "Tumeur développée au dépend de l'endomètre.",
-      "B": "Tumeur bénigne du myomètre.",
-      "C": "Tumeur hormono-dépendante.",
-      "D": "Tumeur à haut risque de dégénérescence sarcomateuse.",
-      "E": "Tumeur qui apparait avant la puberté."
-    },
-    "bonnes_reponses": [
-      "B",
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen de Gynécologie-Obstétrique 2019/2020 du 04/10/2020), la ou les réponses exactes sont BC. Cette question valide les objectifs d'apprentissage du cours « Fibrome utérin ».",
-    "justifications": {
-      "A": "Faux. « Tumeur développée au dépend de l'endomètre. » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "B": "Vrai (Corrigé officiel : BC). « Tumeur bénigne du myomètre. » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "C": "Vrai (Corrigé officiel : BC). « Tumeur hormono-dépendante. » est validé par le collège d'enseignants de gynécologie-obstétrique.",
-      "D": "Faux. « Tumeur à haut risque de dégénérescence sarcomateuse. » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "E": "Faux. « Tumeur qui apparait avant la puberté. » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "_synthese": "Question officielle d'évaluation (Examen de Gynécologie-Obstétrique 2019/2020 - Q14) portant sur le cours « Fibrome utérin ». Bonne(s) réponse(s) : BC.",
       "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 04/10/2020."
     },
     "isAlger": false,
@@ -7844,97 +7675,6 @@ window.QCM_GYNECO = [
     "faculty": "Mostaganem"
   },
   {
-    "id": "gyn-178",
-    "module": "gynecologie",
-    "chapitre": "Placenta prævia",
-    "chapitre_num": 14,
-    "section": "Placenta prævia",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q15 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q15 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Dans l'insertion basse du placenta :",
-    "propositions": {
-      "A": "Le placenta est toujours insère sur le segment inferieur",
-      "B": "Il y'a toujours des hémorragies soit pendant la grossesse soit pendant le travail",
-      "C": "En cas d'hémorragies pendant le travail la rupture de la poche des eaux peut les arrêter",
-      "D": "L'hémorragie liée à l'insertion basse du placenta peut e ntrainer une anémie fœtale",
-      "E": "L'échographie fait le dg"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel et les consensus d'enseignement de la Faculté de Médecine de Mostaganem (Session Normale 2017/2018), la ou les réponses exactes sont ACDE. Cette question valide les objectifs d'apprentissage du cours « Placenta prævia ».",
-    "justifications": {
-      "A": "Vrai. Le placenta prævia s'insère obligatoirement en tout ou partie sur le segment inférieur utérin.",
-      "B": "Faux. Les formes asymptomatiques sont fréquentes et découvertes fortuitement lors de l'échographie de dépistage obstétricale.",
-      "C": "Vrai. En cas de placenta prævia latéral ou marginal saignant pendant le travail, la rupture artificielle précoce de la poche des eaux permet à la tête fœtale de descendre et de comprimer la tranche placentaire hémorragique.",
-      "D": "Vrai. Le saignement abondant et le décollement localisé peuvent entraîner une anoxie et une anémie fœtale aiguë.",
-      "E": "Vrai. L'échographie obstétricale par voie sus-pubienne et endovaginale confirme formellement le diagnostic topographique du placenta prævia.",
-      "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q15) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : ACDE.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-179",
-    "module": "gynecologie",
-    "chapitre": "Délivrance normale et pathologique",
-    "chapitre_num": 16,
-    "section": "Délivrance normale et pathologique",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q16 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q16 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Quelle est la conduite à tenir devant une hémorragie de la délivrance :",
-    "propositions": {
-      "A": "Délivrance artificielle",
-      "B": "Révision utérine",
-      "C": "Perfusion d'ocytociques",
-      "D": "Transfusion sanguine",
-      "E": "Examen sous valves de la filière génitale"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel et les consensus d'enseignement de la Faculté de Médecine de Mostaganem (Session Normale 2017/2018), la ou les réponses exactes sont BCE. Cette question valide les objectifs d'apprentissage du cours « Délivrance normale et pathologique ».",
-    "justifications": {
-      "A": "Faux. La délivrance artificielle n'est indiquée que si le placenta est encore retenu dans l'utérus après 30 minutes de l'expulsion.",
-      "B": "Vrai. La révision utérine manuelle sous asepsie est le premier geste obstétrical obligatoire pour évacuer les caillots et s'assurer de l'intégrité utérine.",
-      "C": "Vrai. La perfusion immédiate d'utérotoniques (ocytocine) est indispensable pour rétablir la tonicité du myomètre et assurer la ligature vivante de Pinard.",
-      "D": "Faux. La transfusion sanguine n'est pas un geste obstétrical immédiat mais une mesure de réanimation selon les pertes et le choc.",
-      "E": "Vrai. L'examen minutieux sous valves de la filière génitale permet de dépister et suturer les déchirures cervicales ou vaginales.",
-      "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q16) portant sur le cours « Délivrance normale et pathologique ». Bonne(s) réponse(s) : BCE.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "gyn-180",
     "module": "gynecologie",
     "chapitre": "Grossesse extra-utérine",
@@ -8016,52 +7756,6 @@ window.QCM_GYNECO = [
       "D": "Vrai. L'échographie sus-pubienne (associée au besoin à la voie endovaginale prudente) visualise directement le bord inférieur du placenta par rapport à l'orifice interne du col.",
       "E": "Faux. L'amnioscopie n'a aucune place dans le diagnostic du placenta prævia.",
       "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q18) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-182",
-    "module": "gynecologie",
-    "chapitre": "Hématome retro placentaire",
-    "chapitre_num": 15,
-    "section": "Hématome retro placentaire",
-    "source": {
-      "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q19 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q19 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Quelles sont les complications de l'hématome rétroplacentaire :",
-    "propositions": {
-      "A": "Accouchement prématuré.",
-      "B": "Mort  fœtale  in utéro.",
-      "C": "Troubles de la coagulation.",
-      "D": "Décès maternel.",
-      "E": "Une toxémie gravidique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel et les consensus d'enseignement de la Faculté de Médecine de Mostaganem (Session Normale 2017/2018), la ou les réponses exactes sont ABCD. Cette question valide les objectifs d'apprentissage du cours « Hématome retro placentaire ».",
-    "justifications": {
-      "A": "Vrai. La menace d'accouchement prématuré ou l'évacuation en urgence imposée par la souffrance fœtale induit une prématurité fréquente.",
-      "B": "Vrai. La mort fœtale in utero (MFIU) est la complication fœtale majeure due à l'anoxie brutale par hématome décidual étendu.",
-      "C": "Vrai. Les troubles majeurs de l'hémostase (CIVD et hypofibrinogénémie) surviennent par passage de thromboplastines tissulaires dans la circulation maternelle.",
-      "D": "Vrai. Le choc hémorragique décompensé et la coagulopathie engagent directement le pronostic vital maternel.",
-      "E": "Faux. La toxémie gravidique (pré-éclampsie) est la cause étiologique vasculaire sous-jacente et non une conséquence de l'HRP.",
-      "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q19) portant sur le cours « Hématome retro placentaire ». Bonne(s) réponse(s) : ABCD.",
       "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
     },
     "isAlger": false,
@@ -8172,6 +7866,11 @@ window.QCM_GYNECO = [
         "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q22 (Mostaganem)",
         "type": "EMD",
         "annee": "2018"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Au cours du cycle menstruel, le pic de LH provoque :",
@@ -8213,6 +7912,11 @@ window.QCM_GYNECO = [
     "sources": [
       {
         "texte": "Examen de Gynécologie-Obstétrique 2017/2018 - Q23 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2018"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
         "type": "EMD",
         "annee": "2018"
       }
@@ -8564,6 +8268,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q20 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Parmi les propositions suivantes, quelles sont les étiologies possibles de l'hémorragie de la délivrance ?",
@@ -8608,9 +8317,14 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q12 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
-    "question": "L'ictère néonatal par incompatibilité rhésus  fœto -maternelle anti-D :",
+    "question": "L'ictère néonatal par incompatibilité rhésus fœto -maternelle anti-D :",
     "propositions": {
       "A": "Survient si la mère est rhésus positif et l'enfant rhésus négatif",
       "B": "Est un ictère présent dès la naissance",
@@ -8655,7 +8369,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "L’ une de ces tumeurs endocrines de  l’ovaire secrète des hormones males  :",
+    "question": "L’ une de ces tumeurs endocrines de l’ovaire secrète des hormones males :",
     "propositions": {
       "A": "Arrhénoblastome",
       "B": "Thécome",
@@ -8696,9 +8410,14 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q11 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
-    "question": "Un nouveau-né dont la mère fait une séroconversion toxoplasmique au cours de la grossesse est né cliniquement sain. Indiquez  l’(les) examen(s) clinique (s) ou paraclinique (s) qui es (sont) couramment mis en œuvre au cours  des jours qui suivent la naissance ?",
+    "question": "Un nouveau-né dont la mère fait une séroconversion toxoplasmique au cours de la grossesse est né cliniquement sain. Indiquez l’(les) examen(s) clinique (s) ou paraclinique (s) qui es (sont) couramment mis en œuvre au cours des jours qui suivent la naissance ?",
     "propositions": {
       "A": "Examen neurologique et du fond d’œil",
       "B": "Radiographie du crane",
@@ -8874,6 +8593,16 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q15 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q14 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Parmi les propositions suivantes, laquelle (lesquelles) se rapporte(nt) aux kystes dermoïdes de l'ovaire ?",
@@ -8919,6 +8648,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q16 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q15 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "La pré éclampsie (toxémie) chez une femme primigeste est :",
@@ -9323,6 +9057,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q25 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "La grossesse entraîne un certain nombre de modifications biologiques. Quelle(s) est (sont) la(les) propositions qui est (sont) correcte(s) ? 1. Hyperleucocytose 2. Hémodilution 3. Hypercholestérolémie 4. Accélération de la vitesse de sédimentation",
@@ -9412,7 +9151,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "Une parturiente est vue à 36 SA, avec apparition des contractions utérines et une TA à 15/10, le fœtus  est en siège décomplété. Que proposez-vous ?",
+    "question": "Une parturiente est vue à 36 SA, avec apparition des contractions utérines et une TA à 15/10, le fœtus est en siège décomplété. Que proposez-vous ?",
     "propositions": {
       "A": "Une radiographie de contenu utérin",
       "B": "Une radiopelvimétrie",
@@ -9455,6 +9194,16 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q28 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q22 (Oran)",
+        "type": "EMD",
+        "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q37 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "La listériose au cours de la grossesse :",
@@ -9543,6 +9292,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q30 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q16 (Oran)",
+        "type": "EMD",
+        "annee": "2019"
       }
     ],
     "question": "Quel est l'examen permettant de faire le diagnostic de certitude de diabète gestationnel après 24 semaines d'aménorrhée ?",
@@ -9586,6 +9340,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q31 (Oran)",
         "type": "Rattrapage",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q22 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Le placenta prævia :",
@@ -9674,6 +9433,11 @@ window.QCM_GYNECO = [
       {
         "texte": "Examen Rattrapage Gynécologie-Obstétrique 2018/2019 - Q33 (Oran)",
         "type": "Rattrapage",
+        "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q39 (Oran)",
+        "type": "EMD",
         "annee": "2019"
       }
     ],
@@ -9895,7 +9659,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "Quels sont les signes de la souffrance  fœtale aigue  :",
+    "question": "Quels sont les signes de la souffrance fœtale aigue :",
     "propositions": {
       "A": "Tachycardie",
       "B": "Bradycardie",
@@ -10072,6 +9836,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q2 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q21 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Une endométriose génitale peut être traitée efficacement par :",
@@ -10297,6 +10066,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q7 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Madame R., primigeste de 28 ans, sans antécédent, vous consulte pour sa visite du 8ème mois. Vous mesurez la hauteur utérine, elle est à 25 cm. Qu'en déduisez-vous ?",
@@ -10386,6 +10160,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q9 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Dans la présentation du sommet dos à gauche :",
@@ -10430,6 +10209,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q10 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q40 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Madame R.., 22 ans, vous consulte pour une lésion vulvaire douloureuse. Vous constatez des vésicules en bouquet sur la grande lèvre, certaines étant rompues. Il existe des adénopathies inguinales homolatérales sensibles. Elle a 38®S. Quel(s) diagnostic(s) devez-vous soulever ?",
@@ -10475,7 +10259,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "Une deuxième geste, césarisée lors de la première grossesse est adressée en urgence, à 34 semaines d'aménorrhée pour état de choc avec hémorragie peu abondante, noirâtre. L'examen retrouve une T.A. élevée à 16/10, une contracture utérine et une souffrance  fœtale  aiguë. Le diagnostic le plus probable est :",
+    "question": "Une deuxième geste, césarisée lors de la première grossesse est adressée en urgence, à 34 semaines d'aménorrhée pour état de choc avec hémorragie peu abondante, noirâtre. L'examen retrouve une T.A. élevée à 16/10, une contracture utérine et une souffrance fœtale aiguë. Le diagnostic le plus probable est :",
     "propositions": {
       "A": "Un syndrome du sinus marginal",
       "B": "Une rupture utérine",
@@ -10561,6 +10345,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q13 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q39 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "une aménorrhée secondaire peut être due à :",
@@ -10607,6 +10396,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q14 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q6 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Les propositions suivantes sont fausses, sauf une Le bilan d'une aménorrhée secondaire chez une femme de 35 ans montre une selle turcique normale, un taux élevé de FSH et de LH plasmatiques, un taux normal de prolactine et de testostérone, un test de grossesse négatif, un taux très bas de progestérone, un examen gynécologique normal. Le diagnostic s'oriente vers :",
@@ -10678,49 +10472,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-242",
-    "module": "gynecologie",
-    "chapitre": "Diabète gestationnel",
-    "chapitre_num": 20,
-    "section": "Diabète gestationnel",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q16 (Oran)",
-      "type": "EMD",
-      "annee": "2019"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q16 (Oran)",
-        "type": "EMD",
-        "annee": "2019"
-      }
-    ],
-    "question": "Quel est l'examen permettant de faire le diagnostic de certitude de diabète gestationnel après 24 semaines d'aménorrhée ?",
-    "propositions": {
-      "A": "Glycosurie",
-      "B": "Glycémie à jeun",
-      "C": "Glycémie post prandiale",
-      "D": "Hyperglycémie provoquée par voie orale",
-      "E": "Mesure de l'hémoglobine glycosylée AIC"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q16 (Oran)), la ou les réponses exactes sont D. Cette question valide les objectifs d'apprentissage du cours « Diabète gestationnel ».",
-    "justifications": {
-      "A": "Faux. « Glycosurie » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "B": "Faux. « Glycémie à jeun » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "C": "Faux. « Glycémie post prandiale » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "D": "Vrai (Corrigé officiel : D). « Hyperglycémie provoquée par voie orale » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Mesure de l'hémoglobine glycosylée AIC » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q16 (Oran)) portant sur le cours « Diabète gestationnel ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique Section A du 10/03/2019."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-243",
     "module": "gynecologie",
     "chapitre": "Cancer de l'endomètre",
@@ -10758,50 +10509,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « La pression artérielle est de 16/10mmHg » est inexact dans cette situation clinique (Corrigé officiel : BC).",
       "E": "Faux. « Elle prend des progestatifs depuis plusieurs mois pour régulariser son cycle » est inexact dans cette situation clinique (Corrigé officiel : BC).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q17 (Oran)) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : BC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique Section A du 10/03/2019."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-244",
-    "module": "gynecologie",
-    "chapitre": "La souffrance fœtale",
-    "chapitre_num": 22,
-    "section": "La souffrance fœtale",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q18 (Oran)",
-      "type": "EMD",
-      "annee": "2019"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q18 (Oran)",
-        "type": "EMD",
-        "annee": "2019"
-      }
-    ],
-    "question": "La Mort  fœtale  in utero :",
-    "propositions": {
-      "A": "Peut se compliquer de troubles d'hémostase",
-      "B": "Peut être due à une pré éclampsie",
-      "C": "Peut se compliquer d'infection amniotique",
-      "D": "Nécessite toujours une césarienne",
-      "E": "Est toujours précéder d'un retard de croissance intra utérin"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q18 (Oran)), la ou les réponses exactes sont AB. Cette question valide les objectifs d'apprentissage du cours « La souffrance fœtale ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AB). « Peut se compliquer de troubles d'hémostase » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : AB). « Peut être due à une pré éclampsie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Peut se compliquer d'infection amniotique » est inexact dans cette situation clinique (Corrigé officiel : AB).",
-      "D": "Faux. « Nécessite toujours une césarienne » est inexact dans cette situation clinique (Corrigé officiel : AB).",
-      "E": "Faux. « Est toujours précéder d'un retard de croissance intra utérin » est inexact dans cette situation clinique (Corrigé officiel : AB).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q18 (Oran)) portant sur le cours « La souffrance fœtale ». Bonne(s) réponse(s) : AB.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique Section A du 10/03/2019."
     },
     "isAlger": false,
@@ -10944,51 +10651,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-248",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q22 (Oran)",
-      "type": "EMD",
-      "annee": "2019"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q22 (Oran)",
-        "type": "EMD",
-        "annee": "2019"
-      }
-    ],
-    "question": "La listériose au cours de la grossesse :",
-    "propositions": {
-      "A": "Peut se traduire chez la mère par un syndrome pseudo-grippal",
-      "B": "Peut entrainer une mort in utero",
-      "C": "Est diagnostiquée toujours par prélèvement vaginal",
-      "D": "Contamine en généra l le fœtus par voie ascendante va ginale",
-      "E": "Le germe causal est sensible à l'ampicilline"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q22 (Oran)), la ou les réponses exactes sont ABE. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABE). « Peut se traduire chez la mère par un syndrome pseudo-grippal » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABE). « Peut entrainer une mort in utero » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Est diagnostiquée toujours par prélèvement vaginal » est inexact dans cette situation clinique (Corrigé officiel : ABE).",
-      "D": "Faux. « Contamine en généra l le fœtus par voie ascendante va ginale » est inexact dans cette situation clinique (Corrigé officiel : ABE).",
-      "E": "Vrai (Corrigé officiel : ABE). « Le germe causal est sensible à l'ampicilline » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q22 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : ABE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique Section A du 10/03/2019."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-249",
     "module": "gynecologie",
     "chapitre": "Fibrome utérin",
@@ -11049,6 +10711,16 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q24 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q23 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q10 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Une jeune femme de 20 ans, primigeste, présente des métrorragies à 11 semaines de grossesse. Parmi les caractéristiques suivantes, quel est celui ou quels sont ceux évoquant le diagnostic d'avortement molaire ?",
@@ -11355,6 +11027,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q31 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q15 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "La (les) conséquences(s) de la rupture prématurée des membranes peut (vent) être :",
@@ -11399,6 +11076,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q32 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Lors d'une carence martiale non traitée, on retrouve :",
@@ -11410,8 +11092,7 @@ window.QCM_GYNECO = [
       "E": "Une ferritine plasmatique augmentée"
     },
     "bonnes_reponses": [
-      "A",
-      "E"
+      "A"
     ],
     "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q32 (Oran)), la ou les réponses exactes sont AE. Cette question valide les objectifs d'apprentissage du cours « Anémie et grossesse ».",
     "justifications": {
@@ -11425,7 +11106,8 @@ window.QCM_GYNECO = [
     },
     "isAlger": false,
     "isOran": true,
-    "faculty": "Oran"
+    "faculty": "Oran",
+    "note_cle": "Clé corrigée : en carence martiale la ferritine est diminuée (et non augmentée) ; deux épreuves donnaient A et AE."
   },
   {
     "id": "gyn-259",
@@ -11443,6 +11125,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q33 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q23 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "La propriété anticonceptionnelle d'une pilule oestroprogestative minidosée peut être altérée par la prise concomitante de : 1- Barbiturique 2- Hydantoine 3- Rifampicine 4- Anti-inflammatoire",
@@ -11486,9 +11173,14 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q34 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q29 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
-    "question": "Une jeune femme primigeste de 28 ans, en 39ème semaine d'aménorrhée, consulte pour céphalées et sensations de \"mouches volantes\". Il existe :  albuminurie (++), œdèmes des membres inférieurs et supérieurs, prise de poids de 21 kg depuis le début de la grossesse. La TA est à 150/105. Le tracé cardiaque fœtal  est parfait. Le col utérin est long de 2 cm, ouvert à 1 cm sur toute sa longueur :",
+    "question": "Une jeune femme primigeste de 28 ans, en 39ème semaine d'aménorrhée, consulte pour céphalées et sensations de \"mouches volantes\". Il existe : albuminurie (++), œdèmes des membres inférieurs et supérieurs, prise de poids de 21 kg depuis le début de la grossesse. La TA est à 150/105. Le tracé cardiaque fœtal est parfait. Le col utérin est long de 2 cm, ouvert à 1 cm sur toute sa longueur :",
     "propositions": {
       "A": "Vous prescrivez un traitement antihypertenseur à cette patiente en lui précisant de revenir consulter dans une semaine, si elle n'a pas accouché",
       "B": "Vous prescrivez un bilan d'hypertension à faire en ambulatoire : créatinine, urée, acide urique, clearance, avant tout traitement antihypertenseur",
@@ -11529,6 +11221,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q35 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q28 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Lors d'un examen colposcopique, l'application d'acide acétique à 3% permet de repérer :",
@@ -11555,7 +11252,8 @@ window.QCM_GYNECO = [
     },
     "isAlger": false,
     "isOran": true,
-    "faculty": "Oran"
+    "faculty": "Oran",
+    "note_cle": "Clé divergente entre deux épreuves (BC et BD). L'acide acétique révèle les zones pathologiques (blanches) et la zone de jonction."
   },
   {
     "id": "gyn-262",
@@ -11659,6 +11357,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q38 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Quelle est la malformation utérine qui expose le plus aux avortements spontanés précoces ?",
@@ -11670,7 +11373,7 @@ window.QCM_GYNECO = [
       "E": "Béance cervico-isthmique"
     },
     "bonnes_reponses": [
-      "B"
+      "D"
     ],
     "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q38 (Oran)), la ou les réponses exactes sont B. Cette question valide les objectifs d'apprentissage du cours « Avortements et complications ».",
     "justifications": {
@@ -11684,52 +11387,8 @@ window.QCM_GYNECO = [
     },
     "isAlger": false,
     "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-265",
-    "module": "gynecologie",
-    "chapitre": "HTA & grossesse",
-    "chapitre_num": 24,
-    "section": "HTA & grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q39 (Oran)",
-      "type": "EMD",
-      "annee": "2019"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q39 (Oran)",
-        "type": "EMD",
-        "annee": "2019"
-      }
-    ],
-    "question": "La constatation d'une hypertension artérielle gravidique impose les mesures suivantes :",
-    "propositions": {
-      "A": "Le dosage au moins mensuel de l'uricémie",
-      "B": "La recherche au moins mensuelle de la protéinurie",
-      "C": "La prescription d'un diurétique thiazidique",
-      "D": "La prescription d'un inhibiteur de l'enzyme de conversion",
-      "E": "L'interruption de toute activité physique importante"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q39 (Oran)), la ou les réponses exactes sont ABE. Cette question valide les objectifs d'apprentissage du cours « HTA & grossesse ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABE). « Le dosage au moins mensuel de l'uricémie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABE). « La recherche au moins mensuelle de la protéinurie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « La prescription d'un diurétique thiazidique » est inexact dans cette situation clinique (Corrigé officiel : ABE).",
-      "D": "Faux. « La prescription d'un inhibiteur de l'enzyme de conversion » est inexact dans cette situation clinique (Corrigé officiel : ABE).",
-      "E": "Vrai (Corrigé officiel : ABE). « L'interruption de toute activité physique importante » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q39 (Oran)) portant sur le cours « HTA & grossesse ». Bonne(s) réponse(s) : ABE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique Section A du 10/03/2019."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
+    "faculty": "Oran",
+    "note_cle": "Clé corrigée : l'utérus cloisonné est la malformation qui expose le plus aux avortements précoces (deux épreuves donnaient B et D)."
   },
   {
     "id": "gyn-266",
@@ -11835,7 +11494,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "Parmi ces antibiotiques, il est possible d'utiliser sans risque  fœtal  au cours de la grossesse :",
+    "question": "Parmi ces antibiotiques, il est possible d'utiliser sans risque fœtal au cours de la grossesse :",
     "propositions": {
       "A": "Céfalotine",
       "B": "Vibramycine",
@@ -11921,6 +11580,16 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q4 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q16 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Au 6 et 7ème jour du post-partum, le fond utérin :",
@@ -11964,6 +11633,11 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q5 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q14 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "La hauteur utérine normale à 28 semaines d'aménorrhée est de :",
@@ -12141,7 +11815,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "Aux cours de l'accouchement normal la fréquence cardiaque  fœtal  est habituellement de l'ordre de :",
+    "question": "Aux cours de l'accouchement normal la fréquence cardiaque fœtal est habituellement de l'ordre de :",
     "propositions": {
       "A": "80 battements par minute (bpm)",
       "B": "100 bpm",
@@ -12225,6 +11899,11 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q11 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Les critères obstétricaux qui permettent de dire qu'une femme à terme est en début de travail, comportent :",
@@ -12271,7 +11950,7 @@ window.QCM_GYNECO = [
         "annee": "2019"
       }
     ],
-    "question": "L'engagement de la tête  fœtale  en présentation du sommet se définit comme :",
+    "question": "L'engagement de la tête fœtale en présentation du sommet se définit comme :",
     "propositions": {
       "A": "Le franchissement du détroit inférieur par le bregma",
       "B": "La prise de contact du pourtour céphalique avec le détroit supérieur",
@@ -12312,9 +11991,14 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q13 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q34 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
-    "question": "Dans le monitorage du rythme cardiaque  fœtal  au cours de la grossesse, quel est l'élément de bon pronostic ?",
+    "question": "Dans le monitorage du rythme cardiaque fœtal au cours de la grossesse, quel est l'élément de bon pronostic ?",
     "propositions": {
       "A": "Rythme plat",
       "B": "Rythme sinusoïdal",
@@ -12355,6 +12039,11 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q14 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Le test de kleihauer est utilisé pour :",
@@ -12441,6 +12130,11 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q16 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "La variété de dégagement d'une présentation céphalique la plus fréquente est :",
@@ -12484,9 +12178,19 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q17 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q19 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
+      },
+      {
+        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
-    "question": "Indiquez parmi les propositions suivantes sur  l’utérus,  la (les) proposition(s) exacte(s) :",
+    "question": "Indiquez parmi les propositions suivantes sur l’utérus, la (les) proposition(s) exacte(s) :",
     "propositions": {
       "A": "Il est antéversé et rétrofléchi",
       "B": "Il se situe entre la vessie en avant et le rectum en arrière",
@@ -12614,6 +12318,11 @@ window.QCM_GYNECO = [
         "texte": "Épreuve Pratique Gynécologie-Obstétrique Section A 2018/2019 - Q20 (Oran)",
         "type": "EMD",
         "annee": "2019"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q2 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Parmi les propositions suivantes concernant le bassin osseux, laquelle (lesquelles) est (sont) exactes :",
@@ -13297,7 +13006,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Le bassin Obstétrical dans sa partie supérieur  est représenté par : cocher la réponse fausse :",
+    "question": "Le bassin Obstétrical dans sa partie supérieur est représenté par : cocher la réponse fausse :",
     "propositions": {
       "A": "Detroit supérieur.",
       "B": "Le plan de l'engagement de la présentation",
@@ -13340,7 +13049,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "La grossesse normale entraine des modifications  cardiovasculaires physiologiques lesquels ?",
+    "question": "La grossesse normale entraine des modifications cardiovasculaires physiologiques lesquels ?",
     "propositions": {
       "A": "Hémodilution",
       "B": "L'hyper volémie",
@@ -13385,7 +13094,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quelle contraception proposez-vous chez  une femme cardiopathe ?",
+    "question": "Quelle contraception proposez-vous chez une femme cardiopathe ?",
     "propositions": {
       "A": "Les micro progestatifs",
       "B": "Les oestroprogestatifs normo dosés",
@@ -13429,7 +13138,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quels sont les conséquences de l'Anémie sur la  grossesse  :",
+    "question": "Quels sont les conséquences de l'Anémie sur la grossesse :",
     "propositions": {
       "A": "Infections à répétition.",
       "B": "Macrosomie",
@@ -13475,7 +13184,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quels sont les étiologies possibles de la menace  d'accouchement prématuré ?",
+    "question": "Quels sont les étiologies possibles de la menace d'accouchement prématuré ?",
     "propositions": {
       "A": "Infection urinaire",
       "B": "Traumatisme abdominal",
@@ -13783,6 +13492,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q26 (Oran)",
         "type": "EMD",
         "annee": "2021"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q22 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
     "question": "Le segment inférieur : cochez les réponses justes",
@@ -13962,7 +13676,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Pendant l'accouchement la réponse juste :",
+    "question": "Pendant l'accouchement la ou les réponses justes :",
     "propositions": {
       "A": "Les variétés antérieures : OIGA et OIDA font une rotation laborieuse de 135 degrés",
       "B": "La rotation de la tête  fœtale  n'est pas obligatoire.",
@@ -14167,98 +13881,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-321",
-    "module": "gynecologie",
-    "chapitre": "Délivrance normale et pathologique",
-    "chapitre_num": 16,
-    "section": "Délivrance normale et pathologique",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q35 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q35 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Quelle est la conduite à tenir devant une hémorragie de la délivrance :",
-    "propositions": {
-      "A": "Délivrance artificielle",
-      "B": "Révision utérine",
-      "C": "Perfusion d'ocytociques",
-      "D": "Transfusion sanguine",
-      "E": "Examen sous valves de la filière génitale"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section A 2020/2021 - Q35 (Oran)), la ou les réponses exactes sont ABCDE. Cette question valide les objectifs d'apprentissage du cours « Délivrance normale et pathologique ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCDE). « Délivrance artificielle » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABCDE). « Révision utérine » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABCDE). « Perfusion d'ocytociques » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ABCDE). « Transfusion sanguine » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : ABCDE). « Examen sous valves de la filière génitale » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section A 2020/2021 - Q35 (Oran)) portant sur le cours « Délivrance normale et pathologique ». Bonne(s) réponse(s) : ABCDE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section A du 17/06/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-322",
-    "module": "gynecologie",
-    "chapitre": "Les tumeurs du sein",
-    "chapitre_num": 34,
-    "section": "Les tumeurs du sein",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q36 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section A 2020/2021 - Q36 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Une patiente consulte pour une tumeur du sein. Quel(s) est (sont) le(s) élément(s) qui vous fait (font) penser qu'elle est à haut risque du cancer du sein?",
-    "propositions": {
-      "A": "Elle a été opérée d'une mastopathie bégnine.",
-      "B": "Elle a eu 4 enfants",
-      "C": "Elle prend la pilule.",
-      "D": "Sa mère a eu un cancer du sein.",
-      "E": "Elle a eu ses premières règles à 16 ans"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section A 2020/2021 - Q36 (Oran)), la ou les réponses exactes sont ACD. Cette question valide les objectifs d'apprentissage du cours « Les tumeurs du sein ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACD). « Elle a été opérée d'une mastopathie bégnine. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Elle a eu 4 enfants » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "C": "Vrai (Corrigé officiel : ACD). « Elle prend la pilule. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ACD). « Sa mère a eu un cancer du sein. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Elle a eu ses premières règles à 16 ans » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section A 2020/2021 - Q36 (Oran)) portant sur le cours « Les tumeurs du sein ». Bonne(s) réponse(s) : ACD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section A du 17/06/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-323",
     "module": "gynecologie",
     "chapitre": "HTA & grossesse",
@@ -14367,7 +13989,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quelles sont les moyens de la surveillance  fœtale  au cours de la pré-éclampsie :",
+    "question": "Quelles sont les moyens de la surveillance fœtale au cours de la pré-éclampsie :",
     "propositions": {
       "A": "Echographie obstétricale.",
       "B": "Doppler obstétrical.",
@@ -14682,7 +14304,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Quels sont les examens à demander devant une  aménorrhée primaire chez une jeune en âge d’être réglée :",
+    "question": "Quels sont les examens à demander devant une aménorrhée primaire chez une jeune en âge d’être réglée :",
     "propositions": {
       "A": "Courbe ménothermique",
       "B": "Bilan hormonal",
@@ -14725,7 +14347,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "C ouple stérile : en absence d’élément d’orientation diagnostique quel est le bilan  paraclinique de 1ère intention :",
+    "question": "C ouple stérile : en absence d’élément d’orientation diagnostique quel est le bilan paraclinique de 1ère intention :",
     "propositions": {
       "A": "Courbe thermique",
       "B": "Bilan hormonal",
@@ -14865,7 +14487,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Grossesse extra- utérine, le site d’implantation ectopique le plus fréquent est :  la ou les réponses justes :",
+    "question": "Grossesse extra- utérine, le site d’implantation ectopique le plus fréquent est : la ou les réponses justes :",
     "propositions": {
       "A": "Le pavillon tubaire",
       "B": "L’ovaire",
@@ -15087,9 +14709,14 @@ window.QCM_GYNECO = [
         "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q10 (Oran)",
         "type": "EMD",
         "annee": "2021"
+      },
+      {
+        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q39 (Oran)",
+        "type": "EMD",
+        "annee": "2021"
       }
     ],
-    "question": "Quels sont les facteurs de risque de macrosomie  fœtale  :",
+    "question": "Quels sont les facteurs de risque de macrosomie fœtale :",
     "propositions": {
       "A": "Multiparité",
       "B": "Obésité",
@@ -15614,51 +15241,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-353",
-    "module": "gynecologie",
-    "chapitre": "Bassin obstétrical",
-    "chapitre_num": 3,
-    "section": "Bassin obstétrical",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q22 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q22 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Le segment inferieur : cochez les réponses justes :",
-    "propositions": {
-      "A": "Se forme sous l’effet des contractions utérines",
-      "B": "Moule la présentation",
-      "C": "Partie mince située au fond utérin entre les 2 trompes de fallope",
-      "D": "Le toucher  vaginal, permet d’apprécier l’ampliation du segment inf érieur",
-      "E": "Se constitue dès le 1er trimestre de grossesse"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q22 (Oran)), la ou les réponses exactes sont ABD. Cette question valide les objectifs d'apprentissage du cours « Bassin obstétrical ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABD). « Se forme sous l’effet des contractions utérines » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABD). « Moule la présentation » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Partie mince située au fond utérin entre les 2 trompes de fallope » est inexact dans cette situation clinique (Corrigé officiel : ABD).",
-      "D": "Vrai (Corrigé officiel : ABD). « Le toucher  vaginal, permet d’apprécier l’ampliation du segment inf érieur » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Se constitue dès le 1er trimestre de grossesse » est inexact dans cette situation clinique (Corrigé officiel : ABD).",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q22 (Oran)) portant sur le cours « Bassin obstétrical ». Bonne(s) réponse(s) : ABD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-354",
     "module": "gynecologie",
     "chapitre": "Les tumeurs de l'ovaire",
@@ -15839,51 +15421,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-358",
-    "module": "gynecologie",
-    "chapitre": "Fibrome utérin",
-    "chapitre_num": 33,
-    "section": "Fibrome utérin",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q27 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q27 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Un fibromyome est : (la ou les réponses justes) :",
-    "propositions": {
-      "A": "Une tumeur musculaire lisse bénigne",
-      "B": "Une fibrose du  muscle utérin due à l’âge",
-      "C": "Une pathologie fréquente chez la femme entre 40 et 50 ans",
-      "D": "Une tumeur qui augmente de volume sous l’influence des œstrogènes",
-      "E": "Une tumeur qui dégénère souvent après la ménopause"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q27 (Oran)), la ou les réponses exactes sont ACD. Cette question valide les objectifs d'apprentissage du cours « Fibrome utérin ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACD). « Une tumeur musculaire lisse bénigne » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Une fibrose du  muscle utérin due à l’âge » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "C": "Vrai (Corrigé officiel : ACD). « Une pathologie fréquente chez la femme entre 40 et 50 ans » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ACD). « Une tumeur qui augmente de volume sous l’influence des œstrogènes » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Une tumeur qui dégénère souvent après la ménopause » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q27 (Oran)) portant sur le cours « Fibrome utérin ». Bonne(s) réponse(s) : ACD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-359",
     "module": "gynecologie",
     "chapitre": "Les hémorragies génitales",
@@ -15944,7 +15481,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "A la période  d’activité génitale l’e xistence de ménorragies doit faire évoquer en premier :",
+    "question": "A la période d’activité génitale l’e xistence de ménorragies doit faire évoquer en premier :",
     "propositions": {
       "A": "Un fibrome",
       "B": "Un cancer du col",
@@ -15970,185 +15507,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-361",
-    "module": "gynecologie",
-    "chapitre": "Délivrance normale et pathologique",
-    "chapitre_num": 16,
-    "section": "Délivrance normale et pathologique",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q30 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q30 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Quelle est la conduite à tenir devant une hémorragie de délivrance :",
-    "propositions": {
-      "A": "Délivrance artificielle",
-      "B": "Révision utérine",
-      "C": "Perfusion d’ocytociques",
-      "D": "Transfusion sanguine",
-      "E": "Examen sous valves de la filière génitale"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q30 (Oran)), la ou les réponses exactes sont ABCDE. Cette question valide les objectifs d'apprentissage du cours « Délivrance normale et pathologique ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCDE). « Délivrance artificielle » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABCDE). « Révision utérine » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABCDE). « Perfusion d’ocytociques » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ABCDE). « Transfusion sanguine » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : ABCDE). « Examen sous valves de la filière génitale » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q30 (Oran)) portant sur le cours « Délivrance normale et pathologique ». Bonne(s) réponse(s) : ABCDE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-362",
-    "module": "gynecologie",
-    "chapitre": "Cancer de l'endomètre",
-    "chapitre_num": 35,
-    "section": "Cancer de l'endomètre",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q31 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q31 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "L e cancer de l’endomètre est fréquent chez :",
-    "propositions": {
-      "A": "Femmes avant 50 ans",
-      "B": "La multipare",
-      "C": "La femme ménopausée",
-      "D": "La femme obèse et/ou diabétique",
-      "E": "Femme présentant une hyperoestrogénie"
-    },
-    "bonnes_reponses": [
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q31 (Oran)), la ou les réponses exactes sont CDE. Cette question valide les objectifs d'apprentissage du cours « Cancer de l'endomètre ».",
-    "justifications": {
-      "A": "Faux. « Femmes avant 50 ans » est inexact dans cette situation clinique (Corrigé officiel : CDE).",
-      "B": "Faux. « La multipare » est inexact dans cette situation clinique (Corrigé officiel : CDE).",
-      "C": "Vrai (Corrigé officiel : CDE). « La femme ménopausée » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : CDE). « La femme obèse et/ou diabétique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : CDE). « Femme présentant une hyperoestrogénie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q31 (Oran)) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : CDE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-363",
-    "module": "gynecologie",
-    "chapitre": "Cancer de l'endomètre",
-    "chapitre_num": 35,
-    "section": "Cancer de l'endomètre",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q32 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q32 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "L ’examen complémentaire à demander en cas de suspicion du cancer de l’endomètre est :",
-    "propositions": {
-      "A": "Colposcopie avec biopsie",
-      "B": "Hystérographie",
-      "C": "Hystéroscopie avec prélèvement",
-      "D": "Echographie endovaginale",
-      "E": "Frottis cervico-utérin"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q32 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Cancer de l'endomètre ».",
-    "justifications": {
-      "A": "Faux. « Colposcopie avec biopsie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Hystérographie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Hystéroscopie avec prélèvement » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Echographie endovaginale » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Frottis cervico-utérin » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q32 (Oran)) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-364",
-    "module": "gynecologie",
-    "chapitre": "Placenta prævia",
-    "chapitre_num": 14,
-    "section": "Placenta prævia",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q33 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q33 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Le placenta prævia est :",
-    "propositions": {
-      "A": "Un placenta de situation fundique",
-      "B": "Un placenta qui s’insère sur le segment inf érieur",
-      "C": "Insertion basse et vicieuse",
-      "D": "Responsable d’un découlement prématuré avec du sang noirâtre",
-      "E": "De diagnostic facile grâce au toucher vaginal"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q33 (Oran)), la ou les réponses exactes sont BC. Cette question valide les objectifs d'apprentissage du cours « Placenta prævia ».",
-    "justifications": {
-      "A": "Faux. « Un placenta de situation fundique » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "B": "Vrai (Corrigé officiel : BC). « Un placenta qui s’insère sur le segment inf érieur » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : BC). « Insertion basse et vicieuse » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Responsable d’un découlement prématuré avec du sang noirâtre » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "E": "Faux. « De diagnostic facile grâce au toucher vaginal » est inexact dans cette situation clinique (Corrigé officiel : BC).",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q33 (Oran)) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : BC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-365",
     "module": "gynecologie",
     "chapitre": "Hématome retro placentaire",
@@ -16166,7 +15524,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Donnez les principaux signes clini ques d’hématome  rétro placentaire :",
+    "question": "Donnez les principaux signes clini ques d’hématome rétro placentaire :",
     "propositions": {
       "A": "Hémorragies abondantes faite de sang rouge",
       "B": "Hémorragies peu abondantes noirâtre",
@@ -16285,49 +15643,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-368",
-    "module": "gynecologie",
-    "chapitre": "Le cancer du col utérin",
-    "chapitre_num": 36,
-    "section": "Le cancer du col utérin",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q37 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q37 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Quel est le signe révélateur le plus fréquent du cancer du col utérin :",
-    "propositions": {
-      "A": "Douleurs pelviennes",
-      "B": "Hémorragies utérines",
-      "C": "Hémorragies de contact « post coïtal »",
-      "D": "Leucorrhées importantes",
-      "E": "Aucune des réponses suivantes"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q37 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Le cancer du col utérin ».",
-    "justifications": {
-      "A": "Faux. « Douleurs pelviennes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Hémorragies utérines » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Hémorragies de contact « post coïtal » » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Leucorrhées importantes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Aucune des réponses suivantes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q37 (Oran)) portant sur le cours « Le cancer du col utérin ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-369",
     "module": "gynecologie",
     "chapitre": "Cancer de l'endomètre",
@@ -16345,7 +15660,7 @@ window.QCM_GYNECO = [
         "annee": "2021"
       }
     ],
-    "question": "Le cancer de  l’endomètre (l a ou les réponses justes) :",
+    "question": "Le cancer de l’endomètre (l a ou les réponses justes) :",
     "propositions": {
       "A": "Cancer hormono-dépendant",
       "B": "Cancer de la femme ménopausée",
@@ -16368,53 +15683,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : ABCDE). « Peut-être évoquer par une hystérographie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Vrai (Corrigé officiel : ABCDE). « La prise de pilule normodosée est un facteur protecteur » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q38 (Oran)) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : ABCDE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-370",
-    "module": "gynecologie",
-    "chapitre": "La macrosomie fœtale",
-    "chapitre_num": 21,
-    "section": "La macrosomie fœtale",
-    "source": {
-      "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q39 (Oran)",
-      "type": "EMD",
-      "annee": "2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Gynécologie-Obstétrique Section B 2020/2021 - Q39 (Oran)",
-        "type": "EMD",
-        "annee": "2021"
-      }
-    ],
-    "question": "Quels sont les facteurs de risque de la macrosomie  fœtale  :",
-    "propositions": {
-      "A": "Multiparité",
-      "B": "Obésité",
-      "C": "Age sup à 35 ans",
-      "D": "Dystocie des épaules lors de l’accouchement ant érieur",
-      "E": "Diabète gestationnel"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q39 (Oran)), la ou les réponses exactes sont ABCDE. Cette question valide les objectifs d'apprentissage du cours « La macrosomie fœtale ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCDE). « Multiparité » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABCDE). « Obésité » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABCDE). « Age sup à 35 ans » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ABCDE). « Dystocie des épaules lors de l’accouchement ant érieur » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : ABCDE). « Diabète gestationnel » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Gynécologie-Obstétrique Section B 2020/2021 - Q39 (Oran)) portant sur le cours « La macrosomie fœtale ». Bonne(s) réponse(s) : ABCDE.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve officielle Section B du 25/02/2021."
     },
     "isAlger": false,
@@ -16685,49 +15953,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-377",
-    "module": "gynecologie",
-    "chapitre": "Les aménorrhées",
-    "chapitre_num": 27,
-    "section": "Les aménorrhées",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q6 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q6 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Les propositions suivantes sont fausses, sauf une Le bilan d'une aménorrhée secondaire chez une femme de 35 ans montre une selle turcique normale, un taux élevé de FSH et de LH plasmatiques, un taux normal de prolactine et de testostérone, un test de grossesse négatif, un taux très bas de progestérone, un examen gynécologique normal. Le diagnostic s'oriente vers :",
-    "propositions": {
-      "A": "Une dysgénésie gonadique",
-      "B": "Un syndrome de Stein et Leventhal",
-      "C": "Une tumeur hypophysaire",
-      "D": "Une ménopause précoce",
-      "E": "Une aménorrhée psychogène"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q6 (Oran)), la ou les réponses exactes sont D. Cette question valide les objectifs d'apprentissage du cours « Les aménorrhées ».",
-    "justifications": {
-      "A": "Faux. « Une dysgénésie gonadique » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "B": "Faux. « Un syndrome de Stein et Leventhal » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "C": "Faux. « Une tumeur hypophysaire » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "D": "Vrai (Corrigé officiel : D). « Une ménopause précoce » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Une aménorrhée psychogène » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q6 (Oran)) portant sur le cours « Les aménorrhées ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-378",
     "module": "gynecologie",
     "chapitre": "Hématome retro placentaire",
@@ -16743,6 +15968,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q7 (Oran)",
         "type": "EMD",
         "annee": "2020"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Chez une femme présentant un décollement placentaire avant l'expulsion, il est indispensable de surveiller : 1. Diurèse horaire, 2. Courbes des pouls, TA, 3. Crase sanguine, 4. N.F.S. - plaquettes",
@@ -16920,6 +16150,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q11 (Oran)",
         "type": "EMD",
         "annee": "2020"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Parmi les affections utérines, laquelle (lesquelles) peu(ven)t être en cause dans des avortements à répétition ?",
@@ -16944,188 +16179,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : ABCD). « Utérus cloisonné » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « Cancer du col utérin in situ » est inexact dans cette situation clinique (Corrigé officiel : ABCD).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q11 (Oran)) portant sur le cours « Avortements et complications ». Bonne(s) réponse(s) : ABCD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-383",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q12 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q12 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "L'ictère néonatal par incompatibilité rhésus fœto-maternelle anti-D :",
-    "propositions": {
-      "A": "Survient si la mère est rhésus positif et l'enfant rhésus négatif",
-      "B": "Est un ictère présent dès la naissance",
-      "C": "Est un ictère insensible à la photothérapie",
-      "D": "Peut avoir une anémie associée qui fait la gravité du pronostic immédiat",
-      "E": "Est un ictère à bilirubine libre"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q12 (Oran)), la ou les réponses exactes sont BDE. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « Survient si la mère est rhésus positif et l'enfant rhésus négatif » est inexact dans cette situation clinique (Corrigé officiel : BDE).",
-      "B": "Vrai (Corrigé officiel : BDE). « Est un ictère présent dès la naissance » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Est un ictère insensible à la photothérapie » est inexact dans cette situation clinique (Corrigé officiel : BDE).",
-      "D": "Vrai (Corrigé officiel : BDE). « Peut avoir une anémie associée qui fait la gravité du pronostic immédiat » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : BDE). « Est un ictère à bilirubine libre » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q12 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : BDE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-384",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Un nouveau-né, dont la mère a fait une séroconversion toxoplasmique au cours de la grossesse, est né cliniquement sain. Indiquez l'(les) examen(s) clinique(s) ou paraclinique(s) qui est (sont) couramment mis en œuvre au cours des jours qui suivent la naissance :",
-    "propositions": {
-      "A": "Examen neurologique et du fond d'œil",
-      "B": "Radiographie du crâne",
-      "C": "Sérodiagnostic spécifique",
-      "D": "Myélogramme",
-      "E": "Inoculation du LCR à la souris"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)), la ou les réponses exactes sont ABC. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABC). « Examen neurologique et du fond d'œil » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABC). « Radiographie du crâne » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABC). « Sérodiagnostic spécifique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Myélogramme » est inexact dans cette situation clinique (Corrigé officiel : ABC).",
-      "E": "Faux. « Inoculation du LCR à la souris » est inexact dans cette situation clinique (Corrigé officiel : ABC).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : ABC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-385",
-    "module": "gynecologie",
-    "chapitre": "Les tumeurs de l'ovaire",
-    "chapitre_num": 37,
-    "section": "Les tumeurs de l'ovaire",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q14 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q14 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Parmi les propositions suivantes, laquelle (lesquelles) se rapporte(nt) aux kystes dermoïdes de l'ovaire ?",
-    "propositions": {
-      "A": "Ils sont hétérogènes à l'examen échographique",
-      "B": "Ils sont toujours unilatéraux",
-      "C": "Ils se tordent volontiers, car ils sont lourds",
-      "D": "Ils sont parfois radiovisibles",
-      "E": "Leur rupture est fréquente"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q14 (Oran)), la ou les réponses exactes sont ACD. Cette question valide les objectifs d'apprentissage du cours « Les tumeurs de l'ovaire ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACD). « Ils sont hétérogènes à l'examen échographique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Ils sont toujours unilatéraux » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "C": "Vrai (Corrigé officiel : ACD). « Ils se tordent volontiers, car ils sont lourds » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ACD). « Ils sont parfois radiovisibles » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Leur rupture est fréquente » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q14 (Oran)) portant sur le cours « Les tumeurs de l'ovaire ». Bonne(s) réponse(s) : ACD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-386",
-    "module": "gynecologie",
-    "chapitre": "HTA & grossesse",
-    "chapitre_num": 24,
-    "section": "HTA & grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q15 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q15 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "La pré éclampsie (toxémie) chez une femme primigeste est :",
-    "propositions": {
-      "A": "Plus à craindre en cas de diabète",
-      "B": "Liée à une ischémie placentaire",
-      "C": "Une source de retard de croissance in utero",
-      "D": "Associée à une hypovolémie",
-      "E": "Responsable d'une baisse de la clairance de l'acide urique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q15 (Oran)), la ou les réponses exactes sont ABCDE. Cette question valide les objectifs d'apprentissage du cours « HTA & grossesse ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCDE). « Plus à craindre en cas de diabète » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABCDE). « Liée à une ischémie placentaire » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABCDE). « Une source de retard de croissance in utero » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ABCDE). « Associée à une hypovolémie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : ABCDE). « Responsable d'une baisse de la clairance de l'acide urique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q15 (Oran)) portant sur le cours « HTA & grossesse ». Bonne(s) réponse(s) : ABCDE.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
     },
     "isAlger": false,
@@ -17268,138 +16321,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-390",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "La grossesse entraîne un certain nombre de modifications biologiques. Quelle(s) est(sont) la(les) propositions qui est(sont) correcte(s) ? 1. Hyperleucocytose, 2. Hémodilution, 3. Hypercholestérolémie, 4. Accélération de la vitesse de sédimentation",
-    "propositions": {
-      "A": "1, 2, 3",
-      "B": "1, 3",
-      "C": "2, 4",
-      "D": "4",
-      "E": "1, 2, 3, 4"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)), la ou les réponses exactes sont E. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « 1, 2, 3 » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "B": "Faux. « 1, 3 » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "C": "Faux. « 2, 4 » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "D": "Faux. « 4 » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "E": "Vrai (Corrigé officiel : E). « 1, 2, 3, 4 » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : E.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-391",
-    "module": "gynecologie",
-    "chapitre": "Délivrance normale et pathologique",
-    "chapitre_num": 16,
-    "section": "Délivrance normale et pathologique",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q20 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q20 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Parmi les propositions suivantes, quelles sont les étiologies possibles de l'hémorragie de la délivrance ?",
-    "propositions": {
-      "A": "Atonie utérine",
-      "B": "Enchatonnement placentaire",
-      "C": "Déchirure vaginale",
-      "D": "Insertion fundique du placenta",
-      "E": "Toxémie gravidique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q20 (Oran)), la ou les réponses exactes sont AB. Cette question valide les objectifs d'apprentissage du cours « Délivrance normale et pathologique ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AB). « Atonie utérine » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : AB). « Enchatonnement placentaire » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Déchirure vaginale » est inexact dans cette situation clinique (Corrigé officiel : AB).",
-      "D": "Faux. « Insertion fundique du placenta » est inexact dans cette situation clinique (Corrigé officiel : AB).",
-      "E": "Faux. « Toxémie gravidique » est inexact dans cette situation clinique (Corrigé officiel : AB).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q20 (Oran)) portant sur le cours « Délivrance normale et pathologique ». Bonne(s) réponse(s) : AB.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-392",
-    "module": "gynecologie",
-    "chapitre": "Endométriose",
-    "chapitre_num": 28,
-    "section": "Endométriose",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q21 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q21 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Une endométriose génitale peut être traitée efficacement par :",
-    "propositions": {
-      "A": "Bêta-mimétique",
-      "B": "Estrogène pur",
-      "C": "Progestatif pur",
-      "D": "Danazol (Danazol®)",
-      "E": "Castration"
-    },
-    "bonnes_reponses": [
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q21 (Oran)), la ou les réponses exactes sont CDE. Cette question valide les objectifs d'apprentissage du cours « Endométriose ».",
-    "justifications": {
-      "A": "Faux. « Bêta-mimétique » est inexact dans cette situation clinique (Corrigé officiel : CDE).",
-      "B": "Faux. « Estrogène pur » est inexact dans cette situation clinique (Corrigé officiel : CDE).",
-      "C": "Vrai (Corrigé officiel : CDE). « Progestatif pur » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : CDE). « Danazol (Danazol®) » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Vrai (Corrigé officiel : CDE). « Castration » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q21 (Oran)) portant sur le cours « Endométriose ». Bonne(s) réponse(s) : CDE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-393",
     "module": "gynecologie",
     "chapitre": "La souffrance fœtale",
@@ -17415,6 +16336,16 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q22 (Oran)",
         "type": "EMD",
         "annee": "2020"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q31 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique Section A 2018/2019 - Q18 (Oran)",
+        "type": "EMD",
+        "annee": "2019"
       }
     ],
     "question": "La Mort fœtale in utero :",
@@ -17442,51 +16373,8 @@ window.QCM_GYNECO = [
     },
     "isAlger": false,
     "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-394",
-    "module": "gynecologie",
-    "chapitre": "Les Maladies trophoblastiques",
-    "chapitre_num": 32,
-    "section": "Les Maladies trophoblastiques",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q23 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q23 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Une jeune femme de 20 ans, primigeste, présente des métrorragies à 11 semaines de grossesse. Parmi les caractéristiques suivantes, quel est celui ou quels sont ceux évoquant le diagnostic d'avortement molaire ?",
-    "propositions": {
-      "A": "Utérus plus gros que ne voudrait l'âge de la grossesse",
-      "B": "Hémorragie de sang rouge",
-      "C": "Perception de kystes ovariens bilatéraux",
-      "D": "Col non ramolli",
-      "E": "Aspect échographique de décollement du pôle inférieur de l'œuf"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q23 (Oran)), la ou les réponses exactes sont AC. Cette question valide les objectifs d'apprentissage du cours « Les Maladies trophoblastiques ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AC). « Utérus plus gros que ne voudrait l'âge de la grossesse » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Hémorragie de sang rouge » est inexact dans cette situation clinique (Corrigé officiel : AC).",
-      "C": "Vrai (Corrigé officiel : AC). « Perception de kystes ovariens bilatéraux » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Col non ramolli » est inexact dans cette situation clinique (Corrigé officiel : AC).",
-      "E": "Faux. « Aspect échographique de décollement du pôle inférieur de l'œuf » est inexact dans cette situation clinique (Corrigé officiel : AC).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q23 (Oran)) portant sur le cours « Les Maladies trophoblastiques ». Bonne(s) réponse(s) : AC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
+    "faculty": "Oran",
+    "note_cle": "Clé divergente entre deux épreuves (ABC et AB) ; la mort fœtale in utero peut se compliquer d'infection amniotique."
   },
   {
     "id": "gyn-395",
@@ -17659,50 +16547,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : BD). « Compléter le bilan par un curetage de la cavité utérine » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « Compléter le bilan par une échographie » est inexact dans cette situation clinique (Corrigé officiel : BD).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q27 (Oran)) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : BD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-399",
-    "module": "gynecologie",
-    "chapitre": "Le cancer du col utérin",
-    "chapitre_num": 36,
-    "section": "Le cancer du col utérin",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q28 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q28 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Lors d'un examen colposcopique, l'application d'acide acétique à 3% permet de repérer :",
-    "propositions": {
-      "A": "Les zones saines en coloration blanche",
-      "B": "Les zones pathologiques en coloration blanche",
-      "C": "La zone de jonction",
-      "D": "Les zones riches en glycogène",
-      "E": "Les zones pauvres en glycogène"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q28 (Oran)), la ou les réponses exactes sont BD. Cette question valide les objectifs d'apprentissage du cours « Le cancer du col utérin ».",
-    "justifications": {
-      "A": "Faux. « Les zones saines en coloration blanche » est inexact dans cette situation clinique (Corrigé officiel : BD).",
-      "B": "Vrai (Corrigé officiel : BD). « Les zones pathologiques en coloration blanche » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « La zone de jonction » est inexact dans cette situation clinique (Corrigé officiel : BD).",
-      "D": "Vrai (Corrigé officiel : BD). « Les zones riches en glycogène » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Les zones pauvres en glycogène » est inexact dans cette situation clinique (Corrigé officiel : BD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q28 (Oran)) portant sur le cours « Le cancer du col utérin ». Bonne(s) réponse(s) : BD.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
     },
     "isAlger": false,
@@ -17951,6 +16795,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q34 (Oran)",
         "type": "EMD",
         "annee": "2020"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q6 (Oran)",
+        "type": "EMD",
+        "annee": "2018"
       }
     ],
     "question": "Parmi les mécanismes physiopathologiques suivants, lequel (lesquels) est (sont) à l'origine de l'immunisation fœto-maternelle dans les systèmes rhésus ?",
@@ -17972,49 +16821,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « Passage d'anticorps maternels dans la circulation fœtale » est inexact dans cette situation clinique (Corrigé officiel : C).",
       "E": "Faux. « Passage de bilirubine dans la circulation maternelle » est inexact dans cette situation clinique (Corrigé officiel : C).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q34 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-406",
-    "module": "gynecologie",
-    "chapitre": "Les aménorrhées",
-    "chapitre_num": 27,
-    "section": "Les aménorrhées",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q35 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q35 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Devant une aménorrhée primaire avec caractères sexuels secondaires virilisés, quel(s) diagnostic(s) peut-on évoquer ?",
-    "propositions": {
-      "A": "Une tumeur de l'ovaire",
-      "B": "Un syndrome de Rokitansky-Küster-Hauser",
-      "C": "Une hyperplasie congénitale des surrénales",
-      "D": "Un syndrome de Turner",
-      "E": "Une hypothyroïdie"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q35 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Les aménorrhées ».",
-    "justifications": {
-      "A": "Faux. « Une tumeur de l'ovaire » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Un syndrome de Rokitansky-Küster-Hauser » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Une hyperplasie congénitale des surrénales » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Un syndrome de Turner » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Une hypothyroïdie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q35 (Oran)) portant sur le cours « Les aménorrhées ». Bonne(s) réponse(s) : C.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
     },
     "isAlger": false,
@@ -18065,51 +16871,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-408",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q37 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q37 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "La listériose au cours de la grossesse :",
-    "propositions": {
-      "A": "Peut se traduire chez la mère par un syndrome pseudo-grippal",
-      "B": "Peut entrainer une mort in utéro",
-      "C": "Est diagnostiquée toujours par prélèvement vaginal",
-      "D": "Contamine en général le fœtus par voie ascendante vaginale",
-      "E": "Le germe causal est sensible à l'ampicilline"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q37 (Oran)), la ou les réponses exactes sont ABE. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABE). « Peut se traduire chez la mère par un syndrome pseudo-grippal » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABE). « Peut entrainer une mort in utéro » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Est diagnostiquée toujours par prélèvement vaginal » est inexact dans cette situation clinique (Corrigé officiel : ABE).",
-      "D": "Faux. « Contamine en général le fœtus par voie ascendante vaginale » est inexact dans cette situation clinique (Corrigé officiel : ABE).",
-      "E": "Vrai (Corrigé officiel : ABE). « Le germe causal est sensible à l'ampicilline » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q37 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : ABE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-409",
     "module": "gynecologie",
     "chapitre": "Diagnostic et surveillance de la grossesse",
@@ -18146,95 +16907,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « Mère groupe B rhésus positif, test de Coombs indirect négatif, enfant groupe A rhésus négatif » est inexact dans cette situation clinique (Corrigé officiel : C).",
       "E": "Faux. « Mère groupe O rhésus négatif, test de Coombs indirect négatif, enfant groupe O rhésus négatif » est inexact dans cette situation clinique (Corrigé officiel : C).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q38 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-410",
-    "module": "gynecologie",
-    "chapitre": "Les aménorrhées",
-    "chapitre_num": 27,
-    "section": "Les aménorrhées",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q39 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q39 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Une aménorrhée secondaire peut être due à :",
-    "propositions": {
-      "A": "Un traitement par Dogmatil®",
-      "B": "Une hyperprolactinémie",
-      "C": "Une hyperandrogénie",
-      "D": "Un hypopituitarisme",
-      "E": "Un syndrome de Turner"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q39 (Oran)), la ou les réponses exactes sont ABCD. Cette question valide les objectifs d'apprentissage du cours « Les aménorrhées ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCD). « Un traitement par Dogmatil® » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABCD). « Une hyperprolactinémie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABCD). « Une hyperandrogénie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ABCD). « Un hypopituitarisme » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Un syndrome de Turner » est inexact dans cette situation clinique (Corrigé officiel : ABCD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q39 (Oran)) portant sur le cours « Les aménorrhées ». Bonne(s) réponse(s) : ABCD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-411",
-    "module": "gynecologie",
-    "chapitre": "Dépistage des cancers gynécologiques",
-    "chapitre_num": 31,
-    "section": "Dépistage des cancers gynécologiques",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q40 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q40 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Madame R.., 22 ans, vous consulte pour une lésion vulvaire douloureuse. Vous constatez des vésicules en bouquet sur la grande lèvre, certaines étant rompues. Il existe des adénopathies inguinales homolatérales sensibles. Elle a 38°5. Quel(s) diagnostic(s) devez-vous soulever ?",
-    "propositions": {
-      "A": "Une syphilis",
-      "B": "Des condylomes vulvaires",
-      "C": "Un herpès génital",
-      "D": "Un cancer de la vulve",
-      "E": "Une mycose vulvaire"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q40 (Oran)), la ou les réponses exactes sont A. Cette question valide les objectifs d'apprentissage du cours « Dépistage des cancers gynécologiques ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). « Une syphilis » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Des condylomes vulvaires » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "C": "Faux. « Un herpès génital » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "D": "Faux. « Un cancer de la vulve » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "E": "Faux. « Une mycose vulvaire » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q40 (Oran)) portant sur le cours « Dépistage des cancers gynécologiques ». Bonne(s) réponse(s) : A.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 05/03/2020."
     },
     "isAlger": false,
@@ -18768,50 +17440,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-424",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Madame R. 1er geste de 28 ans sans antécédent vous consulte pour sa visite du 8ème mois. Vous mesurez la hauteur utérine, elle est à 25 cm. Qu'en déduisez-vous ?",
-    "propositions": {
-      "A": "C'est normal pour le terme",
-      "B": "C'est trop important pour le terme, il faut rechercher une erreur de terme",
-      "C": "C'est trop petit pour le terme, il faut rechercher une erreur de terme",
-      "D": "C'est trop petit pour le terme, il faut rechercher un retard de croissance intra utérin",
-      "E": "C'est trop gros pour le terme, il faut rechercher un gros enfant ou des jumeaux"
-    },
-    "bonnes_reponses": [
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)), la ou les réponses exactes sont CD. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « C'est normal pour le terme » est inexact dans cette situation clinique (Corrigé officiel : CD).",
-      "B": "Faux. « C'est trop important pour le terme, il faut rechercher une erreur de terme » est inexact dans cette situation clinique (Corrigé officiel : CD).",
-      "C": "Vrai (Corrigé officiel : CD). « C'est trop petit pour le terme, il faut rechercher une erreur de terme » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : CD). « C'est trop petit pour le terme, il faut rechercher un retard de croissance intra utérin » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « C'est trop gros pour le terme, il faut rechercher un gros enfant ou des jumeaux » est inexact dans cette situation clinique (Corrigé officiel : CD).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q13 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : CD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-425",
     "module": "gynecologie",
     "chapitre": "Mécanisme général de l'accouchement",
@@ -18899,49 +17527,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-427",
-    "module": "gynecologie",
-    "chapitre": "Les suites de couches",
-    "chapitre_num": 6,
-    "section": "Les suites de couches",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q16 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q16 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Au 6 et 7ème jour du post-partum, le fond utérin :",
-    "propositions": {
-      "A": "Est au-dessus de l'ombilic",
-      "B": "Atteint l'ombilic",
-      "C": "Est à mi-chemin entre ombilic et symphyse",
-      "D": "N'est plus perçu au-dessus de la symphyse",
-      "E": "Correspond à un utérus après les règles"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q16 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Les suites de couches ».",
-    "justifications": {
-      "A": "Faux. « Est au-dessus de l'ombilic » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Atteint l'ombilic » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Est à mi-chemin entre ombilic et symphyse » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « N'est plus perçu au-dessus de la symphyse » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Correspond à un utérus après les règles » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q16 (Oran)) portant sur le cours « Les suites de couches ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-428",
     "module": "gynecologie",
     "chapitre": "Diagnostic et surveillance de la grossesse",
@@ -18989,9 +17574,9 @@ window.QCM_GYNECO = [
   {
     "id": "gyn-429",
     "module": "gynecologie",
-    "chapitre": "Mécanisme général de l'accouchement",
-    "chapitre_num": 5,
-    "section": "Mécanisme général de l'accouchement",
+    "chapitre": "Les présentations fœtales",
+    "chapitre_num": 8,
+    "section": "Les présentations fœtales",
     "source": {
       "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q18 (Oran)",
       "type": "EMD",
@@ -19023,50 +17608,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : D). « En cas d'accrochage des jumeaux dont le 1er est en présentation de sommet » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « La présentation de la face dans ses variétés antérieures » est inexact dans cette situation clinique (Corrigé officiel : D).",
       "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q18 (Oran)) portant sur le cours « Mécanisme général de l'accouchement ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 05/03/2020."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-430",
-    "module": "gynecologie",
-    "chapitre": "Bassin obstétrical",
-    "chapitre_num": 3,
-    "section": "Bassin obstétrical",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)",
-      "type": "EMD",
-      "annee": "2020"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)",
-        "type": "EMD",
-        "annee": "2020"
-      }
-    ],
-    "question": "Indiquez parmi les propositions suivantes sur l'utérus, la (les) proposition(s) exacte(s) :",
-    "propositions": {
-      "A": "Il est antéversé ou rétrofléchi",
-      "B": "Il se situe entre la vessie en avant et le rectum en arrière",
-      "C": "Il se situe en arrière du cul de sac de douglas",
-      "D": "Il s'agit d'un organe pair",
-      "E": "Il est recouvert par une formation péritonéale"
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)), la ou les réponses exactes sont BE. Cette question valide les objectifs d'apprentissage du cours « Bassin obstétrical ».",
-    "justifications": {
-      "A": "Faux. « Il est antéversé ou rétrofléchi » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "B": "Vrai (Corrigé officiel : BE). « Il se situe entre la vessie en avant et le rectum en arrière » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Il se situe en arrière du cul de sac de douglas » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "D": "Faux. « Il s'agit d'un organe pair » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "E": "Vrai (Corrigé officiel : BE). « Il est recouvert par une formation péritonéale » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2019/2020 - Q19 (Oran)) portant sur le cours « Bassin obstétrical ». Bonne(s) réponse(s) : BE.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 05/03/2020."
     },
     "isAlger": false,
@@ -19153,97 +17694,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « La suture sagittale se trouve dans l'axe du Détroit Moyen (DM) » est inexact dans cette situation clinique (Corrigé officiel : C).",
       "E": "Faux. « La suture sagittale se trouve dans l'axe du Détroit Inférieur (DI) » est inexact dans cette situation clinique (Corrigé officiel : C).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q1 (Oran)) portant sur le cours « Les présentations fœtales ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-433",
-    "module": "gynecologie",
-    "chapitre": "Bassin obstétrical",
-    "chapitre_num": 3,
-    "section": "Bassin obstétrical",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q2 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q2 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Parmi les propositions suivantes concernant le bassin osseux, laquelle (lesquelles) est (sont) exactes :",
-    "propositions": {
-      "A": "La réunion du sacrum et du coccyx forme la ceinture pelvienne",
-      "B": "L'os coxal est constitué de l'iléon, du pubis et de l'ischion",
-      "C": "La ligne arquée divise le bassin en une partie supérieure (le grand bassin) et une partie inférieure (le petit bassin)",
-      "D": "Le bassin osseux comprend deux étages : le grand bassin et le petit bassin",
-      "E": "Le sacrum est de forme triangulaire à base inférieure"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q2 (Oran)), la ou les réponses exactes sont BCD. Cette question valide les objectifs d'apprentissage du cours « Bassin obstétrical ».",
-    "justifications": {
-      "A": "Faux. « La réunion du sacrum et du coccyx forme la ceinture pelvienne » est inexact dans cette situation clinique (Corrigé officiel : BCD).",
-      "B": "Vrai (Corrigé officiel : BCD). « L'os coxal est constitué de l'iléon, du pubis et de l'ischion » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : BCD). « La ligne arquée divise le bassin en une partie supérieure (le grand bassin) et une partie inférieure (le petit bassin) » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : BCD). « Le bassin osseux comprend deux étages : le grand bassin et le petit bassin » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Le sacrum est de forme triangulaire à base inférieure » est inexact dans cette situation clinique (Corrigé officiel : BCD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q2 (Oran)) portant sur le cours « Bassin obstétrical ». Bonne(s) réponse(s) : BCD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-434",
-    "module": "gynecologie",
-    "chapitre": "Avortements et complications",
-    "chapitre_num": 10,
-    "section": "Avortements et complications",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Parmi les affections utérines, laquelle (lesquelles) peu(ven)t être en cause dans des avortements à répétition :",
-    "propositions": {
-      "A": "Fibrome utérin",
-      "B": "Synéchies utérines",
-      "C": "Endométrite chronique",
-      "D": "Utérus cloisonné",
-      "E": "Cancer du col utérin in situ"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)), la ou les réponses exactes sont ABCD. Cette question valide les objectifs d'apprentissage du cours « Avortements et complications ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABCD). « Fibrome utérin » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABCD). « Synéchies utérines » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABCD). « Endométrite chronique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ABCD). « Utérus cloisonné » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Cancer du col utérin in situ » est inexact dans cette situation clinique (Corrigé officiel : ABCD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)) portant sur le cours « Avortements et complications ». Bonne(s) réponse(s) : ABCD.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
     },
     "isAlger": false,
@@ -19339,49 +17789,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-437",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q6 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q6 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Parmi les mécanismes physiopathologiques suivants, lequel (lesquels) est (sont) à l'origine de l'immunisation fœto-maternelle dans les systèmes rhésus ?",
-    "propositions": {
-      "A": "Passage de leucocytes fœtaux dans la circulation maternelle",
-      "B": "Passage d'hématies maternelles dans la circulation fœtale",
-      "C": "Passage d'hématies fœtales dans la circulation maternelle",
-      "D": "Passage d'anticorps maternels dans la circulation fœtale",
-      "E": "Passage de bilirubine dans la circulation maternelle"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q6 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « Passage de leucocytes fœtaux dans la circulation maternelle » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Passage d'hématies maternelles dans la circulation fœtale » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Passage d'hématies fœtales dans la circulation maternelle » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Passage d'anticorps maternels dans la circulation fœtale » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Passage de bilirubine dans la circulation maternelle » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q6 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-438",
     "module": "gynecologie",
     "chapitre": "Grossesse extra-utérine",
@@ -19429,137 +17836,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-439",
-    "module": "gynecologie",
-    "chapitre": "Les présentations fœtales",
-    "chapitre_num": 8,
-    "section": "Les présentations fœtales",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Dans la présentation du sommet dos à gauche :",
-    "propositions": {
-      "A": "Le foyer d'auscultation des bruits du cœur est à gauche et au dessus de l'ombilic",
-      "B": "Le siège est au fond de l'utérus plus gros et mou que la tête",
-      "C": "Le toucher vaginal sent bien le siège du fœtus",
-      "D": "Le front est perceptible au-dessous de la symphyse",
-      "E": "La pression sur le fond utérin fait saillir le plan du dos que l'on sent bien dur à gauche"
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)), la ou les réponses exactes sont BE. Cette question valide les objectifs d'apprentissage du cours « Les présentations fœtales ».",
-    "justifications": {
-      "A": "Faux. « Le foyer d'auscultation des bruits du cœur est à gauche et au dessus de l'ombilic » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "B": "Vrai (Corrigé officiel : BE). « Le siège est au fond de l'utérus plus gros et mou que la tête » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Le toucher vaginal sent bien le siège du fœtus » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "D": "Faux. « Le front est perceptible au-dessous de la symphyse » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "E": "Vrai (Corrigé officiel : BE). « La pression sur le fond utérin fait saillir le plan du dos que l'on sent bien dur à gauche » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)) portant sur le cours « Les présentations fœtales ». Bonne(s) réponse(s) : BE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-440",
-    "module": "gynecologie",
-    "chapitre": "Avortements et complications",
-    "chapitre_num": 10,
-    "section": "Avortements et complications",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Quelle est la malformation utérine qui expose le plus aux avortements spontanés précoces ?",
-    "propositions": {
-      "A": "Utérus bicorne",
-      "B": "Utérus unicorne vrai",
-      "C": "Utérus pseudo-unicorne",
-      "D": "Utérus cloisonné",
-      "E": "Béance cervico-isthmique"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)), la ou les réponses exactes sont D. Cette question valide les objectifs d'apprentissage du cours « Avortements et complications ».",
-    "justifications": {
-      "A": "Faux. « Utérus bicorne » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "B": "Faux. « Utérus unicorne vrai » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "C": "Faux. « Utérus pseudo-unicorne » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "D": "Vrai (Corrigé officiel : D). « Utérus cloisonné » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Béance cervico-isthmique » est inexact dans cette situation clinique (Corrigé officiel : D).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)) portant sur le cours « Avortements et complications ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-441",
-    "module": "gynecologie",
-    "chapitre": "Les Maladies trophoblastiques",
-    "chapitre_num": 32,
-    "section": "Les Maladies trophoblastiques",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q10 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q10 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Une jeune femme de 20 ans, primigeste, présente des métrorragies à 11 semaines de grossesse. Parmi les caractéristiques suivantes, quel est celui ou quels sont ceux évoquant le diagnostic d'avortement molaire ?",
-    "propositions": {
-      "A": "Utérus plus gros que ne voudrait l'âge de la grossesse",
-      "B": "Hémorragie de sang rouge",
-      "C": "Perception de kystes ovariens bilatéraux",
-      "D": "Col non ramolli",
-      "E": "Aspect échographique de décollement du pôle inférieur de l'œuf"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q10 (Oran)), la ou les réponses exactes sont AC. Cette question valide les objectifs d'apprentissage du cours « Les Maladies trophoblastiques ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AC). « Utérus plus gros que ne voudrait l'âge de la grossesse » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Hémorragie de sang rouge » est inexact dans cette situation clinique (Corrigé officiel : AC).",
-      "C": "Vrai (Corrigé officiel : AC). « Perception de kystes ovariens bilatéraux » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Col non ramolli » est inexact dans cette situation clinique (Corrigé officiel : AC).",
-      "E": "Faux. « Aspect échographique de décollement du pôle inférieur de l'œuf » est inexact dans cette situation clinique (Corrigé officiel : AC).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q10 (Oran)) portant sur le cours « Les Maladies trophoblastiques ». Bonne(s) réponse(s) : AC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-442",
     "module": "gynecologie",
     "chapitre": "Les aménorrhées",
@@ -19575,6 +17851,11 @@ window.QCM_GYNECO = [
         "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q11 (Oran)",
         "type": "EMD",
         "annee": "2018"
+      },
+      {
+        "texte": "Examen Théorique Gynécologie-Obstétrique 2019/2020 - Q35 (Oran)",
+        "type": "EMD",
+        "annee": "2020"
       }
     ],
     "question": "Devant une aménorrhée primaire avec caractères sexuels secondaires virilisés, quel(s) diagnostic(s) peut-on évoquer ?",
@@ -19601,52 +17882,8 @@ window.QCM_GYNECO = [
     },
     "isAlger": false,
     "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-443",
-    "module": "gynecologie",
-    "chapitre": "Les tumeurs de l'ovaire",
-    "chapitre_num": 37,
-    "section": "Les tumeurs de l'ovaire",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Parmi les propositions suivantes, laquelle (lesquelles) se rapporte(nt) aux kystes dermoïdes de l'ovaire ?",
-    "propositions": {
-      "A": "Ils sont hétérogènes à l'examen échographique",
-      "B": "Ils sont toujours unilatéraux",
-      "C": "Ils se tordent volontiers, car ils sont lourds",
-      "D": "Ils sont parfois radiovisibles",
-      "E": "Leur rupture est fréquente"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)), la ou les réponses exactes sont ACD. Cette question valide les objectifs d'apprentissage du cours « Les tumeurs de l'ovaire ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACD). « Ils sont hétérogènes à l'examen échographique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Ils sont toujours unilatéraux » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "C": "Vrai (Corrigé officiel : ACD). « Ils se tordent volontiers, car ils sont lourds » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Vrai (Corrigé officiel : ACD). « Ils sont parfois radiovisibles » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « Leur rupture est fréquente » est inexact dans cette situation clinique (Corrigé officiel : ACD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)) portant sur le cours « Les tumeurs de l'ovaire ». Bonne(s) réponse(s) : ACD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
+    "faculty": "Oran",
+    "note_cle": "Clé divergente entre deux épreuves (AC et C). Tumeur virilisante de l'ovaire et hyperplasie congénitale des surrénales retenues."
   },
   {
     "id": "gyn-444",
@@ -19738,50 +17975,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-446",
-    "module": "gynecologie",
-    "chapitre": "Rupture prématurée des membranes",
-    "chapitre_num": 12,
-    "section": "Rupture prématurée des membranes",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q15 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q15 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "La (les) conséquences(s) de la rupture prématurée des membranes peut(vent) être :",
-    "propositions": {
-      "A": "La prématurité",
-      "B": "Placenta prævia",
-      "C": "La présentation de la face",
-      "D": "La procidence du cordon",
-      "E": "La dysgravidie"
-    },
-    "bonnes_reponses": [
-      "A",
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q15 (Oran)), la ou les réponses exactes sont AD. Cette question valide les objectifs d'apprentissage du cours « Rupture prématurée des membranes ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AD). « La prématurité » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Placenta prævia » est inexact dans cette situation clinique (Corrigé officiel : AD).",
-      "C": "Faux. « La présentation de la face » est inexact dans cette situation clinique (Corrigé officiel : AD).",
-      "D": "Vrai (Corrigé officiel : AD). « La procidence du cordon » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « La dysgravidie » est inexact dans cette situation clinique (Corrigé officiel : AD).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q15 (Oran)) portant sur le cours « Rupture prématurée des membranes ». Bonne(s) réponse(s) : AD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-447",
     "module": "gynecologie",
     "chapitre": "Menace d'accouchement prématuré",
@@ -19820,49 +18013,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : ABD). « Modification du col » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « Hypertension artérielle » est inexact dans cette situation clinique (Corrigé officiel : ABD).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q16 (Oran)) portant sur le cours « Menace d'accouchement prématuré ». Bonne(s) réponse(s) : ABD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-448",
-    "module": "gynecologie",
-    "chapitre": "Anémie et grossesse",
-    "chapitre_num": 25,
-    "section": "Anémie et grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Lors d'une carence martiale non traitée, on retrouve :",
-    "propositions": {
-      "A": "Une microcytose des hématies",
-      "B": "Une hyperchromie des hématies",
-      "C": "Une hyper-réticulocytose sanguine",
-      "D": "Un fer sérique augmenté",
-      "E": "Une ferritine plasmatique augmentée"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)), la ou les réponses exactes sont A. Cette question valide les objectifs d'apprentissage du cours « Anémie et grossesse ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). « Une microcytose des hématies » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « Une hyperchromie des hématies » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "C": "Faux. « Une hyper-réticulocytose sanguine » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "D": "Faux. « Un fer sérique augmenté » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "E": "Faux. « Une ferritine plasmatique augmentée » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)) portant sur le cours « Anémie et grossesse ». Bonne(s) réponse(s) : A.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
     },
     "isAlger": false,
@@ -19958,49 +18108,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-451",
-    "module": "gynecologie",
-    "chapitre": "Hématome retro placentaire",
-    "chapitre_num": 15,
-    "section": "Hématome retro placentaire",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Chez une femme présentant un décollement placentaire avant l'expulsion, il est indispensable de surveiller : 1. Diurèse horaire, 2. Courbes des pouls, TA, 3. Crase sanguine, 4. N.F.S. - plaquettes",
-    "propositions": {
-      "A": "1, 2, 3",
-      "B": "1, 3",
-      "C": "2, 4",
-      "D": "4",
-      "E": "1, 2, 3, 4"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)), la ou les réponses exactes sont A. Cette question valide les objectifs d'apprentissage du cours « Hématome retro placentaire ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). « 1, 2, 3 » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « 1, 3 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "C": "Faux. « 2, 4 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "D": "Faux. « 4 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "E": "Faux. « 1, 2, 3, 4 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)) portant sur le cours « Hématome retro placentaire ». Bonne(s) réponse(s) : A.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-452",
     "module": "gynecologie",
     "chapitre": "Cancer de l'endomètre",
@@ -20039,94 +18146,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : BCD). « La pression artérielle est de 170/100mmHg » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « Elle prend des progestatifs depuis plusieurs mois pour régulariser son cycle » est inexact dans cette situation clinique (Corrigé officiel : BCD).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q21 (Oran)) portant sur le cours « Cancer de l'endomètre ». Bonne(s) réponse(s) : BCD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-453",
-    "module": "gynecologie",
-    "chapitre": "Placenta prævia",
-    "chapitre_num": 14,
-    "section": "Placenta prævia",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q22 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q22 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Le placenta prævia :",
-    "propositions": {
-      "A": "Est un facteur de rupture prématurée des membranes",
-      "B": "Peut ne se manifester qu'à l'accouchement",
-      "C": "Favorise les présentations dystociques",
-      "D": "Nécessite toujours une césarienne",
-      "E": "Peut entraîner une contracture utérine"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q22 (Oran)), la ou les réponses exactes sont ABC. Cette question valide les objectifs d'apprentissage du cours « Placenta prævia ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABC). « Est un facteur de rupture prématurée des membranes » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABC). « Peut ne se manifester qu'à l'accouchement » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABC). « Favorise les présentations dystociques » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Nécessite toujours une césarienne » est inexact dans cette situation clinique (Corrigé officiel : ABC).",
-      "E": "Faux. « Peut entraîner une contracture utérine » est inexact dans cette situation clinique (Corrigé officiel : ABC).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q22 (Oran)) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : ABC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-454",
-    "module": "gynecologie",
-    "chapitre": "La Contraception",
-    "chapitre_num": 29,
-    "section": "La Contraception",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q23 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q23 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "La propriété anticonceptionnelle d'une pilule œstro-progestative minidosée peut être altérée par la prise concomitante de : 1. Barbiturique, 2. Hydantoïne, 3. Rifampicine, 4. Anti-inflammatoire",
-    "propositions": {
-      "A": "1, 2, 3",
-      "B": "1, 3",
-      "C": "2, 4",
-      "D": "4",
-      "E": "1, 2, 3, 4"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q23 (Oran)), la ou les réponses exactes sont A. Cette question valide les objectifs d'apprentissage du cours « La Contraception ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). « 1, 2, 3 » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Faux. « 1, 3 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "C": "Faux. « 2, 4 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "D": "Faux. « 4 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "E": "Faux. « 1, 2, 3, 4 » est inexact dans cette situation clinique (Corrigé officiel : A).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q23 (Oran)) portant sur le cours « La Contraception ». Bonne(s) réponse(s) : A.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
     },
     "isAlger": false,
@@ -20355,49 +18374,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-460",
-    "module": "gynecologie",
-    "chapitre": "HTA & grossesse",
-    "chapitre_num": 24,
-    "section": "HTA & grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q29 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q29 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Une jeune femme primigeste de 28 ans, en 39ème semaine d'aménorrhée, consulte pour céphalées et sensations de \"mouches volantes\". Il existe : albuminurie (+++), œdèmes des membres inférieurs et supérieurs, prise de poids de 21 kg depuis le début de la grossesse. La TA est à 150/105. Le tracé cardiaque fœtal est parfait. Le col utérin est long de 2 cm, ouvert à 1 cm sur toute sa longueur :",
-    "propositions": {
-      "A": "Vous prescrivez un traitement anti-hypertenseur à cette patiente en lui précisant de revenir consulter dans une semaine, si elle n'a pas accouché",
-      "B": "Vous prescrivez un bilan d'hypertension à faire en ambulatoire : créatinine, urée, acide urique, clearance, avant tout traitement anti-hypertenseur",
-      "C": "Vous demandez une UIV pour apprécier la fonction sécrétoire du rein",
-      "D": "Vous hospitalisez cette patiente immédiatement pour bilan et surveillance",
-      "E": "Vous interrompez la grossesse dans le plus bref délai"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q29 (Oran)), la ou les réponses exactes sont E. Cette question valide les objectifs d'apprentissage du cours « HTA & grossesse ».",
-    "justifications": {
-      "A": "Faux. « Vous prescrivez un traitement anti-hypertenseur à cette patiente en lui précisant de revenir consulter dans une semaine, si elle n'a pas accouché » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "B": "Faux. « Vous prescrivez un bilan d'hypertension à faire en ambulatoire : créatinine, urée, acide urique, clearance, avant tout traitement anti-hypertenseur » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "C": "Faux. « Vous demandez une UIV pour apprécier la fonction sécrétoire du rein » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "D": "Faux. « Vous hospitalisez cette patiente immédiatement pour bilan et surveillance » est inexact dans cette situation clinique (Corrigé officiel : E).",
-      "E": "Vrai (Corrigé officiel : E). « Vous interrompez la grossesse dans le plus bref délai » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q29 (Oran)) portant sur le cours « HTA & grossesse ». Bonne(s) réponse(s) : E.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-461",
     "module": "gynecologie",
     "chapitre": "Dépistage des cancers gynécologiques",
@@ -20435,51 +18411,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : CD). « Une élytrocèle » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « Une hystérocèle » est inexact dans cette situation clinique (Corrigé officiel : CD).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q30 (Oran)) portant sur le cours « Dépistage des cancers gynécologiques ». Bonne(s) réponse(s) : CD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-462",
-    "module": "gynecologie",
-    "chapitre": "La souffrance fœtale",
-    "chapitre_num": 22,
-    "section": "La souffrance fœtale",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q31 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q31 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "La Mort fœtale in utero :",
-    "propositions": {
-      "A": "Peut se compliquer de troubles d'hémostase",
-      "B": "Peut être due à une pré éclampsie",
-      "C": "Peut se compliquer d'infection amniotique",
-      "D": "Nécessite toujours une césarienne",
-      "E": "Est toujours précédée d'un retard de croissance intra utérin"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q31 (Oran)), la ou les réponses exactes sont ABC. Cette question valide les objectifs d'apprentissage du cours « La souffrance fœtale ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABC). « Peut se compliquer de troubles d'hémostase » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "B": "Vrai (Corrigé officiel : ABC). « Peut être due à une pré éclampsie » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Vrai (Corrigé officiel : ABC). « Peut se compliquer d'infection amniotique » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Nécessite toujours une césarienne » est inexact dans cette situation clinique (Corrigé officiel : ABC).",
-      "E": "Faux. « Est toujours précédée d'un retard de croissance intra utérin » est inexact dans cette situation clinique (Corrigé officiel : ABC).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q31 (Oran)) portant sur le cours « La souffrance fœtale ». Bonne(s) réponse(s) : ABC.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
     },
     "isAlger": false,
@@ -20567,49 +18498,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : D). « Hémoculture » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
       "E": "Faux. « Sérodiagnostic » est inexact dans cette situation clinique (Corrigé officiel : D).",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q33 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : D.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-465",
-    "module": "gynecologie",
-    "chapitre": "La souffrance fœtale",
-    "chapitre_num": 22,
-    "section": "La souffrance fœtale",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q34 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q34 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Dans le monitorage du rythme cardiaque fœtal au cours de la grossesse, quel est l'élément de bon pronostic ?",
-    "propositions": {
-      "A": "Rythme plat",
-      "B": "Rythme sinusoïdal",
-      "C": "Episodes d'accélération lors des mouvements fœtaux",
-      "D": "Tachycardie",
-      "E": "Bradycardie"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q34 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « La souffrance fœtale ».",
-    "justifications": {
-      "A": "Faux. « Rythme plat » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Rythme sinusoïdal » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Episodes d'accélération lors des mouvements fœtaux » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Tachycardie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Bradycardie » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2018/2019 - Q34 (Oran)) portant sur le cours « La souffrance fœtale ». Bonne(s) réponse(s) : C.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Théorique du 08/11/2018."
     },
     "isAlger": false,
@@ -20971,49 +18859,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-474",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Le test de Kleihauer est utilisé pour :",
-    "propositions": {
-      "A": "Apprécier la maturité pulmonaire du fœtus",
-      "B": "Diagnostiquer une immunisation fœto-maternelle",
-      "C": "Rechercher la présence d'hématies fœtales dans le sang maternel",
-      "D": "Titrer les agglutinines immunes",
-      "E": "Préciser le sexe fœtal sur cultures de cellules amniotiques"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « Apprécier la maturité pulmonaire du fœtus » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Diagnostiquer une immunisation fœto-maternelle » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Rechercher la présence d'hématies fœtales dans le sang maternel » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Titrer les agglutinines immunes » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Préciser le sexe fœtal sur cultures de cellules amniotiques » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q3 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-475",
     "module": "gynecologie",
     "chapitre": "Les tumeurs de l'ovaire",
@@ -21186,92 +19031,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-479",
-    "module": "gynecologie",
-    "chapitre": "Le Cycle menstruel",
-    "chapitre_num": 1,
-    "section": "Le Cycle menstruel",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "A quelle période du cycle menstruel la sécrétion de la glaire cervicale est-elle maximale chez une femme ayant des cycles réguliers de 28 jours ?",
-    "propositions": {
-      "A": "5ème jour",
-      "B": "8ème jour",
-      "C": "13ème jour",
-      "D": "23ème jour",
-      "E": "28ème jour"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Le Cycle menstruel ».",
-    "justifications": {
-      "A": "Faux. « 5ème jour » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « 8ème jour » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « 13ème jour » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « 23ème jour » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « 28ème jour » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q8 (Oran)) portant sur le cours « Le Cycle menstruel ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-480",
-    "module": "gynecologie",
-    "chapitre": "Le Cycle menstruel",
-    "chapitre_num": 1,
-    "section": "Le Cycle menstruel",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Au cours du cycle menstruel, le pic de LH provoque :",
-    "propositions": {
-      "A": "La fin des règles",
-      "B": "La croissance du follicule",
-      "C": "L'ovulation",
-      "D": "Le début des règles",
-      "E": "La sécrétion d'œstradiol"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Le Cycle menstruel ».",
-    "justifications": {
-      "A": "Faux. « La fin des règles » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « La croissance du follicule » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « L'ovulation » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « Le début des règles » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « La sécrétion d'œstradiol » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q9 (Oran)) portant sur le cours « Le Cycle menstruel ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-481",
     "module": "gynecologie",
     "chapitre": "Diagnostic et surveillance de la grossesse",
@@ -21360,49 +19119,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-483",
-    "module": "gynecologie",
-    "chapitre": "Les suites de couches",
-    "chapitre_num": 6,
-    "section": "Les suites de couches",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Au 6 et 7ème jour du post-partum, le fond utérin :",
-    "propositions": {
-      "A": "Est au-dessus de l'ombilic",
-      "B": "Atteint l'ombilic",
-      "C": "Est à mi-chemin entre ombilic et symphyse",
-      "D": "N'est plus perçu au-dessus de la symphyse",
-      "E": "Correspond à un utérus après les règles"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Les suites de couches ».",
-    "justifications": {
-      "A": "Faux. « Est au-dessus de l'ombilic » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Atteint l'ombilic » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Est à mi-chemin entre ombilic et symphyse » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « N'est plus perçu au-dessus de la symphyse » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Correspond à un utérus après les règles » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q12 (Oran)) portant sur le cours « Les suites de couches ». Bonne(s) réponse(s) : C.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-484",
     "module": "gynecologie",
     "chapitre": "Diagnostic et surveillance de la grossesse",
@@ -21440,49 +19156,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « Galactorrhée bilatérale » est inexact dans cette situation clinique (Corrigé officiel : BC).",
       "E": "Faux. « Constipation » est inexact dans cette situation clinique (Corrigé officiel : BC).",
       "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q13 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : BC.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-485",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q14 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q14 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "La hauteur utérine normale à 28 semaines d'aménorrhée est de :",
-    "propositions": {
-      "A": "20 cm",
-      "B": "22 cm",
-      "C": "24 cm",
-      "D": "28 cm",
-      "E": "32 cm"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q14 (Oran)), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « 20 cm » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « 22 cm » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « 24 cm » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "D": "Faux. « 28 cm » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « 32 cm » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q14 (Oran)) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : C.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
     },
     "isAlger": false,
@@ -21576,50 +19249,6 @@ window.QCM_GYNECO = [
     "faculty": "Oran"
   },
   {
-    "id": "gyn-488",
-    "module": "gynecologie",
-    "chapitre": "Mécanisme général de l'accouchement",
-    "chapitre_num": 5,
-    "section": "Mécanisme général de l'accouchement",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Les critères obstétricaux qui permettent de dire qu'une femme à terme est en début de travail comportent :",
-    "propositions": {
-      "A": "La perte du bouchon muqueux",
-      "B": "La présence de contractions utérines régulières et devenant douloureuses",
-      "C": "La rupture des membranes",
-      "D": "La modification du col utérin",
-      "E": "L'engagement de la tête"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)), la ou les réponses exactes sont BD. Cette question valide les objectifs d'apprentissage du cours « Mécanisme général de l'accouchement ».",
-    "justifications": {
-      "A": "Faux. « La perte du bouchon muqueux » est inexact dans cette situation clinique (Corrigé officiel : BD).",
-      "B": "Vrai (Corrigé officiel : BD). « La présence de contractions utérines régulières et devenant douloureuses » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « La rupture des membranes » est inexact dans cette situation clinique (Corrigé officiel : BD).",
-      "D": "Vrai (Corrigé officiel : BD). « La modification du col utérin » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "E": "Faux. « L'engagement de la tête » est inexact dans cette situation clinique (Corrigé officiel : BD).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q17 (Oran)) portant sur le cours « Mécanisme général de l'accouchement ». Bonne(s) réponse(s) : BD.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
     "id": "gyn-489",
     "module": "gynecologie",
     "chapitre": "Les présentations fœtales",
@@ -21656,93 +19285,6 @@ window.QCM_GYNECO = [
       "D": "Faux. « 12 cm » est inexact dans cette situation clinique (Corrigé officiel : B).",
       "E": "Faux. « 13 cm » est inexact dans cette situation clinique (Corrigé officiel : B).",
       "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q18 (Oran)) portant sur le cours « Les présentations fœtales ». Bonne(s) réponse(s) : B.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-490",
-    "module": "gynecologie",
-    "chapitre": "Bassin obstétrical",
-    "chapitre_num": 3,
-    "section": "Bassin obstétrical",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q19 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q19 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "Indiquez parmi les propositions suivantes sur l'utérus, la (les) proposition(s) exacte(s) :",
-    "propositions": {
-      "A": "Il est antéversé et rétrofléchi",
-      "B": "Il se situe entre la vessie en avant et le rectum en arrière",
-      "C": "Il se situe en arrière du cul de sac de douglas",
-      "D": "Il s'agit d'un organe pair",
-      "E": "Il est recouvert par une formation péritonéale"
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q19 (Oran)), la ou les réponses exactes sont BE. Cette question valide les objectifs d'apprentissage du cours « Bassin obstétrical ».",
-    "justifications": {
-      "A": "Faux. « Il est antéversé et rétrofléchi » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "B": "Vrai (Corrigé officiel : BE). « Il se situe entre la vessie en avant et le rectum en arrière » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « Il se situe en arrière du cul de sac de douglas » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "D": "Faux. « Il s'agit d'un organe pair » est inexact dans cette situation clinique (Corrigé officiel : BE).",
-      "E": "Vrai (Corrigé officiel : BE). « Il est recouvert par une formation péritonéale » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q19 (Oran)) portant sur le cours « Bassin obstétrical ». Bonne(s) réponse(s) : BE.",
-      "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
-    },
-    "isAlger": false,
-    "isOran": true,
-    "faculty": "Oran"
-  },
-  {
-    "id": "gyn-491",
-    "module": "gynecologie",
-    "chapitre": "Les présentations fœtales",
-    "chapitre_num": 8,
-    "section": "Les présentations fœtales",
-    "source": {
-      "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)",
-      "type": "EMD",
-      "annee": "2018"
-    },
-    "sources": [
-      {
-        "texte": "Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)",
-        "type": "EMD",
-        "annee": "2018"
-      }
-    ],
-    "question": "La variété de dégagement d'une présentation céphalique la plus fréquente est :",
-    "propositions": {
-      "A": "L'occipito-sacrée",
-      "B": "L'occipito-pubienne",
-      "C": "L'oblique iliaque gauche antérieure",
-      "D": "L'oblique iliaque droite postérieure",
-      "E": "L'oblique iliaque gauche postérieure"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "explication": "D'après le corrigé officiel et les consensus d'enseignement de la Faculté de Médecine d'Oran (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)), la ou les réponses exactes sont B. Cette question valide les objectifs d'apprentissage du cours « Les présentations fœtales ».",
-    "justifications": {
-      "A": "Faux. « L'occipito-sacrée » est inexact dans cette situation clinique (Corrigé officiel : B).",
-      "B": "Vrai (Corrigé officiel : B). « L'occipito-pubienne » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine d'Oran.",
-      "C": "Faux. « L'oblique iliaque gauche antérieure » est inexact dans cette situation clinique (Corrigé officiel : B).",
-      "D": "Faux. « L'oblique iliaque droite postérieure » est inexact dans cette situation clinique (Corrigé officiel : B).",
-      "E": "Faux. « L'oblique iliaque gauche postérieure » est inexact dans cette situation clinique (Corrigé officiel : B).",
-      "_synthese": "Question officielle d'évaluation (Épreuve Pratique Gynécologie-Obstétrique 2018/2019 - Q20 (Oran)) portant sur le cours « Les présentations fœtales ». Bonne(s) réponse(s) : B.",
       "_remarque": "Faculté de Médecine d'Oran · 5ème Année · Épreuve Pratique du 08/11/2018."
     },
     "isAlger": false,
@@ -22777,94 +20319,6 @@ window.QCM_GYNECO = [
       "D": "Vrai (Corrigé officiel : ACDE). « L'évaluation de l'ovulation fait partie du bilan de la femme infertile. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine de Mostaganem.",
       "E": "Vrai (Corrigé officiel : ACDE). « L'hystérosalpingographie permet d'évaluer la perméabilité tubaire. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine de Mostaganem.",
       "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q23) portant sur le cours « Cat couple hypofertile ». Bonne(s) réponse(s) : ACDE.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 01/07/2026."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-515",
-    "module": "gynecologie",
-    "chapitre": "Diagnostic et surveillance de la grossesse",
-    "chapitre_num": 4,
-    "section": "Diagnostic et surveillance de la grossesse",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q24 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q24 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Concernant la prévention de l'allo-immunisation :",
-    "propositions": {
-      "A": "Elle repose sur l'injection d'immunoglobulines anti-D aux femmes Rh- immunisées.",
-      "B": "L'injection d'anti-D est systématique après un avortement ou une fausse couche chez une femme Rh-.",
-      "C": "L'anti-D est administrée même après une césarienne.",
-      "D": "L'injection d'anti-D est inutile après une grossesse extra-utérine.",
-      "E": "Une dose d'anti-D est recommandée à 28 SA même en l'absence de saignement."
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen Théorique Gynécologie-Obstétrique 2025/2026 du 01/07/2026), la ou les réponses exactes sont BCE. Cette question valide les objectifs d'apprentissage du cours « Diagnostic et surveillance de la grossesse ».",
-    "justifications": {
-      "A": "Faux. « Elle repose sur l'injection d'immunoglobulines anti-D aux femmes Rh- immunisées. » est inexact dans cette situation clinique (Corrigé officiel : BCE).",
-      "B": "Vrai (Corrigé officiel : BCE). « L'injection d'anti-D est systématique après un avortement ou une fausse couche chez une femme Rh-. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine de Mostaganem.",
-      "C": "Vrai (Corrigé officiel : BCE). « L'anti-D est administrée même après une césarienne. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine de Mostaganem.",
-      "D": "Faux. « L'injection d'anti-D est inutile après une grossesse extra-utérine. » est inexact dans cette situation clinique (Corrigé officiel : BCE).",
-      "E": "Vrai (Corrigé officiel : BCE). « Une dose d'anti-D est recommandée à 28 SA même en l'absence de saignement. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine de Mostaganem.",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q24) portant sur le cours « Diagnostic et surveillance de la grossesse ». Bonne(s) réponse(s) : BCE.",
-      "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 01/07/2026."
-    },
-    "isAlger": false,
-    "isOran": false,
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "gyn-516",
-    "module": "gynecologie",
-    "chapitre": "Menace d'accouchement prématuré",
-    "chapitre_num": 11,
-    "section": "Menace d'accouchement prématuré",
-    "source": {
-      "texte": "Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q25 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q25 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Le diagnostic de la MAP repose sur les critères suivants, sauf un :",
-    "propositions": {
-      "A": "Présence de contractions utérines régulières.",
-      "B": "Modifications cervicales objectivées au toucher vaginal.",
-      "C": "Col fermé et long (> 30 mm) à l'échographie endovaginale.",
-      "D": "Âge gestationnel inférieur à 37 SA.",
-      "E": "Test à la fibronectine fœtale positif."
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé type officiel de la Faculté de Médecine de Mostaganem (Examen Théorique Gynécologie-Obstétrique 2025/2026 du 01/07/2026), la ou les réponses exactes sont C. Cette question valide les objectifs d'apprentissage du cours « Menace d'accouchement prématuré ».",
-    "justifications": {
-      "A": "Faux. « Présence de contractions utérines régulières. » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "B": "Faux. « Modifications cervicales objectivées au toucher vaginal. » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). « Col fermé et long (> 30 mm) à l'échographie endovaginale. » est validé par le collège d'enseignants de gynécologie-obstétrique de la Faculté de Médecine de Mostaganem.",
-      "D": "Faux. « Âge gestationnel inférieur à 37 SA. » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "E": "Faux. « Test à la fibronectine fœtale positif. » est inexact dans cette situation clinique (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation (Examen Théorique Gynécologie-Obstétrique 2025/2026 - Q25) portant sur le cours « Menace d'accouchement prématuré ». Bonne(s) réponse(s) : C.",
       "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle du 01/07/2026."
     },
     "isAlger": false,

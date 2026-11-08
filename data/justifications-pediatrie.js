@@ -378,13 +378,13 @@ window.JUSTIFICATIONS_PEDIATRIE = {
     "_remarque": "Une cyanose sans hypoxémie et résistante à l'oxygène chez un enfant présentant un sang de couleur 'chocolat' doit faire évoquer une méthémoglobinémie congénitale ou toxique."
   },
   "ped-043": {
-    "A": "Vrai. La mort inattendue ou subite du nourrisson (MIN/MSN) reste la première cause de décès chez les enfants âgés de 1 mois à 1 an dans les pays industrialisés.",
-    "B": "Faux. Il existe une prédominance MASCULINE nette (environ 60% de garçons).",
-    "C": "Vrai. Le décès survient de façon quasi exclusive pendant le sommeil de l'enfant (sommeil de nuit ou sieste).",
-    "D": "Faux. Le tabagisme maternel pendant la grossesse et après la naissance est l'un des facteurs de risque environnementaux majeurs les plus puissants.",
-    "E": "Vrai. On observe une recrudescence hivernale nette, favorisée par le surchauffage des chambres, les infections respiratoires virales et l'excès de couverture.",
-    "_synthese": "La mort subite du nourrisson se produit lors d'une période de vulnérabilité du développement (pic entre 2 et 4 mois). La campagne 'Dormir sur le dos' a permis de réduire son incidence de plus de 75%.",
-    "_remarque": "Les règles de couchage sécurisé : couchage exclusif SUR LE DOS, sur un matelas ferme adapté au lit, sans couette, oreiller ni tour de lit, dans une gigoteuse, température de la chambre entre 18 et 20°C, et partage de chambre sans partage de lit (pas de cododo)."
+    "A": "Vrai. Première cause de mortalité postnéonatale avant 1 an.",
+    "B": "Faux. Prédominance masculine.",
+    "C": "Vrai. Survient pendant le sommeil.",
+    "D": "Faux. Le tabagisme maternel est un facteur de risque.",
+    "E": "Vrai. Recrudescence hivernale.",
+    "_synthese": "La mort subite du nourrisson survient pendant le sommeil, surtout l'hiver, avec une prédominance masculine et un rôle du tabagisme.",
+    "_remarque": "Clé complétée (AC → ACE) : la mort subite du nourrisson présente une recrudescence hivernale. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "ped-044": {
     "A": "Faux. Chez le nourrisson, l'hyperextension de la tête aggrave l'obstruction des voies aériennes en raison de la proéminence de l'occiput et de la laxité pharyngée.",
@@ -1133,15 +1133,6 @@ window.JUSTIFICATIONS_PEDIATRIE = {
     "_synthese": "Le marasme nutritionnel résulte d'une carence calorique globale prolongée chez le nourrisson sevré trop tôt sans diversification adéquate. Il se traduit par une fonte adipeuse totale avec visage émacié de 'vieillard', une fonte musculaire sans œdème, et la conservation d'un appétit vif contrastant avec l'anorexie apathique du kwashiorkor.",
     "_remarque": "Contrairement au kwashiorkor, l'albuminémie reste relativement préservée dans le marasme et il n'y a pas d'œdèmes déclives."
   },
-  "ped-127": {
-    "A": "Faux (conduite recommandée, non retenue). La restriction hydrique initiale prévient la décompensation cardiaque par surcharge.",
-    "B": "Faux (conduite recommandée, non retenue). L'apport calorique doit démarrer prudemment (lait F-75 à 80-100 kcal/kg/j) pour prévenir le syndrome de renutrition.",
-    "C": "Faux (conduite recommandée, non retenue). Le potassium doit être largement supplémenté tandis que le sodium est restreint.",
-    "D": "Vrai (affirmation fausse médicalement, donc bonne réponse). La transfusion sanguine est DANGEREUSE et formellement proscrite en routine car elle risque de précipiter un œdème aigu pulmonaire et un arrêt cardiaque par surcharge chez un enfant au myocarde dénutri.",
-    "E": "Faux (conduite recommandée, non retenue). La supplémentation en fer est nécessaire mais uniquement dans la phase de réhabilitation (phase 2) une fois les infections traitées.",
-    "_synthese": "Le protocole de stabilisation OMS de la malnutrition sévère interdit formellement la perfusion IV rapide de solutés sodés et la transfusion sanguine de routine en raison de l'atrophie myocardique et de l'excès de sodium intracellulaire. La réhydratation se fait par voie orale prudente avec le soluté ReSoMal.",
-    "_remarque": "Une transfusion de culot globulaire (10 ml/kg très lente sur 3 à 4 heures) n'est autorisée qu'en cas d'anémie extrême décompensée avec taux d'hémoglobine < 4 g/dL sous couvert de furosémide."
-  },
   "ped-128": {
     "A": "Vrai. La sténose hypertrophique du pylore se caractérise typiquement par un intervalle libre silencieux de 3 à 6 semaines entre la naissance et l'apparition des premiers vomissements.",
     "B": "Faux. Les vomissements sont constitués de lait caillé d'odeur aigrelette et ne contiennent habituellement pas de sang (sauf saignement minime secondaire à une gastrite de stase).",
@@ -1213,15 +1204,6 @@ window.JUSTIFICATIONS_PEDIATRIE = {
     "E": "Vrai. Le diagnostic de certitude est formellement posé par la radiographie thoraco-abdominale de face réalisée avec une sonde naso-gastrique radio-opaque en place, montrant l'enroulement de la sonde et la présence de clartés gazeuses digestives dans le thorax.",
     "_synthese": "La hernie diaphragmatique congénitale réalise la triade clinique : 1) détresse respiratoire néonatale précoce, 2) abdomen excavé, et 3) déviation des bruits du cœur vers l'hémi-thorax controlatéral. La confirmation par le cliché thoracique avec sonde gastrique en place est instantanée.",
     "_remarque": "Toute ventilation manuelle au masque est formellement contre-indiquée car elle distend l'estomac et les anses herniées dans le thorax, aggravant mortellement la compression pulmonaire."
-  },
-  "ped-136": {
-    "A": "Vrai. Le pan-hypopituitarisme congénital ou acquis entraîne un déficit gonadotrope (LH/FSH effondrées) responsable d'un hypogonadisme hypogonadotrope avec absence complète de puberté.",
-    "B": "Faux. Le neuroblastome est une tumeur maligne abdominale du nourrisson et de la petite enfance qui n'interfère pas avec l'axe pubertaire.",
-    "C": "Vrai. Le syndrome de Turner (45,X0) est la première cause d'hypogonadisme hypergonadotrope de la fille par dysgénésie gonadique (ovaires réduits à des bandelettes fibreuses non sécrétrices).",
-    "D": "Faux. L'hyperplasie congénitale des surrénales entraîne une pseudopuberté précoce virilisante par excès d'androgènes, et non un retard.",
-    "E": "Vrai. L'insuffisance rénale chronique sévère est une cause classique de retard pubertaire et d'impubérisme secondaire à la dénutrition et aux perturbations de l'axe gonadotrope.",
-    "_synthese": "Le retard pubertaire de l'enfant relève de trois grands mécanismes : 1) retard pubertaire simple constitutionnel (cause la plus fréquente, familiale), 2) hypogonadisme hypergonadotrope périphérique (syndrome de Turner chez la fille, syndrome de Klinefelter chez le garçon), et 3) hypogonadisme hypogonadotrope central (adénome hypophysaire, craniopharyngiome, syndrome de Kallmann, maladies chroniques).",
-    "_remarque": "Le dosage plasmatique de base des gonadotrophines (LH et FSH) permet de distinguer immédiatement une atteinte centrale hypophysaire (LH/FSH basses) d'une atteinte périphérique gonadique (LH/FSH élevées)."
   },
   "ped-137": {
     "A": "Vrai. Le dépistage systématique d'une infection tuberculeuse latente (ITL) est obligatoire chez tous les enfants de moins de 5 ans vivant sous le même toit qu'un adulte présentant une tuberculose pulmonaire bacillifère.",

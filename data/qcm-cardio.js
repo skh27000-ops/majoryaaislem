@@ -692,6 +692,11 @@ window.QCM_CARDIO = [
         "texte": "Examen de Cardiologie Théorique P1 2021/2022 - Q17 (Alger)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q51 (Alger)",
+        "type": "EMD",
+        "annee": "2022"
       }
     ],
     "question": "Parmi les facteurs non cardiaques aggravant l'insuffisance cardiaque: (réponse fausse)",
@@ -1364,6 +1369,11 @@ window.QCM_CARDIO = [
         "texte": "Examen de Cardiologie Théorique P1 2021/2022 - Q33 (Alger)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q49 (Alger)",
+        "type": "EMD",
+        "annee": "2022"
       }
     ],
     "question": "La fibrillation atriale est: (réponse fausse)",
@@ -1700,6 +1710,11 @@ window.QCM_CARDIO = [
         "texte": "Examen de Cardiologie Théorique P1 2021/2022 - Q41 (Alger)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q48 (Alger)",
+        "type": "EMD",
+        "annee": "2022"
       }
     ],
     "question": "La mesure de la pression artérielle validée doit être soumise à toutes ces conditions : (réponse fausse)",
@@ -1826,6 +1841,11 @@ window.QCM_CARDIO = [
         "texte": "Examen de Cardiologie Théorique P1 2021/2022 - Q44 (Alger)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P3 2022/2023 - Q24 (Alger)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Parmi les techniques d'auscultation suivantes, quelle est la plus adéquate pour rechercher une insuffisance\naortique :",
@@ -1952,6 +1972,11 @@ window.QCM_CARDIO = [
         "texte": "Examen de Cardiologie Théorique P1 2021/2022 - Q47 (Alger)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q47 (Alger)",
+        "type": "EMD",
+        "annee": "2022"
       }
     ],
     "question": "Parmi les diurétiques suivants, quel est celui qui n'est pas contre-indiqué en cas d'insuffisance rénale?",
@@ -1992,6 +2017,11 @@ window.QCM_CARDIO = [
     "sources": [
       {
         "texte": "Examen de Cardiologie Théorique P1 2021/2022 - Q48 (Alger)",
+        "type": "EMD",
+        "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q46 (Alger)",
         "type": "EMD",
         "annee": "2022"
       }
@@ -6515,174 +6545,6 @@ window.QCM_CARDIO = [
     "faculty": "Alger"
   },
   {
-    "id": "cardio-156",
-    "module": "cardiologie",
-    "chapitre": "Troubles de l'excitabilité",
-    "chapitre_num": 17,
-    "section": "Troubles de l'excitabilité",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q46 (Alger)",
-      "type": "EMD",
-      "annee": "2022"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q46 (Alger)",
-        "type": "EMD",
-        "annee": "2022"
-      }
-    ],
-    "question": "Devant une tachycardie régulière à complexes fins, quels diagnostics doivent être envisagés ? (cochez la\nréponse juste)\n1. Tachycardie sinusale\n2. Flutter auriculaire à conduction variable\n3. Maladie de Bouveret\n4. Tachycardie ventriculaire\n5. Fibrillation auriculaire",
-    "propositions": {
-      "A": "1+2",
-      "B": "1+3",
-      "C": "1+4",
-      "D": "4+5",
-      "E": "2+5"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022), la ou les réponses exactes sont B (B: 1+3). Cette question valide les objectifs pédagogiques du cours « Troubles de l'excitabilité ».",
-    "justifications": {
-      "A": "Faux. 1+2 est cliniquement inexacte (Corrigé officiel : B).",
-      "B": "Vrai (Corrigé officiel : B). 1+3 est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "C": "Faux. 1+4 est cliniquement inexacte (Corrigé officiel : B).",
-      "D": "Faux. 4+5 est cliniquement inexacte (Corrigé officiel : B).",
-      "E": "Faux. 2+5 est cliniquement inexacte (Corrigé officiel : B).",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Troubles de l'excitabilité » (Examen de Cardiologie Théorique P3 2021/2022). Réponse(s) officielle(s) : B.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
-    "id": "cardio-157",
-    "module": "cardiologie",
-    "chapitre": "Cardiopathies congénitales",
-    "chapitre_num": 25,
-    "section": "Cardiopathies congénitales",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q47 (Alger)",
-      "type": "EMD",
-      "annee": "2022"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q47 (Alger)",
-        "type": "EMD",
-        "annee": "2022"
-      }
-    ],
-    "question": "Parmi les diurétiques suivants, quel est celui qui n'est pas contre-indiqué en cas d'insuffisance rénale ? (cochez\nla réponse juste)",
-    "propositions": {
-      "A": "Spironolactone (Aldactone®)",
-      "B": "Diurétiques thiazidiques",
-      "C": "Furosemide (Lasilix®)",
-      "D": "Modamide® Diurétiques épargneurs de potassium (Triamtéréne®)",
-      "E": "Association de diurétiques thiazidiques et épargneurs de potassium"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022), la ou les réponses exactes sont C (C: Furosemide (Lasilix®)). Cette question valide les objectifs pédagogiques du cours « Cardiopathies congénitales ».",
-    "justifications": {
-      "A": "Faux. Spironolactone (Aldactone®) est cliniquement inexacte (Corrigé officiel : C).",
-      "B": "Faux. Diurétiques thiazidiques est cliniquement inexacte (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). Furosemide (Lasilix®) est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "D": "Faux. Modamide® Diurétiques épargneurs de potassium (Triamtéréne®) est cliniquement inexacte (Corrigé officiel : C).",
-      "E": "Faux. Association de diurétiques thiazidiques et épargneurs de potassium est cliniquement inexacte (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Cardiopathies congénitales » (Examen de Cardiologie Théorique P3 2021/2022). Réponse(s) officielle(s) : C.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
-    "id": "cardio-158",
-    "module": "cardiologie",
-    "chapitre": "Hypertension artérielle",
-    "chapitre_num": 11,
-    "section": "Hypertension artérielle",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q48 (Alger)",
-      "type": "EMD",
-      "annee": "2022"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q48 (Alger)",
-        "type": "EMD",
-        "annee": "2022"
-      }
-    ],
-    "question": "La mesure de la pression artérielle validée doit être soumise à toutes ces conditions (Cochez la réponse fausse)",
-    "propositions": {
-      "A": "A distance des repas",
-      "B": "Après un repos de 5mn",
-      "C": "Avec un brassard adapté à la taille de bras",
-      "D": "A distance de la prise de tabac",
-      "E": "Mesuré e en position couché e ou debout"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022), la ou les réponses exactes sont E (E: Mesuré e en position couché e ou debout). Cette question valide les objectifs pédagogiques du cours « Hypertension artérielle ».",
-    "justifications": {
-      "A": "Faux. A distance des repas est cliniquement inexacte (Corrigé officiel : E).",
-      "B": "Faux. Après un repos de 5mn est cliniquement inexacte (Corrigé officiel : E).",
-      "C": "Faux. Avec un brassard adapté à la taille de bras est cliniquement inexacte (Corrigé officiel : E).",
-      "D": "Faux. A distance de la prise de tabac est cliniquement inexacte (Corrigé officiel : E).",
-      "E": "Vrai (Corrigé officiel : E). Mesuré e en position couché e ou debout est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Hypertension artérielle » (Examen de Cardiologie Théorique P3 2021/2022). Réponse(s) officielle(s) : E.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
-    "id": "cardio-159",
-    "module": "cardiologie",
-    "chapitre": "Troubles de l'excitabilité",
-    "chapitre_num": 17,
-    "section": "Troubles de l'excitabilité",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q49 (Alger)",
-      "type": "EMD",
-      "annee": "2022"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q49 (Alger)",
-        "type": "EMD",
-        "annee": "2022"
-      }
-    ],
-    "question": "La fibrillation atriale est : (cochez la réponse fausse)",
-    "propositions": {
-      "A": "La plus fréquente des arythmies cardiaque chez les sujets âgés",
-      "B": "Elle est lié e à la présence de réentrées auriculaires",
-      "C": "Le rythme devient rapide et régulier",
-      "D": "Elle entraine la formation de thrombus en dehors de l'anticoagulation",
-      "E": "Elle se complique souvent d'insuffisance cardiaque aigue"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022), la ou les réponses exactes sont C (C: Le rythme devient rapide et régulier). Cette question valide les objectifs pédagogiques du cours « Troubles de l'excitabilité ».",
-    "justifications": {
-      "A": "Faux. La plus fréquente des arythmies cardiaque chez les sujets âgés est cliniquement inexacte (Corrigé officiel : C).",
-      "B": "Faux. Elle est lié e à la présence de réentrées auriculaires est cliniquement inexacte (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). Le rythme devient rapide et régulier est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "D": "Faux. Elle entraine la formation de thrombus en dehors de l'anticoagulation est cliniquement inexacte (Corrigé officiel : C).",
-      "E": "Faux. Elle se complique souvent d'insuffisance cardiaque aigue est cliniquement inexacte (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Troubles de l'excitabilité » (Examen de Cardiologie Théorique P3 2021/2022). Réponse(s) officielle(s) : C.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
     "id": "cardio-160",
     "module": "cardiologie",
     "chapitre": "Rétrécissement aortique",
@@ -6719,48 +6581,6 @@ window.QCM_CARDIO = [
       "D": "Faux. La surface aortique est inferieur a 1cm² et ou 0.6 cm²/m² est cliniquement inexacte (Corrigé officiel : E).",
       "E": "Vrai (Corrigé officiel : E). Le patient est toujours symptomatique est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
       "_synthese": "Question officielle d'évaluation portant sur le chapitre « Rétrécissement aortique » (Examen de Cardiologie Théorique P3 2021/2022). Réponse(s) officielle(s) : E.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
-    "id": "cardio-161",
-    "module": "cardiologie",
-    "chapitre": "Insuffisance cardiaque",
-    "chapitre_num": 10,
-    "section": "Insuffisance cardiaque",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q51 (Alger)",
-      "type": "EMD",
-      "annee": "2022"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P3 2021/2022 - Q51 (Alger)",
-        "type": "EMD",
-        "annee": "2022"
-      }
-    ],
-    "question": "Parmi les facteurs non cardiaques aggravant l'insuffisance cardiaque : (Cochez la réponse fausse)",
-    "propositions": {
-      "A": "Le défaut d'observance du traitement et des règles hygiéno-diététiques.",
-      "B": "L'anémie",
-      "C": "La présence d'une valvulopathie",
-      "D": "La fièvre",
-      "E": "Hyperthyroïdie"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022), la ou les réponses exactes sont C (C: La présence d'une valvulopathie). Cette question valide les objectifs pédagogiques du cours « Insuffisance cardiaque ».",
-    "justifications": {
-      "A": "Faux. Le défaut d'observance du traitement et des règles hygiéno-diététiques. est cliniquement inexacte (Corrigé officiel : C).",
-      "B": "Faux. L'anémie est cliniquement inexacte (Corrigé officiel : C).",
-      "C": "Vrai (Corrigé officiel : C). La présence d'une valvulopathie est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "D": "Faux. La fièvre est cliniquement inexacte (Corrigé officiel : C).",
-      "E": "Faux. Hyperthyroïdie est cliniquement inexacte (Corrigé officiel : C).",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Insuffisance cardiaque » (Examen de Cardiologie Théorique P3 2021/2022). Réponse(s) officielle(s) : C.",
       "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2021/2022). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
     },
     "isAlger": true,
@@ -7286,6 +7106,11 @@ window.QCM_CARDIO = [
         "texte": "Examen de Cardiologie Théorique P5 2021/2022 - Q12 (Alger)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen de Cardiologie Théorique P2 2022/2023 - Q2 (Alger)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Concernant les Anticoagulants Oraux Directs (AOD), toutes ces propositions sont vraies, sauf une, laquelle ?",
@@ -11688,48 +11513,6 @@ window.QCM_CARDIO = [
     "faculty": "Alger"
   },
   {
-    "id": "cardio-279",
-    "module": "cardiologie",
-    "chapitre": "Insuffisance cardiaque",
-    "chapitre_num": 10,
-    "section": "Insuffisance cardiaque",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P2 2022/2023 - Q2 (Alger)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P2 2022/2023 - Q2 (Alger)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Concernant les Anticoagulants Oraux Directs, toutes ces propositions sont vraies, sauf une, laquelle?",
-    "propositions": {
-      "A": "Ont un délai d'action court",
-      "B": "Ne nécessitent pas de traitement préalable systématique par les héparines",
-      "C": "Ne présentent pas d'interaction avec les aliments",
-      "D": "En traitement curatif, le contrôle systématique de l’activité anti Xa est nécessaire",
-      "E": "Ont peu d'interaction médicamenteuse par rapport aux AVK"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P2 2022/2023), la ou les réponses exactes sont D (D: En traitement curatif, le contrôle systématique de l’activité anti Xa est nécessaire). Cette question valide les objectifs pédagogiques du cours « Insuffisance cardiaque ».",
-    "justifications": {
-      "A": "Faux. Ont un délai d'action court est cliniquement inexacte (Corrigé officiel : D).",
-      "B": "Faux. Ne nécessitent pas de traitement préalable systématique par les héparines est cliniquement inexacte (Corrigé officiel : D).",
-      "C": "Faux. Ne présentent pas d'interaction avec les aliments est cliniquement inexacte (Corrigé officiel : D).",
-      "D": "Vrai (Corrigé officiel : D). En traitement curatif, le contrôle systématique de l’activité anti Xa est nécessaire est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "E": "Faux. Ont peu d'interaction médicamenteuse par rapport aux AVK est cliniquement inexacte (Corrigé officiel : D).",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Insuffisance cardiaque » (Examen de Cardiologie Théorique P2 2022/2023). Réponse(s) officielle(s) : D.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P2 2022/2023). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
     "id": "cardio-280",
     "module": "cardiologie",
     "chapitre": "Embolie pulmonaire",
@@ -15162,48 +14945,6 @@ window.QCM_CARDIO = [
       "D": "Faux. VR, D2, VF est cliniquement inexacte (Corrigé officiel : A).",
       "E": "Faux. V7 V8 V9 est cliniquement inexacte (Corrigé officiel : A).",
       "_synthese": "Question officielle d'évaluation portant sur le chapitre « Syndrome coronarien aigue » (Examen de Cardiologie Théorique P3 2022/2023). Réponse(s) officielle(s) : A.",
-      "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2022/2023). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
-    },
-    "isAlger": true,
-    "faculty": "Alger"
-  },
-  {
-    "id": "cardio-361",
-    "module": "cardiologie",
-    "chapitre": "Insuffisance cardiaque",
-    "chapitre_num": 10,
-    "section": "Insuffisance cardiaque",
-    "source": {
-      "texte": "Examen de Cardiologie Théorique P3 2022/2023 - Q24 (Alger)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen de Cardiologie Théorique P3 2022/2023 - Q24 (Alger)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Parmi les techniques d'auscultation suivantes, quelle est la plus Adéquate pour rechercher une insuffisance\naortique ?",
-    "propositions": {
-      "A": "Patient assis penché en avant et en expiration forcée",
-      "B": "Patient en décubitus latéral gauche et après effort",
-      "C": "Patient en décubitus latéral droit, en inspiration forcée",
-      "D": "Patient en décubitus dorsal",
-      "E": "Patient assis penché en avant et en inspiration forcée"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "D'après le corrigé officiel de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2022/2023), la ou les réponses exactes sont A (A: Patient assis penché en avant et en expiration forcée). Cette question valide les objectifs pédagogiques du cours « Insuffisance cardiaque ».",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Patient assis penché en avant et en expiration forcée est une proposition conforme aux recommandations officielles et au consensus cardiologique.",
-      "B": "Faux. Patient en décubitus latéral gauche et après effort est cliniquement inexacte (Corrigé officiel : A).",
-      "C": "Faux. Patient en décubitus latéral droit, en inspiration forcée est cliniquement inexacte (Corrigé officiel : A).",
-      "D": "Faux. Patient en décubitus dorsal est cliniquement inexacte (Corrigé officiel : A).",
-      "E": "Faux. Patient assis penché en avant et en inspiration forcée est cliniquement inexacte (Corrigé officiel : A).",
-      "_synthese": "Question officielle d'évaluation portant sur le chapitre « Insuffisance cardiaque » (Examen de Cardiologie Théorique P3 2022/2023). Réponse(s) officielle(s) : A.",
       "_remarque": "📌 Note aux étudiants de la Faculté de Médecine de Mostaganem : Cette question est issue des examens officiels de la Faculté de Médecine d'Alger (Examen de Cardiologie Théorique P3 2022/2023). Elle est intégrée dans votre cursus de 4ème année pour vous offrir un entraînement transversal exhaustif et optimiser votre réussite aux EMD."
     },
     "isAlger": true,

@@ -3,8 +3,7 @@
 // Faculté de Médecine de Mostaganem - Évaluation officielle
 // 130 QCMs analysés choix par choix (A-E) avec synthèses cliniques et pièges
 // ==============================================================================
-window.JUSTIFICATIONS_PNEUMO = window.JUSTIFICATIONS_PNEUMO || {};
-Object.assign(window.JUSTIFICATIONS_PNEUMO, {
+window.JUSTIFICATIONS_PNEUMO = {
   "pneumo-001": {
     "A": "Faux. L'examen direct seul manque de sensibilité et ne permet pas d'identifier l'espèce ni de tester la sensibilité aux antituberculeux.",
     "B": "Faux. La culture seule est trop lente (3 à 6 semaines) pour guider l'isolement et la mise sous traitement immédiate.",
@@ -464,15 +463,6 @@ Object.assign(window.JUSTIFICATIONS_PNEUMO, {
     "_synthese": "Traitement de fond de l'asthme persistant : CSI à dose moyenne + LABA en inhalation biquotidienne (ou prise MART : maintenance and reliever therapy).",
     "_remarque": "L'association CSI + LABA a un effet synergique : le LABA potentialise la fixation du corticoïde sur son récepteur nucléaire et le corticoïde prévient la désensibilisation des récepteurs bêta-2."
   },
-  "pneumo-052": {
-    "A": "Vrai. Seul examen affirmant le diagnostic positif de BPCO.",
-    "B": "Vrai. Évalue la capacité pulmonaire totale et le volume résiduel.",
-    "C": "Vrai. Évalue la capacité aérobie fonctionnelle et le pronostic.",
-    "D": "Faux. Non systématique lors du bilan initial standard sans point d'appel radiologique.",
-    "E": "Vrai. Dépistage d'une polyglobulie secondaire à l'hypoxémie chronique.",
-    "_synthese": "Bilan initial BPCO : Confirmation fonctionnelle (EFR complète : Spirométrie + Pléthysmographie), tolérance à l'effort (TM6), hématologie (NFS), radio thoracique, sevrage tabagique.",
-    "_remarque": "Question identique à la Q19 de 2025, témoignant des questions récurrentes majeures de la faculté de Mostaganem."
-  },
   "pneumo-053": {
     "A": "Faux. La voie inhalée est la règle d'or d'efficacité et de tolérance cardiaque.",
     "B": "Vrai. SABA en nébulisation (Salbutamol 5 mg) répété toutes les 20-30 minutes si besoin.",
@@ -553,15 +543,6 @@ Object.assign(window.JUSTIFICATIONS_PNEUMO, {
     "_synthese": "Facteurs de réactivation de l'ITL : Co-infection VIH, Corticothérapie prolongée, Anti-TNF, Diabète, Alcoolisme, Dénutrition.",
     "_remarque": "Question identique à la Q15 de l'examen 2025, confirmant la fidélité des questions d'annales de Mostaganem."
   },
-  "pneumo-062": {
-    "A": "Faux. L'ITL ne sécrète aucun bacille : aucune contagiosité.",
-    "B": "Faux. Les cultures sont négatives car les bacilles sont en dormance.",
-    "C": "Vrai. Seuls les tests immunologiques explorant l'immunité cellulaire T (IDR/IGRA) sont positifs.",
-    "D": "Faux. L'immunité humorale n'intervient pas dans le diagnostic.",
-    "E": "Faux. Seuls 5 à 10% des infectés développeront la tuberculose active.",
-    "_synthese": "ITL : Sujet asymptomatique, radiographie normale, bactériologie négative, IDR/IGRA positifs. Non contagieux.",
-    "_remarque": "Question identique à la Q6 de l'examen 2025."
-  },
   "pneumo-063": {
     "A": "Vrai. Certaines poussières sont inertes (pneumoconioses de surcharge sans fibrose comme la sidérose).",
     "B": "Faux. Les particules alvéolaires respirables mesurent entre 0.5 et 5 µm.",
@@ -588,15 +569,6 @@ Object.assign(window.JUSTIFICATIONS_PNEUMO, {
     "E": "Faux. Les viroses ne donnent pas de masses pseudo-tumorales fibrosantes.",
     "_synthese": "Silicose pseudo-tumorale : Fusion progressive des nodules silicotiques formant de volumineuses masses fibreuses denses rétractiles apicales avec emphysème cicatriciel périphérique.",
     "_remarque": "Attention : l'excavation centrale d'une masse pseudo-tumorale silicotique doit toujours faire suspecter et rechercher une tuberculose surajoutée (silico-tuberculose)."
-  },
-  "pneumo-066": {
-    "A": "Faux. La voie sous-cutanée majore les effets indésirables cardiaques (tachycardie, arythmie).",
-    "B": "Vrai. Traitement bronchodilatateur de 1ère intention en nébulisation sous débit de gaz adapté.",
-    "C": "Faux. L'adrénaline n'est pas indiquée dans l'exacerbation de BPCO.",
-    "D": "Faux. Le cromoglycate est inopérant en urgence.",
-    "E": "Faux. La théophylline IV est contre-indiquée en probabiliste (index thérapeutique étroit).",
-    "_synthese": "Traitement bronchodilatateur d'urgence BPCO : SABA nébulisé (Salbutamol 5 mg) +/- SAMA (Ipratropium 0.5 mg).",
-    "_remarque": "Question récurrente figurant à la fois en Q13 et Q26 de cette épreuve d'examen."
   },
   "pneumo-067": {
     "A": "Faux. La TDM a déjà été réalisée ou confirme l'opacité, mais ne fournit pas le diagnostic histologique formel.",
@@ -1057,15 +1029,6 @@ Object.assign(window.JUSTIFICATIONS_PNEUMO, {
     "_synthese": "Diagnostic bactériologique : Examen direct rapide mais peu sensible (un résultat négatif n'élimine rien C). Culture sur Löwenstein-Jensen (3-6 semaines) = référence.",
     "_remarque": "Seuil de détection : Examen direct = 5 000 à 10 000 BAAR/mL ; Culture = 10 à 100 bacilles/mL."
   },
-  "pneumo-118": {
-    "A": "Vrai (Corrigé officiel : A). Le diabète multiplie le risque de tuberculose active par 2 à 3 par altération des fonctions chimiotactiques et macrophagiques.",
-    "B": "Vrai (Corrigé officiel : B). La corticothérapie au long cours inhibe la transcription des cytokines Th1 (interféron gamma, TNF-alpha) maintenant le bacille quiescent au sein du granulome.",
-    "C": "Faux. L'infection virale VHB n'altère pas directement les défenses cellulaires antituberculeuses.",
-    "D": "Vrai (Corrigé officiel : D). Le VIH est le facteur multiplicateur majeur de réactivation tuberculeuse en raison de la déplétion des lymphocytes CD4.",
-    "E": "Vrai (Corrigé officiel : E). L'éthylisme chronique induit une dénutrition protéino-énergétique et une dépression immunitaire cellulaire favorisant la réactivation.",
-    "_synthese": "Facteurs de réactivation d'une ITL : VIH (D, risque maximal), Corticoïdes/anti-TNF (B), Diabète (A), Dénutrition et Éthylisme chronique (E).",
-    "_remarque": "Tout patient sous anti-TNF ou séropositif pour le VIH avec ITL avérée doit bénéficier d'un traitement préventif de l'ITL (rifampicine-isoniazide)."
-  },
   "pneumo-119": {
     "A": "Faux. Un gain de 100 ml ou 8 % est insuffisant et rentre dans la variabilité biologique intra-individuelle de la mesure spirométrique.",
     "B": "Vrai (Corrigé officiel : B). Le critère spirométrique consensuel officiel est une amélioration du VEMS d'au moins 12 % ET d'au moins 200 mL.",
@@ -1138,15 +1101,6 @@ Object.assign(window.JUSTIFICATIONS_PNEUMO, {
     "_synthese": "Étiologie anaérobie de l'abcès pulmonaire : Fétidité des expectorations (B) + Terrain d'inhalation (éthylisme) + Mauvais état bucco-dentaire. Antibiothérapie = Amoxicilline-acide clavulanique ou Clindamycine.",
     "_remarque": "La culture des anaérobies est difficile ; le diagnostic repose essentiellement sur cette clinique fétide caractéristique."
   },
-  "pneumo-127": {
-    "A": "Faux. La TDM thoracique décrit la lésion mais n'apporte pas la confirmation anatomopathologique nécessaire pour débuter un traitement oncologique.",
-    "B": "Faux. La pleuroscopie (thoracoscopie médicale) n'est indiquée qu'en cas d'épanchement pleural exsudatif associé.",
-    "C": "Vrai (Corrigé officiel : C). La ponction-biopsie transpariétale à l'aiguille sous guidage scanographique est l'examen de référence pour l'obtention du tissu tumoral des masses périphériques.",
-    "D": "Faux. La médiastinoscopie est un geste chirurgical d'évaluation des ganglions médiastinaux de la loge de Barety ou sous-carinaire.",
-    "E": "Faux. Répéter une fibroscopie standard à l'identique a une rentabilité diagnostique quasi nulle pour une lésion périphérique distale sous-pleurale.",
-    "_synthese": "Opacité périphérique suspecte avec endoscopie normale -> Ponction-biopsie transpariétale sous guidage TDM (C) pour preuve histologique formelle.",
-    "_remarque": "Complication la plus fréquente de la ponction transpariétale : le pneumothorax (15-20 % des cas)."
-  },
   "pneumo-128": {
     "A": "Faux. L'immunothérapie (anti-PD1/PD-L1) est réservée aux stades avancés/métastatiques ou en adjuvant/néoadjuvant des stades II et III.",
     "B": "Faux. La résection laser endobronchique est une technique palliative pour désobstruer une bronche centrale chez un patient inopérable.",
@@ -1164,18 +1118,5 @@ Object.assign(window.JUSTIFICATIONS_PNEUMO, {
     "E": "Faux. L'artériographie cérébrale est un examen invasif vasculaire sans intérêt pour la détection de métastases parenchymateuses.",
     "_synthese": "Suspicion de métastase cérébrale dans le cancer bronchique : Imagerie en coupe cérébrale obligatoire (Scanographie / TDM cérébrale injectée ou IRM cérébrale C).",
     "_remarque": "L'IRM cérébrale avec produit de contraste est supérieure à la TDM pour détecter les micrométastases infracentimétriques et de la fosse postérieure."
-  },
-  "pneumo-130": {
-    "A": "Retrouvée dans la FPI. Les réticulations intralobulaires sous-pleurales basales sont une composante constante du pattern scanographique d'UIP.",
-    "B": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). La DDB primitive des bronchectasies est absente dans la FPI (où seules des bronchectasies de traction distales secondaires à la rétraction fibreuse peuvent exister).",
-    "C": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). Les micronodules centro-lobulaires ou périlymphatiques sont incompatibles avec le diagnostic d'UIP et doivent faire suspecter une sarcoïdose ou une PHS.",
-    "D": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). L'épaississement pleural ou plaques pleurales ne font pas partie de la FPI (orientent vers l'asbestose).",
-    "E": "Retrouvée dans la FPI. Les kystes en rayons de miel sous-pleuraux à prédominance basale sont le signe scanographique cardinal indispensable pour affirmer le pattern d'UIP certain.",
-    "_synthese": "Conformément à la grille officielle de la Faculté (clé B, C, D) : les anomalies NON retrouvées dans la FPI sont les dilatations bronchiques primitives (B), les micronodules (C) et l'épaississement pleural (D).",
-    "_remarque": "Signes scanographiques certains de FPI : Réticulations sous-pleurales (A) et Rayon de miel basal (E)."
   }
-});
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = window.JUSTIFICATIONS_PNEUMO;
-}
+};

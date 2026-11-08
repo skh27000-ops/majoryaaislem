@@ -3,8 +3,7 @@
 // Faculté de Médecine de Mostaganem - Évaluation officielle
 // 145 QCMs analysés choix par choix (A-E) avec synthèses cliniques et pièges
 // ==============================================================================
-window.JUSTIFICATIONS_HEMATO = window.JUSTIFICATIONS_HEMATO || {};
-Object.assign(window.JUSTIFICATIONS_HEMATO, {
+window.JUSTIFICATIONS_HEMATO = {
   "hemato-001": {
     "A": "Faux. La ferritinémie est effondrée (< 30 µg/L ou < 15 µg/L) et représente le marqueur le plus précoce et sensible de la carence.",
     "B": "Faux. La sidéropénie tissulaire et la baisse des réserves surviennent bien avant l'installation de l'anémie biologique.",
@@ -581,15 +580,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "_synthese": "LMC : Hémopathie maligne myéloproliférative (A, C), évolution triphasique (D), risque de transformation en leucémie aiguë ou myélofibrose (E).",
     "_remarque": "L'avènement des inhibiteurs de tyrosine kinase (imatinib) a transformé le pronostic, bloquant l'évolution vers l'acutisation."
   },
-  "hemato-065": {
-    "A": "Vrai (Corrigé officiel : A). Leucocytose majeure souvent comprise entre 50 000 et 300 000/mm³.",
-    "B": "Vrai (Corrigé officiel : B). L'association éosinophilie + basophilie constante est hautement évocatrice d'un syndrome myéloprolifératif.",
-    "C": "Vrai (Corrigé officiel : C). Myélémie étagée avec présence de métamyélocytes et myélocytes prédominants.",
-    "D": "Vrai (Corrigé officiel : D). Marqueur cytogénétique et moléculaire obligatoire définissant la maladie.",
-    "E": "Faux. Blastes >= 20 % = crise blastique (phase aiguë).",
-    "_synthese": "Biologie de la LMC : Hyperleucocytose majeure (A), basophilie/éosinophilie (B), myélémie > 20 % (C) et translocation t(9;22) / BCR-ABL (D).",
-    "_remarque": "Score des phosphatases alcalines leucocytaires (PAL) bas ou nul en phase chronique."
-  },
   "hemato-066": {
     "A": "Vrai (Corrigé officiel : A). Conséquence directe de l'anémie normochrome normocytaire arégénérative.",
     "B": "Vrai (Corrigé officiel : B). Urgence infectieuse liée à l'agranulocytose blastique.",
@@ -680,15 +670,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "_synthese": "Facteur discriminant absolu : Facteur V (proaccélérine C) abaissé dans l'insuffisance hépatique et normal sous AVK.",
     "_remarque": "Valeur pronostique : un facteur V < 50 % (ou < 20 %) est un critère de gravité majeur d'hépatite fulminante (critères de Clichy)."
   },
-  "hemato-076": {
-    "A": "Vrai (Corrigé officiel : A). Déterminant pronostique majeur dans toutes les tumeurs solides.",
-    "B": "Vrai (Corrigé officiel : B). Guide les indications chirurgicales, radiothérapiques et systémiques.",
-    "C": "Faux. Le diagnostic est histologique (biopsie).",
-    "D": "Faux. Ne joue aucun rôle dans le dépistage de population.",
-    "E": "Vrai (Corrigé officiel : E). Permet un langage universel et reproductible entre centres anticancéreux.",
-    "_synthese": "Intérêts du TNM : Pronostic (A), Stratégie thérapeutique universelle (B), Échanges d'informations (E).",
-    "_remarque": "TNM : T = Tumeur primitive, N = Ganglions régionaux, M = Métastases à distance."
-  },
   "hemato-077": {
     "A": "Vrai (Corrigé officiel : A). Altération génétique élémentaire de la phase d'initiation.",
     "B": "Faux. L'angiogenèse (sécrétion de VEGF) survient lors de la phase tardive de progression.",
@@ -697,15 +678,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "E": "Vrai (Corrigé officiel : E). Formation d'adduits à l'ADN et pontages inter-brins lors de l'attaque chimique directe.",
     "_synthese": "Initiation de la cancérogenèse : Lésions directes de l'ADN = Mutations ponctuelles (A), Délétions (C), Pontages covalents (E). Promotion = Prolifération clonale ; Progression = Angiogenèse et métastases.",
     "_remarque": "L'étape d'initiation est irréversible, mais une cellule initiée ne devient pas tumorale sans promoteurs."
-  },
-  "hemato-078": {
-    "A": "Vrai (Corrigé officiel : A). Échelle OMS grade 0 = normal.",
-    "B": "Vrai (Corrigé officiel : B). Échelle OMS grade 1 = restriction des efforts intenses.",
-    "C": "Faux. OMS 2 est autonome pour les gestes de la vie quotidienne mais incapable de travailler.",
-    "D": "Faux. Le seuil est de plus de 50 % (et non 70 %).",
-    "E": "Vrai (Corrigé officiel : E). Échelle OMS grade 4 = grabataire dépendant.",
-    "_synthese": "Échelle OMS de Performance Status : 0 = normal (A) ; 1 = activité légère (B) ; 2 = alité < 50% sans travail ; 3 = alité > 50% ; 4 = grabataire complet (E).",
-    "_remarque": "Indice équivalent : Échelle de Karnofsky (de 100 % à 0 %)."
   },
   "hemato-079": {
     "A": "Vrai (Corrigé officiel : A). Oncoprotéines virales E6 (inactivation de p53) et E7 (inactivation de Rb).",
@@ -716,24 +688,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "_synthese": "Virus oncogènes majeurs : HPV (A, col utérin/ORL), HBV (C, foie) et EBV (D, cavum/lymphomes). S'y ajoutent VHC, HTLV-1 et HHV-8.",
     "_remarque": "La vaccination contre l'hépatite B et contre le HPV représente la prévention primaire la plus efficace contre ces cancers."
   },
-  "hemato-080": {
-    "A": "Vrai (Corrigé officiel : A). Prototype absolu de tumeur primitive ostéophile.",
-    "B": "Vrai (Corrigé officiel : B). Métastases lytiques fréquentes révélatrices de cancer bronchopulmonaire.",
-    "C": "Faux. Tropisme péritonéal prédominant (carcinose péritonéale).",
-    "D": "Faux. Tropisme portal hépatique (veine porte).",
-    "E": "Faux. Extension locorégionale et ganglionnaire pelvienne.",
-    "_synthese": "Cancers ostéophiles : Prostate (A), Poumon (B), Sein, Rein, Thyroïde.",
-    "_remarque": "Complications majeures des métastases osseuses : compression médullaire épidurale (urgence chirurgicale), fractures pathologiques et hypercalcémie."
-  },
-  "hemato-081": {
-    "A": "Vrai (Corrigé officiel : A). Mesure directe des taux d'incidence cumulée.",
-    "B": "Vrai (Corrigé officiel : B). Un facteur de risque unique permet d'explorer de multiples critères de jugement morbides.",
-    "C": "Vrai (Corrigé officiel : C). Qualité maximale des données sans biais rétrospectif de mémorisation.",
-    "D": "Faux. Très coûteuse et nécessitant un suivi prolongé sur plusieurs années.",
-    "E": "Faux. L'OR caractérise les études cas-témoins.",
-    "_synthese": "Avantages de la cohorte prospective : Mesure directe du risque (A), évaluation de plusieurs maladies (B), fiabilité des données (C).",
-    "_remarque": "Niveau de preuve scientifique : Cohorte prospective > Étude cas-témoins > Étude transversale."
-  },
   "hemato-082": {
     "A": "Faux. L'efficacité thérapeutique est évaluée par les essais cliniques analytiques et non descriptifs.",
     "B": "Vrai (Corrigé officiel : B). Indicateur descriptif fondamental de la dynamique de survenue des cas.",
@@ -742,15 +696,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "E": "Vrai (Corrigé officiel : E). Courbes de survie populationnelle (taux de survie à 5 ans).",
     "_synthese": "Indicateurs d'épidémiologie descriptive en cancérologie : Incidence (B), Prévalence (C), Mortalité (D) et Survie (E).",
     "_remarque": "L'incidence est mesurée par les registres du cancer ; la mortalité est enregistrée par l'état civil / CépiDc."
-  },
-  "hemato-083": {
-    "A": "Vrai (Corrigé officiel : A). Fardeau de santé publique justifiant l'intervention de masse.",
-    "B": "Faux. Le dépistage vise obligatoirement une détection précoce pour guérir la maladie.",
-    "C": "Vrai (Corrigé officiel : C). Gravité clinique et sociétale importante.",
-    "D": "Vrai (Corrigé officiel : D). Longue phase asymptomatique détectable (ex. polype adénomateux du côlon).",
-    "E": "Vrai (Corrigé officiel : E). Le traitement précoce doit améliorer la survie globale.",
-    "_synthese": "Conditions du dépistage de masse de l'OMS : Maladie fréquente (A), grave (C), avec phase asymptomatique longue (D) et traitement efficace améliorant la survie (E).",
-    "_remarque": "Le dépistage de masse doit également bénéficier d'un test performant, non invasif et à coût acceptable."
   },
   "hemato-084": {
     "A": "Vrai (Corrigé officiel : A). Élaboré sur la base de la décision collégiale prise en RCP.",
@@ -914,15 +859,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "_synthese": "Urgence devant syndrome hémorragique = Hémogramme (numération plaquettaire) + Bilan d'hémostase (TP, TCA, Fg) (C).",
     "_remarque": "La numération plaquettaire sur tube citraté élimine une fausse thrombopénie à l'EDTA."
   },
-  "hemato-102": {
-    "A": "Faux. Le purpura pétéchial cutané isolé est banal et ne traduit pas à lui seul une urgence vitale.",
-    "B": "Faux. Les ecchymoses sous-cutanées n'engagent pas le pronostic vital.",
-    "C": "Vrai (Corrigé officiel : CE). Les bulles hémorragiques intrabuccales témoignent d'une effraction muqueuse sévère à haut risque de saignement laryngé ou digestif.",
-    "D": "Faux. L'épistaxis bilatérale est une atteinte muqueuse fréquente mais non classée comme critère cardinal de menace vitale.",
-    "E": "Vrai (Corrigé officiel : CE). L'hémorragie au fond d'œil est l'équivalent direct du risque d'hémorragie intracrânienne fatale.",
-    "_synthese": "Signes de gravité majeure du PTI : Bulles hémorragiques endobuccales (C) et hémorragies rétiniennes au FO (E).",
-    "_remarque": "La présence de ces signes de gravité impose une prise en charge en réanimation avec immunoglobulines polyvalentes IV (IgIV) et corticoïdes à forte dose."
-  },
   "hemato-103": {
     "A": "Vrai (Corrigé officiel : AC). Hémophilie A congénitale (taux de FVIII à 10%, correspondant à une forme modérée).",
     "B": "Faux. TP normal à 100%, fibrinogène normal à 4 g/L, plaquettes normales : la CIVD est formellement éliminée.",
@@ -1049,60 +985,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "_synthese": "Diagnostic en oncologie = Interrogatoire (A) + Examen clinique complet (B) + Preuve histopathologique par biopsie (E).",
     "_remarque": "'Pas de traitement anticancéreux sans preuve histologique formelle' est la règle d'or de l'oncologie médicale."
   },
-  "hemato-117": {
-    "A": "Vrai (Corrigé officiel : ABE). OMS 0 = Asymptomatique, capable de mener sans restriction toute activité normale.",
-    "B": "Vrai (Corrigé officiel : ABE). OMS 1 = Symptomatique mais ambulant, capable de travaux légers.",
-    "C": "Faux. OMS 2 = Patient entièrement autonome pour les soins personnels mais incapable de tout travail, alité < 50% du temps.",
-    "D": "Faux. Le seuil formel pour OMS 3 est alité ou au fauteuil plus de 50% des heures de veille (et non 70%).",
-    "E": "Vrai (Corrigé officiel : ABE). OMS 4 = Grabataire, totalement dépendant, confiné en permanence au lit ou au fauteuil.",
-    "_synthese": "Échelle OMS/ECOG : OMS 0 (normal, A), OMS 1 (travail léger, B), OMS 2 (alité < 50%), OMS 3 (alité > 50%), OMS 4 (grabataire, E).",
-    "_remarque": "L'évaluation du Performance Status (PS) conditionne l'éligibilité à une chimiothérapie anticancéreuse (généralement réservée au PS 0, 1 ou 2)."
-  },
-  "hemato-118": {
-    "A": "Vrai (Corrigé officiel : AB). Le cancer de la prostate est le prototype des tumeurs ostéophiles (métastases osseuses condensantes au squelette axial).",
-    "B": "Vrai (Corrigé officiel : AB). Le cancer bronchique primitif donne très fréquemment des métastases osseuses lytiques et douloureuses.",
-    "C": "Faux. Le cancer de l'ovaire diffuse essentiellement par contiguïté dans la cavité péritonéale.",
-    "D": "Faux. Le cancer colorectal métastase par la veine porte vers le foie et par les lymphatiques vers le péritoine.",
-    "E": "Faux. Métastases osseuses très exceptionnelles dans l'adénocarcinome de l'endomètre.",
-    "_synthese": "Cancers ostéophiles classiques = Prostate (A), Poumon (B), Sein, Rein, Thyroïde (PPRST).",
-    "_remarque": "Les métastases osseuses de la prostate sont typiquement ostéoblastiques/ostéocondensantes."
-  },
-  "hemato-119": {
-    "A": "Faux. L'efficacité d'un traitement nécessite un essai clinique contrôlé analytique/interventionnel, non descriptif.",
-    "B": "Vrai (Corrigé officiel : BCDE). Mesure le flux des nouveaux cas par an dans une population donnée.",
-    "C": "Vrai (Corrigé officiel : BCDE). Mesure le stock instantané des cas existants dans la population.",
-    "D": "Vrai (Corrigé officiel : BCDE). Indicateur descriptif évaluant l'impact fatal de la maladie dans la population.",
-    "E": "Vrai (Corrigé officiel : BCDE). La survie nette ou brute à 5 ans est un paramètre descriptif pronostique essentiel des registres des cancers.",
-    "_synthese": "Indicateurs d'épidémiologie descriptive du cancer = Incidence (B), Prévalence (C), Mortalité (D) et Survie (E).",
-    "_remarque": "L'incidence mesure le risque d'apparition d'un cancer ; la mortalité mesure le risque de décès."
-  },
-  "hemato-120": {
-    "A": "Vrai (Corrigé officiel : ACDE). Fréquence élevée justifiant l'investissement sanitaire et économique à l'échelle collective.",
-    "B": "Faux. Le dépistage vise impérativement la détection à un stade PRÉCOCE (lésion précancéreuse ou cancer in situ/localisé débutant), jamais tardif.",
-    "C": "Vrai (Corrigé officiel : ACDE). Gravité justifiant l'intérêt d'intervenir avant la phase symptomatique.",
-    "D": "Vrai (Corrigé officiel : ACDE). L'existence d'une fenêtre temporelle asymptomatique prolongée permet au test de dépister la lésion.",
-    "E": "Vrai (Corrigé officiel : ACDE). Principe éthique de base : ne dépister que si l'on dispose d'une arme thérapeutique curative efficace.",
-    "_synthese": "Critères de dépistage de masse : Problème de santé publique (A), morbi-mortalité sévère (C), phase asymptomatique longue (D), traitement précoce efficace (E).",
-    "_remarque": "Exemples types : Dépistage du cancer du sein (mammographie), du col utérin (frottis/test HPV), et colorectal (test immunologique fécal)."
-  },
-  "hemato-121": {
-    "A": "Faux. La pluridisciplinarité implique chirurgiens, anatomopathologistes, radiologues, oncologues et radiothérapeutes.",
-    "B": "Vrai (Corrigé officiel : BCD). Quorum multidisciplinaire indispensable garantissant une vision holistique et collégiale de la prise en charge.",
-    "C": "Vrai (Corrigé officiel : BCD). La fiche de RCP est un document médico-légal officiel daté et intégré dans le dossier médical.",
-    "D": "Vrai (Corrigé officiel : BCD). Elle valide la stratégie de traitement avant l'administration de la première cure ou de la chirurgie.",
-    "E": "Faux. TOUS les dossiers de patients atteints de cancer relèvent de la RCP, même les présentations standards.",
-    "_synthese": "RCP : Présence médicale multidisciplinaire minimale (B), traçabilité écrite obligatoire (C), tenue préalable à toute décision thérapeutique (D).",
-    "_remarque": "La décision collégiale de la RCP sert de socle à la rédaction du Programme Personnalisé de Soins (PPS)."
-  },
-  "hemato-122": {
-    "A": "Vrai (Corrigé officiel : ABE). La survie globale à 5 ans est directement corrélée au stade TNM.",
-    "B": "Vrai (Corrigé officiel : ABE). Permet d'appliquer les référentiels de traitement validés mondialement selon le stade.",
-    "C": "Faux. Seule l'analyse anatomopathologique (histologie) pose le diagnostic formel de cancer.",
-    "D": "Faux. Le dépistage est une démarche de santé publique antérieure au diagnostic et au staging TNM.",
-    "E": "Vrai (Corrigé officiel : ABE). Offre un lexique universel codifié facilitant la recherche clinique et la communication interprofessionnelle.",
-    "_synthese": "Classification TNM : Facteur pronostique capital (A), harmonisation des stratégies thérapeutiques (B), langage commun entre soignants (E).",
-    "_remarque": "On distingue le cTNM (clinique/imagerie pré-thérapeutique) du pTNM (pathologique post-opératoire après chirurgie)."
-  },
   "hemato-123": {
     "A": "Vrai (Corrigé officiel : AC). NFS, clairance rénale, bilan hépatique, ECG et échocardiographie sont obligatoires avant chaque cure.",
     "B": "Faux. Elle a une place prépondérante en situation palliative (contrôle tumoral, amélioration de la qualité de vie).",
@@ -1111,15 +993,6 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "E": "Faux. La chimiothérapie est un cytotoxique cellulaire général agissant sur la mitose, la thérapie ciblée inhibe une cible biologique sélective.",
     "_synthese": "Chimiothérapie : Bilan pré-thérapeutique obligatoire (A) + Administration par voie intraveineuse ou orale (C).",
     "_remarque": "L'administration par voie intraveineuse de drogues vésicantes impose l'utilisation d'une chambre à cathéter implantable (site implantable/port-à-cath)."
-  },
-  "hemato-124": {
-    "A": "Vrai (Corrigé officiel : ACD). Formalisé à l'issue de la réunion de concertation pluridisciplinaire.",
-    "B": "Faux. Le PPS est un document évolutif et dynamique, réajusté en fonction de la tolérance et de la réponse tumorale.",
-    "C": "Vrai (Corrigé officiel : ACD). Détaille les modalités de traitement (chirurgie, chimio, radiothérapie) et les intervenants.",
-    "D": "Vrai (Corrigé officiel : ACD). Sert d'outil de référence partagé pour planifier le calendrier des évaluations et surveillances.",
-    "E": "Faux. Le PPS est un droit fondamental pour CHAQUE patient atteint de cancer dans le cadre du Plan Cancer.",
-    "_synthese": "PPS : Dérivé de la RCP (A), décrivant le traitement et le circuit de soins (C), permettant le suivi évolutif de la maladie (D).",
-    "_remarque": "Le PPS est remis et commenté au patient au cours du temps d'annonce médicale."
   },
   "hemato-125": {
     "A": "Vrai (Corrigé officiel : AC). Interviennent dès le diagnostic initial et accompagnent le patient à toutes les étapes du parcours.",
@@ -1272,41 +1145,5 @@ Object.assign(window.JUSTIFICATIONS_HEMATO, {
     "D": "Vrai (Corrigé officiel : ACD). L'Échelle Numérique (EN de 0 à 10) est la méthode d'auto-évaluation verbale la plus simple et la plus employée au lit du malade.",
     "_synthese": "Échelles d'auto-évaluation de la douleur : EVA (A), EVS (C) et EN (D). Doloplus-2 et Algoplus sont des hétéro-évaluations (B).",
     "_remarque": "L'auto-évaluation prévaut toujours sur l'évaluation des soignants dès lors que le patient a ses capacités cognitives préservées."
-  },
-  "hemato-142": {
-    "A": "Vrai (Corrigé officiel : AB). Le cancer de la prostate est le prototype des tumeurs ostéophiles ostéoblastiques (condensation vertébrale et pelvienne).",
-    "B": "Vrai (Corrigé officiel : AB). Le cancer broncho-pulmonaire présente une ostéophilie élevée responsable de douleurs osseuses révélatrices et de fractures pathologiques.",
-    "C": "Faux. L'adénocarcinome de l'ovaire dissémine dans la séreuse péritonéale (ascite, carcinose).",
-    "D": "Faux. Le cancer colorectal diffuse principalement par la veine porte vers le parenchyme hépatique.",
-    "E": "Faux. L'adénocarcinome endométrial métastase aux ganglions pelviens et au péritoine, très rarement à l'os.",
-    "_synthese": "Cancers ostéophiles classiques : Prostate (A), Poumon (B), Sein, Rein, Thyroïde (moyen mnémotechnique PPRST).",
-    "_remarque": "Les métastases prostatiques sont ostéoblastiques/condensantes, celles du poumon et du rein sont volontiers ostéolytiques."
-  },
-  "hemato-143": {
-    "A": "Vrai (Corrigé officiel : ABE). Facteur pronostique primordial guidant la probabilité de récidive et de survie globale.",
-    "B": "Vrai (Corrigé officiel : ABE). Permet d'harmoniser les indications thérapeutiques standardisées selon le stade lésionnel.",
-    "C": "Faux. Le diagnostic formel de cancer relève exclusivement de la biopsie tissulaire anatomopathologique.",
-    "D": "Faux. Le dépistage est une stratégie de détection précoce en population générale, antérieure au staging TNM.",
-    "E": "Vrai (Corrigé officiel : ABE). Sert de référentiel universel partagé facilitant les études comparatives et les dossiers RCP.",
-    "_synthese": "Rôles de la classification TNM : Pronostic (A), harmonisation des traitements (B), communication universelle entre équipes (E).",
-    "_remarque": "cTNM = staging clinique/radiologique initial ; pTNM = staging pathologique anatomopathologique après chirurgie."
-  },
-  "hemato-144": {
-    "A": "Vrai (Corrigé officiel : ACDE). Objectif prioritaire : soulager les symptômes liés à la masse tumorale et maintenir l'autonomie.",
-    "B": "Faux. Par définition, un traitement palliatif ne vise pas la guérison (réservée à l'approche curative).",
-    "C": "Vrai (Corrigé officiel : ACDE). Cytoréduction et blocage de la dissémination métastatique secondaire.",
-    "D": "Vrai (Corrigé officiel : ACDE). Retarder la récidive ou l'échappement tumoral sous traitement.",
-    "E": "Vrai (Corrigé officiel : ACDE). De nombreuses chimiothérapies palliatives démontrent un gain significatif de survie globale en mois ou années.",
-    "_synthese": "Buts de la chimiothérapie palliative : Améliorer la qualité de vie (A), freiner les métastases (C), allonger la survie sans progression (D) et la survie globale (E).",
-    "_remarque": "Le ratio bénéfice/toxicité doit être constamment évalué pour que le traitement ne dégrade pas la qualité de vie qu'il cherche à préserver."
-  },
-  "hemato-145": {
-    "A": "Faux. Le TNM est un outil de stadification de l'extension après que le diagnostic a été posé.",
-    "B": "Vrai (Corrigé officiel : BCD). Premier volet du trépied sénologique (inspection et palpation bilatérale et comparative).",
-    "C": "Vrai (Corrigé officiel : BCD). L'examen anatomopathologique de la biopsie est la seule preuve formelle indispensable de certitude.",
-    "D": "Vrai (Corrigé officiel : BCD). Deuxième volet du trépied : imagerie de référence détectant opacités stellaires et microcalcifications ACR.",
-    "E": "Faux. Aucun bilan sanguin ne permet d'affirmer un cancer du sein (les marqueurs tumoraux type CA 15-3 ne sont pas diagnostiques).",
-    "_synthese": "Trépied diagnostique du cancer du sein = Examen clinique (B) + Mammographie/imagerie (D) + Biopsie avec anatomopathologie (C).",
-    "_remarque": "Aucun traitement définitif (chirurgie carcinologique, chimio néoadjuvante) ne peut débuter sans la preuve anatomopathologique biopsique."
   }
-});
+};

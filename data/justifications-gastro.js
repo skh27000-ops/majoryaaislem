@@ -3,8 +3,7 @@
 // Faculté de Médecine de Mostaganem - Évaluation officielle
 // 30 Cours - 184 QCMs analysés choix par choix (A-E)
 // ==============================================================================
-window.JUSTIFICATIONS_GASTRO = window.JUSTIFICATIONS_GASTRO || {};
-Object.assign(window.JUSTIFICATIONS_GASTRO, {
+window.JUSTIFICATIONS_GASTRO = {
   "gastro-001": {
     "A": "Faux. Ne jamais faire boire ni tenter de neutraliser (risque d'aggravation thermique et de fausse route).",
     "B": "Faux. Les dilatations endoscopiques sont curatives sur sténose cicatricielle constituée, jamais préventives en phase aiguë.",
@@ -1661,4 +1660,4 @@ Object.assign(window.JUSTIFICATIONS_GASTRO, {
     "_synthese": "Scores à connaître par cœur : Sydney = Gastrites ; Forrest = Ulcères hémorragiques ; Truelove & Witts / Lichtiger = RCH et colite aiguë grave ; Rome IV = Pathologies fonctionnelles digestives ; Child-Pugh = Cirrhose.",
     "_remarque": "Forrest I (saignement actif jet/nappe), Forrest II (vaisseau visible ou caillot), Forrest III (fond propre sans saignement)."
   }
-});
+};

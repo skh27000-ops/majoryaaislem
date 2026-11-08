@@ -368,33 +368,6 @@ window.JUSTIFICATIONS_PSY = {
     "_synthese": "La schizophrénie est une affection psychiatrique dont le diagnostic est strictement clinique, fondé sur la présence durable du trépied : syndrome positif (délire, hallucinations), syndrome négatif (déficit, retrait) et syndrome de désorganisation (dissociation).",
     "_remarque": "Les examens complémentaires (biologie, toxiques urinaires, IRM cérébrale) sont indispensables lors de l'épisode inaugural pour exclure formellement une cause organique."
   },
-  "psy-042": {
-    "A": "Faux. Dans les deux cas, le phénomène se traduit par une perception vécue par le patient.",
-    "B": "Faux. La réalité de l'objet est présente dans l'illusion, absente dans l'hallucination.",
-    "C": "Vrai (Corrigé officiel : C). L'illusion est la perception fausse d'un stimulus réel externe, tandis que l'hallucination survient en l'absence de tout objet externe à percevoir.",
-    "D": "Faux (ou vrai au sens de Ball, mais la clé officielle de cette question spécifique à Mostaganem valide C : 'absence de perception de l'objet' formulée dans l'esprit de l'absence de stimulus objectivable).",
-    "E": "Faux. La diplopie ou double perception est un trouble ophtalmologique ou neurologique, non un critère de définition psychiatrique.",
-    "_synthese": "L'illusion est une altération perceptive d'un objet réel existant ; l'hallucination est définie par Ball comme « une perception sans objet à percevoir ».",
-    "_remarque": "L'illusion est facilement rectifiée par la confrontation à la réalité et le raisonnement, contrairement à l'hallucination à laquelle le patient adhère fermement."
-  },
-  "psy-043": {
-    "A": "Faux. Le suivi ambulatoire est toujours le mode de prise en charge privilégié en première intention.",
-    "B": "Faux. Un délire chronique stabilisé sous traitement ambulatoire ne justifie aucunement une hospitalisation.",
-    "C": "Vrai (Corrigé officiel : C, E). Les troubles majeurs du comportement avec risque de mise en danger ou rupture d'autonomie justifient l'hospitalisation.",
-    "D": "Faux. Les troubles cognitifs relèvent de la remédiation cognitive ambulatoire et non d'une hospitalisation psychiatrique en urgence.",
-    "E": "Vrai (Corrigé officiel : C, E). La survenue ou le risque imminent de tentative de suicide constitue une indication formelle et vitale d'hospitalisation.",
-    "_synthese": "Indications de l'hospitalisation psychiatrique dans la schizophrénie : mise en danger d'autrui par troubles du comportement, passage à l'acte suicidaire, crise d'angoisse psychotique décompensée et refus alimentaire sévère.",
-    "_remarque": "La décision d'hospitaliser sans consentement intervient dès lors que l'état mental rend impossible le consentement et impose des soins immédiats assortis d'une surveillance médicale constante."
-  },
-  "psy-044": {
-    "A": "Faux. Les troubles visuels ne sont pas constitutifs de la sémiologie catatonique.",
-    "B": "Faux. Les troubles de l'équilibre évoquent une pathologie neurologique cérébelleuse ou labyrinthique.",
-    "C": "Vrai (Corrigé officiel : C, E). Le maintien des postures imposées (catalepsie, signe de l'oreiller psychique) est caractéristique du syndrome catatonique.",
-    "D": "Faux. La catalepsie est au contraire l'un des signes moteurs prédominants.",
-    "E": "Vrai (Corrigé officiel : C, E). Les attitudes en miroir (échopraxie, écholalie) traduisent le syndrome de passivité motrice catatonique.",
-    "_synthese": "Schizophrénie catatonique : forme rare dominée par le syndrome psychomoteur catatonique (négativisme avec mutisme, catalepsie et stéréotypies/échomimies).",
-    "_remarque": "L'électroconvulsivothérapie (ECT) est particulièrement efficace et constitue le traitement de référence de la catatonie réfractaire aux benzodiazépines."
-  },
   "psy-045": {
     "A": "Vrai (Corrigé officiel : A, C). L'olanzapine est un antipsychotique de seconde génération (atypique) antagoniste 5HT2A / D2.",
     "B": "Faux. Elle appartient à la classe des thiénobenzodiazépines, non des butyrophénones.",
@@ -421,24 +394,6 @@ window.JUSTIFICATIONS_PSY = {
     "E": "Vrai (Corrigé officiel : B, D, E). Le délire de relation des sensitifs de Kretschmer est une forme paranoïaque survenant chez des personnalités scrupuleuses et vulnérables.",
     "_synthese": "Délires paranoïaques chroniques : délire d'interprétation de Sérieux et Capgras, délires passionnels de Clérambault et délire de relation des sensitifs de Kretschmer.",
     "_remarque": "Le mécanisme interprétatif est prédominant : attribution d'un sens erroné à une perception réelle."
-  },
-  "psy-048": {
-    "A": "Vrai (Corrigé officiel : A, C). La conservation d'érections matinales et nocturnes réflexes confirme l'intégrité vasculaire et nerveuse, signant l'origine psychologique.",
-    "B": "Faux. L'incapacité de maintien peut être présente dans les étiologies organiques (fuite veineuse).",
-    "C": "Vrai (Corrigé officiel : A, C). La sélectivité situationnelle (érections normales en masturbation ou avec une autre partenaire) est l'argument formel en faveur d'un blocage psychogène relationnel.",
-    "D": "Faux (bien que le caractère intermittent oriente, la clé officielle Mostaganem valide A et C comme arguments phares pathognomoniques).",
-    "E": "Faux. La baisse de rigidité permanente est le mode de révélation typique des troubles organiques microvasculaires.",
-    "_synthese": "Dysfonction érectile psychogène : début brutal, conservation des érections matinales/nocturnes, sélectivité selon les circonstances et forte anxiété de performance.",
-    "_remarque": "La sexothérapie et les inhibiteurs de la phosphodiestérase 5 (IPDE-5) sont particulièrement efficaces pour briser le cercle vicieux de l'anxiété de performance."
-  },
-  "psy-049": {
-    "A": "Vrai (Corrigé officiel : A, D). Les antipsychotiques atténuent la charge émotionnelle associée au délire et réduisent l'adhésion inébranlable aux idées délirantes.",
-    "B": "Faux. Les antipsychotiques diminuent l'agressivité et la tension persécutive du patient.",
-    "C": "Faux. Les antipsychotiques ne sont pas prescrits pour une action antidépressive propre dans ce cadre.",
-    "D": "Vrai (Corrigé officiel : A, D). Ils exercent une action anxiolytique et sédative majeure diminuant l'état d'alerte et la méfiance défensive.",
-    "E": "Faux. Ils calment au contraire l'angoisse psychotique.",
-    "_synthese": "Les antipsychotiques dans les délires persistants diminuent l'angoisse psychotique, tempèrent la conviction délirante et préviennent les passages à l'acte hétéro-agressifs.",
-    "_remarque": "Le choix d'un antipsychotique de 2e génération (ex. rispéridone, aripiprazole) privilégie la tolérance motrice pour favoriser l'observance thérapeutique."
   },
   "psy-050": {
     "A": "Faux. Le délire est bien une anomalie du contenu de la pensée, mais l'option C est la proposition retenue comme la plus discriminante dans ce sujet.",
@@ -1124,15 +1079,6 @@ window.JUSTIFICATIONS_PSY = {
     "_synthese": "Diagnostics étiologiques d'un état d'agitation aiguë : causes somatiques et métaboliques (hypoglycémie, encéphalopathie, hypoxie), causes toxiques (alcool, drogues stimulantes), et causes psychiatriques (manie, bouffée délirante).",
     "_remarque": "Règle d'or absolue devant tout patient agité : mesurer immédiatement la glycémie capillaire avant toute injection sédative."
   },
-  "psy-126": {
-    "A": "Vrai (Corrigé officiel : A, B, D). L'intoxication alcoolique aiguë désinhibitrice est une étiologie toxique fréquente d'agitation aux urgences.",
-    "B": "Vrai (Corrigé officiel : A, B, D). La manie aiguë entraîne une hyperactivité motrice désordonnée avec logorrhée et agressivité.",
-    "C": "Faux. Une forme stabilisée est calme et ne consulte pas pour agitation.",
-    "D": "Vrai (Corrigé officiel : A, B, D). L'hypoglycémie est une urgence métabolique à éliminer par glycémie au doigt.",
-    "E": "Faux. La maladie d'Alzheimer débutante n'est pas une cause d'agitation aiguë inaugurale.",
-    "_synthese": "L'agitation aiguë est un symptôme transnosographique relevant d'étiologies toxiques (ivresse), métaboliques (hypoglycémie) ou psychiatriques décompensées (accès maniaque).",
-    "_remarque": "L'interrogatoire des accompagnants et l'examen des pupilles (mydriase des stimulants, myosis des opiacés) orientent rapidement le diagnostic toxique."
-  },
   "psy-127": {
     "A": "Faux (signification reconnue). Le geste suicidaire peut constituer un appel au secours désespéré pour briser une situation intolérable.",
     "B": "Faux (signification reconnue). Il est l'issue fatale tragique de la douleur morale inextinguible de la dépression majeure.",
@@ -1177,15 +1123,6 @@ window.JUSTIFICATIONS_PSY = {
     "E": "Vrai (Corrigé officiel : B, C, E). La cocaïne, psychostimulant dopaminergique puissant, favorise une excitation psychomotrice avec hypersexualité.",
     "_synthese": "Causes d'hypersexualité : accès maniaque, drogues stimulantes (cocaïne, amphétamines), agonistes de la dopamine (Parkinson) et lésions cérébrales fronto-temporales.",
     "_remarque": "L'hypersexualité induite par les agonistes dopaminergiques dans la maladie de Parkinson s'associe souvent à d'autres troubles des impulsions (jeu pathologique, achats compulsifs)."
-  },
-  "psy-132": {
-    "A": "Faux. La paraphilie n'entraîne aucune altération du discernement ni perte de contact avec la réalité ; elle ne confère pas l'irresponsabilité pénale.",
-    "B": "Vrai (Corrigé officiel : B, C, D). L'auteur d'agression pédophile conserve l'intégrité de ses facultés de jugement, de discernement et la conscience de la transgression de la loi.",
-    "C": "Vrai (Corrigé officiel : B, C, D). Selon l'article 47 du code pénal, l'absence de démence ou d'abolition du discernement au moment des faits établit sa pleine responsabilité pénale.",
-    "D": "Vrai (Corrigé officiel : B, C, D). Il relève d'une condamnation pénale criminelle par la justice avec incarcération pénitentiaire.",
-    "E": "Faux. L'internement judiciaire psychiatrique n'est réservé qu'aux prévenus déclarés pénalement irresponsables par abolition psychiatrique de leur discernement.",
-    "_synthese": "Psychiatrie légale : les agressions sexuelles sur mineurs perpétrées par un sujet pédophile relèvent de la pleine responsabilité pénale de l'auteur. Le discernement n'étant pas aboli, la peine carcérale est de rigueur.",
-    "_remarque": "Une injonction ou obligation de soins psychiatriques socio-judiciaire peut accompagner la peine pénale."
   },
   "psy-133": {
     "A": "Vrai (Corrigé officiel : A, D). L'épisode maniaque avec anosognosie et mise en danger justifie une hospitalisation sous contrainte malgré le refus du patient.",
@@ -1304,15 +1241,6 @@ window.JUSTIFICATIONS_PSY = {
     "_synthese": "Idées délirantes de grandeur (mégalomanie) : croyance inébranlable en une supériorité physique, intellectuelle, sociale ou spirituelle extraordinaire, typiques de l'accès maniaque expansif et des paraphrénies.",
     "_remarque": "L'anosognosie et le sentiment de toute-puissance peuvent conduire le patient à des dépenses ruineuses ou des actes imprudents majeurs."
   },
-  "psy-146": {
-    "A": "Faux (vrai diagnostic différentiel). La psychose puerpérale du post-partum doit être éliminée devant un premier épisode aigu chez la femme accouchée.",
-    "B": "Vrai (diagnostic différentiel FAUX / retenu comme l'exception : Corrigé officiel B). Le trouble obsessionnel compulsif (TOC) est un trouble névrotique où le sujet reconnaît l'absurdité de ses obsessions avec angoisse et lutte, sans perte de contact avec la réalité ni dissociation.",
-    "C": "Faux (vrai diagnostic différentiel). Un accès maniaque ou dépressif avec caractéristiques psychotiques doit être formellement discuté.",
-    "D": "Faux (vrai diagnostic différentiel). Le trouble psychotique bref (< 1 mois) doit être différencié d'une entrée schizophrénique (> 6 mois).",
-    "E": "Faux (vrai diagnostic différentiel). Le trouble délirant persistant paranoïaque (sans dissociation) est un diagnostic différentiel classique.",
-    "_synthese": "Diagnostics différentiels de la schizophrénie : psychoses toxiques, affections neurologiques (encéphalites), troubles de l'humeur avec psychose, troubles délirants et troubles psychotiques brefs.",
-    "_remarque": "Dans le TOC, les obsessions sont égodystoniques (ressenties comme contraires à la volonté du sujet), contrairement au délire schizophrénique qui est égosyntonique avec adhésion totale."
-  },
   "psy-147": {
     "A": "Faux. Le trouble délirant persistant paranoïaque est typiquement monothématique (persécution, jalousie, érotomanie) et non polythématique.",
     "B": "Vrai (Corrigé officiel : B, E). Le trouble délirant débute classiquement tardivement chez l'adulte d'âge mûr, généralement après 35-40 ans.",
@@ -1421,33 +1349,6 @@ window.JUSTIFICATIONS_PSY = {
     "_synthese": "Syndrome sérotoninergique : urgence toxique liée à un excès de sérotonine centrale, provoquée par l'association de molécules sérotoninergiques (ISRS, IRSNA, tricycliques, IMAO, tramadol, ecstasy). Triade : troubles neuromusculaires (myoclonies, hyperréflexie), dysautonomie (hyperthermie, tachycardie) et confusion.",
     "_remarque": "Le respect d'une fenêtre thérapeutique de 15 jours (et 5 semaines pour la fluoxétine) est impératif lors d'un relais entre un ISRS et un IMAO."
   },
-  "psy-159": {
-    "A": "Vrai (Corrigé officiel : A, C, E). L'hyperthermie nue inexpliquée (souvent > 39 °C) est le premier critère cardinal du syndrome malin des neuroleptiques.",
-    "B": "Faux. La labilité tensionnelle est un signe de dysautonomie d'accompagnement, non un critère majeur initial.",
-    "C": "Vrai (Corrigé officiel : A, C, E). La rigidité musculaire plastique en tuyau de plomb est le critère moteur majeur.",
-    "D": "Faux. L'insuffisance rénale aiguë est une complication secondaire à la nécrose musculaire, non un critère diagnostique précoce.",
-    "E": "Vrai (Corrigé officiel : A, C, E). L'élévation massive des CPK (> 1000 UI/L) témoigne de la rhabdomyolyse aiguë et constitue le critère biologique majeur.",
-    "_synthese": "Syndrome malin des neuroleptiques (SMN) : trépied majeur associant hyperthermie inexpliquée, rigidité musculaire sévère généralisée et élévation marquée des enzymes musculaires CPK.",
-    "_remarque": "L'arrêt immédiat de tous les antipsychotiques et le transfert en réanimation avec réhydratation hydro-électrolytique et dantrolène sont indispensables pour la survie."
-  },
-  "psy-160": {
-    "A": "Vrai (Corrigé officiel : A, B, C, E). La peur d'être observé, jugé défavorablement, ridiculisé ou humilié en public est la crainte centrale de la phobie sociale.",
-    "B": "Vrai (Corrigé officiel : A, B, C, E). L'évitement actif des situations d'exposition à autrui (repas en public, réunions) est systématique.",
-    "C": "Vrai (Corrigé officiel : A, B, C, E). Les difficultés d'affirmation de soi et d'expression des droits personnels sont constantes.",
-    "D": "Faux. La phobie sociale ne repose sur aucun délire de persécution ; le sujet est pleinement lucide sur l'absence d'intention malveillante d'autrui.",
-    "E": "Vrai (Corrigé officiel : A, B, C, E). Le sujet reconnaît sans ambiguïté le caractère excessif et irrationnel de sa timidité et de ses peurs sociales.",
-    "_synthese": "Phobie sociale (anxiété sociale) : peur excessive et angoissante du jugement d'autrui dans les situations d'exposition relationnelle, reconnue irrationnelle, conduisant à des conduites d'évitement invalidantes.",
-    "_remarque": "Les antidépresseurs ISRS combinés aux TCC d'exposition en groupe constituent le traitement de référence."
-  },
-  "psy-161": {
-    "A": "Vrai (Corrigé officiel : A, C). La survenue paroxystique et inattendue d'attaques de panique spontanées est le premier critère spécifique.",
-    "B": "Faux. La peur de quitter la zone de sécurité est typique de l'agoraphobie.",
-    "C": "Vrai (Corrigé officiel : A, C). L'anxiété anticipatoire (crainte permanente et obsédante de voir réapparaître une nouvelle attaque de panique) est le second pilier diagnostique spécifique.",
-    "D": "Faux. La crainte du futur incertain caractérise le TAG.",
-    "E": "Faux. L'appréhension pour les proches relève du trouble d'anxiété généralisée.",
-    "_synthese": "Trouble panique : défini par la répétition d'attaques de panique spontanées et inattendues, associées à une anxiété anticipatoire persistante (« peur de la peur ») d'au moins 1 mois.",
-    "_remarque": "L'attaque de panique atteint son acmé en moins de 10 minutes, associant des signes neurovégétatifs intenses et la peur imminente de mourir ou de devenir fou."
-  },
   "psy-162": {
     "A": "Faux. L'effet placebo ne suffit pas à traiter durablement un trouble panique invalidant.",
     "B": "Vrai (Corrigé officiel : B, D). Un traitement de fond par antidépresseur (ISRS : sertraline, paroxétine, escitalopram) est le traitement pharmacologique de référence réduisant la fréquence des attaques.",
@@ -1519,51 +1420,6 @@ window.JUSTIFICATIONS_PSY = {
     "E": "Vrai (Corrigé officiel : B, C, E). La présence d'un entourage solide, bienveillant et soutenant constitue un facteur de protection fondamental.",
     "_synthese": "Évaluation du risque suicidaire : interrogatoire direct et empathique, évaluation du Risque, de l'Urgence et de la Dangerosité (RUD), recherche d'un scénario élaboré et renforcement des facteurs protecteurs familiaux.",
     "_remarque": "Une baisse brutale de l'angoisse chez un mélancolique peut signer le soulagement d'avoir pris la décision irréversible d'en finir : vigilance maximale requise."
-  },
-  "psy-170": {
-    "A": "Vrai (Corrigé officiel : A, C, D, E). L'humeur dépressive avec tristesse profonde et vision pessimiste de l'avenir durant plus de 15 jours consécutifs est le critère cardinal.",
-    "B": "Faux. L'excitation psychomotrice caractérise l'accès maniaque et est en opposition totale avec le ralentissement dépressif.",
-    "C": "Vrai (Corrigé officiel : A, C, D, E). Le pessimisme pathologique, la dévalorisation de soi et le sentiment de culpabilité (triade de Beck) sont au cœur des cognitions dépressives.",
-    "D": "Vrai (Corrigé officiel : A, C, D, E). Le ralentissement psychique (bradypsychie) et moteur (bradykinésie, asthénie) signe l'atteinte somatique et motrice.",
-    "E": "Vrai (Corrigé officiel : A, C, D, E). Le risque suicidaire est la complication majeure engageant le pronostic vital dans la dépression caractérisée.",
-    "_synthese": "Épisode dépressif caractérisé (EDC) : tristesse pathologique durable (> 15 jours), anhédonie, ralentissement psychomoteur, culpabilité, perturbations instinctuelles et risque suicidaire.",
-    "_remarque": "L'anhédonie (perte de la capacité à éprouver du plaisir) est le marqueur le plus spécifique du noyau mélancolique."
-  },
-  "psy-171": {
-    "A": "Vrai (Corrigé officiel : A, B, C, D, E). Un épisode dépressif peut inaugurer ou ponctuer un trouble bipolaire (dépression bipolaire).",
-    "B": "Vrai (Corrigé officiel : A, B, C, D, E). Le trouble schizo-affectif associe un syndrome dépressif à des symptômes psychotiques dissociatifs.",
-    "C": "Vrai (Corrigé officiel : A, B, C, D, E). Le deuil pathologique prolongé doit être distingué d'un épisode dépressif majeur caractérisé.",
-    "D": "Vrai (Corrigé officiel : A, B, C, D, E). Une période de tristesse réactionnelle banale face aux difficultés de la vie ne présente pas la rupture fonctionnelle de la dépression.",
-    "E": "Vrai (Corrigé officiel : A, B, C, D, E). Toutes ces entités constituent les diagnostics différentiels majeurs d'un trouble dépressif.",
-    "_synthese": "Diagnostics différentiels de la dépression : tristesse réactionnelle non morbide, deuil normal et pathologique, trouble de l'adaptation, dépression bipolaire et pathologies organiques dépressiogènes (hypothyroïdie).",
-    "_remarque": "La distinction entre dépression unipolaire et bipolaire est capitale : prescrire un antidépresseur seul chez un bipolaire expose au risque de virage maniaque."
-  },
-  "psy-172": {
-    "A": "Vrai (Corrigé officiel : A, B, C, D, E). La survenue d'un seul épisode maniaque caractérisé suffit à poser le diagnostic de trouble bipolaire de type 1 selon le DSM-5.",
-    "B": "Vrai (Corrigé officiel : A, B, C, D, E). Un antidépresseur prescrit sans couverture thymorégulatrice peut induire un virage maniaque iatrogène.",
-    "C": "Vrai (Corrigé officiel : A, B, C, D, E). L'accès maniaque classique associe euphorie expansive, exaltation et excitation psychomotrice désordonnée.",
-    "D": "Vrai (Corrigé officiel : A, B, C, D, E). La manie est la composante haute des troubles de l'humeur bipolaires.",
-    "E": "Vrai (Corrigé officiel : A, B, C, D, E). Toutes les propositions sont exactes.",
-    "_synthese": "L'accès maniaque est la manifestation cardinale du trouble bipolaire de type 1. Il peut être spontané ou consécutif à un virage de l'humeur sous antidépresseur, justifiant un traitement thymorégulateur systématique.",
-    "_remarque": "L'anosognosie quasi-constante en phase maniaque rend indispensable le recours aux soins sans consentement en cas de mise en danger."
-  },
-  "psy-173": {
-    "A": "Faux (affirmation vraie du cours, mais validée dans la clé fermée de Mostaganem A, B, C, E). Le trouble bipolaire se caractérise par l'alternance d'épisodes maniaques/dépressifs séparés d'intervalles libres.",
-    "B": "Faux (affirmation vraie du cours). L'intensité et la durée distinguent l'accès maniaque de l'hypomanie.",
-    "C": "Faux (affirmation vraie du cours). Le trouble bipolaire regroupe le type 1, le type 2 et la cyclothymie.",
-    "D": "Faux (affirmation fausse : la survenue d'accès dépressifs seuls définit la dépression unipolaire et non le type 1).",
-    "E": "Faux (affirmation vraie du cours). Le type 2 associe hypomanie et dépression majeure.",
-    "_synthese": "Spectre bipolaire : le trouble bipolaire de type 1 exige au moins un épisode maniaque avéré ; le type 2 associe épisodes dépressifs majeurs et épisodes hypomaniaques sans aucun épisode maniaque.",
-    "_remarque": "La dépression unipolaire récurrente n'évolue jamais vers la manie spontanée ; l'apparition d'un épisode maniaque reclasse immédiatement le trouble en trouble bipolaire."
-  },
-  "psy-174": {
-    "A": "Vrai (Corrigé officiel : A, C, D). L'exposition directe ou indirecte à un événement traumatique grave avec menace pour la vie ou l'intégrité physique est le critère A indispensable.",
-    "B": "Faux. Les symptômes dissociatifs ne sont pas obligatoires pour porter le diagnostic de TSPT (ils définissent un sous-type dissociatif).",
-    "C": "Vrai (Corrigé officiel : A, C, D). Les symptômes de reviviscence involontaire et intrusive (souvenirs répétitifs, flash-backs, cauchemars) sont indispensables (critère B).",
-    "D": "Vrai (Corrigé officiel : A, C, D). Les conduites d'évitement délibéré des stimuli rappelant le traumatisme sont un critère obligatoire (critère C).",
-    "E": "Faux. La durée des symptômes doit être supérieure à 1 MOIS (4 semaines) ; 2 semaines correspond à l'état de stress aigu.",
-    "_synthese": "Critères diagnostiques du TSPT : événement traumatique majeur, reviviscences intrusives, évitement phobique, altération de l'humeur et hyperactivation neurovégétative persistant plus de 30 jours.",
-    "_remarque": "L'apparition du TSPT peut être différée de plusieurs mois ou années après l'événement traumatique (TSPT à début différé)."
   },
   "psy-175": {
     "A": "Vrai (Corrigé officiel : A, B, C, D, E). Les antécédents de traumatismes ou de maltraitance dans l'enfance altèrent le développement cérébral et augmentent la vulnérabilité au stress.",
@@ -1672,15 +1528,6 @@ window.JUSTIFICATIONS_PSY = {
     "E": "Vrai (Corrigé officiel : B, E). La certitude persécutive ou passionnelle expose au risque de réactions agressives violentes dites « d'auto-défense » contre le persécuteur désigné.",
     "_synthese": "Trouble délirant persistant : début tardif vers 40-50 ans, absence de désorganisation, thématique systématisée et risque majeur de passage à l'acte hétéro-agressif par sentiment de menace.",
     "_remarque": "Le malade paranoïaque agresse rarement par méchanceté gratuite, mais toujours avec la conviction intime et sincère de se défendre contre un agresseur imaginaire."
-  },
-  "psy-187": {
-    "A": "Vrai (Corrigé officiel : A, C). Le trouble psychotique bref est un épisode psychotique aigu transitoire d'installation brutale.",
-    "B": "Faux. Il ne s'agit pas de la psychose maniaco-dépressive (trouble bipolaire).",
-    "C": "Vrai (Corrigé officiel : A, C). Il est fait d'un délire riche, polymorphe, multithématique et polymécanique envahissant la vie psychique.",
-    "D": "Faux (bien que ce soit une urgence clinique, la clé spécifique Mostaganem 2024 de ce QCM valide la combinaison A et C).",
-    "E": "Faux. Sa durée est obligatoirement inférieure à 1 mois selon le DSM-5.",
-    "_synthese": "Trouble psychotique bref : état psychotique aigu characterized by rich, polymorphous, and unstable delusions and hallucinations lasting less than 1 month with full return to premorbid functioning.",
-    "_remarque": "La labilité thymique (passant du rire aux larmes au cours du même entretien) est un élément sémiologique très classique de la BDA."
   },
   "psy-188": {
     "A": "Faux. Le TSPT n'est pas une modalité d'évolution d'un trouble psychotique.",
@@ -1835,24 +1682,6 @@ window.JUSTIFICATIONS_PSY = {
     "_synthese": "Agoraphobie : anxiété liée aux lieux d'où l'on craint de ne pas pouvoir s'échapper ou recevoir de secours en cas d'attaque de panique, conduisant à des évitements majeurs (transports, magasins, foules).",
     "_remarque": "L'exposition in vivo progressive en TCC est la méthode de choix pour réhabiliter le patient agoraphobe."
   },
-  "psy-205": {
-    "A": "Faux. Un sevrage simple chez un patient motivé et sans comorbidité se réalise en ambulatoire.",
-    "B": "Vrai (Corrigé officiel : B, C, D, E). Tout antécédent de delirium tremens ou de crise convulsive de sevrage impose une hospitalisation programmée.",
-    "C": "Vrai (Corrigé officiel : B, C, D, E). La demande et le soutien de la famille représentent un facteur d'accompagnement favorable pour l'indication hospitalière.",
-    "D": "Vrai (Corrigé officiel : B, C, D, E). La précarité sociale, l'isolement ou l'absence d'entourage sécurisant à domicile contre-indiquent le sevrage ambulatoire.",
-    "E": "Vrai (Corrigé officiel : B, C, D, E). Une cardiopathie décompensée ou autre comorbidité somatique sévère impose une surveillance hospitalière continue.",
-    "_synthese": "Indications du sevrage alcoolique en hospitalisation : antécédents d'accidents de sevrage (crises convulsives, DT), comorbidités somatiques ou psychiatriques graves, environnement familial précaire ou échec préalable en ambulatoire.",
-    "_remarque": "Le traitement hospitalier associe réhydratation, vitaminothérapie B1 à fortes doses et benzodiazépines sur 7 à 10 jours maximum."
-  },
-  "psy-206": {
-    "A": "Faux. Le delirium tremens complique le SEVRAGE (chute de l'alcoolémie) et non l'intoxication aiguë (ivresse).",
-    "B": "Faux. Le delirium tremens est POTENTIELLEMENT MORTEL (mortalité de 5 à 15 % en l'absence de soins intensifs).",
-    "C": "Vrai (Corrigé officiel : C, E). Le tremblement postural intense et bilatéral des extrémités et de la langue (tremblement saburral) est constant.",
-    "D": "Faux. Le facteur déterminant est la dépendance physique sévère et l'arrêt brutal, non la seule durée de consommation.",
-    "E": "Vrai (Corrigé officiel : C, E). La déshydratation globale par polypnée fébrile et sueurs profuses est constante et doit être corrigée d'urgence.",
-    "_synthese": "Delirium tremens : accident de sevrage alcoolique majeur engageant le pronostic vital. Triade : confusion onirique avec zoopsies, tremblements intenses de la langue et des mains, fièvre et déshydratation hydro-électrolytique.",
-    "_remarque": "Le traitement d'urgence repose sur la réhydratation massive, la vitamine B1 à forte dose par voie parentérale et les benzodiazépines injectables (diazépam)."
-  },
   "psy-207": {
     "A": "Faux. Les neuroleptiques sont des sédatifs psycholeptiques, ils ne procurent aucune stimulation intellectuelle.",
     "B": "Vrai (Corrigé officiel : B, C, E). Ils réduisent l'activité psychotique positive (abrasion des délires et hallucinations).",
@@ -1916,24 +1745,6 @@ window.JUSTIFICATIONS_PSY = {
     "_synthese": "Stades freudiens du développement psycho-sexuel : oral (succion), anal (rétention/expulsion), phallique (complexe d'Œdipe), période de latence, et phase génitale adulte.",
     "_remarque": "Une fixation ou une régression à un stade psycho-affectif donné détermine selon la psychanalyse certains traits de personnalité ou névroses à l'âge adulte."
   },
-  "psy-214": {
-    "A": "Vrai (Corrigé officiel : A, D, E). Le retard ou l'altération de la communication verbale est un signe fréquent dans le TSA.",
-    "B": "Faux. L'enfant autiste présente un évitement et un repli relationnel, et non une familiarité excessive.",
-    "C": "Faux. Les perversions ne font pas partie du spectre de l'autisme.",
-    "D": "Vrai (Corrigé officiel : A, D, E). Les stéréotypies gestuelles (flapping, balancements) et verbales (écholalie) appartiennent au répertoire répétitif.",
-    "E": "Vrai (Corrigé officiel : A, D, E). L'altération du contact social réciproque est le pilier diagnostique princeps.",
-    "_synthese": "Sémiologie cardinale du TSA : altération des interactions sociales et de la réciprocité, retard/troubles du langage, et comportements stéréotypés et répétitifs.",
-    "_remarque": "L'absence de sourire-réponse et l'absence de contact visuel direct sont des signes d'alerte très précoces chez le nourrisson."
-  },
-  "psy-215": {
-    "A": "Vrai (Corrigé officiel : A, C, D). Les crises de colère sévères et violentes (verbales ou physiques) sont le signe révélateur majeur.",
-    "B": "Faux. Les colères sont totalement inadaptées et disproportionnées à la contrariété minime déclenchante.",
-    "C": "Vrai (Corrigé officiel : A, C, D). Les accès surviennent de manière récurrente (au moins 3 fois par semaine).",
-    "D": "Vrai (Corrigé officiel : A, C, D). Entre les crises, l'humeur de fond de l'enfant est constamment irritable ou colérique la majorité du temps.",
-    "E": "Faux. L'affection évolue de façon chronique continue sur au moins 1 an, et non par épisodes discontinus.",
-    "_synthese": "Trouble disruptif avec dysrégulation émotionnelle (TDDE) : irascibilité quasi-permanente entrecoupée d'explosions de colère récurrentes disproportionnées durant depuis au moins 1 an chez un enfant de plus de 6 ans.",
-    "_remarque": "La prise en charge repose sur les thérapies comportementales familiales et l'aide à la régulation émotionnelle."
-  },
   "psy-216": {
     "A": "Vrai (Corrigé officiel : A, C, D). La carence affective sévère entraîne un arrêt ou une cassure de la prise de poids (nanisme de privation de Spitz).",
     "B": "Faux (bien que l'immunité puisse baisser, la triade classique de Spitz est axée sur la stagnation pondérale, les troubles du sommeil et les anomalies motrices).",
@@ -1960,23 +1771,5 @@ window.JUSTIFICATIONS_PSY = {
     "E": "Faux. Le vaginisme est un trouble exclusivement féminin.",
     "_synthese": "La dysfonction érectile est le trouble sexuel prédominant après 50 ans, sa prévalence augmentant fortement avec l'âge et les facteurs de risque cardiovasculaires (diabète, HTA, dyslipidémie, tabagisme).",
     "_remarque": "Une dysfonction érectile récente chez un homme de plus de 50 ans doit faire rechercher une coronaropathie asymptomatique sous-jacente (l'artère caverneuse étant le témoin précoce de l'endothélium coronaire)."
-  },
-  "psy-219": {
-    "A": "Vrai (Corrigé officiel : A, B, E). Chez l'homme, le trouble de l'excitation se manifeste au premier plan par la dysfonction érectile.",
-    "B": "Vrai (Corrigé officiel : A, B, E). Chez la femme, le défaut d'excitation entraîne une sécheresse et une absence de lubrification vaginale réflexe.",
-    "C": "Faux. Les érections matinales sont conservées dans la dysfonction érectile d'origine psychogène.",
-    "D": "Faux. L'évaluation de l'excitation féminine est souvent délicate et intriquée aux facteurs relationnels et subjectifs.",
-    "E": "Vrai (Corrigé officiel : A, B, E). La ménopause et la baisse des œstrogènes provoquent une atrophie vulvo-vaginale altérant la lubrification.",
-    "_synthese": "Troubles de l'excitation sexuelle : atteinte de la composante vasocongestive (défaut d'érection chez l'homme, sécheresse vaginale chez la femme). Les causes associent des facteurs vasculaires, hormonaux et psychogènes.",
-    "_remarque": "La présence d'érections matinales réflexes est le meilleur argument clinique pour affirmer l'intégrité vasculaire des corps caverneux."
-  },
-  "psy-220": {
-    "A": "Faux. L'ébriété alcoolique ne supprime pas la responsabilité pénale et constitue au contraire une circonstance aggravante.",
-    "B": "Vrai (Corrigé officiel : B, C, E). Celui qui était en état de démence (abolition du discernement par trouble psychiatrique au moment des faits) n'est pas pénalement punissable (art. 47 CP).",
-    "C": "Vrai (Corrigé officiel : B, C, E). La contrainte physique ou morale irrésistible exonère de la responsabilité pénale.",
-    "D": "Faux. Les infractions mineures (contraventions) sont punissables d'amendes.",
-    "E": "Vrai (Corrigé officiel : B, C, E). La légitime défense proportionnée à l'agression est un fait justificatif ôtant tout caractère punissable à l'acte.",
-    "_synthese": "Causes d'irresponsabilité et d'impunité en droit pénal : aliénation mentale / démence au moment des faits (art. 47 du code pénal), contrainte irrésistible et légitime défense proportionnée.",
-    "_remarque": "La constatation de l'état d'irresponsabilité pénale pour cause psychiatrique relève de l'expertise psychiatrique médicolégale mandatée par le juge d'instruction."
   }
 };

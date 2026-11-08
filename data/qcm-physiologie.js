@@ -1,0 +1,7762 @@
+window.QCM_PHYSIOLOGIE = [
+  {
+    "id": "physio-1",
+    "num": 1,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La fluidité membranaire dépend de :\n(Membrane fluidity depends on:)",
+    "text_fr": "La fluidité membranaire dépend de :",
+    "text_en": "Membrane fluidity depends on:",
+    "options": [
+      {
+        "label": "A",
+        "text": "La proportion d'acides gras insaturés (The proportion of unsaturated fatty acids)",
+        "text_fr": "La proportion d'acides gras insaturés",
+        "text_en": "The proportion of unsaturated fatty acids"
+      },
+      {
+        "label": "B",
+        "text": "La proportion d'acides gras saturés (The proportion of saturated fatty acids)",
+        "text_fr": "La proportion d'acides gras saturés",
+        "text_en": "The proportion of saturated fatty acids"
+      },
+      {
+        "label": "C",
+        "text": "La température (Temperature)",
+        "text_fr": "La température",
+        "text_en": "Temperature"
+      },
+      {
+        "label": "D",
+        "text": "La teneur en cholestérol (Cholesterol content)",
+        "text_fr": "La teneur en cholestérol",
+        "text_en": "Cholesterol content"
+      },
+      {
+        "label": "E",
+        "text": "La présence de triglycérides (Presence of triglycerides)",
+        "text_fr": "La présence de triglycérides",
+        "text_en": "Presence of triglycerides"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-2",
+    "num": 2,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les propriétés de la membrane plasmique incluent :\n(Properties of the plasma membrane include:)",
+    "text_fr": "Les propriétés de la membrane plasmique incluent :",
+    "text_en": "Properties of the plasma membrane include:",
+    "options": [
+      {
+        "label": "A",
+        "text": "La semi-perméabilité (Semi-permeability)",
+        "text_fr": "La semi-perméabilité",
+        "text_en": "Semi-permeability"
+      },
+      {
+        "label": "B",
+        "text": "La fluidité longitudinale des protéines (Longitudinal fluidity of proteins)",
+        "text_fr": "La fluidité longitudinale des protéines",
+        "text_en": "Longitudinal fluidity of proteins"
+      },
+      {
+        "label": "C",
+        "text": "La rigidité totale sans mouvement (Total rigidity without movement)",
+        "text_fr": "La rigidité totale sans mouvement",
+        "text_en": "Total rigidity without movement"
+      },
+      {
+        "label": "D",
+        "text": "La capacité de fusion (Fusion capacity)",
+        "text_fr": "La capacité de fusion",
+        "text_en": "Fusion capacity"
+      },
+      {
+        "label": "E",
+        "text": "La compartimentation cellulaire (Cellular compartmentalization)",
+        "text_fr": "La compartimentation cellulaire",
+        "text_en": "Cellular compartmentalization"
+      }
+    ],
+    "answer": [
+      "A",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-3",
+    "num": 3,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Caractéristiques du transport passif :\n(Characteristics of passive transport:)",
+    "text_fr": "Caractéristiques du transport passif :",
+    "text_en": "Characteristics of passive transport:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ne nécessite pas d'ATP (Does not require ATP)",
+        "text_fr": "Ne nécessite pas d'ATP",
+        "text_en": "Does not require ATP"
+      },
+      {
+        "label": "B",
+        "text": "Inclut la diffusion simple (Includes simple diffusion)",
+        "text_fr": "Inclut la diffusion simple",
+        "text_en": "Includes simple diffusion"
+      },
+      {
+        "label": "C",
+        "text": "Inclut l'endocytose (Includes endocytosis)",
+        "text_fr": "Inclut l'endocytose",
+        "text_en": "Includes endocytosis"
+      },
+      {
+        "label": "D",
+        "text": "Suit le gradient de concentration (Follows the concentration gradient)",
+        "text_fr": "Suit le gradient de concentration",
+        "text_en": "Follows the concentration gradient"
+      },
+      {
+        "label": "E",
+        "text": "N'inclut pas l'osmose (Does not include osmosis)",
+        "text_fr": "N'inclut pas l'osmose",
+        "text_en": "Does not include osmosis"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-4",
+    "num": 4,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Le transport actif secondaire :\n(Secondary active transport:)",
+    "text_fr": "Le transport actif secondaire :",
+    "text_en": "Secondary active transport:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Utilise l'énergie d'un gradient ionique préexistant (Uses the energy of a pre-existing ionic gradient)",
+        "text_fr": "Utilise l'énergie d'un gradient ionique préexistant",
+        "text_en": "Uses the energy of a pre-existing ionic gradient"
+      },
+      {
+        "label": "B",
+        "text": "Nécessite directement l'ATP (Directly requires ATP)",
+        "text_fr": "Nécessite directement l'ATP",
+        "text_en": "Directly requires ATP"
+      },
+      {
+        "label": "C",
+        "text": "Peut être symport ou antiport (May be symport or antiport)",
+        "text_fr": "Peut être symport ou antiport",
+        "text_en": "May be symport or antiport"
+      },
+      {
+        "label": "D",
+        "text": "Permet le transport contre le gradient de concentration (Allows transport against the concentration gradient)",
+        "text_fr": "Permet le transport contre le gradient de concentration",
+        "text_en": "Allows transport against the concentration gradient"
+      },
+      {
+        "label": "E",
+        "text": "Est indépendant des protéines membranaires (Is independent of membrane proteins)",
+        "text_fr": "Est indépendant des protéines membranaires",
+        "text_en": "Is independent of membrane proteins"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-5",
+    "num": 5,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La perméabilité membranaire au repos :\n(Membrane permeability at rest:)",
+    "text_fr": "La perméabilité membranaire au repos :",
+    "text_en": "Membrane permeability at rest:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Est plus grande pour le Na+ que pour le K+ (Is greater for Na+ than for K+)",
+        "text_fr": "Est plus grande pour le Na+ que pour le K+",
+        "text_en": "Is greater for Na+ than for K+"
+      },
+      {
+        "label": "B",
+        "text": "Est égale pour tous les ions (Is equal for all ions)",
+        "text_fr": "Est égale pour tous les ions",
+        "text_en": "Is equal for all ions"
+      },
+      {
+        "label": "C",
+        "text": "Dépend des canaux de fuite (Depends on leak channels)",
+        "text_fr": "Dépend des canaux de fuite",
+        "text_en": "Depends on leak channels"
+      },
+      {
+        "label": "D",
+        "text": "Est régulée par les pompes ioniques (Is regulated by ion pumps)",
+        "text_fr": "Est régulée par les pompes ioniques",
+        "text_en": "Is regulated by ion pumps"
+      },
+      {
+        "label": "E",
+        "text": "Est indépendante des protéines membranaires (Is independent of membrane proteins)",
+        "text_fr": "Est indépendante des protéines membranaires",
+        "text_en": "Is independent of membrane proteins"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-6",
+    "num": 6,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Le potentiel de repos d'une cellule excitable :\n(Resting potential of an excitable cell:)",
+    "text_fr": "Le potentiel de repos d'une cellule excitable :",
+    "text_en": "Resting potential of an excitable cell:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Se situe autour de -70 mV dans les neurones (Is around -70 mV in neurons)",
+        "text_fr": "Se situe autour de -70 mV dans les neurones",
+        "text_en": "Is around -70 mV in neurons"
+      },
+      {
+        "label": "B",
+        "text": "Est identique dans toutes les cellules (Is identical in all cells)",
+        "text_fr": "Est identique dans toutes les cellules",
+        "text_en": "Is identical in all cells"
+      },
+      {
+        "label": "C",
+        "text": "Résulte d'une distribution égale des ions (Results from equal distribution of ions)",
+        "text_fr": "Résulte d'une distribution égale des ions",
+        "text_en": "Results from equal distribution of ions"
+      },
+      {
+        "label": "D",
+        "text": "Est une différence de potentiel transmembranaire (Is a transmembrane potential difference)",
+        "text_fr": "Est une différence de potentiel transmembranaire",
+        "text_en": "Is a transmembrane potential difference"
+      },
+      {
+        "label": "E",
+        "text": "Nécessite une dépense énergétique permanente (Requires permanent energy expenditure)",
+        "text_fr": "Nécessite une dépense énergétique permanente",
+        "text_en": "Requires permanent energy expenditure"
+      }
+    ],
+    "answer": [
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)",
+    "note_cle": "A (≈ -70 mV neurone) est aussi exacte ; on conserve la clé du corrigé."
+  },
+  {
+    "id": "physio-7",
+    "num": 7,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La repolarisation est due à :\n(Repolarization is due to:)",
+    "text_fr": "La repolarisation est due à :",
+    "text_en": "Repolarization is due to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ouverture des canaux K+ voltage-dépendants (Opening of voltage-dependent K+ channels)",
+        "text_fr": "Ouverture des canaux K+ voltage-dépendants",
+        "text_en": "Opening of voltage-dependent K+ channels"
+      },
+      {
+        "label": "B",
+        "text": "Entrée de Na+ vers l'intérieur (Influx of Na+ into the cell)",
+        "text_fr": "Entrée de Na+ vers l'intérieur",
+        "text_en": "Influx of Na+ into the cell"
+      },
+      {
+        "label": "C",
+        "text": "Fermeture totale des canaux K+ (Complete closure of K+ channels)",
+        "text_fr": "Fermeture totale des canaux K+",
+        "text_en": "Complete closure of K+ channels"
+      },
+      {
+        "label": "D",
+        "text": "Entrée de Ca2+ (Influx of Ca2+)",
+        "text_fr": "Entrée de Ca2+",
+        "text_en": "Influx of Ca2+"
+      },
+      {
+        "label": "E",
+        "text": "Activation de la pompe Na+/K+ (Activation of the Na+/K+ pump)",
+        "text_fr": "Activation de la pompe Na+/K+",
+        "text_en": "Activation of the Na+/K+ pump"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-8",
+    "num": 8,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La période réfractaire relative, durant cette période :\n(Relative refractory period, during this period:)",
+    "text_fr": "La période réfractaire relative, durant cette période :",
+    "text_en": "Relative refractory period, during this period:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Un potentiel d'action peut être déclenché par un stimulus plus faible (An action potential can be triggered by a weaker stimulus)",
+        "text_fr": "Un potentiel d'action peut être déclenché par un stimulus plus faible",
+        "text_en": "An action potential can be triggered by a weaker stimulus"
+      },
+      {
+        "label": "B",
+        "text": "Les canaux Na+ commencent à se réactiver (Na+ channels begin to reactivate)",
+        "text_fr": "Les canaux Na+ commencent à se réactiver",
+        "text_en": "Na+ channels begin to reactivate"
+      },
+      {
+        "label": "C",
+        "text": "Les canaux K+ sont encore ouverts (K+ channels are still open)",
+        "text_fr": "Les canaux K+ sont encore ouverts",
+        "text_en": "K+ channels are still open"
+      },
+      {
+        "label": "D",
+        "text": "La cellule est totalement inexcitable (The cell is totally inexcitable)",
+        "text_fr": "La cellule est totalement inexcitable",
+        "text_en": "The cell is totally inexcitable"
+      },
+      {
+        "label": "E",
+        "text": "Le seuil est plus difficile à atteindre (The threshold is more difficult to reach)",
+        "text_fr": "Le seuil est plus difficile à atteindre",
+        "text_en": "The threshold is more difficult to reach"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-9",
+    "num": 9,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les caractéristiques de la liaison ligand-récepteur :\n(Characteristics of ligand-receptor binding:)",
+    "text_fr": "Les caractéristiques de la liaison ligand-récepteur :",
+    "text_en": "Characteristics of ligand-receptor binding:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Peut être réversible (May be reversible)",
+        "text_fr": "Peut être réversible",
+        "text_en": "May be reversible"
+      },
+      {
+        "label": "B",
+        "text": "Est indépendante de l'affinité du ligand (Is independent of ligand affinity)",
+        "text_fr": "Est indépendante de l'affinité du ligand",
+        "text_en": "Is independent of ligand affinity"
+      },
+      {
+        "label": "C",
+        "text": "Est indépendante de la concentration du ligand (Is independent of ligand concentration)",
+        "text_fr": "Est indépendante de la concentration du ligand",
+        "text_en": "Is independent of ligand concentration"
+      },
+      {
+        "label": "D",
+        "text": "Est toujours compétitive (Is always competitive)",
+        "text_fr": "Est toujours compétitive",
+        "text_en": "Is always competitive"
+      },
+      {
+        "label": "E",
+        "text": "Est toujours covalente (Is always covalent)",
+        "text_fr": "Est toujours covalente",
+        "text_en": "Is always covalent"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-10",
+    "num": 10,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les récepteurs ionotropes :\n(Ionotropic receptors:)",
+    "text_fr": "Les récepteurs ionotropes :",
+    "text_en": "Ionotropic receptors:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sont des canaux ioniques voltage-dépendants (Are voltage-dependent ion channels)",
+        "text_fr": "Sont des canaux ioniques voltage-dépendants",
+        "text_en": "Are voltage-dependent ion channels"
+      },
+      {
+        "label": "B",
+        "text": "Produisent une réponse rapide (Produce a rapid response)",
+        "text_fr": "Produisent une réponse rapide",
+        "text_en": "Produce a rapid response"
+      },
+      {
+        "label": "C",
+        "text": "Nécessitent des seconds messagers (Require second messengers)",
+        "text_fr": "Nécessitent des seconds messagers",
+        "text_en": "Require second messengers"
+      },
+      {
+        "label": "D",
+        "text": "Permettent le passage d'ions spécifiques (Allow passage of specific ions)",
+        "text_fr": "Permettent le passage d'ions spécifiques",
+        "text_en": "Allow passage of specific ions"
+      },
+      {
+        "label": "E",
+        "text": "Ont une action lente et prolongée (Have a slow and prolonged action)",
+        "text_fr": "Ont une action lente et prolongée",
+        "text_en": "Have a slow and prolonged action"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-11",
+    "num": 11,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-neurale",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La synapse électrique :\n(Electrical synapse:)",
+    "text_fr": "La synapse électrique :",
+    "text_en": "Electrical synapse:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ne contient pas de fente synaptique (Does not contain a synaptic cleft)",
+        "text_fr": "Ne contient pas de fente synaptique",
+        "text_en": "Does not contain a synaptic cleft"
+      },
+      {
+        "label": "B",
+        "text": "Permet une transmission rapide et unidirectionnelle (Allows rapid and unidirectional transmission)",
+        "text_fr": "Permet une transmission rapide et unidirectionnelle",
+        "text_en": "Allows rapid and unidirectional transmission"
+      },
+      {
+        "label": "C",
+        "text": "Nécessite des neurotransmetteurs (Requires neurotransmitters)",
+        "text_fr": "Nécessite des neurotransmetteurs",
+        "text_en": "Requires neurotransmitters"
+      },
+      {
+        "label": "D",
+        "text": "Est fréquente dans le système nerveux central des mammifères (Is frequent in the mammalian central nervous system)",
+        "text_fr": "Est fréquente dans le système nerveux central des mammifères",
+        "text_en": "Is frequent in the mammalian central nervous system"
+      },
+      {
+        "label": "E",
+        "text": "Permet une synchronisation neuronale (Allows neuronal synchronization)",
+        "text_fr": "Permet une synchronisation neuronale",
+        "text_en": "Allows neuronal synchronization"
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-12",
+    "num": 12,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les récepteurs postsynaptiques peuvent être :\n(Postsynaptic receptors can be:)",
+    "text_fr": "Les récepteurs postsynaptiques peuvent être :",
+    "text_en": "Postsynaptic receptors can be:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ionotropes (Ionotropic)",
+        "text_fr": "Ionotropes",
+        "text_en": "Ionotropic"
+      },
+      {
+        "label": "B",
+        "text": "Métabotropes (Metabotropic)",
+        "text_fr": "Métabotropes",
+        "text_en": "Metabotropic"
+      },
+      {
+        "label": "C",
+        "text": "Toujours inhibiteurs (Always inhibitory)",
+        "text_fr": "Toujours inhibiteurs",
+        "text_en": "Always inhibitory"
+      },
+      {
+        "label": "D",
+        "text": "Non spécifiques du neurotransmetteur (Non-specific to the neurotransmitter)",
+        "text_fr": "Non spécifiques du neurotransmetteur",
+        "text_en": "Non-specific to the neurotransmitter"
+      },
+      {
+        "label": "E",
+        "text": "Modulateurs de la réponse cellulaire (Modulators of the cellular response)",
+        "text_fr": "Modulateurs de la réponse cellulaire",
+        "text_en": "Modulators of the cellular response"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-13",
+    "num": 13,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La synapse neuro-musculaire :\n(Neuromuscular synapse:)",
+    "text_fr": "La synapse neuro-musculaire :",
+    "text_en": "Neuromuscular synapse:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Est parfois excitatrice (Is sometimes excitatory)",
+        "text_fr": "Est parfois excitatrice",
+        "text_en": "Is sometimes excitatory"
+      },
+      {
+        "label": "B",
+        "text": "Utilise un seul neurotransmetteur principal (l'acétylcholine) (Uses a single main neurotransmitter (acetylcholine))",
+        "text_fr": "Utilise un seul neurotransmetteur principal (l'acétylcholine)",
+        "text_en": "Uses a single main neurotransmitter (acetylcholine)"
+      },
+      {
+        "label": "C",
+        "text": "Déclenche un PAM suivi d'un PPM (Triggers a MAP followed by an EPP)",
+        "text_fr": "Déclenche un PAM suivi d'un PPM",
+        "text_en": "Triggers a MAP followed by an EPP"
+      },
+      {
+        "label": "D",
+        "text": "Est spécialisée pour la contraction musculaire (Is specialized for muscle contraction)",
+        "text_fr": "Est spécialisée pour la contraction musculaire",
+        "text_en": "Is specialized for muscle contraction"
+      },
+      {
+        "label": "E",
+        "text": "Peut être inhibitrice selon le contexte (May be inhibitory depending on the context)",
+        "text_fr": "Peut être inhibitrice selon le contexte",
+        "text_en": "May be inhibitory depending on the context"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-14",
+    "num": 14,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les récepteurs nicotiniques de l'ACh :\n(Nicotinic ACh receptors:)",
+    "text_fr": "Les récepteurs nicotiniques de l'ACh :",
+    "text_en": "Nicotinic ACh receptors:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sont des canaux ioniques voltage-dépendants (Are voltage-dependent ion channels)",
+        "text_fr": "Sont des canaux ioniques voltage-dépendants",
+        "text_en": "Are voltage-dependent ion channels"
+      },
+      {
+        "label": "B",
+        "text": "Permettent l'entrée de K+ et la sortie de Na+ (Allow entry of K+ and exit of Na+)",
+        "text_fr": "Permettent l'entrée de K+ et la sortie de Na+",
+        "text_en": "Allow entry of K+ and exit of Na+"
+      },
+      {
+        "label": "C",
+        "text": "Déclenchent une dépolarisation locale (Trigger a local depolarization)",
+        "text_fr": "Déclenchent une dépolarisation locale",
+        "text_en": "Trigger a local depolarization"
+      },
+      {
+        "label": "D",
+        "text": "Nécessitent des seconds messagers (Require second messengers)",
+        "text_fr": "Nécessitent des seconds messagers",
+        "text_en": "Require second messengers"
+      },
+      {
+        "label": "E",
+        "text": "Sont responsables parfois du PPM (potentiel de plaque motrice) (Are sometimes responsible for the EPP (end-plate potential))",
+        "text_fr": "Sont responsables parfois du PPM (potentiel de plaque motrice)",
+        "text_en": "Are sometimes responsible for the EPP (end-plate potential)"
+      }
+    ],
+    "answer": [
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-15",
+    "num": 15,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La ligne Z du sarcomère :\n(The Z line of the sarcomere:)",
+    "text_fr": "La ligne Z du sarcomère :",
+    "text_en": "The Z line of the sarcomere:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Délimite le sarcomère (Delimits the sarcomere)",
+        "text_fr": "Délimite le sarcomère",
+        "text_en": "Delimits the sarcomere"
+      },
+      {
+        "label": "B",
+        "text": "Sert de point d'ancrage aux filaments de myosine (Serves as an anchoring point for myosin filaments)",
+        "text_fr": "Sert de point d'ancrage aux filaments de myosine",
+        "text_en": "Serves as an anchoring point for myosin filaments"
+      },
+      {
+        "label": "C",
+        "text": "Contient la titine (Contains titin)",
+        "text_fr": "Contient la titine",
+        "text_en": "Contains titin"
+      },
+      {
+        "label": "D",
+        "text": "Est située au centre de la bande A (Is located at the center of the A band)",
+        "text_fr": "Est située au centre de la bande A",
+        "text_en": "Is located at the center of the A band"
+      },
+      {
+        "label": "E",
+        "text": "Délimite les bandes H (Delimits the H bands)",
+        "text_fr": "Délimite les bandes H",
+        "text_en": "Delimits the H bands"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-16",
+    "num": 16,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Le couplage excitation-contraction traduit :\n(Excitation-contraction coupling involves:)",
+    "text_fr": "Le couplage excitation-contraction traduit :",
+    "text_en": "Excitation-contraction coupling involves:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fixation de Ca2+ sur la tropomyosine (Binding of Ca2+ to tropomyosin)",
+        "text_fr": "Fixation de Ca2+ sur la tropomyosine",
+        "text_en": "Binding of Ca2+ to tropomyosin"
+      },
+      {
+        "label": "B",
+        "text": "Propagation du PAM le long du sarcolemme (Propagation of the MAP along the sarcolemma)",
+        "text_fr": "Propagation du PAM le long du sarcolemme",
+        "text_en": "Propagation of the MAP along the sarcolemma"
+      },
+      {
+        "label": "C",
+        "text": "Transmission dans les tubules T (Transmission into the T-tubules)",
+        "text_fr": "Transmission dans les tubules T",
+        "text_en": "Transmission into the T-tubules"
+      },
+      {
+        "label": "D",
+        "text": "Activation des récepteurs de ryanodine (RyR) (Activation of ryanodine receptors (RyR))",
+        "text_fr": "Activation des récepteurs de ryanodine (RyR)",
+        "text_en": "Activation of ryanodine receptors (RyR)"
+      },
+      {
+        "label": "E",
+        "text": "Libération de Ca2+ par les récepteurs de dihydropyridine (DHPR) (Release of Ca2+ by dihydropyridine receptors (DHPR))",
+        "text_fr": "Libération de Ca2+ par les récepteurs de dihydropyridine (DHPR)",
+        "text_en": "Release of Ca2+ by dihydropyridine receptors (DHPR)"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-17",
+    "num": 17,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La rigidité cadavérique :\n(Rigor mortis:)",
+    "text_fr": "La rigidité cadavérique :",
+    "text_en": "Rigor mortis:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Absence d'ATP (Absence of ATP)",
+        "text_fr": "Absence d'ATP",
+        "text_en": "Absence of ATP"
+      },
+      {
+        "label": "B",
+        "text": "Ponts actine-myosine bloqués (Actin-myosin cross-bridges locked)",
+        "text_fr": "Ponts actine-myosine bloqués",
+        "text_en": "Actin-myosin cross-bridges locked"
+      },
+      {
+        "label": "C",
+        "text": "Absence de Ca2+ dans le cytosol (Absence of Ca2+ in the cytosol)",
+        "text_fr": "Absence de Ca2+ dans le cytosol",
+        "text_en": "Absence of Ca2+ in the cytosol"
+      },
+      {
+        "label": "D",
+        "text": "Relaxation complète du muscle (Complete muscle relaxation)",
+        "text_fr": "Relaxation complète du muscle",
+        "text_en": "Complete muscle relaxation"
+      },
+      {
+        "label": "E",
+        "text": "Enraidissement musculaire (Muscular stiffening)",
+        "text_fr": "Enraidissement musculaire",
+        "text_en": "Muscular stiffening"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-18",
+    "num": 18,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les différences entre la secousse et le tétanos :\n(Differences between twitch and tetanus:)",
+    "text_fr": "Les différences entre la secousse et le tétanos :",
+    "text_en": "Differences between twitch and tetanus:",
+    "options": [
+      {
+        "label": "A",
+        "text": "La secousse est une contraction soutenue (Twitch is a sustained contraction)",
+        "text_fr": "La secousse est une contraction soutenue",
+        "text_en": "Twitch is a sustained contraction"
+      },
+      {
+        "label": "B",
+        "text": "Le tétanos est une réponse unique (Tetanus is a single response)",
+        "text_fr": "Le tétanos est une réponse unique",
+        "text_en": "Tetanus is a single response"
+      },
+      {
+        "label": "C",
+        "text": "La secousse comprend trois phases (Twitch has three phases)",
+        "text_fr": "La secousse comprend trois phases",
+        "text_en": "Twitch has three phases"
+      },
+      {
+        "label": "D",
+        "text": "Le tétanos dépend de stimulations répétées (Tetanus depends on repeated stimulations)",
+        "text_fr": "Le tétanos dépend de stimulations répétées",
+        "text_en": "Tetanus depends on repeated stimulations"
+      },
+      {
+        "label": "E",
+        "text": "La secousse est toujours plus forte que le tétanos (Twitch is always stronger than tetanus)",
+        "text_fr": "La secousse est toujours plus forte que le tétanos",
+        "text_en": "Twitch is always stronger than tetanus"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-19",
+    "num": 19,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Glycolyse anaérobie :\n(Anaerobic glycolysis:)",
+    "text_fr": "Glycolyse anaérobie :",
+    "text_en": "Anaerobic glycolysis:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Produit rapidement de l'ATP (Rapidly produces ATP)",
+        "text_fr": "Produit rapidement de l'ATP",
+        "text_en": "Rapidly produces ATP"
+      },
+      {
+        "label": "B",
+        "text": "Utilise glucose et acides gras (Uses glucose and fatty acids)",
+        "text_fr": "Utilise glucose et acides gras",
+        "text_en": "Uses glucose and fatty acids"
+      },
+      {
+        "label": "C",
+        "text": "Dépend des mitochondries (Depends on mitochondria)",
+        "text_fr": "Dépend des mitochondries",
+        "text_en": "Depends on mitochondria"
+      },
+      {
+        "label": "D",
+        "text": "Nécessite oxygène (Requires oxygen)",
+        "text_fr": "Nécessite oxygène",
+        "text_en": "Requires oxygen"
+      },
+      {
+        "label": "E",
+        "text": "Peut entraîner une acidose musculaire (May cause muscle acidosis)",
+        "text_fr": "Peut entraîner une acidose musculaire",
+        "text_en": "May cause muscle acidosis"
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-20",
+    "num": 20,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les récepteurs adrénergiques :\n(Adrenergic receptors:)",
+    "text_fr": "Les récepteurs adrénergiques :",
+    "text_en": "Adrenergic receptors:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Récepteurs alpha-1 -> vasodilatation (alpha-1 receptors -> vasodilation)",
+        "text_fr": "Récepteurs alpha-1 -> vasodilatation",
+        "text_en": "alpha-1 receptors -> vasodilation"
+      },
+      {
+        "label": "B",
+        "text": "Récepteurs alpha-2 -> inhibition de la libération de noradrénaline (alpha-2 receptors -> inhibition of norepinephrine release)",
+        "text_fr": "Récepteurs alpha-2 -> inhibition de la libération de noradrénaline",
+        "text_en": "alpha-2 receptors -> inhibition of norepinephrine release"
+      },
+      {
+        "label": "C",
+        "text": "Récepteurs bêta-1 -> augmentation de la fréquence cardiaque (beta-1 receptors -> increase in heart rate)",
+        "text_fr": "Récepteurs bêta-1 -> augmentation de la fréquence cardiaque",
+        "text_en": "beta-1 receptors -> increase in heart rate"
+      },
+      {
+        "label": "D",
+        "text": "Récepteurs bêta-2 -> bronchoconstriction (beta-2 receptors -> bronchoconstriction)",
+        "text_fr": "Récepteurs bêta-2 -> bronchoconstriction",
+        "text_en": "beta-2 receptors -> bronchoconstriction"
+      },
+      {
+        "label": "E",
+        "text": "Récepteurs bêta-3 -> contraction du muscle lisse intestinal (beta-3 receptors -> contraction of intestinal smooth muscle)",
+        "text_fr": "Récepteurs bêta-3 -> contraction du muscle lisse intestinal",
+        "text_en": "beta-3 receptors -> contraction of intestinal smooth muscle"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)",
+    "note_cle": "A/D/E fausses : α1 constricteur ; β2 dilatateur des bronches ; β3 lipolyse."
+  },
+  {
+    "id": "physio-21",
+    "num": 21,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les neurotransmetteurs principaux dans le système nerveux orthosympathique :\n(Main neurotransmitters in the sympathetic nervous system:)",
+    "text_fr": "Les neurotransmetteurs principaux dans le système nerveux orthosympathique :",
+    "text_en": "Main neurotransmitters in the sympathetic nervous system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Les fibres préganglionnaires libèrent de la noradrénaline (Preganglionic fibers release norepinephrine)",
+        "text_fr": "Les fibres préganglionnaires libèrent de la noradrénaline",
+        "text_en": "Preganglionic fibers release norepinephrine"
+      },
+      {
+        "label": "B",
+        "text": "Les fibres post-ganglionnaires libèrent principalement de l'acétylcholine (Postganglionic fibers mainly release acetylcholine)",
+        "text_fr": "Les fibres post-ganglionnaires libèrent principalement de l'acétylcholine",
+        "text_en": "Postganglionic fibers mainly release acetylcholine"
+      },
+      {
+        "label": "C",
+        "text": "L'adrénaline est sécrétée par la médullosurrénale (Adrenaline is secreted by the adrenal medulla)",
+        "text_fr": "L'adrénaline est sécrétée par la médullosurrénale",
+        "text_en": "Adrenaline is secreted by the adrenal medulla"
+      },
+      {
+        "label": "D",
+        "text": "La dopamine est toujours le neurotransmetteur final (Dopamine is always the final neurotransmitter)",
+        "text_fr": "La dopamine est toujours le neurotransmetteur final",
+        "text_en": "Dopamine is always the final neurotransmitter"
+      },
+      {
+        "label": "E",
+        "text": "L'acétylcholine peut être libérée par certaines fibres postganglionnaires (Acetylcholine may be released by some postganglionic fibers)",
+        "text_fr": "L'acétylcholine peut être libérée par certaines fibres postganglionnaires",
+        "text_en": "Acetylcholine may be released by some postganglionic fibers"
+      }
+    ],
+    "answer": [
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-22",
+    "num": 22,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les effets digestifs du système nerveux parasympathique :\n(Digestive effects of the parasympathetic nervous system:)",
+    "text_fr": "Les effets digestifs du système nerveux parasympathique :",
+    "text_en": "Digestive effects of the parasympathetic nervous system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diminution de la motilité intestinale (Decrease in intestinal motility)",
+        "text_fr": "Diminution de la motilité intestinale",
+        "text_en": "Decrease in intestinal motility"
+      },
+      {
+        "label": "B",
+        "text": "Diminution des sécrétions digestives (Decrease in digestive secretions)",
+        "text_fr": "Diminution des sécrétions digestives",
+        "text_en": "Decrease in digestive secretions"
+      },
+      {
+        "label": "C",
+        "text": "Relaxation des sphincters (Relaxation of sphincters)",
+        "text_fr": "Relaxation des sphincters",
+        "text_en": "Relaxation of sphincters"
+      },
+      {
+        "label": "D",
+        "text": "Diminution de la sécrétion gastrique (Decrease in gastric secretion)",
+        "text_fr": "Diminution de la sécrétion gastrique",
+        "text_en": "Decrease in gastric secretion"
+      },
+      {
+        "label": "E",
+        "text": "Facilitation de la digestion (Facilitation of digestion)",
+        "text_fr": "Facilitation de la digestion",
+        "text_en": "Facilitation of digestion"
+      }
+    ],
+    "answer": [
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-23",
+    "num": 23,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les fibres du système nerveux autonome :\n(Fibers of the autonomic nervous system:)",
+    "text_fr": "Les fibres du système nerveux autonome :",
+    "text_en": "Fibers of the autonomic nervous system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Les fibres préganglionnaires sont amyélinisées (Preganglionic fibers are unmyelinated)",
+        "text_fr": "Les fibres préganglionnaires sont amyélinisées",
+        "text_en": "Preganglionic fibers are unmyelinated"
+      },
+      {
+        "label": "B",
+        "text": "Les fibres postganglionnaires sont myélinisées (Postganglionic fibers are myelinated)",
+        "text_fr": "Les fibres postganglionnaires sont myélinisées",
+        "text_en": "Postganglionic fibers are myelinated"
+      },
+      {
+        "label": "C",
+        "text": "Les fibres postganglionnaires parasympathiques sont courtes (Parasympathetic postganglionic fibers are short)",
+        "text_fr": "Les fibres postganglionnaires parasympathiques sont courtes",
+        "text_en": "Parasympathetic postganglionic fibers are short"
+      },
+      {
+        "label": "D",
+        "text": "Les fibres préganglionnaires parasympathiques sont longues (Parasympathetic preganglionic fibers are long)",
+        "text_fr": "Les fibres préganglionnaires parasympathiques sont longues",
+        "text_en": "Parasympathetic preganglionic fibers are long"
+      },
+      {
+        "label": "E",
+        "text": "Les fibres préganglionnaires sympathiques sont longues (Sympathetic preganglionic fibers are long)",
+        "text_fr": "Les fibres préganglionnaires sympathiques sont longues",
+        "text_en": "Sympathetic preganglionic fibers are long"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-24",
+    "num": 24,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Le liquide intracellulaire :\n(Intracellular fluid:)",
+    "text_fr": "Le liquide intracellulaire :",
+    "text_en": "Intracellular fluid:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Représente environ 1/3 de l'eau totale (Represents about 1/3 of total body water)",
+        "text_fr": "Représente environ 1/3 de l'eau totale",
+        "text_en": "Represents about 1/3 of total body water"
+      },
+      {
+        "label": "B",
+        "text": "Contient surtout du potassium et du magnésium (Contains mainly potassium and magnesium)",
+        "text_fr": "Contient surtout du potassium et du magnésium",
+        "text_en": "Contains mainly potassium and magnesium"
+      },
+      {
+        "label": "C",
+        "text": "Contient surtout du sodium et du chlore (Contains mainly sodium and chloride)",
+        "text_fr": "Contient surtout du sodium et du chlore",
+        "text_en": "Contains mainly sodium and chloride"
+      },
+      {
+        "label": "D",
+        "text": "Est le compartiment le moins volumineux (Is the smallest compartment)",
+        "text_fr": "Est le compartiment le moins volumineux",
+        "text_en": "Is the smallest compartment"
+      },
+      {
+        "label": "E",
+        "text": "Est séparé du liquide extracellulaire par la membrane cellulaire (Is separated from extracellular fluid by the cell membrane)",
+        "text_fr": "Est séparé du liquide extracellulaire par la membrane cellulaire",
+        "text_en": "Is separated from extracellular fluid by the cell membrane"
+      }
+    ],
+    "answer": [
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-25",
+    "num": 25,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "L'eau totale dans l'organisme :\n(Total body water:)",
+    "text_fr": "L'eau totale dans l'organisme :",
+    "text_en": "Total body water:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Est proportionnellement plus faible chez le nourrisson (Is proportionally lower in infants)",
+        "text_fr": "Est proportionnellement plus faible chez le nourrisson",
+        "text_en": "Is proportionally lower in infants"
+      },
+      {
+        "label": "B",
+        "text": "Représente environ 60 % du poids corporel chez l'adulte (Represents about 60% of body weight in adults)",
+        "text_fr": "Représente environ 60 % du poids corporel chez l'adulte",
+        "text_en": "Represents about 60% of body weight in adults"
+      },
+      {
+        "label": "C",
+        "text": "Est proportionnellement plus faible chez la personne âgée (Is proportionally lower in the elderly)",
+        "text_fr": "Est proportionnellement plus faible chez la personne âgée",
+        "text_en": "Is proportionally lower in the elderly"
+      },
+      {
+        "label": "D",
+        "text": "Varie selon la composition corporelle (graisse et muscle) (Varies with body composition (fat and muscle))",
+        "text_fr": "Varie selon la composition corporelle (graisse et muscle)",
+        "text_en": "Varies with body composition (fat and muscle)"
+      },
+      {
+        "label": "E",
+        "text": "Est proportionnellement plus faible chez l'homme que chez la femme (Is proportionally lower in men than in women)",
+        "text_fr": "Est proportionnellement plus faible chez l'homme que chez la femme",
+        "text_en": "Is proportionally lower in men than in women"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-26",
+    "num": 26,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La réabsorption capillaire :\n(Capillary reabsorption:)",
+    "text_fr": "La réabsorption capillaire :",
+    "text_en": "Capillary reabsorption:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Se produit lorsque la pression oncotique est supérieure à la pression hydrostatique (Occurs when oncotic pressure exceeds hydrostatic pressure)",
+        "text_fr": "Se produit lorsque la pression oncotique est supérieure à la pression hydrostatique",
+        "text_en": "Occurs when oncotic pressure exceeds hydrostatic pressure"
+      },
+      {
+        "label": "B",
+        "text": "Permet le retour de liquide vers le plasma (Allows fluid return to plasma)",
+        "text_fr": "Permet le retour de liquide vers le plasma",
+        "text_en": "Allows fluid return to plasma"
+      },
+      {
+        "label": "C",
+        "text": "Est favorisée à l'extrémité artérielle du capillaire (Is favored at the arterial end of the capillary)",
+        "text_fr": "Est favorisée à l'extrémité artérielle du capillaire",
+        "text_en": "Is favored at the arterial end of the capillary"
+      },
+      {
+        "label": "D",
+        "text": "Concerne les grosses protéines plasmatiques (Involves large plasma proteins)",
+        "text_fr": "Concerne les grosses protéines plasmatiques",
+        "text_en": "Involves large plasma proteins"
+      },
+      {
+        "label": "E",
+        "text": "Est un phénomène actif (Is an active phenomenon)",
+        "text_fr": "Est un phénomène actif",
+        "text_en": "Is an active phenomenon"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-27",
+    "num": 27,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les variations des compartiments liquidiens liées à la grossesse sont :\n(Variations in fluid compartments during pregnancy:)",
+    "text_fr": "Les variations des compartiments liquidiens liées à la grossesse sont :",
+    "text_en": "Variations in fluid compartments during pregnancy:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Diminution du volume intracellulaire (Decrease in intracellular volume)",
+        "text_fr": "Diminution du volume intracellulaire",
+        "text_en": "Decrease in intracellular volume"
+      },
+      {
+        "label": "B",
+        "text": "Diminution du liquide interstitiel (Decrease in interstitial fluid)",
+        "text_fr": "Diminution du liquide interstitiel",
+        "text_en": "Decrease in interstitial fluid"
+      },
+      {
+        "label": "C",
+        "text": "Augmentation du volume extracellulaire total (Increase in total extracellular volume)",
+        "text_fr": "Augmentation du volume extracellulaire total",
+        "text_en": "Increase in total extracellular volume"
+      },
+      {
+        "label": "D",
+        "text": "Augmentation du volume plasmatique (Increase in plasma volume)",
+        "text_fr": "Augmentation du volume plasmatique",
+        "text_en": "Increase in plasma volume"
+      },
+      {
+        "label": "E",
+        "text": "Augmentation du liquide amniotique (Increase in amniotic fluid)",
+        "text_fr": "Augmentation du liquide amniotique",
+        "text_en": "Increase in amniotic fluid"
+      }
+    ],
+    "answer": [
+      "C",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-28",
+    "num": 28,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "L'équilibre énergétique :\n(Energy balance:)",
+    "text_fr": "L'équilibre énergétique :",
+    "text_en": "Energy balance:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Est atteint lorsque apports = dépenses (Achieved when intake = expenditure)",
+        "text_fr": "Est atteint lorsque apports = dépenses",
+        "text_en": "Achieved when intake = expenditure"
+      },
+      {
+        "label": "B",
+        "text": "Dépend des apports alimentaires et des dépenses métaboliques (Depends on dietary intake and metabolic expenditure)",
+        "text_fr": "Dépend des apports alimentaires et des dépenses métaboliques",
+        "text_en": "Depends on dietary intake and metabolic expenditure"
+      },
+      {
+        "label": "C",
+        "text": "Un excédent énergétique entraîne une perte de poids (Energy surplus leads to weight loss)",
+        "text_fr": "Un excédent énergétique entraîne une perte de poids",
+        "text_en": "Energy surplus leads to weight loss"
+      },
+      {
+        "label": "D",
+        "text": "Un déficit énergétique entraîne une prise de poids (Energy deficit leads to weight gain)",
+        "text_fr": "Un déficit énergétique entraîne une prise de poids",
+        "text_en": "Energy deficit leads to weight gain"
+      },
+      {
+        "label": "E",
+        "text": "Dépend uniquement de l'activité physique (Depends only on physical activity)",
+        "text_fr": "Dépend uniquement de l'activité physique",
+        "text_en": "Depends only on physical activity"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-29",
+    "num": 29,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "La calorimétrie indirecte :\n(Indirect calorimetry:)",
+    "text_fr": "La calorimétrie indirecte :",
+    "text_en": "Indirect calorimetry:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mesure la chaleur produite par l'organisme (Measures heat produced by the body)",
+        "text_fr": "Mesure la chaleur produite par l'organisme",
+        "text_en": "Measures heat produced by the body"
+      },
+      {
+        "label": "B",
+        "text": "Mesure la production de CO2 (Measures CO2 production)",
+        "text_fr": "Mesure la production de CO2",
+        "text_en": "Measures CO2 production"
+      },
+      {
+        "label": "C",
+        "text": "Utilise une chambre calorimétrique isolée (Uses an isolated calorimetric chamber)",
+        "text_fr": "Utilise une chambre calorimétrique isolée",
+        "text_en": "Uses an isolated calorimetric chamber"
+      },
+      {
+        "label": "D",
+        "text": "Permet d'estimer la dépense énergétique (Estimates energy expenditure)",
+        "text_fr": "Permet d'estimer la dépense énergétique",
+        "text_en": "Estimates energy expenditure"
+      },
+      {
+        "label": "E",
+        "text": "Mesure directement la consommation d'oxygène (Directly measures oxygen consumption)",
+        "text_fr": "Mesure directement la consommation d'oxygène",
+        "text_en": "Directly measures oxygen consumption"
+      }
+    ],
+    "answer": [
+      "B",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-30",
+    "num": 30,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire énergétique",
+    "year": "2025-2026",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Les apports énergétiques recommandés dans une ration alimentaire :\n(Recommended energy intake in a dietary ration:)",
+    "text_fr": "Les apports énergétiques recommandés dans une ration alimentaire :",
+    "text_en": "Recommended energy intake in a dietary ration:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Les glucides doivent représenter 50-60 % de l'apport énergétique total (Carbohydrates should represent 50-60% of total energy intake)",
+        "text_fr": "Les glucides doivent représenter 50-60 % de l'apport énergétique total",
+        "text_en": "Carbohydrates should represent 50-60% of total energy intake"
+      },
+      {
+        "label": "B",
+        "text": "Les lipides 10-15 % (Lipids 10-15%)",
+        "text_fr": "Les lipides 10-15 %",
+        "text_en": "Lipids 10-15%"
+      },
+      {
+        "label": "C",
+        "text": "Les protéines 30-35 % (Proteins 30-35%)",
+        "text_fr": "Les protéines 30-35 %",
+        "text_en": "Proteins 30-35%"
+      },
+      {
+        "label": "D",
+        "text": "Les fibres 20 % de l'apport énergétique (Fibers 20% of energy intake)",
+        "text_fr": "Les fibres 20 % de l'apport énergétique",
+        "text_en": "Fibers 20% of energy intake"
+      },
+      {
+        "label": "E",
+        "text": "L'équilibre des macronutriments est essentiel (Macronutrient balance is essential)",
+        "text_fr": "L'équilibre des macronutriments est essentiel",
+        "text_en": "Macronutrient balance is essential"
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2025-2026 (02/06/2026)"
+  },
+  {
+    "id": "physio-31",
+    "num": 31,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Cells have in common the same:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Morphology"
+      },
+      {
+        "label": "B",
+        "text": "Number of nuclei"
+      },
+      {
+        "label": "C",
+        "text": "Structural plan"
+      },
+      {
+        "label": "D",
+        "text": "Physiological function"
+      },
+      {
+        "label": "E",
+        "text": "Energy metabolism"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q1"
+  },
+  {
+    "id": "physio-32",
+    "num": 32,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the body compartments, which of the following propositions is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Plasma volume is 3 liters and extracellular fluid volume is 9 liters."
+      },
+      {
+        "label": "B",
+        "text": "Transcellular fluids are part of the intracellular fluid."
+      },
+      {
+        "label": "C",
+        "text": "All water inputs are not equal to outputs, which are numerous."
+      },
+      {
+        "label": "D",
+        "text": "Only inputs, not outputs, of water pass through the interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "Lymphatics drain excess water from interstitial fluid to plasma fluid."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q2"
+  },
+  {
+    "id": "physio-33",
+    "num": 33,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning ion channels and carrier proteins, which of the following propositions is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ion channels correspond to facilitated diffusion."
+      },
+      {
+        "label": "B",
+        "text": "Primary active transport always occurs against the concentration gradient."
+      },
+      {
+        "label": "C",
+        "text": "Facilitated diffusion requires energy."
+      },
+      {
+        "label": "D",
+        "text": "Carrier proteins correspond only to active transport."
+      },
+      {
+        "label": "E",
+        "text": "Active transport and diffusion are synonymous."
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q3",
+    "note_cle": "Clé corrigée : B (transport actif primaire toujours contre le gradient) est aussi exacte."
+  },
+  {
+    "id": "physio-34",
+    "num": 34,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Action potential (AP). Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Requires membrane hyperpolarization to be triggered."
+      },
+      {
+        "label": "B",
+        "text": "Corresponds to potassium entry into the cell."
+      },
+      {
+        "label": "C",
+        "text": "Corresponds to sodium entry into the cell."
+      },
+      {
+        "label": "D",
+        "text": "The repolarization phase of AP corresponds to sodium entry into the cell."
+      },
+      {
+        "label": "E",
+        "text": "Includes an absolute refractory period phase."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q4"
+  },
+  {
+    "id": "physio-35",
+    "num": 35,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The peripheral nervous system, it is correct that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It includes only cranial nerves and spinal nerves."
+      },
+      {
+        "label": "B",
+        "text": "It includes spinal ganglia and sensory receptors."
+      },
+      {
+        "label": "C",
+        "text": "It is divided into three systems."
+      },
+      {
+        "label": "D",
+        "text": "It includes only spinal nerves, ganglia, and sensory receptors."
+      },
+      {
+        "label": "E",
+        "text": "Answers B and C are correct."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q5"
+  },
+  {
+    "id": "physio-36",
+    "num": 36,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Troponin: Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Troponin I has an affinity for tropomyosin."
+      },
+      {
+        "label": "B",
+        "text": "Attaches myosin to actin."
+      },
+      {
+        "label": "C",
+        "text": "Troponin C has an affinity for calcium."
+      },
+      {
+        "label": "D",
+        "text": "Is a complex of 03 protein units."
+      },
+      {
+        "label": "E",
+        "text": "Answers C and D are correct."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q6"
+  },
+  {
+    "id": "physio-37",
+    "num": 37,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "During the molecular mechanism of contraction, the attachment of the hydrolysis product \"ADP+Pi\" to the myosin head means:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actin binding to myosin."
+      },
+      {
+        "label": "B",
+        "text": "Rigor mortis."
+      },
+      {
+        "label": "C",
+        "text": "A myosin head placed under tension."
+      },
+      {
+        "label": "D",
+        "text": "Release of actin from the actomyosin complex."
+      },
+      {
+        "label": "E",
+        "text": "No binding of actin to myosin."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q7"
+  },
+  {
+    "id": "physio-38",
+    "num": 38,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les neurotransmetteurs",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Dale's principle states:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Co-localization of several neurotransmitters in the same neuron."
+      },
+      {
+        "label": "B",
+        "text": "A neuron synthesizes several neurotransmitters."
+      },
+      {
+        "label": "C",
+        "text": "A neuron synthesizes only two neuromediators."
+      },
+      {
+        "label": "D",
+        "text": "A neuron synthesizes only one type of neurotransmitter."
+      },
+      {
+        "label": "E",
+        "text": "Co-localization of two neurotransmitters in the same neuron."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q8"
+  },
+  {
+    "id": "physio-39",
+    "num": 39,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Thin filaments are composed solely of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Troponin - Actin - Myosin."
+      },
+      {
+        "label": "B",
+        "text": "Actin - Myosin."
+      },
+      {
+        "label": "C",
+        "text": "Tropomyosin - Troponin."
+      },
+      {
+        "label": "D",
+        "text": "Actin - Troponin - Tropomyosin."
+      },
+      {
+        "label": "E",
+        "text": "Actin - Troponin."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q9"
+  },
+  {
+    "id": "physio-40",
+    "num": 40,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Measurement of body volumes:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is done directly by dilution of a known quantity of marker."
+      },
+      {
+        "label": "B",
+        "text": "Total body water volume (TBW) is estimated using markers such as mannitol, inulin, and tritiated water."
+      },
+      {
+        "label": "C",
+        "text": "Intracellular fluid volume is calculated by subtracting plasma fluid from total body water."
+      },
+      {
+        "label": "D",
+        "text": "The volume of the compartment corresponds to the ratio of the amount of marker administered to the measured marker concentration."
+      },
+      {
+        "label": "E",
+        "text": "Plasma volume is calculated by subtracting intracellular fluid from interstitial fluid."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q10"
+  },
+  {
+    "id": "physio-41",
+    "num": 41,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the neuronal action potential, it is correct that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its triggering occurs whenever the membrane potential reaches the threshold."
+      },
+      {
+        "label": "B",
+        "text": "During its rising phase, the net ion flux through ion channels reverses direction and occurs outward."
+      },
+      {
+        "label": "C",
+        "text": "Its triggering involves voltage-gated Na+ channels whose opening can also be caused by a neurotransmitter."
+      },
+      {
+        "label": "D",
+        "text": "Its triggering often corresponds to a depolarization that can be caused by a decrease in membrane permeability to K+."
+      },
+      {
+        "label": "E",
+        "text": "Its propagation occurs with loss of amplitude."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q11",
+    "note_cle": "D est discutable (baisse de la perméabilité au K+ dépolarise) ; clé du corrigé conservée."
+  },
+  {
+    "id": "physio-42",
+    "num": 42,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning saltatory conduction, it is correct that it:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is slow."
+      },
+      {
+        "label": "B",
+        "text": "Is fast on poorly myelinated fibers."
+      },
+      {
+        "label": "C",
+        "text": "Involves unmyelinated and myelinated nerve fibers."
+      },
+      {
+        "label": "D",
+        "text": "Is facilitated by the condensation of transmembrane channels at the nodes of Ranvier."
+      },
+      {
+        "label": "E",
+        "text": "Concerns all afferent neuron axons."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q12"
+  },
+  {
+    "id": "physio-43",
+    "num": 43,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "About the sympathetic system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unlike the parasympathetic system, sympathetic preganglionic fibers secrete norepinephrine."
+      },
+      {
+        "label": "B",
+        "text": "Certain sympathetic postganglionic fibers secrete acetylcholine."
+      },
+      {
+        "label": "C",
+        "text": "The sympathetic chain extends from the lumbar region to the sacral spinal cord."
+      },
+      {
+        "label": "D",
+        "text": "The diameter of blood vessels is controlled only by the sympathetic system."
+      },
+      {
+        "label": "E",
+        "text": "It is called \"sympathetic\" because it is activated in peaceful situations."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q13"
+  },
+  {
+    "id": "physio-44",
+    "num": 44,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the autonomic nervous system. Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The neurotransmitter released by the preganglionic neuron is norepinephrine."
+      },
+      {
+        "label": "B",
+        "text": "The origin of the preganglionic neuron of the sympathetic nervous system is the sacral and lumbar spinal cord."
+      },
+      {
+        "label": "C",
+        "text": "Norepinephrine, a neurotransmitter of the parasympathetic nervous system, binds to muscarinic receptors."
+      },
+      {
+        "label": "D",
+        "text": "The parasympathetic nervous system has long preganglionic fibers and short postganglionic fibers."
+      },
+      {
+        "label": "E",
+        "text": "The origin of the preganglionic neurons of the parasympathetic nervous system is the intravisceral ganglia."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q14"
+  },
+  {
+    "id": "physio-45",
+    "num": 45,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Energy metabolism, which of the following propositions is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The alactic anaerobic pathway involves glucose."
+      },
+      {
+        "label": "B",
+        "text": "The lactic anaerobic pathway involves creatine phosphate."
+      },
+      {
+        "label": "C",
+        "text": "The aerobic pathway produces the most ATP."
+      },
+      {
+        "label": "D",
+        "text": "The alactic anaerobic pathway is the slowest to mobilize."
+      },
+      {
+        "label": "E",
+        "text": "The lactic anaerobic pathway provides the greatest power."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q15"
+  },
+  {
+    "id": "physio-46",
+    "num": 46,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Sarcomere organization, which of the following propositions is correct? DHP R: dihydropyridine receptor; RyR: Ryanodine receptor",
+    "options": [
+      {
+        "label": "A",
+        "text": "Transverse tubules allow asynchronous contraction of all sarcomeres."
+      },
+      {
+        "label": "B",
+        "text": "A triad consists of the end of a terminal cisterna and two T-tubules."
+      },
+      {
+        "label": "C",
+        "text": "At the triad, communication between cisterna and T-tubule occurs through the DHP R/RyR association."
+      },
+      {
+        "label": "D",
+        "text": "DHP R is a chemio-dependent protein."
+      },
+      {
+        "label": "E",
+        "text": "Activation of DHP R by AP deactivates RyR which changes conformation."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q16"
+  },
+  {
+    "id": "physio-47",
+    "num": 47,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the neuromuscular junction, which of the following propositions is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AP propagation activates voltage-gated calcium channels."
+      },
+      {
+        "label": "B",
+        "text": "This calcium influx causes acetylcholine synthesis."
+      },
+      {
+        "label": "C",
+        "text": "Acetylcholine binds to nicotinic receptors on the postsynaptic neuron and opens voltage-gated ion channels."
+      },
+      {
+        "label": "D",
+        "text": "Ion entry at the presynaptic element triggers an AP (this is the end-plate potential)."
+      },
+      {
+        "label": "E",
+        "text": "The AP remains at the motor end plate."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q17"
+  },
+  {
+    "id": "physio-48",
+    "num": 48,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Nerve fiber depolarization:",
+    "options": [
+      {
+        "label": "A",
+        "text": "In the diagram, A corresponds approximately to +30 mV; B to -45mV and C to -60mV."
+      },
+      {
+        "label": "B",
+        "text": "Phase 1 corresponds to the relative refractory period."
+      },
+      {
+        "label": "C",
+        "text": "During phase 2, the nerve fiber is hyperexcitable."
+      },
+      {
+        "label": "D",
+        "text": "During phase 2, only K+ permeable channels are open."
+      },
+      {
+        "label": "E",
+        "text": "During nerve fiber depolarization, the Na+/K+ pump is inhibited."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q18",
+    "note_cle": "Le schéma d'origine n'est pas disponible ; la pompe n'est pas réellement « inhibée » : à vérifier avec ton cours."
+  },
+  {
+    "id": "physio-49",
+    "num": 49,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The sarcomere, which of the following propositions is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is the functional unit of muscle."
+      },
+      {
+        "label": "B",
+        "text": "It consists of one I band and two half A bands."
+      },
+      {
+        "label": "C",
+        "text": "Actin filaments are only present in the I band."
+      },
+      {
+        "label": "D",
+        "text": "The A band contains only myosin filaments."
+      },
+      {
+        "label": "E",
+        "text": "The sarcomere consists only of contractile proteins."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q19"
+  },
+  {
+    "id": "physio-50",
+    "num": 50,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "During contraction of striated skeletal muscle:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actin filaments shorten."
+      },
+      {
+        "label": "B",
+        "text": "Myosin filaments shorten."
+      },
+      {
+        "label": "C",
+        "text": "Actin and myosin filaments shorten."
+      },
+      {
+        "label": "D",
+        "text": "A bands decrease."
+      },
+      {
+        "label": "E",
+        "text": "I bands decrease."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q20"
+  },
+  {
+    "id": "physio-51",
+    "num": 51,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Hematocrit:",
+    "options": [
+      {
+        "label": "A",
+        "text": "is the volume of blood occupied by red blood cells."
+      },
+      {
+        "label": "B",
+        "text": "is the hemoglobin concentration."
+      },
+      {
+        "label": "C",
+        "text": "corresponds to a coagulation time."
+      },
+      {
+        "label": "D",
+        "text": "is coagulation."
+      },
+      {
+        "label": "E",
+        "text": "is the mean corpuscular volume."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q21"
+  },
+  {
+    "id": "physio-52",
+    "num": 52,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The excitatory postsynaptic potential:",
+    "options": [
+      {
+        "label": "A",
+        "text": "is insufficient to depolarize the cell to the excitability threshold."
+      },
+      {
+        "label": "B",
+        "text": "obeys the all-or-none law."
+      },
+      {
+        "label": "C",
+        "text": "is a local depolarization of the postsynaptic element."
+      },
+      {
+        "label": "D",
+        "text": "is a hyperpolarization of the postsynaptic element."
+      },
+      {
+        "label": "E",
+        "text": "is due to an incoming potassium flux."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q22"
+  },
+  {
+    "id": "physio-53",
+    "num": 53,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "During the combustion of a harmonious mixture of foods following a meal, a man consumed an O2 volume of 40 L. What is the amount of energy produced?",
+    "options": [
+      {
+        "label": "A",
+        "text": "245Kcal"
+      },
+      {
+        "label": "B",
+        "text": "213Kcal"
+      },
+      {
+        "label": "C",
+        "text": "194Kcal"
+      },
+      {
+        "label": "D",
+        "text": "186Kcal"
+      },
+      {
+        "label": "E",
+        "text": "148Kcal"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q23"
+  },
+  {
+    "id": "physio-54",
+    "num": 54,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Suppose that the amount of energy found in the previous question is an energy surplus. Calculate the weight gain it represents:",
+    "options": [
+      {
+        "label": "A",
+        "text": "210g"
+      },
+      {
+        "label": "B",
+        "text": "170g"
+      },
+      {
+        "label": "C",
+        "text": "120g"
+      },
+      {
+        "label": "D",
+        "text": "90g"
+      },
+      {
+        "label": "E",
+        "text": "70g"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q24",
+    "note_cle": "Le facteur de conversion n'est pas indiqué (194 kcal ÷ ≈ 9,3 kcal/g donnerait ≈ 21 g) ; clé du corrigé conservée, à vérifier avec ton cours."
+  },
+  {
+    "id": "physio-55",
+    "num": 55,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Channeled lymph:",
+    "options": [
+      {
+        "label": "A",
+        "text": "is composed of three liquid compartments."
+      },
+      {
+        "label": "B",
+        "text": "is the medium in which the vast majority of the body's cells bathe."
+      },
+      {
+        "label": "C",
+        "text": "differs from non-channeled lymph mainly by its low protein concentration."
+      },
+      {
+        "label": "D",
+        "text": "contains fewer proteins than interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "is contained in the lymphatic vessels."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q25"
+  },
+  {
+    "id": "physio-56",
+    "num": 56,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Phases of chemical synaptic transmission: a- Release of the neurotransmitter by exocytosis into the synaptic cleft b- Neurotransmitter binding causes opening of ion channels c- Calcium entry into the synaptic bouton d- The neurotransmitter binds to its receptor on the postsynaptic neuron e- Depolarization of the synaptic bouton membrane f- Opening of voltage-gated calcium channels in the bouton membrane",
+    "options": [
+      {
+        "label": "A",
+        "text": "f- e- d- c- b- a"
+      },
+      {
+        "label": "B",
+        "text": "e- f- c- a- d- b"
+      },
+      {
+        "label": "C",
+        "text": "a- b- d- f- e- c"
+      },
+      {
+        "label": "D",
+        "text": "a- f- c- d- b- e"
+      },
+      {
+        "label": "E",
+        "text": "a- d- b- f- c- e"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q26"
+  },
+  {
+    "id": "physio-57",
+    "num": 57,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The proportion of water relative to body weight contained in the body is greater in:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Adult women than in children"
+      },
+      {
+        "label": "B",
+        "text": "Children than in infants"
+      },
+      {
+        "label": "C",
+        "text": "Children than in adult men"
+      },
+      {
+        "label": "D",
+        "text": "Adult women than in adult men"
+      },
+      {
+        "label": "E",
+        "text": "Elderly men than in adult men"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q27"
+  },
+  {
+    "id": "physio-58",
+    "num": 58,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les neurotransmetteurs",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Synapses: Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Chemical synapses allow bidirectional transmission of nerve impulses."
+      },
+      {
+        "label": "B",
+        "text": "In a chemical synapse, the two neuronal elements are separated by a synaptic cleft of 20 nm through which neuromediators travel."
+      },
+      {
+        "label": "C",
+        "text": "It is the increase in intracellular potassium that causes the release of the contents of presynaptic vesicles."
+      },
+      {
+        "label": "D",
+        "text": "Electrical synapses, rare in mammals, allow direct passive and unidirectional current flow through gap junctions."
+      },
+      {
+        "label": "E",
+        "text": "In the case of the excitatory synapse, an EPSP can generate an action potential at the axon hillock."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q28"
+  },
+  {
+    "id": "physio-59",
+    "num": 59,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the nervous system: Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Efferent pathways carry information from the PNS to the CNS and afferent pathways carry it from the CNS to the PNS."
+      },
+      {
+        "label": "B",
+        "text": "The somatic nervous system acts on skeletal muscles while the autonomic nervous system acts on smooth muscles and the heart."
+      },
+      {
+        "label": "C",
+        "text": "The two divisions of the autonomic nervous system have three points in common, including having two afferent neurons arranged in series, synapsing in an autonomic ganglion."
+      },
+      {
+        "label": "D",
+        "text": "Postganglionic fibers are short and secrete acetylcholine in the sympathetic system while preganglionic fibers are long and secrete norepinephrine."
+      },
+      {
+        "label": "E",
+        "text": "Peripheral receptors of the sympathetic system are muscarinic receptors."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q29"
+  },
+  {
+    "id": "physio-60",
+    "num": 60,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire énergétique",
+    "year": "2019-2020",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The maintenance diet of a healthy adult man is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "low activity between 11000KJ and 12500KJ"
+      },
+      {
+        "label": "B",
+        "text": "moderate activity between 16000 KJ and 17500KJ."
+      },
+      {
+        "label": "C",
+        "text": "high activity between 18000KJ and 19500KJ."
+      },
+      {
+        "label": "D",
+        "text": "is 10% lower than that of a child."
+      },
+      {
+        "label": "E",
+        "text": "is 5% lower than that of a woman."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2019-2020 (Our professor's) · Q30",
+    "note_cle": "Les valeurs de l'énoncé sont celles du corrigé ; à vérifier avec ton cours."
+  },
+  {
+    "id": "physio-61",
+    "num": 61,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Continuous nerve conduction (propagation from point to point):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is fast."
+      },
+      {
+        "label": "B",
+        "text": "Is slow."
+      },
+      {
+        "label": "C",
+        "text": "Only involves myelinated nerve fibers."
+      },
+      {
+        "label": "D",
+        "text": "Involves unmyelinated and myelinated nerve fibers."
+      },
+      {
+        "label": "E",
+        "text": "Is facilitated by the condensation of transmembrane channels at the nodes of Ranvier."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q1"
+  },
+  {
+    "id": "physio-62",
+    "num": 62,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "During contraction of striated skeletal muscle:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Actin filaments shorten."
+      },
+      {
+        "label": "B",
+        "text": "Myosin filaments shorten."
+      },
+      {
+        "label": "C",
+        "text": "Actin and myosin filaments shorten."
+      },
+      {
+        "label": "D",
+        "text": "A bands increase."
+      },
+      {
+        "label": "E",
+        "text": "I bands remain constant."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q2",
+    "note_cle": "Contradiction : en réalité la bande I diminue (cf. physio-50) et la bande A reste constante. Clé du corrigé conservée mais probablement erronée."
+  },
+  {
+    "id": "physio-63",
+    "num": 63,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Electrical transmission:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Synaptic cleft space is 10 to 50 nm."
+      },
+      {
+        "label": "B",
+        "text": "Transmission uses a neurotransmitter."
+      },
+      {
+        "label": "C",
+        "text": "The presynaptic element contains clear vesicles."
+      },
+      {
+        "label": "D",
+        "text": "Is unidirectional."
+      },
+      {
+        "label": "E",
+        "text": "Allows a brief response."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q3"
+  },
+  {
+    "id": "physio-64",
+    "num": 64,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les neurotransmetteurs",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Neuromediators released at the synapse responsible for neurotransmission:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Are small molecules."
+      },
+      {
+        "label": "B",
+        "text": "Bind to a metabotropic receptor."
+      },
+      {
+        "label": "C",
+        "text": "Are synthesized and stored at the axon terminal."
+      },
+      {
+        "label": "D",
+        "text": "Are released at and outside the active zone of the presynaptic cell."
+      },
+      {
+        "label": "E",
+        "text": "Have exclusively excitatory action."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q4"
+  },
+  {
+    "id": "physio-65",
+    "num": 65,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Acetylcholine:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Binds to a nicotinic receptor on skeletal striated muscle."
+      },
+      {
+        "label": "B",
+        "text": "Is reuptaken at the postsynaptic cell."
+      },
+      {
+        "label": "C",
+        "text": "Is co-transported with sodium."
+      },
+      {
+        "label": "D",
+        "text": "Is degraded at the presynaptic terminal."
+      },
+      {
+        "label": "E",
+        "text": "Its release is facilitated by calcium entry at the postsynaptic cell."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q5"
+  },
+  {
+    "id": "physio-66",
+    "num": 66,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Among the following propositions, specify which are correct:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The amount of water contained in the body is constant."
+      },
+      {
+        "label": "B",
+        "text": "A water balance is positive when gains are less than losses."
+      },
+      {
+        "label": "C",
+        "text": "The percentage of water is lower in children than in the elderly."
+      },
+      {
+        "label": "D",
+        "text": "A water balance is negative when gains are greater than losses."
+      },
+      {
+        "label": "E",
+        "text": "The percentage of water is lower in thin people than in obese people of the same age and sex."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q6",
+    "note_cle": "Les propositions B, D sont inversées (gains/pertes) et E est inversée ; seule A est retenue."
+  },
+  {
+    "id": "physio-67",
+    "num": 67,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Which phenomenon is responsible for rigor mortis?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Union of new ATP molecules to thick filaments."
+      },
+      {
+        "label": "B",
+        "text": "Dissociation of actin and myosin."
+      },
+      {
+        "label": "C",
+        "text": "Pumping of Ca++ ions into the sarcoplasmic reticulum."
+      },
+      {
+        "label": "D",
+        "text": "Permanent binding of myosin to thin filaments."
+      },
+      {
+        "label": "E",
+        "text": "Interaction of myosin bridges with actin."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q7"
+  },
+  {
+    "id": "physio-68",
+    "num": 68,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "A sarcomere is composed of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Two Z lines where thin filaments attach."
+      },
+      {
+        "label": "B",
+        "text": "Two I bands."
+      },
+      {
+        "label": "C",
+        "text": "Two A bands."
+      },
+      {
+        "label": "D",
+        "text": "Two A bands and one I band."
+      },
+      {
+        "label": "E",
+        "text": "Two I bands and one A band."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q8",
+    "note_cle": "A est aussi exacte (stries Z) ; clé du corrigé conservée."
+  },
+  {
+    "id": "physio-69",
+    "num": 69,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The myosin molecule is composed of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "8 polypeptide chains (4 heavy chains and 4 light chains)."
+      },
+      {
+        "label": "B",
+        "text": "6 polypeptide chains (4 heavy chains and 2 light chains)."
+      },
+      {
+        "label": "C",
+        "text": "6 polypeptide chains (2 heavy chains and 4 light chains)."
+      },
+      {
+        "label": "D",
+        "text": "2 heads and 2 myosin tails."
+      },
+      {
+        "label": "E",
+        "text": "1 head and 2 myosin tails."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q9"
+  },
+  {
+    "id": "physio-70",
+    "num": 70,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The autonomic nervous system is not regulated by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Circuits involving the cerebral cortex."
+      },
+      {
+        "label": "B",
+        "text": "The hippocampus."
+      },
+      {
+        "label": "C",
+        "text": "The hypothalamus."
+      },
+      {
+        "label": "D",
+        "text": "The basal ganglia and cerebellum."
+      },
+      {
+        "label": "E",
+        "text": "The reticular formation."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q10"
+  },
+  {
+    "id": "physio-71",
+    "num": 71,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The functioning of the Na+/K+ pump depends on:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Extracellular concentration of Na+."
+      },
+      {
+        "label": "B",
+        "text": "Intracellular concentration of K+."
+      },
+      {
+        "label": "C",
+        "text": "Extracellular concentration of Ca2+."
+      },
+      {
+        "label": "D",
+        "text": "Intracellular concentration of ATP."
+      },
+      {
+        "label": "E",
+        "text": "Extracellular concentration of ATP."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q11"
+  },
+  {
+    "id": "physio-72",
+    "num": 72,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the body compartments, which of the following propositions is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Plasma volume is 3 liters and interstitial fluid volume is 9 liters."
+      },
+      {
+        "label": "B",
+        "text": "Lymphatics drain excess water from intracellular fluid to plasma fluid."
+      },
+      {
+        "label": "C",
+        "text": "All water outputs are not equal to inputs, which are numerous."
+      },
+      {
+        "label": "D",
+        "text": "Only outputs, not inputs, of water pass through the interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "Transcellular fluids are part of the intracellular fluid."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q12"
+  },
+  {
+    "id": "physio-73",
+    "num": 73,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning ion channels and carrier proteins, which of the following propositions is true?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Passive transport always occurs against the concentration gradient."
+      },
+      {
+        "label": "B",
+        "text": "Ion channels correspond to facilitated diffusion."
+      },
+      {
+        "label": "C",
+        "text": "Facilitated diffusion requires energy."
+      },
+      {
+        "label": "D",
+        "text": "Carrier proteins correspond only to active transport."
+      },
+      {
+        "label": "E",
+        "text": "Passive transport and diffusion are synonymous."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q13"
+  },
+  {
+    "id": "physio-74",
+    "num": 74,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Action potential (AP). Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The repolarization phase of AP corresponds to sodium entry into the cell."
+      },
+      {
+        "label": "B",
+        "text": "It corresponds to potassium entry into the cell."
+      },
+      {
+        "label": "C",
+        "text": "It corresponds to sodium entry into the cell."
+      },
+      {
+        "label": "D",
+        "text": "Requires membrane depolarization to be triggered."
+      },
+      {
+        "label": "E",
+        "text": "It has two phases of absolute refractory period."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q14"
+  },
+  {
+    "id": "physio-75",
+    "num": 75,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Troponin: Choose the correct proposition:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Troponin I has an affinity for tropomyosin."
+      },
+      {
+        "label": "B",
+        "text": "Attaches myosin to actin."
+      },
+      {
+        "label": "C",
+        "text": "Troponin C has an affinity for myosin."
+      },
+      {
+        "label": "D",
+        "text": "Is a complex of 03 protein units."
+      },
+      {
+        "label": "E",
+        "text": "Answers C and D are correct."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q15",
+    "note_cle": "D (complexe de 3 sous-unités) est aussi exacte ; à vérifier avec ton cours."
+  },
+  {
+    "id": "physio-76",
+    "num": 76,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "During the molecular mechanism of contraction, the lack of ATP attachment to the myosin head means:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Binding of actin to myosin."
+      },
+      {
+        "label": "B",
+        "text": "Rigor mortis."
+      },
+      {
+        "label": "C",
+        "text": "A myosin head placed under tension."
+      },
+      {
+        "label": "D",
+        "text": "Release of actin from the actomyosin complex."
+      },
+      {
+        "label": "E",
+        "text": "No binding of actin to myosin."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q16"
+  },
+  {
+    "id": "physio-77",
+    "num": 77,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Measurement of body volumes:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Intracellular fluid volume is calculated by subtracting plasma fluid from total body water."
+      },
+      {
+        "label": "B",
+        "text": "Total body water volume (TBW) is estimated using markers such as mannitol, inulin, and tritiated water."
+      },
+      {
+        "label": "C",
+        "text": "It is done directly by dilution of a known quantity of marker."
+      },
+      {
+        "label": "D",
+        "text": "The volume of the compartment corresponds to the product of the amount of marker administered divided by the measured marker concentration."
+      },
+      {
+        "label": "E",
+        "text": "Interstitial volume is calculated by subtracting plasma fluid from extracellular fluid."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q17"
+  },
+  {
+    "id": "physio-78",
+    "num": 78,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the neuronal action potential, it is correct that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Its triggering often corresponds to a depolarization that can be caused by a decrease in membrane permeability to K+."
+      },
+      {
+        "label": "B",
+        "text": "During its rising phase, the net ion flux through ion channels reverses direction and occurs outward."
+      },
+      {
+        "label": "C",
+        "text": "Its triggering involves voltage-gated Na+ channels whose opening can also be caused by a neurotransmitter."
+      },
+      {
+        "label": "D",
+        "text": "Its propagation occurs with conservation of its amplitude."
+      },
+      {
+        "label": "E",
+        "text": "Its triggering occurs whenever the membrane hyperpolarizes."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q18"
+  },
+  {
+    "id": "physio-79",
+    "num": 79,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "About the sympathetic system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is called \"sympathetic\" because it is activated in peaceful situations."
+      },
+      {
+        "label": "B",
+        "text": "All sympathetic postganglionic fibers secrete adrenaline."
+      },
+      {
+        "label": "C",
+        "text": "The sympathetic chain extends from the thoracic spinal cord to the lumbar spinal cord."
+      },
+      {
+        "label": "D",
+        "text": "The diameter of blood vessels is controlled only by the sympathetic system."
+      },
+      {
+        "label": "E",
+        "text": "Unlike the sympathetic system, parasympathetic preganglionic fibers secrete acetylcholine."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q19"
+  },
+  {
+    "id": "physio-80",
+    "num": 80,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2019-2020 Rattrapage",
+    "session": "Rattrapage",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the autonomic nervous system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The origin of the preganglionic neurons of the parasympathetic nervous system is the intravisceral ganglia."
+      },
+      {
+        "label": "B",
+        "text": "It can be controlled by the prefrontal cortex."
+      },
+      {
+        "label": "C",
+        "text": "The parasympathetic nervous system has short preganglionic fibers and long postganglionic fibers."
+      },
+      {
+        "label": "D",
+        "text": "Norepinephrine, a neurotransmitter of the parasympathetic nervous system, binds to muscarinic receptors."
+      },
+      {
+        "label": "E",
+        "text": "The neurotransmitter released by the preganglionic neuron is norepinephrine."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "Rattrapage Physiologie Mostaganem 2019-2020 (Our professor's) · Q20"
+  },
+  {
+    "id": "physio-81",
+    "num": 81,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What is the distribution of phospholipids in the phospholipid bilayer of the plasma membrane?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hydrophilic heads are located towards the interior of the bilayer, and hydrophobic tails towards the exterior."
+      },
+      {
+        "label": "B",
+        "text": "Hydrophilic heads are located towards the exterior of the bilayer, and hydrophobic tails towards the interior."
+      },
+      {
+        "label": "C",
+        "text": "Phospholipids are randomly distributed in the bilayer."
+      },
+      {
+        "label": "D",
+        "text": "The distribution of phospholipids is symmetrical between the two leaflets of the bilayer."
+      },
+      {
+        "label": "E",
+        "text": "The distribution of phospholipids depends on the cell type and its environment."
+      }
+    ],
+    "answer": [
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q1"
+  },
+  {
+    "id": "physio-82",
+    "num": 82,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What determines the fluidity of the plasma membrane?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The presence of glycolipids in the phospholipid bilayer."
+      },
+      {
+        "label": "B",
+        "text": "The presence of cholesterol in the phospholipid bilayer."
+      },
+      {
+        "label": "C",
+        "text": "Covalent bonds between phospholipids and membrane proteins."
+      },
+      {
+        "label": "D",
+        "text": "Low temperature."
+      },
+      {
+        "label": "E",
+        "text": "High temperature."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q2"
+  },
+  {
+    "id": "physio-83",
+    "num": 83,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The diffusion rate of a molecule is proportional to:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The size of the molecule"
+      },
+      {
+        "label": "B",
+        "text": "The concentration gradient of the molecule"
+      },
+      {
+        "label": "C",
+        "text": "The hydrophobicity of the molecule"
+      },
+      {
+        "label": "D",
+        "text": "All answers are correct"
+      },
+      {
+        "label": "E",
+        "text": "None of the above answers are correct"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q3"
+  },
+  {
+    "id": "physio-84",
+    "num": 84,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Which membrane transport processes can ensure the transport of glucose from the intestinal lumen to the blood across intestinal epithelial cells?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Simple diffusion"
+      },
+      {
+        "label": "B",
+        "text": "Facilitated diffusion"
+      },
+      {
+        "label": "C",
+        "text": "Primary active transport"
+      },
+      {
+        "label": "D",
+        "text": "Secondary active transport"
+      },
+      {
+        "label": "E",
+        "text": "Exocytosis"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q4"
+  },
+  {
+    "id": "physio-85",
+    "num": 85,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Which of the following factors does not contribute to maintaining the resting potential?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Asymmetric distribution of Na+ and K+ ions on either side of the plasma membrane"
+      },
+      {
+        "label": "B",
+        "text": "Selective permeability of the plasma membrane to Na+ and K+ ions"
+      },
+      {
+        "label": "C",
+        "text": "Presence of specific ion channels for Na+ and K+"
+      },
+      {
+        "label": "D",
+        "text": "Generation of an electrostatic force by the Na+/K+ ATPase pump"
+      },
+      {
+        "label": "E",
+        "text": "Passive diffusion of Na+ and K+ ions according to their concentration gradient"
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q5",
+    "note_cle": "Question discutable : la diffusion passive de K+ est en réalité le facteur principal."
+  },
+  {
+    "id": "physio-86",
+    "num": 86,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the resting potential:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The resting potential is essential for the normal functioning of nerve and muscle cells."
+      },
+      {
+        "label": "B",
+        "text": "The resting potential is maintained by an electrochemical imbalance between the inside and outside of the cell."
+      },
+      {
+        "label": "C",
+        "text": "The resting potential is a property produced by the plasma membrane and membrane proteins."
+      },
+      {
+        "label": "D",
+        "text": "The resting potential is constant and does not change in response to external stimuli."
+      },
+      {
+        "label": "E",
+        "text": "The resting potential is a negative value due to the accumulation of negative ions inside the cell."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q6"
+  },
+  {
+    "id": "physio-87",
+    "num": 87,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What is the role of local potentials in cell communication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "They always trigger action potentials."
+      },
+      {
+        "label": "B",
+        "text": "They allow modulation of cell activity."
+      },
+      {
+        "label": "C",
+        "text": "They transmit information over long distances."
+      },
+      {
+        "label": "D",
+        "text": "They generate skeletal muscle contractions."
+      },
+      {
+        "label": "E",
+        "text": "B and C only"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q7"
+  },
+  {
+    "id": "physio-88",
+    "num": 88,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "During the absolute refractory period of an action potential:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Voltage-gated sodium channels are inactivated."
+      },
+      {
+        "label": "B",
+        "text": "Voltage-gated potassium channels are open."
+      },
+      {
+        "label": "C",
+        "text": "Voltage-gated sodium channels are open."
+      },
+      {
+        "label": "D",
+        "text": "The cell is unable to generate a new action potential."
+      },
+      {
+        "label": "E",
+        "text": "The plasma membrane is impermeable to ions."
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q8",
+    "note_cle": "Clé corrigée : C (canaux Na+ ouverts) est inexacte pendant la période réfractaire absolue."
+  },
+  {
+    "id": "physio-89",
+    "num": 89,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-neurale",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What are the major difference(s) between chemical and electrical synapses?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Chemical synapses are faster than electrical synapses."
+      },
+      {
+        "label": "B",
+        "text": "Electrical synapses are bidirectional, while chemical synapses are unidirectional."
+      },
+      {
+        "label": "C",
+        "text": "Chemical synapses are more prone to fatigue than electrical synapses."
+      },
+      {
+        "label": "D",
+        "text": "Electrical synapses require the presence of neurotransmitters, while chemical synapses do not."
+      },
+      {
+        "label": "E",
+        "text": "Chemical synapses are more common in the central nervous system, while electrical synapses are more common in the peripheral nervous system."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q9",
+    "note_cle": "C est aussi exacte en pratique ; clé du corrigé conservée."
+  },
+  {
+    "id": "physio-90",
+    "num": 90,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Transmission of nerve impulses at chemical synapses occurs by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Direct contact between neurons"
+      },
+      {
+        "label": "B",
+        "text": "Release of neurotransmitters into the synaptic space"
+      },
+      {
+        "label": "C",
+        "text": "Passage of an electrical current from one neuron to another"
+      },
+      {
+        "label": "D",
+        "text": "Fusion of synaptic vesicles with the presynaptic membrane"
+      },
+      {
+        "label": "E",
+        "text": "All of the above answers"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q10"
+  },
+  {
+    "id": "physio-91",
+    "num": 91,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Curare-induced paralysis is caused by:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Inhibition of acetylcholine release"
+      },
+      {
+        "label": "B",
+        "text": "Inhibition of acetylcholine synthesis"
+      },
+      {
+        "label": "C",
+        "text": "Inhibition of acetylcholine degradation"
+      },
+      {
+        "label": "D",
+        "text": "Activation of nicotinic receptors (nAChRs)"
+      },
+      {
+        "label": "E",
+        "text": "Inhibition of nicotinic receptors (nAChRs)"
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q11"
+  },
+  {
+    "id": "physio-92",
+    "num": 92,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the neuromuscular junction:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A miniature end-plate potential (MEPP) represents the content of one ACh vesicle."
+      },
+      {
+        "label": "B",
+        "text": "A muscle action potential (MAP) is the sum of a number of MEPPs."
+      },
+      {
+        "label": "C",
+        "text": "Each MAP can be generated by one MEPP."
+      },
+      {
+        "label": "D",
+        "text": "All answers are correct."
+      },
+      {
+        "label": "E",
+        "text": "None of the above answers are correct."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q12"
+  },
+  {
+    "id": "physio-93",
+    "num": 93,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning neuro-neuronal synapses:",
+    "options": [
+      {
+        "label": "A",
+        "text": "They produce local potentials that are largely suprathreshold."
+      },
+      {
+        "label": "B",
+        "text": "They are generally located in the CNS (central nervous system)."
+      },
+      {
+        "label": "C",
+        "text": "They can be located in the peripheral nervous system."
+      },
+      {
+        "label": "D",
+        "text": "A neuro-neuronal synapse can generate an action potential."
+      },
+      {
+        "label": "E",
+        "text": "None of the above answers are correct."
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q13"
+  },
+  {
+    "id": "physio-94",
+    "num": 94,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Temporal summation of EPSPs and IPSPs occurs when:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Multiple synapses converge on the same region of the postsynaptic membrane."
+      },
+      {
+        "label": "B",
+        "text": "A single neurotransmitter acts on different synapses."
+      },
+      {
+        "label": "C",
+        "text": "The frequency of presynaptic action potentials increases."
+      },
+      {
+        "label": "D",
+        "text": "The concentration of neurotransmitters increases."
+      },
+      {
+        "label": "E",
+        "text": "The postsynaptic membrane is hyperpolarized."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q14"
+  },
+  {
+    "id": "physio-95",
+    "num": 95,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Starling's law predicts that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Capillary filtration is always greater than capillary reabsorption."
+      },
+      {
+        "label": "B",
+        "text": "Capillary reabsorption is always greater than capillary filtration."
+      },
+      {
+        "label": "C",
+        "text": "Net transcapillary exchange depends on the balance between filtration and reabsorption forces."
+      },
+      {
+        "label": "D",
+        "text": "Net transcapillary exchange is always directed towards the interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "Net transcapillary exchange is always directed towards the blood."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q15"
+  },
+  {
+    "id": "physio-96",
+    "num": 96,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Lymphatic drainage is important for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Preventing edema"
+      },
+      {
+        "label": "B",
+        "text": "Strengthening the immune system"
+      },
+      {
+        "label": "C",
+        "text": "Eliminating toxins"
+      },
+      {
+        "label": "D",
+        "text": "All of the above answers"
+      },
+      {
+        "label": "E",
+        "text": "None of the above answers"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q16"
+  },
+  {
+    "id": "physio-97",
+    "num": 97,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Collapse:",
+    "options": [
+      {
+        "label": "A",
+        "text": "An increase in capillary oncotic pressure."
+      },
+      {
+        "label": "B",
+        "text": "Filtration is greater than reabsorption."
+      },
+      {
+        "label": "C",
+        "text": "Reabsorption is greater than filtration."
+      },
+      {
+        "label": "D",
+        "text": "Causes edema."
+      },
+      {
+        "label": "E",
+        "text": "Causes tissue anoxia."
+      }
+    ],
+    "answer": [
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q17"
+  },
+  {
+    "id": "physio-98",
+    "num": 98,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "At the 35th week of normal pregnancy in a young woman of average height and weight, it is correct that one observes:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A total weight gain of about 2 kg."
+      },
+      {
+        "label": "B",
+        "text": "An increase in interstitial fluid volume proportionally greater than that of plasma volume."
+      },
+      {
+        "label": "C",
+        "text": "An increase in intracellular fluid volumes proportionally greater than that of extracellular fluid volumes."
+      },
+      {
+        "label": "D",
+        "text": "An increase of about 8 liters in total body water."
+      },
+      {
+        "label": "E",
+        "text": "A decrease of about 2% in blood plasma osmotic pressure."
+      }
+    ],
+    "answer": [
+      "B",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q18"
+  },
+  {
+    "id": "physio-99",
+    "num": 99,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Antidiuretic hormone (ADH) is responsible for:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increasing the permeability of renal tubules to water, promoting its reabsorption and producing more concentrated urine."
+      },
+      {
+        "label": "B",
+        "text": "Decreasing the permeability of renal tubules to water, promoting its excretion and producing more dilute urine."
+      },
+      {
+        "label": "C",
+        "text": "Stimulating aldosterone secretion, which promotes sodium reabsorption."
+      },
+      {
+        "label": "D",
+        "text": "Inhibiting aldosterone secretion, which promotes sodium excretion."
+      },
+      {
+        "label": "E",
+        "text": "Regulating blood glucose levels."
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q19"
+  },
+  {
+    "id": "physio-100",
+    "num": 100,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "A motor end plate is:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A group of muscles working together for a specific movement."
+      },
+      {
+        "label": "B",
+        "text": "A motor neuron and the muscle fibers it innervates."
+      },
+      {
+        "label": "C",
+        "text": "A region of the brain responsible for motor coordination."
+      },
+      {
+        "label": "D",
+        "text": "A postsynaptic muscle membrane."
+      },
+      {
+        "label": "E",
+        "text": "A protein essential for muscle contraction."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q20"
+  },
+  {
+    "id": "physio-101",
+    "num": 101,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La physiologie du muscle strié squelettique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What is/are the main function(s) of tropomyosin in the sarcomere?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It anchors actin filaments."
+      },
+      {
+        "label": "B",
+        "text": "It regulates calcium ion concentration."
+      },
+      {
+        "label": "C",
+        "text": "It inhibits the ATPase activity of myosin."
+      },
+      {
+        "label": "D",
+        "text": "It forms the M line."
+      },
+      {
+        "label": "E",
+        "text": "It facilitates the binding between troponin and actin."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q21",
+    "note_cle": "Le rôle classique de la tropomyosine est de masquer les sites de liaison de la myosine ; à vérifier avec ton cours."
+  },
+  {
+    "id": "physio-102",
+    "num": 102,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Which of the following examples illustrate isometric contraction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Lifting a weight with an extended arm."
+      },
+      {
+        "label": "B",
+        "text": "Pushing against a wall without moving it."
+      },
+      {
+        "label": "C",
+        "text": "Pedaling a bicycle."
+      },
+      {
+        "label": "D",
+        "text": "Sitting on a chair."
+      },
+      {
+        "label": "E",
+        "text": "Walking."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q22"
+  },
+  {
+    "id": "physio-103",
+    "num": 103,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning ATP production during intense short- duration exercise:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Phosphocreatine is the main energy source."
+      },
+      {
+        "label": "B",
+        "text": "Anaerobic lactic glycolysis is heavily utilized."
+      },
+      {
+        "label": "C",
+        "text": "Aerobic metabolism plays an important role in ATP production."
+      },
+      {
+        "label": "D",
+        "text": "All answers are correct."
+      },
+      {
+        "label": "E",
+        "text": "None of the above answers are correct."
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q23"
+  },
+  {
+    "id": "physio-104",
+    "num": 104,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Which receptors are involved in preganglionic synaptic transmission?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nicotinic cholinergic receptors"
+      },
+      {
+        "label": "B",
+        "text": "Muscarinic cholinergic receptors"
+      },
+      {
+        "label": "C",
+        "text": "Peptidergic receptors"
+      },
+      {
+        "label": "D",
+        "text": "Dopaminergic receptors"
+      },
+      {
+        "label": "E",
+        "text": "Adrenergic receptors"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q24"
+  },
+  {
+    "id": "physio-105",
+    "num": 105,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Some examples of sympathetic reflex arcs and their effects:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reflex of vasodilation of blood vessels (decrease in blood pressure)."
+      },
+      {
+        "label": "B",
+        "text": "Reflex stimulating lacrimal gland secretion, causing tearing."
+      },
+      {
+        "label": "C",
+        "text": "Reflex decreasing intestinal motility and stimulating salivary glands."
+      },
+      {
+        "label": "D",
+        "text": "All of the above are examples of sympathetic reflex arcs."
+      },
+      {
+        "label": "E",
+        "text": "None of the above is an example of a sympathetic reflex arc."
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q25"
+  },
+  {
+    "id": "physio-106",
+    "num": 106,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Preganglionic and postganglionic neurons of the autonomic nervous system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Preganglionic neurons have their cell body in the central nervous system (CNS), while postganglionic neurons have their cell body in autonomic ganglia."
+      },
+      {
+        "label": "B",
+        "text": "Preganglionic neurons are myelinated, while postganglionic neurons are not."
+      },
+      {
+        "label": "C",
+        "text": "Preganglionic neurons release acetylcholine, while postganglionic neurons release norepinephrine or acetylcholine depending on the system (sympathetic or parasympathetic)."
+      },
+      {
+        "label": "D",
+        "text": "Preganglionic neurons are longer than postganglionic neurons."
+      },
+      {
+        "label": "E",
+        "text": "Preganglionic neurons are part of the somatic nervous system, while postganglionic neurons are part of the autonomic nervous system."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q26"
+  },
+  {
+    "id": "physio-107",
+    "num": 107,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What is the main effect of sympatholytics on blood pressure?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increase"
+      },
+      {
+        "label": "B",
+        "text": "Decrease"
+      },
+      {
+        "label": "C",
+        "text": "No significant effect"
+      },
+      {
+        "label": "D",
+        "text": "Increase or decrease depending on the specific drug"
+      },
+      {
+        "label": "E",
+        "text": "Increase in healthy people and decrease in people with high blood pressure"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q27"
+  },
+  {
+    "id": "physio-108",
+    "num": 108,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Which of the following organs is NOT innervated by the parasympathetic nervous system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Salivary glands"
+      },
+      {
+        "label": "B",
+        "text": "Pancreas"
+      },
+      {
+        "label": "C",
+        "text": "Large intestine"
+      },
+      {
+        "label": "D",
+        "text": "Adrenal glands"
+      },
+      {
+        "label": "E",
+        "text": "Urinary bladder"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q28"
+  },
+  {
+    "id": "physio-109",
+    "num": 109,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Where are the sympathetic and parasympathetic preganglionic and postganglionic neurons located?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sympathetic: preganglionic in the thoracic and lumbar spinal cord, postganglionic in paravertebral and collateral ganglia."
+      },
+      {
+        "label": "B",
+        "text": "Parasympathetic: preganglionic in the brainstem and sacral spinal cord, postganglionic in visceral ganglia."
+      },
+      {
+        "label": "C",
+        "text": "Sympathetic: preganglionic in the brainstem and sacral spinal cord, postganglionic in paravertebral and collateral ganglia."
+      },
+      {
+        "label": "D",
+        "text": "Parasympathetic: preganglionic in the thoracic and lumbar spinal cord, postganglionic in visceral ganglia."
+      },
+      {
+        "label": "E",
+        "text": "None of the above answers are correct."
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q29",
+    "note_cle": "Clé corrigée : A est aussi exacte."
+  },
+  {
+    "id": "physio-110",
+    "num": 110,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "The binding of acetylcholine to nicotinic cholinergic receptors (nAChRs) causes:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Depolarization of the postsynaptic membrane"
+      },
+      {
+        "label": "B",
+        "text": "Hyperpolarization of the postsynaptic membrane"
+      },
+      {
+        "label": "C",
+        "text": "An increase in acetylcholine release"
+      },
+      {
+        "label": "D",
+        "text": "A decrease in acetylcholine release"
+      },
+      {
+        "label": "E",
+        "text": "An increase in calcium ion concentration in glial cells"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q30"
+  },
+  {
+    "id": "physio-111",
+    "num": 111,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Among the following nutrients, which provides more energy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Carbohydrates"
+      },
+      {
+        "label": "B",
+        "text": "Lipids"
+      },
+      {
+        "label": "C",
+        "text": "Vitamin B12"
+      },
+      {
+        "label": "D",
+        "text": "Alcohol"
+      },
+      {
+        "label": "E",
+        "text": "Proteins"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q31"
+  },
+  {
+    "id": "physio-112",
+    "num": 112,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Among the following vitamins, which is teratogenic in excess during pregnancy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vitamin A"
+      },
+      {
+        "label": "B",
+        "text": "Vitamin E"
+      },
+      {
+        "label": "C",
+        "text": "Vitamin C"
+      },
+      {
+        "label": "D",
+        "text": "Vitamin D"
+      },
+      {
+        "label": "E",
+        "text": "Vitamin B6"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q32"
+  },
+  {
+    "id": "physio-113",
+    "num": 113,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Among the following vitamins, deficiency of which leads to anemia?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Vitamin A"
+      },
+      {
+        "label": "B",
+        "text": "Vitamin B12"
+      },
+      {
+        "label": "C",
+        "text": "Vitamin D"
+      },
+      {
+        "label": "D",
+        "text": "Vitamin B9"
+      },
+      {
+        "label": "E",
+        "text": "Vitamin K"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q33"
+  },
+  {
+    "id": "physio-114",
+    "num": 114,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La thermorégulation",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "What is the main factor responsible for variation in energy expenditure at rest?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Temperature variation"
+      },
+      {
+        "label": "B",
+        "text": "Dietary thermogenesis"
+      },
+      {
+        "label": "C",
+        "text": "Level of physical activity"
+      },
+      {
+        "label": "D",
+        "text": "Intellectual work"
+      },
+      {
+        "label": "E",
+        "text": "All answers are correct"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q34",
+    "note_cle": "Discutable : le métabolisme de base dépend surtout de la masse maigre, de l'âge, du sexe et des hormones."
+  },
+  {
+    "id": "physio-115",
+    "num": 115,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Among the following clinical signs, which could be due to vitamin C deficiency?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pellagra"
+      },
+      {
+        "label": "B",
+        "text": "Hyperkeratosis of hair follicles"
+      },
+      {
+        "label": "C",
+        "text": "Irritability"
+      },
+      {
+        "label": "D",
+        "text": "Gingivitis"
+      },
+      {
+        "label": "E",
+        "text": "Night blindness"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q35"
+  },
+  {
+    "id": "physio-116",
+    "num": 116,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Assimilation of food by the body consumes energy; among the following nutrients, which consumes more energy?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Alcohol"
+      },
+      {
+        "label": "B",
+        "text": "Triglycerides"
+      },
+      {
+        "label": "C",
+        "text": "Carbohydrates"
+      },
+      {
+        "label": "D",
+        "text": "Lipids"
+      },
+      {
+        "label": "E",
+        "text": "Proteins"
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q36"
+  },
+  {
+    "id": "physio-117",
+    "num": 117,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the neurotransmitter GABA (gamma- aminobutyric acid):",
+    "options": [
+      {
+        "label": "A",
+        "text": "GABA acts on GABA A and GABA B receptors located on the postsynaptic membrane of neurons."
+      },
+      {
+        "label": "B",
+        "text": "Activation of GABA A receptors by GABA hyperpolarizes the postsynaptic membrane by potassium efflux."
+      },
+      {
+        "label": "C",
+        "text": "GABA can also modulate neuronal activity by influencing the release of other neurotransmitters."
+      },
+      {
+        "label": "D",
+        "text": "A decrease in GABAergic activity in the brain can contribute to anxiety, epileptic seizures, and insomnia."
+      },
+      {
+        "label": "E",
+        "text": "Activation of GABA A receptors by GABA hyperpolarizes the postsynaptic membrane through chloride efflux."
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q37"
+  },
+  {
+    "id": "physio-118",
+    "num": 118,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning dopamine D1 and D2 receptors:",
+    "options": [
+      {
+        "label": "A",
+        "text": "D1 receptors are located on the presynaptic membrane, while D2 receptors are located on the postsynaptic membrane."
+      },
+      {
+        "label": "B",
+        "text": "D1 receptors are primarily involved in regulating motor function, while D2 receptors are involved in cognition and reward."
+      },
+      {
+        "label": "C",
+        "text": "D1 receptors are activated by dopamine and glutamate, while D2 receptors are activated only by dopamine."
+      },
+      {
+        "label": "D",
+        "text": "D1 receptors are coupled to stimulatory G proteins, while D2 receptors are coupled to inhibitory G proteins."
+      },
+      {
+        "label": "E",
+        "text": "D1 receptors are present in the striatum, while D2 receptors are present in the prefrontal cortex."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q38"
+  },
+  {
+    "id": "physio-119",
+    "num": 119,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the effects of norepinephrine:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Norepinephrine acts on alpha-adrenergic receptors to increase the force of heart contraction."
+      },
+      {
+        "label": "B",
+        "text": "Norepinephrine stimulates the release of glucose and fatty acids into the blood to provide energy to muscles and the brain during stress. Correction"
+      },
+      {
+        "label": "C",
+        "text": "Norepinephrine acts on beta-adrenergic receptors to increase heart rate and bronchodilation."
+      },
+      {
+        "label": "D",
+        "text": "Epinephrine, a hormone synthesized from dopamine in the adrenal glands, is primarily responsible for the \"fight or flight\" response in danger."
+      },
+      {
+        "label": "E",
+        "text": "Beta-blockers, used to treat high blood pressure, block the effects of norepinephrine on beta-adrenergic receptors."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q39",
+    "note_cle": "A est inexacte en toute rigueur (effet inotrope via β1) ; clé du corrigé conservée."
+  },
+  {
+    "id": "physio-120",
+    "num": 120,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2023-2024",
+    "session": "EMD",
+    "faculty": "Faculté de Médecine de Mostaganem",
+    "type": "QCM",
+    "text": "Concerning the effects of epinephrine on the body:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Epinephrine increases heart rate and the force of heart contraction."
+      },
+      {
+        "label": "B",
+        "text": "Epinephrine dilates the bronchi and facilitates breathing."
+      },
+      {
+        "label": "C",
+        "text": "Epinephrine increases blood glucose levels and the release of fatty acids into the blood."
+      },
+      {
+        "label": "D",
+        "text": "Epinephrine decreases digestive function and urine production."
+      },
+      {
+        "label": "E",
+        "text": "Epinephrine prepares the body for the \"fight or flight\" response in danger."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie Mostaganem 2023-2024 (Our professor's) · Q40"
+  },
+  {
+    "id": "physio-121",
+    "num": 121,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "During the action potential (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "The cytoplasmic membrane is more permeable to potassium than to sodium"
+      },
+      {
+        "label": "B",
+        "text": "The cytoplasmic membrane is more permeable to sodium than to potassium"
+      },
+      {
+        "label": "C",
+        "text": "The cytoplasmic membrane is permeable to sodium and potassium equally"
+      },
+      {
+        "label": "D",
+        "text": "Sodium entry occurs massively"
+      },
+      {
+        "label": "E",
+        "text": "Sodium entry occurs slowly"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q1",
+    "note_cle": "Clé corrigée : A (perméabilité K+ > Na+) décrit le repos, pas le PA."
+  },
+  {
+    "id": "physio-122",
+    "num": 122,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Destruction of the myelin sheath of a nerve fiber causes (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Slowing of nerve conduction velocity"
+      },
+      {
+        "label": "B",
+        "text": "Acceleration of nerve conduction velocity"
+      },
+      {
+        "label": "C",
+        "text": "No change in nerve conduction velocity"
+      },
+      {
+        "label": "D",
+        "text": "An action potential of reduced amplitude"
+      },
+      {
+        "label": "E",
+        "text": "An action potential of normal amplitude"
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q2"
+  },
+  {
+    "id": "physio-123",
+    "num": 123,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Continuous nerve conduction (propagation from point to point) (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Involves unmyelinated nerve fibers"
+      },
+      {
+        "label": "B",
+        "text": "Nerve conduction is slow"
+      },
+      {
+        "label": "C",
+        "text": "Subject to the theory of local circuits"
+      },
+      {
+        "label": "D",
+        "text": "Can involve myelinated nerve fibers"
+      },
+      {
+        "label": "E",
+        "text": "Becomes faster when the ambient temperature decreases"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q3"
+  },
+  {
+    "id": "physio-124",
+    "num": 124,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Saltatory nerve conduction: (check the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Involves unmyelinated nerve fibers"
+      },
+      {
+        "label": "B",
+        "text": "Nerve conduction is slow"
+      },
+      {
+        "label": "C",
+        "text": "Subject to the theory of local circuits"
+      },
+      {
+        "label": "D",
+        "text": "Involves myelinated nerve fibers"
+      },
+      {
+        "label": "E",
+        "text": "Becomes faster when the ambient temperature decreases"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q4"
+  },
+  {
+    "id": "physio-125",
+    "num": 125,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-neurale",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The triggering of an action potential in a central nervous system neuron requires the activation of: (check the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "A single synapse"
+      },
+      {
+        "label": "B",
+        "text": "Two synapses"
+      },
+      {
+        "label": "C",
+        "text": "At least 50 synapses"
+      },
+      {
+        "label": "D",
+        "text": "Between 3 and 10 synapses"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q5",
+    "note_cle": "Clé corrigée : cohérence avec physio-156 (au moins 50 synapses)."
+  },
+  {
+    "id": "physio-126",
+    "num": 126,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPSPs are potentials (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Not gradable"
+      },
+      {
+        "label": "B",
+        "text": "That require a critical level of depolarization (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "That establish quickly then disappear progressively in an exponential manner."
+      },
+      {
+        "label": "D",
+        "text": "That result from an increase in the permeability of the cytoplasmic membrane to sodium ions"
+      },
+      {
+        "label": "E",
+        "text": "Of very short duration"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q6",
+    "note_cle": "Clé corrigée pour cohérence avec les questions 157/180 : B est aussi exacte."
+  },
+  {
+    "id": "physio-127",
+    "num": 127,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPPs (end-plate potentials) are potentials (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gradable"
+      },
+      {
+        "label": "B",
+        "text": "That require a critical level of depolarization (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "That obey the all-or-none law"
+      },
+      {
+        "label": "D",
+        "text": "That result from an increase in the permeability of the cytoplasmic membrane to sodium ions"
+      },
+      {
+        "label": "E",
+        "text": "Local"
+      }
+    ],
+    "answer": [
+      "A",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q7"
+  },
+  {
+    "id": "physio-128",
+    "num": 128,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "At the neuromuscular junction (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Muscarinic receptors are pentamers"
+      },
+      {
+        "label": "B",
+        "text": "Acetylcholine is stored at the soma"
+      },
+      {
+        "label": "C",
+        "text": "Acetylcholine is synthesized at the soma"
+      },
+      {
+        "label": "D",
+        "text": "Acetylcholine is synthesized at the axon terminal"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q8"
+  },
+  {
+    "id": "physio-129",
+    "num": 129,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "IPSPs are potentials (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Not gradable"
+      },
+      {
+        "label": "B",
+        "text": "That require a critical level of depolarization (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "That establish quickly then disappear progressively in an exponential manner."
+      },
+      {
+        "label": "D",
+        "text": "That result from an increase in the permeability of the cytoplasmic membrane to Cl- ions"
+      },
+      {
+        "label": "E",
+        "text": "Of very short duration"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q9"
+  },
+  {
+    "id": "physio-130",
+    "num": 130,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Synaptic transmission in the sympathetic ANS between postganglionic neuron and effector organ: (check the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Can use m1, m2 receptors."
+      },
+      {
+        "label": "B",
+        "text": "Is essentially excitatory"
+      },
+      {
+        "label": "C",
+        "text": "Is GABAergic"
+      },
+      {
+        "label": "D",
+        "text": "Answers a and c are correct"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "E"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q10"
+  },
+  {
+    "id": "physio-131",
+    "num": 131,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "At the postganglionic fiber - effector organ junction of the parasympathetic system: (check the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "ACh acts on a and β  receptors"
+      },
+      {
+        "label": "B",
+        "text": "ACh acts on muscarinic receptors"
+      },
+      {
+        "label": "C",
+        "text": "Norepinephrine acts on a and β  receptors"
+      },
+      {
+        "label": "D",
+        "text": "ACh acts on nicotinic receptors"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q11"
+  },
+  {
+    "id": "physio-132",
+    "num": 132,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Ganglionic transmission in the ANS: (check the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cholinergic"
+      },
+      {
+        "label": "B",
+        "text": "Is adrenergic"
+      },
+      {
+        "label": "C",
+        "text": "Is GABAergic"
+      },
+      {
+        "label": "D",
+        "text": "All answers are false"
+      },
+      {
+        "label": "E",
+        "text": "Answers b and c are correct"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q12"
+  },
+  {
+    "id": "physio-133",
+    "num": 133,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The autonomic nervous system: (check the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is a central nervous system"
+      },
+      {
+        "label": "B",
+        "text": "Is a peripheral nervous system"
+      },
+      {
+        "label": "C",
+        "text": "Provides innervation to striated muscles"
+      },
+      {
+        "label": "D",
+        "text": "Involved in voluntary motor control"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q13"
+  },
+  {
+    "id": "physio-134",
+    "num": 134,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The sympathetic nervous system (check the correct answer):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cranio-lumbar"
+      },
+      {
+        "label": "B",
+        "text": "Is cranio-dorsal"
+      },
+      {
+        "label": "C",
+        "text": "Is cranio-sacral"
+      },
+      {
+        "label": "D",
+        "text": "Is dorso-lumbar"
+      },
+      {
+        "label": "E",
+        "text": "Is exclusively lumbar"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q14"
+  },
+  {
+    "id": "physio-135",
+    "num": 135,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The parasympathetic nervous system (check the correct answer):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cranio-lumbar"
+      },
+      {
+        "label": "B",
+        "text": "Is cranio-dorsal"
+      },
+      {
+        "label": "C",
+        "text": "Is cranio-sacral"
+      },
+      {
+        "label": "D",
+        "text": "Is dorso-lumbar"
+      },
+      {
+        "label": "E",
+        "text": "Is exclusively lumbar"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q15"
+  },
+  {
+    "id": "physio-136",
+    "num": 136,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "It is correct that the intracellular volume (check the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Represents about 40% of body mass."
+      },
+      {
+        "label": "B",
+        "text": "Can be measured directly by antipyrine dilution."
+      },
+      {
+        "label": "C",
+        "text": "Increases when its osmotic pressure is lower than that of the extracellular environment."
+      },
+      {
+        "label": "D",
+        "text": "Decreases in case of hypertonicity of the interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "Is constantly decreased when natremia is below 135 mmol/liter."
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q16"
+  },
+  {
+    "id": "physio-137",
+    "num": 137,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "It is correct that: (check the correct answer(s))",
+    "options": [
+      {
+        "label": "A",
+        "text": "Isosmotic retention results in intracellular hyperhydration"
+      },
+      {
+        "label": "B",
+        "text": "Isosmotic losses give extracellular dehydration"
+      },
+      {
+        "label": "C",
+        "text": "Water loss without salt loss gives intracellular dehydration"
+      },
+      {
+        "label": "D",
+        "text": "Positive water balance with hypo-osmolality gives intracellular hyperhydration"
+      },
+      {
+        "label": "E",
+        "text": "Lymphatic obstruction causes upstream edema"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q17"
+  },
+  {
+    "id": "physio-138",
+    "num": 138,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The interstitial volume: (check the correct answer(s))",
+    "options": [
+      {
+        "label": "A",
+        "text": "Increases when intracapillary oncotic pressure decreases"
+      },
+      {
+        "label": "B",
+        "text": "Decreases when intracapillary hydrostatic pressure decreases"
+      },
+      {
+        "label": "C",
+        "text": "Increases when its hydrostatic pressure is positive"
+      },
+      {
+        "label": "D",
+        "text": "Its oncotic pressure is low because it is poor in proteins"
+      },
+      {
+        "label": "E",
+        "text": "The exchange mechanism of this volume and the intracellular volume is filtration-reabsorption."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q18"
+  },
+  {
+    "id": "physio-139",
+    "num": 139,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Respiratory calorimetry: (check the correct answer(s))",
+    "options": [
+      {
+        "label": "A",
+        "text": "The thermal coefficient of oxygen for carbohydrates is 4.7 kcal/liter of oxygen"
+      },
+      {
+        "label": "B",
+        "text": "The thermal coefficient of oxygen for lipids is 4.7 kcal/liter of oxygen"
+      },
+      {
+        "label": "C",
+        "text": "The average thermal coefficient of oxygen is 4.83 kcal/liter of oxygen"
+      },
+      {
+        "label": "D",
+        "text": "The respiratory quotient varies between 0.7 and 1"
+      },
+      {
+        "label": "E",
+        "text": "The respiratory quotient of a mixed diet is 1"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q19",
+    "note_cle": "Clé corrigée : le coefficient de 4,7 kcal/L est celui des lipides, pas des glucides (5,05)."
+  },
+  {
+    "id": "physio-140",
+    "num": 140,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2020-2021",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "It is correct that: (check the correct answer(s))",
+    "options": [
+      {
+        "label": "A",
+        "text": "A balanced diet is a diet appropriate for each physiological situation."
+      },
+      {
+        "label": "B",
+        "text": "Slow-assimilation carbohydrates are preferred"
+      },
+      {
+        "label": "C",
+        "text": "Lipids are energetic and allow the absorption of vitamins A, D, E, K"
+      },
+      {
+        "label": "D",
+        "text": "Trans fatty acids are recommended in the diet"
+      },
+      {
+        "label": "E",
+        "text": "The essential fatty acids are oleic acid and palmitic acid"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q20"
+  },
+  {
+    "id": "physio-141",
+    "num": 141,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La thermorégulation",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Anabolism is (choose the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Activity of destruction of living matter"
+      },
+      {
+        "label": "B",
+        "text": "Activity of maintenance of living matter"
+      },
+      {
+        "label": "C",
+        "text": "Energy-consuming activity"
+      },
+      {
+        "label": "D",
+        "text": "Activity increasing protein synthesis"
+      },
+      {
+        "label": "E",
+        "text": "Activity increasing heat production"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q1"
+  },
+  {
+    "id": "physio-142",
+    "num": 142,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Energy balance (choose the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is the difference between energy outputs and inputs"
+      },
+      {
+        "label": "B",
+        "text": "Is positive in adolescents"
+      },
+      {
+        "label": "C",
+        "text": "Is calculated from the energy value of urinary urea"
+      },
+      {
+        "label": "D",
+        "text": "Is negative in the elderly"
+      },
+      {
+        "label": "E",
+        "text": "Is positive in case of weight loss"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q2"
+  },
+  {
+    "id": "physio-143",
+    "num": 143,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La bioénergétique",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Among the factors that vary basal metabolism, which increase basal metabolism?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Pregnancy"
+      },
+      {
+        "label": "B",
+        "text": "Aging"
+      },
+      {
+        "label": "C",
+        "text": "Cold"
+      },
+      {
+        "label": "D",
+        "text": "Hypothyroidism"
+      },
+      {
+        "label": "E",
+        "text": "Coffee"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q3"
+  },
+  {
+    "id": "physio-144",
+    "num": 144,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La thermorégulation",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "In a cold environment, the human body maintains its temperature through the following mechanisms (choose the correct answers):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Decrease in basal metabolism"
+      },
+      {
+        "label": "B",
+        "text": "Increase in thyroid hormone secretion"
+      },
+      {
+        "label": "C",
+        "text": "Cutaneous vasoconstriction"
+      },
+      {
+        "label": "D",
+        "text": "Sweat production"
+      },
+      {
+        "label": "E",
+        "text": "Increase in heat production"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q4"
+  },
+  {
+    "id": "physio-145",
+    "num": 145,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La thermorégulation",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "In a very hot environment (above 37°C), choose the correct answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Only evaporation allows excess heat to be eliminated"
+      },
+      {
+        "label": "B",
+        "text": "Thermolysis by conduction helps promote heat loss"
+      },
+      {
+        "label": "C",
+        "text": "Thermogenesis increases"
+      },
+      {
+        "label": "D",
+        "text": "Sweating promotes heat gain"
+      },
+      {
+        "label": "E",
+        "text": "Erection of hairs helps promote heat loss"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q5"
+  },
+  {
+    "id": "physio-146",
+    "num": 146,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Water in the body, choose the false answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The amount of water in the body is proportional to muscle mass"
+      },
+      {
+        "label": "B",
+        "text": "Water volume is much lower in the elderly than in adults"
+      },
+      {
+        "label": "C",
+        "text": "The vascular compartment is the largest fluid compartment"
+      },
+      {
+        "label": "D",
+        "text": "The extracellular compartment includes the interstitium and plasma"
+      },
+      {
+        "label": "E",
+        "text": "Cerebrospinal fluid is part of the transcellular fluid"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q6"
+  },
+  {
+    "id": "physio-147",
+    "num": 147,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Among the following propositions, which is false?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The interstitium and plasma have almost identical electrolyte composition"
+      },
+      {
+        "label": "B",
+        "text": "Potassium is the major anion of the intracellular environment"
+      },
+      {
+        "label": "C",
+        "text": "Sodium is the major cation of the extracellular environment"
+      },
+      {
+        "label": "D",
+        "text": "There is more chlorine in the interstitium than in plasma"
+      },
+      {
+        "label": "E",
+        "text": "There is less bicarbonate in cells compared to the interstitium"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q7"
+  },
+  {
+    "id": "physio-148",
+    "num": 148,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire énergétique",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Among the following propositions, which is correct?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The energy value of lipids is 4 kcal/g."
+      },
+      {
+        "label": "B",
+        "text": "The daily energy needs of an elderly person are independent of physical activity"
+      },
+      {
+        "label": "C",
+        "text": "Muscle mass is the main determinant of basal metabolism"
+      },
+      {
+        "label": "D",
+        "text": "The essential role of dietary proteins is to provide energy"
+      },
+      {
+        "label": "E",
+        "text": "Carbohydrates should be limited to 10% of the daily energy intake"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q8"
+  },
+  {
+    "id": "physio-149",
+    "num": 149,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Concerning the resting potential of a nerve fiber:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is explained by non-diffusible anions such as Cl-"
+      },
+      {
+        "label": "B",
+        "text": "Is explained by the inequality in K+ concentration on either side of the membrane"
+      },
+      {
+        "label": "C",
+        "text": "It involves active mechanisms that expel K+ and bring in Na+"
+      },
+      {
+        "label": "D",
+        "text": "It involves only Na+ and K+ which play an essential role because they are the only ions used by the Na+/K+ pump"
+      },
+      {
+        "label": "E",
+        "text": "Is due to the fact that there is a permanent leakage of sodium and potassium at the membrane level"
+      }
+    ],
+    "answer": [
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q9"
+  },
+  {
+    "id": "physio-150",
+    "num": 150,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Among the following statements, which characterize the functioning of the neuromuscular junction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The mediator is always acetylcholine"
+      },
+      {
+        "label": "B",
+        "text": "Curare blocks transmission by binding to acetylcholine receptors"
+      },
+      {
+        "label": "C",
+        "text": "Is always excitatory even at antagonistic muscles"
+      },
+      {
+        "label": "D",
+        "text": "Acetylcholinesterases released by the motor neuron action potential degrade acetylcholine"
+      },
+      {
+        "label": "E",
+        "text": "Can be the site of fatigue in the case of repeated stimulation"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q10"
+  },
+  {
+    "id": "physio-151",
+    "num": 151,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The autonomic nervous system: (choose the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is a somatic nervous system"
+      },
+      {
+        "label": "B",
+        "text": "Is a peripheral nervous system"
+      },
+      {
+        "label": "C",
+        "text": "Provides innervation to striated muscles"
+      },
+      {
+        "label": "D",
+        "text": "Can intervene in voluntary motor control"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q11"
+  },
+  {
+    "id": "physio-152",
+    "num": 152,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The sympathetic nervous system: (choose the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cranio-lumbar"
+      },
+      {
+        "label": "B",
+        "text": "Is cranio-dorsal"
+      },
+      {
+        "label": "C",
+        "text": "Is cranio-sacral"
+      },
+      {
+        "label": "D",
+        "text": "Is dorso-lumbar"
+      },
+      {
+        "label": "E",
+        "text": "Is exclusively lumbar."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q12"
+  },
+  {
+    "id": "physio-153",
+    "num": 153,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The parasympathetic nervous system: (choose the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cranio-lumbar"
+      },
+      {
+        "label": "B",
+        "text": "Is cranio-dorsal"
+      },
+      {
+        "label": "C",
+        "text": "Is cranio-sacral"
+      },
+      {
+        "label": "D",
+        "text": "Is dorso-lumbar"
+      },
+      {
+        "label": "E",
+        "text": "Is exclusively lumbar."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q13"
+  },
+  {
+    "id": "physio-154",
+    "num": 154,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Ganglionic transmission in the ANS: (choose the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cholinergic"
+      },
+      {
+        "label": "B",
+        "text": "Is adrenergic"
+      },
+      {
+        "label": "C",
+        "text": "Is GABAergic"
+      },
+      {
+        "label": "D",
+        "text": "All answers are false"
+      },
+      {
+        "label": "E",
+        "text": "Answers b and c are correct"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q14"
+  },
+  {
+    "id": "physio-155",
+    "num": 155,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "At the postganglionic fiber - effector organ junction of the parasympathetic system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "ACh acts on a and β  receptors"
+      },
+      {
+        "label": "B",
+        "text": "ACh acts on muscarinic receptors"
+      },
+      {
+        "label": "C",
+        "text": "Norepinephrine acts on a and β  receptors"
+      },
+      {
+        "label": "D",
+        "text": "ACh acts on nicotinic receptors"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q15"
+  },
+  {
+    "id": "physio-156",
+    "num": 156,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-neurale",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The triggering of an action potential in a central nervous system neuron requires the activation of: (choose the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "A single synapse"
+      },
+      {
+        "label": "B",
+        "text": "Two synapses"
+      },
+      {
+        "label": "C",
+        "text": "At least 50 synapses"
+      },
+      {
+        "label": "D",
+        "text": "Between 3 and 10 synapses"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q16"
+  },
+  {
+    "id": "physio-157",
+    "num": 157,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPSPs are potentials (choose the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Not gradable"
+      },
+      {
+        "label": "B",
+        "text": "That require a critical level of depolarization (threshold) to give rise to an action potential"
+      },
+      {
+        "label": "C",
+        "text": "That establish quickly then disappear progressively in an exponential manner"
+      },
+      {
+        "label": "D",
+        "text": "That result from an increase in the permeability of the cytoplasmic membrane to sodium ions"
+      },
+      {
+        "label": "E",
+        "text": "Of very short duration"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q17",
+    "note_cle": "Clé corrigée : D (entrée de Na+) est aussi exacte."
+  },
+  {
+    "id": "physio-158",
+    "num": 158,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPPs (end-plate potentials) are potentials:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gradable"
+      },
+      {
+        "label": "B",
+        "text": "That require a critical level of depolarization (threshold) to give rise to an action potential"
+      },
+      {
+        "label": "C",
+        "text": "That obey the all-or-none law"
+      },
+      {
+        "label": "D",
+        "text": "That result from an increase in the permeability of the cytoplasmic membrane to sodium ions"
+      },
+      {
+        "label": "E",
+        "text": "Local"
+      }
+    ],
+    "answer": [
+      "A",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q18",
+    "note_cle": "Clé corrigée : D est exacte et B est écartée (cohérence avec physio-127)."
+  },
+  {
+    "id": "physio-159",
+    "num": 159,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "At the neuromuscular junction (choose the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Muscarinic receptors are pentamers"
+      },
+      {
+        "label": "B",
+        "text": "Acetylcholine is stored at the soma"
+      },
+      {
+        "label": "C",
+        "text": "Acetylcholine is synthesized at the soma"
+      },
+      {
+        "label": "D",
+        "text": "Acetylcholine is synthesized at the axon terminal"
+      },
+      {
+        "label": "E",
+        "text": "All answers are false"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q19"
+  },
+  {
+    "id": "physio-160",
+    "num": 160,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2022-2023",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "IPSPs are potentials (choose the correct answer(s)):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Not gradable"
+      },
+      {
+        "label": "B",
+        "text": "That require a critical level of depolarization (threshold) to give rise to an action potential"
+      },
+      {
+        "label": "C",
+        "text": "That establish quickly then disappear progressively in an exponential manner"
+      },
+      {
+        "label": "D",
+        "text": "That result from an increase in the permeability of the cytoplasmic membrane to Cl- ions"
+      },
+      {
+        "label": "E",
+        "text": "Of very short duration"
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q20"
+  },
+  {
+    "id": "physio-161",
+    "num": 161,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-neurale",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Triggering an action potential in a central nervous system neuron requires activation of:",
+    "options": [
+      {
+        "label": "A",
+        "text": "A single synapse"
+      },
+      {
+        "label": "B",
+        "text": "Two synapses"
+      },
+      {
+        "label": "C",
+        "text": "At least 50 synapses"
+      },
+      {
+        "label": "D",
+        "text": "Between 3 and 10 synapses"
+      },
+      {
+        "label": "E",
+        "text": "All the answers are false"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q1"
+  },
+  {
+    "id": "physio-162",
+    "num": 162,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPSPs (Excitatory Postsynaptic Potentials) are potentials that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Are non-gradable."
+      },
+      {
+        "label": "B",
+        "text": "Require a critical depolarization level (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "Establish quickly and then disappear progressively in an exponential manner."
+      },
+      {
+        "label": "D",
+        "text": "Result from an increase in cytoplasmic membrane permeability to sodium and potassium ions."
+      },
+      {
+        "label": "E",
+        "text": "Are of very short duration."
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q2"
+  },
+  {
+    "id": "physio-163",
+    "num": 163,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The sympathetic nervous system: (choose the correct answer)",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cranio-lumbar"
+      },
+      {
+        "label": "B",
+        "text": "Is cranio-dorsal"
+      },
+      {
+        "label": "C",
+        "text": "Is cranio-sacral"
+      },
+      {
+        "label": "D",
+        "text": "Is dorso-lumbar"
+      },
+      {
+        "label": "E",
+        "text": "Is exclusively lumbar."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q3"
+  },
+  {
+    "id": "physio-164",
+    "num": 164,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le système nerveux autonome",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The parasympathetic nervous system:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is cranio-lumbar"
+      },
+      {
+        "label": "B",
+        "text": "Is cranio-dorsal"
+      },
+      {
+        "label": "C",
+        "text": "Is cranio-sacral"
+      },
+      {
+        "label": "D",
+        "text": "Is dorso-lumbar"
+      },
+      {
+        "label": "E",
+        "text": "Is exclusively lumbar."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q4"
+  },
+  {
+    "id": "physio-165",
+    "num": 165,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "What are the functions of ATP in the excitation- contraction coupling of skeletal muscle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "It provides the energy necessary for the dissociation of actin-myosin bridges."
+      },
+      {
+        "label": "B",
+        "text": "It allows the release of acetylcholine by nerve endings."
+      },
+      {
+        "label": "C",
+        "text": "It transports calcium into the muscle fiber."
+      },
+      {
+        "label": "D",
+        "text": "Its hydrolysis allows the sliding cycle of actin filaments and thus the shortening of the sarcomere."
+      },
+      {
+        "label": "E",
+        "text": "It generates the action potential in the muscle fiber."
+      }
+    ],
+    "answer": [
+      "A",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q5"
+  },
+  {
+    "id": "physio-166",
+    "num": 166,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La contraction musculaire de MMS",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Which events occur during excitation-contraction coupling of skeletal muscle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Acetylcholine is released by nerve endings."
+      },
+      {
+        "label": "B",
+        "text": "Voltage-dependent calcium channels in the sarcoplasmic reticulum membrane open."
+      },
+      {
+        "label": "C",
+        "text": "Calcium ions bind to troponin C."
+      },
+      {
+        "label": "D",
+        "text": "Actin and myosin bridges are formed."
+      },
+      {
+        "label": "E",
+        "text": "Calcium is actively pumped out of the muscle cell."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q6"
+  },
+  {
+    "id": "physio-167",
+    "num": 167,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-neurale",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Spatial summation in excitatory synapses:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is a phenomenon concerning neuro-neuronal synapses."
+      },
+      {
+        "label": "B",
+        "text": "Is the simultaneous arrival of several EPSPs at the level of dendrites causing local depolarizations that sum up."
+      },
+      {
+        "label": "C",
+        "text": "Local depolarizations generate electrotonus."
+      },
+      {
+        "label": "D",
+        "text": "The summation of electrotonus gives rise to an action potential at the level of the axon hillock if the threshold is reached."
+      },
+      {
+        "label": "E",
+        "text": "The summation of electrotonus gives rise to an action potential at the level of the soma of the neuron if the threshold is reached."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q7"
+  },
+  {
+    "id": "physio-168",
+    "num": 168,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Neuronal excitability:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is due to the ability of the neuronal membrane to maintain a trans-membrane potential difference called resting potential."
+      },
+      {
+        "label": "B",
+        "text": "Is the capacity of the neuron to respond quickly by a sudden change of charges on both sides of the membrane."
+      },
+      {
+        "label": "C",
+        "text": "Is the capacity of neuron axons to transmit information in the form of electrical signals."
+      },
+      {
+        "label": "D",
+        "text": "Is due to the electrical properties of the neuron membrane."
+      },
+      {
+        "label": "E",
+        "text": "Is an expression of the action potential."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q8"
+  },
+  {
+    "id": "physio-169",
+    "num": 169,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The relative refractory period of the neuron membrane:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is a state concerning the resting potential."
+      },
+      {
+        "label": "B",
+        "text": "Is the inability of the neuron membrane to return to a resting state."
+      },
+      {
+        "label": "C",
+        "text": "When the polarization of the membrane is being restored after the 1st stimulus, a 2nd stimulus can trigger an action potential."
+      },
+      {
+        "label": "D",
+        "text": "If two stimuli are very close, the second shock no longer provokes a response. Thus, when the membrane is completely depolarized, it is inexcitable."
+      },
+      {
+        "label": "E",
+        "text": "Is a state of complete inexcitability of the membrane."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q9"
+  },
+  {
+    "id": "physio-170",
+    "num": 170,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel d'action",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Saltatory nerve conduction:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Concerns myelinated nerve fibers."
+      },
+      {
+        "label": "B",
+        "text": "Is fast."
+      },
+      {
+        "label": "C",
+        "text": "Concerns unmyelinated nerve fibers."
+      },
+      {
+        "label": "D",
+        "text": "Is slow."
+      },
+      {
+        "label": "E",
+        "text": "Is explained by the theory of local circuits."
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q10"
+  },
+  {
+    "id": "physio-171",
+    "num": 171,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Regarding the neuromuscular junction:",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is only one neurotransmitter (acetylcholine)."
+      },
+      {
+        "label": "B",
+        "text": "There is a wide variety of chemical mediators released by the presynaptic terminal."
+      },
+      {
+        "label": "C",
+        "text": "It can respond by excitation or inhibition (i.e., EPSP or IPSP)."
+      },
+      {
+        "label": "D",
+        "text": "Triggering an action potential post-synaptically requires activation of at least 50 to 100 synapses."
+      },
+      {
+        "label": "E",
+        "text": "We never talk about an inhibitory junction."
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q11"
+  },
+  {
+    "id": "physio-172",
+    "num": 172,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Regarding the neuro-neuronal junction:",
+    "options": [
+      {
+        "label": "A",
+        "text": "There is only one neurotransmitter (acetylcholine)."
+      },
+      {
+        "label": "B",
+        "text": "There is a wide variety of chemical mediators released by the presynaptic terminal."
+      },
+      {
+        "label": "C",
+        "text": "It can respond by excitation or inhibition (i.e., EPSP or IPSP)."
+      },
+      {
+        "label": "D",
+        "text": "Triggering an action potential post-synaptically requires activation of at least 50 to 100 synapses."
+      },
+      {
+        "label": "E",
+        "text": "We never talk about inhibitory post-synaptic potential."
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q12"
+  },
+  {
+    "id": "physio-173",
+    "num": 173,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Regarding chemical synaptic transmission:",
+    "options": [
+      {
+        "label": "A",
+        "text": "The role of calcium is primordial."
+      },
+      {
+        "label": "B",
+        "text": "The absence of calcium does not hinder (does not stop) synaptic transmission."
+      },
+      {
+        "label": "C",
+        "text": "Post-synaptic receptors are voltage-gated."
+      },
+      {
+        "label": "D",
+        "text": "The chemical mediator is stored at the level of the synaptic cleft."
+      },
+      {
+        "label": "E",
+        "text": "The chemical mediator or one of its components can be recaptured by the presynaptic element."
+      }
+    ],
+    "answer": [
+      "A",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q13"
+  },
+  {
+    "id": "physio-174",
+    "num": 174,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Regarding the resting potential of a nerve fiber:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It is explained by non-diffusible anions like Cl-."
+      },
+      {
+        "label": "B",
+        "text": "It is explained by the concentration inequality of K+ on both sides of the membrane."
+      },
+      {
+        "label": "C",
+        "text": "It implies active mechanisms that pump out K+ and pull in Na+."
+      },
+      {
+        "label": "D",
+        "text": "It implies only Na+ and K+ which play an essential role because they are the only ions used by the Na+/K+ pump."
+      },
+      {
+        "label": "E",
+        "text": "It is due to the fact that there is a permanent leak of sodium and potassium at the membrane level."
+      }
+    ],
+    "answer": [
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q14"
+  },
+  {
+    "id": "physio-175",
+    "num": 175,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Which of the following statements characterize the functioning of the neuromuscular junction?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The mediator is always acetylcholine."
+      },
+      {
+        "label": "B",
+        "text": "Curare blocks transmission by binding to acetylcholine receptors."
+      },
+      {
+        "label": "C",
+        "text": "It is always excitatory, even at the level of antagonist muscles."
+      },
+      {
+        "label": "D",
+        "text": "Acetylcholinesterases released by the motor neuron action potential degrade acetylcholine."
+      },
+      {
+        "label": "E",
+        "text": "It can be the site of fatigue in the case of repeated stimulation."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q15"
+  },
+  {
+    "id": "physio-176",
+    "num": 176,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "IPSPs (Inhibitory Postsynaptic Potentials) are potentials that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Are non-gradable."
+      },
+      {
+        "label": "B",
+        "text": "Require a critical level of depolarization (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "Establish quickly and then disappear progressively in an exponential manner."
+      },
+      {
+        "label": "D",
+        "text": "Result from an increase in cytoplasmic membrane permeability to Cl- ions."
+      },
+      {
+        "label": "E",
+        "text": "Are of very short duration."
+      }
+    ],
+    "answer": [
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q16",
+    "note_cle": "Clé corrigée : D est exacte (entrée de Cl-), cf. physio-129."
+  },
+  {
+    "id": "physio-177",
+    "num": 177,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPPs (End-Plate Potentials) are potentials that are:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Gradable."
+      },
+      {
+        "label": "B",
+        "text": "Requiring a critical level of depolarization (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "Obeying the all-or-nothing law."
+      },
+      {
+        "label": "D",
+        "text": "Resulting from an increase in cytoplasmic membrane permeability to sodium ions."
+      },
+      {
+        "label": "E",
+        "text": "Of very short duration."
+      }
+    ],
+    "answer": [
+      "A",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q17",
+    "note_cle": "Clé corrigée : D est exacte ; B écartée (cohérence avec physio-127)."
+  },
+  {
+    "id": "physio-178",
+    "num": 178,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La synapse neuro-musculaire",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "At the level of the neuromuscular junction:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Muscarinic receptors are pentamers."
+      },
+      {
+        "label": "B",
+        "text": "Acetylcholine is stored at the level of the soma."
+      },
+      {
+        "label": "C",
+        "text": "Acetylcholine is synthesized at the level of the soma."
+      },
+      {
+        "label": "D",
+        "text": "Acetylcholine is synthesized at the level of the axon terminal."
+      },
+      {
+        "label": "E",
+        "text": "Calcium is stored at the level of the presynaptic element."
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q18"
+  },
+  {
+    "id": "physio-179",
+    "num": 179,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The motor unit:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is the set of an Alpha motor neuron and one muscle fiber it innervates."
+      },
+      {
+        "label": "B",
+        "text": "Is the set of an Alpha motor neuron and all the muscle fibers it innervates."
+      },
+      {
+        "label": "C",
+        "text": "Is the set of a motor nerve and the muscle it innervates."
+      },
+      {
+        "label": "D",
+        "text": "Is the part of the muscle fiber where the ACh receptors are located."
+      },
+      {
+        "label": "E",
+        "text": "Is the set of several Alpha motor neurons and all the muscle fibers they innervate."
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q19"
+  },
+  {
+    "id": "physio-180",
+    "num": 180,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les synapses et la transmission synaptique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "EPSPs are potentials that:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Are non-gradable."
+      },
+      {
+        "label": "B",
+        "text": "Require a critical level of depolarization (threshold) to give rise to an action potential."
+      },
+      {
+        "label": "C",
+        "text": "Establish quickly and then disappear progressively in an exponential manner."
+      },
+      {
+        "label": "D",
+        "text": "Result from an increase in cytoplasmic membrane permeability to sodium and potassium ions."
+      },
+      {
+        "label": "E",
+        "text": "Are of very short duration."
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q20",
+    "note_cle": "Clé corrigée : D est exacte (canaux cationiques Na+/K+)."
+  },
+  {
+    "id": "physio-181",
+    "num": 181,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Check the exact statement(s):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Total body water represents about 60 to 65% of body weight in adults."
+      },
+      {
+        "label": "B",
+        "text": "Fluids are divided into intracellular and extracellular fluid."
+      },
+      {
+        "label": "C",
+        "text": "Water represents about 20L in young children."
+      },
+      {
+        "label": "D",
+        "text": "Extracellular fluid includes plasma and interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "Intracellular fluid includes plasma and interstitial fluid."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q21"
+  },
+  {
+    "id": "physio-182",
+    "num": 182,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "The extracellular compartment:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Is characterized by its high concentration of potassium and magnesium."
+      },
+      {
+        "label": "B",
+        "text": "Is characterized by its high concentration of sodium (142 mEq/L)."
+      },
+      {
+        "label": "C",
+        "text": "Is characterized by its high concentration of chloride (Cl-). Correction"
+      },
+      {
+        "label": "D",
+        "text": "Is composed of plasma and interstitial fluid."
+      },
+      {
+        "label": "E",
+        "text": "Is the water present outside the cells and represents 40% of body weight."
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q22"
+  },
+  {
+    "id": "physio-183",
+    "num": 183,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Plasma:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Represents about 5% of the extracellular volume."
+      },
+      {
+        "label": "B",
+        "text": "Represents about 5% of the intracellular volume."
+      },
+      {
+        "label": "C",
+        "text": "Has the same composition as the interstitial fluid."
+      },
+      {
+        "label": "D",
+        "text": "Is rich in proteins."
+      },
+      {
+        "label": "E",
+        "text": "The cations and anions have a concentration equal to about 300 mEq/L."
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q23",
+    "note_cle": "A est imprécise (≈ 5 % du poids corporel) ; clé du corrigé conservée."
+  },
+  {
+    "id": "physio-184",
+    "num": 184,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Check the correct statement(s):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Micronutrients are present in food in small quantities."
+      },
+      {
+        "label": "B",
+        "text": "Macronutrients represent the major part of our daily food ration."
+      },
+      {
+        "label": "C",
+        "text": "Micronutrients include carbohydrates, lipids, and minerals."
+      },
+      {
+        "label": "D",
+        "text": "Proteins do not provide energy."
+      },
+      {
+        "label": "E",
+        "text": "Carbohydrates represent about 50 to 55% of the total energy intake (TEI)."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q24",
+    "note_cle": "Clé corrigée : A et B sont aussi exactes."
+  },
+  {
+    "id": "physio-185",
+    "num": 185,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Concerning intake and energy needs:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Proteins represent 10 to 20% of TEI."
+      },
+      {
+        "label": "B",
+        "text": "Proteins allow tissue renewal."
+      },
+      {
+        "label": "C",
+        "text": "Dietary fibers help prevent constipation by retaining water present in food."
+      },
+      {
+        "label": "D",
+        "text": "Essential amino acids are synthesized by our organism."
+      },
+      {
+        "label": "E",
+        "text": "1g of lipids provides 9 kcal."
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q25"
+  },
+  {
+    "id": "physio-186",
+    "num": 186,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "La ration alimentaire non énergétique",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Check the correct answer:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Recommended water intake is 4 L."
+      },
+      {
+        "label": "B",
+        "text": "Cholesterol is necessary for the production of sex hormones and is supplied solely by food."
+      },
+      {
+        "label": "C",
+        "text": "Vitamins are subdivided into two groups: fat-soluble vitamins and water-soluble vitamins."
+      },
+      {
+        "label": "D",
+        "text": "Fat-soluble vitamins are represented by: vitamins A, D, E, K and the C and B group vitamins."
+      },
+      {
+        "label": "E",
+        "text": "Recommended fat intake is 50 to 55%."
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q26",
+    "note_cle": "Clé corrigée : A (4 L) est inexacte ; C est exacte."
+  },
+  {
+    "id": "physio-187",
+    "num": 187,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Le potentiel de repos",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Check the correct statement(s):",
+    "options": [
+      {
+        "label": "A",
+        "text": "Sodium is the most abundant constituent of the intracellular medium."
+      },
+      {
+        "label": "B",
+        "text": "Plasma osmolarity is 300 mOsmol/L."
+      },
+      {
+        "label": "C",
+        "text": "In case of isotonic water loss, the intracellular compartment is modified."
+      },
+      {
+        "label": "D",
+        "text": "In case of isotonic water loss, water moves from the intracellular medium to the extracellular medium."
+      },
+      {
+        "label": "E",
+        "text": "In case of isotonic water loss, natremia (blood sodium) is normal."
+      }
+    ],
+    "answer": [
+      "B",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q27",
+    "note_cle": "Clé corrigée : B (≈ 300 mOsm/L) est exacte."
+  },
+  {
+    "id": "physio-188",
+    "num": 188,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Concerning hyponatremic hypotonic dehydration:",
+    "options": [
+      {
+        "label": "A",
+        "text": "It results in an increase in extracellular osmolarity."
+      },
+      {
+        "label": "B",
+        "text": "Sodium loss is greater than water loss."
+      },
+      {
+        "label": "C",
+        "text": "Water moves from the extracellular sector to the intracellular sector."
+      },
+      {
+        "label": "D",
+        "text": "Natremia is low."
+      },
+      {
+        "label": "E",
+        "text": "It results in extracellular hyperhydration."
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q28"
+  },
+  {
+    "id": "physio-189",
+    "num": 189,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Hypernatremic or hypertonic dehydration:",
+    "options": [
+      {
+        "label": "A",
+        "text": "Results in a decrease in intracellular water volume."
+      },
+      {
+        "label": "B",
+        "text": "Sodium loss is greater than water loss."
+      },
+      {
+        "label": "C",
+        "text": "Water loss is predominantly water."
+      },
+      {
+        "label": "D",
+        "text": "It results in an increase in intracellular osmolarity."
+      },
+      {
+        "label": "E",
+        "text": "Causes a movement of water from the intracellular sector to the extracellular sector."
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q29",
+    "note_cle": "Clé corrigée : A et D sont aussi exactes."
+  },
+  {
+    "id": "physio-190",
+    "num": 190,
+    "module": "physiologie",
+    "moduleTitle": "Physiologie",
+    "chapter": "Les Compartiments liquidiens",
+    "year": "2024-2025",
+    "session": "EMD",
+    "faculty": "Section Inter-Facultés",
+    "type": "QCM",
+    "text": "Concerning exchanges between interstitial fluid and intracellular fluid:",
+    "options": [
+      {
+        "label": "A",
+        "text": "They occur through the capillary wall."
+      },
+      {
+        "label": "B",
+        "text": "They occur through the cell membrane."
+      },
+      {
+        "label": "C",
+        "text": "They occur by 3 types of transport: passive transport, active transport, and water transport by osmosis."
+      },
+      {
+        "label": "D",
+        "text": "Active transport occurs from the most concentrated medium to the least concentrated medium."
+      },
+      {
+        "label": "E",
+        "text": "Passive transfers of water by osmosis are governed by osmotic pressure gradients between the inside and outside of the cell."
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "E"
+    ],
+    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q30"
+  }
+];

@@ -859,6 +859,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Hématologie 22/05/2022 - Q21 (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 05/03/2023 - Q20 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Les signes biologiques de la LMC en phase chronique sont :",
@@ -1275,6 +1280,21 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q1 Théorie (Q36 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 05/03/2023 - Q31 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q37 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q18 (Mostaganem)",
+        "type": "Rattrapage",
+        "annee": "2025"
       }
     ],
     "question": "Quel est l'intérêt de la classification TNM en cancérologie :",
@@ -1359,6 +1379,16 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q3 Théorie (Q38 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 05/03/2023 - Q33 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q32 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "La classification OMS de l'état général des patients atteints de cancer :",
@@ -1401,6 +1431,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q4 Théorie (Q39 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q20 (Mostaganem)",
+        "type": "Rattrapage",
+        "annee": "2025"
       }
     ],
     "question": "Comment poser le diagnostic positif d'un cancer du sein :",
@@ -1443,6 +1478,21 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q5 Théorie (Q40 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 05/03/2023 - Q35 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q33 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q17 (Mostaganem)",
+        "type": "Rattrapage",
+        "annee": "2025"
       }
     ],
     "question": "Parmi les cancers suivants ; lesquels sont considérés comme ostéophiles :",
@@ -1484,6 +1534,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q6 Théorie (Q41 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 05/03/2023 - Q36 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Dans les études épidémiologiques, les avantages d'une étude prospective (cohorte) sont :",
@@ -1569,6 +1624,16 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q8 Théorie (Q43 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 05/03/2023 - Q38 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q35 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les conditions d'un dépistage de masse d'un cancer :",
@@ -1612,6 +1677,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q9 Théorie (Q44 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q19 (Mostaganem)",
+        "type": "Rattrapage",
+        "annee": "2025"
       }
     ],
     "question": "Quelles sont les buts de la chimiothérapie à visée palliative :",
@@ -1655,6 +1725,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Oncologie 22/05/2022 - Q10 Théorie (Q45 Corrigé) (Mostaganem)",
         "type": "EMD",
         "annee": "2022"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q36 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "La réunion de concertation pluridisciplinaire (RCP) :",
@@ -2681,49 +2756,6 @@ window.QCM_HEMATO = [
     }
   },
   {
-    "id": "hemato-065",
-    "module": "hemato-oncologie",
-    "chapitre": "Leucémie myéloïde chronique (LMC)",
-    "chapitre_num": 7,
-    "section": "Syndromes myéloprolifératifs",
-    "source": {
-      "texte": "Examen Onco-Hématologie 05/03/2023 - Q20 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 05/03/2023 - Q20 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Les signes biologiques de la LMC en phase chronique sont :",
-    "propositions": {
-      "A": "Hyperleucocytose >100000/mm3",
-      "B": "Polynucléose neutrophile (30-40%), éosinophilie (5 -10%), basophilie (3-10%).",
-      "C": "Présence de myélémie > 20%",
-      "D": "Translocation 9-22 et/ou le transcrit BCR-ABL",
-      "E": "Présence de 20 % de blastes médullaires"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "Le diagnostic biologique de certitude de la LMC en phase chronique associe : une hyperleucocytose franche souvent > 100 G/L (A) ; une myélémie importante et harmonieuse supérieure à 20 % comportant tous les stades de maturation myéloïde (C) ; une augmentation conjointe des éosinophiles et des basophiles (B) ; et la présence caractéristique du chromosome Philadelphie t(9;22) codant pour la protéine chimérique oncogénique BCR-ABL1 à activité tyrosine kinase constitutive (D). La présence de 20 % de blastes définit la crise blastique (leucémie aiguë) et exclut la phase chronique (E faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Leucocytose majeure souvent comprise entre 50 000 et 300 000/mm³.",
-      "B": "Vrai (Corrigé officiel : B). L'association éosinophilie + basophilie constante est hautement évocatrice d'un syndrome myéloprolifératif.",
-      "C": "Vrai (Corrigé officiel : C). Myélémie étagée avec présence de métamyélocytes et myélocytes prédominants.",
-      "D": "Vrai (Corrigé officiel : D). Marqueur cytogénétique et moléculaire obligatoire définissant la maladie.",
-      "E": "Faux. Blastes >= 20 % = crise blastique (phase aiguë).",
-      "_synthese": "Biologie de la LMC : Hyperleucocytose majeure (A), basophilie/éosinophilie (B), myélémie > 20 % (C) et translocation t(9;22) / BCR-ABL (D).",
-      "_remarque": "Score des phosphatases alcalines leucocytaires (PAL) bas ou nul en phase chronique."
-    }
-  },
-  {
     "id": "hemato-066",
     "module": "hemato-oncologie",
     "chapitre": "Leucémies aigues",
@@ -2864,6 +2896,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Onco-Hématologie 05/03/2023 - Q24 (Mostaganem)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q17 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les signes cliniques de gravité du PTI sont :",
@@ -3134,48 +3171,6 @@ window.QCM_HEMATO = [
     }
   },
   {
-    "id": "hemato-076",
-    "module": "hemato-oncologie",
-    "chapitre": "Échelles d'évaluation et classification en cancérologie",
-    "chapitre_num": 18,
-    "section": "Stadification en oncologie",
-    "source": {
-      "texte": "Examen Onco-Hématologie 05/03/2023 - Q31 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 05/03/2023 - Q31 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Quel est l'intérêt de la classification TNM en cancérologie :",
-    "propositions": {
-      "A": "Prévoir et guider le pronostic",
-      "B": "Universaliser les attitudes thérapeutiques",
-      "C": "Poser le diagnostic d'un cancer",
-      "D": "Dépister les cancers rares",
-      "E": "Échanger les informations entre les différentes équipes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "La classification TNM de l'UICC : sert à apprécier l'extension anatomique de la tumeur afin d'établir le pronostic (A), harmoniser et universaliser les stratégies thérapeutiques selon le stade (B), et faciliter la communication scientifique et clinique standardisée entre équipes médicales multidisciplinaires (E). Elle ne sert ni au diagnostic positif (réservé à l'examen anatomopathologique de la biopsie, C faux) ni au dépistage (D faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Déterminant pronostique majeur dans toutes les tumeurs solides.",
-      "B": "Vrai (Corrigé officiel : B). Guide les indications chirurgicales, radiothérapiques et systémiques.",
-      "C": "Faux. Le diagnostic est histologique (biopsie).",
-      "D": "Faux. Ne joue aucun rôle dans le dépistage de population.",
-      "E": "Vrai (Corrigé officiel : E). Permet un langage universel et reproductible entre centres anticancéreux.",
-      "_synthese": "Intérêts du TNM : Pronostic (A), Stratégie thérapeutique universelle (B), Échanges d'informations (E).",
-      "_remarque": "TNM : T = Tumeur primitive, N = Ganglions régionaux, M = Métastases à distance."
-    }
-  },
-  {
     "id": "hemato-077",
     "module": "hemato-oncologie",
     "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
@@ -3215,48 +3210,6 @@ window.QCM_HEMATO = [
       "E": "Vrai (Corrigé officiel : E). Formation d'adduits à l'ADN et pontages inter-brins lors de l'attaque chimique directe.",
       "_synthese": "Initiation de la cancérogenèse : Lésions directes de l'ADN = Mutations ponctuelles (A), Délétions (C), Pontages covalents (E). Promotion = Prolifération clonale ; Progression = Angiogenèse et métastases.",
       "_remarque": "L'étape d'initiation est irréversible, mais une cellule initiée ne devient pas tumorale sans promoteurs."
-    }
-  },
-  {
-    "id": "hemato-078",
-    "module": "hemato-oncologie",
-    "chapitre": "Échelles d'évaluation et classification en cancérologie",
-    "chapitre_num": 18,
-    "section": "Oncologie générale & Staging",
-    "source": {
-      "texte": "Examen Onco-Hématologie 05/03/2023 - Q33 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 05/03/2023 - Q33 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "La classification OMS de l'état général des patients atteints de cancer :",
-    "propositions": {
-      "A": "OMS 0 : activité normale",
-      "B": "OMS 1 : activités physiques importantes restreintes, mais patient ambulant, capable de fournir un travail léger",
-      "C": "OMS 2 : patient pas capable de se prendre en charge, alité moins de 50 % du temps, mais capable de fournir un travail",
-      "D": "OMS 3 : plus de 70 % du temps alité ou assis",
-      "E": "OMS 4 : grabataire, confiné au lit ou dans une chaise"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "L'indice de performance selon l'OMS (Performance Status, échelle de Zubrod-ECOG) comporte 5 niveaux : OMS 0 : Patient totalement autonome, activité normale identique à l'état antérieur (A vrai). OMS 1 : Activités physiques intenses diminuées mais patient ambulant capable d'effectuer un travail léger (B vrai). OMS 2 : Patient ambulant capable de se prendre en charge entièrement mais incapable de travailler, alité moins de 50 % du temps de veille (C faux). OMS 3 : Patient alité ou au fauteuil plus de 50 % de la journée (et non > 70 %, D faux). OMS 4 : Grabataire, confiné en permanence au lit ou au fauteuil, dépendant total (E vrai).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Échelle OMS grade 0 = normal.",
-      "B": "Vrai (Corrigé officiel : B). Échelle OMS grade 1 = restriction des efforts intenses.",
-      "C": "Faux. OMS 2 est autonome pour les gestes de la vie quotidienne mais incapable de travailler.",
-      "D": "Faux. Le seuil est de plus de 50 % (et non 70 %).",
-      "E": "Vrai (Corrigé officiel : E). Échelle OMS grade 4 = grabataire dépendant.",
-      "_synthese": "Échelle OMS de Performance Status : 0 = normal (A) ; 1 = activité légère (B) ; 2 = alité < 50% sans travail ; 3 = alité > 50% ; 4 = grabataire complet (E).",
-      "_remarque": "Indice équivalent : Échelle de Karnofsky (de 100 % à 0 %)."
     }
   },
   {
@@ -3302,89 +3255,6 @@ window.QCM_HEMATO = [
     }
   },
   {
-    "id": "hemato-080",
-    "module": "hemato-oncologie",
-    "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
-    "chapitre_num": 16,
-    "section": "Sites métastatiques",
-    "source": {
-      "texte": "Examen Onco-Hématologie 05/03/2023 - Q35 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 05/03/2023 - Q35 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Parmi les cancers suivants ; lesquels sont considérés comme ostéophiles :",
-    "propositions": {
-      "A": "Cancer de la prostate",
-      "B": "Cancer du poumon",
-      "C": "Cancer de l'ovaire",
-      "D": "Cancer du colon",
-      "E": "Cancer de l'endomètre"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "explication": "Les tumeurs ostéophiles ont une affinité biologique et vasculaire élective pour le tissu osseux médullaire : le cancer de la prostate (A, métastases ostéoblastiques condensantes chez plus de 80 % des formes métastatiques) et le cancer bronchique (B, métastases ostéolytiques précoces du squelette axial). Les cancers colorectaux (D) métastasent principalement au foie et aux poumons ; les cancers gynécologiques ovariens (C) et de l'endomètre (E) métastasent préférentiellement dans le péritoine et le pelvis, et n'atteignent les os qu'exceptionnellement à des stades ultimes.",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Prototype absolu de tumeur primitive ostéophile.",
-      "B": "Vrai (Corrigé officiel : B). Métastases lytiques fréquentes révélatrices de cancer bronchopulmonaire.",
-      "C": "Faux. Tropisme péritonéal prédominant (carcinose péritonéale).",
-      "D": "Faux. Tropisme portal hépatique (veine porte).",
-      "E": "Faux. Extension locorégionale et ganglionnaire pelvienne.",
-      "_synthese": "Cancers ostéophiles : Prostate (A), Poumon (B), Sein, Rein, Thyroïde.",
-      "_remarque": "Complications majeures des métastases osseuses : compression médullaire épidurale (urgence chirurgicale), fractures pathologiques et hypercalcémie."
-    }
-  },
-  {
-    "id": "hemato-081",
-    "module": "hemato-oncologie",
-    "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
-    "chapitre_num": 16,
-    "section": "Méthodologie épidémiologique",
-    "source": {
-      "texte": "Examen Onco-Hématologie 05/03/2023 - Q36 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 05/03/2023 - Q36 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Dans les études épidémiologiques, les avantages d'une étude prospective (cohorte) sont :",
-    "propositions": {
-      "A": "Estimation directe du risque",
-      "B": "Un seul facteur étudié à la fois, mais plusieurs maladies peuvent être étudiées",
-      "C": "Information fiable",
-      "D": "Rapide et peu coûteuse",
-      "E": "Permet de définir l'Odds Ratio (OR)"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explication": "Dans une étude de cohorte prospective : elle mesure directement l'incidence de la maladie chez les exposés et non-exposés, permettant le calcul direct du Risque Relatif (RR) (A) ; elle permet d'étudier l'ensemble des maladies associées à un facteur d'exposition unique (B) ; les données sont recueillies de manière prospective et standardisée avant l'apparition de la maladie, garantissant une information de haute fiabilité sans biais de mémoire (C). Ces études sont longues, lourdes et coûteuses (D faux), et l'Odds Ratio est l'indice calculé dans les études cas-témoins (E faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Mesure directe des taux d'incidence cumulée.",
-      "B": "Vrai (Corrigé officiel : B). Un facteur de risque unique permet d'explorer de multiples critères de jugement morbides.",
-      "C": "Vrai (Corrigé officiel : C). Qualité maximale des données sans biais rétrospectif de mémorisation.",
-      "D": "Faux. Très coûteuse et nécessitant un suivi prolongé sur plusieurs années.",
-      "E": "Faux. L'OR caractérise les études cas-témoins.",
-      "_synthese": "Avantages de la cohorte prospective : Mesure directe du risque (A), évaluation de plusieurs maladies (B), fiabilité des données (C).",
-      "_remarque": "Niveau de preuve scientifique : Cohorte prospective > Étude cas-témoins > Étude transversale."
-    }
-  },
-  {
     "id": "hemato-082",
     "module": "hemato-oncologie",
     "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
@@ -3400,6 +3270,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Onco-Hématologie 05/03/2023 - Q37 (Mostaganem)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q34 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Une étude descriptive permet d'évaluer :",
@@ -3428,49 +3303,6 @@ window.QCM_HEMATO = [
     }
   },
   {
-    "id": "hemato-083",
-    "module": "hemato-oncologie",
-    "chapitre": "Prévention et dépistage du cancer",
-    "chapitre_num": 17,
-    "section": "Critères de dépistage",
-    "source": {
-      "texte": "Examen Onco-Hématologie 05/03/2023 - Q38 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 05/03/2023 - Q38 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Les conditions d'un dépistage de masse d'un cancer :",
-    "propositions": {
-      "A": "Cancer fréquent (problème de santé publique)",
-      "B": "Détectable a un stade tardif",
-      "C": "Responsable d'une mortalité et/ ou d'une morbidité importante",
-      "D": "Histoire naturelle connue, Période asymptomatique longue",
-      "E": "Existence d'un traitement améliorant la morbidité et ou la mortalité"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Critères de Wilson et Jungner (OMS) pour justifier un dépistage organisé de masse : 1) Maladie fréquente représentant un lourd fardeau sanitaire (A) ; 2) Mortalité et morbidité sévères (C) ; 3) Histoire naturelle de la maladie bien élucidée avec un stade préclinique de latence asymptomatique suffisamment long pour être détecté (D) ; 4) Disponibilité d'un traitement précoce efficace démontrant une réduction prouvée de la mortalité par rapport au traitement au stade clinique (E). La détection doit se faire à un stade précoce ou pré-cancéreux, et non à un stade tardif (B faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Fardeau de santé publique justifiant l'intervention de masse.",
-      "B": "Faux. Le dépistage vise obligatoirement une détection précoce pour guérir la maladie.",
-      "C": "Vrai (Corrigé officiel : C). Gravité clinique et sociétale importante.",
-      "D": "Vrai (Corrigé officiel : D). Longue phase asymptomatique détectable (ex. polype adénomateux du côlon).",
-      "E": "Vrai (Corrigé officiel : E). Le traitement précoce doit améliorer la survie globale.",
-      "_synthese": "Conditions du dépistage de masse de l'OMS : Maladie fréquente (A), grave (C), avec phase asymptomatique longue (D) et traitement efficace améliorant la survie (E).",
-      "_remarque": "Le dépistage de masse doit également bénéficier d'un test performant, non invasif et à coût acceptable."
-    }
-  },
-  {
     "id": "hemato-084",
     "module": "hemato-oncologie",
     "chapitre": "Principes thérapeutiques et parcours de soins en oncologie",
@@ -3486,6 +3318,11 @@ window.QCM_HEMATO = [
         "texte": "Examen Onco-Hématologie 05/03/2023 - Q39 (Mostaganem)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Onco-Hématologie 16/05/2024 - Q39 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Le Programme Personnalisé de Soins (PPS) est :",
@@ -4219,47 +4056,6 @@ window.QCM_HEMATO = [
     }
   },
   {
-    "id": "hemato-102",
-    "module": "hemato-oncologie",
-    "chapitre": "Purpura thrombopénique idiopatique",
-    "chapitre_num": 11,
-    "section": "Signes de gravité du PTI",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q17 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q17 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les signes cliniques de gravité du PTI sont :",
-    "propositions": {
-      "A": "Un purpura pétéchial des membres inférieurs",
-      "B": "Un purpura ecchymotique des membres inférieurs",
-      "C": "La présence de bulles endo buccales",
-      "D": "Une épistaxis bilatérale",
-      "E": "La présence d'hémorragies rétiniennes au FO"
-    },
-    "bonnes_reponses": [
-      "C",
-      "E"
-    ],
-    "explication": "Dans le purpura thrombopénique immunologique (PTI), les critères cliniques majeurs de gravité hémorragique (engageant le pronostic vital ou fonctionnel) sont les hémorragies muqueuses étendues avec bulles hémorragiques endobuccales (qui traduisent une thrombopénie profonde < 10 000-20 000/mm3 et prédisent le saignement viscéral) (C vrai) ainsi que les hémorragies au fond d'œil (hémorragies rétiniennes annonciatrices d'une hémorragie méningo-cérébrale) (E vrai). Le purpura pétéchial et les ecchymoses déclives des membres inférieurs sont des signes cutanés ordinaires sans valeur de gravité immédiate (A et B faux). L'épistaxis isolée n'est pas un critère de gravité majeur retenu par le barème officiel comparativement aux bulles et à l'atteinte rétinienne (D faux).",
-    "justifications": {
-      "A": "Faux. Le purpura pétéchial cutané isolé est banal et ne traduit pas à lui seul une urgence vitale.",
-      "B": "Faux. Les ecchymoses sous-cutanées n'engagent pas le pronostic vital.",
-      "C": "Vrai (Corrigé officiel : CE). Les bulles hémorragiques intrabuccales témoignent d'une effraction muqueuse sévère à haut risque de saignement laryngé ou digestif.",
-      "D": "Faux. L'épistaxis bilatérale est une atteinte muqueuse fréquente mais non classée comme critère cardinal de menace vitale.",
-      "E": "Vrai (Corrigé officiel : CE). L'hémorragie au fond d'œil est l'équivalent direct du risque d'hémorragie intracrânienne fatale.",
-      "_synthese": "Signes de gravité majeure du PTI : Bulles hémorragiques endobuccales (C) et hémorragies rétiniennes au FO (E).",
-      "_remarque": "La présence de ces signes de gravité impose une prise en charge en réanimation avec immunoglobulines polyvalentes IV (IgIV) et corticoïdes à forte dose."
-    }
-  },
-  {
     "id": "hemato-103",
     "module": "hemato-oncologie",
     "chapitre": "Coagulopathies",
@@ -4837,259 +4633,6 @@ window.QCM_HEMATO = [
     }
   },
   {
-    "id": "hemato-117",
-    "module": "hemato-oncologie",
-    "chapitre": "Échelles d'évaluation et classification en cancérologie",
-    "chapitre_num": 18,
-    "section": "Échelle de performance OMS / ECOG",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q32 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q32 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La classification OMS de l'état général des patients atteints de cancer :",
-    "propositions": {
-      "A": "OMS 0 : activité normale",
-      "B": "OMS 1 : activités physiques importantes restreintes, mais patient ambulant, capable de fournir un travail léger",
-      "C": "OMS 2 : patient pas capable de se prendre en charge, alité moins de 50 % du temps, mais capable de fournir un travail",
-      "D": "OMS 3 : plus de 70 % du temps alité ou assis",
-      "E": "OMS 4 : grabataire, confiné au lit ou dans une chaise"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "L'échelle Performance Status de l'OMS (ECOG) comprend 5 grades : OMS 0 : activité tout à fait normale sans restriction (A vrai). OMS 1 : activités physiques soutenues diminuées mais autonome et capable de travail léger ou de bureau (B vrai). OMS 2 : patient ambulant et capable de se prendre en charge seul, incapable de travail mais alité MOINS de 50% des heures de veille (l'énoncé C est erroné car le patient OMS 2 est capable de se prendre en charge et incapable de travail). OMS 3 : autonome pour ses soins personnels élémentaires mais alité ou confiné au fauteuil PLUS de 50% de la journée (et non > 70% : D faux). OMS 4 : totalement dépendant, grabataire, confiné au lit ou au fauteuil 100% du temps (E vrai).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABE). OMS 0 = Asymptomatique, capable de mener sans restriction toute activité normale.",
-      "B": "Vrai (Corrigé officiel : ABE). OMS 1 = Symptomatique mais ambulant, capable de travaux légers.",
-      "C": "Faux. OMS 2 = Patient entièrement autonome pour les soins personnels mais incapable de tout travail, alité < 50% du temps.",
-      "D": "Faux. Le seuil formel pour OMS 3 est alité ou au fauteuil plus de 50% des heures de veille (et non 70%).",
-      "E": "Vrai (Corrigé officiel : ABE). OMS 4 = Grabataire, totalement dépendant, confiné en permanence au lit ou au fauteuil.",
-      "_synthese": "Échelle OMS/ECOG : OMS 0 (normal, A), OMS 1 (travail léger, B), OMS 2 (alité < 50%), OMS 3 (alité > 50%), OMS 4 (grabataire, E).",
-      "_remarque": "L'évaluation du Performance Status (PS) conditionne l'éligibilité à une chimiothérapie anticancéreuse (généralement réservée au PS 0, 1 ou 2)."
-    }
-  },
-  {
-    "id": "hemato-118",
-    "module": "hemato-oncologie",
-    "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
-    "chapitre_num": 16,
-    "section": "Tropisme métastatique & Ostéophilie",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q33 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q33 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Parmi les cancers suivants ; lesquels sont considérés comme ostéophiles :",
-    "propositions": {
-      "A": "Cancer de la prostate",
-      "B": "Cancer du poumon",
-      "C": "Cancer de l'ovaire",
-      "D": "Cancer du colon",
-      "E": "Cancer de l'endomètre"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "explication": "Les cancers dits ostéophiles sont les tumeurs malignes primitives qui métastasent préférentiellement dans le tissu osseux. La liste classique des cancers ostéophiles comprend le cancer de la prostate (métastases ostéocondensantes majeures : A vrai), le cancer du poumon (B vrai), le cancer du sein, le cancer du rein et le cancer de la thyroïde (moyen mnémotechnique : PPRST : Prostate, Poumon, Rein, Sein, Thyroïde). À l'inverse, le cancer du côlon métastase d'abord dans le foie et le péritoine (D faux), et les cancers gynécologiques pelviens (ovaire, endomètre) disséminent principalement par voie péritonéale (carcinose péritonéale) et ganglionnaire (C et E faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AB). Le cancer de la prostate est le prototype des tumeurs ostéophiles (métastases osseuses condensantes au squelette axial).",
-      "B": "Vrai (Corrigé officiel : AB). Le cancer bronchique primitif donne très fréquemment des métastases osseuses lytiques et douloureuses.",
-      "C": "Faux. Le cancer de l'ovaire diffuse essentiellement par contiguïté dans la cavité péritonéale.",
-      "D": "Faux. Le cancer colorectal métastase par la veine porte vers le foie et par les lymphatiques vers le péritoine.",
-      "E": "Faux. Métastases osseuses très exceptionnelles dans l'adénocarcinome de l'endomètre.",
-      "_synthese": "Cancers ostéophiles classiques = Prostate (A), Poumon (B), Sein, Rein, Thyroïde (PPRST).",
-      "_remarque": "Les métastases osseuses de la prostate sont typiquement ostéoblastiques/ostéocondensantes."
-    }
-  },
-  {
-    "id": "hemato-119",
-    "module": "hemato-oncologie",
-    "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
-    "chapitre_num": 16,
-    "section": "Épidémiologie descriptive en cancérologie",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q34 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q34 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Une étude descriptive permet d'évaluer :",
-    "propositions": {
-      "A": "L'efficacité thérapeutique",
-      "B": "L'incidence",
-      "C": "La prévalence",
-      "D": "La mortalité",
-      "E": "La survie"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "L'épidémiologie descriptive a pour objet de décrire la distribution et la fréquence des cancers dans une population en fonction du temps, du lieu et des caractéristiques des individus. Ses indicateurs fondamentaux sont : l'incidence (nombre de nouveaux cas apparus pendant une période : B), la prévalence (nombre total de cas vivants à un moment donné : C), la mortalité (nombre de décès attribués au cancer : D) et la survie globale ou spécifique (pourcentage de patients vivants à 1 an, 5 ans : E). En revanche, l'évaluation de l'efficacité d'une thérapeutique relève exclusivement des études épidémiologiques évaluatives interventionnelles (essais cliniques comparatifs randomisés) (A faux).",
-    "justifications": {
-      "A": "Faux. L'efficacité d'un traitement nécessite un essai clinique contrôlé analytique/interventionnel, non descriptif.",
-      "B": "Vrai (Corrigé officiel : BCDE). Mesure le flux des nouveaux cas par an dans une population donnée.",
-      "C": "Vrai (Corrigé officiel : BCDE). Mesure le stock instantané des cas existants dans la population.",
-      "D": "Vrai (Corrigé officiel : BCDE). Indicateur descriptif évaluant l'impact fatal de la maladie dans la population.",
-      "E": "Vrai (Corrigé officiel : BCDE). La survie nette ou brute à 5 ans est un paramètre descriptif pronostique essentiel des registres des cancers.",
-      "_synthese": "Indicateurs d'épidémiologie descriptive du cancer = Incidence (B), Prévalence (C), Mortalité (D) et Survie (E).",
-      "_remarque": "L'incidence mesure le risque d'apparition d'un cancer ; la mortalité mesure le risque de décès."
-    }
-  },
-  {
-    "id": "hemato-120",
-    "module": "hemato-oncologie",
-    "chapitre": "Prévention et dépistage du cancer",
-    "chapitre_num": 17,
-    "section": "Critères de dépistage de masse (Wilson & Jungner)",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q35 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q35 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les conditions d'un dépistage de masse d'un cancer :",
-    "propositions": {
-      "A": "Cancer fréquent (problème de santé publique)",
-      "B": "Détectable a un stade tardif",
-      "C": "Responsable d'une mortalité et/ ou d'une morbidité importante",
-      "D": "Histoire naturelle connue, Période asymptomatique longue",
-      "E": "Existence d'un traitement améliorant la morbidité et ou la mortalité"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Les critères de l'OMS (critères de Wilson et Jungner) pour justifier un programme de dépistage de masse d'une pathologie cancéreuse exigent que : la maladie soit fréquente et constitue un problème de santé publique majeur (A vrai) ; qu'elle soit responsable d'une morbi-mortalité lourde (C vrai) ; que son histoire naturelle soit bien élucidée avec une phase de latence/période asymptomatique pré-clinique suffisamment longue pour être détectable (D vrai) ; que la maladie soit détectable à un stade PRÉCOCE ou curable (B faux : pas à un 'stade tardif' !) ; et qu'il existe un traitement efficace disponible prouvant qu'une prise en charge précoce réduit significativement la morbidité ou la mortalité comparativement à un diagnostic tardif (E vrai).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACDE). Fréquence élevée justifiant l'investissement sanitaire et économique à l'échelle collective.",
-      "B": "Faux. Le dépistage vise impérativement la détection à un stade PRÉCOCE (lésion précancéreuse ou cancer in situ/localisé débutant), jamais tardif.",
-      "C": "Vrai (Corrigé officiel : ACDE). Gravité justifiant l'intérêt d'intervenir avant la phase symptomatique.",
-      "D": "Vrai (Corrigé officiel : ACDE). L'existence d'une fenêtre temporelle asymptomatique prolongée permet au test de dépister la lésion.",
-      "E": "Vrai (Corrigé officiel : ACDE). Principe éthique de base : ne dépister que si l'on dispose d'une arme thérapeutique curative efficace.",
-      "_synthese": "Critères de dépistage de masse : Problème de santé publique (A), morbi-mortalité sévère (C), phase asymptomatique longue (D), traitement précoce efficace (E).",
-      "_remarque": "Exemples types : Dépistage du cancer du sein (mammographie), du col utérin (frottis/test HPV), et colorectal (test immunologique fécal)."
-    }
-  },
-  {
-    "id": "hemato-121",
-    "module": "hemato-oncologie",
-    "chapitre": "Principes thérapeutiques et parcours de soins en oncologie",
-    "chapitre_num": 20,
-    "section": "Réunion de Concertation Pluridisciplinaire (RCP)",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q36 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q36 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La réunion de concertation pluridisciplinaire (RCP) :",
-    "propositions": {
-      "A": "Réunie oncologue et radiothérapeutes uniquement.",
-      "B": "Doit se faire en présence d'au moins 3 médecins de spécialités différentes, un psychologue et un infirmier.",
-      "C": "Il existe une traçabilité des décisions prises au cours d'une RCP",
-      "D": "Doit avoir lieu avant toute décision thérapeutique.",
-      "E": "Ne sont discuter en RCP que les cas compliqués"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "La Réunion de Concertation Pluridisciplinaire (RCP) est une obligation légale et déontologique en oncologie : elle rassemble un quorum d'au moins 3 médecins de spécialités complémentaires différentes (chirurgien, oncologue médical, radiothérapeute, radiologue, anatomopathologiste) et peut intégrer les professionnels paramédicaux et de support (B vrai). Elle ne se limite jamais aux seuls oncologues et radiothérapeutes (A faux). Les délibérations et conclusions doivent impérativement faire l'objet d'un compte-rendu écrit tracé dans le dossier médical du patient (C vrai). La RCP doit obligatoirement se tenir AVANT l'initiation de toute stratégie thérapeutique anticancéreuse (D vrai). Enfin, TOUS les nouveaux cas de cancer (et non pas seulement les cas compliqués) doivent obligatoirement être présentés en RCP (E faux).",
-    "justifications": {
-      "A": "Faux. La pluridisciplinarité implique chirurgiens, anatomopathologistes, radiologues, oncologues et radiothérapeutes.",
-      "B": "Vrai (Corrigé officiel : BCD). Quorum multidisciplinaire indispensable garantissant une vision holistique et collégiale de la prise en charge.",
-      "C": "Vrai (Corrigé officiel : BCD). La fiche de RCP est un document médico-légal officiel daté et intégré dans le dossier médical.",
-      "D": "Vrai (Corrigé officiel : BCD). Elle valide la stratégie de traitement avant l'administration de la première cure ou de la chirurgie.",
-      "E": "Faux. TOUS les dossiers de patients atteints de cancer relèvent de la RCP, même les présentations standards.",
-      "_synthese": "RCP : Présence médicale multidisciplinaire minimale (B), traçabilité écrite obligatoire (C), tenue préalable à toute décision thérapeutique (D).",
-      "_remarque": "La décision collégiale de la RCP sert de socle à la rédaction du Programme Personnalisé de Soins (PPS)."
-    }
-  },
-  {
-    "id": "hemato-122",
-    "module": "hemato-oncologie",
-    "chapitre": "Échelles d'évaluation et classification en cancérologie",
-    "chapitre_num": 18,
-    "section": "Classification TNM",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q37 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q37 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Quel est l'intérêt de la classification TNM en cancérologie :",
-    "propositions": {
-      "A": "Prévoir et guider le pronostic",
-      "B": "Universaliser les attitudes thérapeutiques",
-      "C": "Poser le diagnostic d'un cancer",
-      "D": "Dépister les cancers rares",
-      "E": "Échanger les informations entre les différentes équipes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "La classification TNM de l'UICC/AJCC (T = taille et infiltration de la tumeur primitive, N = adénopathies régionales, M = métastases à distance) est le système universel d'évaluation de l'extension anatomique des tumeurs solides. Ses buts cardinaux sont : d'évaluer le pronostic de la maladie (le stade TNM corrèle directement avec la survie : A vrai), de standardiser et d'harmoniser les indications thérapeutiques selon les recommandations internationales (B vrai), et de servir de langage universel commun permettant l'échange rigoureux d'informations entre équipes médicales et registres épidémiologiques (E vrai). Elle ne pose en aucun cas le diagnostic positif d'un cancer (qui requiert la biopsie histologique : C faux) et ne sert aucunement au dépistage des cancers (D faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABE). La survie globale à 5 ans est directement corrélée au stade TNM.",
-      "B": "Vrai (Corrigé officiel : ABE). Permet d'appliquer les référentiels de traitement validés mondialement selon le stade.",
-      "C": "Faux. Seule l'analyse anatomopathologique (histologie) pose le diagnostic formel de cancer.",
-      "D": "Faux. Le dépistage est une démarche de santé publique antérieure au diagnostic et au staging TNM.",
-      "E": "Vrai (Corrigé officiel : ABE). Offre un lexique universel codifié facilitant la recherche clinique et la communication interprofessionnelle.",
-      "_synthese": "Classification TNM : Facteur pronostique capital (A), harmonisation des stratégies thérapeutiques (B), langage commun entre soignants (E).",
-      "_remarque": "On distingue le cTNM (clinique/imagerie pré-thérapeutique) du pTNM (pathologique post-opératoire après chirurgie)."
-    }
-  },
-  {
     "id": "hemato-123",
     "module": "hemato-oncologie",
     "chapitre": "Principes thérapeutiques et parcours de soins en oncologie",
@@ -5128,48 +4671,6 @@ window.QCM_HEMATO = [
       "E": "Faux. La chimiothérapie est un cytotoxique cellulaire général agissant sur la mitose, la thérapie ciblée inhibe une cible biologique sélective.",
       "_synthese": "Chimiothérapie : Bilan pré-thérapeutique obligatoire (A) + Administration par voie intraveineuse ou orale (C).",
       "_remarque": "L'administration par voie intraveineuse de drogues vésicantes impose l'utilisation d'une chambre à cathéter implantable (site implantable/port-à-cath)."
-    }
-  },
-  {
-    "id": "hemato-124",
-    "module": "hemato-oncologie",
-    "chapitre": "Principes thérapeutiques et parcours de soins en oncologie",
-    "chapitre_num": 20,
-    "section": "Programme Personnalisé de Soins (PPS)",
-    "source": {
-      "texte": "Examen Onco-Hématologie 16/05/2024 - Q39 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Onco-Hématologie 16/05/2024 - Q39 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Le Programme Personnalisé de Soins (PPS) est :",
-    "propositions": {
-      "A": "Établi lors de la RCP.",
-      "B": "Il est définitif, irrévocable et ne peut être modifié,",
-      "C": "Décrit la décision de traitement proposé et la chaîne de soins,",
-      "D": "Permet de suivre l'évolution de la maladie sous traitement,",
-      "E": "N'est applicable que chez certains patients présélectionnés,"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "Le Programme Personnalisé de Soins (PPS) découle directement de la proposition thérapeutique concertée collégiale établie en RCP (A vrai). Remis et expliqué au patient lors de la consultation d'annonce, le PPS décrit de manière claire et chronologique le traitement retenu, les étapes successives et la chaîne globale de soins incluant les soins de support (C vrai). Il constitue la feuille de route dynamique permettant d'assurer le suivi de la maladie et l'évaluation de la réponse thérapeutique (D vrai). Il n'est en rien irrévocable : il est constamment réévaluable et adaptable selon l'évolution clinique, l'efficacité ou la toxicité (B faux). Il s'applique à TOUS les patients pris en charge pour un cancer et non à des malades présélectionnés (E faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACD). Formalisé à l'issue de la réunion de concertation pluridisciplinaire.",
-      "B": "Faux. Le PPS est un document évolutif et dynamique, réajusté en fonction de la tolérance et de la réponse tumorale.",
-      "C": "Vrai (Corrigé officiel : ACD). Détaille les modalités de traitement (chirurgie, chimio, radiothérapie) et les intervenants.",
-      "D": "Vrai (Corrigé officiel : ACD). Sert d'outil de référence partagé pour planifier le calendrier des évaluations et surveillances.",
-      "E": "Faux. Le PPS est un droit fondamental pour CHAQUE patient atteint de cancer dans le cadre du Plan Cancer.",
-      "_synthese": "PPS : Dérivé de la RCP (A), décrivant le traitement et le circuit de soins (C), permettant le suivi évolutif de la maladie (D).",
-      "_remarque": "Le PPS est remis et commenté au patient au cours du temps d'annonce médicale."
     }
   },
   {
@@ -5866,174 +5367,6 @@ window.QCM_HEMATO = [
       "D": "Vrai (Corrigé officiel : ACD). L'Échelle Numérique (EN de 0 à 10) est la méthode d'auto-évaluation verbale la plus simple et la plus employée au lit du malade.",
       "_synthese": "Échelles d'auto-évaluation de la douleur : EVA (A), EVS (C) et EN (D). Doloplus-2 et Algoplus sont des hétéro-évaluations (B).",
       "_remarque": "L'auto-évaluation prévaut toujours sur l'évaluation des soignants dès lors que le patient a ses capacités cognitives préservées."
-    }
-  },
-  {
-    "id": "hemato-142",
-    "module": "hemato-oncologie",
-    "chapitre": "Épidémiologie, cancérogenèse et facteurs de risque",
-    "chapitre_num": 16,
-    "section": "Dissémination tumorale & Ostéophilie",
-    "source": {
-      "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q17 (Mostaganem)",
-      "type": "Rattrapage",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q17 (Mostaganem)",
-        "type": "Rattrapage",
-        "annee": "2025"
-      }
-    ],
-    "question": "Parmi les cancers suivants ; lesquels sont considérés comme ostéophiles :",
-    "propositions": {
-      "A": "Cancer de la prostate",
-      "B": "Cancer du poumon",
-      "C": "Cancer de l'ovaire",
-      "D": "Cancer du colon",
-      "E": "Cancer de l'endomètre"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "explication": "Les tumeurs ostéophiles métastasent préférentiellement dans le tissu osseux médullaire et cortical grâce à des interactions moléculaires spécifiques (chimiokines CXCR4, ostéopontine, RANK/RANKL). Les deux exemples majeurs de la liste sont le cancer de la prostate (métastases osseuses condensantes au squelette axial chez plus de 80% des formes métastatiques : A vrai) et le cancer du poumon (cancer bronchique primitif à petites cellules ou non à petites cellules donnant des métastases lytiques : B vrai). Les cancers pelviens gynécologiques (ovaire : dissémination péritonéale prépondérante : C faux ; endomètre : D faux) et digestifs (côlon : métastases hépatiques portales : D faux) ne font pas partie des cancers à tropisme osseux prédominant.",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : AB). Le cancer de la prostate est le prototype des tumeurs ostéophiles ostéoblastiques (condensation vertébrale et pelvienne).",
-      "B": "Vrai (Corrigé officiel : AB). Le cancer broncho-pulmonaire présente une ostéophilie élevée responsable de douleurs osseuses révélatrices et de fractures pathologiques.",
-      "C": "Faux. L'adénocarcinome de l'ovaire dissémine dans la séreuse péritonéale (ascite, carcinose).",
-      "D": "Faux. Le cancer colorectal diffuse principalement par la veine porte vers le parenchyme hépatique.",
-      "E": "Faux. L'adénocarcinome endométrial métastase aux ganglions pelviens et au péritoine, très rarement à l'os.",
-      "_synthese": "Cancers ostéophiles classiques : Prostate (A), Poumon (B), Sein, Rein, Thyroïde (moyen mnémotechnique PPRST).",
-      "_remarque": "Les métastases prostatiques sont ostéoblastiques/condensantes, celles du poumon et du rein sont volontiers ostéolytiques."
-    }
-  },
-  {
-    "id": "hemato-143",
-    "module": "hemato-oncologie",
-    "chapitre": "Échelles d'évaluation et classification en cancérologie",
-    "chapitre_num": 18,
-    "section": "Classification anatomoclinique TNM",
-    "source": {
-      "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q18 (Mostaganem)",
-      "type": "Rattrapage",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q18 (Mostaganem)",
-        "type": "Rattrapage",
-        "annee": "2025"
-      }
-    ],
-    "question": "Quel est l'intérêt de la classification TNM en cancérologie :",
-    "propositions": {
-      "A": "Prévoir et guider le pronostic",
-      "B": "Universaliser les attitudes thérapeutiques",
-      "C": "Poser le diagnostic d'un cancer",
-      "D": "Dépister les cancers rares",
-      "E": "Échanger les informations entre les différentes équipes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "La classification TNM (développée par l'UICC et l'AJCC) stadifie l'extension tumorale anatomique (T = Tumeur primitive, N = adénopathies régionales / Nodes, M = Métastases à distance). Ses trois rôles cardinaux sont : 1) Établir le pronostic évolutif du patient (la probabilité de survie à 5 ans est directement corrélée au stade I à IV : A vrai) ; 2) Standardiser et harmoniser les stratégies thérapeutiques pour chaque stade selon les référentiels internationaux (chirurgie, radiothérapie, thérapies systémiques : B vrai) ; 3) Constituer un langage médical international commun et reproductible pour l'échange d'informations entre praticiens et chercheurs (E vrai). Elle ne permet absolument pas de poser le diagnostic positif d'un cancer qui exige obligatoirement une preuve anatomopathologique histologique (C faux), ni de dépister les cancers (D faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ABE). Facteur pronostique primordial guidant la probabilité de récidive et de survie globale.",
-      "B": "Vrai (Corrigé officiel : ABE). Permet d'harmoniser les indications thérapeutiques standardisées selon le stade lésionnel.",
-      "C": "Faux. Le diagnostic formel de cancer relève exclusivement de la biopsie tissulaire anatomopathologique.",
-      "D": "Faux. Le dépistage est une stratégie de détection précoce en population générale, antérieure au staging TNM.",
-      "E": "Vrai (Corrigé officiel : ABE). Sert de référentiel universel partagé facilitant les études comparatives et les dossiers RCP.",
-      "_synthese": "Rôles de la classification TNM : Pronostic (A), harmonisation des traitements (B), communication universelle entre équipes (E).",
-      "_remarque": "cTNM = staging clinique/radiologique initial ; pTNM = staging pathologique anatomopathologique après chirurgie."
-    }
-  },
-  {
-    "id": "hemato-144",
-    "module": "hemato-oncologie",
-    "chapitre": "Principes thérapeutiques et parcours de soins en oncologie",
-    "chapitre_num": 20,
-    "section": "Chimiothérapie palliative",
-    "source": {
-      "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q19 (Mostaganem)",
-      "type": "Rattrapage",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q19 (Mostaganem)",
-        "type": "Rattrapage",
-        "annee": "2025"
-      }
-    ],
-    "question": "Quelles sont les buts de la chimiothérapie à visée palliative :",
-    "propositions": {
-      "A": "Améliorer la qualité de vie des patients",
-      "B": "Obtenir la guérison du patient",
-      "C": "Maîtriser l'évolution des métastases",
-      "D": "Augmenter la survie sans progression de la maladie",
-      "E": "Augmenter la survie globale du patient"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "La chimiothérapie à visée palliative s'adresse aux cancers localement avancés non résécables ou métastatiques pour lesquels la guérison définitive n'est plus accessible (B faux : la guérison est l'objectif des traitements à visée curative). Les objectifs majeurs de cette chimiothérapie sont : l'amélioration ou la préservation de la qualité de vie par le soulagement des symptômes tumoraux (douleur, compression, dyspnée : A vrai) ; le contrôle tumoral et le freinage de l'évolution des métastases (stabilisation ou régression partielle de la masse tumorale : C vrai) ; l'allongement de la survie sans progression (PFS : D vrai) ; et le prolongement de la survie globale (OS : E vrai).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : ACDE). Objectif prioritaire : soulager les symptômes liés à la masse tumorale et maintenir l'autonomie.",
-      "B": "Faux. Par définition, un traitement palliatif ne vise pas la guérison (réservée à l'approche curative).",
-      "C": "Vrai (Corrigé officiel : ACDE). Cytoréduction et blocage de la dissémination métastatique secondaire.",
-      "D": "Vrai (Corrigé officiel : ACDE). Retarder la récidive ou l'échappement tumoral sous traitement.",
-      "E": "Vrai (Corrigé officiel : ACDE). De nombreuses chimiothérapies palliatives démontrent un gain significatif de survie globale en mois ou années.",
-      "_synthese": "Buts de la chimiothérapie palliative : Améliorer la qualité de vie (A), freiner les métastases (C), allonger la survie sans progression (D) et la survie globale (E).",
-      "_remarque": "Le ratio bénéfice/toxicité doit être constamment évalué pour que le traitement ne dégrade pas la qualité de vie qu'il cherche à préserver."
-    }
-  },
-  {
-    "id": "hemato-145",
-    "module": "hemato-oncologie",
-    "chapitre": "Principes diagnostiques et bilan pré-thérapeutique",
-    "chapitre_num": 19,
-    "section": "Démarche diagnostique du cancer du sein",
-    "source": {
-      "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q20 (Mostaganem)",
-      "type": "Rattrapage",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Rattrapage Onco-Hématologie 2024/2025 - Q20 (Mostaganem)",
-        "type": "Rattrapage",
-        "annee": "2025"
-      }
-    ],
-    "question": "Comment poser le diagnostic positif d'un cancer du sein",
-    "propositions": {
-      "A": "Établir une classification TNM précise",
-      "B": "Un examen clinique complet",
-      "C": "Une biopsie de la tumeur + étude anatomopathologique",
-      "D": "Une mammographie",
-      "E": "Un bilan sanguin complet"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "Le diagnostic positif d'un cancer du sein repose universellement sur la démarche diagnostique dite du « trépied diagnostique » (ou triade clinique-radiologie-histologie) : 1) L'examen clinique complet des seins et des aires ganglionnaires axillaires et sus-claviculaires (palpation d'un nodule dur, irrégulier, indolore, adhérent, rétraction cutanée : B vrai) ; 2) L'imagerie sénologique par mammographie bilatérale (associée à l'échographie mammaire) pour caractériser et classer la lésion selon le système BI-RADS de l'ACR (D vrai) ; 3) La biopsie tissulaire percutanée (microbiopsie ou macrobiopsie) avec étude anatomopathologique et immunohistochimique (RO, RP, HER2, Ki-67) apportant la preuve formelle et irréfutable de malignité avant tout traitement (C vrai). La classification TNM est un bilan d'extension et non un moyen diagnostique positif (A faux). Les examens sanguins ne posent pas le diagnostic de cancer du sein (E faux).",
-    "justifications": {
-      "A": "Faux. Le TNM est un outil de stadification de l'extension après que le diagnostic a été posé.",
-      "B": "Vrai (Corrigé officiel : BCD). Premier volet du trépied sénologique (inspection et palpation bilatérale et comparative).",
-      "C": "Vrai (Corrigé officiel : BCD). L'examen anatomopathologique de la biopsie est la seule preuve formelle indispensable de certitude.",
-      "D": "Vrai (Corrigé officiel : BCD). Deuxième volet du trépied : imagerie de référence détectant opacités stellaires et microcalcifications ACR.",
-      "E": "Faux. Aucun bilan sanguin ne permet d'affirmer un cancer du sein (les marqueurs tumoraux type CA 15-3 ne sont pas diagnostiques).",
-      "_synthese": "Trépied diagnostique du cancer du sein = Examen clinique (B) + Mammographie/imagerie (D) + Biopsie avec anatomopathologie (C).",
-      "_remarque": "Aucun traitement définitif (chirurgie carcinologique, chimio néoadjuvante) ne peut débuter sans la preuve anatomopathologique biopsique."
     }
   }
 ];

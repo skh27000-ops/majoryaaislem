@@ -222,6 +222,11 @@ window.QCM_PNEUMO = [
         "texte": "EMD Février 2025 (Session Normale)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "L'infection tuberculeuse latente :",
@@ -592,6 +597,11 @@ window.QCM_PNEUMO = [
         "texte": "EMD Février 2025 (Session Normale)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q28 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Parmi les facteurs suivants lesquels augmentent le risque de développer une tuberculose en cas d'infection tuberculeuse latente :",
@@ -760,6 +770,11 @@ window.QCM_PNEUMO = [
         "texte": "EMD Février 2025 (Session Normale)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "EMD Juin 2023 (Session Normale)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Parmi les examens suivants, lesquels font partie du bilan diagnostique initial d'une BPCO ?",
@@ -2095,49 +2110,6 @@ window.QCM_PNEUMO = [
     }
   },
   {
-    "id": "pneumo-052",
-    "module": "pneumologie",
-    "chapitre": "Bronchopneumopathie chronique obstructive (BPCO)",
-    "chapitre_num": 8,
-    "section": "Pneumologie clinique",
-    "source": {
-      "texte": "EMD Juin 2023 (Session Normale)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "EMD Juin 2023 (Session Normale)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Parmi les examens suivants, lesquels font partie du bilan diagnostique initial d'une BPCO ?",
-    "propositions": {
-      "A": "Spirométrie avec test de réversibilité",
-      "B": "Pléthysmographie",
-      "C": "Test de marche des 6 minutes",
-      "D": "TDM thoracique",
-      "E": "NFS"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "Le bilan diagnostique et d'évaluation initiale recommandé chez un patient atteint de BPCO comporte : 1) La spirométrie avec mesure du rapport VEMS/CVF post-bronchodilatateur (< 0.70) confirmant le TVO non complètement réversible (A vrai) ; 2) La pléthysmographie pour mesurer la distension pulmonaire (CPT, VR) (B vrai) ; 3) Le test de marche des 6 minutes (TM6) pour quantifier le retentissement à l'effort et la composante exercice du score BODE (C vrai) ; 4) La NFS pour dépister une polyglobulie de compensation ou une anémie (E vrai). La TDM n'est pas recommandée dans le bilan de routine initial d'une BPCO sans complication suspectée (D faux).",
-    "justifications": {
-      "A": "Vrai. Seul examen affirmant le diagnostic positif de BPCO.",
-      "B": "Vrai. Évalue la capacité pulmonaire totale et le volume résiduel.",
-      "C": "Vrai. Évalue la capacité aérobie fonctionnelle et le pronostic.",
-      "D": "Faux. Non systématique lors du bilan initial standard sans point d'appel radiologique.",
-      "E": "Vrai. Dépistage d'une polyglobulie secondaire à l'hypoxémie chronique.",
-      "_synthese": "Bilan initial BPCO : Confirmation fonctionnelle (EFR complète : Spirométrie + Pléthysmographie), tolérance à l'effort (TM6), hématologie (NFS), radio thoracique, sevrage tabagique.",
-      "_remarque": "Question identique à la Q19 de 2025, témoignant des questions récurrentes majeures de la faculté de Mostaganem."
-    }
-  },
-  {
     "id": "pneumo-053",
     "module": "pneumologie",
     "chapitre": "Exacerbation de la BPCO",
@@ -2358,6 +2330,11 @@ window.QCM_PNEUMO = [
         "texte": "EMD Juin 2023 (Session Normale)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q40 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "Parmi les anomalies tomodensitométriques suivantes, lesquelles ne sont pas retrouvées chez un patient porteur de fibrose pulmonaire idiopathique ?",
@@ -2511,46 +2488,6 @@ window.QCM_PNEUMO = [
     }
   },
   {
-    "id": "pneumo-062",
-    "module": "pneumologie",
-    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
-    "chapitre_num": 1,
-    "section": "Phtisiologie",
-    "source": {
-      "texte": "EMD Juin 2023 (Session Normale)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "EMD Juin 2023 (Session Normale)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "L'infection tuberculeuse latente :",
-    "propositions": {
-      "A": "Est une forme clinique contagieuse",
-      "B": "Se caractérise par des cultures positives des prélèvements",
-      "C": "S'accompagne d'une IDR à la tuberculine et de tests IGRA positifs",
-      "D": "Se caractérise par un titre élevé d'anticorps...",
-      "E": "Évolue dans 90% des cas vers une maladie tuberculeuse"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "L'infection tuberculeuse latente (ITL) est totalement asymptomatique et non contagieuse (A faux). Les prélèvements biologiques sont négatifs en microscopie et en culture (B faux). La seule preuve de l'infection repose sur la réponse immunitaire à médiation cellulaire spécifique dirigée contre les antigènes du bacille : Intradermo-réaction à la tuberculine (IDR) positive et/ou tests de détection de l'interféron gamma (IGRA) positifs (C vrai). Elle n'évolue vers la maladie que dans 5 à 10% des cas (E faux).",
-    "justifications": {
-      "A": "Faux. L'ITL ne sécrète aucun bacille : aucune contagiosité.",
-      "B": "Faux. Les cultures sont négatives car les bacilles sont en dormance.",
-      "C": "Vrai. Seuls les tests immunologiques explorant l'immunité cellulaire T (IDR/IGRA) sont positifs.",
-      "D": "Faux. L'immunité humorale n'intervient pas dans le diagnostic.",
-      "E": "Faux. Seuls 5 à 10% des infectés développeront la tuberculose active.",
-      "_synthese": "ITL : Sujet asymptomatique, radiographie normale, bactériologie négative, IDR/IGRA positifs. Non contagieux.",
-      "_remarque": "Question identique à la Q6 de l'examen 2025."
-    }
-  },
-  {
     "id": "pneumo-063",
     "module": "pneumologie",
     "chapitre": "Pneumopathies infiltratives diffuses",
@@ -2675,46 +2612,6 @@ window.QCM_PNEUMO = [
     }
   },
   {
-    "id": "pneumo-066",
-    "module": "pneumologie",
-    "chapitre": "Exacerbation de la BPCO",
-    "chapitre_num": 9,
-    "section": "Pneumologie clinique & Urgences",
-    "source": {
-      "texte": "EMD Juin 2023 (Session Normale)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "EMD Juin 2023 (Session Normale)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "La prescription la plus adaptée à une exacerbation aigue de BPCO :",
-    "propositions": {
-      "A": "Les bêta-2 sympathomimétiques en injection sous-cutanée",
-      "B": "Les bêta-2 sympathomimétiques de courte durée d'action en nébulisation",
-      "C": "L'adrénaline en injection sous-cutanée",
-      "D": "Une inhalation de cromoglycate de sodium",
-      "E": "Une injection IV de théophylline"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "explication": "Dans l'exacerbation aiguë de BPCO, le traitement bronchodilatateur rapide repose sur les bêta-2 agonistes de courte durée d'action (SABA) administrés par voie INHALÉE en nébulisation. La voie nébulisée délivre de fortes concentrations locales avec un minimum d'effets secondaires cardiovasculaires systémiques.",
-    "justifications": {
-      "A": "Faux. La voie sous-cutanée majore les effets indésirables cardiaques (tachycardie, arythmie).",
-      "B": "Vrai. Traitement bronchodilatateur de 1ère intention en nébulisation sous débit de gaz adapté.",
-      "C": "Faux. L'adrénaline n'est pas indiquée dans l'exacerbation de BPCO.",
-      "D": "Faux. Le cromoglycate est inopérant en urgence.",
-      "E": "Faux. La théophylline IV est contre-indiquée en probabiliste (index thérapeutique étroit).",
-      "_synthese": "Traitement bronchodilatateur d'urgence BPCO : SABA nébulisé (Salbutamol 5 mg) +/- SAMA (Ipratropium 0.5 mg).",
-      "_remarque": "Question récurrente figurant à la fois en Q13 et Q26 de cette épreuve d'examen."
-    }
-  },
-  {
     "id": "pneumo-067",
     "module": "pneumologie",
     "chapitre": "Cancer bronchique",
@@ -2730,6 +2627,11 @@ window.QCM_PNEUMO = [
         "texte": "EMD Juin 2023 (Session Normale)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Pneumologie 28/06/2026 - Q37 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2026"
       }
     ],
     "question": "En présence d'une opacité pulmonaire périphérique, d'apparition récente avec un examen endoscopique bronchique négatif, il convient de réaliser pour avoir un diagnostic formel chez un fumeur de 55 ans :",
@@ -4840,49 +4742,6 @@ window.QCM_PNEUMO = [
     }
   },
   {
-    "id": "pneumo-118",
-    "module": "pneumologie",
-    "chapitre": "Épidémiologie et microbiologie de la tuberculose",
-    "chapitre_num": 1,
-    "section": "Phtisiologie & Épidémiologie",
-    "source": {
-      "texte": "Examen Pneumologie 28/06/2026 - Q28 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "Examen Pneumologie 28/06/2026 - Q28 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Parmi les facteurs suivants lesquels augmentent le risque de développer une tuberculose en cas d'infection tuberculeuse latente :",
-    "propositions": {
-      "A": "Le diabète",
-      "B": "La prise au long cours de corticoïdes",
-      "C": "La co-infection par le virus de l'hépatite B",
-      "D": "La coinfection par le VIH",
-      "E": "L'éthylisme"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Le passage d'une infection tuberculeuse latente (ITL) à une tuberculose maladie active est favorisé par tous les facteurs altérant l'immunité à médiation cellulaire dépendante des lymphocytes T CD4+ et des macrophages : l'infection par le VIH (D, facteur de risque le plus puissant avec un risque annuel de réactivation de 10 % par an au lieu de 10 % sur la vie entière) ; la corticothérapie générale prolongée (> 15 mg/j d'équivalent prednisone pendant > 1 mois) et les immunosuppresseurs/anti-TNF (B) ; le diabète sucré mal équilibré (A) ; l'alcoolisme chronique et la dénutrition (E) ; ainsi que l'insuffisance rénale terminale et la silicose. L'hépatite B isolée sans cirrhose décompensée n'est pas un facteur de risque direct d'immunodépression cellulaire pour la tuberculose (C faux).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Le diabète multiplie le risque de tuberculose active par 2 à 3 par altération des fonctions chimiotactiques et macrophagiques.",
-      "B": "Vrai (Corrigé officiel : B). La corticothérapie au long cours inhibe la transcription des cytokines Th1 (interféron gamma, TNF-alpha) maintenant le bacille quiescent au sein du granulome.",
-      "C": "Faux. L'infection virale VHB n'altère pas directement les défenses cellulaires antituberculeuses.",
-      "D": "Vrai (Corrigé officiel : D). Le VIH est le facteur multiplicateur majeur de réactivation tuberculeuse en raison de la déplétion des lymphocytes CD4.",
-      "E": "Vrai (Corrigé officiel : E). L'éthylisme chronique induit une dénutrition protéino-énergétique et une dépression immunitaire cellulaire favorisant la réactivation.",
-      "_synthese": "Facteurs de réactivation d'une ITL : VIH (D, risque maximal), Corticoïdes/anti-TNF (B), Diabète (A), Dénutrition et Éthylisme chronique (E).",
-      "_remarque": "Tout patient sous anti-TNF ou séropositif pour le VIH avec ITL avérée doit bénéficier d'un traitement préventif de l'ITL (rifampicine-isoniazide)."
-    }
-  },
-  {
     "id": "pneumo-119",
     "module": "pneumologie",
     "chapitre": "Physiopathologie et diagnostic de l'asthme",
@@ -5203,46 +5062,6 @@ window.QCM_PNEUMO = [
     }
   },
   {
-    "id": "pneumo-127",
-    "module": "pneumologie",
-    "chapitre": "Cancer bronchique",
-    "chapitre_num": 11,
-    "section": "Oncologie thoracique",
-    "source": {
-      "texte": "Examen Pneumologie 28/06/2026 - Q37 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "Examen Pneumologie 28/06/2026 - Q37 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "En présence d'une opacité pulmonaire périphérique, d'apparition récente avec un examen endoscopique bronchique négatif, il convient de réaliser pour avoir un diagnostic formel chez un fumeur de 55 ans :",
-    "propositions": {
-      "A": "Une tomodensitométrie thoracique",
-      "B": "Une pleuroscopie",
-      "C": "Une ponction transpariétale",
-      "D": "Une médiastinoscopie",
-      "E": "Refaire la fibroscopie bronchique"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Chez un patient fumeur de 55 ans porteur d'une opacité pulmonaire périphérique suspecte de malignité dont l'endoscopie bronchique est revenue négative (lésion trop distale hors de portée visuelle directe des pinces de biopsie bronchique), l'examen diagnostique percutané de première intention pour obtenir une preuve histologique ou cytologique formelle est la ponction-biopsie transpariétale guidée par scanner (PTT sous guidage scanographique) (C vrai). La TDM est un examen d'imagerie qui a déjà mis en évidence la lésion mais ne donne pas de diagnostic anatomopathologique formel (A). La pleuroscopie nécessite un épanchement pleural (B), et la médiastinoscopie explore les adénopathies médiastinales (D).",
-    "justifications": {
-      "A": "Faux. La TDM thoracique décrit la lésion mais n'apporte pas la confirmation anatomopathologique nécessaire pour débuter un traitement oncologique.",
-      "B": "Faux. La pleuroscopie (thoracoscopie médicale) n'est indiquée qu'en cas d'épanchement pleural exsudatif associé.",
-      "C": "Vrai (Corrigé officiel : C). La ponction-biopsie transpariétale à l'aiguille sous guidage scanographique est l'examen de référence pour l'obtention du tissu tumoral des masses périphériques.",
-      "D": "Faux. La médiastinoscopie est un geste chirurgical d'évaluation des ganglions médiastinaux de la loge de Barety ou sous-carinaire.",
-      "E": "Faux. Répéter une fibroscopie standard à l'identique a une rentabilité diagnostique quasi nulle pour une lésion périphérique distale sous-pleurale.",
-      "_synthese": "Opacité périphérique suspecte avec endoscopie normale -> Ponction-biopsie transpariétale sous guidage TDM (C) pour preuve histologique formelle.",
-      "_remarque": "Complication la plus fréquente de la ponction transpariétale : le pneumothorax (15-20 % des cas)."
-    }
-  },
-  {
     "id": "pneumo-128",
     "module": "pneumologie",
     "chapitre": "Cancer bronchique",
@@ -5321,51 +5140,5 @@ window.QCM_PNEUMO = [
       "_synthese": "Suspicion de métastase cérébrale dans le cancer bronchique : Imagerie en coupe cérébrale obligatoire (Scanographie / TDM cérébrale injectée ou IRM cérébrale C).",
       "_remarque": "L'IRM cérébrale avec produit de contraste est supérieure à la TDM pour détecter les micrométastases infracentimétriques et de la fosse postérieure."
     }
-  },
-  {
-    "id": "pneumo-130",
-    "module": "pneumologie",
-    "chapitre": "Pneumopathies infiltratives diffuses",
-    "chapitre_num": 17,
-    "section": "Pathologies interstitielles",
-    "source": {
-      "texte": "Examen Pneumologie 28/06/2026 - Q40 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "texte": "Examen Pneumologie 28/06/2026 - Q40 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2026"
-      }
-    ],
-    "question": "Parmi les anomalies tomodensitométriques suivantes, lesquelles ne sont pas retrouvées chez un patient porteur de fibrose pulmonaire idiopathique ?",
-    "propositions": {
-      "A": "réticulations",
-      "B": "dilatation des bronches",
-      "C": "micronodules",
-      "D": "épaississement pleural",
-      "E": "Kystes en rayon de miel"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "Le profil scanographique typique de pneumopathie interstitielle commune (PIC / UIP) caractéristique de la fibrose pulmonaire idiopathique (FPI) comporte des opacités réticulaires sous-pleurales et basales (A), et des kystes en rayons de miel (honeycombing) sous-pleuraux en couches superposées (E). Selon la grille officielle de correction de la Faculté (clé B, C, D) : les micronodules (C) orientent vers une sarcoïdose, une miliaire ou une PHS ; les épaississements pleuraux (D) évoquent une pathologie de l'amiante ou une sérite ; et la mention isolée de 'dilatation des bronches' sans précision de mécanisme de traction (B) a été retenue parmi les anomalies non caractéristiques de la FPI.",
-    "justifications": {
-      "A": "Retrouvée dans la FPI. Les réticulations intralobulaires sous-pleurales basales sont une composante constante du pattern scanographique d'UIP.",
-      "B": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). La DDB primitive des bronchectasies est absente dans la FPI (où seules des bronchectasies de traction distales secondaires à la rétraction fibreuse peuvent exister).",
-      "C": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). Les micronodules centro-lobulaires ou périlymphatiques sont incompatibles avec le diagnostic d'UIP et doivent faire suspecter une sarcoïdose ou une PHS.",
-      "D": "Validé dans le corrigé officiel comme non retrouvée (B, C, D). L'épaississement pleural ou plaques pleurales ne font pas partie de la FPI (orientent vers l'asbestose).",
-      "E": "Retrouvée dans la FPI. Les kystes en rayons de miel sous-pleuraux à prédominance basale sont le signe scanographique cardinal indispensable pour affirmer le pattern d'UIP certain.",
-      "_synthese": "Conformément à la grille officielle de la Faculté (clé B, C, D) : les anomalies NON retrouvées dans la FPI sont les dilatations bronchiques primitives (B), les micronodules (C) et l'épaississement pleural (D).",
-      "_remarque": "Signes scanographiques certains de FPI : Réticulations sous-pleurales (A) et Rayon de miel basal (E)."
-    }
   }
 ];
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = window.QCM_PNEUMO;
-}

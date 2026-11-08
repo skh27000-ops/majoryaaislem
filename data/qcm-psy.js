@@ -27,7 +27,22 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (D et C) ; l'hallucination se distingue de l'illusion par l'absence de réalité de l'objet perçu.",
+    "sources": [
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2018/2019 (01/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
+      }
+    ]
   },
   {
     "id": "psy-002",
@@ -54,7 +69,21 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2018/2019 (01/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
+      }
+    ]
   },
   {
     "id": "psy-003",
@@ -81,7 +110,21 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2018/2019 (01/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
+      }
+    ]
   },
   {
     "id": "psy-004",
@@ -163,7 +206,21 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2018/2019 (01/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
+      }
+    ]
   },
   {
     "id": "psy-007",
@@ -299,7 +356,22 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (ACD et AC) ; le caractère occasionnel est aussi un argument psychogène.",
+    "sources": [
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2018/2019 (01/01/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
+      }
+    ]
   },
   {
     "id": "psy-012",
@@ -410,7 +482,21 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2018/2019 (01/01/2019)"
+      },
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-016",
@@ -1134,86 +1220,6 @@ window.QCM_PSY = [
     "isAlger": false
   },
   {
-    "id": "psy-042",
-    "num": 42,
-    "chapitre": "Introduction générale à la santé mentale",
-    "question": "Une hallucination se distingue d'une illusion par : (cocher la ou les réponses justes)",
-    "propositions": {
-      "A": "La perception de l'objet",
-      "B": "La réalité de l'objet",
-      "C": "L'absence de perception de l'objet",
-      "D": "L'absence de réalité de l'objet",
-      "E": "La double perception de l'objet"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : C.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-043",
-    "num": 43,
-    "chapitre": "Schizophrénies",
-    "question": "L'hospitalisation du patient schizophrène en milieu psychiatrique, est indiquée : (cochez la ou les réponses justes)",
-    "propositions": {
-      "A": "En première intention",
-      "B": "Devant un tableau délirant",
-      "C": "En cas de troubles du comportement",
-      "D": "En cas de troubles cognitifs",
-      "E": "En cas de tentative de suicide"
-    },
-    "bonnes_reponses": [
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : C, E.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-044",
-    "num": 44,
-    "chapitre": "Schizophrénies",
-    "question": "La forme catatonique de la schizophrénie se manifeste par: (cochez la ou les réponses justes)",
-    "propositions": {
-      "A": "Des troubles de la vision",
-      "B": "Des troubles de l'équilibre et de la marche",
-      "C": "Le maintien des attitudes imposées",
-      "D": "L'absence de catalepsie",
-      "E": "Des attitudes en miroir"
-    },
-    "bonnes_reponses": [
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : C, E.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "psy-045",
     "num": 45,
     "chapitre": "TD : Prescription et surveillance d'un traitement psychotrope",
@@ -1286,60 +1292,6 @@ window.QCM_PSY = [
       "E"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé certifié : B, D, E.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-048",
-    "num": 48,
-    "chapitre": "Troubles sexuelles",
-    "question": "Les arguments en faveur d'une étiologie psychiatrique de la dysfonction érectile sont : (cochez la ou les réponses justes)",
-    "propositions": {
-      "A": "Le maintien des érections matinales ;",
-      "B": "des difficultés à maintenir l'érection jusqu'à la fin de l'activité sexuelle ;",
-      "C": "la sélectivité pour une partenaire ;",
-      "D": "le caractère occasionnel ;",
-      "E": "une diminution de la rigidité de l'érection."
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Session Juillet 2021 (06/07/2021)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-049",
-    "num": 49,
-    "chapitre": "TD : Prescription et surveillance d'un traitement psychotrope",
-    "question": "Les antipsychotiques indiqués dans la prise en charge des délires persistants : (cochez la ou les réponses justes)",
-    "propositions": {
-      "A": "Amoindrissent les convictions délirantes",
-      "B": "Ne réduisent pas l'agressivité du patient",
-      "C": "Ont une action antidépressive associée",
-      "D": "Ont une action anxiolytique associée",
-      "E": "Augmentent l'angoisse du patient"
-    },
-    "bonnes_reponses": [
-      "A",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, D.",
     "source": {
       "annee": 2021,
       "session": "Normale",
@@ -2387,7 +2339,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-088",
@@ -2472,7 +2432,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-091",
@@ -2499,7 +2467,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-092",
@@ -2586,7 +2562,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-095",
@@ -2616,7 +2600,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-096",
@@ -2646,7 +2638,21 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
+      },
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-097",
@@ -2672,7 +2678,16 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (EMD 2024/2025 : D ; EMD 2025/2026 : ABCE). La réponse D est la seule fausse : le type 1 se définit par au moins un accès maniaque, non par des accès dépressifs seuls.",
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-098",
@@ -2728,7 +2743,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-100",
@@ -2837,7 +2860,22 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (BDE et BCDE) ; une demande de la famille ne justifie pas une hospitalisation de sevrage.",
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
+      },
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-104",
@@ -2893,7 +2931,22 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (ACE et CE) ; le delirium tremens est bien un délire oniroïde du sevrage.",
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
+      },
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-106",
@@ -3228,7 +3281,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2026,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-118",
@@ -3448,35 +3509,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-126",
-    "num": 126,
-    "chapitre": "TD : CAT devant un état d'agitation",
-    "question": "Parmi les diagnostics étiologiques d'un état d'agitation en urgence, on retrouve :",
-    "propositions": {
-      "A": "Une intoxication alcoolique aiguë",
-      "B": "Une manie aiguë",
-      "C": "Une schizophrénie paranoïde stabilisée",
-      "D": "Une hypoglycémie",
-      "E": "Une démence de type Alzheimer débutante"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, B, D.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
+      }
+    ]
   },
   {
     "id": "psy-127",
@@ -3608,34 +3649,6 @@ window.QCM_PSY = [
       "E"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé certifié : B, C, E.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2024/2025 (15/05/2025 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-132",
-    "num": 132,
-    "chapitre": "Psychiatrie légale",
-    "question": "M. Amine est un pédophile. Il a été arrêté suite au viol d'un enfant de 8 ans : (cochez la ou les réponses justes)",
-    "propositions": {
-      "A": "Il est atteint d'une paraphilie donc il n'est pas responsable de ses actes selon l'article 47 du code pénal",
-      "B": "La pédophilie n'entraîne pas une altération du jugement et du raisonnement",
-      "C": "Il est responsable de son acte selon l'article 47 du code pénal",
-      "D": "Il doit être puni par la loi et emprisonné",
-      "E": "Il doit être interné en psychiatrie"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : B, C, D.",
     "source": {
       "annee": 2025,
       "session": "Normale",
@@ -4005,32 +4018,6 @@ window.QCM_PSY = [
     "isAlger": false
   },
   {
-    "id": "psy-146",
-    "num": 146,
-    "chapitre": "Schizophrénies",
-    "question": "Quels sont les diagnostics différentiels de la schizophrénie, une réponse fausse :",
-    "propositions": {
-      "A": "Psychose puerpérale",
-      "B": "Trouble obsessionnel compulsif",
-      "C": "Trouble thymique à caractéristiques psychotiques",
-      "D": "Trouble psychotique bref",
-      "E": "Trouble délirant"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : B.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "psy-147",
     "num": 147,
     "chapitre": "Trouble délirant",
@@ -4083,7 +4070,16 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente (EMD Mostaganem 2025/2026 : ACD ; Oran 2024/2025 : AC). Clé de Mostaganem retenue. La durée du trouble psychotique bref est inférieure à 1 mois.",
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-149",
@@ -4362,90 +4358,6 @@ window.QCM_PSY = [
     "isAlger": false
   },
   {
-    "id": "psy-159",
-    "num": 159,
-    "chapitre": "TD : Prescription et surveillance d'un traitement psychotrope",
-    "question": "Quels sont les 3 critères majeurs du diagnostic d'un syndrome malin des neuroleptiques ?",
-    "propositions": {
-      "A": "Fièvre",
-      "B": "Labilité tensionnelle",
-      "C": "Rigidité",
-      "D": "Insuffisance rénale aigue",
-      "E": "Augmentation des CPK"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C, E.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-160",
-    "num": 160,
-    "chapitre": "Troubles anxieux et TOC",
-    "question": "Les phobies sociales se caractérisent par :",
-    "propositions": {
-      "A": "Peur d'être jugé négativement ou humilié en public",
-      "B": "Évitement des situations d'observation par autrui",
-      "C": "Difficultés de défendre ses droits",
-      "D": "Sont justifiées par des idées délirantes de persécution",
-      "E": "Le sujet a la conscience du caractère excessif de sa peur"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, B, C, E.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-161",
-    "num": 161,
-    "chapitre": "Troubles anxieux et TOC",
-    "question": "Deux symptômes sont très spécifiques du trouble panique :",
-    "propositions": {
-      "A": "La survenue brutale de crises angoisses intenses",
-      "B": "La peur de quitter une zone de sécurité",
-      "C": "La peur d'avoir une autre crise d'angoisse « anxiété anticipatoire »",
-      "D": "Une crainte liée au futur incertain",
-      "E": "L'appréhension pour la sécurité des enfants"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "psy-162",
     "num": 162,
     "chapitre": "Troubles anxieux et TOC",
@@ -4669,152 +4581,6 @@ window.QCM_PSY = [
     "isAlger": false
   },
   {
-    "id": "psy-170",
-    "num": 170,
-    "chapitre": "Trouble dépressif",
-    "question": "Le trouble dépressif se caractérise par :",
-    "propositions": {
-      "A": "Une tristesse profonde de plus de 15 jours avec sentiment d'un avenir noir",
-      "B": "Une excitation psychomotrice",
-      "C": "Des pensées négatives et un pessimisme pathologique envahissant",
-      "D": "Un ralentissement psychique et moteur",
-      "E": "Un risque suicidaire si dépression sévère"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C, D, E.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-171",
-    "num": 171,
-    "chapitre": "Trouble dépressif",
-    "question": "Quelles sont les diagnostics différentiels d'un trouble dépressif :",
-    "propositions": {
-      "A": "Trouble bipolaire",
-      "B": "Trouble schizoaffectif",
-      "C": "Deuil pathologique",
-      "D": "Période de tristesse réactionnelle",
-      "E": "Toutes les réponses sont justes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, B, C, D, E.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-172",
-    "num": 172,
-    "chapitre": "Trouble bipolaire",
-    "question": "Un accès maniaque peut :",
-    "propositions": {
-      "A": "Suffire seul pour retenir le diagnostic de trouble bipolaire type 1",
-      "B": "Peut compliquer un traitement antidépresseur mal conduit",
-      "C": "Est fait principalement d'une euphorie, une excitation psychomotrice",
-      "D": "Fait partie des troubles de l'humeur",
-      "E": "Toutes les réponses sont justes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, B, C, D, E.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-173",
-    "num": 173,
-    "chapitre": "Trouble bipolaire",
-    "question": "Lors du trouble bipolaire, quelle est la réponse fausse :",
-    "propositions": {
-      "A": "Se définie par l'alternance d'épisodes maniaques, hypomaniaques et dépressives séparées par des intervalles libres",
-      "B": "L'intensité et la durée des symptômes différencie l'accès maniaque de l'hypomaniaque",
-      "C": "Regroupe trois catégories : TB type 1, 2 et trouble cyclothymique",
-      "D": "Est catégorisé de type 1 devant des accès dépressifs seuls",
-      "E": "Est catégorisé de type 2 devant l'alternance d'accès hypomaniaques et dépressifs"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, B, C, E.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "psy-174",
-    "num": 174,
-    "chapitre": "PTSD et troubles liés au stress",
-    "question": "Concernant les critères diagnostiques du trouble de stress post traumatique (TSPT) selon le DSM-5, quels sont les éléments nécessaires ?",
-    "propositions": {
-      "A": "Exposition à un événement traumatique",
-      "B": "Présence de symptômes dissociatifs obligatoires",
-      "C": "Symptômes de reviviscence obligatoires (flashbacks, cauchemars...)",
-      "D": "Symptômes d'évitement",
-      "E": "Symptômes présents pendant au moins 2 semaines"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C, D.",
-    "source": {
-      "annee": 2026,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - EMD Psychiatrie 2025/2026 (26/02/2026 - Dr. Selhi)"
-    },
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "psy-175",
     "num": 175,
     "chapitre": "PTSD et troubles liés au stress",
@@ -4898,7 +4664,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-178",
@@ -4926,7 +4700,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-179",
@@ -4954,7 +4736,15 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-180",
@@ -4980,7 +4770,16 @@ window.QCM_PSY = [
     },
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente (Mostaganem : B ; Oran : BCE). Clé de Mostaganem retenue ; l'article 47 vise la démence et la contrainte.",
+    "sources": [
+      {
+        "annee": 2025,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
+      }
+    ]
   },
   {
     "id": "psy-181",
@@ -5133,33 +4932,6 @@ window.QCM_PSY = [
       "E"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé certifié : B, E.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "psy-187",
-    "num": 187,
-    "chapitre": "Trouble psychotique bref",
-    "question": "Le trouble psychotique bref est : (cochez la ou les réponses justes)",
-    "propositions": {
-      "A": "Un état psychotique aigu.",
-      "B": "Est une psychose maniaco-dépressive.",
-      "C": "Fait d'un syndrome délirant riche.",
-      "D": "Constitue une urgence psychiatrique.",
-      "E": "Délimité par une durée plus de 01 mois"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C.",
     "source": {
       "annee": 2025,
       "session": "Normale",
@@ -5333,7 +5105,8 @@ window.QCM_PSY = [
     },
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Le corrigé officiel retient A, B, D malgré la consigne « réponse fausse » : la proposition C (familiarité de contact) est la seule qui n'appartient pas au tableau dépressif."
   },
   {
     "id": "psy-194",
@@ -5498,7 +5271,8 @@ window.QCM_PSY = [
     },
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Le corrigé officiel retient B, C, D malgré la consigne « réponse fausse » : la proposition A (idées délirantes hypocondriaques) est celle qui ne relève pas de la conversion."
   },
   {
     "id": "psy-200",
@@ -5619,62 +5393,6 @@ window.QCM_PSY = [
       "C": "Une peur des espaces ouverts ou des lieux publics",
       "D": "La peur de d'effectuer des actes sacrilèges",
       "E": "Se complique d'un évitement pathologique"
-    },
-    "bonnes_reponses": [
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : C, E.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "psy-205",
-    "num": 205,
-    "chapitre": "Addictions",
-    "question": "Quelles sont les indications à un sevrage d'alcool en milieu hospitalier ? réponses justes :",
-    "propositions": {
-      "A": "Tous les sevrages doivent se faire à l'hôpital",
-      "B": "Antécédents d'accidents grave du sevrage",
-      "C": "Suite à une demande de la famille",
-      "D": "Environnement précaire à domicile",
-      "E": "Insuffisance cardiaque sévère"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : B, C, D, E.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "psy-206",
-    "num": 206,
-    "chapitre": "Addictions",
-    "question": "A propos du delirium tremens : deux réponses sont justes :",
-    "propositions": {
-      "A": "C'est un délire oniroïde qui complique une intoxication alcoolique aiguë",
-      "B": "Il est grave du fait des complications somatiques induites, mais n'est pas mortel",
-      "C": "Il s'accompagne volontiers d'un tremblement de la langue",
-      "D": "Le principal facteur de risque de delirium tremens est la consommation ancienne d'alcool",
-      "E": "Il faudra toujours y rechercher les signes d'une déshydratation"
     },
     "bonnes_reponses": [
       "C",
@@ -5884,62 +5602,6 @@ window.QCM_PSY = [
     "isAlger": false
   },
   {
-    "id": "psy-214",
-    "num": 214,
-    "chapitre": "Autisme",
-    "question": "Les Troubles du Spectre Autistique (TSA) comportent :",
-    "propositions": {
-      "A": "Des troubles du langage.",
-      "B": "Une familiarité excessive.",
-      "C": "Des perversions diverses.",
-      "D": "Des stéréotypies gestuelles et/ou verbales.",
-      "E": "Un trouble du contact social."
-    },
-    "bonnes_reponses": [
-      "A",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, D, E.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "psy-215",
-    "num": 215,
-    "chapitre": "L'adolescence et ses troubles",
-    "question": "Le trouble disruptif avec dysrégulation émotionnelle (TDDE) se caractérise par : cochez la ou les réponses justes :",
-    "propositions": {
-      "A": "Des accès de colère sévères.",
-      "B": "Des accès de colère appropriés aux situations.",
-      "C": "Des accès de colère répétitifs.",
-      "D": "Irritabilité persistante entre les crises de colère.",
-      "E": "Evolution épisodique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, C, D.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "psy-216",
     "num": 216,
     "chapitre": "Les carences de soins maternels",
@@ -6012,62 +5674,6 @@ window.QCM_PSY = [
       "C"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé certifié : C.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "psy-219",
-    "num": 219,
-    "chapitre": "Troubles sexuelles",
-    "question": "Quelle(s) affirmation(s) est/sont correcte(s) sur les troubles de l'excitation sexuelle ?",
-    "propositions": {
-      "A": "Chez l'homme, ils se manifestent principalement par la dysfonction érectile",
-      "B": "Chez la femme, ils peuvent entraîner une absence de lubrification vaginale",
-      "C": "Les érections matinales sont absentes en cas de dysfonction érectile psychogène",
-      "D": "Les troubles de l'excitation chez la femme sont toujours faciles à diagnostiquer",
-      "E": "La ménopause peut être un facteur de trouble de l'excitation féminine"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : A, B, E.",
-    "source": {
-      "annee": 2025,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Psychiatrie 2024/2025 (Dr. Benlefki)"
-    },
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "psy-220",
-    "num": 220,
-    "chapitre": "Psychiatrie légale",
-    "question": "Selon l'article 47 du code pénal, qui n'est pas punissable ? (Cochez la réponse juste)",
-    "propositions": {
-      "A": "Celui qui commet une infraction sous l'effet de l'alcool",
-      "B": "Celui qui était en état de démence au moment de l'infraction",
-      "C": "Celui qui agit sous la contrainte",
-      "D": "Celui qui commet une infraction mineure",
-      "E": "Celui qui agit en légitime défense"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé certifié : B, C, E.",
     "source": {
       "annee": 2025,
       "session": "Normale",

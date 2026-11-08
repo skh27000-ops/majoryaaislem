@@ -1003,31 +1003,31 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "Le statut nutritionnel et le taux d'albumine sérique sont de puissants facteurs prédictifs indépendants de survie chez l'insuffisant rénal chronique."
   },
   "uro-112": {
-    "A": "Vrai. La néphropathie diabétique présente initialement une hypertrophie rénale avec épaississement de la membrane basale conservant des reins de taille normale ou augmentée même au stade d'IRC.",
-    "B": "Faux. La glomérulonéphrite chronique primitive évolue typiquement vers des reins atrophiques réduits de taille (< 9-10 cm) et symétriques.",
-    "C": "Vrai. L'amylose rénale conserve la taille des reins (voire gros reins) en raison de l'accumulation extracellulaire massive de substance amyloïde biréfringente.",
-    "D": "Vrai. La polykystose rénale autosomique dominante se caractérise par des reins volumineux hypertrophiés bosselés par d'innombrables kystes bilatéraux.",
-    "E": "Faux. La néphroangiosclérose bénigne au long cours aboutit à une atrophie rénale bilatérale symétrique harmonieuse par endartérite fibreuse.",
-    "_synthese": "Les causes classiques d'insuffisance rénale chronique à reins de taille normale ou augmentée sont la néphropathie diabétique, l'amylose rénale, la polykystose rénale autosomique dominante et l'hydronéphrose.",
-    "_remarque": "La découverte de gros reins au cours d'une IRC avancée doit faire rechercher en priorité une gammapathie monoclonale avec amylose ou un diabète."
+    "A": "Vrai. Hyperhydratation (OAP) résistante aux diurétiques.",
+    "B": "Vrai. Hyperkaliémie menaçante, résistante au traitement médical.",
+    "C": "Faux. Acidose métabolique sévère réfractaire (non toute acidose).",
+    "D": "Faux. Le sepsis seul n'est pas une indication.",
+    "E": "Vrai. Rhabdomyolyse : peut imposer l'EER (hyperkaliémie, IRA).",
+    "_synthese": "Indications de l'épuration extra-rénale : hyperhydratation, hyperkaliémie, acidose réfractaires, urémie symptomatique ; la rhabdomyolyse peut y conduire.",
+    "_remarque": "Clé du PDF conservée (ABE) ; l'acidose sévère réfractaire est classiquement une indication. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-113": {
-    "A": "Vrai. L'orchi-épididymite débute habituellement de façon insidieuse et progressive sur 24 à 48 heures, contrastant avec la brutalité de la torsion du cordon.",
-    "B": "Vrai. Un syndrome fébrile avec température élevée (38,5 - 40°C), frissons et tachycardie est un élément caractéristique de l'infection bactérienne épididymo-testiculaire.",
-    "C": "Faux. Un nodule dur testiculaire indolore évoque une néoplasie testiculaire primitive et non une épididymite inflammatoire.",
-    "D": "Vrai. La palpation retrouve une bourse augmentée de volume, inflammatoire, œdématiée, très douloureuse au contact de l'épididyme coiffant le testicule.",
-    "E": "Faux. Le signe de Prehn est positif : le soulèvement scrotal soutient le testicule et soulage la douleur (alors qu'il ne soulage pas dans la torsion).",
-    "_synthese": "L'orchi-épididymite aiguë se manifeste par une douleur progressive, une grosse bourse inflammatoire fébrile, des signes urinaires et un signe de Prehn positif.",
-    "_remarque": "L'ECBU est systématique avant antibiothérapie ; chez le sujet jeune sexuellement actif, la PCR Chlamydia/gonocoque sur premier jet urinaire est obligatoire."
+    "A": "Vrai. Apparition brutale de l'ensemble du syndrome glomérulaire.",
+    "B": "Vrai. Glomérulonéphrite aiguë (post-streptococcique).",
+    "C": "Vrai. Oligo-anurie et HTA sont fréquentes.",
+    "D": "Faux. L'insuffisance rénale est aiguë, non chronique.",
+    "E": "Faux. La protéinurie est non sélective.",
+    "_synthese": "Le syndrome néphritique (néphrétique) aigu associe hématurie, œdèmes, HTA et oligurie d'apparition brutale ; il est dû à une glomérulonéphrite aiguë.",
+    "_remarque": "Clé complétée (AB → ABC) : l'oligo-anurie et l'HTA font partie du syndrome néphritique aigu. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-114": {
-    "A": "Vrai. La douleur de la torsion du cordon spermatique survient brutalement, d'emblée maximale, en « coup de tonnerre » ou coup de poignard scrotal.",
-    "B": "Faux. La torsion survient classiquement au repos, au lit ou en fin de nuit, sans facteur déclenchant traumatique ou d'effort retrouvé.",
-    "C": "Vrai. L'intensité douloureuse atteint son paroxysme dès les premières secondes, empêchant la marche et insomniante.",
-    "D": "Vrai. L'extrême violence de la douleur réflexe entraîne une agitation motrice chez le patient, souvent accompagnée de nausées et vomissements.",
-    "E": "Faux. La torsion est un événement ischémique mécanique aigu non infectieux : le patient est apyrétique.",
-    "_synthese": "La sémiologie clinique d'une torsion testiculaire associe une douleur brutale suraiguë d'emblée maximale chez un patient apyrétique et agité, avec rétraction scrotale haute du testicule.",
-    "_remarque": "Le réflexe crémastérien est constamment aboli du côté de la torsion testiculaire."
+    "A": "Vrai. Moins de 150 mg/jour.",
+    "B": "Faux. Elle contient surtout de l'albumine (environ 20 à 30 %) et d'autres protéines, non 40 % de protéines plasmatiques.",
+    "C": "Vrai. Non détectée à la bandelette.",
+    "D": "Vrai. Mucoprotéine de Tamm-Horsfall : constituant normal.",
+    "E": "Faux. Elle augmente pendant la grossesse.",
+    "_synthese": "Une protéinurie physiologique est inférieure à 150 mg/24 h, non détectée par la bandelette, et comprend des mucoprotéines de Tamm-Horsfall.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-115": {
     "A": "Faux. Les phtalates utilisés comme plastifiants sont des perturbateurs endocriniens majeurs aux propriétés anti-androgéniques démontrées.",
@@ -1156,13 +1156,13 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "Toute infection urinaire chez un patient présentant un facteur de risque de complication justifie un ECBU d'emblée et un traitement adapté guidé par l'antibiogramme."
   },
   "uro-129": {
-    "A": "Vrai. L'analyse urinaire par bandelette et la confirmation par ECBU avec antibiogramme sont systématiques et indispensables pour isoler la souche responsable.",
-    "B": "Vrai. Des hémocultures répétées (au moins deux paires) sont obligatoires pour rechercher une bactériémie ou un sepsis sévère.",
-    "C": "Vrai. Le bilan biologique d'urgence évalue la sévérité du sepsis (NFS, CRP), le retentissement rénal (créatininémie) et les désordres électrolytiques.",
-    "D": "Vrai. L'uroscanner injecté en urgence dans les 24h est capital pour éliminer une pyélonéphrite obstructive sur calcul ou une collection purulente péri-rénale.",
-    "E": "Vrai (réponse synthétique exacte). L'ensemble de ces explorations biologiques et morphologiques constitue le bilan d'urgence exhaustif de toute pyélonéphrite aiguë grave.",
-    "_synthese": "La pyélonéphrite aiguë grave (sepsis, choc, terrain à risque ou geste récent) justifie l'hospitalisation, des hémocultures, un ECBU, un bilan inflammatoire/rénal et un uroscanner d'urgence dans les 24h.",
-    "_remarque": "La découverte d'un obstacle sur les voies urinaires à l'uroscanner transforme l'infection en urgence médico-chirurgicale de dérivation immédiate des urines."
+    "A": "Faux. BU et ECBU systématiques.",
+    "B": "Faux. Hémocultures systématiques.",
+    "C": "Faux. NFS, ionogramme, CRP, créatininémie.",
+    "D": "Faux. Uroscanner en urgence.",
+    "E": "Vrai. Toutes ces réponses.",
+    "_synthese": "Dans la pyélonéphrite aiguë grave : BU et ECBU, hémocultures, bilan biologique et uroscanner en urgence sont systématiques.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-130": {
     "A": "Faux (attitude thérapeutique correcte). L'hospitalisation immédiate s'impose face à une colique néphrétique fébrile compliquée d'un sepsis surajouté.",
@@ -1423,121 +1423,121 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "Le curage ganglionnaire ilio-obturateur bilatéral permet un staging histologique précis chez les patients à risque intermédiaire lorsque le risque d'atteinte ganglionnaire dépasse 5 %."
   },
   "uro-157": {
-    "A": "Faux. Les tumeurs de la voie excrétrice supérieure (TVES) naissent de l'épithélium de transition (urothélium) bordant les calices, le bassinet ou l'uretère, et non du parenchyme glomérulo-tubulaire rénal.",
-    "B": "Vrai. Le tabagisme chronique par l'élimination urinaire de métabolites aromatiques carcinogènes est le facteur étiologique majeur des carcinomes urothéliaux du haut appareil.",
-    "C": "Vrai. L'uro-scanner avec acquisition au temps tardif excréteur est l'examen d'imagerie de référence pour visualiser les lacunes urothéliales et évaluer la perméabilité de la voie urinaire.",
-    "D": "Vrai. La néphro-urétérectomie totale avec exérèse d'une collerette vésicale périméatique par voie ouverte ou cœlioscopique est le traitement chirurgical curateur de référence.",
-    "E": "Vrai. En raison de la pan-urothéliopathie multifocale, le risque de récidive tumorale dans la vessie au cours du suivi est majeur (de 30 à 50 % des cas).",
-    "_synthese": "Les tumeurs de la voie excrétrice supérieure sont des tumeurs urothéliales favorisées par le tabac, explorées par l'uro-scanner, traitées par néphro-urétérectomie totale avec collerette vésicale et grevées d'un haut risque de récidive vésicale.",
-    "_remarque": "Une cystoscopie de surveillance régulière est impérative après traitement chirurgical d'une TVES pour dépister précocement une récidive vésicale métachrone."
+    "A": "Proposition exacte. Exacte : orchidectomie bilatérale possible.",
+    "B": "Proposition exacte. Exacte : la résistance à la castration finit par apparaître.",
+    "C": "Proposition fausse (à cocher). Fausse : le flare-up concerne les agonistes de la LH-RH, pas les antagonistes.",
+    "D": "Proposition exacte. Exacte : testostéronémie de castration.",
+    "E": "Proposition exacte. Exacte : suivi du PSA.",
+    "_synthese": "Au stade métastatique, la castration est médicale ou chirurgicale ; on associe un anti-androgène aux agonistes de la LH-RH (non aux antagonistes) pour éviter l'effet flare-up.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-158": {
-    "A": "Faux. Le diagnostic est posé à l'échographie anténatale du 2e ou 3e trimestre dans plus de 70 % des observations actuelles.",
-    "B": "Vrai. La malformation prédomine très nettement chez le garçon (sex-ratio d'environ 2 à 3/1) et intéresse plus souvent le côté gauche.",
-    "C": "Vrai. L'obstacle se traduit par une volumineuse distension pyélique arrondie et des calices dilatés en boule au-dessus d'un uretère fin non visible.",
-    "D": "Vrai. Le retard ou l'absence de vidange du bassinet dilaté sur les clichés tardifs d'uro-scanner confirme la stase excrétoire pathologique.",
-    "E": "Vrai. Le rein controlatéral doit être exploré avec rigueur car une atteinte bilatérale ou une anomalie associée (dysplasie, agénésie) s'observe dans 10 à 20 % des cas.",
-    "_synthese": "Le syndrome de la jonction pyélo-urétérale est l'uropathie malformative obstructive haute la plus fréquente de l'enfant, caractérisée par une dilatation pyélo-calicielle en boule avec retard d'excrétion.",
-    "_remarque": "La pyéloplastie selon Anderson-Hynes (résection de la jonction sténosée avec anastomose pyélo-urétérale) est le traitement chirurgical curateur de référence."
+    "A": "Proposition fausse (à cocher). Fausse : pas de dépistage de masse.",
+    "B": "Proposition exacte. Exacte : toucher rectal.",
+    "C": "Proposition exacte. Exacte : dosage du PSA.",
+    "D": "Proposition exacte. Exacte : de 50 à 75 ans.",
+    "E": "Proposition exacte. Exacte : permet un diagnostic précoce.",
+    "_synthese": "Il n'y a pas de dépistage de masse du cancer de la prostate ; le dépistage individuel repose sur le PSA et le toucher rectal chez l'homme de 50 à 75 ans.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-159": {
-    "A": "Vrai. Les calculs de cystine sont formés d'un acide aminé soufré peu dense aux rayons X, conférant une tonalité faiblement radio-opaque (grisâtre) sur l'ASP.",
-    "B": "Vrai. La dureté cristalline extrême de la cystine rend ces calculs particulièrement résistants à la désintégration par ondes de choc de la lithotritie extracorporelle (LEC).",
-    "C": "Vrai. La cystine est très peu soluble en pH acide et sa solubilité s'accroît considérablement à pH alcalin ; l'alcalinisation thérapeutique des urines (pH > 7,5) est le pivot du traitement médical.",
-    "D": "Vrai. La maladie est secondaire à une anomalie génétique autosomique récessive des transporteurs tubulaires rénaux et intestinaux des acides aminés dibasiques (gènes SLC3A1 ou SLC7A9).",
-    "E": "Faux. La cristallurie met en évidence des cristaux caractéristiques hexagonaux transparents en « panneaux de stop » pathognomoniques au microscope, permettant formellement le diagnostic.",
-    "_synthese": "La lithiase cystinique est une affection génétique héréditaire récessive caractérisée par des calculs faiblement radio-opaques très durs, résistants à la LEC, dissolubles par alcalinisation, avec cristaux hexagonaux typiques.",
-    "_remarque": "Le traitement médical de fond repose sur une hyperdiurèse majeure (> 3 à 4 L/j) répartie jour et nuit couplée à l'alcalinisation (bicarbonate ou citrate de potassium)."
+    "A": "Proposition exacte. Exact : origine africaine, risque accru.",
+    "B": "Proposition fausse (à cocher). Faux : l'HBP n'est pas un facteur de risque.",
+    "C": "Proposition fausse (à cocher). Faux : les infections ne sont pas un facteur de risque.",
+    "D": "Proposition fausse (à cocher). Faux : tabac non établi.",
+    "E": "Proposition exacte. Exact : antécédents familiaux.",
+    "_synthese": "Facteurs de risque du cancer de la prostate : âge, origine ethnique, antécédents familiaux ; l'HBP, les infections urinaires et le tabac n'en sont pas.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-160": {
-    "A": "Vrai. Les calculs d'acide urique pur sont constitués d'atomes légers (C, H, O, N) et ne bloquent pas le faisceau de rayons X, étant parfaitement invisibles (radiotransparents) sur l'ASP.",
-    "B": "Vrai. L'alcalinisation des urines par le citrate de potassium ou l'eau de Vichy pour maintenir un pH entre 6,5 et 7 permet d'obtenir la dissolution chimique complète de la masse lithiasique urique.",
-    "C": "Faux. L'acide urique précipite en milieu urinaire ACIDE (pH < 5,5) ; à pH alcalin, il se transforme en urate soluble et ne forme pas de calcul.",
-    "D": "Faux. L'examen tomodensitométrique spiralé non injecté est l'examen de référence qui visualise spontanément et avec certitude tous les calculs d'acide urique (densité typique de 300 à 500 UH).",
-    "E": "Vrai. Le scanner sans injection affirme le calcul sous forme d'une hyperdensité nette au sein de la voie excrétrice, permettant le diagnostic différentiel avec une tumeur urothéliale.",
-    "_synthese": "Les calculs d'acide urique sont radiotransparents sur l'ASP mais hyperdenses au scanner non injecté. Ils se forment en urine acide et sont solubilisables par alcalinisation médicale des urines.",
-    "_remarque": "La découverte d'un calcul radiotransparent à l'ASP et hyperdense au scanner justifie une tentative de chimiodissolution médicale alcalinisante avant toute chirurgie."
+    "A": "Proposition exacte. Indication : tumeur non résécable.",
+    "B": "Proposition fausse (à cocher). Pas d'indication : la tumeur est opérée sans biopsie.",
+    "C": "Proposition exacte. Indication : suspicion de métastase.",
+    "D": "Proposition exacte. Indication : patient inopérable.",
+    "E": "Proposition exacte. Indication : avant traitement ablatif.",
+    "_synthese": "La biopsie rénale est indiquée quand le résultat modifie la prise en charge ; elle n'est pas indiquée avant une néphrectomie élargie pour une tumeur résécable.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-161": {
-    "A": "Vrai. L'oxalate de calcium monohydraté (whewellite) forme des calculs denses, spiculés, très durs et hautement radio-opaques sur les clichés d'ASP.",
-    "B": "Faux. Les calculs oxalo-calciques sont totalement insolubles et réfractaires à toute tentative de dissolution chimique par modification du pH urinaire.",
-    "C": "Faux. Ils constituent de très loin la forme chimique la plus fréquente des lithiases urinaires, représentant plus de 70 à 80 % de tous les calculs analysés.",
-    "D": "Faux. L'oxalate de calcium précipite indépendamment des variations usuelles du pH urinaire physiologique (entre 5 et 7).",
-    "E": "Vrai. La sursaturation urinaire en calcium (hypercalciurie) et en oxalate (hyperoxalurie) combinée à une faible diurèse sont les facteurs métaboliques lithogènes fondamentaux.",
-    "_synthese": "La lithiase oxalo-calcique représente 70 à 80 % de l'ensemble des calculs urinaires. Radio-opaque, chimiquement non dissoluble, sa genèse est dominée par l'hypercalciurie et le défaut de diurèse.",
-    "_remarque": "La spectrophotométrie infrarouge distingue la whewellite (monohydratée, dépendante de l'oxalate) et la weddellite (dihydratée, dépendante de la calciurie)."
+    "A": "Vrai. Néphrectomie partielle : traitement de choix si faisable.",
+    "B": "Vrai. Néphrectomie élargie : option.",
+    "C": "Faux. La surveillance active est réservée aux petites tumeurs ou aux sujets fragiles.",
+    "D": "Faux. Cryothérapie : cas particuliers.",
+    "E": "Faux. Thérapie ciblée : stade métastatique.",
+    "_synthese": "Un cancer du rein T1b N0 M0 relève de la chirurgie : néphrectomie partielle ou élargie.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-162": {
-    "A": "Vrai. La phosphaturie ammoniaco-magnésienne (struvite) se forme exclusivement lors de la pullulation urinaire de bactéries dotées d'une enzyme uréase (Proteus mirabilis, Klebsiella pneumoniae, Pseudomonas).",
-    "B": "Vrai. L'hydrolyse enzymatique de l'urée par l'uréase libère de l'ammoniac et des ions hydroxydes, entraînant une élévation franche et constante du pH urinaire au-delà de 7,5.",
-    "C": "Vrai. Ces calculs ont un potentiel de croissance volumique rapide et prennent typiquement l'empreinte complète des cavités rénales sous forme de volumineux calculs coralliformes.",
-    "D": "Faux. Ils prédominent nettement chez la FEMME en raison de la prévalence plus élevée des infections urinaires à répétition de l'arbre urinaire.",
-    "E": "Vrai. Tout fragment résiduel hébergeant des bactéries au sein de la matrice cristalline sert de foyer infectieux récidivant ; une élimination chirurgicale totale est indispensable.",
-    "_synthese": "Les lithiases d'infection (struvite) résultent de la présence de bactéries uréasiques en milieu alcalin, fréquentes chez la femme et formant des calculs coralliformes nécessitant une éradication complète.",
-    "_remarque": "L'association d'une néphrolithotomie percutanée et d'une antibiothérapie ciblée prolongée est la stratégie standard pour stériliser le tractus urinaire."
+    "A": "Faux. Elle n'est pas toujours présente.",
+    "B": "Faux. Elle est rarement isolée (triade complète rare).",
+    "C": "Faux. La triade complète douleur, masse, hématurie est tardive.",
+    "D": "Faux. Elle est indolore.",
+    "E": "Vrai. Totale et macroscopique.",
+    "_synthese": "L'hématurie du cancer du rein est souvent totale, macroscopique et indolore.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-163": {
-    "A": "Vrai. Le score IPSS (International Prostate Symptom Score) est un auto-questionnaire validé standardisé de 7 questions évaluant l'intensité de la gêne fonctionnelle mictionnelle.",
-    "B": "Faux. Le score IPSS quantifie la sévérité des symptômes et la qualité de vie, mais son résultat numérique n'est aucunement corrélé au volume prostatique mesuré par échographie.",
-    "C": "Vrai. La 8e question du questionnaire est une question spécifique évaluant de 0 à 6 l'impact des troubles urinaires sur la qualité de vie du patient.",
-    "D": "Vrai. Un score IPSS total compris entre 0 et 7 définit des symptômes légers ; un score de 8 à 19 correspond à une symptomatologie modérée ; un score de 20 à 35 traduit des symptômes sévères.",
-    "E": "Vrai. La répétition du score IPSS lors des consultations de suivi permet d'évaluer objectivement l'efficacité clinique des thérapeutiques médicales ou chirurgicales instaurées.",
-    "_synthese": "Le score IPSS est l'outil clinique validé de référence pour classifier la sévérité des symptômes de l'HBP (léger 0-7, modéré 8-19, sévère 20-35) et surveiller la réponse thérapeutique.",
-    "_remarque": "L'interrogatoire utilisant l'IPSS permet de faire la part entre symptômes obstructifs de vidange (dysurie, jet faible) et symptômes irritatifs de remplissage (pollakiurie, urgenturie)."
+    "A": "Proposition exacte. Exact : l'uroscanner suffit souvent.",
+    "B": "Proposition exacte. Exact : récidive controlatérale possible.",
+    "C": "Proposition fausse (à cocher). Faux : pas de biopsie systématique.",
+    "D": "Proposition exacte. Exact : Fuhrman, facteur pronostique.",
+    "E": "Proposition fausse (à cocher). Faux : cellules claires les plus fréquents.",
+    "_synthese": "Dans le cancer du rein, la preuve histologique n'est pas nécessaire avant la chirurgie ; le type le plus fréquent est le carcinome à cellules claires.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-164": {
-    "A": "Vrai. L'adénome prostatique est une prolifération fibro-adénomyomateuse bénigne se développant électivement dans la zone de transition péri-urétrale entourant l'urètre proximal.",
-    "B": "Faux. Le cancer de la prostate prend naissance dans plus de 75 % des cas au sein de la zone périphérique postérieure de la glande, accessible au doigt lors du toucher rectal.",
-    "C": "Faux. Les deux pathologies sont totalement indépendantes sur le plan histologique ; l'adénome ne constitue pas un état précancéreux du carcinome prostatique.",
-    "D": "Vrai. La zone périphérique prostatique est le siège de prédilection de la carcinogenèse prostatique.",
-    "E": "Vrai. Un adénome prostatique central et un carcinome de la zone périphérique peuvent parfaitement coexister de manière synchrone au sein de la même glande chez un homme âgé.",
-    "_synthese": "L'HBP se développe dans la zone de transition péri-urétrale, tandis que l'adénocarcinome prostatique naît dans la zone périphérique. Ce sont deux entités nosologiquement distinctes pouvant coexister.",
-    "_remarque": "La résection endoscopique d'un adénome prostatique n'élimine pas la zone périphérique et ne dispense pas du dépistage ultérieur d'un cancer de prostate."
+    "A": "Faux. Syndrome néphrotique impur : œdèmes et albuminémie basse.",
+    "B": "Faux. GNRP : évolution rapide en semaines.",
+    "C": "Faux. Hématurie récidivante : IgA.",
+    "D": "Vrai. Syndrome néphritique aigu post-streptococcique.",
+    "E": "Faux. Néphropathie interstitielle : leucocyturie.",
+    "_synthese": "Hématurie macroscopique, HTA, protéinurie et insuffisance rénale après une angine ou une scarlatine : syndrome néphritique aigu.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-165": {
-    "A": "Vrai. Les alphabloquants (tamsulosine, alfuzosine, silodosine) bloquent les récepteurs alpha-1a adrénergiques du col vésical et de la prostate, relâchant le tonus musculaire lisse sous-vésical.",
-    "B": "Vrai. Les inhibiteurs de la 5-alpha-réductase (finastéride, dutastéride) bloquent la conversion de la testostérone en dihydrotestostérone (DHT), induisant une régression du volume de l'adénome.",
-    "C": "Vrai. L'association d'un alphabloquant et d'un inhibiteur de la 5-alpha-réductase réduit significativement le risque de rétention aiguë d'urine et le recours à la chirurgie chez les prostates > 40 mL.",
-    "D": "Faux. Les alphabloquants ont une action purement fonctionnelle sur le tonus musculaire sans aucun effet sur le volume tissulaire de la prostate.",
-    "E": "Vrai. Les alphabloquants agissent très rapidement dès les premières prises (dans les 48 heures), alors que les inhibiteurs de la 5-alpha-réductase requièrent un délai d'action de 3 à 6 mois.",
-    "_synthese": "Le traitement médical de l'HBP repose sur les alphabloquants (action rapide sur les résistances urétrales) et les inhibiteurs de la 5-ARI (action retardée diminuant le volume prostatique).",
-    "_remarque": "L'éjaculation rétrograde est l'effet indésirable pharmacologique le plus fréquent des alphabloquants, secondaire à l'absence de fermeture du col vésical lors du réflexe éjaculatoire."
+    "A": "Vrai. HTA.",
+    "B": "Vrai. Retard de croissance chez l'enfant.",
+    "C": "Vrai. Hyperlipidémie.",
+    "D": "Vrai. Dénutrition protéique.",
+    "E": "Vrai. Insuffisance rénale chronique.",
+    "_synthese": "Les complications chroniques du syndrome néphrotique incluent HTA, retard de croissance, hyperlipidémie, dénutrition protéique et insuffisance rénale chronique.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-166": {
-    "A": "Vrai. Le résidu post-mictionnel persistant et la distension vésicale réduisent l'efficacité de la vidange, exposant à la pullulation bactérienne et aux prostatites ou cystites récidivantes.",
-    "B": "Vrai. L'impossibilité brutale et douloureuse d'uriner avec globe vésical tendu est la complication aiguë urologique princeps imposant un drainage en urgence.",
-    "C": "Vrai. La stase urinaire prolongée intra-vésicale favorise la nucléation des phosphates et urates conduisant à la formation de volumineuses lithiases vésicales.",
-    "D": "Vrai. L'insuffisance rénale aiguë ou chronique obstructive résulte du retentissement d'amont avec urétéro-hydronéphrose bilatérale par obstacle sous-vésical chronique décompensé.",
-    "E": "Faux. L'HBP est une prolifération fibro-épithéliale strictement bénigne qui n'évolue jamais vers un cancer de prostate.",
-    "_synthese": "Les complications graves de l'HBP obstructive sont la rétention aiguë d'urine, la lithiase vésicale de stase, les infections uro-génitales récidivantes et l'insuffisance rénale obstructive bilatérale.",
-    "_remarque": "La survenue de l'une de ces complications constitue une indication formelle de traitement chirurgical de désobstruction (RTUP ou adénomectomie)."
+    "A": "Vrai. Acidose métabolique sévère réfractaire.",
+    "B": "Faux. L'alcalose n'est pas une indication.",
+    "C": "Vrai. Hyperkaliémie menaçante.",
+    "D": "Vrai. Encéphalopathie urémique.",
+    "E": "Vrai. OAP chez un patient anurique.",
+    "_synthese": "Indications d'épuration extra-rénale en urgence : acidose réfractaire, hyperkaliémie menaçante, encéphalopathie urémique, œdème pulmonaire chez l'anurique.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-167": {
-    "A": "Vrai. La classification de D'Amico stratifie le cancer de la prostate localisé en trois groupes pronostiques (faible risque, risque intermédiaire, haut risque) guidant la décision thérapeutique.",
-    "B": "Vrai. Le taux sérique de PSA total est l'un des trois paramètres constitutifs majeurs de la classification (< 10, 10-20, > 20 ng/mL).",
-    "C": "Vrai. Le stade clinique tumoral T déterminé par le toucher rectal et l'imagerie (cT1c-T2a, cT2b, cT2c-T3a) est le deuxième paramètre de D'Amico.",
-    "D": "Vrai. Le score histopathologique de Gleason (score ≤ 6 / ISUP 1, 7 / ISUP 2-3, ≥ 8 / ISUP 4-5) déterminé sur les biopsies est le troisième paramètre clé.",
-    "E": "Faux. L'âge du patient n'intervient pas dans la définition des groupes de risque de D'Amico (bien qu'il influence le choix thérapeutique global et l'espérance de vie).",
-    "_synthese": "La classification pronostique de D'Amico repose exclusivement sur la triade : le stade clinique tumoral T, le taux sérique du PSA total et le score histologique de Gleason.",
-    "_remarque": "Le groupe à haut risque de D'Amico associe un PSA > 20 ng/mL, un Gleason ≥ 8 (ISUP 4-5) ou un stade clinique cT2c-T3a."
+    "A": "Vrai. Hyperkaliémie.",
+    "B": "Faux. Hypokaliémie : rare.",
+    "C": "Faux. Hypercalcémie : rare.",
+    "D": "Vrai. Hypocalcémie.",
+    "E": "Vrai. Hyperphosphorémie.",
+    "_synthese": "Dans l'IRC, on observe hyperkaliémie, hypocalcémie et hyperphosphorémie.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-168": {
-    "A": "Vrai. La privation androgénique par analogues de la GnRH supprime les œstrogènes dérivés de la testostérone, induisant une déminéralisation osseuse accélérée avec ostéoporose.",
-    "B": "Vrai. Les bouffées de chaleur avec sueurs nocturnes touchent plus de 70 à 80 % des patients sous suppression androgénique par dérèglement des centres thermorégulateurs hypothalamiques.",
-    "C": "Faux. L'effondrement de la testostérone circulante entraîne au contraire une baisse majeure de la libido et une dysfonction érectile quasi constante.",
-    "D": "Vrai. L'hypo-androgénie s'accompagne d'une fonte musculaire (sarcopénie), d'une prise de masse grasse abdominale et d'une majoration du risque de syndrome métabolique et d'accidents cardiovasculaires.",
-    "E": "Vrai. La déprivation hormonale perturbe l'érythropoïèse stimulée par la testostérone, responsable d'une anémie normocytaire normochrome modérée bien tolérée.",
-    "_synthese": "L'hormonothérapie par suppression androgénique entraîne des effets indésirables métaboliques et physiques majeurs : bouffées de chaleur, ostéoporose, dysfonction érectile, sarcopénie et anémie.",
-    "_remarque": "Une ostéodensitométrie initiale et une supplémentation en calcium et vitamine D sont recommandées dès l'introduction d'une hormonothérapie prolongée."
+    "A": "Vrai. Fièvre.",
+    "B": "Vrai. Brûlure mictionnelle.",
+    "C": "Vrai. Dysurie.",
+    "D": "Vrai. Infection urinaire.",
+    "E": "Vrai. Rétention vésicale complète.",
+    "_synthese": "Une prostatite aiguë peut donner fièvre, brûlures mictionnelles, dysurie, infection urinaire et rétention complète.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-169": {
-    "A": "Vrai. L'incontinence urinaire d'effort (IUE) se définit par des pertes involontaires d'urines survenant immédiatement lors d'une hyperpression intra-abdominale (toux, rire, éternuement, port de charge, saut).",
-    "B": "Vrai. L'incontinence urinaire par urgenturie (impériosité) est caractérisée par une fuite précédée d'un besoin mictionnel urgent, impérieux et irrépressible.",
-    "C": "Vrai. L'incontinence urinaire mixte associe les deux composantes : fuites involontaires à l'effort et pertes précédées de besoins urgents.",
-    "D": "Vrai. L'insuffisance sphinctérienne (défaut de fermeture de l'urètre au repos) et l'hypermobilité urétrale (défaut de soutien périnéal) sont les deux mécanismes physiopathologiques majeurs de l'IUE féminine.",
-    "E": "Faux. La bandelette sous-urétrale (TVT, TOT) est un traitement chirurgical de soutien urétral spécifique de l'incontinence urinaire d'EFFORT, et non de l'urgenturie.",
-    "_synthese": "L'incontinence urinaire féminine regroupe l'incontinence d'effort (défaut de soutien ou du sphincter), l'incontinence par urgenturie (hyperactivité vésicale) et l'incontinence mixte.",
-    "_remarque": "L'incontinence par urgenturie se traite par des mesures comportementales et des anticholinergiques ou bêta-3-agonistes, la chirurgie par bandelette y étant inefficace voire délétère."
+    "A": "Proposition exacte. Exact.",
+    "B": "Proposition exacte. Exact.",
+    "C": "Proposition exacte. Exact.",
+    "D": "Proposition exacte. Exact.",
+    "E": "Proposition fausse (à cocher). Faux : la fistule est une cause d'incontinence.",
+    "_synthese": "Les mécanismes de l'incontinence sont le défaut de soutien, l'insuffisance sphinctérienne, l'urgenturie ; la fistule est une cause, non un mécanisme.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-170": {
     "A": "Vrai. La compliance vésicale (rapport volume/pression) mesure l'élasticité et la capacité du détrusor à se laisser distendre à basse pression lors du remplissage lors de la cystomanométrie.",
@@ -1702,13 +1702,13 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "L'incontinence urinaire d'effort et la dysfonction érectile sont les deux principales séquelles fonctionnelles potentielles de la prostatectomie totale."
   },
   "uro-188": {
-    "A": "Vrai. Les métastases osseuses de l'adénocarcinome de la prostate ont la particularité radiologique typique d'être condensantes (ostéoblastiques) dans plus de 85 % des cas.",
-    "B": "Vrai. Le squelette axial hématopoïétique (rachis lombaire, bassin osseux, côtes, fémurs proximaux) est le site de prédilection de la dissémination osseuse hématogène.",
-    "C": "Vrai. L'hormonothérapie par suppression androgénique (castration médicale ou chirurgicale) permet d'obtenir un contrôle de la maladie métastatique chez plus de 80 % des patients au début.",
-    "D": "Vrai. Les douleurs osseuses inflammatoires rebelles, la compression médullaire par tassement vertébral épidural et les fractures pathologiques sont les complications majeures.",
-    "E": "Faux. La médiane de survenue de la résistance à la castration sous hormonothérapie conventionnelle première se situe entre 18 et 36 mois (et non 5 ans).",
-    "_synthese": "Les métastases osseuses du cancer de la prostate sont électivement ostéoblastiques condensantes sur le squelette axial, sensibles à l'hormonothérapie initiale, mais exposant au risque de compression médullaire.",
-    "_remarque": "Toute douleur rachidienne chez un patient porteur d'un cancer de la prostate métastatique impose une IRM médullaire en urgence pour éliminer une épidurite métastatique compressive."
+    "A": "Faux. L'hématurie est la présence de sang dans l'urine, pendant les mictions.",
+    "B": "Vrai. HTA et œdèmes : origine glomérulaire.",
+    "C": "Vrai. Hématurie initiale : origine cervico-urétro-prostatique.",
+    "D": "Vrai. Caillots : origine urologique.",
+    "E": "Faux. Toutes ne sont pas justes.",
+    "_synthese": "HTA et œdèmes orientent vers une hématurie néphrologique ; l'hématurie initiale vers l'urètre ou la prostate ; des caillots confirment l'origine urologique.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-189": {
     "A": "Faux. L'absence de caillots est au contraire la règle dans l'hématurie glomérulaire, la présence de caillots affirmant une étiologie urologique.",
@@ -1899,77 +1899,59 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La formule de Cockcroft-Gault estime la clairance de la créatinine à partir de la créatininémie, de l'âge, du sexe et du poids corporel réel du patient.",
     "_remarque": "Chez les patients obèses ou dénutris, la formule de Cockcroft-Gault est mise en défaut, et l'équation CKD-EPI doit être préférée."
   },
-  "uro-210": {
-    "A": "Faux. La rétinopathie hypertensive (3) et les petits reins (4) sont des critères de maladie rénale chronique.",
-    "B": "Faux. La diminution de taille des reins témoigne d'une néphropathie chronique évoluée.",
-    "C": "Faux. Ce groupe comprend des critères d'ancienneté rénale et non d'IRA fonctionnelle.",
-    "D": "Faux. Les critères 3 et 4 signent l'IRC.",
-    "E": "Vrai. L'IRA fonctionnelle résulte d'une hypoperfusion rénale réversible : par bas débit cardiaque (insuffisance cardiaque avec FEVG basse : 1), par déshydratation extracellulaire (pli cutané : 2) ou par hypovolémie vraie hémorragique (5).",
-    "_synthese": "L'IRA fonctionnelle traduit une baisse de la volémie efficace réversible : soit par hypovolémie vraie (déshydratation, hémorragie), soit par bas débit cardiaque.",
-    "_remarque": "L'IRA fonctionnelle se corrige rapidement en moins de 24 à 48 heures dès la restauration d'une volémie efficace adéquate."
-  },
   "uro-211": {
-    "A": "Vrai. Le reflux d'urines infectées à contre-courant le long du canal déférent est le mécanisme physiopathologique habituel de l'orchi-épididymite.",
-    "B": "Vrai. Chez l'homme de plus de 35 ans, les bactéries d'origine digestive (Escherichia coli et autres entérobactéries) sont les germes causals majeurs.",
-    "C": "Faux. Chez l'adulte jeune sexuellement actif de moins de 35 ans, les infections sexuellement transmissibles (Chlamydia trachomatis, gonocoque) prédominent largement.",
-    "D": "Vrai. La voie hématogène est un mécanisme rare mais documenté, notamment lors de septicémies ou de localisations secondaires spécifiques.",
-    "E": "Vrai. Chez l'enfant, l'orchi-épididymite doit impérativement faire rechercher une uropathie malformative sous-jacente ou une insertion ectopique de l'uretère.",
-    "_synthese": "L'orchi-épididymite survient par voie canalaire rétrograde : à germes urinaires chez l'homme mûr (E. coli) et à germes sexuellement transmissibles chez l'homme jeune (Chlamydia).",
-    "_remarque": "L'ECBU et une PCR Chlamydia/gonocoque sur premier jet d'urines sont recommandés devant toute orchi-épididymite aiguë."
+    "A": "Faux. La combinaison 1-3-4 n'est pas retenue.",
+    "B": "Vrai. 1-2-4 : lésions glomérulaires minimes, diabète, amylose.",
+    "C": "Faux. 3-4-5 : non retenue.",
+    "D": "Faux. 2-3-4 : non retenue.",
+    "E": "Faux. 1-2-5 : non retenue.",
+    "_synthese": "Causes de syndrome néphrotique pur : lésions glomérulaires minimes, diabète, amylose, hyalinose, glomérulonéphrite extra-membraneuse.",
+    "_remarque": "Clé du PDF conservée. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-212": {
-    "A": "Vrai. La présence d'une fièvre élevée avec frissons signe le caractère invasif bactérien de l'orchi-épididymite.",
-    "B": "Faux. Le début brutal d'emblée maximal est la signature clinique de la torsion du cordon spermatique (l'orchi-épididymite s'installe progressivement).",
-    "C": "Vrai. L'existence d'une dysurie, de brûlures mictionnelles ou d'un écoulement urétral oriente directement vers une porte d'entrée infectieuse urinaire ou génitale.",
-    "D": "Faux. Le signe de Prehn est positif (soulagement au soulèvement de la bourse) dans l'orchi-épididymite ; un signe négatif évoque une torsion.",
-    "E": "Vrai. La présence d'une leucocyturie et d'une bactériurie significative à l'ECBU confirme l'origine infectieuse bactérienne de l'atteinte.",
-    "_synthese": "L'orchi-épididymite aiguë associe un syndrome fébrile, des signes urinaires, une installation progressive, un signe de Prehn positif et un ECBU positif.",
-    "_remarque": "Au moindre doute clinique persistant avec une torsion du cordon spermatique, l'exploration chirurgicale scrotale en urgence doit primer sur tout autre examen."
+    "A": "Faux. HTA maligne : rare.",
+    "B": "Vrai. Nécrose tubulaire aiguë.",
+    "C": "Faux. Emboles de cholestérol : rares.",
+    "D": "Faux. Vascularites : rares.",
+    "E": "Faux. Glomérulonéphrites : moins fréquentes.",
+    "_synthese": "La nécrose tubulaire aiguë est la cause la plus fréquente d'insuffisance rénale aiguë organique.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-213": {
-    "A": "Vrai. Le repos au lit strict avec port d'un suspensoir scrotal ou slip serré pour immobiliser la bourse réduit l'œdème et soulage la tension du cordon.",
-    "B": "Vrai. L'antibiothérapie par voie générale est le traitement étiologique curatif capital, débutée en probabiliste puis réadaptée à l'antibiogramme de l'ECBU.",
-    "C": "Vrai. Les anti-inflammatoires et antalgiques améliorent le confort du patient et accélèrent la décongestion tissulaire scrotale.",
-    "D": "Faux. L'intervention chirurgicale n'est pas le traitement de première ligne de l'orchi-épididymite non compliquée ; elle n'est indiquée qu'en cas d'abcès ou de doute diagnostique.",
-    "E": "Vrai. La surveillance de la régression de la fièvre, des douleurs et du volume scrotal est indispensable pour s'assurer de l'efficacité thérapeutique.",
-    "_synthese": "Le traitement de l'orchi-épididymite est médical : antibiothérapie adaptée, suspensoir scrotal, antalgiques et surveillance de la guérison.",
-    "_remarque": "La durée de l'antibiothérapie est de 14 à 21 jours pour assurer une stérilisation complète du foyer épididymaire."
+    "A": "Proposition exacte. Exacte.",
+    "B": "Proposition fausse (à cocher). Faux : c'est une oligurie.",
+    "C": "Proposition exacte. Exacte.",
+    "D": "Proposition exacte. Exacts.",
+    "E": "Proposition exacte. Exacte.",
+    "_synthese": "Le syndrome néphritique aigu comporte hématurie, HTA, œdèmes et baisse de la filtration glomérulaire ; la polyurie n'en fait pas partie (oligurie).",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-214": {
-    "A": "Faux. L'obstacle intrinsèque au niveau du col vésical (adénome, calcul) s'accompagne d'une distension vésicale avec globe vésical palpable au-dessus du pubis.",
-    "B": "Faux. L'anurie se définit par l'arrêt total ou quasi complet de l'excrétion rénale d'urine (< 100 mL/24h) aboutissant à une vessie VIDE au sondage.",
-    "C": "Faux. Une masse prostatique volumineuse crée un obstacle sous-vésical et génère une rétention vésicale avec globe, et non une anurie.",
-    "D": "Vrai. L'anurie obstructive par obstacle bilatéral (ou sur rein unique fonctionnel) empêche l'urine d'atteindre la vessie, laissant la cavité vésicale vide au sondage.",
-    "E": "Vrai. L'anurie est le plus souvent la conséquence d'une défaillance aiguë du parenchyme rénal ou d'un arrêt de la filtration glomérulaire sans globe.",
-    "_synthese": "L'anurie (< 100 mL/24h) correspond à une vessie vide à la palpation et au sondage, secondaire à une néphropathie aiguë ou à un obstacle bilatéral sur les uretères.",
-    "_remarque": "L'absence de globe vésical au sondage permet de distinguer formellement l'anurie (vessie vide) de la rétention aiguë d'urines (vessie pleine distendue)."
+    "A": "Proposition exacte. Exact : hypercoagulabilité.",
+    "B": "Proposition exacte. Exact : corticoïdes, diurétiques.",
+    "C": "Proposition exacte. Exact.",
+    "D": "Proposition exacte. Exact : fuite d'immunoglobulines.",
+    "E": "Proposition fausse (à cocher). Faux : le risque est thrombotique, non hémorragique.",
+    "_synthese": "Complications du syndrome néphrotique : thromboses, infections, dyslipidémie, toxicité médicamenteuse ; l'hémorragie diffuse n'en fait pas partie.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-215": {
-    "A": "Faux. L'existence d'un globe vésical affirme une rétention d'urine et exclut formellement une anurie.",
-    "B": "Vrai. L'absence d'urine dans la vessie au sondage vésical confirme que les reins n'excrètent plus d'urine dans le réservoir vésical.",
-    "C": "Faux. Le scanner sans injection et l'échographie rénale sont les examens morphologiques d'urgence fondamentaux pour rechercher une dilatation des cavités pyélocalicielles.",
-    "D": "Vrai. L'échographie rénale en urgence recherche une urétéro-hydronéphrose bilatérale affirmant le mécanisme obstructif mécanique de l'anurie.",
-    "E": "Vrai. La présence d'une douleur lombaire précédant l'anurie oriente fortement vers un obstacle lithiasique enclavé sur la voie excrétrice haute.",
-    "_synthese": "Le diagnostic d'anurie obstructive repose sur la vacuité vésicale au sondage, l'échographie d'urgence montrant une dilatation pyélocalicielle et les douleurs lombaires évocatrices.",
-    "_remarque": "En cas d'anurie obstructive brutale, l'échographie peut être prise en défaut très précocement avant la distension cavitaire : le scanner sans injection confirme alors l'obstacle."
+    "A": "Faux. Pyélotomie : chirurgie inutile.",
+    "B": "Faux. Chirurgie percutanée : volumineux calculs.",
+    "C": "Faux. Lithotritie : calculs radio-opaques ou obstructifs.",
+    "D": "Faux. Sonde urétérale : calcul obstructif.",
+    "E": "Vrai. Alcalinisation prolongée des urines.",
+    "_synthese": "Un calcul d'acide urique non obstructif se traite par alcalinisation prolongée des urines (pH 6,5 à 7), qui peut le dissoudre.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-216": {
-    "A": "Vrai. La découverte d'une dilatation des cavités rénales bilatérale (ou sur rein unique) affirme la nature obstructive de l'anurie.",
-    "B": "Vrai. La dilatation cavitaire oriente vers un obstacle mécanique situé sur les voies excrétrices supérieures (uretères ou jonction pyélo-urétérale).",
-    "C": "Faux. L'absence de dilatation cavitaire à l'échographie peut s'observer très précocement après l'installation de l'obstacle ou en cas de fibrose rétropéritonéale engainante.",
-    "D": "Vrai. L'échographie réno-vésicale est l'examen morphologique d'urgence de première intention pour différencier anurie obstructive et parenchymateuse.",
-    "E": "Faux. Une pyonéphrose ou un sepsis urinaire haut peut compliquer une anurie obstructive fébrile.",
-    "_synthese": "L'échographie rénale d'urgence recherche la dilatation des cavités pyélocalicielles qui affirme l'anurie obstructive et justifie un drainage en urgence.",
-    "_remarque": "La mise en place urgente d'une sonde JJ ou d'une néphrostomie percutanée permet la levée immédiate de l'obstacle et la récupération néphronique."
-  },
-  "uro-217": {
-    "A": "Vrai. L'échographie des voies urinaires visualise la dilatation des cavités pyélocalicielles et peut repérer l'obstacle lithiasique.",
-    "B": "Faux. L'urographie intraveineuse (UIV) est formellement contre-indiquée en cas d'insuffisance rénale anurique (absence de filtration et néphrotoxicité de l'iode).",
-    "C": "Vrai. Le scanner abdomino-pelvien sans injection de produit de contraste iodé est l'examen de référence pour cartographier l'obstacle lithiasique ou tumoral.",
-    "D": "Faux. L'artériographie rénale n'a aucune indication dans le bilan diagnostique d'une anurie obstructive.",
-    "E": "Faux. L'uro-scanner injecté est contre-indiqué en urgence chez un patient anurique.",
-    "_synthese": "Le bilan d'imagerie d'urgence de l'anurie obstructive repose exclusivement sur l'échographie rénale et le scanner abdomino-pelvien sans injection de produit de contraste.",
-    "_remarque": "Toute injection de produit de contraste iodé est rigoureusement proscrite chez le patient en anurie obstructive."
+    "A": "Vrai. Oxalate de calcium : radio-opaque.",
+    "B": "Vrai. Phosphate de calcium : radio-opaque.",
+    "C": "Vrai. Cystine : faiblement radio-opaque.",
+    "D": "Faux. Acide urique : radio-transparent.",
+    "E": "Faux. Indinavir : radio-transparent.",
+    "_synthese": "Sur l'ASP, les calculs d'oxalate et de phosphate de calcium sont radio-opaques, la cystine faiblement ; l'acide urique et l'indinavir sont radio-transparents.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-218": {
     "A": "Vrai. L'évaluation de l'électrocardiogramme est la priorité vitale absolue devant une hyperkaliémie sévère (K+ = 7,2 mmol/L) pour dépister les signes de gravité électrique.",
@@ -2114,15 +2096,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Vrai. L'examen cytobactériologique des urines confirme le diagnostic en objectivant une leucocyturie > 10⁴/mL et une bactériurie significative > 10³-10⁴ UFC/mL.",
     "_synthese": "La pyélonéphrite aiguë est une infection parenchymateuse rénale associant fièvre élevée avec frissons, douleur lombaire unilatérale, syndrome inflammatoire biologique franc et ECBU positif.",
     "_remarque": "Toute pyélonéphrite aiguë impose une échographie rénale dans les 24 heures pour éliminer une dilatation des cavités rénales signant une forme obstructive chirurgicale."
-  },
-  "uro-234": {
-    "A": "Vrai. L'obésité métabolique et le syndrome d'insulino-résistance constituent des facteurs de risque démontrés favorisant la survenue de cancers prostatiques de haut grade.",
-    "B": "Vrai. L'imprégnation androgénique continue joue un rôle permissif fondamental dans la prolifération et la différenciation de l'épithélium prostatique.",
-    "C": "Faux. L'adénome prostatique (hypertrophie bénigne) est une affection bénigne de la zone de transition qui ne constitue pas un état précancéreux du cancer de la prostate.",
-    "D": "Faux. La circoncision n'est pas un facteur de risque du cancer de la prostate.",
-    "E": "Vrai. Les facteurs génétiques et mutations germinales (KLF6, BRCA1/2, HOXB13) augmentent significativement le risque relatif de développer un adénocarcinome prostatique.",
-    "_synthese": "Les facteurs de risque majeurs du cancer de la prostate sont l'âge, les facteurs génétiques familiaux (KLF6, BRCA2), l'exposition androgénique, l'origine ethnique et l'obésité.",
-    "_remarque": "L'adénome prostatique et l'adénocarcinome de la prostate se développent dans deux zones anatomiques distinctes de la glande."
   },
   "uro-235": {
     "A": "Faux. L'adénocarcinome vésical primitif est rare, représentant moins de 1 à 2 % des tumeurs malignes de la vessie.",
@@ -2664,15 +2637,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Le diagnostic de syndrome de la jonction pyélo-urétérale repose sur l'imagerie excrétoire en coupes (uroscanner) et sur l'urographie intraveineuse.",
     "_remarque": "La scintigraphie rénale au MAG3 avec test d'injection de furosémide (Lasilix) permet de confirmer le caractère réellement obstructif de la dilatation."
   },
-  "uro-295": {
-    "A": "Vrai. L'urétrorragie correspond à un écoulement sanglant au méat urétral survenant en dehors de toute miction, à différencier d'une hématurie vraie.",
-    "B": "Vrai. L'ingestion alimentaire de betteraves ou de colorants type rhodamine induit une coloration rouge des urines sans érythrocytes au sédiment.",
-    "C": "Faux. Une urine concentrée apparaît jaune ambrée ou brun clair mais ne simule pas une véritable hématurie rouge.",
-    "D": "Vrai. Chez la femme, une métrorragie menstruelle ou gynécologique peut souiller les urines lors du recueil et mimer une hématurie.",
-    "E": "Vrai. Les pigments libres tels que la myoglobine (rhabdomyolyse) ou l'hémoglobine libre (hémolyse intravasculaire) ainsi que la rifampicine colorent les urines en rouge sans hématurie microscopique.",
-    "_synthese": "Les diagnostics différentiels de l'hématurie sont l'urétrorragie, les contaminations gynécologiques (métrorragies) et les colorations pigmentaires d'origine alimentaire ou médicamenteuse.",
-    "_remarque": "L'absence de globules rouges à l'analyse microscopique de l'ECBU permet d'éliminer immédiatement l'hématurie vraie au profit d'une fausse hématurie."
-  },
   "uro-296": {
     "A": "Faux. L'échographie recherche l'étiologie (calcul, tumeur, kyste) mais ne valide pas le diagnostic cytologique d'hématurie.",
     "B": "Vrai. L'examen cytologique au microscope (ECBU/hématurie microscopique) authentifie avec certitude la présence d'au moins 10 hématies/mm3 ou 10 000 hématies/ml.",
@@ -2734,15 +2698,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. Cette proposition est exacte : grâce aux progrès de l'endo-urologie, la chirurgie à ciel ouvert représente désormais moins de 1 % des interventions lithiasiques.",
     "_synthese": "L'allopurinol traite l'hyperuricémie et la lithiase urique, mais n'a aucune indication dans la lithiase cystinique qui relève de l'alcalinisation et des sulfhydrylés.",
     "_remarque": "Le traitement médical de la cystinurie repose sur une hyperdiurèse alcaline (pH urinaire > 7,5) et la D-pénicillamine ou la tiopronine si échec."
-  },
-  "uro-303": {
-    "A": "Faux. Les antispasmodiques musculotropes (phloroglucinol) ne présentent pas de fœtotoxicité et peuvent être administrés en toute sécurité.",
-    "B": "Faux. Le paracétamol (Perfalgan) est l'antalgique de premier choix autorisé à toutes les étapes de la grossesse.",
-    "C": "Faux. Les morphiniques de palier 3 peuvent être administrés sous surveillance hospitalière lors des crises rebelles aux antalgiques usuels.",
-    "D": "Vrai. Les anti-inflammatoires non stéroïdiens (AINS) sont formellement contre-indiqués dès le début du 6e mois (24 SA) en raison de la fermeture prématurée du canal artériel fœtal et de l'insuffisance rénale néonatale.",
-    "E": "Faux. Les corticoïdes ne possèdent pas les mêmes contre-indications vasculaires fœtales que les inhibiteurs de COX dans ce contexte.",
-    "_synthese": "Les AINS sont formellement contre-indiqués au 3e trimestre de la grossesse en raison du risque mortel de fermeture in utero du canal artériel fœtal.",
-    "_remarque": "En cas de colique néphrétique hyperalgique chez la femme enceinte au 3e trimestre, la pose d'une sonde JJ sous contrôle échographique sans rayon X est souvent privilégiée."
   },
   "uro-304": {
     "A": "Vrai. Cette affirmation est fausse en pratique : la lithiase oxalo-calcique représente en réalité plus de 70 à 80 % de l'ensemble des calculs urinaires de l'adulte.",
@@ -3113,15 +3068,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Les anomalies congénitales de migration rénale correspondent aux ectopies rénales par défaut d'ascension (rein pelvien) ou ascension excessive (rein thoracique).",
     "_remarque": "Un rein ectopique pelvien conserve une vascularisation issue des vaisseaux iliaques primitifs ou de la bifurcation aortique basse."
   },
-  "uro-345": {
-    "A": "Faux. L'extrophie vésicale est une malformation complexe du développement de la paroi sous-ombilicale et de la face antérieure de la vessie.",
-    "B": "Vrai. L'urétérocèle est une malformation de la jonction urétéro-vésicale caractérisée par une distension de l'uretère terminal intrapariétal vésical.",
-    "C": "Faux. Le rein en fer à cheval est une anomalie de fusion rénale parenchymateuse de leurs pôles inférieurs au cours de l'embryogenèse.",
-    "D": "Faux. La dysplasie rénale multikystique est une anomalie de différenciation du parenchyme rénal unilatérale non fonctionnelle.",
-    "E": "Vrai. Le reflux vésico-urétéral (RVU) est une malformation de la jonction urétéro-vésicale par brièveté du trajet sous-muqueux de l'uretère intramural.",
-    "_synthese": "Les malformations de la jonction urétéro-vésicale sont constituées par l'urétérocèle et le reflux vésico-urétéral.",
-    "_remarque": "L'urétérocèle peut s'associer à une duplication urétérale complète, abouchant classiquement sur le pyélon supérieur de la duplication."
-  },
   "uro-346": {
     "A": "Vrai. L'hypospadias postérieur est une anomalie malformative de fermeture urétrale ventrale doublée d'un retentissement fonctionnel mictionnel et érectile pathologique.",
     "B": "Faux. Le rein thoracique est une simple anomalie positionnelle asymptomatique ne constituant aucune pathologie fonctionnelle en soi.",
@@ -3284,24 +3230,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "L'échographie morphologique prénatale est l'examen pivot de dépistage et de diagnostic des anomalies congénitales de l'appareil urinaire fœtal.",
     "_remarque": "La découverte d'une dilatation urétéro-pyélocalicielle bilatérale avec vessie dilatée chez un fœtus mâle évoque en priorité des valves de l'urètre postérieur."
   },
-  "uro-364": {
-    "A": "Faux. L'extrophie vésicale est une malformation de la paroi abdominale antérieure et de la face antérieure de la vessie.",
-    "B": "Vrai. L'urétérocèle est une dilatation pseudo-kystique congénitale de l'extrémité sous-muqueuse intramurale de l'uretère au niveau de son abouchement vésical.",
-    "C": "Faux. Le rein en fer à cheval est une anomalie de fusion du parenchyme rénal par ses pôles inférieurs.",
-    "D": "Faux. La dysplasie rénale multikystique est une altération primitive du développement du parenchyme rénal unilatéral.",
-    "E": "Vrai. Le reflux vésico-urétéral résulte d'un dysfonctionnement congénital du clapet anti-reflux de la jonction urétéro-vésicale par brièveté du trajet intramural.",
-    "_synthese": "L'urétérocèle et le reflux vésico-urétéral sont les deux principales malformations congénitales de la jonction urétéro-vésicale.",
-    "_remarque": "L'urétérocèle s'observe fréquemment sur le pôle supérieur d'un rein dupliqué avec méga-uretère associé."
-  },
-  "uro-365": {
-    "A": "Vrai. Le rein pelvien correspond à une anomalie embryologique de migration par défaut d'ascension du métanéphros vers la fosse lombaire.",
-    "B": "Faux. L'urétérocèle est une malformation de l'abouchement urétéro-vésical sans trouble de la migration rénale.",
-    "C": "Faux. La polykystose rénale autosomique dominante est une néphropathie héréditaire génétique de la ciliogenèse tubulaire.",
-    "D": "Faux. Le rein en éponge (maladie de Cacchi-Ricci) est une ectasie précalicielle des tubes collecteurs de Bellini.",
-    "E": "Vrai. Le rein intrathoracique correspond à une migration rénale embryologique excessive vers le haut à travers une déhiscence du diaphragme.",
-    "_synthese": "Les anomalies de migration rénale embryonnaire sont représentées par l'ectopie basse pelvienne et l'ectopie haute thoracique.",
-    "_remarque": "Un rein pelvien ectopique conserve son pédicule vasculaire branché sur les axes iliaques primitifs et possède un uretère court."
-  },
   "uro-366": {
     "A": "Faux. Cette proposition est exacte : les traumatismes rénaux sont fermés dans près de 90 % des cas (accidents de la circulation, chutes).",
     "B": "Vrai. Cette affirmation est fausse : le meilleur examen diagnostique est le scanner abdominal injecté quadriphasique ; l'UIV est totalement obsolète dans ce contexte.",
@@ -3337,15 +3265,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. Le toucher rectal explore la face postérieure des lobes latéraux de la prostate mais ne permet pas de palper directement le lobe médian intravésical.",
     "_synthese": "L'hypertrophie bénigne de la prostate est marquée par une absence de parallélisme anatomoclinique et un siège électif dans la zone de transition prostatique.",
     "_remarque": "Un petit adénome de 25 g avec saillie d'un lobe médian dans le col vésical peut être bien plus obstructif qu'un volumineux adénome latéral de 100 g."
-  },
-  "uro-370": {
-    "A": "Faux. Cette proposition est exacte : le TURP syndrome est une complication vitale de la résection transurétrale de prostate pouvant entraîner coma, arrêt respiratoire et décès.",
-    "B": "Faux. Cette proposition est exacte : il s'agit d'une urgence médicale absolue nécessitant l'arrêt de l'intervention et une réanimation immédiate en soins intensifs.",
-    "C": "Vrai. Cette affirmation est fausse : la physiopathologie repose sur une hyponatrémie de dilution majeure et une hypo-osmolarité plasmatique par passage intraveineux de glycocolle, et non une hypernatrémie.",
-    "D": "Faux. Cette proposition est exacte : les céphalées (œdème cérébral) et les troubles visuels (toxicité rétinienne du glycocolle) constituent les signes cliniques cardinaux.",
-    "E": "Faux. Cette proposition est exacte : l'association d'une bradycardie et d'une hypotension artérielle (ou instabilité volémique précoce) est hautement évocatrice du syndrome.",
-    "_synthese": "Le TURP syndrome est consécutif à une hyponatrémie de dilution et une surcharge hydrique hypo-osmolaire sévère, et non à une hypernatrémie.",
-    "_remarque": "L'irrigation endoscopique bipolaire en continu au sérum salé isotonique (NaCl 0,9 %) a quasiment éliminé ce risque redouté des résections monopolaires au glycocolle."
   },
   "uro-371": {
     "A": "Faux. L'adénomectomie par voie haute transvésicale est réservée aux prostates très volumineuses (> 80-100 g) et n'est pas le standard universel de tous les adénomes.",
@@ -3491,15 +3410,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La manœuvre de Bonney positive qui suspend les tissus péri-urétraux sans comprimer l'urètre affirme une incontinence urinaire d'effort par hypermobilité du col vésical.",
     "_remarque": "La manœuvre d'Ulmsten constitue une variante explorant plus spécifiquement le soutien sous-urétral de l'urètre moyen."
   },
-  "uro-387": {
-    "A": "Faux. L'urétrorragie spontanée au méat indépendante des mictions est le signe pathognomonique dominant de la rupture urétrale, bien plus que l'hématurie.",
-    "B": "Vrai. La quasi-totalité des traumatismes de l'urètre postérieur chez l'homme survient lors de fractures avec disjonction du cadre osseux pelvien.",
-    "C": "Faux. L'hématome périnéal en ailes de papillon caractérise les traumatismes de l'urètre antérieur sous l'aponévrose superficielle de Colles, non l'urètre postérieur rétropubien.",
-    "D": "Vrai. Des lésions urétrales peuvent s'associer aux fractures des corps caverneux péniens ou à des traumatismes pénétrants complexes périnéo-pelviens.",
-    "E": "Vrai. Lors d'une tentative mictionnelle, une urétrorragie initiale peut se mêler à une hématurie si la vessie et le col vésical sont également contusionnés.",
-    "_synthese": "Le traumatisme de l'urètre postérieur survient lors de fractures du bassin et se manifeste par une urétrorragie au méat pouvant être intriquée à une hématurie.",
-    "_remarque": "En cas d'urétrorragie post-traumatique, le sondage urétral à l'aveugle est formellement proscrit ; la dérivation impose la pose d'un cathéter sus-pubien."
-  },
   "uro-388": {
     "A": "Faux. Cette proposition est exacte : la présence d'urine extravasée au contact de l'hématome pelvien est un foyer hautement prédisposé à la surinfection bactérienne.",
     "B": "Vrai. Cette affirmation est fausse : l'incontinence urinaire d'effort n'est pas constante après traumatisme urétral postérieur ; la majorité des patients gardent une continence satisfaisante.",
@@ -3518,15 +3428,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Le sondage urétral est formellement contre-indiqué en cas de suspicion de traumatisme de l'urètre et au cours de la prostatite aiguë fébrile.",
     "_remarque": "Dans ces deux contre-indications formelles, la dérivation urinaire d'urgence doit s'effectuer impérativement par voie sus-pubienne (si le globe est palpable)."
   },
-  "uro-390": {
-    "A": "Faux. La fièvre traduit une surinfection en amont de l'obstacle calculeux (pyélonéphrite obstructive), urgence médico-chirurgicale absolue de décompression.",
-    "B": "Faux. L'oligo-anurie signe une obstruction sur rein unique ou bilatérale, engageant le pronostic vital par défaillance rénale aiguë.",
-    "C": "Vrai. L'anémie n'est pas un critère définissant la colique néphrétique compliquée grave dans les consensus de prise en charge d'urgence.",
-    "D": "Faux. La colique néphrétique sur rein unique fonctionnel ou anatomique est une urgence vitale menaçant la totalité du capital rénal restant.",
-    "E": "Faux. La grossesse est une situation à haut risque fœto-maternel classant la colique néphrétique comme grave nécessitant une hospitalisation.",
-    "_synthese": "Les critères de gravité de la colique néphrétique comprennent la fièvre, l'oligo-anurie, le rein unique, la grossesse et la crise hyperalgique rebelle ; l'anémie n'en fait pas partie.",
-    "_remarque": "Une colique néphrétique fébrile impose un drainage en urgence par sonde urétérale JJ ou néphrostomie percutanée sous couverture d'antibiotiques parentéraux."
-  },
   "uro-391": {
     "A": "Faux. Cette proposition est exacte : les AINS réduisent l'œdème inflammatoire pariétal local au contact de l'enclave lithiasique.",
     "B": "Faux. Cette proposition est exacte : en inhibant la synthèse des prostaglandines E2 vasodilatatrices rénales, les AINS diminuent le débit de filtration glomérulaire et la pression pyélique.",
@@ -3534,15 +3435,6 @@ window.JUSTIFICATIONS_URO = {
     "D": "Vrai. Les anti-inflammatoires non stéroïdiens n'ont aucun effet de fragmentation ni de destruction physique sur les calculs urinaires ; cette affirmation est fausse.",
     "_synthese": "Les AINS soulagent la colique néphrétique en réduisant la filtration glomérulaire et l'œdème urétéral, mais ne détruisent en aucun cas le calcul.",
     "_remarque": "Le kétoprofène intraveineux (100 mg en perfusion sur 20 minutes) est le traitement antalgique de première intention de la crise de colique néphrétique non compliquée."
-  },
-  "uro-392": {
-    "A": "Faux. Une hématurie secondaire à une lésion parenchymateuse rénale est une hématurie totale colorant l'ensemble de la miction.",
-    "B": "Faux. L'hématurie n'est pas synonyme de lésion pédiculaire (les avulsions vasculaires sévères s'accompagnent fréquemment d'une absence complète d'hématurie).",
-    "C": "Vrai. Toute hématurie survenant après un traumatisme rénal nécessite impérativement des explorations morphologiques par scanner abdomino-pelvien avec injection quadriphasique.",
-    "D": "Faux. Une hématurie isolée sans collapsus hémodynamique persistant relève d'une prise en charge médicale conservatrice et non chirurgicale.",
-    "E": "Faux. Les traumatismes de stades 1 et 2 de l'AAST sont des contusions ou lacérations superficielles qui guérissent spontanément sans geste d'embolisation.",
-    "_synthese": "La présence d'une hématurie après traumatisme rénal isolé justifie la réalisation d'explorations morphologiques par scanner injecté pour classifier les lésions.",
-    "_remarque": "Le scanner injecté au temps tardif excrétoire permet de rechercher une extravasation d'urine iodée signant une rupture de la voie excrétrice."
   },
   "uro-393": {
     "A": "Vrai. Cette affirmation est fausse : les traumatismes rénaux majeurs (grades 3 à 5 de l'AAST) ne représentent que 10 à 15 % des cas, 85 à 90 % étant des traumatismes mineurs.",
@@ -3552,15 +3444,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. Cette proposition est exacte : le greffon rénal situé dans la fosse iliaque en position superficielle sans protection osseuse est très vulnérable aux chocs directs.",
     "_synthese": "Les traumatismes rénaux sont majeurs dans seulement 10 à 15 % des cas, et les reins préalablement hydronéphrotiques sont beaucoup plus exposés aux ruptures traumatiques.",
     "_remarque": "La découverte d'une volumineuse rupture rénale après un traumatisme à basse énergie impose de rechercher une anomalie sous-jacente de la jonction pyélo-urétérale."
-  },
-  "uro-394": {
-    "A": "Faux. Cette proposition est exacte : la grande majorité des traumatismes rénaux sont fermés consécutifs à des accidents de la route ou des décélérations brutales.",
-    "B": "Vrai. Cette affirmation est fausse : le meilleur examen diagnostique est le scanner abdominal et pelvien injecté multiphasique, l'UIV étant obsolète.",
-    "C": "Vrai. Cette affirmation est fausse : l'hématurie confirme l'atteinte urinaire mais son abondance n'est pas corrélée à la gravité globale des lésions.",
-    "D": "Vrai. Cette affirmation est fausse : une lésion de la voie excrétrice avec urinome stable relève d'un drainage par sonde urétérale double J et non d'une chirurgie ouverte d'emblée.",
-    "E": "Vrai. Cette affirmation est fausse : l'attitude chirurgicale moderne est conservatrice ; la néphrectomie d'hémostase est l'ultime recours en cas de choc réfractaire.",
-    "_synthese": "Le scanner injecté est l'examen de référence ; l'hématurie n'est pas un marqueur de gravité anatomique et la néphrectomie n'est jamais systématique.",
-    "_remarque": "L'embolisation radiologique supersélective a considérablement réduit les indications de laparotomie chirurgicale dans les traumatismes rénaux avec saignement actif."
   },
   "uro-395": {
     "A": "Faux. La classification histologique de l'OMS et le grading cellulaire des tumeurs de la voie excrétrice supérieure (TVES) sont rigoureusement identiques à ceux des tumeurs de vessie.",
@@ -3642,78 +3525,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. La radiothérapie pelvienne altère la compliance vésicale et induit une hyperactivité ou fistule, non une IUE d'hypermobilité classique.",
     "_synthese": "Les principaux facteurs de risque d'incontinence urinaire d'effort sont les traumatismes obstétricaux et le vieillissement tissulaire post-ménopausique.",
     "_remarque": "L'obésité et la toux chronique constituent d'autres facteurs de risque favorisants modifiables par hyperpression abdominale permanente."
-  },
-  "uro-404": {
-    "A": "Vrai. Le rein pelvien résulte d'un arrêt précoce de l'ascension embryonnaire du métanéphros depuis le pelvis vers la loge lombaire (ectopie rénale basse).",
-    "B": "Faux. L'urétérocèle est une dilatation pseudo-kystique de la terminaison sous-muqueuse urétérale et non un défaut de migration parenchymateuse.",
-    "C": "Faux. La polykystose rénale autosomique dominante est une maladie génétique héréditaire de la différenciation des tubules rénaux.",
-    "D": "Faux. Le rein en éponge (maladie de Cacchi-Ricci) correspond à une ectasie canaliculée des tubes collecteurs de Bellini.",
-    "E": "Vrai. Le rein thoracique est une anomalie de migration embryologique excessive vers le médiastin postérieur à travers une brèche diaphragmatique.",
-    "_synthese": "Les anomalies congénitales de migration rénale sont représentées par l'ectopie pelvienne basse et l'ectopie thoracique haute.",
-    "_remarque": "Un rein ectopique pelvien est prédisposé aux complications lithiasiques et infectieuses en raison d'une malrotation et d'un drainage urétéral modifié."
-  },
-  "uro-405": {
-    "A": "Faux. L'extrophie vésicale est une malformation complexe de fermeture de la paroi abdominale sous-ombilicale et du dôme vésical.",
-    "B": "Vrai. L'urétérocèle est une malformation de la jonction urétéro-vésicale consistant en une ectasie sous-muqueuse de l'uretère terminal intrapariétal.",
-    "C": "Faux. Le rein en fer à cheval est une anomalie de fusion parenchymateuse par le pôle inférieur et non une anomalie de jonction urétéro-vésicale.",
-    "D": "Faux. La dysplasie rénale multikystique est une anomalie primitive unilatérale de l'embryogenèse parenchymateuse néphronique.",
-    "E": "Vrai. Le reflux vésico-urétéral (RVU) est causé par un trajet sous-muqueux trop court de l'uretère intramural vésical, défaillant le mécanisme anti-reflux.",
-    "_synthese": "Les anomalies congénitales de la jonction urétéro-vésicale sont dominées par l'urétérocèle et le reflux vésico-urétéral.",
-    "_remarque": "Le reflux vésico-urétéral est diagnostiqué et classé en cinq grades de gravité par la cystographie rétrograde et mictionnelle (CUM)."
-  },
-  "uro-406": {
-    "A": "Vrai. L'hypospadias postérieur est à la fois une anomalie anatomique congénitale du méat urétral et une entité pathologique retentissant sur la miction et l'érection.",
-    "B": "Faux. Le rein thoracique est une simple anomalie de positionnement asymptomatique qui ne constitue aucune pathologie active en soi.",
-    "C": "Vrai. Le reflux vésico-urétéral compliqué de pyélonéphrites récidivantes associe une malformation de jonction et une maladie infectieuse rénale à risque de néphropathie cicatricielle.",
-    "D": "Vrai. L'extrophie vésicale est une malformation viscérale majeure doublée d'un état pathologique engageant la continence et la fonction rénale.",
-    "E": "Faux. Le rein en fer à cheval est une malformation anatomique de fusion sans être une maladie en l'absence de complication lithiasique.",
-    "_synthese": "L'hypospadias postérieur, le RVU compliqué d'infection et l'extrophie vésicale réunissent les définitions de malformation anatomique et de maladie clinique active.",
-    "_remarque": "Une néphropathie de reflux non prise en charge conduit à une perte néphronique cicatricielle progressive avec HTA et insuffisance rénale chronique."
-  },
-  "uro-407": {
-    "A": "Faux. Les antispasmodiques (phloroglucinol) sont dépourvus de toxicité fœtale et autorisés à tous les stades de la grossesse.",
-    "B": "Faux. Le paracétamol (Perfalgan) est l'antalgique de référence de palier 1 utilisable sans danger chez la femme enceinte.",
-    "C": "Faux. La morphine par voie parentérale peut être administrée lors d'une crise hyperalgique rebelle sous surveillance médicale hospitalière.",
-    "D": "Vrai. Les anti-inflammatoires non stéroïdiens (AINS) sont formellement contre-indiqués dès le début du 6e mois (24 SA) en raison du risque de fermeture prématurée in utero du canal artériel fœtal et d'insuffisance rénale néonatale.",
-    "E": "Faux. Les corticoïdes peuvent être administrés en cours de grossesse pour d'autres indications médicales précises sans le risque vasculaire des AINS.",
-    "_synthese": "Les AINS sont formellement contre-indiqués au 3e trimestre de la grossesse en raison du risque mortel de fermeture prématurée du canal artériel fœtal.",
-    "_remarque": "En cas de crise lithiasique obstructive fébrile chez la femme enceinte, le drainage par endoprothèse urétérale double J sous contrôle échographique s'impose."
-  },
-  "uro-408": {
-    "A": "Vrai. L'urétrorragie correspond à une émission de sang pur par le méat indépendante de la miction, à différencier d'une hématurie vraie.",
-    "B": "Vrai. L'ingestion alimentaire de betteraves, mûres ou rhubarbe induit une coloration rouge des urines sans présence d'érythrocytes.",
-    "C": "Faux. Les urines concentrées sont simplement jaune ambré ou foncées sans mimer une franche coloration rouge sang.",
-    "D": "Vrai. Chez la femme, une contamination des urines par un saignement gynécologique d'origine utérine (métrorragie) simule une fausse hématurie.",
-    "E": "Vrai. La présence de pigments libres (myoglobine lors d'une rhabdomyolyse, hémoglobine lors d'une hémolyse aiguë) ou la rifampicine colorent les urines en rouge sans hématies à la cytologie.",
-    "_synthese": "Le diagnostic différentiel de l'hématurie élimine l'urétrorragie, les métrorragies, les colorations alimentaires et les fausses hématuries pigmentaires sans hématies.",
-    "_remarque": "L'examen microscopique du sédiment urinaire ou l'ECBU redressent immédiatement le diagnostic en confirmant l'absence de globules rouges dans les fausses hématuries."
-  },
-  "uro-409": {
-    "A": "Faux. L'échographie réno-vésicale est un examen étiologique qui localise une cause potentielle sans confirmer le diagnostic cytologique d'hématurie.",
-    "B": "Vrai. L'examen cytologique microscopique quantitatif (ECBU) confirme formellement l'hématurie en objectivant plus de 10 000 hématies/ml (ou > 10 hématies/mm3).",
-    "C": "Faux. L'examen bactériologique isole une bactérie mais ne quantifie pas le nombre de globules rouges.",
-    "D": "Vrai. L'émission clinique de caillots sanguins macroscopiques signe avec certitude une hématurie urologique vraie d'origine tissulaire.",
-    "E": "Faux. La formule sanguine évalue l'anémie mais ne valide pas la présence de sang dans la lumière urinaire.",
-    "_synthese": "Le diagnostic positif d'hématurie macroscopique est formellement établi par l'examen cytologique urinaire (> 10 000 hématies/ml) ou la présence clinique indiscutable de caillots.",
-    "_remarque": "La présence de caillots de sang élimine d'emblée une origine glomérulaire néphrologique et impose une exploration urologique complète."
-  },
-  "uro-410": {
-    "A": "Vrai. Un rétrécissement urétral serré empêche le passage du cathéter et fait courir un risque majeur de fausse route urétrale avec perforation spongieuse.",
-    "B": "Faux. Une cicatrice chirurgicale abdominale ou pelvienne antérieure ne contre-indique en aucun cas le sondage urétral atraumatique.",
-    "C": "Vrai. La prostatite aiguë bactérienne contre-indique le sondage urétral en raison du risque de bactériémie foudroyante, de choc endotoxinique et d'abcédation.",
-    "D": "Vrai. Une urétrorragie post-traumatique suspecte une déchirure urétrale que le sondage à l'aveugle aggraverait en rupture complète.",
-    "E": "Faux. Une tumeur vésicale ne contre-indique pas un sondage urétral doux à des fins de décompression ou de lavage vésical.",
-    "_synthese": "Le sondage urétral est formellement contre-indiqué en cas de sténose urétrale serrée, de prostatite aiguë et de suspicion de rupture urétrale traumatique.",
-    "_remarque": "Dans ces trois situations d'obstacle urétral, la dérivation des urines s'effectue obligatoirement par pose d'un cathéter sus-pubien sous contrôle visuel ou échographique."
-  },
-  "uro-411": {
-    "A": "Vrai. La fièvre associée à une colique néphrétique signe une pyélonéphrite aiguë obstructive, véritable urgence médico-chirurgicale de drainage.",
-    "B": "Vrai. L'oligo-anurie traduit un obstacle lithiasique bilatéral ou sur rein unique et engage à très court terme le pronostic vital.",
-    "C": "Faux. L'anémie n'appartient pas aux critères consensuels de gravité immédiate de la crise de colique néphrétique.",
-    "D": "Vrai. La survenue d'un calcul obstructif sur un rein unique fonctionnel ou anatomique menace la totalité de la fonction rénale de l'organisme.",
-    "E": "Vrai. La colique néphrétique chez la femme enceinte est une situation grave nécessitant une prise en charge urgente en milieu hospitalier.",
-    "_synthese": "Les critères de colique néphrétique compliquée grave sont le sepsis fébrile, l'anurie, le rein unique, la grossesse et la crise hyperalgique rebelle aux antalgiques.",
-    "_remarque": "La colique néphrétique fébrile impose une décompression d'urgence en salle d'opération par sonde double J ou par néphrostomie percutanée."
   },
   "uro-412": {
     "A": "Vrai. L'IRC est caractérisée par une diminution définitive et irréversible du débit de filtration glomérulaire s'accompagnant d'une élévation de la créatininémie.",
@@ -4310,13 +4121,13 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "La greffe rénale chez l'enfant fait appel prioritairement aux donneurs vivants apparentés pour raccourcir au maximum le temps passé en dialyse."
   },
   "uro-478": {
-    "A": "Faux. Le traitement conservateur vise à ralentir la progression du déclin rénal et prévenir les complications, mais ne permet pas de régénérer les néphrons détruits.",
-    "B": "Vrai. Les règles hygiéno-diététiques assurant des apports caloriques suffisants pour la croissance et un apport protidique contrôlé sont la clé de voûte de la prise en charge.",
-    "C": "Vrai. La correction rigoureuse de l'acidose métabolique par du bicarbonate de sodium (cible > 22 mmol/L) prévient le catabolisme protéique et favorise la croissance.",
-    "D": "Vrai. La vitamine D sous forme active hydroxylée (1-alpha-OH ou 1,25-(OH)2-vitamine D) est indispensable pour traiter l'hypocalcémie par défaut de 1-alpha-hydroxylation rénale.",
-    "E": "Vrai. La supplémentation en vitamine D native (cholécalciférol) est également nécessaire pour maintenir un stock vitaminique suffisant.",
-    "_synthese": "Le traitement conservateur de l'IRC de l'enfant associe apports nutritionnels optimaux, correction de l'acidose par bicarbonates et administration de vitamine D active.",
-    "_remarque": "La correction de l'acidose métabolique stimule la sécrétion d'IGF-1 et améliore la réponse osseuse à l'hormone de croissance."
+    "A": "Faux. Il ne récupère pas la fonction détériorée, il la ralentit.",
+    "B": "Vrai. Règles hygiéno-diététiques.",
+    "C": "Vrai. La correction de l'acidose améliore la croissance.",
+    "D": "Vrai. Vitamine D active.",
+    "E": "Vrai. Vitamine D native (inactive).",
+    "_synthese": "Le traitement conservateur de l'IRC de l'enfant ralentit la progression : règles hygiéno-diététiques, correction de l'acidose, vitamine D active et native.",
+    "_remarque": "Clé complétée (BDE → BCDE) : la correction de l'acidose améliore la croissance de l'enfant atteint d'IRC. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-479": {
     "A": "Faux. L'infiltration de la couche musculaire propre (détrusor) définit les tumeurs de vessie infiltrant le muscle (TVIM stade pT2).",
@@ -4561,15 +4372,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Le calcul oxalo-calcique est très dense (> 1 000 UH), radio-opaque, métabolique et non infectieux ; les propositions A, C, D et E sont par conséquent fausses.",
     "_remarque": "L'hyperoxalurie alimentaire résulte de la consommation excessive d'aliments riches en oxalate tels que chocolat noir, thé noir, épinards et fruits à coque."
   },
-  "uro-506": {
-    "A": "Faux. Cette proposition est exacte : le citrate et le potassium/magnésium sont les plus puissants inhibiteurs physiologiques de la nucléation cristalline.",
-    "B": "Vrai. Cette affirmation est fausse : le dosage de la parathormone (PTH) et de la vitamine D n'appartient pas au bilan métabolique initial de 1ère intention (réservé à la 2e intention si hypercalcémie).",
-    "C": "Faux. Cette proposition est exacte : toute lithiase chez l'enfant doit faire suspecter une tubulopathie génétique ou une malformation et justifie un bilan exhaustif d'emblée.",
-    "D": "Faux. Cette proposition est exacte : la struvite (phospho-ammoniaco-magnésien) est un calcul typiquement secondaire à une infection à germes uréasiques.",
-    "E": "Faux. Cette proposition est exacte : l'oxalate de calcium monohydraté cristallise à pH urinaire variable et peu dépendant de l'acidité urinaire habituelle.",
-    "_synthese": "Le bilan métabolique lithiasique de première intention comporte créatinine, calcémie, uricémie, glycémie et cristallurie ; le dosage de PTH est un examen de deuxième intention.",
-    "_remarque": "Une hypercalcémie associée à une hypercalciurie lors du bilan initial oriente formellement vers une hyperparathyroïdie primaire justifiant le dosage de PTH."
-  },
   "uro-507": {
     "A": "Faux. Un volumineux calcul de 30 mm ne s'évacuera jamais spontanément et fait courir le risque de surinfection vésicale permanente chez un paraplégique.",
     "B": "Faux. L'alcalinisation urinaire n'a aucune action de dissolution sur un calcul radio-opaque très dense de 1 350 UH composé de sels de calcium.",
@@ -4694,15 +4496,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Vrai. La radiofréquence percutanée thermo-ablative est une alternative thérapeutique pour les petites tumeurs rénales chez les patients fragiles récusés pour la chirurgie.",
     "_synthese": "Dans le cancer du rein localisé, les options thérapeutiques curatives sont chirurgicales (partielle ou élargie) ou ablatives (radiofréquence) ; la thérapie ciblée est exclue.",
     "_remarque": "La néphrectomie partielle préserve le capital néphronique et réduit significativement le risque cardiovasculaire et d'insuffisance rénale chronique à long terme."
-  },
-  "uro-521": {
-    "A": "Faux. La tomodensitométrie cérébrale fait partie du bilan d'extension en cas de signes d'appel neurologiques évocateurs de métastases cérébrales.",
-    "B": "Faux. L'IRM abdomino-pelvienne évalue avec précision l'extension locale, l'invasion ganglionnaire et l'extension thrombotique dans la veine rénale ou la veine cave.",
-    "C": "Faux. Le scanner thoraco-abdomino-pelvien injecté est l'examen pivot incontournable de référence du bilan d'extension métastatique du cancer du rein.",
-    "D": "Vrai. La cytologie urinaire analyse l'urothélium de la voie excrétrice et n'a aucune utilité dans le bilan d'extension du cancer du parenchyme rénal.",
-    "E": "Faux. La scintigraphie osseuse est intégrée au bilan d'extension en présence de douleurs osseuses ou d'élévation des phosphatases alcalines sériques.",
-    "_synthese": "Le bilan d'extension du cancer du parenchyme rénal repose sur le scanner thoraco-abdomino-pelvien ; la cytologie urinaire ne fait pas partie du bilan.",
-    "_remarque": "La cytologie urinaire n'est indiquée que lors de la suspicion de carcinome urothélial de la vessie ou de la voie excrétrice supérieure (TVES)."
   },
   "uro-522": {
     "A": "Vrai. La maladie de Von Hippel-Lindau (mutation du gène VHL sur le chromosome 3p) est la prédisposition génétique majeure au carcinome à cellules claires bilatéral et multifocal.",
@@ -5000,15 +4793,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La biopsie prostatique s'effectue sous guidage échographique et anesthésie locale, sous couverture d'antibioprophylaxie, guidée par une IRM préalable.",
     "_remarque": "La réalisation d'un lavement rectal préalable par Normacol est recommandée avant des biopsies par voie transrectale pour évacuer les matières fécales."
   },
-  "uro-555": {
-    "A": "Vrai. Un nodule induré au toucher rectal associé à un PSA élevé à 20 ng/ml impose des prélèvements biopsiques en urgence.",
-    "B": "Vrai. La présence d'un nodule suspect au toucher rectal justifie formellement une biopsie prostatique même en présence d'un PSA normal (0,9 ng/ml).",
-    "C": "Vrai. Une cible hautement suspecte classée PIRADS 5 à l'IRM avec PSA à 35 ng/ml justifie impérativement des biopsies ciblées.",
-    "D": "Faux. Un toucher et une IRM normaux avec une densité du PSA rassurante (< 0,15) ne justifient pas de biopsie immédiate.",
-    "E": "Vrai. Une densité du PSA pathologique supérieure à 0,15 ng/ml/g avec un PSA à 10 ng/ml justifie la réalisation de biopsies prostatiques.",
-    "_synthese": "Les indications de biopsies de prostate sont posées devant un toucher rectal suspect, une anomalie IRM (PIRADS >= 3) ou une densité du PSA élevée (> 0,15).",
-    "_remarque": "Une lésion classée PIRADS 5 à l'IRM présente une probabilité de cancer cliniquement significatif supérieure à 85 %."
-  },
   "uro-556": {
     "A": "Vrai. La surveillance active est la stratégie de première ligne recommandée pour les cancers localisés à faible risque afin d'éviter les séquelles des traitements radicaux.",
     "B": "Vrai. La prostatectomie radicale peut être réalisée chez un patient à faible risque en cas de refus éclairé de la surveillance active.",
@@ -5170,15 +4954,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Les deux seules indications formelles universelles de traitement d'une colonisation urinaire asymptomatique sont la grossesse et avant chirurgie urologique invasive.",
     "_remarque": "Traiter inutilement une bactériurie asymptomatique chez un sujet sondé sélectionne des souches multirésistantes sans aucun bénéfice clinique."
   },
-  "uro-574": {
-    "A": "Faux. L'antibiothérapie par fluoroquinolones ou C3G injectables est la base curative indispensable de la prostatite aiguë.",
-    "B": "Faux. Les antalgiques et antipyrétiques sont prescrits pour soulager les douleurs pelviennes et la fièvre.",
-    "C": "Faux. Le repos au lit est préconisé pendant la phase fébrile aiguë.",
-    "D": "Vrai. Le cathétérisme de l'urètre (sondage urétral) est formellement contre-indiqué en cas de rétention aiguë sur prostatite ; la dérivation impose la pose d'un cathéter sus-pubien.",
-    "E": "Faux. Le drainage chirurgical ou par ponction guidée est indispensable en cas de constitution d'un abcès prostatique collecté résistant aux antibiotiques.",
-    "_synthese": "En cas de rétention d'urine au cours d'une prostatite aiguë, le sondage transurétral est formellement contre-indiqué et remplacé par un cathéter sus-pubien.",
-    "_remarque": "Le sondage transurétral lors d'une prostatite aiguë bactérienne risque de déclencher une décharge bactérienne massive avec choc endotoxinique foudroyant."
-  },
   "uro-575": {
     "A": "Faux. Chez la femme enceinte, toute suspicion d'infection urinaire impose formellement la confirmation par un ECBU avec antibiogramme.",
     "B": "Vrai. Le diagnostic de certitude d'une cystite gravidique doit obligatoirement être confirmé par l'examen cytobactériologique des urines avec antibiogramme.",
@@ -5196,15 +4971,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. L'évacuation d'un abcès prostatique collecté est indispensable en cas d'échec du traitement médical.",
     "_synthese": "Dans la prostatite aiguë compliquée de rétention d'urine, le sondage urétral est formellement contre-indiqué ; le drainage doit être réalisé par voie sus-pubienne.",
     "_remarque": "L'antibiothérapie d'une prostatite aiguë doit être poursuivie pendant au moins 14 jours (fluoroquinolones) à 21 jours pour assurer une éradication complète."
-  },
-  "uro-577": {
-    "A": "Vrai. La tuberculose de l'arbre génito-urinaire se caractérise typiquement par une pyurie acide stérile aux cultures bactériologiques standards.",
-    "B": "Vrai. La desquamation cellulaire et la présence de sang lors des règles peuvent simuler une leucocyturie isolée sur le sédiment urinaire.",
-    "C": "Vrai. Une pyélonéphrite aiguë décapitée par une antibiothérapie préalable prise à l'aveugle peut négativer les cultures bactériennes tout en laissant persister la leucocyturie.",
-    "D": "Vrai. Une cystite bactérienne pré-traitée par antibiotiques ou une cystite interstitielle abactérienne peuvent se présenter sous forme de leucocyturie aseptique.",
-    "E": "Faux. La prostatite aiguë non traitée s'accompagne d'une bactériurie franchement positive au premier plan.",
-    "_synthese": "Une leucocyturie sans germe fait suspecter une tuberculose urinaire, une antibiothérapie décapitante préalable ou une contamination menstruelle.",
-    "_remarque": "La présence d'une urétrite ou d'une vaginite à Chlamydia trachomatis ou Mycoplasme doit également être recherchée par PCR en cas de leucocyturie stérile."
   },
   "uro-578": {
     "A": "Vrai. L'ECBU avec antibiogramme est obligatoire pour confirmer le diagnostic de pyélonéphrite aiguë et permettre l'adaptation secondaire de l'antibiothérapie.",
@@ -5378,13 +5144,13 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "La découverte d'une hypokaliémie chez un hypertendu sévère doit faire évoquer en priorité un hyperaldostéronisme primaire ou secondaire à une sténose artérielle."
   },
   "uro-597": {
-    "A": "Faux. Cette proposition est exacte : l'hypertension artérielle sévère, précoce et résistante est au premier plan dans les néphropathies vasculaires.",
-    "B": "Faux. Cette proposition est exacte : en l'absence de revascularisation ou de contrôle tensionnel, la dégradation fonctionnelle progresse vers l'IRCT.",
-    "C": "Faux. Cette proposition est exacte : le sédiment urinaire d'une néphroangiosclérose bénigne est typiquement inactif sans hématurie microscopique ni cylindres.",
-    "D": "Faux. Cette proposition est exacte : les formes aiguës (emboles de cholestérol, néphroangiosclérose maligne, MAT) sont des urgences médicales néphrologiques absolues.",
-    "E": "Vrai. Cette affirmation est fausse : les néphropathies vasculaires sont primitives des vaisseaux et se caractérisent par une protéinurie absente ou modeste (< 1 g/j), non glomérulaire.",
-    "_synthese": "Les néphropathies vasculaires se caractérisent par une HTA au premier plan et une protéinurie faible ; elles ne sont pas des néphropathies glomérulaires protéinuriques.",
-    "_remarque": "Une protéinurie abondante de rang néphrotique au cours d'une pathologie vasculaire rénale n'apparaît que très tardivement par glomérulosclérose secondaire."
+    "A": "Proposition exacte. Exacte : HTA au premier plan.",
+    "B": "Proposition exacte. Exacte : insuffisance rénale progressive sans traitement.",
+    "C": "Proposition exacte. Exacte : sédiment pauvre.",
+    "D": "Proposition exacte. Exacte : certaines formes sont des urgences (emboles de cholestérol).",
+    "E": "Proposition fausse (à cocher). Faux : ce ne sont pas des glomérulopathies protéinuriques.",
+    "_synthese": "Les néphropathies vasculaires associent HTA, insuffisance rénale progressive, sédiment urinaire pauvre et protéinurie faible ; elles ne sont pas des glomérulopathies protéinuriques.",
+    "_remarque": "Clé corrigée (ABCE → E) : seule la proposition E est fausse ; les néphropathies vasculaires ne sont pas des néphropathies glomérulaires protéinuriques. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-598": {
     "A": "Vrai. Cette affirmation est fausse : la néphroangiosclérose maligne est définie par une hypertension artérielle sévère avec une pression artérielle diastolique supérieure à 120-130 mm Hg.",
@@ -5930,15 +5696,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Une hématurie macroscopique avec caillots chez un fumeur âgé de 65 ans impose de rechercher en priorité une étiologie tumorale maligne urologique.",
     "_remarque": "Même si l'hématurie cesse spontanément, la réalisation du bilan complet étiologique urologique reste strictement indispensable sans retard."
   },
-  "uro-659": {
-    "A": "Faux. Bien que l'ECBU soit systématique, la recherche d'une protéinurie n'est pas l'examen morphologique prioritaire devant une hématurie urologique caillotante.",
-    "B": "Vrai. La fibroscopie urétro-vésicale (cystoscopie souple) est l'examen endoscopique indispensable pour visualiser la muqueuse de la vessie et rechercher un polype.",
-    "C": "Vrai. L'uroscanner injecté avec temps parenchymateux et temps tardif excrétoire explore l'intégralité du parenchyme rénal et de la voie excrétrice supérieure.",
-    "D": "Faux. Il n'existe aucun marqueur tumoral sérique ayant une valeur de diagnostic ou de dépistage dans les cancers urothéliaux de vessie.",
-    "E": "Faux. L'ionogramme urinaire n'apporte aucune information diagnostique carcinologique.",
-    "_synthese": "Le bilan diagnostique de référence d'une hématurie macroscopique chez un patient à risque repose sur l'association d'une fibroscopie vésicale et d'un uroscanner.",
-    "_remarque": "La cystoscopie souple au fibroscope est réalisée en consultation sous anesthésie locale urétrale par gel de lidocaïne."
-  },
   "uro-660": {
     "A": "Faux. Le diabète de type II n'est pas un facteur de risque étiologique oncologique majeur de cancer de la vessie.",
     "B": "Vrai. L'exposition professionnelle aux carcinogènes industriels (amines aromatiques, hydrocarbures polycycliques dans l'industrie sidérurgique) est un facteur de risque toxique avéré.",
@@ -6241,24 +5998,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Les signes scannographiques de la colique néphrétique aiguë obstructive comportent la visualisation de la lithiase, la dilatation d'amont, le retard de néphrographie et l'infiltration œdémateuse péri-rénale.",
     "_remarque": "Le scanner abdomino-pelvien sans injection basse dose est l'examen de référence en urgence devant une colique néphrétique aiguë de l'adulte."
   },
-  "uro-694": {
-    "A": "Vrai. L'hématurie macroscopique abondante avec formation de caillots sanguins intra-vésicaux obstrue le col vésical et l'urètre, provoquant une rétention aiguë d'urines par caillotage.",
-    "B": "Faux. Bien que l'âge du patient corresponde au pic de prévalence de l'HBP, le contexte d'hématurie franche et de caillotage au premier plan pointe directement vers une cause tumorale récidivante.",
-    "C": "Faux. Les alpha-bloquants réduisent le tonus musculaire prostatique et facilitent la vidange vésicale ; ils ne provoquent pas de rétention urinaire (effet inverse des anticholinergiques).",
-    "D": "Faux. L'hématurie a vacuo survient après la décompression vésicale trop rapide lors de l'évacuation d'une rétention chronique avec distension majeure, et non avant le sondage.",
-    "E": "Vrai. Chez un patient aux antécédents de carcinome urothélial de vessie réséqué un an plus tôt, une nouvelle hématurie macroscopique fait craindre en premier lieu une récidive tumorale vésicale.",
-    "_synthese": "Devant une rétention aiguë avec globe vésical de 750 cc et urines très hématuriques chez un patient opéré d'une TVNIM, les diagnostics prioritaires sont la rétention sur hématurie caillotante et la récidive de la tumeur vésicale.",
-    "_remarque": "Le décaillotage immédiat par sonde double courant à gros calibre (Charrière 20-22) avec lavages continus au sérum physiologique stérile est la première mesure d'urgence."
-  },
-  "uro-695": {
-    "A": "Faux. Les tumeurs de la vessie n'infiltrant pas le muscle (TVNIM) représentent environ 75% à 80% des cas initiaux, alors que les formes infiltrantes ne constituent que 20 à 25% des présentations initiales.",
-    "B": "Vrai. La résection transurétrale de vessie (RTUV) complète emportant le détrusor profond est impérative pour établir le stade d'infiltration pariétale (T) et le grade cytologique (G).",
-    "C": "Faux. Le risque prédominant des tumeurs de haut grade ou infiltrantes est la progression locale et métastatique ganglionnaire et à distance, et non une simple récidive superficielle.",
-    "D": "Vrai. Le traitement de référence des tumeurs de vessie infiltrant le muscle (TVIM) est l'exérèse chirurgicale radicale (cystoprostatectomie totale chez l'homme) associée à un curage ganglionnaire bilatéral.",
-    "E": "Faux. Le pronostic des tumeurs infiltrantes au stade avancé métastatique ou localement dépassé est sombre avec une survie médiane inférieure à 15-18 mois sans traitement systémique.",
-    "_synthese": "La RTUV est indispensable au diagnostic histopronostique. Pour les tumeurs infiltrantes (TVIM), le traitement curatif de référence repose sur la cystectomie totale avec curage ganglionnaire pelvien étendu.",
-    "_remarque": "Une chimiothérapie néoadjuvante à base de cisplatine (MVAC ou GC) précède la cystectomie pour toute TVIM opérable afin d'améliorer la survie globale."
-  },
   "uro-696": {
     "A": "Faux. Un stade pT2 atteste déjà formellement de l'infiltration de la couche musculaire propre (détrusor) ; la réalisation d'un 2e look n'est obligatoire que pour les stades pT1 ou en cas d'absence de détrusor sur le copeau.",
     "B": "Vrai. Le traitement chirurgical standard de référence à visée curative pour un stade cT2N0M0 chez un patient éligible est la cystoprostatectomie avec curage ganglionnaire étendu ilio-obturateur bilatéral.",
@@ -6436,41 +6175,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Vrai. La rééducation périnéale est toujours recommandée en première intention avant d'envisager la pose d'une bandelette sous-urétrale chirurgicale.",
     "_synthese": "La rééducation périnéo-sphinctérienne (par kinésithérapie avec biofeedback et électrostimulation) renforce le plancher pelvien, améliore le contrôle vésico-sphinctérien et constitue le traitement de 1ère intention avant toute chirurgie.",
     "_remarque": "L'apprentissage du verrouillage périnéal réflexe à l'effort (toux, rire, port de charge) constitue l'élément clé de la rééducation de l'incontinence d'effort."
-  },
-  "uro-716": {
-    "A": "Faux. Les infections du tractus urinaire représentent bien le deuxième motif d'infection bactérienne communautaire après les infections respiratoires ; cette proposition est exacte.",
-    "B": "Faux. Chez l'homme jeune, les urétrites et orchi-épididymites sont fréquemment vénériennes (Chlamydia, gonocoque) ; cette proposition est exacte.",
-    "C": "Faux. Une pyélonéphrite aiguë obstructive ou une prostatite aiguë peut évoluer vers un choc septique sévère ; cette proposition est exacte.",
-    "D": "Faux. Elles couvrent un spectre clinique large, de la cystite aiguë simple bénigne jusqu'au choc septique néphrétique ; cette proposition est exacte.",
-    "E": "Vrai. La proposition est fausse : la physiopathologie des infections urinaires communautaires repose à plus de 95% sur une contamination ascendante rétrograde à partir de la flore fécale périnéale et digestive.",
-    "_synthese": "Les infections urinaires communautaires sont très majoritairement transmises par voie ascendante rétrograde à partir du réservoir digestif et de la flore périnéale (Escherichia coli). La voie descendante hématogène est exceptionnelle.",
-    "_remarque": "La dissémination par voie descendante hématogène ne s'observe que lors de bactériémies sévères à staphylocoque doré ou dans la tuberculose rénale."
-  },
-  "uro-717": {
-    "A": "Vrai. La proposition est fausse : dans la cystite aiguë simple non compliquée de la femme jeune, l'ECBU n'est pas nécessaire et ne doit pas être réalisé.",
-    "B": "Faux. La bandelette urinaire positive (leucocytes et/ou nitrites) confirme le diagnostic en quelques minutes avec une excellente valeur prédictive positive.",
-    "C": "Faux. La fosfomycine-trométamol (3 g en prise unique) est le traitement antibiotique probabiliste de premier choix recommandé en France.",
-    "D": "Faux. L'évolution de la cystite aiguë simple sous traitement probabiliste adapté est spontanément favorable dans la quasi-totalité des cas.",
-    "E": "Faux. Aucune imagerie radiologique n'est indiquée en première intention lors d'une cystite aiguë simple.",
-    "_synthese": "Dans la cystite aiguë simple de la femme sans facteur de risque de complication, le diagnostic repose sur la clinique et la bandelette urinaire seule. L'ECBU et l'imagerie sont formellement inutiles.",
-    "_remarque": "Le traitement repose sur la fosfomycine-trométamol en dose unique ou le pivmécillinam pendant 3 jours, préservant ainsi les fluoroquinolones."
-  },
-  "uro-718": {
-    "A": "Faux. L'ECBU est l'examen diagnostique bactériologique fondamental et les hémocultures sont indispensables en cas de fièvre, de frissons ou de signes de sepsis ; cette proposition est exacte.",
-    "B": "Faux. La rétention vésicale aiguë (RVA) d'urines par œdème prostatique inflammatoire aigu est une complication fréquente ; cette proposition est exacte.",
-    "C": "Vrai. La proposition est fausse : l'abcès prostatique et l'évolution vers la prostatite bactérienne chronique sont précisément des complications classiques d'une prostatite aiguë mal traitée.",
-    "D": "Vrai. La proposition est fausse : le dosage du PSA est formellement contre-indiqué en phase aiguë car l'inflammation prostatique majore massivement le PSA de façon non spécifique sans valeur diagnostique.",
-    "E": "Faux. Un abcès prostatique collecté peut être drainé par ponction transrectale échoguidée ou par voie transurétrale/chirurgicale ; cette proposition est exacte.",
-    "_synthese": "Dans la prostatite aiguë, le dosage du PSA en phase aiguë est inutile et non recommandé car il est faussement élevé, et l'abcès prostatique ou la chronicisation constituent des complications majeures.",
-    "_remarque": "En cas de rétention aiguë sur prostatite, le drainage des urines doit impérativement être réalisé par un cathéter sus-pubien et non par une sonde urétrale pour éviter le choc septique."
-  },
-  "uro-719": {
-    "A": "Vrai. La proposition est fausse : la pyélonéphrite aiguë est par définition une infection bactérienne du parenchyme rénal et de la voie excrétrice haute.",
-    "B": "Faux. Une pyélonéphrite aiguë peut être obstructive (calcul, sténose, compression tumorale), constituant une urgence médico-chirurgicale absolue ; cette proposition est exacte.",
-    "C": "Vrai. La proposition est fausse : une échographie rénale normale n'élimine aucunement le diagnostic de PNA, les anomalies parenchymateuses n'étant visibles que dans moins de 50% des cas.",
-    "D": "Faux. La diffusion de l'infection au-delà de la capsule rénale peut donner une néphrite bactérienne aiguë focale ou un phlegmon périnéphrétique ; cette proposition est exacte.",
-    "_synthese": "La pyélonéphrite aiguë est une infection parenchymateuse rénale dont l'échographie rénale peut être strictement normale au stade précoce sans pour autant remettre en question le diagnostic clinique et bactériologique.",
-    "_remarque": "L'échographie rénale en urgence sert avant tout à éliminer un obstacle sur les voies urinaires (dilatation pyélocalicielle) nécessitant un drainage en urgence."
   },
   "uro-720": {
     "A": "Faux. Une tumeur rénale saigne dans le haut appareil urinaire et produit une hématurie totale (présente du début à la fin de la miction) souvent associée à des caillots filiformes.",
@@ -6674,15 +6378,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Le bilan morphologique standard de référence d'une hématurie macroscopique inexpliquée associe obligatoirement un uro-TDM (exploration du haut appareil) et une cystoscopie (exploration vésicale directe).",
     "_remarque": "L'uro-TDM injecté avec clichés tardifs excréteurs à 10-15 minutes remplace l'urographie intraveineuse (UIV) historique."
   },
-  "uro-743": {
-    "A": "Faux. L'aspect macroscopique sessile ou pédiculé apporte des éléments d'orientation mais ne constitue pas le facteur pronostique de progression validé par les classifications oncologiques.",
-    "B": "Faux. Une petite taille (< 3 cm) est un facteur de bon pronostic associé à un risque de récidive plus faible, et non un facteur de progression maligne.",
-    "C": "Faux. Une tumeur de vessie non infiltrant le muscle (TVNIM) ne métastase pas au poumon en l'absence de progression préalable vers l'infiltration musculaire.",
-    "D": "Faux. Le score de Fuhrman concerne exclusivement la cytopronostication nucléolaire du carcinome à cellules rénales, et non le carcinome urothélial vésical (qui utilise les grades OMS 1973/2004).",
-    "E": "Vrai. Le stade d'infiltration tumoral (pT1 infiltrant le chorion versus pTa purement muqueux) et le haut grade cytologique sont les deux facteurs pronostiques majeurs de progression vers une TVIM.",
-    "_synthese": "Les deux facteurs majeurs déterminant le risque de progression d'une tumeur de vessie n'infiltrant pas le muscle (TVNIM) vers une tumeur infiltrante sont le stade d'infiltration pariétale (pT1 vs pTa) et le grade histologique (haut grade).",
-    "_remarque": "Les tables de l'EORTC et du CUETO permettent de calculer un score individuel de récidive et de progression pour adapter la stratégie de surveillance et d'instillations."
-  },
   "uro-744": {
     "A": "Faux. La surveillance purement clinique est insuffisante et dangereuse en raison du risque élevé de récidive endovésicale asymptomatique.",
     "B": "Vrai. Le sevrage tabagique complet et définitif est la mesure hygiéno-diététique fondamentale car les amines aromatiques du tabac sont les principaux carcinogènes urothéliaux.",
@@ -6720,13 +6415,13 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "Chez la femme, l'intervention équivalente est la pelvectomie antérieure (cystectomie, hystérectomie totale, résection de la paroi vaginale antérieure et curage)."
   },
   "uro-748": {
-    "A": "Vrai. En cas d'hypoperfusion rénale, la réabsorption tubulaire proximale passive d'urée est stimulée, augmentant le rapport Urée plasmatique / Créatinine plasmatique à plus de 40-50 (exprimé en mmol/L).",
-    "B": "Faux. Un rapport urée/créatinine plasmatique bas (< 40) est au contraire en faveur d'une insuffisance rénale organique parenchymateuse par défaut de réabsorption tubulaire.",
-    "C": "Vrai. L'avidité du rein pour l'eau et le sodium permet de concentrer l'urée dans les urines, donnant un rapport Urée urinaire / Urée plasmatique > 10.",
-    "D": "Faux. Un rapport U/P d'urée bas (< 10) signe une perte de la capacité de concentration tubulaire caractéristique de la nécrose tubulaire aiguë.",
-    "E": "Vrai. L'activation maximale du système rénine-angiotensine-aldostérone stimule la réabsorption sodée tubulaire, effondrant la natriurèse à moins de 20 mmol/L (fraction d'excrétion du sodium FE_Na < 1%).",
-    "_synthese": "L'IRA fonctionnelle (prérénale) se caractérise par des urines concentrées et pauvres en sodium : rapport Urée P / Créat P > 40, U/P urée > 10, U/P créat > 30, Natriurèse < 20 mmol/L et FE_Na < 1%.",
-    "_remarque": "L'administration préalable de diurétiques de l'anse fausse ces indices en augmentant la natriurèse : il faut alors doser la fraction d'excrétion de l'urée (FE_Urée < 35% confirme l'origine fonctionnelle)."
+    "A": "Vrai. Urée/créatinine plasmatique supérieur à 40.",
+    "B": "Faux. Inférieur à 40 : IRA organique.",
+    "C": "Vrai. U/P urée supérieur à 10.",
+    "D": "Faux. U/P urée inférieur à 10 : IRA organique.",
+    "E": "Vrai. Natriurèse inférieure à 20 mmol/L.",
+    "_synthese": "IRA fonctionnelle : rapport urée/créatinine plasmatique élevé, urée urinaire/plasmatique > 10, natriurèse basse < 20 mmol/L.",
+    "_remarque": "Clé corrigée (ACDE → ACE) : dans l'IRA fonctionnelle, le rapport urée urinaire/plasmatique est supérieur à 10 ; la proposition D (< 10) est fausse. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-749": {
     "A": "Vrai. Une anurie brutale (diurèse < 100 mL/24h) est un signe d'appel clinique cardinal d'obstacle aigu complet bilatéral sur les voies excrétrices ou sur rein unique.",
@@ -6747,22 +6442,22 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "L'abouchement ectopique d'un uretère chez la petite fille associe de manière très caractéristique des mictions physiologiques normales conservées et une perte d'urine permanente goutte à goutte."
   },
   "uro-751": {
-    "A": "Faux. Des investigations sont nécessaires pour caractériser le dysfonctionnement détrusorien et surtout éliminer une lésion vésicale maligne organique sous-jacente.",
-    "B": "Vrai. Le bilan urodynamique (cystomanométrie) confirme l'existence de contractions désinhibées du détrusor pendant la phase de remplissage (hyperactivité détrusorienne).",
-    "C": "Faux. L'IRM pelvienne dynamique n'est indiquée que dans les troubles complexes de la statique pelvienne avec prolapsus multiviscéral, et n'a pas de place dans l'urgenturie simple.",
-    "D": "Vrai. L'échographie vésico-rénale recherche une anomalie endocavitaire déclenchante (calcul vésical, polype, épaississement pariétal) et quantifie le résidu post-mictionnel.",
-    "E": "Faux. Bien que la cytologie urinaire soit un examen classique, l'association retenue dans ce QCM privilégie les examens fonctionnels et morphologiques (BUD et échographie).",
-    "_synthese": "Le bilan d'une incontinence urinaire par urgenturie comporte l'échographie vésicale avec résidu post-mictionnel et le bilan urodynamique pour documenter l'hyperactivité vésicale et éliminer un résidu.",
-    "_remarque": "L'ECBU est le premier examen à réaliser pour éliminer formellement une infection urinaire basse comme cause réversible de l'urgenturie."
+    "A": "Faux. Des examens sont nécessaires.",
+    "B": "Vrai. Bilan urodynamique : confirme l'hyperactivité vésicale.",
+    "C": "Faux. IRM dynamique : prolapsus complexes.",
+    "D": "Vrai. Échographie vésico-rénale avec résidu post-mictionnel.",
+    "E": "Faux. Cytologie : si hématurie.",
+    "_synthese": "Devant une urgenturie : ECBU, échographie vésico-rénale, parfois bilan urodynamique ; cytologie si hématurie ou facteurs de risque.",
+    "_remarque": "Clé corrigée (BCD → BD) : l'IRM pelvienne dynamique n'est pas un examen de première intention dans l'urgenturie. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-752": {
-    "A": "Faux. La rééducation cible les muscles du plancher pelvien ; le travail abdominal actif est proscrit car il augmenterait la pression intra-abdominale expulsant l'urine.",
-    "B": "Vrai. Elle a pour but central de renforcer les faisceaux pubo-coccygiens des releveurs de l'anus et de rétablir un soutien cervico-urétral tonique à l'effort.",
-    "C": "Vrai. La poursuite d'exercices d'auto-entretien périnéal réguliers à long terme au domicile est nécessaire pour prévenir la rechute des symptômes.",
-    "D": "Faux. La rééducation périnéale avec biofeedback a une efficacité documentée dans l'hyperactivité vésicale en enseignant au patient des techniques de rétro-inhibition détrusorienne.",
-    "E": "Faux. La question met en avant les composantes techniques d'action sur le plancher pelvien.",
-    "_synthese": "La rééducation périnéo-sphinctérienne renforce les muscles du plancher pelvien et doit être prolongée par des auto-exercices réguliers pour stabiliser les résultats cliniques.",
-    "_remarque": "Elle associe prise de conscience périnéale, biofeedback électromyographique et électrostimulation fonctionnelle neuromusculaire."
+    "A": "Faux. Les muscles abdominaux ne sont pas la cible.",
+    "B": "Vrai. Elle renforce le plancher pelvien.",
+    "C": "Vrai. À poursuivre si efficace.",
+    "D": "Faux. Elle garde un intérêt dans l'urgenturie (biofeedback).",
+    "E": "Vrai. Réalisée par un kinésithérapeute spécialisé.",
+    "_synthese": "La rééducation périnéo-sphinctérienne renforce les muscles du plancher pelvien, doit être poursuivie en entretien et est réalisée par un kinésithérapeute spécialisé ; elle est utile dans l'urgenturie.",
+    "_remarque": "Clé corrigée (BCD → BCE) : la rééducation périnéale a un intérêt dans l'urgenturie (biofeedback) ; elle est réalisée par un kinésithérapeute spécialisé. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-753": {
     "A": "Faux. L'adénome prostatique ne se résume pas à une prolifération glandulaire exclusive ; il implique également le stroma fibro-musculaire.",
@@ -6970,15 +6665,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Une hématurie terminale oriente formellement vers une origine vésicale. Lorsque l'uro-scanner est normal, la cystoscopie au fibroscope souple s'impose en priorité pour dépister un carcinome urothélial de vessie ou un carcinome in situ.",
     "_remarque": "La cystoscopie est indispensable car le scanner abdomino-pelvien peut méconnaître les petites tumeurs de vessie planes ou le carcinome in situ (CIS)."
   },
-  "uro-776": {
-    "A": "Faux. Les douleurs très vives répondent au traitement médical antalgique intraveineux par AINS (kétoprofène) et morphine titrée, et ne constituent pas en soi une urgence opératoire immédiate.",
-    "B": "Faux. La taille du calcul (> 10 mm) conditionnera le mode d'extraction urologique secondaire, mais ne dicte pas une intervention chirurgicale en extrême urgence dans l'heure.",
-    "C": "Vrai. L'association d'une colique néphrétique obstructive et d'une fièvre à 40°C signe une pyélonéphrite aiguë obstructive (sepsis sévère sur rein sous pression), constituant une urgence chirurgicale vitale absolue de drainage des urines.",
-    "D": "Faux. La nature urique d'un calcul pyélique ou urétéral justifie en premier lieu une tentative de dissolution médicale par alcalinisation des urines.",
-    "E": "Faux. Le siège lombaire du calcul n'est pas une indication d'intervention chirurgicale d'urgence.",
-    "_synthese": "La colique néphrétique fébrile est une urgence médico-chirurgicale vitale absolue. La présence d'une fièvre à 40°C traduit une pyonéphrose avec risque de choc septique imposant le drainage des voies urinaires en urgence.",
-    "_remarque": "Le drainage en urgence repose sur la mise en place d'une sonde urétérale double J par voie rétrograde ou d'une sonde de néphrostomie percutanée sous couverture antibiotique."
-  },
   "uro-777": {
     "A": "Vrai. La rétention aiguë d'urines entraîne une distension vésicale se traduisant à l'examen par une masse sus-pubienne convexe vers le haut, mate à la percussion et douloureuse (globe vésical).",
     "B": "Faux. La rétention aiguë d'urines mécanique simple est apyrétique ; la présence d'une fièvre témoigne d'une infection associée (prostatite, pyélonéphrite).",
@@ -7042,15 +6728,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La lithiase d'acide urique est la seule lithiase urinaire accessible à un traitement médical de chimiodissolution complète par alcalinisation des urines (maintien du pH urinaire entre 6,5 et 7,0).",
     "_remarque": "L'eau minérale de Vichy Célestins ou le citrate de potassium associé à une diurèse abondante permettent la fonte complète du calcul en 6 à 12 semaines."
   },
-  "uro-784": {
-    "A": "Vrai. La présence de caillots sanguins macroscopiques atteste d'un saignement des voies urinaires excrétrices ou de la vessie (étiologie urologique).",
-    "B": "Faux. L'abondance du saignement n'est pas corrélée au stade de gravité : un carcinome in situ très agressif peut ne donner qu'une hématurie microscopique minime.",
-    "C": "Faux. Une hématurie macroscopique franche avec caillots est évidente à l'œil nu et ne nécessite pas de bandelette urinaire pour être confirmée.",
-    "D": "Vrai. Chez un patient de 65 ans grand tabagique cumulant 60 paquets-années, l'hématurie macroscopique doit faire éliminer en priorité un cancer urothélial ou rénal.",
-    "E": "Faux. Un kyste rénal simple typique ne provoque pas d'hématurie macroscopique caillotante.",
-    "_synthese": "Chez un homme tabagique de 65 ans présentant une hématurie macroscopique caillotante, la démarche diagnostique vise en priorité absolue à éliminer une étiologie oncologique urologique.",
-    "_remarque": "Toute hématurie macroscopique est un cancer urologique jusqu'à preuve du contraire chez le patient de plus de 50 ans ou tabagique."
-  },
   "uro-785": {
     "A": "Faux. L'ECBU avec protéinurie est un bilan néphrologique qui n'est pas la priorité devant une hématurie urologique avec caillots chez un fumeur.",
     "B": "Vrai. La fibroscopie urétro-vésicale permet de visualiser directement la muqueuse vésicale et de repérer les lésions suspectes.",
@@ -7068,15 +6745,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. Le patient n'a jamais reçu de chimiothérapie par cyclophosphamide (qui est un facteur de risque iatrogène reconnu par toxicité de l'acroléine).",
     "_synthese": "Les deux facteurs de risque majeurs de cancer de la vessie retrouvés chez ce patient sont le tabagisme sévère (60 PA) et l'exposition professionnelle aux carcinogènes industriels et sidérurgiques.",
     "_remarque": "Le carcinome urothélial de vessie chez les travailleurs exposés aux amines aromatiques figure au tableau n° 15 ter des maladies professionnelles."
-  },
-  "uro-787": {
-    "A": "Faux. La surveillance clinique seule est formellement proscrite pour une tumeur pT1G3 en raison du risque majeur de récidive et de progression vers l'infiltration musculaire.",
-    "B": "Vrai. Le sevrage tabagique complet est indispensable pour limiter le risque de récidive tumorale métachrone pan-urothéliale.",
-    "C": "Faux. La cystoprostatectomie d'emblée n'est discutée que dans les tumeurs pT1G3 multifocales étendues de très haut risque ou réfractaires au BCG.",
-    "D": "Vrai. L'immunothérapie intravésicale par instillations de BCG (traitement d'induction puis traitement d'entretien sur 1 à 3 ans) est le traitement adjuvant de référence des TVNIM de haut risque (pT1G3).",
-    "E": "Vrai. Une surveillance endoscopique et cytologique rapprochée (cystoscopie et cytologie urinaire tous les 3 mois pendant 2 ans) est obligatoire.",
-    "_synthese": "Pour une tumeur de vessie pT1 de haut grade (pT1G3), la prise en charge après un second look comporte l'arrêt du tabac, un protocole d'instillations endovésicales de BCG et une surveillance endoscopique stricte.",
-    "_remarque": "Une résection de second look (2e RTUV) est impérative dans les 4 à 6 semaines suivant la première résection d'un pT1G3 pour éliminer une infiltration détrusorienne sous-jacente (pT2)."
   },
   "uro-788": {
     "A": "Vrai. L'obstruction de l'urètre par des caillots sanguins récidivants entraîne une rétention aiguë douloureuse avec globe vésical de 750 cc d'urines hématuriques.",
@@ -7096,24 +6764,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La RTUV est indispensable au diagnostic histologique de l'atteinte du muscle. Pour les TVIM, la chirurgie radicale par cystoprostatectomie et curage ganglionnaire constitue le traitement de référence curatif.",
     "_remarque": "Une chimiothérapie néoadjuvante à base de sels de platine (gemcitabine-cisplatine ou MVAC) est systématiquement recommandée avant la cystectomie."
   },
-  "uro-790": {
-    "A": "Faux. Le stade pT2G3 prouve déjà avec certitude l'invasion du muscle détrusor ; un second look n'a aucun intérêt dans les TVIM.",
-    "B": "Vrai. Pour une maladie localisée, le geste curateur de référence chez l'homme est la cystoprostatectomie totale emportant prostate, vésicules séminales et vessie, avec curage pelvien bilatéral.",
-    "C": "Faux. La radiothérapie externe exclusive délivre des taux d'éradication tumorale inférieurs et n'est pas le standard de première ligne chez un sujet opérable.",
-    "D": "Faux. La radiochimiothérapie concomitante est une modalité de préservation d'organe de seconde ligne en cas de contre-indication chirurgicale formelle.",
-    "E": "Vrai. Un bilan d'extension métastatique exhaustif par scanner thoraco-abdomino-pelvien injecté est un préalable obligatoire à toute chirurgie radicale.",
-    "_synthese": "Devant un pT2G3, le bilan d'extension scannographique thoraco-abdomino-pelvien est obligatoire. En cas de tumeur localisée, le standard thérapeutique curatif est la cystoprostatectomie avec curage ilio-obturateur bilatéral.",
-    "_remarque": "La dérivation urinaire après cystectomie peut être une entérocystoplastie de remplacement vésical orthotopique ou une dérivation trans-iléale cutanée non continente de type Bricker."
-  },
-  "uro-791": {
-    "A": "Faux. La biopsie rénale percutanée est formellement indiquée chez les patients candidats à une surveillance active afin d'éliminer une tumeur maligne de haut grade de Fuhrman/ISUP ; cette proposition est exacte.",
-    "B": "Faux. La ponction-biopsie sous anesthésie locale échoguidée ou scannoguidée avec aiguille coaxiale est la technique standard habituelle ; cette proposition est exacte.",
-    "C": "Vrai. La proposition est fausse : la ponction-biopsie n'est PAS indiquée de façon systématique avant un traitement chirurgical conservateur (néphrectomie partielle) lorsque la lésion présente toutes les caractéristiques d'un carcinome rénal à l'imagerie chez un patient opérable.",
-    "D": "Faux. En situation métastatique inopérable, une preuve histologique par biopsie tumorale de la masse rénale ou d'un site métastatique est obligatoire avant de débuter les thérapies ciblées ou l'immunothérapie ; cette proposition est exacte.",
-    "E": "Faux. La biopsie rénale est formellement requise avant toute procédure ablative thermique (cryothérapie ou radiofréquence) pour documenter la nature tumorale ; cette proposition est exacte.",
-    "_synthese": "La ponction-biopsie rénale n'est pas indiquée de manière systématique avant une néphrectomie partielle pour une tumeur rénale localisée typique. Elle est en revanche indispensable avant thermoablation, avant surveillance active ou en phase métastatique.",
-    "_remarque": "Elle est également indiquée en cas de doute diagnostique avec un lymphome, une localisation rénale secondaire ou une tumeur bénigne (oncocytome, angiomyolipome sans graisse visible)."
-  },
   "uro-792": {
     "A": "Vrai. La prise en charge antalgique adaptée aux douleurs osseuses ou viscérales fait partie intégrante du traitement de support systématique du cancer rénal métastatique.",
     "B": "Vrai. La néphrectomie cytoréductrice de clôture garde des indications sélectionnées chez les patients oligométastatiques de bon pronostic selon les critères IMDC.",
@@ -7122,15 +6772,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. Les traitements ablatifs percutanés locaux (radiofréquence, cryothérapie) ne sont pas adaptés au stade métastatique étendu.",
     "_synthese": "La prise en charge du cancer du rein métastatique associe le contrôle symptomatique antalgique, les thérapies ciblées anti-angiogéniques combinées à l'immunothérapie, et dans des cas sélectionnés de bon pronostic, une néphrectomie cytoréductrice.",
     "_remarque": "Les combinaisons de première ligne associent aujourd'hui un anti-PD-1 (pembrolizumab ou nivolumab) à un inhibiteur de tyrosine kinase anti-VEGF (axitinib, cabozantinib, lenvatinib)."
-  },
-  "uro-793": {
-    "A": "Faux. Le poumon est le premier site de dissémination métastatique du carcinome rénal (50 à 60% des cas), l'atteinte osseuse arrivant en deuxième position (30%).",
-    "B": "Faux. Le diagnostic de cancer du rein est très majoritairement posé sur l'imagerie morphologique (uro-TDM injecté multiphasique) sans recours obligatoire à la biopsie préopératoire.",
-    "C": "Vrai. Le carcinome rénal à cellules claires (CCCR) représente 75 à 80% des cancers du rein chez l'adulte.",
-    "D": "Vrai. La polyglobulie paranéoplasique liée à l'hypersécrétion autonome d'érythropoïétine (EPO) par les cellules tumorales rénales est une manifestation classique.",
-    "E": "Faux. En cas de tumeurs rénales bilatérales, la chirurgie conservatrice néphronique (néphrectomie partielle) est impérativement favorisée pour éviter la mise en dialyse définitive.",
-    "_synthese": "Le carcinome à cellules claires est le type histologique le plus fréquent du cancer du rein (> 75%), et la polyglobulie par sécrétion ectopique d'EPO est une complication paranéoplasique classique.",
-    "_remarque": "Les métastases osseuses du cancer du rein sont typiquement lytiques et hypervasculaires, exposant à un risque élevé de fractures pathologiques."
   },
   "uro-794": {
     "A": "Faux. Un toucher rectal normal n'élimine jamais un cancer de la prostate (les tumeurs de stade T1c non palpables représentent plus de 70% des cancers diagnostiqués sur élévation du PSA).",
@@ -7193,33 +6834,6 @@ window.JUSTIFICATIONS_URO = {
     "D": "Faux. L'infection peut diffuser à la capsule rénale et à l'espace cellulo-graisseux périrénal sous forme de néphrite focale ou de phlegmon périnéphrétique ; cette proposition est exacte.",
     "_synthese": "La pyélonéphrite aiguë est une infection parenchymateuse rénale dont l'échographie rénale peut être strictement normale au stade précoce sans pour autant remettre en question le diagnostic clinique et bactériologique.",
     "_remarque": "L'échographie rénale en urgence a pour rôle essentiel de rechercher une dilatation des cavités excrétrices traduisant un obstacle justifiant un drainage chirurgical immédiat."
-  },
-  "uro-801": {
-    "A": "Vrai. La proposition est fausse : un débit mictionnel maximal (Qmax) normal se situe entre 20 et 30 mL/s ; dans l'HBP avec obstruction sous-vésicale, le Qmax est typiquement abaissé en dessous de 15 mL/s, voire en dessous de 10 mL/s.",
-    "B": "Faux. L'aplatissement de la courbe débitmétrique (courbe en plateau ou étalée) est la traduction caractéristique de la résistance à l'écoulement sous-vésicale ; cette proposition est exacte.",
-    "C": "Faux. Un débit maximal inférieur à 10 mL/s pour un volume uriné supérieur à 150 mL signe formellement une obstruction sous-vésicale franche ; cette proposition est exacte.",
-    "D": "Vrai. La proposition est fausse : le temps de miction est typiquement ALLONGÉ dans l'HBP en raison de la lenteur de vidange du réservoir vésical à travers la filière urétrale comprimée.",
-    "E": "Faux. L'allongement du temps d'évacuation vésicale est la conséquence directe de la baisse du débit urinaire ; cette proposition est exacte.",
-    "_synthese": "La débitmétrie mictionnelle dans l'HBP obstructive objective une courbe étalée, un débit maximal (Qmax) effondré (< 10-15 mL/s) et un allongement significatif du temps mictionnel total.",
-    "_remarque": "Une débitmétrie n'est interprétable que si le volume mictionnel évacué est supérieur à 150 mL pour éviter les faux négatifs par sous-remplissage."
-  },
-  "uro-802": {
-    "A": "Vrai. La proposition est fausse : l'hypertrophie bénigne de prostate est une affection chronique à développement très lent et insidieux s'étalant sur plusieurs décennies.",
-    "B": "Vrai. La proposition est fausse : l'HBP se développe exclusivement dans la zone de transition péri-urétrale de McNeal, alors que le cancer se développe préférentiellement (70%) dans la zone périphérique.",
-    "C": "Faux. Il existe une absence notoire de corrélation anatomo-clinique : une volumineuse prostate peut rester parfaitement asymptomatique alors qu'un petit adénome médian peut provoquer une rétention complète ; cette proposition est exacte.",
-    "D": "Vrai. La proposition est fausse : la zone antérieure prostatique est essentiellement fibro-musculaire (stroma fibromusculaire antérieur) et ne subit pas d'hyperplasie adénomateuse significative.",
-    "E": "Vrai. La proposition est fausse : le lobe médian fait saillie dans la lumière vésicale (intra-vésical) et est inaccessible à la palpation par le toucher rectal ; seule l'échographie ou la cystoscopie l'objective.",
-    "_synthese": "L'HBP est une affection à évolution lente développée aux dépens de la zone de transition. Le toucher rectal ne permet pas d'explorer le lobe médian qui se développe vers l'intérieur de la cavité vésicale.",
-    "_remarque": "Un lobe médian même de petite taille peut jouer le rôle d'un clapet antiretour à l'orifice urétral interne et provoquer une dysurie sévère avec TR faussement rassurant."
-  },
-  "uro-803": {
-    "A": "Vrai. Le syndrome de réabsorption du liquide de lavage (TURP syndrome) est une complication grave de la résection transurétrale de prostate monopolaire, engageant le pronostic vital par surcharge volémique et hyponatrémie.",
-    "B": "Vrai. Il s'agit d'une urgence médicale extrême imposant l'arrêt immédiat de la résection, la coagulation rapide des sinus veineux ouverts et une réanimation spécifique.",
-    "C": "Faux. La physiopathologie est médiée par une HYPONATRÉMIE aiguë de dilution (résorption massive de glycocolle hypotonique dépourvu d'électrolytes à travers les sinus veineux prostatiques ouverts), et non par une hypernatrémie.",
-    "D": "Vrai. La toxicité neurologique du glycocolle et l'œdème cérébral hyponatrémique entraînent des troubles visuels (vision floue, cécité transitoire), des céphalées, des nausées et des troubles de conscience.",
-    "E": "Vrai. L'association d'une hypertension artérielle initiale suivie d'un collapsus avec bradycardie réflexe est un signe d'alerte hémodynamique classique.",
-    "_synthese": "Le TURP syndrome complique la résection monopolaire utilisant le glycocolle hypotonique. Il associe hyponatrémie de dilution, surcharge volémique, troubles neurologiques (céphalées, troubles visuels) et anomalies cardiovasculaires.",
-    "_remarque": "L'avènement de la résection bipolaire utilisant du sérum physiologique (NaCl 0,9%) a quasiment fait disparaître le risque de TURP syndrome hyponatrémique."
   },
   "uro-804": {
     "A": "Vrai. La proposition est fausse : l'adénomectomie par voie haute transvésicale n'est pas le gold standard ; la résection transurétrale de prostate (RTUP) et les techniques d'énucléation endoscopique au laser (HoLEP) constituent le standard de référence actuel.",
@@ -7294,57 +6908,57 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "Chez l'adulte, les trois étiologies glomérulaires primitives prédominantes sont la GEM, la hyalinose segmentaire et focale (HSF) et la maladie à lésions glomérulaires minimes (LGM)."
   },
   "uro-812": {
-    "A": "Faux. L'absence d'antécédent de néphropathie et une créatininémie normale récente sont les critères cardinaux d'une insuffisance rénale aiguë ; cette proposition est exacte.",
-    "B": "Faux. Des reins de taille normale ou augmentée sans dédifférenciation cortico-médullaire à l'échographie plaident formellement en faveur du caractère aigu ; cette proposition est exacte.",
-    "C": "Faux. L'IRA est souvent réversible après correction du facteur déclenchant (hémodynamique, toxique, obstructif) ; cette proposition est exacte.",
-    "D": "Vrai. La proposition est fausse : l'hypocalcémie chronique par déficit en 1-alpha-hydroxylase rénale et l'anémie arégénérative profonde sont les marqueurs biologiques d'une insuffisance rénale CHRONIQUE.",
-    "E": "Vrai. La proposition est fausse : la réduction symétrique de la taille des reins (< 9-10 cm) avec amincissement cortical est le signe morphologique radiologique princeps de l'insuffisance rénale CHRONIQUE.",
-    "_synthese": "L'atrophie rénale bilatérale et l'hypocalcémie chronique sont des critères caractéristiques de l'insuffisance rénale chronique. L'insuffisance rénale aiguë présente des reins de taille normale et une fonction potentiellement réversible.",
-    "_remarque": "Une hypocalcémie aiguë sévère peut toutefois s'observer dans l'IRA de la rhabdomyolyse par précipitation tissulaire de phosphate de calcium."
+    "A": "Proposition exacte. Exacte.",
+    "B": "Proposition exacte. Exacte : HTA modérée.",
+    "C": "Proposition exacte. Exacte.",
+    "D": "Proposition fausse (à cocher). Faux : pronostic en général favorable.",
+    "E": "Proposition exacte. Exacte.",
+    "_synthese": "Une oligo-anurie du syndrome néphritique aigu ne reflète pas systématiquement un mauvais pronostic.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-813": {
-    "A": "Faux. L'incontinence urinaire d'effort correspond à des fuites contemporaines d'une élévation de la pression intra-abdominale (toux, saut, rire, marche) ; cette proposition est exacte.",
-    "B": "Faux. L'incontinence urinaire d'effort pure survient en l'absence de toute contraction du muscle vésical (détrusor) ; cette proposition est exacte.",
-    "C": "Faux. L'insuffisance sphinctérienne intrinsèque est un mécanisme majeur d'incontinence d'effort par défaut de coaptation muqueuse et de fermeture urétrale ; cette proposition est exacte.",
-    "D": "Vrai. La proposition est fausse : les urgences mictionnelles (besoins impérieux avec fuites) caractérisent l'incontinence urinaire par URGENTURIE et non l'incontinence d'effort pure.",
-    "E": "Vrai. La proposition est fausse : la dysurie est un trouble obstructif de la vidange vésicale et ne fait aucunement partie des signes de l'incontinence urinaire d'effort.",
-    "_synthese": "L'incontinence d'effort chez la femme se manifeste par des fuites lors d'un effort physique sans sensation de besoin préalable. Les impériosités mictionnelles relèvent de l'hyperactivité vésicale et la dysurie de l'obstruction.",
-    "_remarque": "L'association de fuites à l'effort et d'urgenturies définit l'incontinence urinaire mixte, nécessitant un interrogatoire précis et souvent un bilan urodynamique."
+    "A": "Proposition exacte. Exacte : biopsie urgente.",
+    "B": "Proposition exacte. Exacte : différente du syndrome néphritique aigu par la gravité.",
+    "C": "Proposition fausse (à cocher). Fausse : HTA modérée ou absente.",
+    "D": "Proposition exacte. Exacte : croissants cellulaires.",
+    "E": "Proposition exacte. Exacte : glomérulonéphrite extra-capillaire.",
+    "_synthese": "La GNRP est une glomérulonéphrite extra-capillaire à croissants, avec insuffisance rénale rapide ; une HTA sévère avec rétinopathie de stade III-IV n'est pas habituelle.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-814": {
-    "A": "Vrai. La manœuvre de Bonney est positive lorsque le soutien bilatéral du col vésical au doigt interrompt immédiatement la fuite urinaire provoquée par la toux.",
-    "B": "Vrai. L'hypermobilité de l'urètre et du col vésical (par rupture ou distension des hamacs fibro-musculaires pelviens) est le mécanisme le plus fréquent de l'IUE féminine.",
-    "C": "Vrai. La manœuvre d'Ulmsten consiste à soutenir l'urètre moyen sans comprimer la lumière urétrale pour évaluer l'indication d'une bandelette sous-urétrale de type TVT/TOT.",
-    "D": "Faux. La présence d'une fuite continue en dehors de tout effort oriente vers une fistule urogénitale ou une insuffisance sphinctérienne majeure, et non vers une IUE typique.",
-    "E": "Vrai. Les traumatismes obstétricaux répétés (accouchements dystociques, macrosomie, extractions instrumentales) sont les facteurs étiologiques biomécaniques majeurs.",
-    "_synthese": "L'incontinence d'effort de la femme repose sur l'hypermobilité cervico-urétrale et l'altération du plancher pelvien post-obstétrical. Elle est mise en évidence cliniquement par les manœuvres de Bonney et d'Ulmsten.",
-    "_remarque": "Le test d'Ulmsten mime l'effet mécanique reproductible de la future bandelette synthétique sous-urétrale posée sans tension (TVT/TOT)."
+    "A": "Faux. Le scanner injecté est l'examen de référence.",
+    "B": "Faux. L'hématurie macroscopique impose une imagerie injectée.",
+    "C": "Faux. Uroscanner et cystoscopie ne sont pas systématiques.",
+    "D": "Vrai. Grades I à III : surveillance.",
+    "E": "Faux. L'hématurie n'est pas un signe de gravité en soi.",
+    "_synthese": "Les traumatismes rénaux de grades I à III se surveillent cliniquement et radiologiquement, sans recours opératoire.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-815": {
-    "A": "Vrai. L'examen tomodensitométrique (scanner hélicoïdal abdomino-pelvien sans injection de produit de contraste) est l'examen d'imagerie de référence pour identifier le calcul avec une sensibilité et une spécificité supérieures à 97%.",
-    "B": "Vrai. La majorité des calculs urinaires (80 à 85%) sont d'origine phospho- ou oxalo-calcique et sont spontanément denses (radio-opaques) sur la radiographie de l'ASP et au scanner.",
-    "C": "Faux. Les calculs d'acide urique sont typiquement radio-transparents sur les radiographies standard de l'abdomen (ASP), bien qu'ils soient hyperdenses au scanner.",
-    "D": "Vrai. La colique néphrétique aiguë est la manifestation clinique la plus courante, secondaire à la mise en tension brutale de la capsule rénale et des cavités pyélocalicielles en amont du calcul enclavé.",
-    "E": "Faux. L'expulsion spontanée est fréquente pour les petits calculs urétéraux (< 4-5 mm), le recours à la chirurgie n'étant pas systématique.",
-    "_synthese": "La lithiase urinaire se révèle principalement par la colique néphrétique aiguë. Les calculs calciques sont les plus fréquents et radio-opaques, et le scanner sans injection basse dose est l'examen diagnostique morphologique de choix.",
-    "_remarque": "Même les calculs radio-transparents à l'ASP (acide urique, cystine) présentent une atténuation mesurable en unités Hounsfield au scanner abdominal."
+    "A": "Faux. L'acide urique précipite en pH acide.",
+    "B": "Faux. Les calculs d'infection se forment en pH alcalin.",
+    "C": "Vrai. Rein en fer à cheval : stase urinaire, lithiase.",
+    "D": "Vrai. Indinavir : calculs médicamenteux.",
+    "E": "Vrai. Proteus mirabilis : calculs de struvite.",
+    "_synthese": "Un rein en fer à cheval, l'indinavir et les infections à Proteus favorisent la lithiase ; l'acide urique précipite en milieu acide.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-816": {
-    "A": "Vrai. Les calculs d'oxalate de calcium (whewellite monohydratée et weddellite dihydratée) représentent plus de 70% de l'ensemble des lithiases urinaires chez l'adulte.",
-    "B": "Vrai. Les calculs d'acide urique représentent environ 10% des calculs et sont favorisés par un pH urinaire excessivement acide (< 5,5) et le syndrome métabolique.",
-    "C": "Vrai. La lithotritie extracorporelle par ondes de choc (LEC) et l'urétérorénoscopie souple au laser sont les techniques de traitement mini-invasives de référence.",
-    "D": "Vrai. Une diurèse abondante, régulière et répartie (> 2 litres par 24 heures) est la mesure de prévention diététique universelle réduisant la sursaturation urinaire.",
-    "E": "Faux. La restriction en calcium alimentaire est une erreur diététique majeure qui augmente l'absorption intestinale libre d'oxalate et aggrave la lithiase oxalo-calcique.",
-    "_synthese": "Les calculs oxalocalciques sont les plus fréquents. La prise en charge repose sur l'hyperdiurèse préventive (> 2 L/j) et le traitement urologique mini-invasif (LEC, urétérorénoscopie). Les apports en calcium doivent rester normaux (800-1000 mg/j).",
-    "_remarque": "Une alimentation pauvre en calcium majore l'hyperoxalurie entérique en augmentant la fraction d'oxalate non liée dans la lumière digestive."
+    "A": "Faux. Grade I : contusion ou hématome sous-capsulaire.",
+    "B": "Faux. Grade II : lacération de moins de 1 cm.",
+    "C": "Faux. Grade III : lacération de plus de 1 cm sans effraction du système collecteur.",
+    "D": "Vrai. Grade IV : lacération avec effraction du système collecteur.",
+    "E": "Faux. Grade V : rein éclaté.",
+    "_synthese": "Un trait de fracture traversant la corticale et le système collecteur, sans atteinte vasculaire majeure, correspond au grade IV de l'AAST.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-817": {
-    "A": "Vrai. Les calculs phospho-ammoniaco-magnésiens (struvite) sont des calculs infectieux formés au contact de bactéries sécrétant une uréase (Proteus mirabilis, Klebsiella), alcalinisant massivement les urines.",
-    "B": "Vrai. Ces calculs de struvite ont une propension majeure à mouler l'ensemble des cavités calicielles et pyéliques pour former de volumineux calculs coralliformes complets.",
-    "C": "Faux. La struvite est modérément radio-opaque et friable ; la néphrolithotomie percutanée (NLPC) est le traitement de choix des calculs coralliformes.",
-    "D": "Vrai. Les calculs d'acide urique sont radio-transparents à l'ASP et relèvent d'une alcalinisation urinaire (eau de Vichy, citrate) associée aux inhibiteurs de la xanthine oxydase (allopurinol/fébuxostat) en cas d'hyperuricémie.",
-    "_synthese": "Les calculs de struvite sont secondaires à des infections urinaires à germes uréasiques (Proteus) et forment des coralliformes complexes. Les calculs d'acide urique sont radio-transparents et solubles à pH alcalin.",
-    "_remarque": "L'uréase bactérienne scinde l'urée en ammoniac et dioxyde de carbone, ce qui majore le pH urinaire au-delà de 7,5-8,0 et précipite le phosphate ammoniaco-magnésien."
+    "A": "Vrai. Oxalose : maladie génétique autosomique récessive.",
+    "B": "Faux. La whewellite résiste à la lithotritie.",
+    "C": "Vrai. Cystine : faiblement radio-opaque, résistante aux ondes de choc.",
+    "D": "Vrai. Calcul urique : alcalinisation et allopurinol.",
+    "_synthese": "L'oxalose est une maladie génétique récessive ; la lithiase cystinique est peu opaque et résistante à la lithotritie ; l'acide urique est radio-transparent.",
+    "_remarque": "Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-818": {
     "A": "Vrai. La proposition est fausse : les infections urinaires représentent le DEUXIÈME site d'infection bactérienne communautaire (et non le troisième), immédiatement après les infections des voies respiratoires.",
@@ -7453,15 +7067,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Le carcinome des cellules rénales à cellules claires (CCCR) est de très loin le sous-type histologique le plus fréquent (75-80% des tumeurs du rein).",
     "_remarque": "Le CCCR est caractérisé sur le plan génétique par l'inactivation biallélique du gène suppresseur de tumeur VHL situé sur le bras court du chromosome 3 (3p25)."
   },
-  "uro-830": {
-    "A": "Vrai. Le carcinome embryonnaire est un composant cellulaire fréquent et très agressif des tumeurs germinales non séminomateuses (TGNS).",
-    "B": "Vrai. Le choriocarcinome est un contingent de TGNS sécrétant des taux massifs de bêta-hCG et doué d'un fort potentiel métastatique hématogène.",
-    "C": "Faux. Les tumeurs stromales à cellules de Leydig (leydigomes) dérivent du stroma gonadique non germinal et constituent une entité distincte.",
-    "D": "Vrai. Le tératome (mature ou immature) est l'un des composants constitutifs fréquents des tumeurs germinales mixtes non séminomateuses.",
-    "E": "Faux. Une tumeur germinale non séminomateuse peut parfaitement contenir des plages de séminome en association avec d'autres contingents (tumeur germinale mixte).",
-    "_synthese": "Les tumeurs germinales non séminomateuses (TGNS) peuvent contenir du carcinome embryonnaire, du choriocarcinome, du tératome et des structures vitellines, parfois intriqués avec du séminome.",
-    "_remarque": "La présence d'un seul foyer de composante non séminomateuse au sein d'une tumeur testiculaire impose son traitement intégral selon les protocoles de TGNS."
-  },
   "uro-831": {
     "A": "Vrai. Une volumineuse hernie inguino-scrotale irréductible peut en imposer pour une grosse bourse tumorale, mais elle se réduit dans le canal inguinal et ne permet pas d'accrocher le cordon.",
     "B": "Vrai. Une orchi-épididymite subaiguë ou granulomateuse (notamment tuberculeuse) se présente sous la forme d'un nodule épididymo-testiculaire ferme difficile à distinguer d'un néoplasme.",
@@ -7561,15 +7166,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Le stade d'une tumeur de vessie (T de la classification TNM) est déterminé par la profondeur d'infiltration de la paroi vésicale (chorion, musculeuse propre, graisse périvésicale) confirmée à l'examen anatomopathologique de la RTUV.",
     "_remarque": "La présence de faisceaux musculaires du détrusor au sein du matériel de résection est indispensable pour certifier qu'une tumeur est réellement non infiltrante (Ta ou T1)."
   },
-  "uro-842": {
-    "A": "Faux. Les TVIM ne représentent que 20 à 25% des cas inauguraux, la majorité (> 75%) étant diagnostiquée au stade de TVNIM.",
-    "B": "Vrai. La RTUV complète emportant le détrusor est indispensable pour apporter la preuve histologique de l'infiltration musculaire propre (pT2).",
-    "C": "Faux. Le risque prédominant des tumeurs infiltrantes est la dissémination métastatique ganglionnaire et générale à distance.",
-    "D": "Vrai. Le traitement de référence curateur des TVIM localisées repose sur la chirurgie radicale (cystoprostatectomie totale chez l'homme avec curage ganglionnaire étendu).",
-    "E": "Faux. Les TVIM au stade avancé ou métastatique ont un pronostic défavorable avec une survie médiane sans traitement systémique inférieure à 15-18 mois.",
-    "_synthese": "La RTUV est indispensable au diagnostic histologique de l'atteinte du muscle. Pour les TVIM, la chirurgie radicale par cystoprostatectomie et curage ganglionnaire constitue le traitement de référence curatif.",
-    "_remarque": "Une chimiothérapie néoadjuvante à base de sels de platine est systématiquement proposée avant la cystectomie totale chez les patients éligibles."
-  },
   "uro-843": {
     "A": "Vrai. Le pourcentage de copeaux de résection prostatique envahis par l'adénocarcinome permet de classer la tumeur fortuite en stade cT1a (atteinte histologique ≤ 5% des copeaux) ou cT1b (atteinte > 5% des copeaux).",
     "B": "Vrai. Le grade histologique et le score de Gleason (ou groupe pronostique ISUP de 1 à 5) déterminent l'agressivité biologique de la néoplasie et orientent le choix entre surveillance active et traitement curatif.",
@@ -7649,13 +7245,13 @@ window.JUSTIFICATIONS_URO = {
     "_remarque": "L'alcalinisation précoce des urines par perfusion de bicarbonate de sodium prévient la précipitation intratubulaire de myoglobine et la formation de cylindres pigmentaires obstructifs."
   },
   "uro-852": {
-    "A": "Faux. L'IRA fonctionnelle résulte d'une hypoperfusion rénale par hypotension ou déshydratation extracellulaire, et non d'un pic hypertensif.",
-    "B": "Faux. Elle est la conséquence directe d'une hypovolémie efficace (déshydratation, hémorragie, insuffisance cardiaque) et non d'une hyperhydratation.",
-    "C": "Vrai. La sécrétion maximale d'hormone antidiurétique (ADH) stimule la réabsorption d'eau libre, produisant des urines très concentrées avec osmolarité urinaire élevée (> 500 mOsm/kg).",
-    "D": "Faux. Dans l'IRA fonctionnelle, l'urée plasmatique augmente beaucoup plus vite que la créatinine (rapport urée/créatinine plasmatique > 40-50) du fait de la réabsorption tubulaire proximale d'urée.",
-    "E": "Vrai. L'activation maximale du système rénine-angiotensine-aldostérone induit une réabsorption sodée avide, réduisant la natriurèse à moins de 20 mmol/L.",
-    "_synthese": "L'IRA fonctionnelle (prérénale) se caractérise biologiquement par des urines concentrées (osmolarité urinaire élevée), pauvres en sodium (natriurèse < 20 mmol/L) et un rapport urée/créatinine plasmatique élevé.",
-    "_remarque": "La correction rapide de la cause hémodynamique sous-jacente par remplissage isotonique permet une normalisation complète et rapide de la créatininémie en moins de 48 heures."
+    "A": "Faux. Pic hypertensif : non.",
+    "B": "Faux. Hyperhydratation : non, c'est l'hypovolémie.",
+    "C": "Vrai. Osmolarité urinaire élevée.",
+    "D": "Faux. L'urée augmente plus que la créatinine.",
+    "E": "Vrai. Natriurèse basse.",
+    "_synthese": "IRA fonctionnelle : hypoperfusion rénale avec osmolarité urinaire élevée, natriurèse basse, urée plus élevée que la créatinine.",
+    "_remarque": "Clé corrigée (BCE → CE) : l'IRA fonctionnelle est due à l'hypovolémie, non à une hyperhydratation. Explication rédigée par Majory, à confirmer avec ton cours."
   },
   "uro-853": {
     "A": "Vrai. La mise en évidence d'une créatininémie déjà altérée plusieurs mois ou années auparavant sur des examens antérieurs apporte la preuve indiscutable du caractère chronique.",
@@ -8192,15 +7788,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La maladie lithiasique rénale touche préférentiellement l'adulte jeune entre 30 et 50 ans avec prédominance masculine, est favorisée par l'oligurie et présente un taux de récidive spontané de 50%.",
     "_remarque": "Une diurèse quotidienne supérieure à 2 litres répartie sur les 24 heures divise par deux le taux de récidive lithiasique."
   },
-  "uro-913": {
-    "A": "Faux. Les calculs calciques sont spontanément radio-opaques et bien visibles sur l'ASP.",
-    "B": "Vrai. Les calculs de cystine sont peu radio-opaques (« verre dépoli ») et peuvent être méconnus à la radiographie standard.",
-    "C": "Faux. Les calculs de struvite (phosphate phospho-ammoniaco-magnésien) sont modérément radio-opaques.",
-    "D": "Vrai. Les calculs d'acide urique pur sont strictement radio-transparents à l'ASP.",
-    "E": "Faux. Les calculs phosphocalciques sont très denses et nettement radio-opaques.",
-    "_synthese": "Sur une radiographie d'ASP, les calculs invisibles (radio-transparents) sont faits d'acide urique, tandis que les calculs de cystine sont faiblement radio-opaques.",
-    "_remarque": "Le scanner abdomino-pelvien sans injection visualise l'ensemble de ces calculs sous forme d'images hyperdenses."
-  },
   "uro-914": {
     "A": "Faux. La chirurgie ouverte (lombotomie) est devenue exceptionnelle (< 1-2% des cas) grâce aux techniques endoscopiques et percutanées mini-invasives.",
     "B": "Faux. La néphrolithotomie percutanée (NLPC) est indiquée pour les calculs rénaux coralliformes ou pyéliques volumineux (> 20 mm) et non pour les lithiases urétérales.",
@@ -8254,15 +7841,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. L'hormonothérapie isolée n'est pas le traitement des formes à risque intermédiaire.",
     "_synthese": "L'hormonothérapie de privation androgénique est le traitement de référence des cancers métastatiques, et s'associe obligatoirement à la radiothérapie externe dans les cancers localement avancés.",
     "_remarque": "La castration médicale vise à maintenir la testostéronémie sous le seuil de 0,50 ng/mL (50 ng/dL)."
-  },
-  "uro-920": {
-    "A": "Faux. Le test PCA3 urinaire n'est pas un examen de dépistage de première ligne en population générale.",
-    "B": "Faux. Une périodicité semestrielle est excessive et ne repose sur aucun rationnel clinique, le dépistage annuel étant la règle validée par l'AFU.",
-    "C": "Vrai. Le dépistage individuel précoce du cancer de la prostate repose sur l'association annuelle du dosage du PSA sérique total et du toucher rectal chez les hommes informés de 50 à 75 ans.",
-    "D": "Faux. L'échographie de l'appareil urinaire n'a aucune validité comme outil de dépistage du cancer prostatique.",
-    "E": "Faux. La ponction-biopsie prostatique est un examen diagnostique de confirmation histologique et non un outil de dépistage.",
-    "_synthese": "Le dépistage individuel recommandé du cancer de la prostate repose sur l'association annuelle du PSA total et du toucher rectal à partir de 50 ans (45 ans en cas d'antécédents familiaux ou d'origine afro-antillaise).",
-    "_remarque": "Toute anomalie au toucher rectal ou élévation du PSA au-dessus de 4 ng/mL (ou cinétique suspecte) justifie la réalisation d'une IRM multiparamétrique avant de décider de biopsies prostatiques."
   },
   "uro-921": {
     "A": "Vrai. La constatation d'une créatininémie normale récente antérieure à l'épisode apporte la preuve formelle du caractère aigu de la défaillance rénale.",
@@ -8327,15 +7905,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "L'hématurie macroscopique post-traumatique témoigne d'une lésion de la voie excrétrice ou du parenchyme. Elle impose une hospitalisation et un scanner abdomino-pelvien avec temps tardif.",
     "_remarque": "La décision opératoire repose exclusivement sur la stabilité hémodynamique et non sur la seule présence d'une hématurie macroscopique."
   },
-  "uro-928": {
-    "A": "Vrai. Les enfants sont plus vulnérables aux traumatismes rénaux en raison de la plus faible épaisseur de la graisse périrénale, de la souplesse de la cage thoracique et de la taille proportionnellement plus grande des reins.",
-    "B": "Vrai. Les traumatismes rénaux fermés sont mineurs (contusions, hématomes sous-capsulaires sans lésion excrétrice, stades I et II) dans 70 à 90% des cas.",
-    "C": "Vrai. Les reins porteurs d'anomalies anatomiques préexistantes (hydronéphrose sur jonction pyélo-urétérale, kystes, tumeurs) sont particulièrement fragiles et se rompent lors de chocs minimes.",
-    "D": "Faux. Les accidents de la voie publique et de la circulation constituent de loin la première cause étiologique de traumatisme rénal, devant les accidents professionnels.",
-    "E": "Faux. Les options A, B et C sont les propositions exactes retenues.",
-    "_synthese": "Les traumatismes rénaux sont mineurs dans plus de 80% des cas. Les enfants et les porteurs de malformations urologiques préexistantes (hydronéphrose) présentent une vulnérabilité accrue aux chocs.",
-    "_remarque": "Une rupture rénale consécutive à un traumatisme anodin doit toujours faire rechercher une pathologie rénale méconnue (hydronéphrose ou néoplasie sous-jacente)."
-  },
   "uro-929": {
     "A": "Vrai. La perte de parenchyme rénal fonctionnel par ischémie segmentaire ou atrophie fibreuse post-traumatique peut conduire à une insuffisance rénale chronique séquellaire.",
     "B": "Vrai. Un pseudo-anévrisme artériel intrarénal post-traumatique peut se développer à distance et se rompre secondairement dans la voie excrétrice.",
@@ -8389,15 +7958,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "La rétention aiguë d'urines est apyrétique dans sa forme mécanique classique. La présence d'une fièvre signe une complication infectieuse sévère.",
     "_remarque": "En cas de rétention aiguë fébrile chez l'homme, le diagnostic de prostatite aiguë s'impose et contre-indique le sondage urétral."
   },
-  "uro-935": {
-    "A": "Faux. Les œstrogènes locaux (ovules, crèmes) améliorent la vascularisation et la trophicité de la muqueuse urétro-vaginale post-ménopausique ; cette proposition est exacte.",
-    "B": "Vrai. La proposition est fausse : les traitements androgéniques n'ont aucune place ni indication démontrée dans le traitement de l'incontinence urinaire d'effort.",
-    "C": "Faux. La rééducation périnéale avec biofeedback est le traitement de première intention validé ; cette proposition est exacte.",
-    "D": "Faux. La pose d'une bandelette sous-urétrale rétro-pubienne (TVT) est un traitement chirurgical de référence de l'hypermobilité urétrale ; cette proposition est exacte.",
-    "E": "Faux. La bandelette trans-obturatrice (TOT) est une alternative chirurgicale mini-invasive largement utilisée ; cette proposition est exacte.",
-    "_synthese": "La prise en charge de l'incontinence urinaire d'effort féminine associe la rééducation périnéale, l'œstrogénothérapie locale et la chirurgie par bandelette sous-urétrale. Le traitement androgénique n'a aucune indication.",
-    "_remarque": "Les bandelettes synthétiques sous-urétrales sans tension (TVT/TOT) offrent un taux de guérison clinique de plus de 80 à 85% à 5 ans."
-  },
   "uro-936": {
     "A": "Faux. Les besoins mictionnels impérieux (urgenturies) sont au centre de la symptomatologie de l'instabilité vésicale.",
     "B": "Faux. La pollakiurie diurne invalidante (> 8 mictions par 24h) est un signe cardinal d'hyperactivité du détrusor.",
@@ -8440,15 +8000,6 @@ window.JUSTIFICATIONS_URO = {
     "_synthese": "Chez l'enfant, l'échographie réno-vésicale est l'examen d'imagerie de première intention non irradiant permettant de trancher simplement entre colique néphrétique (hydronéphrose) et abdomen chirurgical digestif.",
     "_remarque": "La radioprotection est primordiale en pédiatrie : l'échographie doit toujours être privilégiée avant d'envisager un scanner basse dose."
   },
-  "uro-941": {
-    "A": "Vrai. L'analyse de tout calcul expulsé spontanément ou extrait chirurgicalement doit être systématiquement prescrite pour orienter l'enquête étiologique.",
-    "B": "Vrai. La spectrophotométrie infrarouge (SPIR) est la méthode de référence absolue pour déterminer la composition moléculaire et cristalline précise du calcul.",
-    "C": "Vrai. L'analyse de la cristallurie sur les premières urines du matin évalue l'activité lithogène en cours mais ne remplace pas l'analyse morphologique du calcul constitué.",
-    "D": "Vrai. Un bilan métabolique biologique de base (créatininémie, calcémie, acide urique, glycémie, chimie urinaire) est recommandé dès le tout premier épisode lithiasique.",
-    "E": "Faux. Le dosage de la parathormone (PTH) n'est pas systématique de première intention et n'est indiqué qu'en cas d'hypercalcémie avérée.",
-    "_synthese": "L'exploration de la lithiase rénale repose sur l'analyse spectrophotométrique infrarouge du calcul, l'étude de la cristallurie et un bilan métabolique sanguin et urinaire dès le premier épisode.",
-    "_remarque": "La spectrophotométrie infrarouge permet de différencier la whewellite (d'origine alimentaire par hyperoxalurie) de la weddellite (secondaire à une hypercalciurie primitive)."
-  },
   "uro-942": {
     "A": "Faux. La restriction des apports en calcium est une erreur classique qui augmente la réabsorption intestinale d'oxalate libre et aggrave la lithiase oxalo-calcique.",
     "B": "Faux. Bien que les apports recommandés soient de 800-1000 mg/j, l'item se concentre sur les interactions avec le sodium et les protéines.",
@@ -8465,15 +8016,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. L'abstention thérapeutique expose à la destruction parenchymateuse rénale progressive par obstacle chronique.",
     "_synthese": "L'association d'un syndrome de la jonction pyélo-urétérale et d'un calcul pyélique volumineux de 2 cm justifie une cure chirurgicale globale associant plastie de la jonction (Kuss-Anderson) et ablation du calcul.",
     "_remarque": "L'intervention peut être réalisée par voie cœlioscopique ou robot-assistée avec mise en place d'une sonde double J transitoire."
-  },
-  "uro-944": {
-    "A": "Vrai. La cystomanométrie calcule la compliance vésicale (rapport volume/pression), essentielle pour apprécier l'élasticité de la paroi vésicale.",
-    "B": "Vrai. L'enregistrement des sensations de besoin au remplissage (premier besoin mictionnel, besoin normal, capacité maximale) renseigne sur la sensibilité vésicale.",
-    "C": "Faux. L'analyse de la muqueuse vésicale est du ressort exclusif de la cystoscopie optique endoscopique directe.",
-    "D": "Vrai. La capacité vésicale physiologique maximale tolérée est mesurée précisément au cours de la cystomanométrie.",
-    "E": "Vrai. Le bilan urodynamique complet (débitmétrie, cystomanométrie, profilométrie urétrale) est l'examen de référence pour explorer les troubles mictionnels complexes ou neurologiques.",
-    "_synthese": "Le bilan urodynamique explore les paramètres fonctionnels : compliance, sensibilité, capacité vésicale et dynamique sphinctérienne. L'examen direct de la muqueuse relève de la cystoscopie.",
-    "_remarque": "Une faible compliance vésicale (< 10-20 mL/cmH2O) expose le haut appareil urinaire à un régime de hautes pressions délétère pour la fonction rénale."
   },
   "uro-945": {
     "A": "Faux. Le toucher rectal est un examen clinique fondamental mais il ne doit être réalisé qu'après avoir levé l'urgence douloureuse de rétention.",
@@ -8560,15 +8102,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Faux. Le stade 3 de l'AAST (lacération parenchymateuse > 1 cm sans atteinte de la voie excrétrice) relève très majoritairement d'un traitement conservateur médical.",
     "_synthese": "Dans le traumatisme rénal, seule l'instabilité hémodynamique incontrôlable malgré la réanimation volumique active impose une laparotomie d'exploration et d'hémostase en urgence.",
     "_remarque": "L'exploration chirurgicale en urgence pour instabilité se solde par une néphrectomie totale d'hémostase dans plus de 50 à 70% des cas."
-  },
-  "uro-955": {
-    "A": "Vrai. La nécrose ischémique segmentaire ou la perte de néphrons suite au traumatisme peut entraîner un déclin progressif de la fonction rénale globale.",
-    "B": "Vrai. Un pseudo-anévrisme intrarénal post-traumatique peut se développer aux dépens d'une branche artérielle lacérée et menacer de rupture secondaire.",
-    "C": "Vrai. Une fistule artério-veineuse traumatique intraparenchymateuse peut apparaître secondairement et se manifester par une hématurie récidivante ou un souffle lombaire.",
-    "D": "Faux. Le traumatisme rénal expose à l'HYPERTENSION artérielle rénovasculaire (rein de Page ou sténose de l'artère rénale post-traumatique) et non à une hypotension.",
-    "E": "Vrai. Une sténose fibreuse cicatricielle de la jonction pyélo-urétérale ou d'une tige calicielle induit une dilatation pyélocalicielle séquellaire obstructive.",
-    "_synthese": "Les complications à long terme d'un traumatisme rénal comprennent l'insuffisance rénale chronique, le faux-anévrisme, la fistule artério-veineuse, la sténose de la voie excrétrice avec dilatation et l'HTA rénovasculaire de Page.",
-    "_remarque": "Une tomodensitométrie de contrôle ou une échographie-Doppler est recommandée à 3 mois d'un traumatisme rénal de haut grade pour dépister ces complications vasculaires."
   },
   "uro-956": {
     "A": "Faux. Un deuxième spermogramme de confirmation ne doit pas être réalisé à moins d'un mois : il doit impérativement respecter un intervalle d'au moins 2 à 3 mois (durée d'un cycle de spermatogenèse de 74 jours).",
@@ -8686,15 +8219,6 @@ window.JUSTIFICATIONS_URO = {
     "E": "Vrai. Les tumeurs de vessie n'infiltrant pas le muscle de haut grade (pT1G3) progressent vers une tumeur infiltrante dans environ 15 à 20% des cas.",
     "_synthese": "Le carcinome urothélial de vessie est le 2e cancer urologique en fréquence. Les TVIM représentent 20% des découvertes initiales et les TVNIM de haut grade ont un potentiel de progression infiltrante de 15%.",
     "_remarque": "L'exposition au tabagisme est le premier facteur étiologique modifiable à éliminer impérativement."
-  },
-  "uro-969": {
-    "A": "Faux. L'association synchrone d'une tumeur de vessie et d'une TVES ne concerne que 2 à 4% des patients (et non 45%).",
-    "B": "Vrai. La multifocalité des tumeurs de la voie excrétrice supérieure (lésions multiples pyéliques et urétérales) est un facteur de mauvais pronostic oncologique et de récidive.",
-    "C": "Faux. Les localisations dans les cavités pyélocalicielles sont deux fois plus fréquentes que les localisations urétérales pures.",
-    "D": "Faux. Les amines aromatiques et le tabagisme sont des carcinogènes urothéliaux affectant l'ensemble de l'arbre urinaire, y compris la voie excrétrice haute.",
-    "E": "Vrai. L'urétérorénoscopie souple avec photo-ablation au laser Holmium ou Thulium est une technique thérapeutique conservatrice validée pour les petites TVES de bas grade.",
-    "_synthese": "Les tumeurs de la voie excrétrice supérieure (TVES) sont grevées par la multifocalité. L'urétéroscopie souple au laser représente une option thérapeutique conservatrice d'excellence pour les formes sélectionnées de bas grade.",
-    "_remarque": "Le traitement chirurgical radical de référence des TVES volumineuses ou de haut grade reste la néphro-urétérectomie totale emportant une collerette vésicale péri-méatique."
   },
   "uro-970": {
     "A": "Faux. La synthèse hépatique de l'albumine est augmentée de manière réflexe mais s'avère insuffisante face aux fuites glomérulaires massives.",

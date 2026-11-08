@@ -1,17 +1,17 @@
 // ==============================================================================
 // ANNALES OFFICIELLES SSH (SANTÉ, SOCIÉTÉ & HUMANITÉ) - 1ÈRE ANNÉE DE MÉDECINE
-// Faculté de Médecine de Mostaganem (Sujets d'EMD 2018 à 2026)
+// Faculté de Médecine de Mostaganem
+// Programme officiel annuel : 24 cours officiels
 // Version Bilingue Intégrale : Français 🇫🇷 & Anglais 🇬🇧
-// 139 QCMs certifiés conformes aux corrigés types officiels
-// Document certifié : Pr. SERHANE Rafik (Médecine Légale, Droit Médical et Éthique)
+// 139 QCMs classés par cours avec sources certifiées (EMD 2018 à 2026)
 // ==============================================================================
 window.QCM_SSH = [
   {
     "id": "ssh-2026-01",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q1",
       "type": "EMD",
@@ -59,9 +59,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-02",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q2",
       "type": "EMD",
@@ -108,9 +108,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-03",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q3",
       "type": "EMD",
@@ -157,9 +157,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-04",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q4",
       "type": "EMD",
@@ -206,9 +206,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-05",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q5",
       "type": "EMD",
@@ -255,9 +255,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-06",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q6",
       "type": "EMD",
@@ -302,9 +302,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-07",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q7",
       "type": "EMD",
@@ -349,9 +349,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-08",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La décision médicale",
+    "chapitre_num": 15,
+    "section": "La décision médicale",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q8",
       "type": "EMD",
@@ -396,9 +396,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-09",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La vocation humaniste de la médecine",
+    "chapitre_num": 2,
+    "section": "La vocation humaniste de la médecine",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q9",
       "type": "EMD",
@@ -443,9 +443,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-10",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Vulnérabilité et stigmatisation",
+    "chapitre_num": 14,
+    "section": "Vulnérabilité et stigmatisation",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q10",
       "type": "EMD",
@@ -490,9 +490,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-11",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Les dépenses de santé et organisation du système",
+    "chapitre_num": 17,
+    "section": "Les dépenses de santé et organisation du système",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q11",
       "type": "EMD",
@@ -539,9 +539,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-12",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q12",
       "type": "EMD",
@@ -586,9 +586,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-13",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Le système de santé en Algérie",
+    "chapitre_num": 8,
+    "section": "Le système de santé en Algérie",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q13",
       "type": "EMD",
@@ -635,9 +635,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-14",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Les dépenses de santé et organisation du système",
+    "chapitre_num": 17,
+    "section": "Les dépenses de santé et organisation du système",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q14",
       "type": "EMD",
@@ -682,9 +682,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-15",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Introduction à la santé publique",
+    "chapitre_num": 23,
+    "section": "Introduction à la santé publique",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q15",
       "type": "EMD",
@@ -729,9 +729,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-16",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q16",
       "type": "EMD",
@@ -776,9 +776,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-17",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q17",
       "type": "EMD",
@@ -823,9 +823,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-18",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q18",
       "type": "EMD",
@@ -870,9 +870,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-19",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "Constat médico - légaux",
+    "chapitre_num": 7,
+    "section": "Constat médico - légaux",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q19",
       "type": "EMD",
@@ -917,9 +917,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2026-20",
     "module": "ssh",
-    "chapitre": "EMD 2025-2026 (19 Janvier 2026)",
-    "chapitre_num": 1,
-    "section": "EMD 2025-2026 (19 Janvier 2026)",
+    "chapitre": "La responsabilité médicale (civile et pénale)",
+    "chapitre_num": 12,
+    "section": "La responsabilité médicale (civile et pénale)",
     "source": {
       "texte": "EMD SSH Mostaganem 2025/2026 (19/01/2026) - Q20",
       "type": "EMD",
@@ -964,9 +964,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-01",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q1",
       "type": "EMD",
@@ -1011,9 +1011,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-02",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q2",
       "type": "EMD",
@@ -1058,9 +1058,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-03",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q3",
       "type": "EMD",
@@ -1105,9 +1105,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-04",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q4",
       "type": "EMD",
@@ -1152,9 +1152,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-05",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
+    "chapitre": "La vocation humaniste de la médecine",
     "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "section": "La vocation humaniste de la médecine",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q5",
       "type": "EMD",
@@ -1199,9 +1199,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-06",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q6",
       "type": "EMD",
@@ -1247,9 +1247,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-07",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q7",
       "type": "EMD",
@@ -1295,9 +1295,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-08",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q8",
       "type": "EMD",
@@ -1343,9 +1343,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-09",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q9",
       "type": "EMD",
@@ -1392,9 +1392,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-10",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q10",
       "type": "EMD",
@@ -1441,9 +1441,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-11",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q11",
       "type": "EMD",
@@ -1488,9 +1488,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-12",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q12",
       "type": "EMD",
@@ -1535,9 +1535,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-13",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q13",
       "type": "EMD",
@@ -1582,9 +1582,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-14",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q14",
       "type": "EMD",
@@ -1629,9 +1629,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-15",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "La surveillance épidémiologique",
+    "chapitre_num": 24,
+    "section": "La surveillance épidémiologique",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q15",
       "type": "EMD",
@@ -1676,9 +1676,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-16",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q16",
       "type": "EMD",
@@ -1723,9 +1723,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-17",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q17",
       "type": "EMD",
@@ -1770,9 +1770,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-18",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q18",
       "type": "EMD",
@@ -1817,9 +1817,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-19",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q19",
       "type": "EMD",
@@ -1864,9 +1864,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2024-20",
     "module": "ssh",
-    "chapitre": "EMD 2024-2025",
-    "chapitre_num": 2,
-    "section": "EMD 2024-2025",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2024/2025 - Q20",
       "type": "EMD",
@@ -1911,9 +1911,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-01",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q1",
       "type": "EMD",
@@ -1958,9 +1958,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-02",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q2",
       "type": "EMD",
@@ -2005,9 +2005,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-03",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q3",
       "type": "EMD",
@@ -2052,9 +2052,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-04",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q4",
       "type": "EMD",
@@ -2101,9 +2101,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-05",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q5",
       "type": "EMD",
@@ -2148,9 +2148,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-06",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q6",
       "type": "EMD",
@@ -2196,9 +2196,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-07",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Le système de santé en Algérie",
+    "chapitre_num": 8,
+    "section": "Le système de santé en Algérie",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q7",
       "type": "EMD",
@@ -2245,9 +2245,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-08",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Les dépenses de santé et organisation du système",
+    "chapitre_num": 17,
+    "section": "Les dépenses de santé et organisation du système",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q8",
       "type": "EMD",
@@ -2292,9 +2292,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-09",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q9",
       "type": "EMD",
@@ -2342,9 +2342,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-10",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q10",
       "type": "EMD",
@@ -2392,9 +2392,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-11",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "Le système de santé en Algérie",
+    "chapitre_num": 8,
+    "section": "Le système de santé en Algérie",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q11",
       "type": "EMD",
@@ -2438,9 +2438,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-12",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q12",
       "type": "EMD",
@@ -2485,9 +2485,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-13",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q13",
       "type": "EMD",
@@ -2532,9 +2532,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-14",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q14",
       "type": "EMD",
@@ -2579,9 +2579,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-15",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q15",
       "type": "EMD",
@@ -2629,9 +2629,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-16",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q16",
       "type": "EMD",
@@ -2677,9 +2677,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-17",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q17",
       "type": "EMD",
@@ -2724,9 +2724,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-18",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q18",
       "type": "EMD",
@@ -2771,9 +2771,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-19",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La décision médicale",
+    "chapitre_num": 15,
+    "section": "La décision médicale",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q19",
       "type": "EMD",
@@ -2818,9 +2818,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2023-20",
     "module": "ssh",
-    "chapitre": "EMD 2023-2024",
-    "chapitre_num": 3,
-    "section": "EMD 2023-2024",
+    "chapitre": "La responsabilité médicale (civile et pénale)",
+    "chapitre_num": 12,
+    "section": "La responsabilité médicale (civile et pénale)",
     "source": {
       "texte": "EMD SSH Mostaganem 2023/2024 - Q20",
       "type": "EMD",
@@ -2867,9 +2867,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-01",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction aux sources du droit",
+    "chapitre_num": 1,
+    "section": "Introduction aux sources du droit",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q1",
       "type": "EMD",
@@ -2914,9 +2914,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-02",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction aux sources du droit",
+    "chapitre_num": 1,
+    "section": "Introduction aux sources du droit",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q2",
       "type": "EMD",
@@ -2961,9 +2961,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-03",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction aux sources du droit",
+    "chapitre_num": 1,
+    "section": "Introduction aux sources du droit",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q3",
       "type": "EMD",
@@ -3008,9 +3008,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-04",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction aux sources du droit",
+    "chapitre_num": 1,
+    "section": "Introduction aux sources du droit",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q4",
       "type": "EMD",
@@ -3055,9 +3055,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-05",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction aux sources du droit",
+    "chapitre_num": 1,
+    "section": "Introduction aux sources du droit",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q5",
       "type": "EMD",
@@ -3102,9 +3102,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-06",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction aux sources du droit",
+    "chapitre_num": 1,
+    "section": "Introduction aux sources du droit",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q6",
       "type": "EMD",
@@ -3149,9 +3149,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-07",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q7",
       "type": "EMD",
@@ -3196,9 +3196,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-08",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q8",
       "type": "EMD",
@@ -3243,9 +3243,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-09",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q9",
       "type": "EMD",
@@ -3290,9 +3290,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-10",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q10",
       "type": "EMD",
@@ -3337,9 +3337,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-11",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q11",
       "type": "EMD",
@@ -3384,9 +3384,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-12",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q12",
       "type": "EMD",
@@ -3431,9 +3431,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-13",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q13",
       "type": "EMD",
@@ -3478,9 +3478,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-14",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Introduction à la santé publique",
+    "chapitre_num": 23,
+    "section": "Introduction à la santé publique",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q14",
       "type": "EMD",
@@ -3525,9 +3525,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-15",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "La transition épidémiologique",
+    "chapitre_num": 22,
+    "section": "La transition épidémiologique",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q15",
       "type": "EMD",
@@ -3572,9 +3572,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-16",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Vulnérabilité et stigmatisation",
+    "chapitre_num": 14,
+    "section": "Vulnérabilité et stigmatisation",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q16",
       "type": "EMD",
@@ -3619,9 +3619,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-17",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q17",
       "type": "EMD",
@@ -3666,9 +3666,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-18",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "Vulnérabilité et stigmatisation",
+    "chapitre_num": 14,
+    "section": "Vulnérabilité et stigmatisation",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q18",
       "type": "EMD",
@@ -3713,9 +3713,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-19",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q19",
       "type": "EMD",
@@ -3760,9 +3760,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2022-20",
     "module": "ssh",
-    "chapitre": "EMD 2022-2023",
-    "chapitre_num": 4,
-    "section": "EMD 2022-2023",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2022/2023 - Q20",
       "type": "EMD",
@@ -3807,9 +3807,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-01",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q1",
       "type": "EMD",
@@ -3854,9 +3854,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-02",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q2",
       "type": "EMD",
@@ -3901,9 +3901,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-03",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q3",
       "type": "EMD",
@@ -3948,9 +3948,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-04",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Vulnérabilité et stigmatisation",
+    "chapitre_num": 14,
+    "section": "Vulnérabilité et stigmatisation",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q4",
       "type": "EMD",
@@ -3995,9 +3995,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-05",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "La décision médicale",
+    "chapitre_num": 15,
+    "section": "La décision médicale",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q5",
       "type": "EMD",
@@ -4042,9 +4042,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-06",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q6",
       "type": "EMD",
@@ -4089,9 +4089,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-07",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q7",
       "type": "EMD",
@@ -4136,9 +4136,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-08",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Les dépenses de santé et organisation du système",
+    "chapitre_num": 17,
+    "section": "Les dépenses de santé et organisation du système",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q8",
       "type": "EMD",
@@ -4183,9 +4183,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-09",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q9",
       "type": "EMD",
@@ -4230,9 +4230,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-10",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q10",
       "type": "EMD",
@@ -4277,9 +4277,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-11",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q11",
       "type": "EMD",
@@ -4324,9 +4324,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-12",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q12",
       "type": "EMD",
@@ -4371,9 +4371,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-13",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q13",
       "type": "EMD",
@@ -4418,9 +4418,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-14",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Les indicateurs de la santé",
+    "chapitre_num": 21,
+    "section": "Les indicateurs de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q14",
       "type": "EMD",
@@ -4465,9 +4465,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-15",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "La surveillance épidémiologique",
+    "chapitre_num": 24,
+    "section": "La surveillance épidémiologique",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q15",
       "type": "EMD",
@@ -4512,9 +4512,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-16",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
+    "chapitre": "L'informations et consentement du malade",
     "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q16",
       "type": "EMD",
@@ -4559,9 +4559,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-17",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
+    "chapitre": "L'informations et consentement du malade",
     "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q17",
       "type": "EMD",
@@ -4606,9 +4606,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-18",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "La vocation humaniste de la médecine",
+    "chapitre_num": 2,
+    "section": "La vocation humaniste de la médecine",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q18",
       "type": "EMD",
@@ -4653,9 +4653,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-19",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q19",
       "type": "EMD",
@@ -4700,9 +4700,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2020-20",
     "module": "ssh",
-    "chapitre": "EMD 2020-2021",
-    "chapitre_num": 5,
-    "section": "EMD 2020-2021",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2020/2021 - Q20",
       "type": "EMD",
@@ -4747,9 +4747,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-01",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Les prélèvements et transplantation d'organes",
+    "chapitre_num": 9,
+    "section": "Les prélèvements et transplantation d'organes",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q1",
       "type": "EMD",
@@ -4794,9 +4794,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-02",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Les prélèvements et transplantation d'organes",
+    "chapitre_num": 9,
+    "section": "Les prélèvements et transplantation d'organes",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q2",
       "type": "EMD",
@@ -4841,9 +4841,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-03",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q3",
       "type": "EMD",
@@ -4888,9 +4888,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-04",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q4",
       "type": "EMD",
@@ -4935,9 +4935,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-05",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
+    "chapitre": "L'éthique de la Procréation",
     "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "section": "L'éthique de la Procréation",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q5",
       "type": "EMD",
@@ -4982,9 +4982,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-06",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La décision médicale",
+    "chapitre_num": 15,
+    "section": "La décision médicale",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q6",
       "type": "EMD",
@@ -5029,9 +5029,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-07",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La décision médicale",
+    "chapitre_num": 15,
+    "section": "La décision médicale",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q7",
       "type": "EMD",
@@ -5076,9 +5076,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-08",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q8",
       "type": "EMD",
@@ -5123,9 +5123,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-09",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q9",
       "type": "EMD",
@@ -5170,9 +5170,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-10",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q10",
       "type": "EMD",
@@ -5217,9 +5217,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-11",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q11",
       "type": "EMD",
@@ -5264,9 +5264,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-12",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q12",
       "type": "EMD",
@@ -5311,9 +5311,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-13",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "L'euthanasie",
+    "chapitre_num": 11,
+    "section": "L'euthanasie",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q13",
       "type": "EMD",
@@ -5358,9 +5358,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-14",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q14",
       "type": "EMD",
@@ -5405,9 +5405,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-15",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Les dépenses de santé et organisation du système",
+    "chapitre_num": 17,
+    "section": "Les dépenses de santé et organisation du système",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q15",
       "type": "EMD",
@@ -5452,9 +5452,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-16",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q16",
       "type": "EMD",
@@ -5499,9 +5499,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-17",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "L'informations et consentement du malade",
+    "chapitre_num": 5,
+    "section": "L'informations et consentement du malade",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q17",
       "type": "EMD",
@@ -5546,9 +5546,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-18",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "La vocation humaniste de la médecine",
+    "chapitre_num": 2,
+    "section": "La vocation humaniste de la médecine",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q18",
       "type": "EMD",
@@ -5593,9 +5593,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-19",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q19",
       "type": "EMD",
@@ -5640,9 +5640,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2019-20",
     "module": "ssh",
-    "chapitre": "EMD 2019-2020",
-    "chapitre_num": 6,
-    "section": "EMD 2019-2020",
+    "chapitre": "Le secret médical",
+    "chapitre_num": 3,
+    "section": "Le secret médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2019/2020 - Q20",
       "type": "EMD",
@@ -5684,9 +5684,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-01",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La normal pathologique 1 et 2",
+    "chapitre_num": 19,
+    "section": "La normal pathologique 1 et 2",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q1",
       "type": "EMD",
@@ -5731,9 +5731,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-02",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q2",
       "type": "EMD",
@@ -5778,9 +5778,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-03",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q3",
       "type": "EMD",
@@ -5825,9 +5825,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-04",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La relation soignant-soigné",
+    "chapitre_num": 20,
+    "section": "La relation soignant-soigné",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q4",
       "type": "EMD",
@@ -5872,9 +5872,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-05",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La décision médicale",
+    "chapitre_num": 15,
+    "section": "La décision médicale",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q5",
       "type": "EMD",
@@ -5919,9 +5919,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-06",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q6",
       "type": "EMD",
@@ -5966,9 +5966,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-07",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La Santé et la culture",
+    "chapitre_num": 13,
+    "section": "La Santé et la culture",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q7",
       "type": "EMD",
@@ -6013,9 +6013,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-09",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Vulnérabilité et stigmatisation",
+    "chapitre_num": 14,
+    "section": "Vulnérabilité et stigmatisation",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q9",
       "type": "EMD",
@@ -6060,9 +6060,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-10",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Vulnérabilité et stigmatisation",
+    "chapitre_num": 14,
+    "section": "Vulnérabilité et stigmatisation",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q10",
       "type": "EMD",
@@ -6107,9 +6107,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-11",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q11",
       "type": "EMD",
@@ -6154,9 +6154,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-12",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Introduction à l'économie de la santé",
+    "chapitre_num": 16,
+    "section": "Introduction à l'économie de la santé",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q12",
       "type": "EMD",
@@ -6201,9 +6201,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-13",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Introduction à la santé publique",
+    "chapitre_num": 23,
+    "section": "Introduction à la santé publique",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q13",
       "type": "EMD",
@@ -6248,9 +6248,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-14",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "La vocation humaniste de la médecine",
+    "chapitre_num": 2,
+    "section": "La vocation humaniste de la médecine",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q14",
       "type": "EMD",
@@ -6295,9 +6295,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-15",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Les prélèvements et transplantation d'organes",
+    "chapitre_num": 9,
+    "section": "Les prélèvements et transplantation d'organes",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q15",
       "type": "EMD",
@@ -6342,9 +6342,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-16",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "L'euthanasie",
+    "chapitre_num": 11,
+    "section": "L'euthanasie",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q16",
       "type": "EMD",
@@ -6389,9 +6389,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-17",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q17",
       "type": "EMD",
@@ -6436,9 +6436,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-18",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "L'éthique de la Procréation",
+    "chapitre_num": 6,
+    "section": "L'éthique de la Procréation",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q18",
       "type": "EMD",
@@ -6483,9 +6483,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-19",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Les instances de contrôle de l'acte médical",
+    "chapitre_num": 4,
+    "section": "Les instances de contrôle de l'acte médical",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q19",
       "type": "EMD",
@@ -6530,9 +6530,9 @@ window.QCM_SSH = [
   {
     "id": "ssh-2018-20",
     "module": "ssh",
-    "chapitre": "EMD 2018-2019",
-    "chapitre_num": 7,
-    "section": "EMD 2018-2019",
+    "chapitre": "Les prélèvements et transplantation d'organes",
+    "chapitre_num": 9,
+    "section": "Les prélèvements et transplantation d'organes",
     "source": {
       "texte": "EMD SSH Mostaganem 2018/2019 - Q20",
       "type": "EMD",

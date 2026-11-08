@@ -2798,6 +2798,11 @@ window.QCM_NEURO = [
         "texte": "EMD Neurologie 2024-2025 - Q26 (Mostaganem)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie - Dr ALSAAD - Q29 (Mostaganem)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Dans les compressions médullaires d'origine tumorale, les propositions suivantes sont justes :",
@@ -2902,38 +2907,6 @@ window.QCM_NEURO = [
       "D": "Faux. Pas de chimiothérapie dans les tumeurs bénignes opérables (chirurgie d'exérèse complète seule).",
       "_synthese": "Tumeurs cérébrales : IRM en première intention (A) et pathologie globalement à prédominance maligne chez l'adulte (C).",
       "_remarque": "L'IRM multimodale (diffusion, perfusion, spectroscopie) permet souvent d'orienter le grade tumoral avant la confirmation histologique."
-    }
-  },
-  {
-    "id": "neuro-074",
-    "module": "neurologie",
-    "chapitre": "Craniosténoses",
-    "chapitre_num": 26,
-    "section": "Syndrome d'Apert",
-    "source": {
-      "texte": "EMD Neurologie 2024-2025 - Q29 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "EMD Neurologie 2024-2025 - Q29 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Fait partie des craniosténoses syndromiques :",
-    "propositions": {
-      "A": "Apert"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "Le syndrome d'Apert (acrocéphalosyndactylie de type I) est l'une des formes les plus caractéristiques et sévères de craniosténose syndromique d'origine génétique (mutation du récepteur FGFR2). Il associe de façon constante une craniosténose coronale précoce (brachycéphalie/turricéphalie avec hypoplasie maxillaire et exorbitisme) et une syndactylie symétrique cutanée et osseuse complète des mains et des pieds ('mains en cuillère' ou en 'moufle') (A vrai).",
-    "justifications": {
-      "A": "Vrai (Corrigé officiel : A). Le syndrome d'Apert est le prototype des craniosténoses syndromiques génétiques à mutation FGFR2.",
-      "_synthese": "Craniosténose syndromique majeure = Syndrome d'Apert (A) associant synostose crânienne et syndactylie bilatérale des mains et des pieds.",
-      "_remarque": "Les autres craniofaciosténoses génétiques classiques sont les syndromes de Crouzon, de Pfeiffer et de Saethre-Chotzen."
     }
   },
   {
@@ -3488,7 +3461,8 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "A",
       "D"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée (AD) ; la proposition B (malformation kystique de la fosse postérieure) est aussi exacte."
   },
   {
     "id": "neuro-093",
@@ -3802,8 +3776,10 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "A",
+      "D",
       "E"
-    ]
+    ],
+    "note_cle": "Clé complétée (AE → ADE) : les fourmillements réversibles font partie de l'aura sensitive typique."
   },
   {
     "id": "neuro-103",
@@ -4755,11 +4731,11 @@ window.QCM_NEURO = [
       "E": "Rareté du clignement des yeux."
     },
     "bonnes_reponses": [
-      "A",
       "B",
       "D",
       "E"
-    ]
+    ],
+    "note_cle": "Clé corrigée (ABDE → BDE) : les réflexes ostéotendineux sont normaux dans le syndrome parkinsonien ; des ROT vifs et diffusés évoquent un syndrome pyramidal."
   },
   {
     "id": "neuro-134",
@@ -5610,37 +5586,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-161",
-    "module": "neurologie",
-    "chapitre": "Compression médullaire",
-    "chapitre_num": 24,
-    "section": "Compression médullaire",
-    "source": {
-      "texte": "Examen Neurologie - Dr ALSAAD - Q29 (Mostaganem)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie - Dr ALSAAD - Q29 (Mostaganem)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Dans les compressions médullaires d'origine tumorale, les propositions suivantes sont justes :",
-    "propositions": {
-      "A": "Les tumeurs extradurales sont souvent bénignes.",
-      "B": "La tumeur intramédullaire typique est le neurinome.",
-      "C": "Les tumeurs intradurales extramédullaires sont généralement traitées en combinant la chirurgie et la chimiothérapie.",
-      "D": "Les tumeurs extradurales sont souvent malignes.",
-      "E": "L'hémangioblastome est généralement une tumeur intramédullaire bénigne."
-    },
-    "bonnes_reponses": [
-      "D",
-      "E"
-    ]
-  },
-  {
     "id": "neuro-162",
     "module": "neurologie",
     "chapitre": "Accidents vasculaires cérébraux (AVC)",
@@ -6063,8 +6008,10 @@ window.QCM_NEURO = [
       "E": "L'atrophie est généralement de siège pariétal dans la maladie de Pick."
     },
     "bonnes_reponses": [
-      "B"
-    ]
+      "B",
+      "C"
+    ],
+    "note_cle": "Clé complétée (B → BC) : les formes familiales sont rares dans la maladie d'Alzheimer (moins de 5 %)."
   },
   {
     "id": "neuro-176",
@@ -6605,6 +6552,11 @@ window.QCM_NEURO = [
         "texte": "Examen de Neurologie P1 2025-2026 - Q3 (Alger)",
         "type": "EMD",
         "annee": "2026"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q36 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "La scaphocéphalie (RF) :",
@@ -6785,6 +6737,11 @@ window.QCM_NEURO = [
         "texte": "Examen de Neurologie P1 2025-2026 - Q9 (Alger)",
         "type": "EMD",
         "annee": "2026"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q31 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "L'hydrocéphalie chronique de l'adulte est une entité particulière de l'hydrocéphalie qui peut associer : (RF)\n1- Dilatation du système ventriculaire.\n2- Marche à petits pas.\n3- Pression du LCR considérable, de façon chronique.\n4- Incontinence urinaire.\n5- Troubles de la mémoire.",
@@ -6797,7 +6754,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "B"
-    ]
+    ],
+    "note_cle": "Question « réponse fausse » ; clé du PDF conservée."
   },
   {
     "id": "neuro-200",
@@ -6954,7 +6912,8 @@ window.QCM_NEURO = [
       "C",
       "D",
       "E"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; la sténose du sinus transverse est plus caractéristique qu'une thrombose."
   },
   {
     "id": "neuro-205",
@@ -6984,7 +6943,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée."
   },
   {
     "id": "neuro-206",
@@ -7158,6 +7118,11 @@ window.QCM_NEURO = [
         "texte": "Examen de Neurologie P1 2025-2026 - Q21 (Alger)",
         "type": "EMD",
         "annee": "2026"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q11 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Quel facteur environnemental a été suggéré comme un contributeur potentiel au développement des neuropathies héréditaires ? (RJ)",
@@ -7188,6 +7153,11 @@ window.QCM_NEURO = [
         "texte": "Examen de Neurologie P1 2025-2026 - Q22 (Alger)",
         "type": "EMD",
         "annee": "2026"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q12 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Dans les neuropathies héréditaires, quel est le rôle de la physiothérapie dans la prise en charge ? (RJ)",
@@ -7520,6 +7490,11 @@ window.QCM_NEURO = [
         "texte": "Examen de Neurologie P1 2025-2026 - Q33 (Alger)",
         "type": "EMD",
         "annee": "2026"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q56 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Les signes moteurs de la maladie de Parkinson (RF)",
@@ -7551,6 +7526,26 @@ window.QCM_NEURO = [
         "texte": "Examen de Neurologie P1 2025-2026 - Q34 (Alger)",
         "type": "EMD",
         "annee": "2026"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q57 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2023"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q51 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q21 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q16 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les drapeaux rouges dans la maladie de Parkinson (RF)",
@@ -7744,7 +7739,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; question à la formulation ambiguë."
   },
   {
     "id": "neuro-231",
@@ -8271,6 +8267,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Neurologie Alger P1 - Q18 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q22 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
       }
@@ -9151,6 +9152,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P2 - Q7 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q5 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Le traitement du kyste hydatique cérébral consiste à RJ",
@@ -9241,6 +9247,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P2 - Q10 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q3 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "La maladie de Charcot (SLA) : RF",
@@ -9666,6 +9677,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P2 - Q24 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q4 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Dans la prise en charge de l’HIC en phase de décompensation avec un œdème cérébral il\nfaut : RJ",
@@ -9696,6 +9712,16 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Neurologie Alger P2 - Q25 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q32 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q5 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
       }
@@ -9729,6 +9755,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P2 - Q26 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q37 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2023"
       }
     ],
     "question": "Le diagnostic des MCOV se fait par toutes ces explorations sauf : RF",
@@ -9880,6 +9911,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P2 - Q31 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q21 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Parmi les mesures suivantes, laquelle est la plus importante dans la prévention primaire\ndes AVC ? RF",
@@ -9908,6 +9944,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Neurologie Alger P2 - Q32 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q22 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
       }
@@ -9968,6 +10009,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Neurologie Alger P2 - Q34 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q33 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
       }
@@ -10272,6 +10318,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P3 - Q4 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q10 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Dans l'atteinte médullaire cervicale haute (C1 à C4) on peut retrouver RJ?",
@@ -10286,36 +10337,6 @@ window.QCM_NEURO = [
       "A",
       "B",
       "D"
-    ]
-  },
-  {
-    "id": "neuro-315",
-    "module": "neurologie",
-    "chapitre": "Infections et parasitoses du système nerveux",
-    "chapitre_num": 14,
-    "section": "Infections et parasitoses du système nerveux",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q5 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q5 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Le traitement du kyste hydatique cérébral consiste à RJ",
-    "propositions": {
-      "A": "Une ponction aspiration.",
-      "B": "Une dérivation kysto-péritonéale.",
-      "C": "Une évacuation par hydropulsion sans effondrement.",
-      "D": "Un traitement médical seul.",
-      "E": "Une dérivation ventriculo-péritonéale."
-    },
-    "bonnes_reponses": [
-      "C"
     ]
   },
   {
@@ -10424,6 +10445,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P3 - Q9 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q17 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Le diagnostic de la sclérose en plaques (RJ) :",
@@ -10436,96 +10462,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "A"
-    ]
-  },
-  {
-    "id": "neuro-320",
-    "module": "neurologie",
-    "chapitre": "Sclérose en plaques (SEP)",
-    "chapitre_num": 8,
-    "section": "Sclérose en plaques (SEP)",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q10 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q10 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans la sclérose en plaques, la névrite optique rétrobulbaire (NORB) (RF) :",
-    "propositions": {
-      "A": "Peut-être un mode d'entrée dans la maladie.",
-      "B": "Est caractérisée par une atteinte bilatérale et symétrique.",
-      "C": "Le FO est généralement normale.",
-      "D": "Est obligatoire pour le diagnostic positif.",
-      "E": "Peut régresser spontanément."
-    },
-    "bonnes_reponses": [
-      "B"
-    ]
-  },
-  {
-    "id": "neuro-321",
-    "module": "neurologie",
-    "chapitre": "Neuropathies périphériques",
-    "chapitre_num": 1,
-    "section": "Neuropathies périphériques",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q11 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q11 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Quel facteur environnemental a été suggéré comme un contributeur potentiel au développement\ndes neuropathies héréditaires ? (RJ)",
-    "propositions": {
-      "A": "Exposition au plomb.",
-      "B": "Diabète.",
-      "C": "Hypothyroïdie.",
-      "D": "Consommation d'alcool.",
-      "E": "Aucune de ces réponses."
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-322",
-    "module": "neurologie",
-    "chapitre": "Neuropathies périphériques",
-    "chapitre_num": 1,
-    "section": "Neuropathies périphériques",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q12 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q12 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans les neuropathies héréditaires, quel est le rôle de la physiothérapie dans la prise en charge (RJ)\n?",
-    "propositions": {
-      "A": "Soulagement de la douleur uniquement.",
-      "B": "Amélioration de la force musculaire et de la mobilité.",
-      "C": "Élimination des symptômes neurologiques.",
-      "D": "Prévention des maladies cardiaques.",
-      "E": "Aucune de ces réponses."
-    },
-    "bonnes_reponses": [
-      "B"
     ]
   },
   {
@@ -10632,6 +10568,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Neurologie Alger P3 - Q16 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q23 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
       }
@@ -10793,36 +10734,6 @@ window.QCM_NEURO = [
       "C": "Interaction médicamenteuse.",
       "D": "Chez la femme enceinte.",
       "E": "Nécessité d'une bithérapie."
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
-  },
-  {
-    "id": "neuro-332",
-    "module": "neurologie",
-    "chapitre": "Compression médullaire",
-    "chapitre_num": 24,
-    "section": "Compression médullaire",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q22 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q22 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans un tableau de compression médullaire, le syndrome sous lésionnel comprend (RF):",
-    "propositions": {
-      "A": "Déficit moteur.",
-      "B": "Réflexes tendineux vifs.",
-      "C": "Réflexes tendineux abolis.",
-      "D": "Troubles sphinctériens.",
-      "E": "Hypertonie spastique."
     },
     "bonnes_reponses": [
       "C"
@@ -11058,6 +10969,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P3 - Q30 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 - Q7 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Dans la forme commune de l'hématome extradural temporal droit, on observe : (RF)",
@@ -11102,67 +11018,6 @@ window.QCM_NEURO = [
       "A",
       "C",
       "E"
-    ]
-  },
-  {
-    "id": "neuro-342",
-    "module": "neurologie",
-    "chapitre": "Hypertension intra-crânienne (HIC)",
-    "chapitre_num": 15,
-    "section": "Hypertension intra-crânienne (HIC)",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q32 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q32 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans l'Hypertension intracrânienne idiopathique (RJ)",
-    "propositions": {
-      "A": "Elle est diagnostiquée surtout chez les jeunes femmes obèses.",
-      "B": "La ponction lombaire est contre-indiquée",
-      "C": "Elle est responsable d'un engagement amygdalien.",
-      "D": "Les femmes de race blanche sont les plus souvent concernées.",
-      "E": "Le risque de cette pathologie est la cécité."
-    },
-    "bonnes_reponses": [
-      "A",
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-343",
-    "module": "neurologie",
-    "chapitre": "Myopathies inflammatoires",
-    "chapitre_num": 17,
-    "section": "Myopathies inflammatoires",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q33 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q33 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Une myopathie inflammatoire est considérée comme grave (cochez la combinaison juste)\n1- Lorsqu'elle affecte les muscles respiratoires\n2- Lorsqu'elle est associée à une atteinte articulaire\n3- Lorsqu'elle est associée à une atteinte pulmonaire interstitielle\n4- Lorsqu'elle affecte les muscles pharyngés\n5- Lorsqu'elle entraîne un déficit moteur coté à 4/5 sur l'échelle MRC",
-    "propositions": {
-      "A": "1,2,3",
-      "B": "2,3,4",
-      "C": "3,4,5",
-      "D": "1,3,4",
-      "E": "1,2,3,4,5"
-    },
-    "bonnes_reponses": [
-      "D"
     ]
   },
   {
@@ -11220,36 +11075,6 @@ window.QCM_NEURO = [
       "C": "PEC multidisciplinaire.",
       "D": "Pronostic fonctionnel dépendra de l'état neurologique initial de l'enfant.",
       "E": "Intérêt de la sensibilisation et du diagnostic anténatal."
-    },
-    "bonnes_reponses": [
-      "B"
-    ]
-  },
-  {
-    "id": "neuro-346",
-    "module": "neurologie",
-    "chapitre": "Craniosténoses",
-    "chapitre_num": 26,
-    "section": "Craniosténoses",
-    "source": {
-      "texte": "Examen Neurologie Alger P3 - Q36 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P3 - Q36 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "La scaphocéphalie (RF):",
-    "propositions": {
-      "A": "Est une craniosténose dite isolée.",
-      "B": "Constitue la variété la moins fréquente.",
-      "C": "Caractérisée par une absence de la suture sagittale.",
-      "D": "Caractérisée par une augmentation du diamètre antéro-postérieur du crâne.",
-      "E": "De diagnostic facile à la naissance ou même avant."
     },
     "bonnes_reponses": [
       "B"
@@ -11466,69 +11291,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-354",
-    "module": "neurologie",
-    "chapitre": "Hypertension intra-crânienne (HIC)",
-    "chapitre_num": 15,
-    "section": "Hypertension intra-crânienne (HIC)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q4 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q4 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "dans la prise en charge de l'HIC en phase de décompensation avec un œdème cérébral il faut : Les RJ",
-    "propositions": {
-      "A": "Prescrire du sérum glucosé",
-      "B": "Intubation orotrachéale du patient",
-      "C": "Mise en place d'un capteur pour la mesure de la PIC",
-      "D": "Prescrire du sérum sale hypertonique",
-      "E": "Faire en première intention un volet décompressif"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ]
-  },
-  {
-    "id": "neuro-355",
-    "module": "neurologie",
-    "chapitre": "Hypertension intra-crânienne (HIC)",
-    "chapitre_num": 15,
-    "section": "Hypertension intra-crânienne (HIC)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q5 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q5 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans l'Hypertension intracrânienne idiopathique (Les RJ)",
-    "propositions": {
-      "A": "Elle est diagnostiquée surtout chez les jeunes femmes obèses",
-      "B": "La ponction lombaire est contre indiquée",
-      "C": "Elle est responsable d'un engagement amygdalien",
-      "D": "Les femmes de race blanche sont les plus souvent concernées",
-      "E": "Le risque de cette pathologie est la cécité"
-    },
-    "bonnes_reponses": [
-      "A",
-      "E"
-    ]
-  },
-  {
     "id": "neuro-356",
     "module": "neurologie",
     "chapitre": "Hypertension intra-crânienne (HIC)",
@@ -11557,36 +11319,6 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "D",
       "E"
-    ]
-  },
-  {
-    "id": "neuro-357",
-    "module": "neurologie",
-    "chapitre": "Traumatismes crâniens (TC)",
-    "chapitre_num": 7,
-    "section": "Traumatismes crâniens (TC)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q7 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q7 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans la forme commune de l’hématome extradural temporal droit, on observe : RF",
-    "propositions": {
-      "A": "Un intervalle libre de 6 à 8h après le traumatisme généralement",
-      "B": "Une mydriase gauche",
-      "C": "Un syndrome pyramidal gauche généralement",
-      "D": "Des troubles de la conscience installés secondairement",
-      "E": "Le scanner cérébral : aspect d’hyperdensité en lentille biconvexe"
-    },
-    "bonnes_reponses": [
-      "B"
     ]
   },
   {
@@ -11648,38 +11380,6 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "C",
       "E"
-    ]
-  },
-  {
-    "id": "neuro-360",
-    "module": "neurologie",
-    "chapitre": "Compression médullaire",
-    "chapitre_num": 24,
-    "section": "Compression médullaire",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q10 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q10 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Dans l’atteinte médullaire cervicale haute (C1 à C4) on peut retrouver RJ :",
-    "propositions": {
-      "A": "Tétraparésie / tétraplégie",
-      "B": "Signe de Hoffman",
-      "C": "Névralgie intercostale",
-      "D": "Trouble ventilatoire par paralysie du diaphragme",
-      "E": "Névralgie brachiale"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D"
     ]
   },
   {
@@ -11865,36 +11565,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-367",
-    "module": "neurologie",
-    "chapitre": "Sclérose en plaques (SEP)",
-    "chapitre_num": 8,
-    "section": "Sclérose en plaques (SEP)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q17 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q17 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Le diagnostic de la sclérose en plaques (RJ) :",
-    "propositions": {
-      "A": "Est un diagnostic d'élimination",
-      "B": "Repose sur la biopsie neuromusculaire",
-      "C": "Repose sur la biopsie cutanée",
-      "D": "Repose sur la présence d'anticorps monoclonaux dans le LCS",
-      "E": "Repose sur la présence de marqueur de l'inflammation dans le sang et le LCS"
-    },
-    "bonnes_reponses": [
-      "A"
-    ]
-  },
-  {
     "id": "neuro-368",
     "module": "neurologie",
     "chapitre": "Sclérose en plaques (SEP)",
@@ -11910,6 +11580,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P4 - Q18 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2025"
+      },
+      {
+        "texte": "Examen Neurologie Alger P3 - Q10 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2025"
       }
     ],
     "question": "Dans la sclérose en plaques, la névrite optique rétrobulbaire (NORB) RF :",
@@ -11923,7 +11598,8 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "B",
       "D"
-    ]
+    ],
+    "note_cle": "Clé divergente entre deux épreuves (B et BD) ; à propos de la névrite optique rétrobulbaire de la SEP, les deux affirmations fausses sont : atteinte bilatérale et symétrique (elle est le plus souvent unilatérale) et examen obligatoire pour le diagnostic (elle ne l'est pas)."
   },
   {
     "id": "neuro-369",
@@ -11983,96 +11659,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "D"
-    ]
-  },
-  {
-    "id": "neuro-371",
-    "module": "neurologie",
-    "chapitre": "Accidents vasculaires cérébraux (AVC)",
-    "chapitre_num": 13,
-    "section": "Accidents vasculaires cérébraux (AVC)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q21 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q21 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Parmi les mesures suivantes, laquelle est la plus importante dans la prévention primaire des AVC ?\nRF",
-    "propositions": {
-      "A": "La réduction pondérale",
-      "B": "La prise d'anticoagulant à dose préventive",
-      "C": "La surveillance de la pression artérielle et son contrôle",
-      "D": "La pratique quotidienne d'exercices",
-      "E": "Le régime méditerranéen"
-    },
-    "bonnes_reponses": [
-      "B"
-    ]
-  },
-  {
-    "id": "neuro-372",
-    "module": "neurologie",
-    "chapitre": "Accidents vasculaires cérébraux (AVC)",
-    "chapitre_num": 13,
-    "section": "Accidents vasculaires cérébraux (AVC)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q22 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q22 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "Quel mécanisme explique la formation d'un infarctus cérébral dans un AVC ischémique d'origine\ncardio-embolique ?",
-    "propositions": {
-      "A": "La rupture d'une plaque d'athérome dans une artère cérébrale principale",
-      "B": "La migration d'un thrombus cardiaque vers les artères cérébrales via la circulation systémique",
-      "C": "L'obstruction d'une artère cérébrale par un thrombus provenant de la circulation veineuse",
-      "D": "L'occlusion d'une petite artère perforante par un phénomène de vasospasme",
-      "E": "La migration d'un thrombus systémique vers les veines cérébrales"
-    },
-    "bonnes_reponses": [
-      "B"
-    ]
-  },
-  {
-    "id": "neuro-373",
-    "module": "neurologie",
-    "chapitre": "Sclérose latérale amyotrophique (SLA)",
-    "chapitre_num": 12,
-    "section": "Sclérose latérale amyotrophique (SLA)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q23 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q23 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "La sclérose latérale primitive : RF",
-    "propositions": {
-      "A": "Elle débute généralement par une spasticité dans les jambes",
-      "B": "Elle est caractérisée par la dégénérescence des motoneurones supérieurs",
-      "C": "Se manifeste cliniquement par une faiblesse musculaire avec des mouvements maladroits des mains",
-      "D": "C'est une forme bénigne de la SLA",
-      "E": "L'atteinte des muscles respiratoires sont très fréquents"
-    },
-    "bonnes_reponses": [
-      "E"
     ]
   },
   {
@@ -12283,36 +11869,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
-  },
-  {
-    "id": "neuro-381",
-    "module": "neurologie",
-    "chapitre": "Hydrocéphalies",
-    "chapitre_num": 10,
-    "section": "Hydrocéphalies",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 - Q31 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 - Q31 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2025"
-      }
-    ],
-    "question": "L'hydrocéphalie chronique de l'adulte est une entité particulière de l'hydrocéphalie qui peut associer\n(Cochez la RF) :\n1- Dilatation du système ventriculaire\n2- Marche à petits pas\n3- Pression du LCR considérable, de façon chronique\n4- Incontinence urinaire\n5- Troubles de la mémoire",
-    "propositions": {
-      "A": "(2-4)",
-      "B": "(1-3-5)",
-      "C": "(2-5)",
-      "D": "(2-3-4-5)",
-      "E": "(4)"
-    },
-    "bonnes_reponses": [
-      "B"
     ]
   },
   {
@@ -12681,7 +12237,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Énoncé et propositions tronqués ; clé du PDF conservée, à confirmer."
   },
   {
     "id": "neuro-394",
@@ -12863,7 +12420,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; la proposition D (ne jamais arrêter brutalement) est pourtant exacte."
   },
   {
     "id": "neuro-400",
@@ -13529,7 +13087,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; la névralgie du trijumeau relève des neuropathies douloureuses."
   },
   {
     "id": "neuro-422",
@@ -13589,7 +13148,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "B"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; une céphalée en coup de tonnerre impose d'éliminer une hémorragie méningée."
   },
   {
     "id": "neuro-424",
@@ -13679,36 +13239,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
-  },
-  {
-    "id": "neuro-427",
-    "module": "neurologie",
-    "chapitre": "Malformations cranio-cervicales",
-    "chapitre_num": 25,
-    "section": "Malformations cranio-cervicales",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q37 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q37 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Le diagnostic des MCOV se fait par toutes ces explorations sauf (RF):",
-    "propositions": {
-      "A": "Imagerie par résonnance magnétique cérébro-médullaire.",
-      "B": "Tomodensitométrie de la jonction cranio-cérébrale.",
-      "C": "Ponctions lombaires.",
-      "D": "Myélographie.",
-      "E": "Radiographies standards."
-    },
-    "bonnes_reponses": [
-      "C"
     ]
   },
   {
@@ -13834,7 +13364,8 @@ window.QCM_NEURO = [
       "B",
       "D",
       "E"
-    ]
+    ],
+    "note_cle": "Question mal formulée ; clé du PDF conservée."
   },
   {
     "id": "neuro-432",
@@ -14193,7 +13724,7 @@ window.QCM_NEURO = [
       "B": "(2+5)",
       "C": "(1+5)",
       "D": "(1+2+3+4)",
-      "E": "(1+3) 8"
+      "E": "(1+3)"
     },
     "bonnes_reponses": [
       "E"
@@ -14215,6 +13746,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q54 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q42 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "le prolactinome est une tumeur sécrétante: RJ)\n1-se voit le plus souvent chez la femme\n2-la galactorrhée peut être absente\n3-c'est la seule cause d'hyperprolactinemie\n4-ne donne jamais de troubles visuels car les signe endocriniens le révèle en premier\n5-les signes cliniques sont identiques chez les deux sexes",
@@ -14245,6 +13781,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q55 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2023"
+      },
+      {
+        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q12 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les symptômes non moteurs de la maladie de Parkinson précédant de plusieurs années la survenue de la\nsymptomatologie parkinsonienne motrice sont : (RJ)",
@@ -14257,67 +13798,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
-  },
-  {
-    "id": "neuro-446",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q56 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q56 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Les signes moteurs de la maladie de Parkinson(RF)",
-    "propositions": {
-      "A": "Hypertonie spastique",
-      "B": "Hypertonie plastique",
-      "C": "Tremblement d'action",
-      "D": "Akinésie",
-      "E": "Trouble de la marche"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ]
-  },
-  {
-    "id": "neuro-447",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q57 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P1 (02/11/2023) - Q57 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2023"
-      }
-    ],
-    "question": "Les drapeaux rouges dans la maladie de Parkinson(RF)",
-    "propositions": {
-      "A": "Atteinte bulbaire précoce",
-      "B": "Evolution rapide des troubles de la marche",
-      "C": "Syndrome pyramidal inexpliqué",
-      "D": "Bradykinésie",
-      "E": "Syndrome parkinsonien bilatéral d'emblée"
-    },
-    "bonnes_reponses": [
-      "D"
     ]
   },
   {
@@ -14410,8 +13890,10 @@ window.QCM_NEURO = [
       "E": "N'influence pas l'évolution de la maladie d'Alzheimer 9"
     },
     "bonnes_reponses": [
+      "A",
       "B"
-    ]
+    ],
+    "note_cle": "Clé complétée (B → AB) : l'allèle E4 est un facteur de risque de forme tardive (non précoce) et n'est pas un marqueur diagnostique."
   },
   {
     "id": "neuro-451",
@@ -14586,6 +14068,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q6 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q1 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les signes de gravité à rechercher devant un syndrome du canal carpien (RJ) CM :",
@@ -14629,7 +14116,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "D"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée."
   },
   {
     "id": "neuro-458",
@@ -15018,21 +14506,27 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q20 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q45 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "La dermatomyosite se caractérise par : RJ CM",
     "propositions": {
       "A": "Un déficit moteur proximal bilatéral et toujours asymétrique.",
-      "B": "B. Des fasciculations",
+      "B": "Des fasciculations",
       "C": "Des myalgies",
       "D": "La présence de papules de gortron",
       "E": "Une association possible a une atteinte cardiaque qui doit être dépistée systématiquement"
     },
     "bonnes_reponses": [
-      "B",
       "C",
-      "D"
-    ]
+      "D",
+      "E"
+    ],
+    "note_cle": "Clé corrigée (BCD → CDE) : la dermatomyosite donne un déficit moteur proximal bilatéral et symétrique, des myalgies, des papules de Gottron et une atteinte cardiaque possible ; les fasciculations ne font pas partie du tableau."
   },
   {
     "id": "neuro-471",
@@ -15110,6 +14604,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q23 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q42 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "L'algie vasculaire de la face (RF) CS :",
@@ -15182,7 +14681,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Question à la formulation ambiguë ; clé du PDF conservée."
   },
   {
     "id": "neuro-476",
@@ -15198,6 +14698,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q26 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q39 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
       }
@@ -15291,6 +14796,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q29 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q36 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "L'impression basilaire se traduit cliniquement par (RF) CS:",
@@ -15366,7 +14876,8 @@ window.QCM_NEURO = [
       "B",
       "D",
       "E"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; le fragment est antéro-inférieur et la lésion instable."
   },
   {
     "id": "neuro-482",
@@ -15427,7 +14938,8 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "A",
       "B"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; C et D sont aussi exactes."
   },
   {
     "id": "neuro-484",
@@ -15456,9 +14968,11 @@ window.QCM_NEURO = [
       "E": "Il est rarement isolé et souvent associé à des contusions ou des lésions axonales"
     },
     "bonnes_reponses": [
-      "B",
+      "A",
+      "C",
       "E"
-    ]
+    ],
+    "note_cle": "Clé corrigée (BE → ACE) : l'hématome sous-dural aigu est le plus souvent veineux (veines-ponts) et siège entre la dure-mère et l'arachnoïde."
   },
   {
     "id": "neuro-485",
@@ -15476,6 +14990,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q35 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q8 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Quelle peuvent être les lésions vasculaires suite à un traumatisme crânien grave ? RJ CS :",
@@ -15488,7 +15007,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "D"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; dissection et anévrysme post-traumatiques existent aussi."
   },
   {
     "id": "neuro-486",
@@ -15566,6 +15086,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q38 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q12 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les étiologies post natales des hydrocéphalies sont RF CS :",
@@ -15594,6 +15119,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q39 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q18 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
       }
@@ -15656,6 +15186,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q41 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q20 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "La myéloméningocèle (RJ) CS :",
@@ -15668,36 +15203,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
-  },
-  {
-    "id": "neuro-492",
-    "module": "neurologie",
-    "chapitre": "Tumeurs cérébrales",
-    "chapitre_num": 5,
-    "section": "Tumeurs cérébrales",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q42 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q42 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "le prolactinome est une tumeur sécrétante :RJ CS\n1. se voit le plus souvent chez la femme\n2. la galactorrhée peut être absente\n3. c'est la seule cause d'hyperprolactinemie\n4. ne donne jamais de troubles visuels car les signe endocriniens le révèle en premier\n5. les signes cliniques sont identiques chez les deux sexes",
-    "propositions": {
-      "A": "(1+2)",
-      "B": "(1+2+3+4)",
-      "C": "(4+5)",
-      "D": "(2+5)",
-      "E": "(1+4)"
-    },
-    "bonnes_reponses": [
-      "A"
     ]
   },
   {
@@ -15776,6 +15281,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q45 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q27 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "L'ataxie de Friedreich (RJ) CS:",
@@ -15806,6 +15316,21 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q46 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q28 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q20 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q16 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "L'ataxie par déficit en vitamine E (AVED) (RF) CS :",
@@ -15834,6 +15359,16 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q47 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q29 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q40 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
       }
@@ -15877,8 +15412,10 @@ window.QCM_NEURO = [
       "E": "N'influence pas l'évolution de la maladie d'Alzheimer"
     },
     "bonnes_reponses": [
-      "A"
-    ]
+      "A",
+      "B"
+    ],
+    "note_cle": "Clé complétée (A → AB) : l'allèle E4 est un facteur de risque de forme tardive, non précoce."
   },
   {
     "id": "neuro-499",
@@ -15894,6 +15431,16 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q49 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q25 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q18 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
       }
@@ -15928,6 +15475,16 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q50 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q26 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q19 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Dans la maladie d'Alzheimer, l'envahissement histopathologique du tissu cérébral s'effectue\nselon la chronologie suivante(RJ) CS:",
@@ -15940,36 +15497,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "B"
-    ]
-  },
-  {
-    "id": "neuro-501",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q51 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q51 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les drapeaux rouges dans la maladie de Parkinson(RF) CS :",
-    "propositions": {
-      "A": "Atteinte bulbaire précoce",
-      "B": "Evolution rapide des troubles de la marche",
-      "C": "Syndrome pyramidal inexpliqué",
-      "D": "Bradykinésie",
-      "E": "Syndrome parkinsonien bilatéral d'emblée"
-    },
-    "bonnes_reponses": [
-      "D"
     ]
   },
   {
@@ -16016,6 +15543,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Théorique Neurologie Alger P2 (Théorie 2024) - Q53 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q23 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
       }
@@ -16150,7 +15682,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "A"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; l'angiome est aussi une malformation vasculaire (D)."
   },
   {
     "id": "neuro-508",
@@ -16243,37 +15776,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-511",
-    "module": "neurologie",
-    "chapitre": "Neuropathies périphériques",
-    "chapitre_num": 1,
-    "section": "Neuropathies périphériques",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q1 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q1 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les signes de gravité à rechercher devant un syndrome du canal carpien RJ-CM :",
-    "propositions": {
-      "A": "la présence d'une amyotrophie de l’éminence thénar",
-      "B": "la présence d'une amyotrophie de l’éminence hypothénar",
-      "C": "la présence d'un déficit moteur de l’opposant du pouce",
-      "D": "la présence d'un déficit moteur du fléchisseur du pouce",
-      "E": "existence de troubles sensitifs subjectifs dans le territoire du médian"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ]
-  },
-  {
     "id": "neuro-512",
     "module": "neurologie",
     "chapitre": "Neuropathies périphériques",
@@ -16301,7 +15803,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; l'allongement des latences distales du médian est aussi un argument."
   },
   {
     "id": "neuro-513",
@@ -16363,7 +15866,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée (C) ; une autre épreuve retient cette proposition comme fausse, la classique étant le long trajet du VI et son passage dans le canal de Dorello."
   },
   {
     "id": "neuro-515",
@@ -16427,67 +15931,6 @@ window.QCM_NEURO = [
       "A",
       "D",
       "E"
-    ]
-  },
-  {
-    "id": "neuro-517",
-    "module": "neurologie",
-    "chapitre": "Hydrocéphalies",
-    "chapitre_num": 10,
-    "section": "Hydrocéphalies",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q7 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q7 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "sur l'IRM d'une Hypertension intracrânienne idiopathique on peut retrouver (RJ-CM) :",
-    "propositions": {
-      "A": "une hydrocéphalie tétra-ventriculaire.",
-      "B": "une sténose de latere sylvienne",
-      "C": "une thrombose du sinus transverse.",
-      "D": "un aplatissement de la partie postérieure du globe oculaire.",
-      "E": "un aspect serpigineux des nerfs optiques"
-    },
-    "bonnes_reponses": [
-      "C",
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-518",
-    "module": "neurologie",
-    "chapitre": "Hémorragie sous-arachnoïdienne (HSA)",
-    "chapitre_num": 4,
-    "section": "Hémorragie sous-arachnoïdienne (HSA)",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q8 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q8 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Quelles peuvent être les lésions vasculaires suite à un traumatisme cranien grave RJ-CS :",
-    "propositions": {
-      "A": "L'anastomose",
-      "B": "La dissection",
-      "C": "La formation d'anévrisme.",
-      "D": "La thrombose veineuse.",
-      "E": "La décussation"
-    },
-    "bonnes_reponses": [
-      "D"
     ]
   },
   {
@@ -16581,36 +16024,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-522",
-    "module": "neurologie",
-    "chapitre": "Hydrocéphalies",
-    "chapitre_num": 10,
-    "section": "Hydrocéphalies",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q12 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q12 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les étiologies post natales des hydrocéphalies sont RF-CS :",
-    "propositions": {
-      "A": "Les tumeurs cérébrales",
-      "B": "Les hémorragies cérébrales",
-      "C": "Les sténoses de l'aqueduc de Sylvius",
-      "D": "Les thromboses veineuses sinusales",
-      "E": "Les thromboses du l'aqueduc de Sylvius"
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
-  },
-  {
     "id": "neuro-523",
     "module": "neurologie",
     "chapitre": "Hydrocéphalies",
@@ -16684,6 +16097,11 @@ window.QCM_NEURO = [
     "sources": [
       {
         "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q15 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q10 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
       }
@@ -16761,36 +16179,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-528",
-    "module": "neurologie",
-    "chapitre": "Spina bifida",
-    "chapitre_num": 27,
-    "section": "Spina bifida",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q18 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q18 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La myéloméningocèle (RJ-CS) :",
-    "propositions": {
-      "A": "la prise en charge initiale de cette malformation a un impact capital sur la survie de ces nouveaux nés",
-      "B": "la prise en charge initiale de cette malformation a un impact capital sur le handicap qu'ils vont avoir à gérer durant toute leur vie",
-      "C": "cette prise en charge ne peut se concevoir sans une équipe pluridisciplinaire",
-      "D": "toutes ces réponses sont justes",
-      "E": "toutes ces réponses sont fausses"
-    },
-    "bonnes_reponses": [
-      "D"
-    ]
-  },
-  {
     "id": "neuro-529",
     "module": "neurologie",
     "chapitre": "Spina bifida",
@@ -16821,66 +16209,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-530",
-    "module": "neurologie",
-    "chapitre": "Spina bifida",
-    "chapitre_num": 27,
-    "section": "Spina bifida",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q20 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q20 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La myéloméningocèle (RJ-CS) :",
-    "propositions": {
-      "A": "apparait exclusivement en région cervicale",
-      "B": "apparait exclusivement en région dorsale",
-      "C": "apparait exclusivement en région lombaire",
-      "D": "toutes ces réponses sont justes",
-      "E": "toutes ces réponses sont fausses"
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-531",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q21 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q21 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les drapeaux rouges dans la maladie de Parkinson (RF-CS) :",
-    "propositions": {
-      "A": "Atteinte bulbaire précoce",
-      "B": "Evolution rapide des troubles de la marche",
-      "C": "Syndrome pyramidal inexpliqué.",
-      "D": "Bradykinésie",
-      "E": "Syndrome parkinsonien bilatéral d'emblée"
-    },
-    "bonnes_reponses": [
-      "D"
-    ]
-  },
-  {
     "id": "neuro-532",
     "module": "neurologie",
     "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
@@ -16896,6 +16224,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q22 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q17 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les noyaux gris centraux (NGC) :(RJ-CS)",
@@ -16908,36 +16241,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "D"
-    ]
-  },
-  {
-    "id": "neuro-533",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q23 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q23 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La maladie de Parkinson est secondaire à une dégénérescence dopaminergique nigro-striée et\nqui entraine :(RJ-CS)",
-    "propositions": {
-      "A": "Augmentation de la synthèse de dopamine au niveau du locus Niger",
-      "B": "Diminution de la synthèse de dopamine au niveau du locus Niger",
-      "C": "Présence des corps de Lewy dans la substance noire",
-      "D": "A+C",
-      "E": "B+C"
-    },
-    "bonnes_reponses": [
-      "E"
     ]
   },
   {
@@ -16967,160 +16270,10 @@ window.QCM_NEURO = [
       "E": "N'influence pas l'évolution de la maladie d'Alzheimer"
     },
     "bonnes_reponses": [
-      "A"
-    ]
-  },
-  {
-    "id": "neuro-535",
-    "module": "neurologie",
-    "chapitre": "Démences",
-    "chapitre_num": 9,
-    "section": "Démences",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q25 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q25 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La maladie d'Alzheimer (RJ-CM) :",
-    "propositions": {
-      "A": "Débute par une amnésie anterograde",
-      "B": "Altère en premier la mémoire sémantique puis la mémoire épisodique.",
-      "C": "Peut s'associer à une démence vasculaire",
-      "D": "Est une démence dégénérative",
-      "E": "Le plus souvent familiale"
-    },
-    "bonnes_reponses": [
       "A",
-      "C",
-      "D"
-    ]
-  },
-  {
-    "id": "neuro-536",
-    "module": "neurologie",
-    "chapitre": "Démences",
-    "chapitre_num": 9,
-    "section": "Démences",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q26 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q26 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Dans la maladie d'Alzheimer, l'envahissement histopathologique du tissu cérébral s'effectue\nselon la chronologie suivante (RJ-CS):",
-    "propositions": {
-      "A": "Cortex orbitofrontal, Cortex temporal médian, cortex pariétal",
-      "B": "Région hippocampique, cortex temporal antérieur, cortex temporal inférieur puis médian",
-      "C": "Cortex temporal antérieur puis inférieur et médian.",
-      "D": "Cortex pariétal, Cortex orbito frontal, hippocampes",
-      "E": "Cortex occipital, Cortex pariétal, Cortex orbito frontal"
-    },
-    "bonnes_reponses": [
       "B"
-    ]
-  },
-  {
-    "id": "neuro-537",
-    "module": "neurologie",
-    "chapitre": "Ataxies cérébelleuses et héréditaires",
-    "chapitre_num": 11,
-    "section": "Ataxies cérébelleuses et héréditaires",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q27 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q27 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
     ],
-    "question": "L'ataxie de Friedreich (RJ-CS):",
-    "propositions": {
-      "A": "Est la plus fréquente des ataxies cérébelleuses autosomiques récessives.",
-      "B": "Débute souvent autour de la quarantaine.",
-      "C": "Le syndrome endocrinien n'y est jamais observé.",
-      "D": "Est caractérisée, entre autres, par une dégénérescence des voies spino cérébelleuses.",
-      "E": "Les réponses a+d sont justes"
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-538",
-    "module": "neurologie",
-    "chapitre": "Ataxies cérébelleuses et héréditaires",
-    "chapitre_num": 11,
-    "section": "Ataxies cérébelleuses et héréditaires",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q28 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q28 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "L'ataxie par déficit en vitamine E (AVED) (RF-CS) :",
-    "propositions": {
-      "A": "Est due à un déficit de la protéine de transport de l'Alpha Tocopherol.",
-      "B": "Réalise un tableau dit « Friedreich like » curable.",
-      "C": "La neuropathie sensitive y est fréquente.",
-      "D": "Les potentiels évoqués somesthésiques y sont très altérés.",
-      "E": "Fait partie des ataxies cérébelleuses autosomiques récessives."
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
-  },
-  {
-    "id": "neuro-539",
-    "module": "neurologie",
-    "chapitre": "Ataxies cérébelleuses et héréditaires",
-    "chapitre_num": 11,
-    "section": "Ataxies cérébelleuses et héréditaires",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q29 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q29 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Dans les ataxies cérébelleuses autosomiques récessives (RJ-CS):",
-    "propositions": {
-      "A": "La Frataxine est la protéine déficitaire dans l'ataxie Télangiectasie",
-      "B": "L'Alpha foeto protéine est élevée dans l'ataxie de Friedreich.",
-      "C": "Le tremblement du chef est rare dans l'AVED.",
-      "D": "Aucune surveillance para clinique n'est requise dans l'ataxie télangiectasie.",
-      "E": "Les réponses a+b+c+d sont fausses."
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
+    "note_cle": "Clé complétée (A → AB) : l'allèle E4 est un facteur de risque de forme tardive, non précoce."
   },
   {
     "id": "neuro-540",
@@ -17149,8 +16302,9 @@ window.QCM_NEURO = [
       "E": "(1+3)"
     },
     "bonnes_reponses": [
-      "D"
-    ]
+      "E"
+    ],
+    "note_cle": "Clé corrigée (D → E) : la diarrhée n'est pas un signe de tumeur cérébrale ; seule la combinaison (1+3) est entièrement exacte."
   },
   {
     "id": "neuro-541",
@@ -17180,7 +16334,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
+    ],
+    "note_cle": "Énoncé tronqué ; clé du PDF conservée."
   },
   {
     "id": "neuro-542",
@@ -17305,36 +16460,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-546",
-    "module": "neurologie",
-    "chapitre": "Malformations cranio-cervicales",
-    "chapitre_num": 25,
-    "section": "Malformations cranio-cervicales",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q36 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q36 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "L'impression basilaire se traduit cliniquement par (RF-CS):",
-    "propositions": {
-      "A": "Un cou court.",
-      "B": "Un torticolis à répétition.",
-      "C": "Des troubles de la sensibilité proprioceptive comme signes révélateurs.",
-      "D": "Un syndrome pyramidal aux quatre membres.",
-      "E": "Une atteinte des nerfs mixtes"
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
-  },
-  {
     "id": "neuro-547",
     "module": "neurologie",
     "chapitre": "Malformations cranio-cervicales",
@@ -17393,36 +16518,6 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "B",
       "E"
-    ]
-  },
-  {
-    "id": "neuro-549",
-    "module": "neurologie",
-    "chapitre": "Myasthénie",
-    "chapitre_num": 3,
-    "section": "Myasthénie",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q39 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q39 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Le traitement médicamenteux de la myasthénie peut faire appel à ces traitements sauf: RF-CS",
-    "propositions": {
-      "A": "Des vasodilatateurs artériolaires",
-      "B": "La plasmaphérése",
-      "C": "Des corticoides",
-      "D": "Des anticholinésterasiques",
-      "E": "Des immunosuppresseurs"
-    },
-    "bonnes_reponses": [
-      "A"
     ]
   },
   {
@@ -17486,36 +16581,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-552",
-    "module": "neurologie",
-    "chapitre": "Épilepsies",
-    "chapitre_num": 18,
-    "section": "Épilepsies",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q42 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q42 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "L'algie vasculaire de la face (RF-CS) :",
-    "propositions": {
-      "A": "Est la plus douloureuse des céphalées primaires",
-      "B": "La durée de la crise est de plusieurs jours",
-      "C": "Touche l'adulte jeune de sexe masculin",
-      "D": "S'accompagne d'un syndrome de Claude Bernard Horner",
-      "E": "Ne répond pas aux antalgiques habituels"
-    },
-    "bonnes_reponses": [
-      "B"
-    ]
-  },
-  {
     "id": "neuro-553",
     "module": "neurologie",
     "chapitre": "Épilepsies",
@@ -17572,38 +16637,6 @@ window.QCM_NEURO = [
       "E": "Toutes ces réponses sont justes"
     },
     "bonnes_reponses": [
-      "D"
-    ]
-  },
-  {
-    "id": "neuro-555",
-    "module": "neurologie",
-    "chapitre": "Myopathies inflammatoires",
-    "chapitre_num": 17,
-    "section": "Myopathies inflammatoires",
-    "source": {
-      "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q45 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q45 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La dermatomyosite se caractérise par RJ-CM:",
-    "propositions": {
-      "A": "Un déficit moteur proximal bilatéral et toujours asymétrique.",
-      "B": "Des fasciculations.",
-      "C": "Des myalgies.",
-      "D": "La présence de papules de gottron",
-      "E": "Une association possible a une atteinte cardiaque qui doit être dépistée systématiquement"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
       "D"
     ]
   },
@@ -17837,6 +16870,11 @@ window.QCM_NEURO = [
         "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q53 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q26 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "La craniosténose par atteinte des sutures lambdoïdes est caractérisées par: RF-CS",
@@ -17939,7 +16977,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "A"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée."
   },
   {
     "id": "neuro-567",
@@ -18030,7 +17069,8 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "B",
       "C"
-    ]
+    ],
+    "note_cle": "Énoncé et propositions tronqués ; clé du PDF conservée, à confirmer."
   },
   {
     "id": "neuro-570",
@@ -18123,36 +17163,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-573",
-    "module": "neurologie",
-    "chapitre": "Sclérose latérale amyotrophique (SLA)",
-    "chapitre_num": 12,
-    "section": "Sclérose latérale amyotrophique (SLA)",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q3 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q3 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La maladie de Charcot (SLA) RF- CS",
-    "propositions": {
-      "A": "Se manifeste cliniquement par un syndrome neurogène périphérique suite à une atteinte du motoneurone périphérique",
-      "B": "L'âge de début se situe entre 50 et 60 ans avec une forme précoce avant 45 ans",
-      "C": "Se manifeste cliniquement par un syndrome pyramidal aux 4 membres avec abolition des réflexes cutané- abdominaux",
-      "D": "La SLA probable selon les critères diagnostic d'Awaji s'il y'a atteinte des deux étages sur trois",
-      "E": "A l'heure actuelle il n'existe pas un traitement curatif"
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
-  },
-  {
     "id": "neuro-574",
     "module": "neurologie",
     "chapitre": "Syndrome de Guillain-Barré (SGB)",
@@ -18211,11 +17221,13 @@ window.QCM_NEURO = [
       "E": "Hypotension orthostatique."
     },
     "bonnes_reponses": [
+      "A",
       "B",
       "C",
       "D",
       "E"
-    ]
+    ],
+    "note_cle": "Clé complétée (BCDE → ABCDE) : l'ophtalmoplégie douloureuse (paralysie du III) est aussi une complication classique du diabète."
   },
   {
     "id": "neuro-576",
@@ -18308,7 +17320,8 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "A",
       "E"
-    ]
+    ],
+    "note_cle": "Clé divergente avec d'autres épreuves (ADE) sur la proposition D."
   },
   {
     "id": "neuro-579",
@@ -18326,6 +17339,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P4 (2023-2024) - Q9 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Théorique Neurologie Alger P3 (Théorie 2024) - Q7 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "sur l'IRM d'une Hypertension intracrânienne idiopathique on peut retrouver RJ-CM",
@@ -18340,7 +17358,8 @@ window.QCM_NEURO = [
       "C",
       "D",
       "E"
-    ]
+    ],
+    "note_cle": "Clé divergente entre deux épreuves (CE et CDE) ; l'aplatissement de la partie postérieure du globe oculaire est un signe IRM classique de l'hypertension intracrânienne idiopathique."
   },
   {
     "id": "neuro-580",
@@ -18523,158 +17542,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-586",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q16 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q16 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les drapeaux rouges dans la maladie de Parkinson (RF-CS",
-    "propositions": {
-      "A": "Atteinte bulbaire précoce",
-      "B": "Evolution rapide des troubles de la marche",
-      "C": "Syndrome pyramidal inexpliqué",
-      "D": "Bradykinésie",
-      "E": "Syndrome parkinsonien bilatéral d'emblée"
-    },
-    "bonnes_reponses": [
-      "D"
-    ]
-  },
-  {
-    "id": "neuro-587",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q17 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q17 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les noyaux gris centraux (NGC):(RJ-CS",
-    "propositions": {
-      "A": "Striatum et pallidum",
-      "B": "Noyau subthalamique et substance noire",
-      "C": "Noyau subthalamique et corps calleux",
-      "D": "A+B",
-      "E": "Substance noire, corps calleux et striatum"
-    },
-    "bonnes_reponses": [
-      "D"
-    ]
-  },
-  {
-    "id": "neuro-588",
-    "module": "neurologie",
-    "chapitre": "Démences",
-    "chapitre_num": 9,
-    "section": "Démences",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q18 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q18 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La maladie d'Alzheimer (RJ-CM:",
-    "propositions": {
-      "A": "Débute par une amnésie antérograde",
-      "B": "Altère en premier la mémoire sémantique puis la mémoire épisodique.",
-      "C": "Peut s'associer à une démence vasculaire",
-      "D": "Est une démence dégénérative",
-      "E": "Le plus souvent familiale"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ]
-  },
-  {
-    "id": "neuro-589",
-    "module": "neurologie",
-    "chapitre": "Démences",
-    "chapitre_num": 9,
-    "section": "Démences",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q19 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q19 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Dans la maladie d'Alzheimer, l'envahissement histopathologique du tissu cérébral s'effectue selon la\nchronologie suivante (RJ-CS:",
-    "propositions": {
-      "A": "Cortex orbitofrontal, Cortex temporal médian, cortex pariétal",
-      "B": "Région hippocampique, cortex temporal antérieur, cortex temporal inférieur puis",
-      "C": "Cortex temporal antérieur puis inférieur et médian.",
-      "D": "Cortex pariétal, Cortex orbito frontal, hippocampes",
-      "E": "Cortex occipital, Cortex pariétal, Cortex orbito frontal"
-    },
-    "bonnes_reponses": [
-      "B"
-    ]
-  },
-  {
-    "id": "neuro-590",
-    "module": "neurologie",
-    "chapitre": "Ataxies cérébelleuses et héréditaires",
-    "chapitre_num": 11,
-    "section": "Ataxies cérébelleuses et héréditaires",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q20 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q20 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "L'ataxie par déficit en vitamine E (AVED) (RF-CS)",
-    "propositions": {
-      "A": "Est due à un déficit de la protéine de transport de l'Alpha Tocopherol.",
-      "B": "Réalise un tableau dit «< Friedreich like >> curable.",
-      "C": "La neuropathie sensitive y est fréquente.",
-      "D": "Les potentiels évoqués somesthésiques y sont très altérés.",
-      "E": "Fait partie des ataxies cérébelleuses autosomiques récessives."
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
-  },
-  {
     "id": "neuro-591",
     "module": "neurologie",
     "chapitre": "Tumeurs cérébrales",
@@ -18701,8 +17568,9 @@ window.QCM_NEURO = [
       "E": "2+3)"
     },
     "bonnes_reponses": [
-      "C"
-    ]
+      "E"
+    ],
+    "note_cle": "Clé corrigée (C → E) : même question que `neuro-493` ; la combinaison contenant la proposition fausse (2) est (2+3)."
   },
   {
     "id": "neuro-592",
@@ -18823,7 +17691,8 @@ window.QCM_NEURO = [
     "bonnes_reponses": [
       "B",
       "C"
-    ]
+    ],
+    "note_cle": "Question « réponse fausse » ; clé du PDF conservée."
   },
   {
     "id": "neuro-596",
@@ -18883,7 +17752,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Libellé tronqué (« sauf » manquant) ; clé du PDF conservée."
   },
   {
     "id": "neuro-598",
@@ -19145,6 +18015,11 @@ window.QCM_NEURO = [
         "texte": "Examen Neurologie Alger P4 (2023-2024) - Q36 (Recommandé pour Mostaganem 4A)",
         "type": "EMD",
         "annee": "2024"
+      },
+      {
+        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q30 (Recommandé pour Mostaganem 4A)",
+        "type": "EMD",
+        "annee": "2024"
       }
     ],
     "question": "Les signes cliniques associés à la maladie CMT sont (RJ-CS:",
@@ -19187,7 +18062,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "C"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; la proposition D est contradictoire avec C."
   },
   {
     "id": "neuro-608",
@@ -19244,36 +18120,6 @@ window.QCM_NEURO = [
       "C": "- Interaction médicamenteuse.",
       "D": "-Suspicion de surdosage.",
       "E": "- Nécessité d'une bithérapie."
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-610",
-    "module": "neurologie",
-    "chapitre": "Ataxies cérébelleuses et héréditaires",
-    "chapitre_num": 11,
-    "section": "Ataxies cérébelleuses et héréditaires",
-    "source": {
-      "texte": "Examen Neurologie Alger P4 (2023-2024) - Q40 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P4 (2023-2024) - Q40 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Dans les ataxies cérébelleuses autosomiques récessives RJ-CS:",
-    "propositions": {
-      "A": "La Frataxine est la protéine déficitaire dans l'ataxie Télangiectasie.",
-      "B": "L'Alpha foeto protéine est élevée dans l'ataxie de Friedreich.",
-      "C": "Le tremblement du chef est rare dans l'AVED.",
-      "D": "Aucune surveillance para clinique n'est requise dans l'ataxie télangiectasie.",
-      "E": "Les réponses a+b+c+d sont fausses."
     },
     "bonnes_reponses": [
       "E"
@@ -19497,7 +18343,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "B"
-    ]
+    ],
+    "note_cle": "Clé divergente avec `neuro-485` (thrombose veineuse) ; dissection, anévrysme et thrombose sont toutes possibles."
   },
   {
     "id": "neuro-618",
@@ -19560,36 +18407,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-620",
-    "module": "neurologie",
-    "chapitre": "Dystrophies musculaires progressives (DMP)",
-    "chapitre_num": 16,
-    "section": "Dystrophies musculaires progressives (DMP)",
-    "source": {
-      "texte": "Examen Neurologie Alger P6 (2023-2024) - Q10 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q10 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Dans la maladie de Duchenne, l'atteinte cardiaque : (RJ)",
-    "propositions": {
-      "A": "Est exceptionnelle",
-      "B": "Est fréquente",
-      "C": "Ne survient jamais",
-      "D": "Est quasi constante",
-      "E": "Est rare"
-    },
-    "bonnes_reponses": [
-      "D"
-    ]
-  },
-  {
     "id": "neuro-621",
     "module": "neurologie",
     "chapitre": "Démences",
@@ -19614,36 +18431,6 @@ window.QCM_NEURO = [
       "C": "La détection des femmes transmettrices",
       "D": "De confirmer le diagnostic de la maladie du Duchenne",
       "E": "Les réponses A, B et C sont justes"
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
-  },
-  {
-    "id": "neuro-622",
-    "module": "neurologie",
-    "chapitre": "Maladie de Parkinson et syndromes parkinsoniens",
-    "chapitre_num": 6,
-    "section": "Maladie de Parkinson et syndromes parkinsoniens",
-    "source": {
-      "texte": "Examen Neurologie Alger P6 (2023-2024) - Q12 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q12 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les symptômes non moteurs de la maladie de Parkinson précédant de plusieurs années la survenue de la\nsymptomatologie parkinsonienne motrice sont : (RJ)",
-    "propositions": {
-      "A": "Troubles de l'olfaction",
-      "B": "Constipation",
-      "C": "Troubles du comportement en sommeil paradoxal",
-      "D": "Dépression, Anxiété",
-      "E": "ABCD"
     },
     "bonnes_reponses": [
       "E"
@@ -19736,38 +18523,10 @@ window.QCM_NEURO = [
       "E": "N'influence pas l'évolution de la maladie d'Alzheimer"
     },
     "bonnes_reponses": [
-      "A"
-    ]
-  },
-  {
-    "id": "neuro-626",
-    "module": "neurologie",
-    "chapitre": "Ataxies cérébelleuses et héréditaires",
-    "chapitre_num": 11,
-    "section": "Ataxies cérébelleuses et héréditaires",
-    "source": {
-      "texte": "Examen Neurologie Alger P6 (2023-2024) - Q16 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q16 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
+      "A",
+      "B"
     ],
-    "question": "L'ataxie par déficit en vitamine E (AVED) (RF)",
-    "propositions": {
-      "A": "Est due à un déficit de la protéine de transport de l'Alpha Tocopherol.",
-      "B": "Réalise un tableau dit « Friedreich like » curable.",
-      "C": "La neuropathie sensitive y est fréquente.",
-      "D": "Les potentiels évoqués somesthésiques y sont très altérés.",
-      "E": "Fait partie des ataxies cérébelleuses autosomiques récessives."
-    },
-    "bonnes_reponses": [
-      "C"
-    ]
+    "note_cle": "Clé complétée (A → AB) : l'allèle E4 est un facteur de risque de forme tardive."
   },
   {
     "id": "neuro-627",
@@ -19976,10 +18735,11 @@ window.QCM_NEURO = [
       "E": "Une association possible a une atteinte cardiaque qui doit être dépistée systématiquement."
     },
     "bonnes_reponses": [
-      "B",
       "C",
-      "D"
-    ]
+      "D",
+      "E"
+    ],
+    "note_cle": "Clé corrigée (BCD → CDE) : la dermatomyosite donne un déficit proximal bilatéral et symétrique, des myalgies, des papules de Gottron et une atteinte cardiaque possible ; les fasciculations ne font pas partie du tableau."
   },
   {
     "id": "neuro-634",
@@ -20039,36 +18799,6 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "B"
-    ]
-  },
-  {
-    "id": "neuro-636",
-    "module": "neurologie",
-    "chapitre": "Craniosténoses",
-    "chapitre_num": 26,
-    "section": "Craniosténoses",
-    "source": {
-      "texte": "Examen Neurologie Alger P6 (2023-2024) - Q26 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q26 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "La craniosténose par atteinte des sutures lambdoïdes est caractérisées par : RF",
-    "propositions": {
-      "A": "Elles sont très rares.",
-      "B": "La synostose d'une lambdoïde entraîne un aplatissement parieto-occipital",
-      "C": "Entraine également une exagération de la bosse pariétale controlatérale.",
-      "D": "Entraine également une exagération de la bosse pariétale homolatérale",
-      "E": "L'atteinte bilambdoïde aplatit tout le pôle postérieur du crâne"
-    },
-    "bonnes_reponses": [
-      "D"
     ]
   },
   {
@@ -20163,36 +18893,6 @@ window.QCM_NEURO = [
     ]
   },
   {
-    "id": "neuro-640",
-    "module": "neurologie",
-    "chapitre": "Neuropathies périphériques",
-    "chapitre_num": 1,
-    "section": "Neuropathies périphériques",
-    "source": {
-      "texte": "Examen Neurologie Alger P6 (2023-2024) - Q30 (Recommandé pour Mostaganem 4A)",
-      "type": "EMD",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Neurologie Alger P6 (2023-2024) - Q30 (Recommandé pour Mostaganem 4A)",
-        "type": "EMD",
-        "annee": "2024"
-      }
-    ],
-    "question": "Les signes cliniques associés à la maladie CMT sont (RJ):",
-    "propositions": {
-      "A": "Anomalies respiratoires par atteinte diaphragmatique",
-      "B": "Surdité",
-      "C": "Atteintes squelettiques (scoliose, arthrogrypose, pieds creux)",
-      "D": ". Anomalies oculaires (atrophie optique)",
-      "E": "Toutes les réponses sont justes"
-    },
-    "bonnes_reponses": [
-      "E"
-    ]
-  },
-  {
     "id": "neuro-641",
     "module": "neurologie",
     "chapitre": "Épilepsies",
@@ -20280,7 +18980,8 @@ window.QCM_NEURO = [
     },
     "bonnes_reponses": [
       "E"
-    ]
+    ],
+    "note_cle": "Clé du PDF conservée ; la paralysie de Todd est transitoire (24 à 48 heures)."
   },
   {
     "id": "neuro-644",

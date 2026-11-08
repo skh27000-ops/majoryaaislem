@@ -1394,42 +1394,6 @@ window.JUSTIFICATIONS_CARDIO = {
     "_synthese": "L'HVG systolique (surcharge de pression) s'observe dans : le rétrécissement aortique, l'HTA, la cardiomyopathie hypertrophique et la coarctation aortique. L'HVG diastolique (surcharge de volume) s'observe dans l'insuffisance mitrale, l'insuffisance aortique et les shunts gauche-droite.",
     "_remarque": "📌 Dans l'insuffisance mitrale, l'HVG s'associe constamment à une hypertrophie atriale gauche (HAG) électrique."
   },
-  "cardio-156": {
-    "A": "Faux. Le flutter à conduction variable (2) donne une tachycardie irrégulière et non régulière.",
-    "B": "Vrai (Corrigé officiel : B). C'est l'association 1+3 : devant une tachycardie RÉGULIÈRE à complexes fins (QRS < 0,12 s), les deux diagnostics majeurs à envisager sont la tachycardie sinusale (1) et la maladie de Bouveret ou tachycardie par réentrée intranodale / jonctionnelle (3).",
-    "C": "Faux. La tachycardie ventriculaire (4) est une tachycardie à complexes LARGES (QRS ≥ 0,12 s).",
-    "D": "Faux. Associe la TV (complexes larges) et la FA (rythme irrégulier).",
-    "E": "Faux. La fibrillation auriculaire (5) donne typiquement une arythmie complète totalement IRRÉGULIÈRE.",
-    "_synthese": "L'analyse d'une tachycardie régulière à complexes QRS fins (QRS < 120 ms) oriente vers : une tachycardie sinusale (onde P visible avant chaque QRS), une tachycardie jonctionnelle par réentrée intranodale ou sur voie accessoire (maladie de Bouveret, début et fin brusques), un flutter auriculaire à conduction AV fixe (2/1 avec ondes F en toit d'usine) ou une tachycardie atriale focale.",
-    "_remarque": "📌 Les manœuvres vagales (massage sinocarotidien, manœuvre de Valsalva) et l'adénosine triphosphate (Striadyne) permettent d'interrompre une réentrée jonctionnelle de Bouveret ou de démasquer les ondes de flutter."
-  },
-  "cardio-157": {
-    "A": "Faux. La spironolactone (épargneur de potassium) est formellement contre-indiquée en cas d'insuffisance rénale sévère (DFG < 30 mL/min) en raison du risque mortel d'hyperkaliémie réfractaire.",
-    "B": "Faux. Les diurétiques thiazidiques perdent leur efficacité lorsque le DFG descend sous 30 mL/min et sont inefficaces dans l'insuffisance rénale sévère.",
-    "C": "Vrai (Corrigé officiel : C). Le furosémide (Lasilix) est un diurétique de l'anse de Henle qui conserve son efficacité natriurétique et hémodynamique même en cas d'insuffisance rénale sévère ou terminale (DFG < 30 mL/min), sous réserve d'augmenter les posologies.",
-    "D": "Faux. Les épargneurs de potassium sont contre-indiqués dans l'insuffisance rénale sévère.",
-    "E": "Faux. Les associations contenant des épargneurs de potassium sont formellement proscrites par risque d'arrêt cardiaque sur hyperkaliémie.",
-    "_synthese": "En cas d'insuffisance rénale sévère (DFG < 30 mL/min), les diurétiques thiazidiques sont inefficaces et les diurétiques épargneurs de potassium (spironolactone, éplérénone, amiloride) sont contre-indiqués par risque d'hyperkaliémie létale. Seuls les diurétiques de l'anse (furosémide, bumétanide) restent efficaces et utilisables à fortes doses.",
-    "_remarque": "📌 Dans l'insuffisance rénale avancée, des doses élevées de furosémide (125 à 500 mg/j par voie IV ou per os) sont souvent requises pour induire une diurèse efficace."
-  },
-  "cardio-158": {
-    "A": "Faux. La mesure doit être effectuée à distance des repas pour éviter les variations tensionnelles post-prandiales (hypotension post-prandiale).",
-    "B": "Faux. Un repos préalable de 3 à 5 minutes en position assise au calme sans parler est obligatoire.",
-    "C": "Faux. La taille de la manchette du brassard doit être parfaitement adaptée à la circonférence du bras (un brassard trop petit sous-estime la circonférence et surestime artificiellement la PA).",
-    "D": "Faux. La mesure doit être réalisée à distance de la prise de tabac, de café ou d'exercice physique (> 30 minutes).",
-    "E": "Vrai (Corrigé officiel : E). C'est la réponse fausse : selon les recommandations internationales validées (ESC/ESH), la mesure de référence de la pression artérielle au cabinet médical doit être effectuée en POSITION ASSISE (le dos appuyé et le bras reposant à hauteur du cœur), et non couché ou debout. La mesure debout n'est réalisée que pour rechercher une hypotension orthostatique.",
-    "_synthese": "Les règles d'or de la mesure tensionnelle validée en consultation : patient assis au calme depuis au moins 3 à 5 minutes, sans parler, bras dénudé posé sur une table à hauteur du cœur, brassard adapté à la morphologie du bras, vessie vide, à distance de tout toxique (café, tabac) et de repas. La mesure debout recherche une hypotension orthostatique.",
-    "_remarque": "📌 Au moins deux mesures consécutives espacées d'une minute doivent être effectuées et moyennées à chaque consultation."
-  },
-  "cardio-159": {
-    "A": "Faux. La FA est l'arythmie cardiaque soutenue la plus fréquente en pratique clinique, sa prévalence augmentant exponentiellement avec l'âge (plus de 10 % au-delà de 80 ans).",
-    "B": "Faux. Le substrat électrophysiologique de la FA repose sur des micro-réentrées auriculaires multiples au sein d'oreillettes dilatées et remaniées par la fibrose interstitielle.",
-    "C": "Vrai (Corrigé officiel : C). C'est la proposition fausse à cocher : la fibrillation atriale se caractérise par une activité auriculaire désorganisée et anarchique transmise de façon aléatoire aux ventricules par le nœud AV, aboutissant à une cadence ventriculaire totalement IRRÉGULIÈRE (« arythmie complète » par fibrillation atriale). Un rythme rapide et régulier élimine une FA.",
-    "D": "Faux. La stase sanguine dans l'auricule gauche secondaire à la perte de contractilité auriculaire expose à un risque majeur de formation de thrombus mural et d'AVC embolique.",
-    "E": "Faux. La tachyarythmie rapide et la perte du remplissage télédiastolique auriculaire peuvent déclencher une insuffisance cardiaque aiguë ou un OAP.",
-    "_synthese": "La fibrillation atriale (FA) se définit à l'ECG par la disparition des ondes P remplacées par une trémulation anarchique de la ligne isoélectrique (ondes f à 400-600/min) et une réponse ventriculaire typiquement IRRÉGULIÈRE. Le risque thromboembolique cérébral impose le calcul systématique du score CHA2DS2-VASc.",
-    "_remarque": "📌 Un rythme régulier chez un patient en FA doit immédiatement faire suspecter un BAV complet avec échappement jonctionnel régulier (souvent secondaire à un surdosage digitalique ou médicamenteux)."
-  },
   "cardio-160": {
     "A": "Faux. Une surface valvulaire aortique (SVA) inférieure à 1,0 cm² définit un rétrécissement aortique serré selon les recommandations internationales.",
     "B": "Faux. Une surface indexée à la surface corporelle inférieure à 0,6 cm²/m² est le critère d'indexation validé de sténose aortique serrée.",
@@ -1438,15 +1402,6 @@ window.JUSTIFICATIONS_CARDIO = {
     "E": "Vrai (Corrigé officiel : E). C'est la proposition fausse à cocher : le patient porteur d'un RAO serré N'EST PAS TOUJOURS symptomatique ; il existe une longue phase de latence asymptomatique au cours de laquelle le VG compense l'obstacle éjectionnel par une hypertrophie concentrique.",
     "_synthese": "Le rétrécissement aortique serré est défini par une surface aortique < 1,0 cm² (ou < 0,6 cm²/m²), un gradient moyen > 40 mmHg et une vitesse maximale > 4 m/s. Il peut rester totalement asymptomatique pendant des années. Dès l'apparition des symptômes (angor, syncope, dyspnée), le pronostic s'assombrit brutalement.",
     "_remarque": "📌 Chez les patients porteurs d'un RAO serré prétendant être asymptomatiques, une épreuve d'effort sous surveillance médicale étroite permet de démasquer de faux asymptomatiques dans près d'un tiers des cas."
-  },
-  "cardio-161": {
-    "A": "Faux. L'inobservance du traitement médicamenteux et les écarts de régime hydrosodé sont des facteurs déclenchants non cardiaques classiques très fréquents.",
-    "B": "Faux. L'anémie aiguë ou chronique est un facteur non cardiaque extracardiaque diminuant le transport d'oxygène et augmentant le débit cardiaque de compensation.",
-    "C": "Vrai (Corrigé officiel : C). C'est la réponse à cocher : la présence d'une valvulopathie (ex. fuite mitrale ou rétrécissement aortique) est une cause ou un facteur déclenchant purement CARDIAQUE intrinsèque, et non un facteur extracardiaque.",
-    "D": "Faux. La fièvre augmente le métabolisme de base et la fréquence cardiaque, constituant un facteur d'aggravation extracardiaque.",
-    "E": "Faux. L'hyperthyroïdie est une affection endocrinienne extracardiaque induisant tachycardie et augmentation du débit cardiaque.",
-    "_synthese": "Les facteurs de décompensation de l'insuffisance cardiaque se divisent en facteurs cardiaques (ischémie myocardique, arythmies comme la FA, valvulopathies primitives ou secondaires) et facteurs non cardiaques (inobservance, excès d'apport sodé, surinfections bronchopulmonaires, anémie, fièvre, dysthyroïdie, prise d'AINS ou toxiques).",
-    "_remarque": "📌 La recherche systématique et le traitement rapide du facteur déclenchant de décompensation sont indispensables lors de toute hospitalisation pour insuffisance cardiaque."
   },
   "cardio-162": {
     "A": "Faux. Le complexe QRS représente la dépolarisation électrique synchronisée des deux ventricules cardiaques.",
@@ -2499,15 +2454,6 @@ window.JUSTIFICATIONS_CARDIO = {
     "_synthese": "Les classes thérapeutiques diminuant la morbi-mortalité dans l'insuffisance cardiaque à FEVG réduite sont les bloqueurs du SRAA (ARNI ou IEC), les bêtabloquants, les anti-aldostérones et les inhibiteurs du SGLT2.",
     "_remarque": "📌 L'introduction des anti-aldostérones impose une surveillance stricte de la kaliémie et de la créatininémie à J7, J14, M1 puis trimestrielle."
   },
-  "cardio-279": {
-    "A": "Faux. Les AOD ont un délai d'action rapide avec pic d'activité atteint en 2 à 4 heures.",
-    "B": "Faux. Le rivaroxaban et l'apixaban peuvent être initiés d'emblée sans héparine préalable dans la TVP et l'embolie pulmonaire.",
-    "C": "Faux. Les AOD ne présentent aucune interaction significative avec les aliments.",
-    "D": "Vrai (Corrigé officiel : D). C'est la réponse fausse à cocher : les AOD (anti-Xa ou antithrombine) se caractérisent par une posologie fixe et une pharmacocinétique très prévisible qui NE NÉCESSITENT AUCUN CONTRÔLE SYSTÉMATIQUE DE L'ACTIVITÉ ANTI-XA en pratique clinique courante.",
-    "E": "Faux. Les AOD présentent beaucoup moins d'interactions médicamenteuses que les AVK.",
-    "_synthese": "Les anticoagulants oraux directs (AOD) ne requièrent aucune surveillance biologique d'hémostase de routine. Le dosage de l'activité anti-Xa spécifique AOD n'est réservé qu'aux situations d'urgence (hémorragie grave, chirurgie urgente, suspicion de surdosage).",
-    "_remarque": "📌 La fonction rénale (clairance de la créatinine selon Cockcroft-Gault) doit être vérifiée au moins une fois par an sous AOD."
-  },
   "cardio-280": {
     "A": "Faux. Le score CHA2DS2-VASc évalue le risque thromboembolique cérébral spécifiquement dans la fibrillation atriale.",
     "B": "Faux. Le score HAS-BLED évalue le risque hémorragique sous traitement anticoagulant.",
@@ -3236,15 +3182,6 @@ window.JUSTIFICATIONS_CARDIO = {
     "E": "Faux. Dérivations postérieures.",
     "_synthese": "L'infarctus du myocarde latéral direct s'inscrit en D1, aVL, V5 et V6. Les images en miroir (signes indirects de sous-décalage) sont classiquement visibles dans les dérivations inférieures D2, D3, aVF.",
     "_remarque": "📌 L'artère coronaire responsable d'un infarctus latéral est l'artère circonflexe ou une branche diagonale de l'IVA."
-  },
-  "cardio-361": {
-    "A": "Vrai (Corrigé officiel : A). L'auscultation d'un souffle d'insuffisance aortique (souffle diastolique doux, humé, à haute fréquence) est optimale avec la membrane du stéthoscope chez un patient ASSIS PENCHÉ EN AVANT et en EXPIRATION FORCÉE, ce qui rapproche l'orifice aortique de la paroi thoracique antérieure et supprime l'interposition aérique pulmonaire.",
-    "B": "Faux. Le décubitus latéral gauche est la position d'élection pour ausculter le roulement mitral ou un galop B3.",
-    "C": "Faux. L'inspiration forcée majore les souffles du cœur droit (Rivero-Carvallo) et atténue les souffles aortiques.",
-    "D": "Faux. Le décubitus dorsal simple éloigne l'orifice aortique de la paroi thoracique.",
-    "E": "Faux. L'inspiration forcée est inadaptée pour l'auscultation de l'orifice aortique gauche.",
-    "_synthese": "La position d'auscultation de référence pour détecter une régurgitation aortique est le patient assis, le buste penché en avant, stéthoscope appliqué au 3ème espace intercostal gauche le long du sternum (foyer d'Erb), en expiration complète bloquée.",
-    "_remarque": "📌 Cette manœuvre est indispensable pour ne pas méconnaître un souffle diastolique débutant ou de faible intensité."
   },
   "cardio-362": {
     "A": "Faux. Claudication < 150 m correspond au stade IIb de Fontaine.",

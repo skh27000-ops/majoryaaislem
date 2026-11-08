@@ -2120,7 +2120,7 @@ window.QCM_GASTRO = [
       "E": "Le ténofovir est le traitement de référence contre l'hépatite C"
     },
     "bonnes_reponses": [
-      "B",
+      "C",
       "D"
     ],
     "explication": "Le traitement actuel de l'hépatite C repose sur les antiviraux à action directe (AAD) pan-génotypiques (Sofosbuvir/Velpatasvir, Glécaprévir/Pibrentasvir), administrés par voie orale pendant 8 à 12 semaines avec un taux de guérison virologique supérieure à 98%. (Note officielle EMD 22/23 : clé BD). En réalité épidémiologique, le vaccin n'existe pas, et le ténofovir est un traitement du VHB.",
@@ -2132,7 +2132,8 @@ window.QCM_GASTRO = [
       "E": "Faux. Le Ténofovir est un analogue nucléotidique actif sur le virus de l'hépatite B et le VIH, totalement inactif sur le VHC.",
       "_synthese": "Traitement de l'hépatite C : Antiviraux à action directe (AAD) oraux, bien tolérés, pangénotypiques, durée 8 à 12 semaines. Guérison virologique (RVS12) > 98%.",
       "_remarque": "L'objectif du traitement du VHC est l'obtention d'une Réponse Virologique Soutenue (ARN VHC indétectable 12 semaines après la fin du traitement)."
-    }
+    },
+    "note_cle": "Clé corrigée (BD → CD) : l'hépatite C évolue vers la chronicité dans environ 80 % des cas (la proposition B est fausse) ; il n'existe aucun vaccin contre le VHC."
   },
   {
     "id": "gastro-052",
@@ -3818,6 +3819,7 @@ window.QCM_GASTRO = [
     },
     "bonnes_reponses": [
       "A",
+      "C",
       "D"
     ],
     "explication": "Le potentiel de cancérisation d'un polype adénomateux augmente considérablement en présence d'une dysplasie de haut grade, d'une composante villeuse (et non purement tubuleuse), de polypes multiples et d'une grande taille (> 1 cm). Selon le corrigé facultaire officiel EMD 21/22, les items retenus sont A et D. Les polypes hyperplasiques distaux n'ont pas de potentiel malin.",
@@ -3829,7 +3831,8 @@ window.QCM_GASTRO = [
       "E": "Faux. Les polypes hyperplasiques banals sont bénins sans potentiel de dégénérescence.",
       "_synthese": "Critères de polype adénomateux avancé : Taille ≥ 10 mm, composante villeuse ≥ 25%, ou présence d'une dysplasie de haut grade.",
       "_remarque": "L'exérèse endoscopique complète de tout polype adénomateux permet de prévenir efficacement l'apparition du cancer colorectal."
-    }
+    },
+    "note_cle": "Clé complétée (AD → ACD) : un polype de plus de 1 cm est un facteur de risque de transformation en cancer."
   },
   {
     "id": "gastro-093",

@@ -3,8 +3,7 @@
 // Faculté de Médecine de Mostaganem - Évaluation officielle
 // 80 QCMs analysés choix par choix (A-E)
 // ==============================================================================
-window.JUSTIFICATIONS_INFECTIEUX = window.JUSTIFICATIONS_INFECTIEUX || {};
-Object.assign(window.JUSTIFICATIONS_INFECTIEUX, {
+window.JUSTIFICATIONS_INFECTIEUX = {
   "infectieux-001": {
     "A": "Vrai. Toxi-infection intestinale aiguë provoquée par la toxine de Vibrio cholerae (sérogroupes O1 et O139).",
     "B": "Vrai. Maladie à transmission féco-orale liée au manque d'hygiène hydrique et fécale ('maladie des mains sales').",
@@ -725,4 +724,4 @@ Object.assign(window.JUSTIFICATIONS_INFECTIEUX, {
     "_synthese": "Étiologies des méningites à liquide clair : Virales (Entérovirus, HSV, VZV, VIH, oreillons), Bactériennes subaiguës (Tuberculose, Brucellose, Syphilis, Leptospirose, Listériose), Fongiques (Cryptococcose).",
     "_remarque": "Signe biologique discriminant majeur : La glycorachie normale oriente vers une cause virale bénigne ; l'hypoglycorachie franche (LCS/sang < 0.4) impose de suspecter en urgence la tuberculose, la listériose ou une méningite mycosique."
   }
-});
+};

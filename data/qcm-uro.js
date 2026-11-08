@@ -2380,6 +2380,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie (05/05/2024)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
       }
     ],
     "faculty": "Mostaganem",
@@ -2498,11 +2504,18 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie (05/05/2024)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
       }
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (ABCDE et ADE). Toutes les situations citées justifient l'hospitalisation d'une colique néphrétique."
   },
   {
     "id": "uro-066",
@@ -2736,6 +2749,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie (05/05/2024)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
       }
     ],
     "faculty": "Mostaganem",
@@ -4317,7 +4336,8 @@ window.QCM_URO = [
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé du PDF conservée (ABE) ; l'acidose sévère réfractaire est classiquement une indication."
   },
   {
     "id": "uro-113",
@@ -4336,7 +4356,8 @@ window.QCM_URO = [
     },
     "bonnes_reponses": [
       "A",
-      "B"
+      "B",
+      "C"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : A, B. Selon le corrigé officiel de Mostaganem : A, B. Le syndrome néphrétique aigu associe d'installation brutale un tableau glomérulaire complet : hématurie macroscopique, protéinurie, HTA et insuffisance rénale aiguë (et non chronique). Il complique typiquement une glomérulonéphrite aiguë post-infectieuse (post-streptococcique).",
     "source": {
@@ -4355,7 +4376,8 @@ window.QCM_URO = [
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé complétée (AB → ABC) : l'oligo-anurie et l'HTA font partie du syndrome néphritique aigu."
   },
   {
     "id": "uro-114",
@@ -5035,6 +5057,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (28/06/2018)"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
       }
     ],
     "faculty": "Mostaganem",
@@ -5741,6 +5769,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine de Mostaganem - Examen Rattrapage Uro-Néphrologie 5e Année (11/10/2018)"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)"
       }
     ],
     "faculty": "Mostaganem",
@@ -5855,6 +5889,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine de Mostaganem - Examen Rattrapage Uro-Néphrologie 5e Année (11/10/2018)"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)"
       }
     ],
     "faculty": "Mostaganem",
@@ -6545,6 +6585,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine de Mostaganem - Examen Rattrapage Uro-Néphrologie 5e Année (11/10/2018)"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
       }
     ],
     "faculty": "Mostaganem",
@@ -8054,43 +8100,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-210",
-    "num": 210,
-    "module": "uro",
-    "chapitre": "Insuffisance rénale aiguë (IRA)",
-    "chapitre_num": 13,
-    "section": "Insuffisance rénale aiguë (IRA)",
-    "question": "Parmi les signes suivants, lesquels sont évocateurs d'une insuffisance rénale aigue fonctionnelle ?\n1- Cardiomyopathie avec fraction d'éjection basse\n2- L'existence d'un pli cutané\n3- Une rétinopathie hypertensive au FO\n4- La diminution de taille des reins\n5- Saignements importants",
-    "propositions": {
-      "A": "1-3-4",
-      "B": "1-2-4",
-      "C": "3-4-5",
-      "D": "2-3-4",
-      "E": "1-2-5"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : E. L'IRA fonctionnelle est liée à une hypoperfusion rénale : par hypovolémie vraie (déshydratation avec pli cutané [2], hémorragie/saignements [5]) ou par hypovolémie efficace (insuffisance cardiaque sévère [1]). La rétinopathie hypertensive et les petits reins orientent vers une atteinte chronique.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
-      }
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "uro-211",
     "num": 211,
     "module": "uro",
@@ -8125,7 +8134,8 @@ window.QCM_URO = [
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé du PDF conservée."
   },
   {
     "id": "uro-212",
@@ -8296,45 +8306,6 @@ window.QCM_URO = [
       "C"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : A, B, C. Sont radio-opaques à l'ASP : les calculs de phosphate de calcium (très opaques), d'oxalate de calcium (très opaques) et de cystine (faiblement radio-opaques) (A, B, C). Les calculs d'acide urique et médicamenteux (indinavir) sont radiotransparents.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
-      }
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "uro-217",
-    "num": 217,
-    "module": "uro",
-    "chapitre": "TD : Colique néphrétique",
-    "chapitre_num": 26,
-    "section": "TD : Colique néphrétique",
-    "question": "Les indications d'hospitalisation d'une colique néphrétique (CN) sont :",
-    "propositions": {
-      "A": "CN fébrile.",
-      "B": "CN sur rein unique fonctionnel ou anatomique.",
-      "C": "CN sur rein transplanté.",
-      "D": "CN hyperalgique.",
-      "E": "CN anurique."
-    },
-    "bonnes_reponses": [
-      "A",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : A, D, E. Selon la grille officielle de Mostaganem (Dr. Belgaid) : A, D, E. La CN fébrile (urgence urologique de dérivation), la CN hyperalgique réfractaire aux antalgiques IV et la CN anurique imposent formellement l'hospitalisation en urgence.",
     "source": {
       "annee": 2021,
       "session": "Normale",
@@ -8964,45 +8935,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-234",
-    "num": 234,
-    "module": "uro",
-    "chapitre": "Cancer de la prostate",
-    "chapitre_num": 1,
-    "section": "Cancer de la prostate",
-    "question": "Les facteurs de risque du cancer de la prostate :",
-    "propositions": {
-      "A": "Obésité",
-      "B": "Facteurs hormonaux (androgènes)",
-      "C": "L'adénome de la prostate",
-      "D": "La circoncision",
-      "E": "Facteurs génétiques (mutation du gène KLF 6)"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine de Mostaganem : A, B, E. Selon le corrigé officiel de Mostaganem (Dr. Belgaid) : A, B, E. L'imprégnation androgénique, les anomalies génétiques/familiales et le syndrome métabolique/obésité sont associés au cancer de la prostate. L'HBP n'est pas un facteur de risque de cancer.",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine de Mostaganem - Examen Uro-Néphrologie 5e Année (20/06/2021)"
-      }
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "uro-235",
     "num": 235,
     "module": "uro",
@@ -9186,6 +9118,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2019/2020 (19/12/2019)"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
       }
     ],
     "faculty": "Oran",
@@ -10380,6 +10318,18 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2019/2020 (19/12/2019)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
+      },
+      {
+        "annee": 2020,
+        "session": "Rattrapage",
+        "type": "Rattrapage",
+        "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
       }
     ],
     "faculty": "Oran",
@@ -10420,6 +10370,18 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2019/2020 (19/12/2019)"
+      },
+      {
+        "annee": 2020,
+        "session": "Rattrapage",
+        "type": "Rattrapage",
+        "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -10497,6 +10459,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2019/2020 (19/12/2019)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -10577,6 +10545,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2019/2020 (19/12/2019)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -10813,7 +10787,7 @@ window.QCM_URO = [
     "chapitre": "Hypertrophie bénigne de la prostate (HBP)",
     "chapitre_num": 5,
     "section": "Hypertrophie bénigne de la prostate (HBP)",
-    "question": "Quels éléments poussent à une décision chirurgicale chez un patient porteur d'un adénome  prostatique?",
+    "question": "Quels éléments poussent à une décision chirurgicale chez un patient porteur d'un adénome prostatique?",
     "propositions": {
       "A": "L'intensité de la dysurie malgré un traitement bien conduit.",
       "B": "Le volume de l'adénome.",
@@ -11070,6 +11044,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2024,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q05, 23 - 24  sec B)"
       }
     ],
     "faculty": "Oran",
@@ -11223,6 +11203,24 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
       }
     ],
     "faculty": "Oran",
@@ -11307,46 +11305,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-295",
-    "num": 295,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Le diagnostic différentiel d'une hématurie se pose avec : CM",
-    "propositions": {
-      "A": "Une urétrorragie",
-      "B": "Une coloration alimentaire",
-      "C": "Une Urine concentrée",
-      "D": "Une metrorragie",
-      "E": "Une coloration pigmentaire"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, B, D, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une hématurie ».",
-    "source": {
-      "annee": 2020,
-      "session": "Rattrapage",
-      "type": "Rattrapage",
-      "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
-    },
-    "sources": [
-      {
-        "annee": 2020,
-        "session": "Rattrapage",
-        "type": "Rattrapage",
-        "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-296",
     "num": 296,
     "module": "uro",
@@ -11378,6 +11336,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -11430,7 +11394,7 @@ window.QCM_URO = [
     "chapitre": "TD : Les infections urinaires",
     "chapitre_num": 30,
     "section": "TD : Les infections urinaires",
-    "question": "Toutes les propositions suivantes sont exactes concernant le traitement d'une prostatite aiguë, sauf  une, laquelle ?",
+    "question": "Toutes les propositions suivantes sont exactes concernant le traitement d'une prostatite aiguë, sauf une, laquelle ?",
     "propositions": {
       "A": "Prescription d'antibiotiques",
       "B": "Prescription d'antalgiques",
@@ -11454,6 +11418,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2024,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q40, 24 - 25  sec B)"
       }
     ],
     "faculty": "Oran",
@@ -11491,6 +11461,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
       }
     ],
     "faculty": "Oran",
@@ -11612,43 +11588,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-303",
-    "num": 303,
-    "module": "uro",
-    "chapitre": "Rein et grossesse",
-    "chapitre_num": 18,
-    "section": "Rein et grossesse",
-    "question": "Que est le médicament contre indiqué chez une femme enceinte au début du 3eme trimestre qui  présente une colique néphrétique ?",
-    "propositions": {
-      "A": "Les Antispasmodiques",
-      "B": "Le Perfalgan",
-      "C": "La Morphine",
-      "D": "Les Anti-inflammatoires non steroidiens",
-      "E": "Les corticoides"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : D. Question d'annale certifiée portant sur le chapitre « Rein et grossesse ».",
-    "source": {
-      "annee": 2020,
-      "session": "Rattrapage",
-      "type": "Rattrapage",
-      "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
-    },
-    "sources": [
-      {
-        "annee": 2020,
-        "session": "Rattrapage",
-        "type": "Rattrapage",
-        "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-304",
     "num": 304,
     "module": "uro",
@@ -11720,6 +11659,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2024,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q40, 23 - 24  sec B)"
       }
     ],
     "faculty": "Oran",
@@ -12173,6 +12118,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2019/2020 (15/11/2020)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
       }
     ],
     "faculty": "Oran",
@@ -12192,7 +12143,7 @@ window.QCM_URO = [
       "B": "Une courte aplatie.",
       "C": "Débit max inf à 10 ml/s",
       "D": "Temps de miction diminué.",
-      "E": "Temps de miction allongé. "
+      "E": "Temps de miction allongé."
     },
     "bonnes_reponses": [
       "A",
@@ -12555,6 +12506,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
+      },
+      {
+        "annee": 2021,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
       }
     ],
     "faculty": "Oran",
@@ -12606,9 +12563,9 @@ window.QCM_URO = [
     "id": "uro-329",
     "num": 329,
     "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
+    "chapitre": "Tumeurs de la vessie (TV)",
+    "chapitre_num": 9,
+    "section": "Tumeurs de la vessie (TV)",
     "question": "Quelles tumeurs peuvent être à l'origine d'une hématurie initiale?",
     "propositions": {
       "A": "Tumeur colique",
@@ -12914,9 +12871,9 @@ window.QCM_URO = [
     "id": "uro-337",
     "num": 337,
     "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
+    "chapitre": "Tumeurs de la vessie (TV)",
+    "chapitre_num": 9,
+    "section": "Tumeurs de la vessie (TV)",
     "question": "Quelles sont vos hypothèses diagnostiques pour cet épisode qui l'a amené aux urgences ?",
     "propositions": {
       "A": "Rétention aigue d'urines sur hématurie macroscopique caillotante",
@@ -13095,6 +13052,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
       }
     ],
     "faculty": "Oran",
@@ -13209,44 +13172,18 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-345",
-    "num": 345,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
-    "question": "Quels sont parmi les propositions suivantes celles qui correspondent à une anomalie de la jonction urétéro vésicale ?",
-    "propositions": {
-      "A": "Extrophie vésicale.",
-      "B": "Urétérocèle.",
-      "C": "Rein en fer à cheval.",
-      "D": "Rein multi kystique.",
-      "E": "Le reflux vesico-urétéral."
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une anurie obstructive ».",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
-    },
-    "sources": [
+      },
       {
         "annee": 2021,
         "session": "Normale",
         "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -13286,6 +13223,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2020/2021 (08/07/2021)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -13645,9 +13588,9 @@ window.QCM_URO = [
     "id": "uro-356",
     "num": 356,
     "module": "uro",
-    "chapitre": "Cancer de la prostate",
-    "chapitre_num": 1,
-    "section": "Cancer de la prostate",
+    "chapitre": "Incontinence urinaire",
+    "chapitre_num": 6,
+    "section": "Incontinence urinaire",
     "question": "Les facteurs suivants expliquent la survenue de l'incontinence urinaire d'effort :",
     "propositions": {
       "A": "Le relâchement de la musculature périnéale",
@@ -13727,7 +13670,7 @@ window.QCM_URO = [
     "chapitre": "Incontinence urinaire",
     "chapitre_num": 6,
     "section": "Incontinence urinaire",
-    "question": "La correction de la fuite urinaire d'effort par manœuvre de bonney Indique que  :",
+    "question": "La correction de la fuite urinaire d'effort par manœuvre de bonney Indique que :",
     "propositions": {
       "A": "Le traitement médical sera efficace",
       "B": "La bandelette sous urétrale est efficace",
@@ -13948,82 +13891,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-364",
-    "num": 364,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
-    "question": "Quels sont parmi les propositions suivantes celles qui correspondent à une anomalie jonction urétéro vésicale ?",
-    "propositions": {
-      "A": "Extrophie vésicale.",
-      "B": "Urétérocèle",
-      "C": "Rein en fer à cheval",
-      "D": "Rein multi kystique",
-      "E": "Le reflux vesico-urétéral."
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une anurie obstructive ».",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-365",
-    "num": 365,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
-    "question": "Quels sont parmi les propositions suivantes celles qui correspondent à une anomalie de migration rénale?",
-    "propositions": {
-      "A": "Rein pelvien",
-      "B": "Urétérocèle",
-      "C": "Polykystose rénale.",
-      "D": "Rein en éponge",
-      "E": "Rein thoracique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une anurie obstructive ».",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-366",
     "num": 366,
     "module": "uro",
@@ -14057,6 +13924,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -14135,6 +14008,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
+      },
+      {
+        "annee": 2019,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
       }
     ],
     "faculty": "Oran",
@@ -14179,50 +14058,13 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-370",
-    "num": 370,
-    "module": "uro",
-    "chapitre": "Hypertrophie bénigne de la prostate (HBP)",
-    "chapitre_num": 5,
-    "section": "Hypertrophie bénigne de la prostate (HBP)",
-    "question": "Le TURP syndrome : la réponse fausse",
-    "propositions": {
-      "A": "C'est une complication grave de la résection endoscopique, mettant en jeu le pronostic vital",
-      "B": "C'est une urgence diagnostique et thérapeutique.",
-      "C": "La physiopathologie est due à l'effet de l'hyper natrémie.",
-      "D": "La clinique est dominée par des troubles visuels et des céphalées",
-      "E": "Le syndrome hypotension artérielle - bradycardie est un signe d'appel pathognomonique"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : C. Question d'annale certifiée portant sur le chapitre « Hypertrophie bénigne de la prostate (HBP) ».",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-371",
     "num": 371,
     "module": "uro",
     "chapitre": "Hypertrophie bénigne de la prostate (HBP)",
     "chapitre_num": 5,
     "section": "Hypertrophie bénigne de la prostate (HBP)",
-    "question": "Le traitement de l ’ hypertrophie prostatique : les réponses Justes",
+    "question": "Le traitement de l ’ hypertrophie prostatique : (Réponses fausses)",
     "propositions": {
       "A": "L'Adenomectomie par taille vésicale représente le gold standard de tous les traitements",
       "B": "Le TURP symptôme est une complication fréquente de la résection bipolaire",
@@ -14437,6 +14279,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
+      },
+      {
+        "annee": 2019,
+        "session": "Rattrapage",
+        "type": "Rattrapage",
+        "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
       }
     ],
     "faculty": "Oran",
@@ -14827,45 +14675,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-387",
-    "num": 387,
-    "module": "uro",
-    "chapitre": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "chapitre_num": 31,
-    "section": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "question": "Traumatisme de l'urètre postérieur : les réponses Justes",
-    "propositions": {
-      "A": "L'hématurie est le signe le plus évocateur",
-      "B": "La plupart des lésions urétrales postérieures sont associées à des fractures pelviennes",
-      "C": "Hématome pubien en ailles de papillon est évocateur",
-      "D": "Les lésions urétrales avec fracture du pénis ou traumatisme pénétrant sont très fréquentes",
-      "E": "L'uretrorragie peut s'accompagner d'une hématurie,"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, D, E. Question d'annale certifiée portant sur le chapitre « TD : Rétention d'urine (Rétention aiguë d'urine) ».",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-388",
     "num": 388,
     "module": "uro",
@@ -14941,43 +14750,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-390",
-    "num": 390,
-    "module": "uro",
-    "chapitre": "TD : Colique néphrétique",
-    "chapitre_num": 26,
-    "section": "TD : Colique néphrétique",
-    "question": "Une colique néphrétique est considérée grave en présence de : la réponse fausse",
-    "propositions": {
-      "A": "Fièvre",
-      "B": "L'oligo-anurie",
-      "C": "L’anémie",
-      "D": "Rein unique",
-      "E": "Grossesse"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : C. Question d'annale certifiée portant sur le chapitre « TD : Colique néphrétique ».",
-    "source": {
-      "annee": 2021,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-    },
-    "sources": [
-      {
-        "annee": 2021,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2020/2021 (25/03/2021)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-391",
     "num": 391,
     "module": "uro",
@@ -15014,43 +14786,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-392",
-    "num": 392,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Une hématurie secondaire à un traumatisme rénal isolé : réponse juste.",
-    "propositions": {
-      "A": "Est une hématurie terminale",
-      "B": "Est synonyme de lésion pédiculaire",
-      "C": "Nécessite des explorations morphologiques",
-      "D": "Est une indication opératoire absolue",
-      "E": "Nécessite un geste d'embolisation dans les stades 1 et 2"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : C. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une hématurie ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-393",
     "num": 393,
     "module": "uro",
@@ -15070,46 +14805,6 @@ window.QCM_URO = [
       "C"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, C. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une hématurie ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-394",
-    "num": 394,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Concernant les traumatismes rénaux : cochez les réponses fausses",
-    "propositions": {
-      "A": "Les traumatismes rénaux sont majoritairement fermés",
-      "B": "L'urographie intraveineuse constitue le meilleur examen diagnostic.",
-      "C": "L'hématurie est un signe de gravité",
-      "D": "La chirurgie est indiquée d'emblée en cas de lésion de la voie excrétrice",
-      "E": "La néphrectomie est toujours indiquée pour les traumatismes majeurs."
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, C, D, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une hématurie ».",
     "source": {
       "annee": 2019,
       "session": "Normale",
@@ -15200,6 +14895,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -15240,6 +14941,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -15278,6 +14985,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -15457,315 +15170,6 @@ window.QCM_URO = [
       "D"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, D. Question d'annale certifiée portant sur le chapitre « Incontinence urinaire ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-404",
-    "num": 404,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
-    "question": "Quels sont parmi les propositions suivantes celles qui correspondent à une anomalie de migration rénale?",
-    "propositions": {
-      "A": "Rein pelvien.",
-      "B": "Urétérocèle,",
-      "C": "Polykystose rénale.",
-      "D": "Rein en éponge.",
-      "E": "Rein thoracique."
-    },
-    "bonnes_reponses": [
-      "A",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une anurie obstructive ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-405",
-    "num": 405,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
-    "question": "Quels sont parmi les propositions suivantes celles qui correspondent à une anomalie de la Jonction urétéro- vésicale ?",
-    "propositions": {
-      "A": "Extrophie vésicale.",
-      "B": "Urétérocèle.",
-      "C": "Rein en fer à cheval.",
-      "D": "Rein multi kystique.",
-      "E": "Le reflux vésico-urétéral."
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une anurie obstructive ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-406",
-    "num": 406,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une anurie obstructive",
-    "chapitre_num": 24,
-    "section": "TD : CAT devant une anurie obstructive",
-    "question": "Quels sont parmi les propositions suivantes celles qui correspondent à une maladie et une malformation à la fois ?",
-    "propositions": {
-      "A": "Hypospadias postérieur.",
-      "B": "Rein en position thoracique.",
-      "C": "Reflux vesico urétéral compliqué d’ infection urinaire.",
-      "D": "Extrophie vésicale.",
-      "E": "Rein en fer à cheval."
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, C, D. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une anurie obstructive ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-407",
-    "num": 407,
-    "module": "uro",
-    "chapitre": "Rein et grossesse",
-    "chapitre_num": 18,
-    "section": "Rein et grossesse",
-    "question": "Quel(s) est (sont) le(s) médicament(s) contre indiqué(s) chez une femme enceinte au début du 3eme trimestre qui présente une colique néphrétique ?",
-    "propositions": {
-      "A": "Les Antispasmodiques",
-      "B": "Le Perfalgan",
-      "C": "La Morphine",
-      "D": "Les Anti-inflammatoires non stéroïdiens",
-      "E": "Les corticoïdes"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : D. Question d'annale certifiée portant sur le chapitre « Rein et grossesse ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-408",
-    "num": 408,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Le diagnostic différentiel d'une hématurie se pose avec :",
-    "propositions": {
-      "A": "Une urétrorragie",
-      "B": "Une coloration alimentaire",
-      "C": "Une Urine concentrée",
-      "D": "Une métrorragie",
-      "E": "Une coloration pigmentaire"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, B, D, E. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une hématurie ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-409",
-    "num": 409,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Le diagnostic positif d'une hématurie macroscopique est confirmé par :",
-    "propositions": {
-      "A": "L'examen échographique",
-      "B": "L'examen cytologique",
-      "C": "L'examen bactériologique",
-      "D": "La présence de caillots",
-      "E": "La formule numération sanguine"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B, D. Question d'annale certifiée portant sur le chapitre « TD : CAT devant une hématurie ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-410",
-    "num": 410,
-    "module": "uro",
-    "chapitre": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "chapitre_num": 31,
-    "section": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "question": "Le drainage par une sonde urétrale est contre -Indiqué en cas de :",
-    "propositions": {
-      "A": "Rétrécissement urétral",
-      "B": "Cicatrice chirurgicale",
-      "C": "Prostatite aigue",
-      "D": "Urétrorragie",
-      "E": "Tumeur vésicale antérieure"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, C, D. Question d'annale certifiée portant sur le chapitre « TD : Rétention d'urine (Rétention aiguë d'urine) ».",
-    "source": {
-      "annee": 2019,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-    },
-    "sources": [
-      {
-        "annee": 2019,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2019/2020 (25/11/2019)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-411",
-    "num": 411,
-    "module": "uro",
-    "chapitre": "TD : Colique néphrétique",
-    "chapitre_num": 26,
-    "section": "TD : Colique néphrétique",
-    "question": "Une colique néphrétique est considérée grave en présence de :",
-    "propositions": {
-      "A": "Fièvre",
-      "B": "L'oligo-anurie",
-      "C": "L'anémie",
-      "D": "Rein unique",
-      "E": "Grossesse"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, B, D, E. Question d'annale certifiée portant sur le chapitre « TD : Colique néphrétique ».",
     "source": {
       "annee": 2019,
       "session": "Normale",
@@ -16173,7 +15577,7 @@ window.QCM_URO = [
     "chapitre": "Tumeurs de la vessie (TV)",
     "chapitre_num": 9,
     "section": "Tumeurs de la vessie (TV)",
-    "question": "Quelle prise en charge proposez- vous pour une tumeur pТa de bas grade (Réponses multiples)  ?",
+    "question": "Quelle prise en charge proposez- vous pour une tumeur pТa de bas grade (Réponses multiples) ?",
     "propositions": {
       "A": "Surveillance clinique seule",
       "B": "Sevrage tabagique",
@@ -16289,7 +15693,7 @@ window.QCM_URO = [
     "chapitre": "TD : Rétention d'urine (Rétention aiguë d'urine)",
     "chapitre_num": 31,
     "section": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "question": "Le traumatisme de  l’urètre  postérieur s’ass ocie :",
+    "question": "Le traumatisme de l’urètre postérieur s’ass ocie :",
     "propositions": {
       "A": "Les lésions vésicales sont constantes.",
       "B": "Lésions rectales dans 30%.",
@@ -16326,7 +15730,7 @@ window.QCM_URO = [
     "chapitre": "TD : Rétention d'urine (Rétention aiguë d'urine)",
     "chapitre_num": 31,
     "section": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "question": "L ’évolution du traumatisme de l’urètre  postérieur :",
+    "question": "L ’évolution du traumatisme de l’urètre postérieur :",
     "propositions": {
       "A": "Surinfection de l'uro-hématome.",
       "B": "L’incontinence  urinaire est toujours présente.",
@@ -18062,9 +17466,9 @@ window.QCM_URO = [
     "id": "uro-471",
     "num": 471,
     "module": "uro",
-    "chapitre": "Maladie rénale chronique et insuffisance rénale chronique (IRC)",
-    "chapitre_num": 14,
-    "section": "Maladie rénale chronique et insuffisance rénale chronique (IRC)",
+    "chapitre": "TD : CAT devant une protéinurie",
+    "chapitre_num": 32,
+    "section": "TD : CAT devant une protéinurie",
     "question": "La protéinurie est définie :",
     "propositions": {
       "A": "La protéinurie est intermitten te au cours de l'effort",
@@ -18348,6 +17752,7 @@ window.QCM_URO = [
     },
     "bonnes_reponses": [
       "B",
+      "C",
       "D",
       "E"
     ],
@@ -18368,7 +17773,8 @@ window.QCM_URO = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé complétée (BDE → BCDE) : la correction de l'acidose améliore la croissance de l'enfant atteint d'IRC."
   },
   {
     "id": "uro-479",
@@ -18681,7 +18087,7 @@ window.QCM_URO = [
     "chapitre": "Tumeurs de la vessie (TV)",
     "chapitre_num": 9,
     "section": "Tumeurs de la vessie (TV)",
-    "question": "* Mr BM. , 67 ans, urine du sang depuis quelques mois avec petits caillots, sans ATCD à part un tabagisme non sévère à 60 paquets/année. Sa fonction rénale est correcte. 09) Devant cette hématurie macroscopique, quelle est l'hypothèse juste ?",
+    "question": "Mr BM. , 67 ans, urine du sang depuis quelques mois avec petits caillots, sans ATCD à part un tabagisme non sévère à 60 paquets/année. Sa fonction rénale est correcte. 09) Devant cette hématurie macroscopique, quelle est l'hypothèse juste ?",
     "propositions": {
       "A": "La présence de caillots oriente vers une cause néphrologique",
       "B": "lI n'existe pas de corrélation entre l'importance de l'hématurie et al gravite de la maladie",
@@ -18795,7 +18201,7 @@ window.QCM_URO = [
     "chapitre": "Tumeurs de la vessie (TV)",
     "chapitre_num": 9,
     "section": "Tumeurs de la vessie (TV)",
-    "question": "* Le patient M Omar âgé de 67ans déjà réséqué pour une tumeur de vessie l'année dernière. L'examen anatomopathologique est revenu en faveur d'un carcinome urothéliale classé TaG2. lI se présente aux urgences. lI n'arrive plus à uriner depu is cinq heures. lI est sondé, ce qui permet d'évacuer un globe vésical de 750 cc. Quand vous allez voir M. Omar., les urines sont franchement hématuriques. 13) Quelles sont vos hypothèses diagnostiques pour cet épisode qui l'a amené aux urgences ?",
+    "question": "Le patient M Omar âgé de 67ans déjà réséqué pour une tumeur de vessie l'année dernière. L'examen anatomopathologique est revenu en faveur d'un carcinome urothéliale classé TaG2. lI se présente aux urgences. lI n'arrive plus à uriner depu is cinq heures. lI est sondé, ce qui permet d'évacuer un globe vésical de 750 cc. Quand vous allez voir M. Omar., les urines sont franchement hématuriques. 13) Quelles sont vos hypothèses diagnostiques pour cet épisode qui l'a amené aux urgences ?",
     "propositions": {
       "A": "Rétention  aigue d'urines sur hématurie macroscopique caillotante",
       "B": "Rétention aigue d'urines liée à l'hypertrophie bénigne de la prostate",
@@ -18820,6 +18226,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q18, 22 - 23sec A)"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -18833,7 +18245,7 @@ window.QCM_URO = [
     "chapitre": "Tumeurs de la vessie (TV)",
     "chapitre_num": 9,
     "section": "Tumeurs de la vessie (TV)",
-    "question": "* Vous réalisez une fibroscopie vésicale dès que les urines sont redevenues claires. Celle - ci met en évidence une récidive de la tumeur de la vessie d'allure infil trante. 14) Concernant les tumeurs de la vessie infiltrant le muscle (TVIM), quelle(s) est (sont) l'(les) affirmation(s) exacte(s) ?",
+    "question": "Vous réalisez une fibroscopie vésicale dès que les urines sont redevenues claires. Celle - ci met en évidence une récidive de la tumeur de la vessie d'allure infil trante. 14) Concernant les tumeurs de la vessie infiltrant le muscle (TVIM), quelle(s) est (sont) l'(les) affirmation(s) exacte(s) ?",
     "propositions": {
       "A": "lI s'agit de la présentation la plus fréquente des tumeurs de la vessie",
       "B": "La RTUV est indispensable au diagnostic",
@@ -18858,6 +18270,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q19, 22 - 23sec A)"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -19406,43 +18824,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-506",
-    "num": 506,
-    "module": "uro",
-    "chapitre": "Lithiases urinaires",
-    "chapitre_num": 15,
-    "section": "Lithiases urinaires",
-    "question": "Concernant la lithiase urinaire ,indiquez la réponse fausse:",
-    "propositions": {
-      "A": "le citrate et le potassium sont de puissants facteurs inhibiteurs de la lithogénèse.",
-      "B": "Le bilan biologique de première intention comprend le dosage de la paratho rmone et de la vitamine D.",
-      "C": "Le calcul chez l'enfant doit conduire à un bilan métabolique approfondi en première intention.",
-      "D": "Le calcul phospho - amoniaco - magnesien est un calcul infectieux.",
-      "E": "Les calculs Oxalo - calciques peuvent se former à pH variable."
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : B. Question issue des annales officielles d'Oran (EMD 2020-2025) portant sur le chapitre « Lithiases urinaires ».",
-    "source": {
-      "annee": 2024,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q40, 23 - 24  sec B)"
-    },
-    "sources": [
-      {
-        "annee": 2024,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q40, 23 - 24  sec B)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-507",
     "num": 507,
     "module": "uro",
@@ -19976,43 +19357,6 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q04, 23 - 24  sec B)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-521",
-    "num": 521,
-    "module": "uro",
-    "chapitre": "Cancer du rein",
-    "chapitre_num": 2,
-    "section": "Cancer du rein",
-    "question": "lequel de ces examens ne fait pas partie du bilan d'extension du cancer du rein:",
-    "propositions": {
-      "A": "Tomodensitométrie cérébrale",
-      "B": "IRM abdomino - pelvienne",
-      "C": "Tomo densitométrie thoraco - abdomino - pelvienne.",
-      "D": "Cytologie urinaire",
-      "E": "Une sc intigraphie osseuse"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : D. Question issue des annales officielles d'Oran (EMD 2020-2025) portant sur le chapitre « Cancer du rein ».",
-    "source": {
-      "annee": 2024,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q05, 23 - 24  sec B)"
-    },
-    "sources": [
-      {
-        "annee": 2024,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q05, 23 - 24  sec B)"
       }
     ],
     "faculty": "Oran",
@@ -20981,6 +20325,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q06, 23 - 24  sec B)"
+      },
+      {
+        "annee": 2024,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q10, 22 - 23  sec A)"
       }
     ],
     "faculty": "Oran",
@@ -21296,46 +20646,6 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (EMD 2020-2025)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-555",
-    "num": 555,
-    "module": "uro",
-    "chapitre": "Cancer de la prostate",
-    "chapitre_num": 1,
-    "section": "Cancer de la prostate",
-    "question": "Quelles situations parmi les suivantes, imposent de faire une biopsie prostatique :",
-    "propositions": {
-      "A": "nodule suspect au toucher rectal et un PSAt à 20 ng/ml",
-      "B": "nodule suspect au toucher rectal et un PSAt normal, à0,9 ng/m l",
-      "C": "toucher rectal normal, RMI suspecte (P - iRADS =5 /5) et un PSAt à35 ng/ml",
-      "D": "toucher rectal normal, RIM normale, un PSAt à 10ng/ml et un PSA densité <0,15 ng/ml/gr",
-      "E": "Toucher rectal normal, RMI normale, un PSAt à10ng/ml et un PSA densité >01,5 ng/ml/gr"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, B, C, E. Question issue des annales officielles d'Oran (EMD 2020-2025) portant sur le chapitre « Cancer de la prostate ».",
-    "source": {
-      "annee": 2024,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q10, 22 - 23  sec A)"
-    },
-    "sources": [
-      {
-        "annee": 2024,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q10, 22 - 23  sec A)"
       }
     ],
     "faculty": "Oran",
@@ -21793,11 +21103,18 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q02, 24 - 25  sec A)"
+      },
+      {
+        "annee": 2024,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q12, 23 - 24  sec A)"
       }
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé divergente entre deux épreuves (AB et ABCD). Cystite et pyélonéphrite aiguës s'accompagnent d'une bactériurie."
   },
   {
     "id": "uro-568",
@@ -22030,43 +21347,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-574",
-    "num": 574,
-    "module": "uro",
-    "chapitre": "TD : Les infections urinaires",
-    "chapitre_num": 30,
-    "section": "TD : Les infections urinaires",
-    "question": "Toutes les propositions suivantes sont exactes concernant le traitement d'une prostatite aiguë,sauf une, laquelle ?",
-    "propositions": {
-      "A": "Prescription d'antibiotiques",
-      "B": "Prescription d'antalgiques",
-      "C": "Repos au lit",
-      "D": "Cathétérisme de l'urètre s i rétention d'urine",
-      "E": "Drainage en cas d'abcès"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : D. Question issue des annales officielles d'Oran (EMD 2020-2025) portant sur le chapitre « TD : Les infections urinaires ».",
-    "source": {
-      "annee": 2024,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q40, 24 - 25  sec B)"
-    },
-    "sources": [
-      {
-        "annee": 2024,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q40, 24 - 25  sec B)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-575",
     "num": 575,
     "module": "uro",
@@ -22135,46 +21415,6 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (EMD 2020-2025)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-577",
-    "num": 577,
-    "module": "uro",
-    "chapitre": "TD : Les infections urinaires",
-    "chapitre_num": 30,
-    "section": "TD : Les infections urinaires",
-    "question": "En cas de leucocyturie sans bactériurie à l'ECBU, on peut évoquer (réponses justes) :",
-    "propositions": {
-      "A": "Une tuberculose urogénitale",
-      "B": "Une période péri - menstruelle",
-      "C": "Une pyélonéphrite aigue",
-      "D": "Une cystite",
-      "E": "Une prostatite ai gue"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, B, C, D. Question issue des annales officielles d'Oran (EMD 2020-2025) portant sur le chapitre « TD : Les infections urinaires ».",
-    "source": {
-      "annee": 2024,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q12, 23 - 24  sec A)"
-    },
-    "sources": [
-      {
-        "annee": 2024,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Auto-Évaluation Uro-Néphrologie (Q12, 23 - 24  sec A)"
       }
     ],
     "faculty": "Oran",
@@ -22536,9 +21776,9 @@ window.QCM_URO = [
     "id": "uro-587",
     "num": 587,
     "module": "uro",
-    "chapitre": "Rein et grossesse",
-    "chapitre_num": 18,
-    "section": "Rein et grossesse",
+    "chapitre": "Néphropathies interstitielles chroniques (NIC)",
+    "chapitre_num": 16,
+    "section": "Néphropathies interstitielles chroniques (NIC)",
     "question": "Parmi les éléments suivants quel(s) est(sont) celui(ceux) évocateur(s) d'une néphropathie interstitielle?",
     "propositions": {
       "A": "Protéinurie à2g/| avec 07 %d'albumine",
@@ -22929,9 +22169,6 @@ window.QCM_URO = [
       "E": "Sont des néphropathies glomérulaires protéinuriques Sou rce : Q35, 23 - 24  sec B"
     },
     "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
       "E"
     ],
     "explication": "Réponse(s) officielle(s) du corrigé officiel de la Faculté de Médecine d'Oran : A, B, C, E. Question issue des annales officielles d'Oran (EMD 2020-2025) portant sur le chapitre « Néphropathies vasculaires ».",
@@ -22951,7 +22188,8 @@ window.QCM_URO = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée (ABCE → E) : seule la proposition E est fausse ; les néphropathies vasculaires ne sont pas des néphropathies glomérulaires protéinuriques."
   },
   {
     "id": "uro-598",
@@ -25126,6 +24364,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25203,6 +24447,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25280,44 +24530,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-659",
-    "num": 659,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "Quel(s) examen(s) complémentaire(s) demandez-vous ?",
-    "propositions": {
-      "A": "ECBU avec une protéinurie",
-      "B": "Fibroscopie vésicale",
-      "C": "Uro-TDM",
-      "D": "Marqueurs tumoraux",
-      "E": "Ionogramme urinaire"
-    },
-    "bonnes_reponses": [
-      "B",
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, C. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019).",
-    "source": {
-      "annee": 2019,
-      "session": "Rattrapage",
-      "type": "Rattrapage",
-      "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
-    },
-    "sources": [
+      },
       {
-        "annee": 2019,
+        "annee": 2018,
         "session": "Rattrapage",
-        "type": "Rattrapage",
-        "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25394,6 +24612,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25698,6 +24922,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25924,6 +25154,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25961,6 +25197,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -25999,6 +25241,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -26036,6 +25284,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -26463,6 +25717,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2018/2019"
+      },
+      {
+        "annee": 2018,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)"
       }
     ],
     "faculty": "Oran",
@@ -26621,89 +25881,13 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-694",
-    "num": 694,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "Le patient M. Omar âgé de 67 ans déjà réséqué pour une tumeur de vessie  l’année  dernière. L'examen anatomopathologique est revenu en faveur d'un carcinome urothélial classé TaG2. Í se présente aux urgences. Il n'arrive plus à uriner depuis cinq heures. Il est sondé, ce qui permet d'évacuer un globe vésical de 750 cc. Quand vous allez voir M. Omar, les urines sont franchement hématuriques.\n\nQuelles sont vos hypothèses diagnostiques pour cet épisode qui l'a amené aux urgences ?",
-    "propositions": {
-      "A": "Rétention aigue d'urines sur hématurie macroscopique caillotante",
-      "B": "Rétention aigue d'urines liée à l'hypertrophie bénigne de la prostate",
-      "C": "Rétention aigue d'urines d'origine médicamenteuse due aux alphas bloquants",
-      "D": "Hématurie macroscopique à vacuo",
-      "E": "Hématurie macroscopique sur récidive de tumeur de la vessie"
-    },
-    "bonnes_reponses": [
-      "A",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, E. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-695",
-    "num": 695,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "Vous réalisez une fibroscopie vésicale dès que les urines sont redevenues claires. Celle - ci met en évidence une récidive de la tumeur de la vessie d'allure  infiltrant . Concernant les tumeurs de la vessie  infiltrant le musc le (TVIM, quelle(s) est (sont) l '(les) affirmation(s) exacte(s) ?",
-    "propositions": {
-      "A": "Il s'agit de la présentation la plus fréquente des tumeurs de la vessie",
-      "B": "La RTUV est indispensable au diagnostic",
-      "C": "Le risque principal est la récidive locale après traitement",
-      "D": "Le traitement de référence a visée curatrice est chirurgical",
-      "E": "Il s'agit d'une lésion de bon pronostic, même au stade avance"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, D. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-696",
     "num": 696,
     "module": "uro",
     "chapitre": "Tumeurs de la vessie (TV)",
     "chapitre_num": 9,
     "section": "Tumeurs de la vessie (TV)",
-    "question": "Vous réalisez une RTUV. L'histologie cette fois-ci retrouve un pT2G3. Quelle est votre prise en  charge ?",
+    "question": "Vous réalisez une RTUV. L'histologie cette fois-ci retrouve un pT2G3. Quelle est votre prise en charge ?",
     "propositions": {
       "A": "Deuxième RTU (2eme look) pour affirmer le caractère infiltrant de la tumeur",
       "B": "Cystoprostatectomie avec curage ilio-obturateur bilatéral en cas de maladie localisée",
@@ -26728,6 +25912,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
+      },
+      {
+        "annee": 2018,
+        "session": "Rattrapage",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
       }
     ],
     "faculty": "Oran",
@@ -26892,9 +26082,9 @@ window.QCM_URO = [
     "id": "uro-701",
     "num": 701,
     "module": "uro",
-    "chapitre": "Incontinence urinaire",
-    "chapitre_num": 6,
-    "section": "Incontinence urinaire",
+    "chapitre": "TD : CAT devant une hématurie",
+    "chapitre_num": 25,
+    "section": "TD : CAT devant une hématurie",
     "question": "Cochez les réponses fausses : concernant les traumatismes du rein :",
     "propositions": {
       "A": "Les traumatismes rénaux sont majoritairement fermés",
@@ -26930,9 +26120,9 @@ window.QCM_URO = [
     "id": "uro-702",
     "num": 702,
     "module": "uro",
-    "chapitre": "Incontinence urinaire",
-    "chapitre_num": 6,
-    "section": "Incontinence urinaire",
+    "chapitre": "TD : CAT devant une hématurie",
+    "chapitre_num": 25,
+    "section": "TD : CAT devant une hématurie",
     "question": "Une hématurie secondaire à un traumatisme rénal isolé :",
     "propositions": {
       "A": "Témoigne d'une lacération corticale",
@@ -26967,9 +26157,9 @@ window.QCM_URO = [
     "id": "uro-703",
     "num": 703,
     "module": "uro",
-    "chapitre": "Incontinence urinaire",
-    "chapitre_num": 6,
-    "section": "Incontinence urinaire",
+    "chapitre": "TD : CAT devant une hématurie",
+    "chapitre_num": 25,
+    "section": "TD : CAT devant une hématurie",
     "question": "Cochez les réponses justes : dans le traumatisme rénal le scanner abdominal avec injection est indiqué en cas :",
     "propositions": {
       "A": "Suspicion de lésion de la voie excrétrice",
@@ -27082,9 +26272,9 @@ window.QCM_URO = [
     "id": "uro-706",
     "num": 706,
     "module": "uro",
-    "chapitre": "Dysfonction érectile (DE)",
-    "chapitre_num": 4,
-    "section": "Dysfonction érectile (DE)",
+    "chapitre": "Cancer du rein",
+    "chapitre_num": 2,
+    "section": "Cancer du rein",
     "question": "Dans le cancer du rein, la ponction-biopsie du rein est recommandée, cochez les réponses justes :",
     "propositions": {
       "A": "Une volumineuse tumeur >10 cm droite avec thrombus cave",
@@ -27346,9 +26536,9 @@ window.QCM_URO = [
     "id": "uro-713",
     "num": 713,
     "module": "uro",
-    "chapitre": "Cancer du testicule",
-    "chapitre_num": 3,
-    "section": "Cancer du testicule",
+    "chapitre": "Incontinence urinaire",
+    "chapitre_num": 6,
+    "section": "Incontinence urinaire",
     "question": "Un incontinence urinaire chez la femme doit faire évoquer : QRM",
     "propositions": {
       "A": "Une incontinence urinaire par urgenturie",
@@ -27383,9 +26573,9 @@ window.QCM_URO = [
     "id": "uro-714",
     "num": 714,
     "module": "uro",
-    "chapitre": "Cancer de la prostate",
-    "chapitre_num": 1,
-    "section": "Cancer de la prostate",
+    "chapitre": "Incontinence urinaire",
+    "chapitre_num": 6,
+    "section": "Incontinence urinaire",
     "question": "Les examens complémentaires à réaliser devant une incontinence urinaire par urgenturie sont : QCM",
     "propositions": {
       "A": "Aucun examen en première intention",
@@ -27439,155 +26629,6 @@ window.QCM_URO = [
       "E"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, C, E. Question d'annale officielle portant sur le chapitre « Cancer de la prostate » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-716",
-    "num": 716,
-    "module": "uro",
-    "chapitre": "TD : Les infections urinaires",
-    "chapitre_num": 30,
-    "section": "TD : Les infections urinaires",
-    "question": "Les infections urinaires communautaires (cochez la RF) :",
-    "propositions": {
-      "A": "Représentent le deuxième site d'infection bactérienne après les infections de l'arbre respiratoire",
-      "B": "Peuvent être d'origine vénérienne",
-      "C": "Peuvent s'accompagner d'un sepsis grave",
-      "D": "Regroupent des tableaux cliniques de symptomatologie et de gravité variables",
-      "E": "Sont principalement des infections par voie descendante"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : E. Question d'annale officielle portant sur le chapitre « TD : Les infections urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-717",
-    "num": 717,
-    "module": "uro",
-    "chapitre": "TD : Les infections urinaires",
-    "chapitre_num": 30,
-    "section": "TD : Les infections urinaires",
-    "question": "Dans la cystite aigue non compliquée de la femme (cochez la RF) :",
-    "propositions": {
-      "A": "Un ECBU est nécessaire",
-      "B": "Une simple bandelette urinaire peut être réalisée",
-      "C": "L’antibiothérapie  de première intention et de choix est la Fosfomycine (Monuril)",
-      "D": "L'évolution est souvent favorable",
-      "E": "Aucune imagerie n'est requise"
-    },
-    "bonnes_reponses": [
-      "A"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A. Question d'annale officielle portant sur le chapitre « TD : Les infections urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-718",
-    "num": 718,
-    "module": "uro",
-    "chapitre": "TD : Les infections urinaires",
-    "chapitre_num": 30,
-    "section": "TD : Les infections urinaires",
-    "question": "La prostatite aigue (cochez la ou les RF) :",
-    "propositions": {
-      "A": "Le diagnostic microbiologique repose sur l'ECBU et les hémocultures dans les formes sévères",
-      "B": "La RVA peut faire partie du tableau clinique.",
-      "C": "L’abcès  prostatique et le passage à la chronicité ne font pas partie de ses complications.",
-      "D": "Le dosage du taux de PSA est indiqué durant la phase aiguë.",
-      "E": "Un abcès prostatique peut faire appel à un drainage à l'aiguille (Par voie endorectale) ou à un drainage chirurgical"
-    },
-    "bonnes_reponses": [
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : C, D. Question d'annale officielle portant sur le chapitre « TD : Les infections urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-719",
-    "num": 719,
-    "module": "uro",
-    "chapitre": "TD : Les infections urinaires",
-    "chapitre_num": 30,
-    "section": "TD : Les infections urinaires",
-    "question": "La pyélonéphrite aigue (cochez la ou les RF) :",
-    "propositions": {
-      "A": "Est une infection non parenchymateuse",
-      "B": "Peut être d'origine obstructive",
-      "C": "Une échographie normale élimine le diagnostic",
-      "D": "Peut se compliquer d'un phlegmon péri-rénal"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, C. Question d'annale officielle portant sur le chapitre « TD : Les infections urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2018/2019 (02/12/2018)).",
     "source": {
       "annee": 2018,
       "session": "Normale",
@@ -27727,9 +26768,9 @@ window.QCM_URO = [
     "id": "uro-723",
     "num": 723,
     "module": "uro",
-    "chapitre": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "chapitre_num": 31,
-    "section": "TD : Rétention d'urine (Rétention aiguë d'urine)",
+    "chapitre": "Cancer de la prostate",
+    "chapitre_num": 1,
+    "section": "Cancer de la prostate",
     "question": "La biopsie prostatique transrectale écho guidée :",
     "propositions": {
       "A": "Nécessite une antibioprophylaxie",
@@ -28484,43 +27525,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-743",
-    "num": 743,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "Vous réalisez une résection trans-urétrale de la vessie et le résultat histologique est le suivant : pTa de bas grade, le muscle est vu.\n\nQuel est le facteur de risque de progression des tumeurs de la  vessie n’infiltrant pas le muscle (TVNIM) ?",
-    "propositions": {
-      "A": "Aspect ulcérant de la tumeur",
-      "B": "Taille de la tumeur moins de 1 cm",
-      "C": "Métastase pulmonaire",
-      "D": "Score de Furhman : degré de différenciation",
-      "E": "Stade tumoral"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : E. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-744",
     "num": 744,
     "module": "uro",
@@ -28565,7 +27569,7 @@ window.QCM_URO = [
     "chapitre": "Tumeurs de la vessie (TV)",
     "chapitre_num": 9,
     "section": "Tumeurs de la vessie (TV)",
-    "question": "Quelles sont vos hypothèses diagnostiques pour cet  épisode qu’il a amené aux urgences ?",
+    "question": "Quelles sont vos hypothèses diagnostiques pour cet épisode qu’il a amené aux urgences ?",
     "propositions": {
       "A": "Rétention aigue d’urines sur hématurie macroscopique caillante",
       "B": "Rétention aigue d’urines liée à l’hypertrophie bénigne de la prostate",
@@ -28688,7 +27692,6 @@ window.QCM_URO = [
     "bonnes_reponses": [
       "A",
       "C",
-      "D",
       "E"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, C, D, E. Question d'annale officielle portant sur le chapitre « Cancer du rein » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)).",
@@ -28708,7 +27711,8 @@ window.QCM_URO = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée (ACDE → ACE) : dans l'IRA fonctionnelle, le rapport urée urinaire/plasmatique est supérieur à 10 ; la proposition D (< 10) est fausse."
   },
   {
     "id": "uro-749",
@@ -28752,9 +27756,9 @@ window.QCM_URO = [
     "id": "uro-750",
     "num": 750,
     "module": "uro",
-    "chapitre": "Cancer de la prostate",
-    "chapitre_num": 1,
-    "section": "Cancer de la prostate",
+    "chapitre": "Incontinence urinaire",
+    "chapitre_num": 6,
+    "section": "Incontinence urinaire",
     "question": "Une incontinence urinaire permanente chez la femme doit faire évoquer : QCM",
     "propositions": {
       "A": "Une incontinence urinaire par urgenturie",
@@ -28805,7 +27809,6 @@ window.QCM_URO = [
     },
     "bonnes_reponses": [
       "B",
-      "C",
       "D"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, C, D. Question d'annale officielle portant sur le chapitre « Incontinence urinaire » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)).",
@@ -28825,7 +27828,8 @@ window.QCM_URO = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée (BCD → BD) : l'IRM pelvienne dynamique n'est pas un examen de première intention dans l'urgenturie."
   },
   {
     "id": "uro-752",
@@ -28845,7 +27849,7 @@ window.QCM_URO = [
     "bonnes_reponses": [
       "B",
       "C",
-      "D"
+      "E"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, C, D. Question d'annale officielle portant sur le chapitre « Incontinence urinaire » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2017/2018 (11/03/2018)).",
     "source": {
@@ -28864,7 +27868,8 @@ window.QCM_URO = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée (BCD → BCE) : la rééducation périnéale a un intérêt dans l'urgenturie (biofeedback) ; elle est réalisée par un kinésithérapeute spécialisé."
   },
   {
     "id": "uro-753",
@@ -29092,9 +28097,9 @@ window.QCM_URO = [
     "id": "uro-759",
     "num": 759,
     "module": "uro",
-    "chapitre": "Les grosses bourses",
-    "chapitre_num": 7,
-    "section": "Les grosses bourses",
+    "chapitre": "TD : CAT devant une hématurie",
+    "chapitre_num": 25,
+    "section": "TD : CAT devant une hématurie",
     "question": "Le scanner abdominal avec injection est indiqué en cas : Cochez les réponses justes",
     "propositions": {
       "A": "Quel que soit le stade de traumatisme",
@@ -29213,7 +28218,7 @@ window.QCM_URO = [
     "chapitre": "Dysfonction érectile (DE)",
     "chapitre_num": 4,
     "section": "Dysfonction érectile (DE)",
-    "question": "Les valves de  l’urètre postérieur :",
+    "question": "Les valves de l’urètre postérieur :",
     "propositions": {
       "A": "C’est la plus fréquente et la plus grave des lésions obstructives congénitales sous -cervicales",
       "B": "C’est une pathologie qui touche les deux sexes",
@@ -29286,9 +28291,9 @@ window.QCM_URO = [
     "id": "uro-764",
     "num": 764,
     "module": "uro",
-    "chapitre": "Insuffisance rénale aiguë (IRA)",
-    "chapitre_num": 13,
-    "section": "Insuffisance rénale aiguë (IRA)",
+    "chapitre": "Cancer de la prostate",
+    "chapitre_num": 1,
+    "section": "Cancer de la prostate",
     "question": "Parmi les examens suivants, indiquez celui qui est indispensable au diagnostic de cancer de a prostate : (QCS)",
     "propositions": {
       "A": "Taux de PSA",
@@ -29366,7 +28371,7 @@ window.QCM_URO = [
     "chapitre": "Insuffisance rénale aiguë (IRA)",
     "chapitre_num": 13,
     "section": "Insuffisance rénale aiguë (IRA)",
-    "question": "Parmi les  modifications biologiques suivantes évocatrices d’un syndrome paranéoplasique qui peuvent se voir chez un patient porteur d’un cancer du rein : (QCM)",
+    "question": "Parmi les modifications biologiques suivantes évocatrices d’un syndrome paranéoplasique qui peuvent se voir chez un patient porteur d’un cancer du rein : (QCM)",
     "propositions": {
       "A": "Hypercalcémie",
       "B": "Anémie",
@@ -29403,9 +28408,9 @@ window.QCM_URO = [
     "id": "uro-767",
     "num": 767,
     "module": "uro",
-    "chapitre": "Insuffisance rénale aiguë (IRA)",
-    "chapitre_num": 13,
-    "section": "Insuffisance rénale aiguë (IRA)",
+    "chapitre": "Cancer du rein",
+    "chapitre_num": 2,
+    "section": "Cancer du rein",
     "question": "Dans le cancer du rein : cochez la réponse fausse",
     "propositions": {
       "A": "La néphrectomie partielle est le traitement curatif de référence dans les tumeurs T1",
@@ -29561,7 +28566,7 @@ window.QCM_URO = [
     "chapitre": "Glomérulonéphrites chroniques (GNC)",
     "chapitre_num": 12,
     "section": "Glomérulonéphrites chroniques (GNC)",
-    "question": "Devant les résultats de ce bilan, que concluez-vous,  et qu’elle est votre conduite à  tenir immédiate ? (QCM)",
+    "question": "Devant les résultats de ce bilan, que concluez-vous, et qu’elle est votre conduite à tenir immédiate ? (QCM)",
     "propositions": {
       "A": "Levée d’un obstacle sous vésical et exploration urologique",
       "B": "Syndrome infectieux à porte d’entrée urinaire nécessitant un complément par un ECBU",
@@ -29747,43 +28752,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-776",
-    "num": 776,
-    "module": "uro",
-    "chapitre": "TD : Colique néphrétique",
-    "chapitre_num": 26,
-    "section": "TD : Colique néphrétique",
-    "question": "Chez un homme de 40 ans obèse, hospitalisé d'urgence pour crises de colique néphrétique gauche, les clichés de l'uroscanner objectivent une lithiase de l'uretère lombaire gauche. Vous posez une indication opératoire d'urgence pour une des raisons suivantes : (QCS)",
-    "propositions": {
-      "A": "Les douleurs sont très vives",
-      "B": "Le calcul a plus de 1 cm de diamètre",
-      "C": "Il existe depuis 48 heures une fièvre à 40°C",
-      "D": "Il s'agit d'une lithiase urique",
-      "E": "Le calcul est de siège lombaire"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : C. Question d'annale officielle portant sur le chapitre « TD : Colique néphrétique » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-777",
     "num": 777,
     "module": "uro",
@@ -29945,7 +28913,7 @@ window.QCM_URO = [
     "chapitre": "Incontinence urinaire",
     "chapitre_num": 6,
     "section": "Incontinence urinaire",
-    "question": "L'incontinence urinaire correspond à des fuites d'urine lors  d’une  : (QCM)",
+    "question": "L'incontinence urinaire correspond à des fuites d'urine lors d’une : (QCM)",
     "propositions": {
       "A": "Incontinence d'effort",
       "B": "Incontinence par hyperactivité vésicale.",
@@ -30056,44 +29024,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-784",
-    "num": 784,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "M. AEK, 65 ans, retraité de l'industrie sidérurgique, depuis quelques mois il urine du sang avec de petits caillots. Il n'a aucun antécédent, à part un tabagisme à 60 paquets/année. Le toucher rectal montre une prostate plate souple évaluée à 15 g. Les fosses lombaires sont libres\n\nDevant cette hématurie macroscopique, quelles sont les hypothèses diagnostiques ? (QCM)",
-    "propositions": {
-      "A": "La présence de caillots oriente vers une cause urologique",
-      "B": "Il existe une corrélation entre l'importance de l'hématurie et la gravite de la maladie causale",
-      "C": "Une bandelette urinaire est nécessaire pour confirmer l'hématurie",
-      "D": "Il faut rechercher en priorité une cause oncologique.",
-      "E": "L'hématurie macroscopique peut être due à un kyste rénal"
-    },
-    "bonnes_reponses": [
-      "A",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, D. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-785",
     "num": 785,
     "module": "uro",
@@ -30151,45 +29081,6 @@ window.QCM_URO = [
       "D"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, D. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-787",
-    "num": 787,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "Vous réalisez une résection transuretrale de la vessie et le résultat histologique et le suivant : pT1 de haut grade, le muscle est vu. Quelle prise en charge propose pour une tumeur pT1 G3 ? (QCM)",
-    "propositions": {
-      "A": "Surveillance clinique seule",
-      "B": "Sevrage tabagique",
-      "C": "Cystoprostatectomie totale",
-      "D": "Instillation endovésicale de BCG",
-      "E": "Surveillance par des fibroscopies régulières"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, D, E. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
     "source": {
       "annee": 2018,
       "session": "Rattrapage",
@@ -30285,81 +29176,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-790",
-    "num": 790,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "Vous réalisez une RTUV. L'histologie cette fois-ci retrouve un pT2G3.Quelle est votre prise en charge ? (QCM)",
-    "propositions": {
-      "A": "Deuxième RTUV ( 2 è𝑚𝑒 look) pour affirmer le caractère infiltrant de la tumeur",
-      "B": "Cystoprostatectomie avec curage ilio-obturateur bilatéral en cas de maladie localisée",
-      "C": "Radiothérapie",
-      "D": "Radiothérapie et chimiothérapie",
-      "E": "Bilan d'extension"
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, E. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-791",
-    "num": 791,
-    "module": "uro",
-    "chapitre": "Cancer du rein",
-    "chapitre_num": 2,
-    "section": "Cancer du rein",
-    "question": "La ponction Biopsie rénale dans le cancer du rein est indiquée : (Réponse fausse)",
-    "propositions": {
-      "A": "Chez les patients candidats à une surveillance active",
-      "B": "Se fait souvent sous anesthésie locale, guidée par l'échographie",
-      "C": "Est indiquée avant tout traitement conservateur",
-      "D": "En cas de tumeur métastatique chez les patients inopérables",
-      "E": "Avant une cryothérapie focale"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : C. Question d'annale officielle portant sur le chapitre « Cancer du rein » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-792",
     "num": 792,
     "module": "uro",
@@ -30380,44 +29196,6 @@ window.QCM_URO = [
       "C"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, C. Question d'annale officielle portant sur le chapitre « Cancer du rein » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-793",
-    "num": 793,
-    "module": "uro",
-    "chapitre": "Cancer du rein",
-    "chapitre_num": 2,
-    "section": "Cancer du rein",
-    "question": "Parmi les propositions suivantes (Réponses justes) :",
-    "propositions": {
-      "A": "Les métastases osseuses sont les localisations les plus fréquentes",
-      "B": "Le diagnostic est souvent posé par la biopsie rénale",
-      "C": "Le carcinome à cellules claires est la forme la plus fréquente",
-      "D": "La polyglobulie fait partie du syndrome paranéoplasique",
-      "E": "La néphrectomie totale est favorisée dans les formes bilatérales"
-    },
-    "bonnes_reponses": [
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : C, D. Question d'annale officielle portant sur le chapitre « Cancer du rein » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
     "source": {
       "annee": 2018,
       "session": "Rattrapage",
@@ -30681,124 +29459,6 @@ window.QCM_URO = [
       "C"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, C. Question d'annale officielle portant sur le chapitre « TD : Les infections urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-801",
-    "num": 801,
-    "module": "uro",
-    "chapitre": "Hypertrophie bénigne de la prostate (HBP)",
-    "chapitre_num": 5,
-    "section": "Hypertrophie bénigne de la prostate (HBP)",
-    "question": "Quelles sont les caractéristiques d'une courbe de de débitmètre d'une HBP ? (les réponses fausses)",
-    "propositions": {
-      "A": "Un débit max entre 20-30 ml/s",
-      "B": "Une courbe aplatie.",
-      "C": "Débit max inf à 10 ml/s",
-      "D": "Temps de miction diminué",
-      "E": "Temps de miction allongé"
-    },
-    "bonnes_reponses": [
-      "A",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, D. Question d'annale officielle portant sur le chapitre « Hypertrophie bénigne de la prostate (HBP) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-802",
-    "num": 802,
-    "module": "uro",
-    "chapitre": "Hypertrophie bénigne de la prostate (HBP)",
-    "chapitre_num": 5,
-    "section": "Hypertrophie bénigne de la prostate (HBP)",
-    "question": "Hypertrophie prostatique est caractérisée par ? (les réponses fausses)",
-    "propositions": {
-      "A": "Pathologie d'évolution rapide",
-      "B": "Se développe essentiellement au niveau de zone périphérique de la prostate",
-      "C": "Absence de parallélisme anatomo-pathologique",
-      "D": "La zone antérieure de la prostatique subit une modification lors d'une hypertrophie prostatique",
-      "E": "Le toucher rectal est examen clé qui permet d'apprécier le lobe médian"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, D, E. Question d'annale officielle portant sur le chapitre « Hypertrophie bénigne de la prostate (HBP) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Rattrapage",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Rattrapage",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-803",
-    "num": 803,
-    "module": "uro",
-    "chapitre": "Hypertrophie bénigne de la prostate (HBP)",
-    "chapitre_num": 5,
-    "section": "Hypertrophie bénigne de la prostate (HBP)",
-    "question": "Le TURP syndrome : (Réponses justes)",
-    "propositions": {
-      "A": "C'est une complication grave de la résection endoscopique, mettant en jeu le pronostic vital",
-      "B": "C'est une urgence diagnostique et thérapeutique",
-      "C": "La physiopathologie est due à l'effet de l'hyper natrémie",
-      "D": "La clinique est dominée par des troubles visuelles et des céphalées",
-      "E": "Le syndrome hypotension artérielle - bradycardie est un signe d'appel pathognomonique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, D, E. Question d'annale officielle portant sur le chapitre « Hypertrophie bénigne de la prostate (HBP) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2017/2018 (24/06/2018)).",
     "source": {
       "annee": 2018,
       "session": "Rattrapage",
@@ -31471,7 +30131,7 @@ window.QCM_URO = [
     "chapitre": "TD : Les infections urinaires",
     "chapitre_num": 30,
     "section": "TD : Les infections urinaires",
-    "question": "Selon la description zonale décrite par McNeal :  l’ HSP se développe au dépend de de la :",
+    "question": "Selon la description zonale décrite par McNeal : l’ HSP se développe au dépend de de la :",
     "propositions": {
       "A": "Zone de transition",
       "B": "Zone centrale",
@@ -31547,7 +30207,7 @@ window.QCM_URO = [
     "chapitre": "TD : Rétention d'urine (Rétention aiguë d'urine)",
     "chapitre_num": 31,
     "section": "TD : Rétention d'urine (Rétention aiguë d'urine)",
-    "question": "Au toucher rectal quels sont les éléments qui plaident en faveur de la bénignité de  l’ hypertrophie prostatique ? (Réponses fausses) :",
+    "question": "Au toucher rectal quels sont les éléments qui plaident en faveur de la bénignité de l’ hypertrophie prostatique ? (Réponses fausses) :",
     "propositions": {
       "A": "Disparition du sillon médian",
       "B": "Souple",
@@ -31807,45 +30467,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-830",
-    "num": 830,
-    "module": "uro",
-    "chapitre": "Cancer du testicule",
-    "chapitre_num": 3,
-    "section": "Cancer du testicule",
-    "question": "Une tumeur germinale non séminomateuse peut contenir :",
-    "propositions": {
-      "A": "Du carcinome embryonnaire",
-      "B": "Du choriocarcinome",
-      "C": "Du leydigome",
-      "D": "Du tératome",
-      "E": "Ne contient jamais de seminome"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, D. Question d'annale officielle portant sur le chapitre « Cancer du testicule » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-831",
     "num": 831,
     "module": "uro",
@@ -31930,7 +30551,7 @@ window.QCM_URO = [
     "chapitre": "Cancer du testicule",
     "chapitre_num": 3,
     "section": "Cancer du testicule",
-    "question": "M âgé de 70 ans, est admis en urgence pour une rétention aigue d'urines. L'interrogatoire apprend que, depuis quelques années, il accuse une dysurie et une pollakiurie intenses. On trouve dans ses antécédents lointains deux épisodes d'urétrite avec nombreuses poussées  d’infections  urinaires. Au toucher rectal, sa prostate est très augmentée de volume de la taille d ’ une mandarine, ferme, douloureuse, bien limitée. Les deux reins sont distendus à  l’échographie . La température est à 38°C : Quels sont en urgence les gestes proposés à ce patient ? (CM)",
+    "question": "M âgé de 70 ans, est admis en urgence pour une rétention aigue d'urines. L'interrogatoire apprend que, depuis quelques années, il accuse une dysurie et une pollakiurie intenses. On trouve dans ses antécédents lointains deux épisodes d'urétrite avec nombreuses poussées d’infections urinaires. Au toucher rectal, sa prostate est très augmentée de volume de la taille d ’ une mandarine, ferme, douloureuse, bien limitée. Les deux reins sont distendus à l’échographie . La température est à 38°C : Quels sont en urgence les gestes proposés à ce patient ? (CM)",
     "propositions": {
       "A": "Résection trans-urétrale de la prostate",
       "B": "Drainage par cathétérisme sus pubien",
@@ -32125,7 +30746,7 @@ window.QCM_URO = [
     "chapitre": "Incontinence urinaire",
     "chapitre_num": 6,
     "section": "Incontinence urinaire",
-    "question": "Une incontinence urinaire d'effort chez la femme est : quelle(s)  est sont l’ (les) affirmation(s) exacte(s)  :",
+    "question": "Une incontinence urinaire d'effort chez la femme est : quelle(s) est sont l’ (les) affirmation(s) exacte(s) :",
     "propositions": {
       "A": "Une incontinence urinaire qui peut être déclenché per la toux",
       "B": "Pr ovoque par la manœuvre de Bonney",
@@ -32272,44 +30893,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-842",
-    "num": 842,
-    "module": "uro",
-    "chapitre": "Dysfonction érectile (DE)",
-    "chapitre_num": 4,
-    "section": "Dysfonction érectile (DE)",
-    "question": "Concernant les tumeurs de la vessie infiltrant le muscle (TVIM), quelles) est (sent)  l’( les) affirmation(s) exacte(s) :",
-    "propositions": {
-      "A": "Il s'agit de la présentation la plus fréquente des tumeurs de la vessie",
-      "B": "La RTUV est indispensable au diagnostic",
-      "C": "Le risque principal est la récidive locale après traitement",
-      "D": "Le traitement de référence à visée curatrice est chirurgical",
-      "E": "S'agit d'une lésion de bon pronostic, même au stade avancé"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, D. Question d'annale officielle portant sur le chapitre « Dysfonction érectile (DE) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)).",
-    "source": {
-      "annee": 2018,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)"
-    },
-    "sources": [
-      {
-        "annee": 2018,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2018/2019 (20/12/2018)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-843",
     "num": 843,
     "module": "uro",
@@ -32351,9 +30934,9 @@ window.QCM_URO = [
     "id": "uro-844",
     "num": 844,
     "module": "uro",
-    "chapitre": "Cancer du rein",
-    "chapitre_num": 2,
-    "section": "Cancer du rein",
+    "chapitre": "Cancer de la prostate",
+    "chapitre_num": 1,
+    "section": "Cancer de la prostate",
     "question": "Le PSAT permet :",
     "propositions": {
       "A": "Le dépistage des formes localisées",
@@ -32502,9 +31085,9 @@ window.QCM_URO = [
     "id": "uro-848",
     "num": 848,
     "module": "uro",
-    "chapitre": "TD : Colique néphrétique",
-    "chapitre_num": 26,
-    "section": "TD : Colique néphrétique",
+    "chapitre": "TD : Syndrome néphrotique",
+    "chapitre_num": 33,
+    "section": "TD : Syndrome néphrotique",
     "question": "Le syndrome néphrotique est :",
     "propositions": {
       "A": "Pur lorsque la protéinurie est sélective avec absence d'hématurie microscopique d'une HTA et d'une insuffisance rénale organique",
@@ -32666,7 +31249,6 @@ window.QCM_URO = [
       "E": "Se caractérise par une natriurèse busse"
     },
     "bonnes_reponses": [
-      "B",
       "C",
       "E"
     ],
@@ -32687,7 +31269,8 @@ window.QCM_URO = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée (BCE → CE) : l'IRA fonctionnelle est due à l'hypovolémie, non à une hyperhydratation."
   },
   {
     "id": "uro-853",
@@ -33195,7 +31778,7 @@ window.QCM_URO = [
     "chapitre": "Cancer du testicule",
     "chapitre_num": 3,
     "section": "Cancer du testicule",
-    "question": "Les anomalies de migration testiculaire à  l’âge  adulte exposent à plusieurs risques qui sont : (QCM)",
+    "question": "Les anomalies de migration testiculaire à l’âge adulte exposent à plusieurs risques qui sont : (QCM)",
     "propositions": {
       "A": "La torsion testiculaire",
       "B": "La dégénérescence du testicule malade",
@@ -33461,7 +32044,7 @@ window.QCM_URO = [
     "chapitre": "TD : Syndrome néphrotique",
     "chapitre_num": 33,
     "section": "TD : Syndrome néphrotique",
-    "question": "L'élément physiopathologie p rédominant des œdèmes  du syndrome néphrotique est :(QCS)",
+    "question": "L'élément physiopathologie p rédominant des œdèmes du syndrome néphrotique est :(QCS)",
     "propositions": {
       "A": "Baisse de la synthèse de l'albumine plasmatique",
       "B": "Baisse de la pression oncotique",
@@ -33498,7 +32081,7 @@ window.QCM_URO = [
     "chapitre": "TD : Syndrome néphrotique",
     "chapitre_num": 33,
     "section": "TD : Syndrome néphrotique",
-    "question": "Un syndrome néphrotique impur peut  se définir par : (QCM)",
+    "question": "Un syndrome néphrotique impur peut se définir par : (QCM)",
     "propositions": {
       "A": "Albuminémie > 30 g/l",
       "B": "Protéinurie>3g/24H",
@@ -34170,6 +32753,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2016/2017"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
       }
     ],
     "faculty": "Oran",
@@ -34207,6 +32796,12 @@ window.QCM_URO = [
         "session": "Rattrapage",
         "type": "Rattrapage",
         "texte": "Faculté de Médecine d'Oran - Examen Rattrapage Uro-Néphrologie 2016/2017"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
       }
     ],
     "faculty": "Oran",
@@ -34514,6 +33109,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
       }
     ],
     "faculty": "Oran",
@@ -34983,44 +33584,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-913",
-    "num": 913,
-    "module": "uro",
-    "chapitre": "Lithiases urinaires",
-    "chapitre_num": 15,
-    "section": "Lithiases urinaires",
-    "question": "A quels composants chimiques doit-on penser devant un ASP ne visualisant pas de lithiases, ou des lithiases peu radio-opaques ?",
-    "propositions": {
-      "A": "Calcium",
-      "B": "Cystine",
-      "C": "Magnésium",
-      "D": "Acide urique",
-      "E": "Phosphocalcique"
-    },
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, D. Question d'annale officielle portant sur le chapitre « Lithiases urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-914",
     "num": 914,
     "module": "uro",
@@ -35251,43 +33814,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-920",
-    "num": 920,
-    "module": "uro",
-    "chapitre": "Cancer de la prostate",
-    "chapitre_num": 1,
-    "section": "Cancer de la prostate",
-    "question": "Le dépistage du cancer de prostate doit être fait par :",
-    "propositions": {
-      "A": "Le taux de PCA3",
-      "B": "Le PSAT et le toucher rectal tous les 6 mois",
-      "C": "Le PSAT et le toucher rectal tous les ans",
-      "D": "L'échographie de l'appareil urinaire",
-      "E": "La biopsie prostatique"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : C. Question d'annale officielle portant sur le chapitre « Cancer de la prostate » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-921",
     "num": 921,
     "module": "uro",
@@ -35332,7 +33858,7 @@ window.QCM_URO = [
     "chapitre": "TD : Syndrome néphrotique",
     "chapitre_num": 33,
     "section": "TD : Syndrome néphrotique",
-    "question": "Dans l' œdème  du syndrome néphrotique, quels sont les éléments physiopathologies prédominants :",
+    "question": "Dans l' œdème du syndrome néphrotique, quels sont les éléments physiopathologies prédominants :",
     "propositions": {
       "A": "Défaut de synthèse de l'albumine plasmatique",
       "B": "Baisse de la pression oncotique",
@@ -35370,7 +33896,7 @@ window.QCM_URO = [
     "chapitre": "TD : Syndrome néphrotique",
     "chapitre_num": 33,
     "section": "TD : Syndrome néphrotique",
-    "question": "Au cours du syndrome néphrotique impur primitif  de l’adulte , quelles sont parmi les informations suivantes, celles qui sont exactes :",
+    "question": "Au cours du syndrome néphrotique impur primitif de l’adulte , quelles sont parmi les informations suivantes, celles qui sont exactes :",
     "propositions": {
       "A": "La filtration glomérulaire est basse",
       "B": "HTA est obligatoire et résistante",
@@ -35409,7 +33935,7 @@ window.QCM_URO = [
     "chapitre": "TD : Syndrome néphrotique",
     "chapitre_num": 33,
     "section": "TD : Syndrome néphrotique",
-    "question": "Une femme âgée de 2 ans consulte pour les motifs suivants ;  œd ème généralisée, albuminémie à 25 mg, protéinurie > 3g/24h, fonction rénale altérée : cette patiente présente :",
+    "question": "Une femme âgée de 2 ans consulte pour les motifs suivants ; œd ème généralisée, albuminémie à 25 mg, protéinurie > 3g/24h, fonction rénale altérée : cette patiente présente :",
     "propositions": {
       "A": "Syndrome néphrétique aigu",
       "B": "Syndrome néphrotique impur",
@@ -35554,45 +34080,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-928",
-    "num": 928,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Cochez les réponses justes :",
-    "propositions": {
-      "A": "Les enfants sont plus exposés aux traumatismes que l'adulte",
-      "B": "72 à 91 % de ces traumatismes sont mineurs",
-      "C": "Les reins pathologiques sont plus exposés aux traumatismes",
-      "D": "Les accidents professionnels sont la cause la plus fréquente",
-      "E": "Toutes les réponses sont justes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, C. Question d'annale officielle portant sur le chapitre « TD : CAT devant une hématurie » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-929",
     "num": 929,
     "module": "uro",
@@ -35626,6 +34113,12 @@ window.QCM_URO = [
         "session": "Normale",
         "type": "EMD",
         "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section A 2016/2017"
+      },
+      {
+        "annee": 2017,
+        "session": "Normale",
+        "type": "EMD",
+        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
       }
     ],
     "faculty": "Oran",
@@ -35805,43 +34298,6 @@ window.QCM_URO = [
       "B"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B. Question d'annale officielle portant sur le chapitre « TD : Rétention d'urine (Rétention aiguë d'urine) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-935",
-    "num": 935,
-    "module": "uro",
-    "chapitre": "Incontinence urinaire",
-    "chapitre_num": 6,
-    "section": "Incontinence urinaire",
-    "question": "Traitements de l'incontinence urinaire d'effort de la femme : (une réponse fausse)",
-    "propositions": {
-      "A": "Traitement hormonal local (estrogènes)",
-      "B": "Traitement androgénique",
-      "C": "Rééducation uro-gynécologique",
-      "D": "Bandelette prothétique sous urétrale rétro-pubienne",
-      "E": "Bandelette prothétique sous urétrale trans-obturatrice"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B. Question d'annale officielle portant sur le chapitre « Incontinence urinaire » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
     "source": {
       "annee": 2017,
       "session": "Normale",
@@ -36048,46 +34504,6 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-941",
-    "num": 941,
-    "module": "uro",
-    "chapitre": "Lithiases urinaires",
-    "chapitre_num": 15,
-    "section": "Lithiases urinaires",
-    "question": "Concernant l'exploration de la lithiase rénale (CM)",
-    "propositions": {
-      "A": "Il faut systématiquement demander l'analyse d'un calcul qu'un patient vous apporte à la consultation",
-      "B": "L'analyse biochimique du calcul est aussi valable par spectrophotométrie infra-rouge",
-      "C": "La cristallurie permet de surveiller l'activité lithiasique mais en aucun cas un examen de diagnostic",
-      "D": "Un bilan biologique de base est nécessaire dès le premier épisode lithiasique",
-      "E": "Le dosage de la PTH est systématique"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, C, D. Question d'annale officielle portant sur le chapitre « Lithiases urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-942",
     "num": 942,
     "module": "uro",
@@ -36143,46 +34559,6 @@ window.QCM_URO = [
       "D"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : D. Question d'annale officielle portant sur le chapitre « Lithiases urinaires » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-944",
-    "num": 944,
-    "module": "uro",
-    "chapitre": "Incontinence urinaire",
-    "chapitre_num": 6,
-    "section": "Incontinence urinaire",
-    "question": "Le bilan urodynamique permet d'analyser (réponses justes) :",
-    "propositions": {
-      "A": "La compliance vésicale",
-      "B": "La sensibilité vésicale",
-      "C": "La muqueuse vésicale",
-      "D": "La capacité vésicale",
-      "E": "Les troubles mictionnels complexes"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, D, E. Question d'annale officielle portant sur le chapitre « Incontinence urinaire » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
     "source": {
       "annee": 2017,
       "session": "Normale",
@@ -36556,46 +34932,6 @@ window.QCM_URO = [
       "D"
     ],
     "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : D. Question d'annale officielle portant sur le chapitre « TD : CAT devant une hématurie » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "uro-955",
-    "num": 955,
-    "module": "uro",
-    "chapitre": "TD : CAT devant une hématurie",
-    "chapitre_num": 25,
-    "section": "TD : CAT devant une hématurie",
-    "question": "Un traumatisme rénal peut se compliquer à long terme :",
-    "propositions": {
-      "A": "Dégradation de la fonction rénale",
-      "B": "Pseudo anévrisme",
-      "C": "Fistule artério-veineuse",
-      "D": "Hypotension artérielle",
-      "E": "Dilatation des cavités pyélo-calicielles"
-    },
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : A, B, C, E. Question d'annale officielle portant sur le chapitre « TD : CAT devant une hématurie » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
     "source": {
       "annee": 2017,
       "session": "Normale",
@@ -37116,51 +35452,13 @@ window.QCM_URO = [
     "isAlger": false
   },
   {
-    "id": "uro-969",
-    "num": 969,
-    "module": "uro",
-    "chapitre": "Tumeurs de la vessie (TV)",
-    "chapitre_num": 9,
-    "section": "Tumeurs de la vessie (TV)",
-    "question": "La tumeur de la voie excrétrice supérieur TVES (réponses justes) :",
-    "propositions": {
-      "A": "L'association d'une TV et TVES concomitante sont très fréquente représente 45% des cas",
-      "B": "La multifocalité est un facteur péjoratif de la TVES",
-      "C": "La localisation urétérale est plus fréquente que pyélo-urélerale",
-      "D": "Les amines aromatiques sont des molécules cancérigènes vésicale mais pas pour le TVES",
-      "E": "L'urétéroscopie est un moyen thérapeutique de la TVES"
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "explication": "Réponse(s) officielle(s) de la Faculté de Médecine d'Oran : B, E. Question d'annale officielle portant sur le chapitre « Tumeurs de la vessie (TV) » (Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)).",
-    "source": {
-      "annee": 2017,
-      "session": "Normale",
-      "type": "EMD",
-      "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-    },
-    "sources": [
-      {
-        "annee": 2017,
-        "session": "Normale",
-        "type": "EMD",
-        "texte": "Faculté de Médecine d'Oran - Examen Uro-Néphrologie Section B 2016/2017 (05/01/2017)"
-      }
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "uro-970",
     "num": 970,
     "module": "uro",
     "chapitre": "TD : Syndrome néphrotique",
     "chapitre_num": 33,
     "section": "TD : Syndrome néphrotique",
-    "question": "L'élément physiopathologie prédominant des  œdèmes  du syndrome néphrotique est :",
+    "question": "L'élément physiopathologie prédominant des œdèmes du syndrome néphrotique est :",
     "propositions": {
       "A": "Baisse de la synthèse de l'albumine plasmatique",
       "B": "Fuite des protéines dans le liquide interstitiel",

@@ -1097,24 +1097,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Toute métrorragie survenant après la ménopause est un cancer de l'endomètre jusqu'à preuve du contraire et impose une exploration endométriale immédiate.",
     "_remarque": "Une épaisseur de l'endomètre supérieure à 4 ou 5 mm à l'échographie endovaginale chez une femme ménopausée qui saigne impose la réalisation d'une biopsie endométriale."
   },
-  "gyn-123": {
-    "A": "Faux. La colposcopie explore la muqueuse de l'exocol et la zone de jonction mais ne permet pas d'explorer la cavité endométriale.",
-    "B": "Faux. L'hystérographie est formellement contre-indiquée en contexte suspect de néoplasie en raison du risque de dissémination péritonéale de cellules malignes via les trompes.",
-    "C": "Vrai. L'hystéroscopie diagnostique avec prélèvements biopsiques dirigés sous contrôle visuel direct est l'examen décisif fournissant la confirmation histologique formelle.",
-    "D": "Faux. L'échographie endovaginale est l'examen d'imagerie de première intention qui mesure l'épaississement de l'endomètre, mais le diagnostic de certitude est anatomopathologique par hystéroscopie-biopsie.",
-    "E": "Faux. Le frottis cervico-utérin n'a pas de sensibilité pour le diagnostic du cancer de la cavité endométriale.",
-    "_synthese": "La confirmation diagnostique de certitude du cancer de l'endomètre repose sur la preuve histopathologique obtenue par biopsie endométriale dirigée sous hystéroscopie ou par curetage étagé.",
-    "_remarque": "L'hystéroscopie permet d'apprécier la topographie des végétations endométriales, leur vascularisation anarchique et l'absence d'extension macroscopique à l'endocol."
-  },
-  "gyn-124": {
-    "A": "Faux. Le léiomyome prend naissance au dépend des cellules musculaires lisses du myomètre utérin et non de la muqueuse endométriale.",
-    "B": "Vrai. Le fibrome est une prolifération monoclonale bénigne constituée de fibres musculaires lisses myométriales associées à un stroma conjonctif.",
-    "C": "Vrai. C'est une tumeur hormonodépendante dont la croissance est stimulée par les œstrogènes et la progestérone au cours de la période d'activité génitale.",
-    "D": "Faux. La dégénérescence sarcomateuse d'un fibrome préexistant est exceptionnelle (< 0,2 à 0,5 % des cas) ; le sarcome utérin naît le plus souvent d'emblée de novo.",
-    "E": "Faux. En l'absence d'imprégnation oestrogénique cyclique, le fibrome n'apparaît jamais avant la puberté.",
-    "_synthese": "Le fibrome utérin (léiomyome) est la tumeur pelvienne bénigne la plus fréquente chez la femme. C'est une lésion myomateuse hormonosensible se développant entre la puberté et la ménopause.",
-    "_remarque": "Selon la classification FIGO, les fibromes sont étagés de 0 à 7 : les sous-muqueux (types 0, 1, 2) sont les plus hémorragiques, tandis que les interstitiels (types 3, 4, 5) et sous-séreux (types 6, 7) s'accompagnent plutôt de pesanteurs pelviennes."
-  },
   "gyn-125": {
     "A": "Vrai. Le fibrome utérin se développe et grossit électivement sur un terrain d'hyperoestrogénie relative ou d'exposition hormonale prolongée.",
     "B": "Vrai. Un fibrome utérin asymptomatique, quelle que soit sa taille modérée, ne justifie aucun traitement chirurgical ni médicamenteux, mais une simple surveillance périodique.",
@@ -1159,15 +1141,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Le toucher vaginal est formellement contre-indiqué en cas de suspicion de placenta prævia car il risque de déclencher un décollement digital et une hémorragie cataclysmique.",
     "_synthese": "Le placenta prævia est une insertion basse et vicieuse du placenta sur le segment inférieur de l'utérus. Il est responsable d'hémorragies de sang rouge indolores du 3e trimestre.",
     "_remarque": "Le toucher vaginal est formellement banni devant toute métrorragie du 3e trimestre tant que l'insertion placentaire n'a pas été formellement localisée par échographie."
-  },
-  "gyn-130": {
-    "A": "Vrai. Le maître-symptôme du placenta prævia est une hémorragie génitale de sang rouge rutilant, indolore, survenant brutalement sans cause apparente.",
-    "B": "Faux. Le sang noir survenant sur un utérus douloureux caractérise l'hématome rétro-placentaire.",
-    "C": "Faux. La contracture permanente en « ventre de bois » est la marque clinique de l'HRP ; dans le placenta prævia, l'utérus reste parfaitement souple.",
-    "D": "Vrai. À la palpation abdominale, l'utérus est souple, relâché et indolore en dehors d'éventuelles contractions physiologiques espacées.",
-    "E": "Vrai. Les épisodes hémorragiques surviennent typiquement au repos ou au réveil nocturne au cours du 3e trimestre de la grossesse.",
-    "_synthese": "Le tableau clinique typique du placenta prævia associe des saignements de sang rouge vif, indolores, spontanés au repos au 3e trimestre, avec un utérus souple et dépressible au palper.",
-    "_remarque": "Le pronostic vital maternel dépend de l'abondance des pertes sanguines, et le pronostic fœtal est conditionné par la prématurité induite par les extractions en urgence."
   },
   "gyn-131": {
     "A": "Faux. La palpation abdominale retrouve un utérus souple mais ne permet en aucun cas de visualiser l'insertion placentaire.",
@@ -1402,15 +1375,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'insertion basse du placenta sur le segment inférieur expose au saignement perpartum. La rupture artificielle des membranes lors du travail permet la compression hémostatique par la présentation fœtale dans les formes non recouvrantes.",
     "_remarque": "En cas de placenta prævia recouvrant total ou partiel, la voie basse est formellement contre-indiquée et justifie une césarienne programmée."
   },
-  "gyn-157": {
-    "A": "Vrai. L'hypertonie utérine, l'hypoxie fœtale et la nécessité d'une extraction en urgence conduisent très fréquemment à un accouchement prématuré.",
-    "B": "Vrai. L'anoxie brutale liée au décollement d'une grande surface placentaire entraîne une mort fœtale in utero dans plus de 30 à 50 % des formes massives.",
-    "C": "Vrai. Le passage de thromboplastines déciduales dans la circulation maternelle déclenche une coagulation intravasculaire disséminée (CIVD) avec effondrement du fibrinogène.",
-    "D": "Vrai. Le décès maternel peut survenir des suites d'un choc hémorragique incoagulable, d'une défaillance multiviscérale ou d'une complication rénale aiguë.",
-    "E": "Faux. La toxémie gravidique (prééclampsie) est la cause sous-jacente principale de l'HRP, et non une complication secondaire consécutive à l'hématome.",
-    "_synthese": "L'hématome rétroplacentaire est grevé d'une lourde morbi-mortalité : mort fœtale in utero, grande prématurité, CIVD maternelle gravissime et risque de décès maternel par choc hémorragique.",
-    "_remarque": "La présence d'un sang incoagulable au niveau des voies génitales témoigne d'une afibrinogénémie sévère consécutive à la consommation massive des facteurs de coagulation par l'hématome."
-  },
   "gyn-158": {
     "A": "Vrai. Le premier critère clinique de définition est une pression artérielle systolique ≥ 140 mmHg et/ou diastolique ≥ 90 mmHg mesurée au repos après 20 SA.",
     "B": "Vrai. Le critère biologique associé est une protéinurie significative supérieure ou égale à 300-500 mg/24 heures.",
@@ -1437,24 +1401,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Vrai. Le traitement d'une lésion intra-épithéliale de haut grade (dysplasie sévère / CIN 3) repose sur l'exérèse chirurgicale par conisation à l'anse diathermique ou au laser.",
     "_synthese": "La prise en charge des dysplasies cervicales repose sur le dépistage cytologique, la confirmation histologique par colposcopie avec biopsie dirigée, et le traitement d'exérèse par conisation.",
     "_remarque": "La conisation permet à la fois d'éradiquer la lésion dysplasique et de fournir une pièce opératoire pour l'analyse histologique complète de ses marges d'exérèse."
-  },
-  "gyn-161": {
-    "A": "Faux. Les douleurs pelviennes sont des symptômes tardifs traduisant un envahissement ganglionnaire lombo-sacré ou parametrial étendu.",
-    "B": "Faux. Des hémorragies utérines spontanées abondantes s'observent sur de volumineuses tumeurs nécrotiques mais ne constituent pas le signe précoce typique.",
-    "C": "Vrai. Les métrorragies provoquées de contact (post-coïtales), indolores, faites de sang rouge vif, constituent le signe clinique d'appel le plus fréquent du cancer invasif du col.",
-    "D": "Faux. Les leucorrhées fétides et séreuses traduisent la surinfection et la nécrose tumorale à un stade plus avancé.",
-    "E": "Faux. L'item C est la réponse clinique exacte incontournable.",
-    "_synthese": "Le signe fonctionnel cardinal et le plus précoce du cancer invasif du col de l'utérus est la survenue de métrorragies de contact, indolores et récidivantes après les rapports sexuels.",
-    "_remarque": "Toute femme consultant pour métrorragies post-coïtales doit obligatoirement bénéficier d'un examen au spéculum sous bon éclairage complété par une colposcopie avec biopsie au moindre doute."
-  },
-  "gyn-162": {
-    "A": "Faux. Le fibrome utérin se développe aux dépens du tissu musculaire lisse myométrial et non de la muqueuse endométriale.",
-    "B": "Vrai. Le fibrome est une tumeur bénigne dérivée de la prolifération des cellules musculaires lisses du myomètre.",
-    "C": "Vrai. C'est une lésion hormono-dépendante dont la croissance requiert une stimulation continue par les œstrogènes au cours de la vie génitale.",
-    "D": "Faux. La transformation maligne d'un léiomyome en sarcome est exceptionnelle, estimée à moins de 0,2 à 0,5 % des cas.",
-    "E": "Faux. En l'absence de sécrétion hormonale œstrogénique, le léiomyome n'apparaît jamais chez l'enfant avant la puberté.",
-    "_synthese": "Le fibrome utérin est une tumeur myométriale bénigne, hormonodépendante des œstrogènes, régressant physiologiquement après la ménopause.",
-    "_remarque": "L'abstention thérapeutique avec surveillance échographique simple est la règle de bonne pratique devant tout fibrome utérin asymptomatique."
   },
   "gyn-163": {
     "A": "Vrai. Les saignements abondants et prolongés (ménorragies) induisent fréquemment une anémie microcytaire ferriprive par spoliation sanguine chronique.",
@@ -1591,24 +1537,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q14) portant sur le cours « Hématome retro placentaire ». Bonne(s) réponse(s) : D.",
     "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
   },
-  "gyn-178": {
-    "A": "Vrai. Le placenta prævia s'insère obligatoirement en tout ou partie sur le segment inférieur utérin.",
-    "B": "Faux. Les formes asymptomatiques sont fréquentes et découvertes fortuitement lors de l'échographie de dépistage obstétricale.",
-    "C": "Vrai. En cas de placenta prævia latéral ou marginal saignant pendant le travail, la rupture artificielle précoce de la poche des eaux permet à la tête fœtale de descendre et de comprimer la tranche placentaire hémorragique.",
-    "D": "Vrai. Le saignement abondant et le décollement localisé peuvent entraîner une anoxie et une anémie fœtale aiguë.",
-    "E": "Vrai. L'échographie obstétricale par voie sus-pubienne et endovaginale confirme formellement le diagnostic topographique du placenta prævia.",
-    "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q15) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : ACDE.",
-    "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
-  },
-  "gyn-179": {
-    "A": "Faux. La délivrance artificielle n'est indiquée que si le placenta est encore retenu dans l'utérus après 30 minutes de l'expulsion.",
-    "B": "Vrai. La révision utérine manuelle sous asepsie est le premier geste obstétrical obligatoire pour évacuer les caillots et s'assurer de l'intégrité utérine.",
-    "C": "Vrai. La perfusion immédiate d'utérotoniques (ocytocine) est indispensable pour rétablir la tonicité du myomètre et assurer la ligature vivante de Pinard.",
-    "D": "Faux. La transfusion sanguine n'est pas un geste obstétrical immédiat mais une mesure de réanimation selon les pertes et le choc.",
-    "E": "Vrai. L'examen minutieux sous valves de la filière génitale permet de dépister et suturer les déchirures cervicales ou vaginales.",
-    "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q16) portant sur le cours « Délivrance normale et pathologique ». Bonne(s) réponse(s) : BCE.",
-    "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
-  },
   "gyn-180": {
     "A": "Vrai. La GEU correspond par définition à la nidation et au développement de l'embryon en dehors de la cavité endométriale normale.",
     "B": "Faux. La GEU est la première cause de mortalité maternelle au 1er trimestre.",
@@ -1625,15 +1553,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "D": "Vrai. L'échographie sus-pubienne (associée au besoin à la voie endovaginale prudente) visualise directement le bord inférieur du placenta par rapport à l'orifice interne du col.",
     "E": "Faux. L'amnioscopie n'a aucune place dans le diagnostic du placenta prævia.",
     "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q18) portant sur le cours « Placenta prævia ». Bonne(s) réponse(s) : D.",
-    "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
-  },
-  "gyn-182": {
-    "A": "Vrai. La menace d'accouchement prématuré ou l'évacuation en urgence imposée par la souffrance fœtale induit une prématurité fréquente.",
-    "B": "Vrai. La mort fœtale in utero (MFIU) est la complication fœtale majeure due à l'anoxie brutale par hématome décidual étendu.",
-    "C": "Vrai. Les troubles majeurs de l'hémostase (CIVD et hypofibrinogénémie) surviennent par passage de thromboplastines tissulaires dans la circulation maternelle.",
-    "D": "Vrai. Le choc hémorragique décompensé et la coagulopathie engagent directement le pronostic vital maternel.",
-    "E": "Faux. La toxémie gravidique (pré-éclampsie) est la cause étiologique vasculaire sous-jacente et non une conséquence de l'HRP.",
-    "_synthese": "Question d'évaluation officielle (Examen de Gynécologie-Obstétrique 2017/2018 - Q19) portant sur le cours « Hématome retro placentaire ». Bonne(s) réponse(s) : ABCD.",
     "_remarque": "Faculté de Médecine de Mostaganem · 5ème Année · Épreuve officielle 2017/2018."
   },
   "gyn-183": {
@@ -2167,15 +2086,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'hémorragie génitale précoce du postpartum immédiat est causée par l'atonie utérine, la rétention cotylédonaire partielle et les traumatismes des voies génitales molles (plaies vaginales ou déchirures du col).",
     "_remarque": "L'examen systématique de la délivrance (cotylédons et membranes) et l'examen sous valves après tout accouchement permettent de prévenir ou identifier immédiatement ces étiologies."
   },
-  "gyn-242": {
-    "A": "Faux. La glycosurie ne permet pas de porter le diagnostic en raison de l'abaissement du seuil rénal gravidique.",
-    "B": "Faux. La glycémie à jeun est un test de dépistage précoce du 1er trimestre mais ne suffit pas pour le diagnostic standardisé du 6e mois.",
-    "C": "Faux. Une glycémie post-prandiale isolée n'est pas standardisée pour le diagnostic de certitude.",
-    "D": "Vrai. L'hyperglycémie provoquée par voie orale (HGPO 75 g avec prélèvements à jeun, à 1h et à 2h) est le test de référence diagnostique international recommandé entre 24 et 28 SA.",
-    "E": "Faux. L'hémoglobine glyquée HbA1c n'a pas la sensibilité requise pour poser le diagnostic de diabète gestationnel.",
-    "_synthese": "L'hyperglycémie provoquée par voie orale (HGPO avec charge orale de 75 g de glucose) est l'examen diagnostique de certitude du diabète gestationnel entre 24 et 28 SA.",
-    "_remarque": "Les critères IADPSG définissent le diabète gestationnel si au moins l'une des glycémies dépasse : 0,92 g/L à T0, 1,80 g/L à T60, ou 1,53 g/L à T120."
-  },
   "gyn-243": {
     "A": "Faux. L'absence de ménopause à 50 ans n'est pas en soi un facteur de risque autonome spécifique comparativement à la nulliparité et l'obésité.",
     "B": "Vrai. La nulliparité secondaire à une infertilité prolongée témoigne de cycles anovulatoires chroniques avec carence lutéale et hyperoestrogénie relative sans opposition progestative.",
@@ -2184,15 +2094,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. La prise de progestatifs exerce au contraire un rôle protecteur antiprolifératif sur l'endomètre.",
     "_synthese": "Les facteurs de haut risque majeurs de cancer de l'endomètre chez une femme de 50 ans saignante sont la nulliparité avec antécédent d'infertilité (dysovulation prolongée) et l'obésité métabolique (aromatisation périphérique).",
     "_remarque": "Toute métrorragie en périménopause ou post-ménopause impose la réalisation d'une échographie endovaginale pour mesurer l'épaisseur de l'endomètre et d'une biopsie à la pipelle de Cornier."
-  },
-  "gyn-244": {
-    "A": "Vrai. La rétention prolongée d'un œuf mort in utero au-delà de 2 à 3 semaines libère des thromboplastines déciduales dans la circulation maternelle et expose à une CIVD avec hypofibrinogénémie.",
-    "B": "Vrai. L'insuffisance placentaire sévère consécutive à une prééclampsie compliquée est l'une des causes vasculaires majeures de mort fœtale in utero.",
-    "C": "Faux. L'infection intra-amniotique est exceptionnellement une conséquence de la MFIU à membranes intactes ; elle en est plutôt la cause en cas de rupture prématurée.",
-    "D": "Faux. L'évacuation utérine s'effectue préférentiellement par voie basse après déclenchement médical par prostaglandines ; la césarienne sur fœtus mort est proscrite sauf obstacle mécanique infranchissable.",
-    "E": "Faux. La mort in utero peut survenir brutalement sans aucun retard de croissance fœtal préalable (accident de cordon ombilical, hématome rétroplacentaire massif, infection foudroyante).",
-    "_synthese": "La mort fœtale in utero peut être secondaire à une prééclampsie sévère et se compliquer de troubles majeurs de l'hémostase maternelle (CIVD). L'accouchement par voie basse déclenché est la règle.",
-    "_remarque": "Le dosage régulier du fibrinogène plasmatique et des plaquettes est impératif en cas d'attente d'expulsion d'une MFIU pour prévenir le syndrome de défibrination."
   },
   "gyn-245": {
     "A": "Vrai. Le diabète maternel multiplie par 2 à 4 le risque de développer une prééclampsie par dysfonction microvasculaire endothéliale.",
@@ -2220,15 +2121,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. La présence d'un taux élevé d'anticorps à J3 élimine toute primo-infection récente consécutive à ce contage et dispense d'un nouveau contrôle sérologique.",
     "_synthese": "La mise en évidence d'un titre protecteur d'IgG rubéoliques immédiatement après un contage récent (J3) prouve une immunité maternelle ancienne. La patiente doit être immédiatement rassurée sur l'absence de tout risque fœtal.",
     "_remarque": "Le délai minimal d'apparition des anticorps de primo-infection (séroconversion) après un contact infectant est de 12 à 15 jours."
-  },
-  "gyn-248": {
-    "A": "Vrai. Chez la femme enceinte, la listériose prend classiquement le masque trompeur d'un syndrome pseudo-grippal fébrile banal avec frissons et céphalées.",
-    "B": "Vrai. La dissémination hématogène transplacentaire de Listeria monocytogenes provoque une chorioamniotite aiguë fébrile et la mort fœtale in utero.",
-    "C": "Faux. Le diagnostic microbiologique repose sur les hémocultures maternelles systématiques devant toute fièvre inexpliquée, et non sur le prélèvement vaginal.",
-    "D": "Faux. La contamination fœtale est hématogène par passage transplacentaire lors d'une bactériémie maternelle, et non par voie ascendante vaginale.",
-    "E": "Vrai. Listeria monocytogenes est un bacille à Gram positif sensible à l'ampicilline (amoxicilline à forte dose, souvent associée à un aminoside).",
-    "_synthese": "La listériose gravidique se traduit par un syndrome fébrile pseudo-grippal et expose à la mort fœtale in utero. Le diagnostic repose sur les hémocultures et le traitement de référence est l'ampicilline.",
-    "_remarque": "Toute fièvre inexpliquée au cours de la grossesse doit être considérée et traitée comme une listériose jusqu'à preuve bactériologique du contraire."
   },
   "gyn-249": {
     "A": "Fausse (donc à cocher). La dégénérescence sarcomateuse maligne d'un léiomyome préexistant est rarissime (< 0,2 à 0,5 %) et ne concerne absolument pas 10 % des cas.",
@@ -2372,15 +2264,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. La béance cervico-isthmique donne des avortements tardifs indolores du deuxième trimestre (vers 18-22 SA) et non des avortements précoces.",
     "_synthese": "Les malformations congénitales utérines compromettent la nidation embryonnaire. L'utérus unicorne (ou cloisonné selon les séries) représente une étiologie anatomique majeure de fausses couches spontanées précoces à répétition.",
     "_remarque": "L'hystéroscopie opératoire permet la section de la cloison utérine (métroplastie hystéroscopique), restaurant une fertilité normale et réduisant le taux de fausse couche à moins de 15 %."
-  },
-  "gyn-265": {
-    "A": "Vrai. Le dosage mensuel de l'uricémie est un indicateur biologique sensible de souffrance glomérulaire et d'évolutivité vers la prééclampsie.",
-    "B": "Vrai. La recherche systématique de protéinurie à chaque consultation prénatale permet de dépister précocement le passage d'une HTA gravidique isolée à une toxémie vraie.",
-    "C": "Faux. Les diurétiques thiazidiques sont contre-indiqués chez la femme enceinte car ils réduisent le volume plasmatique maternel et majorent l'ischémie placentaire.",
-    "D": "Faux. Les inhibiteurs de l'enzyme de conversion (IEC) sont formellement fœtotoxiques et contre-indiqués aux 2e et 3e trimestres de la grossesse.",
-    "E": "Vrai. La mise au repos maternel avec arrêt de toute activité physique éprouvante favorise la perfusion utéro-placentaire en décubitus latéral gauche.",
-    "_synthese": "La surveillance d'une HTA gravidique exige le dosage de l'acide urique, la surveillance de la protéinurie et le repos maternel. Les diurétiques et les IEC sont proscrits.",
-    "_remarque": "Le traitement antihypertenseur pendant la grossesse ne prévient pas la survenue de la prééclampsie mais protège la mère contre les complications vasculaires cérébrales."
   },
   "gyn-266": {
     "A": "Faux. Poursuivre l'œstrogénothérapie isolée aggraverait l'hyperplasie et stimulerait l'évolution carcinomateuse.",
@@ -2877,24 +2760,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'échographie d'une môle hydatiforme complète met en évidence l'absence d'embryon et un comblement de la cavité utérine par une formation trophoblastique hétérogène floconneuse en « tempête de neige ».",
     "_remarque": "L'évacuation de la môle hydatiforme doit être réalisée par aspiration électrique sous contrôle échographique sans curetage tranchant appuyé pour limiter le risque de perforation."
   },
-  "gyn-321": {
-    "A": "Vrai. La délivrance artificielle manuelle sous anesthésie est obligatoire si le placenta n'est pas encore expulsé 30 minutes après l'accouchement.",
-    "B": "Vrai. La révision utérine immédiate sous gants stériles vérifie la vacuité complète de la cavité et extrait les caillots et débris cotylédonaires résiduels.",
-    "C": "Vrai. La perfusion immédiate d'utérotoniques (ocytocine en perfusion continue de 20 à 40 UI, voire sulprostone) stimule la rétraction myométriale.",
-    "D": "Vrai. La transfusion de culots globulaires et de produits sanguins labiles (plasma frais congelé, fibrinogène) compense les pertes et prévient la coagulopathie de consommation.",
-    "E": "Vrai. L'examen sous valves cervico-vaginal sous bon éclairage est systématique pour repérer et suturer des déchirures du col ou du vagin.",
-    "_synthese": "La prise en charge conjointe d'une hémorragie de la délivrance associe des gestes obstétricaux mécaniques (délivrance artificielle, révision utérine, examen sous valves) et une réanimation médicale (ocytociques, remplissage, transfusion).",
-    "_remarque": "En cas d'échec des mesures initiales après 30 minutes, le recours au tamponnement intra-utérin par ballon de Bakri ou à l'embolisation/chirurgie hémostatique est urgent."
-  },
-  "gyn-322": {
-    "A": "Vrai. L'antécédent de mastopathie bénigne proliférante avec atypies cytologiques (hyperplasie canalaire ou lobulaire atypique) multiplie par 4 à 5 le risque de cancer du sein ultérieur.",
-    "B": "Faux. La multiparité (4 enfants) est un facteur protecteur démontré par diminution de la durée d'exposition globale aux œstrogènes au cours de la vie génitale.",
-    "C": "Vrai. La prise d'une contraception hormonale confère une légère élévation relative transitoire du risque de carcinome mammaire.",
-    "D": "Vrai. L'antécédent de cancer du sein au premier degré chez la mère est un puissant facteur de risque familial génétique.",
-    "E": "Faux. Une ménarche tardive à 16 ans est protectrice ; c'est la puberté précoce avant 12 ans qui majore l'exposition oestrogénique.",
-    "_synthese": "Les facteurs de risque majeurs du cancer du sein sont dominés par les antécédents familiaux au premier degré, les mastopathies avec atypies histologiques et l'imprégnation hormonale prolongée.",
-    "_remarque": "Chez les patientes porteuses d'une mutation génétique constitutionnelle BRCA1 ou BRCA2, le risque cumulé de cancer du sein au cours de la vie atteint 70 à 80 %."
-  },
   "gyn-323": {
     "A": "Vrai. Le premier critère clinique obligatoire de la prééclampsie est une PA systolique ≥ 140 mmHg et/ou diastolique ≥ 90 mmHg mesurée au repos après 20 SA.",
     "B": "Vrai. Le second critère biologique obligatoire est une protéinurie significative supérieure ou égale à 300 mg/24 heures (ou ratio protéinurie/créatininurie ≥ 30 mg/mmol).",
@@ -3165,15 +3030,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'engagement fœtal se définit par le franchissement du détroit supérieur. C'est l'item A qui est faux et constitue la réponse attendue.",
     "_remarque": "La descente et la rotation axiale s'effectuent au niveau du détroit moyen (excavation pelvienne) entre le détroit supérieur et le détroit inférieur."
   },
-  "gyn-353": {
-    "A": "Vrai. Le segment inférieur se constitue au 3e trimestre sous l'effet des contractions utérines préparatoires qui déplissent l'isthme utérin.",
-    "B": "Vrai. Sa paroi amincie et dépressible moule fidèlement le pôle fœtal qui s'y engage.",
-    "C": "Faux. Le segment inférieur est situé à la partie basse du corps utérin, juste au-dessus du col, et non au fond utérin entre les trompes.",
-    "D": "Vrai. Le toucher vaginal combiné au palper permet d'apprécier la profondeur de l'ampliation du segment inférieur et la fixation fœtale.",
-    "E": "Faux. Le segment inférieur ne commence à s'individualiser qu'au cours du 3e trimestre de la grossesse (inexistant au 1er trimestre).",
-    "_synthese": "Le segment inférieur dérive de l'isthme utérin étiré au 3e trimestre. Mince, peu contractile et avasculaire, il moule la présentation fœtale et constitue la zone d'incision de la césarienne.",
-    "_remarque": "Le repère supérieur du segment inférieur est le sillon d'insertion de la vessie en avant (péritoine vésico-utérin facilement clivable)."
-  },
   "gyn-354": {
     "A": "Vrai. Les mutations constitutionnelles des gènes suppresseurs de tumeurs BRCA1 (risque cumulé d'environ 40-50 %) et BRCA2 (risque de 15-20 %) confèrent un risque majeur de cancer de l'ovaire.",
     "B": "Vrai. Le syndrome de Lynch (syndrome HNPCC avec mutations des gènes MMR) prédispose au cancer colorectal, de l'endomètre et au cancer épithélial de l'ovaire.",
@@ -3210,15 +3066,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "La production de liquide amniotique au premier semestre dérive de la transsudation sérique, puis au deuxième semestre de la diurèse fœtale. Une agénésie rénale bilatérale provoque un oligoamnios sévère compromettant le développement alvéolaire pulmonaire.",
     "_remarque": "La compression thoracique prolongée par manque de liquide amniotique induit la séquence de Potter associant hypoplasie pulmonaire mortelle et déformations faciales et orthopédiques."
   },
-  "gyn-358": {
-    "A": "Vrai. Le fibrome utérin (léiomyome) est une prolifération monoclonale bénigne dérivée des cellules musculaires lisses du myomètre.",
-    "B": "Faux. Ce n'est pas une simple dégénérescence fibreuse sénile du muscle, mais une véritable tumeur myomateuse autonome clonale.",
-    "C": "Vrai. C'est une pathologie très fréquente dont l'incidence maximale se situe entre 40 et 50 ans en période de périménopause sous imprégnation oestrogénique non opposée.",
-    "D": "Vrai. Le fibrome est une tumeur hormonodépendante dont la croissance cellulaire est directement stimulée par les œstrogènes.",
-    "E": "Faux. La dégénérescence maligne en sarcome est exceptionnelle (< 0,2 à 0,5 %) ; au contraire, le fibrome régresse spontanément après la ménopause.",
-    "_synthese": "Le fibromyome est une tumeur bénigne hormonodépendante du myomètre utérin, très fréquente chez la femme entre 40 et 50 ans, régressant physiologiquement après la ménopause.",
-    "_remarque": "La carence oestrogénique physiologique de la ménopause tarit la vascularisation du fibrome et entraîne son atrophie progressive sans intervention chirurgicale requise."
-  },
   "gyn-359": {
     "A": "Vrai. Par définition sémiologique gynécologique stricte, les métrorragies sont des saignements d'origine utérine survenant en dehors de la période normale des règles (saignements intermenstruels).",
     "B": "Faux. Des règles anormalement longues et abondantes définissent des ménorragies (hyper-polyménorrhée).",
@@ -3236,42 +3083,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Les tumeurs de l'ovaire se compliquent rarement de ménorragies isolées au premier plan.",
     "_synthese": "La Faculté de Médecine d'Oran a retenu le cancer du col utérin comme diagnostic devant être évoqué et éliminé en premier lieu devant toute hémorragie génitale anormale en période d'activité génitale.",
     "_remarque": "L'examen au spéculum sous bon éclairage est le premier geste clinique systématique indispensable devant tout saignement génital féminin."
-  },
-  "gyn-361": {
-    "A": "Vrai. La délivrance artificielle manuelle aseptique est réalisée immédiatement si le placenta n'est pas encore expulsé 30 minutes après la sortie fœtale.",
-    "B": "Vrai. La révision utérine aseptique sous gants stériles s'assure de la vacuité complète de la cavité et évacue les caillots hémostatiques résiduels.",
-    "C": "Vrai. La perfusion immédiate d'utérotoniques (ocytocine, puis sulprostone si besoin) rétablit la contractilité et la rétraction myométriale.",
-    "D": "Vrai. La transfusion sanguine et le remplissage vasculaire préviennent et corrigent l'état de choc hypovolémique et la déglobulisation aiguë.",
-    "E": "Vrai. L'examen sous valves systématique explore l'ensemble du col utérin et du vagin pour suturer immédiatement d'éventuelles déchirures des parties molles.",
-    "_synthese": "La prise en charge d'une hémorragie de la délivrance articule des manœuvres obstétricales d'urgence (délivrance artificielle, révision utérine, examen sous valves) et une réanimation hémodynamique agressive (ocytociques, transfusion).",
-    "_remarque": "En cas d'échec de la prise en charge médicale et mécanique initiale, le tamponnement par ballon intra-utérin ou l'embolisation/chirurgie hémostatique doit être mis en œuvre sans délai."
-  },
-  "gyn-362": {
-    "A": "Faux. Plus de 80 à 85 % des cancers de l'endomètre surviennent après 55-60 ans ; ils sont très rares chez la femme jeune avant 50 ans.",
-    "B": "Faux. La multiparité protège l'endomètre grâce à l'imprégnation progestative gravidique prolongée ; c'est la nulliparité qui est un facteur de risque reconnu.",
-    "C": "Vrai. Le cancer de l'endomètre est électivement une maladie de la femme ménopausée, avec un pic d'incidence situé entre 65 et 70 ans.",
-    "D": "Vrai. L'obésité et le diabète métabolique favorisent l'aromatisation des androgènes surrénaliens en œstrone dans le tissu adipeux.",
-    "E": "Vrai. Tout état d'hyperoestrogénie relative sans opposition par la progestérone induit une mitogenèse continue stimulant l'hyperplasie et la cancérisation de l'endomètre.",
-    "_synthese": "Le cancer de l'endomètre se développe préférentiellement chez la femme ménopausée sur un terrain d'hyperoestrogénie non contrebalancée : obésité, diabète, hypertension artérielle et nulliparité.",
-    "_remarque": "Toute métrorragie survenant après la ménopause est un cancer de l'endomètre jusqu'à preuve histologique formelle du contraire."
-  },
-  "gyn-363": {
-    "A": "Faux. La colposcopie explore le col de l'utérus et la zone de jonction exocolique mais n'a aucun accès à la cavité endométriale.",
-    "B": "Faux. L'hystérographie est formellement contre-indiquée en suspicion néoplasique en raison du risque de migration péritonéale tubaire de cellules cancéreuses.",
-    "C": "Vrai. L'hystéroscopie diagnostique avec prélèvements biopsiques dirigés sous contrôle visuel direct est l'examen de référence décisif apportant la confirmation histopathologique de certitude.",
-    "D": "Faux. L'échographie endovaginale est l'imagerie de première intention qui suspecte l'épaississement de l'endomètre, mais le diagnostic formel est anatomopathologique par hystéroscopie-biopsie.",
-    "E": "Faux. Le frottis cervico-utérin de dépistage cytologique n'est pas fiable pour dépister les pathologies de la cavité corporéale endométriale.",
-    "_synthese": "La confirmation diagnostique du cancer de l'endomètre repose impérativement sur la biopsie endométriale dirigée sous contrôle hystéroscopique direct.",
-    "_remarque": "L'hystéroscopie apprécie l'aspect bourgeonnant ou ulcéré de la lésion et vérifie l'absence d'extension macroscopique vers le canal endocervical."
-  },
-  "gyn-364": {
-    "A": "Faux. Une insertion fundique correspond à la localisation physiologique normale du placenta au fond de la matrice utérine.",
-    "B": "Vrai. Le placenta prævia est défini anatomiquement par l'implantation de tout ou partie du placenta sur le segment inférieur de l'utérus.",
-    "C": "Vrai. C'est une insertion anormalement basse et vicieuse qui précède ou voisine l'orifice interne du col au cours du troisième trimestre.",
-    "D": "Faux. Le décollement avec sang noirâtre sous tension caractérise l'hématome rétro-placentaire ; le placenta prævia saigne en sang rouge rutilant indolore.",
-    "E": "Faux. Le toucher vaginal est formellement contre-indiqué en cas de suspicion de placenta prævia en raison du risque de déclencher une hémorragie cataclysmique par décollement digital.",
-    "_synthese": "Le placenta prævia est une insertion basse et vicieuse du placenta sur le segment inférieur de l'utérus. Il se manifeste par des métrorragies de sang rouge indolores du 3e trimestre. Le toucher vaginal y est proscrit.",
-    "_remarque": "L'échographie obstétricale sus-pubienne et endovaginale prudente est l'examen décisif affirmant la topographie du bord inférieur placentaire par rapport au col."
   },
   "gyn-365": {
     "A": "Faux. L'hémorragie abondante de sang rouge rutilant et indolore caractérise le placenta prævia.",
@@ -3300,15 +3111,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Les critères de gravité de la prééclampsie associent des signes fonctionnels d'alerte (barre épigastrique), rénaux (oligurie, protéinurie massive) et biologiques hépato-hématologiques (cytolyse, anémie hémolytique).",
     "_remarque": "L'apparition de ces signes impose une hospitalisation d'urgence en niveau 3, la pose d'une voie veineuse avec sulfate de magnésium et l'indication d'extraction fœtale."
   },
-  "gyn-368": {
-    "A": "Faux. Les douleurs pelviennes sont tardives, traduisant un envahissement lombo-sacré ou parametrial étendu.",
-    "B": "Faux. Des hémorragies spontanées massives continues s'observent sur de volumineuses tumeurs bourgeonnantes nécrosées mais ne constituent pas le signe précoce typique.",
-    "C": "Vrai. Les métrorragies de contact post-coïtales, indolores, faites de sang rouge vif provoquées par les rapports sexuels ou l'examen au spéculum, sont le signe d'appel le plus fréquent et le plus précoce.",
-    "D": "Faux. Les leucorrhées séreuses et fétides signent la surinfection et la nécrose tumorale à un stade plus avancé.",
-    "E": "Faux. L'item C est la réponse clinique exacte incontournable.",
-    "_synthese": "Le symptôme révélateur cardinal du cancer invasif du col de l'utérus est la métrorragie provoquée de contact post-coïtale, indolore et récidivante.",
-    "_remarque": "Toute femme consultant pour métrorragies post-coïtales doit obligatoirement bénéficier d'un examen au spéculum complété d'une colposcopie avec biopsie au moindre doute."
-  },
   "gyn-369": {
     "A": "Vrai. L'adénocarcinome endométrioïde (type I) est une tumeur hormonodépendante dont la prolifération est stimulée par les œstrogènes sans opposition progestative.",
     "B": "Vrai. C'est préférentiellement un cancer de la femme ménopausée, avec plus de 80 % des cas survenant après 55-60 ans.",
@@ -3317,15 +3119,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Vrai. La contraception œstroprogestative combinée diminue de plus de 50 % le risque de cancer de l'endomètre grâce à l'effet protecteur antiprolifératif du composant progestatif.",
     "_synthese": "Le cancer de l'endomètre est une néoplasie hormonodépendante de la femme ménopausée. La pilule œstroprogestative constitue un facteur protecteur démontré diminuant significativement son risque.",
     "_remarque": "La protection conférée par au moins 5 années d'utilisation d'une contraception œstroprogestative persiste pendant plus de 20 ans après son arrêt."
-  },
-  "gyn-370": {
-    "A": "Vrai. La multiparité s'associe physiologiquement à une augmentation progressive du poids de naissance des nouveau-nés successifs.",
-    "B": "Vrai. L'obésité maternelle (IMC > 30 kg/m²) est un facteur de risque majeur et indépendant d'hypertrophie somatique fœtale.",
-    "C": "Vrai. L'âge maternel avancé supérieur à 35 ans est statistiquement corrélé à une fréquence accrue d'enfants macrosomes.",
-    "D": "Vrai. L'antécédent de fœtus macrosome ou de dystocie des épaules lors d'un accouchement antérieur est un puissant prédicteur de récidive.",
-    "E": "Vrai. Le diabète gestationnel ou préexistant stimule l'hyperinsulinisme fœtal et la lipogenèse responsable d'une macrosomie fœtale.",
-    "_synthese": "Les facteurs de risque de la macrosomie fœtale (> 4000 g) regroupent le diabète maternel, l'obésité, la multiparité, l'âge maternel et les antécédents d'accouchement dystocique similaire.",
-    "_remarque": "Le risque obstétrical redouté de la macrosomie est la dystocie des épaules, imposant la réalisation méthodique de la manœuvre de MacRoberts en salle de travail."
   },
   "gyn-371": {
     "A": "Vrai. La vidange brutale du liquide amniotique peut entraîner une boucle de cordon en avant de la présentation fœtale non engagée (procidence du cordon).",
@@ -3381,15 +3174,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Une pilule œstroprogestative dont le composant œstrogénique varie au cours des différentes phases de la plaquette correspond à une pilule séquentielle.",
     "_remarque": "Les formulations multiphasiques ont été conçues pour réduire la dose totale de stéroïdes par cycle tout en maintenant un contrôle optimal du cycle et de l'endomètre."
   },
-  "gyn-377": {
-    "A": "Faux. Les dysgénésies gonadiques congénitales (Turner) s'accompagnent d'aménorrhée primaire avec impubérisme.",
-    "B": "Faux. Le syndrome des ovaires polykystiques (Stein-Leventhal) présente un rapport LH/FSH élevé avec une FSH normale ou basse.",
-    "C": "Faux. Une lésion hypophysaire donnerait un hypogonadisme hypogonadotrope avec gonadotrophines effondrées.",
-    "D": "Vrai. L'association d'une aménorrhée secondaire avant 40 ans et d'un hypogonadisme hypergonadotrope (FSH et LH très élevées par arrêt du rétrocontrôle ovarien) pose le diagnostic d'insuffisance ovarienne prématurée (ménopause précoce).",
-    "E": "Faux. L'aménorrhée psychogène hypothalamique s'accompagne de taux de gonadotrophines normaux ou bas, jamais élevés.",
-    "_synthese": "Une aménorrhée secondaire avec élévation franche des gonadotrophines plasmatiques (FSH et LH élevées) chez une femme de 35 ans signe formellement une ménopause précoce (insuffisance ovarienne prématurée).",
-    "_remarque": "Le traitement hormonal substitutif est indispensable chez ces patientes jeunes jusqu'à 50 ans pour prévenir la déminéralisation osseuse et le risque cardiovasculaire."
-  },
   "gyn-378": {
     "A": "Vrai (1, 2, 3). Devant un décollement placentaire (HRP), la triade de surveillance indispensable comprend la diurèse horaire (surveillance de l'insuffisance rénale aiguë), les constantes hémodynamiques (pouls, TA pour dépister le choc) et la crase sanguine (recherche de CIVD).",
     "B": "Faux. La surveillance de l'hémodynamique (2) est tout aussi vitale.",
@@ -3435,42 +3219,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Les causes anatomiques utérines de fausses couches à répétition associent l'utérus cloisonné, les synéchies intra-utérines, les fibromes sous-muqueux et l'endométrite chronique.",
     "_remarque": "L'hystéroscopie diagnostique et opératoire permet de traiter la majorité de ces anomalies intracavitaires par résection de cloison, synéchiolyse ou myomectomie."
   },
-  "gyn-383": {
-    "A": "Faux. L'incompatibilité Rhésus anti-D survient quand la mère est Rhésus négatif (D-) et l'enfant Rhésus positif (D+).",
-    "B": "Vrai. L'ictère hémolytique immunologique est très précoce, présent dès les premières heures de vie ou dès la naissance.",
-    "C": "Faux. L'hyperbilirubinémie libre répond à la photothérapie intensive à haute intensité.",
-    "D": "Vrai. L'anémie hémolytique fœtale sévère associée conditionne le pronostic vital immédiat par risque de défaillance cardiaque anoxique.",
-    "E": "Vrai. L'hémolyse massive des globules rouges produit un excès de bilirubine non conjuguée (libre, lipophile et neurotoxique pour les noyaux gris centraux).",
-    "_synthese": "L'incompatibilité Rhésus fœto-maternelle anti-D provoque une anémie hémolytique fœtale avec ictère néonatal précoce à bilirubine libre dès la naissance.",
-    "_remarque": "L'ictère nucléaire est la complication neurologique gravissime de l'hyperbilirubinémie libre non traitée, justifiant l'exsanguino-transfusion en urgence si les seuils sont dépassés."
-  },
-  "gyn-384": {
-    "A": "Vrai. L'examen neurologique pédiatrique complet et l'examen du fond d'œil recherchent une choriorétinite maculaire et une atteinte du système nerveux central.",
-    "B": "Vrai. La radiographie du crâne (ou l'échographie transfontanellaire / scanner cérébral) recherche les calcifications intracrâniennes disséminées typiques.",
-    "C": "Vrai. Le sérodiagnostic spécifique chez le nouveau-né (recherche d'IgM et IgA spécifiques par test ISAGA et suivi de la cinétique des IgG) confirme l'infection congénitale.",
-    "D": "Faux. Le myélogramme n'a aucune indication dans le bilan d'évaluation de la toxoplasmose congénitale du nouveau-né.",
-    "E": "Faux. L'inoculation à la souris n'est plus réalisée en pratique de routine sur le LCR d'un nouveau-né cliniquement asymptomatique.",
-    "_synthese": "Le bilan néonatal après séroconversion toxoplasmique maternelle comporte l'examen neurologique, le fond d'œil, l'imagerie cérébrale (recherche de calcifications) et la sérologie néonatale spécialisée.",
-    "_remarque": "Le traitement néonatal associant pyriméthamine et sulfadiazine avec supplémentation en acide folinique est poursuivi pendant un an en cas d'infection congénitale confirmée."
-  },
-  "gyn-385": {
-    "A": "Vrai. L'échographie met en évidence une masse ovarienne hétérogène associant des zones hyperéchogènes denses (sébum, cheveux, dents) et des plages liquidiennes anéchogènes.",
-    "B": "Faux. Les kystes dermoïdes sont bilatéraux dans 10 à 15 % des cas, imposant l'exploration minutieuse de l'ovaire controlatéral.",
-    "C": "Vrai. En raison de leur densité tissulaire élevée et de leur poids, ils sont très mobiles et se tordent volontiers autour de leur pédicule lombo-ovarien.",
-    "D": "Vrai. La présence d'ébauches dentaires calcifiées rend le kyste dermoïde visible sur une radiographie d'ASP.",
-    "E": "Faux. La rupture péritonéale d'un kyste dermoïde est rare ; elle entraîne une péritonite chimique granulomateuse sévère.",
-    "_synthese": "Le kyste dermoïde de l'ovaire (tératome kystique mature bénin) est une tumeur hétérogène à l'échographie, pesante, fréquemment sujette à la torsion d'annexe et parfois radio-opaque à l'ASP.",
-    "_remarque": "La kystectomie intrapéritonéale sous cœlioscopie doit utiliser un sac d'extraction étanche pour éviter la dissémination de matériel sébacé irritant."
-  },
-  "gyn-386": {
-    "A": "Vrai. Le diabète maternel favorise la dysfonction endothéliale et multiplie par 2 à 4 le risque de développer une prééclampsie.",
-    "B": "Vrai. La physiopathologie primitive repose sur l'ischémie placentaire consécutive au défaut d'invasion trophoblastique des artères spiralées utérines.",
-    "C": "Vrai. L'hypoperfusion placentaire chronique compromet les échanges nutritifs fœtaux et engendre un retard de croissance intra-utérin (RCIU) vasculaire dysharmonieux.",
-    "D": "Vrai. L'hyperperméabilité capillaire diffuse induit une fuite liquidienne vers le troisième secteur responsable d'une hypovolémie efficace paradoxale.",
-    "E": "Vrai. La glomérulo-endothéliose gravidique réduit la filtration glomérulaire et altère l'excrétion de l'acide urique, provoquant une hyperuricémie précoce.",
-    "_synthese": "La prééclampsie résulte d'une ischémie placentaire créant une dysfonction endothéliale diffuse : elle s'accompagne d'une hypovolémie efficace, d'un RCIU vasculaire, d'une hyperuricémie et est favorisée par le diabète.",
-    "_remarque": "L'uricémie supérieure à 350 µmol/L est un marqueur prédictif sensible de souffrance foeto-maternelle au cours de la toxémie gravidique."
-  },
   "gyn-387": {
     "A": "Vrai. Le syndrome transfuseur-transfusé (STT) complique électivement 10 à 15 % des grossesses gémellaires monochoriales bi-amniotiques.",
     "B": "Faux. Issus du clivage d'un œuf unique, les jumeaux d'une grossesse monochoriale sont obligatoirement monozygotes et de même sexe.",
@@ -3498,33 +3246,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'endométrite du postpartum est favorisée par la rupture prolongée des membranes, les manœuvres endo-utérines (délivrance artificielle, révision utérine) et la rétention de cotylédons.",
     "_remarque": "L'antibiothérapie probabiliste intraveineuse de première intention associe amoxicilline-acide clavulanique (ou clindamycine + gentamicine) jusqu'à 48h d'apyrexie."
   },
-  "gyn-390": {
-    "A": "Faux. La proposition 4 est également exacte au cours de la gestation.",
-    "B": "Faux. Les propositions 2 et 4 font partie intégrante des modifications hématologiques normales.",
-    "C": "Faux. Les propositions 1 et 3 sont également vraies.",
-    "D": "Faux. L'ensemble des 4 propositions est exact.",
-    "E": "Vrai (1, 2, 3, 4). La grossesse s'accompagne d'une hyperleucocytose physiologique modérée, d'une hémodilution par augmentation de la masse plasmatique, d'une hypercholestérolémie et d'une accélération de la VS par hausse du fibrinogène.",
-    "_synthese": "Les adaptations biologiques physiologiques de la grossesse regroupent l'hyperleucocytose modérée, l'hémodilution relative, l'hyperlipidémie et l'accélération de la vitesse de sédimentation.",
-    "_remarque": "L'accélération de la VS pendant la grossesse est physiologique et ne doit pas être utilisée pour diagnostiquer une infection bactérienne (on lui préfère la CRP)."
-  },
-  "gyn-391": {
-    "A": "Vrai. L'atonie utérine est la cause prépondérante d'hémorragie de la délivrance par défaut de rétraction myométriale bloquant les artères spiralées.",
-    "B": "Vrai. L'enchatonnement placentaire (rétention d'un cotylédon ou du placenta emprisonné par un anneau de contraction myométriale) empêche la rétraction globale et fait saigner.",
-    "C": "Faux selon la sélection de la clé d'évaluation (bien que les plaies génitales fassent saigner, les causes mécaniques utéro-placentaires de la délivrance proprement dite ont été ciblées sous AB).",
-    "D": "Faux. L'insertion fundique est le siège normal physiologique du placenta et ne cause pas d'hémorragie.",
-    "E": "Faux. La toxémie prédispose à l'HRP ou à des hématomes mais n'est pas en soi l'étiologie mécanique de la délivrance.",
-    "_synthese": "Les étiologies obstétricales directes de l'hémorragie de la délivrance sont dominées par l'atonie utérine et les anomalies d'expulsion placentaire comme l'enchatonnement.",
-    "_remarque": "L'enchatonnement placentaire nécessite une délivrance artificielle manuelle sous anesthésie générale ou locorégionale sous couverture d'utérotoniques."
-  },
-  "gyn-392": {
-    "A": "Faux. Les bêta-mimétiques sont des tocolytiques utérins sans action sur les foyers endométriosiques.",
-    "B": "Faux. Les œstrogènes purs stimuleraient directement la prolifération des îlots ectopiques d'endomètre et aggraveraient les lésions.",
-    "C": "Vrai. Les progestatifs purs (médroxyprogestérone, diénogest) induisent une atrophie et une décidualisation des foyers endométriosiques.",
-    "D": "Vrai. Le danazol est un dérivé androgénique de synthèse antigonadotrope efficace pour induire une aménorrhée et atrophier l'endométriose.",
-    "E": "Vrai. La castration chirurgicale (ovariectomie bilatérale) ou chimique par agonistes de la GnRH supprime définitivement l'imprégnation œstrogénique et tarit l'affection.",
-    "_synthese": "Le traitement médical de l'endométriose repose sur la suppression hormonale de l'axe ovarien par les progestatifs purs, le danazol ou la castration ovarienne médicale ou chirurgicale.",
-    "_remarque": "Le diénogest et les analogues de la GnRH associés à une add-back therapy représentent aujourd'hui les thérapeutiques médicales de référence."
-  },
   "gyn-393": {
     "A": "Vrai. La rétention prolongée d'un œuf mort in utero au-delà de 2 à 3 semaines libère des thromboplastines déciduales et expose à une CIVD maternelle avec hypofibrinogénémie.",
     "B": "Vrai. L'insuffisance placentaire sévère consécutive à une prééclampsie compliquée est l'une des causes vasculaires majeures de mort fœtale in utero.",
@@ -3533,15 +3254,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. La mort in utero peut survenir brutalement sans aucun retard de croissance fœtal préalable (accident de cordon, HRP aigu, infection foudroyante).",
     "_synthese": "La mort fœtale in utero peut être secondaire à une prééclampsie sévère ou une infection, et se compliquer de troubles majeurs de l'hémostase maternelle (CIVD). L'accouchement par voie basse déclenché est la règle.",
     "_remarque": "La surveillance du fibrinogène et des plaquettes maternelles est indispensable dès le diagnostic de MFIU pour prévenir le syndrome de défibrination."
-  },
-  "gyn-394": {
-    "A": "Vrai. La discordance avec une hauteur utérine excessive par rapport à l'âge gestationnel théorique est le maître-signe d'alerte clinique d'une môle hydatiforme.",
-    "B": "Faux. Les saignements de la môle sont classiquement faits de pertes séro-sanglantes noirâtres d'aspect en « jus de prune » ou de résidus vésiculaires.",
-    "C": "Vrai. La stimulation ovarienne massive par des taux circulants colossaux d'hCG entraîne l'apparition de volumineux kystes théco-lutéiniques ovariens bilatéraux.",
-    "D": "Faux. L'imprégnation hormonale intense ramollit considérablement le col de l'utérus.",
-    "E": "Faux. L'échographie montre l'absence d'embryon et un aspect en tempête de neige ou nid d'abeille, et non un simple décollement de pôle inférieur.",
-    "_synthese": "La suspicion clinique de môle hydatiforme devant des métrorragies du 1er trimestre repose sur la discordance volume utérin excessif pour le terme et la présence de kystes lutéiniques ovariens bilatéraux.",
-    "_remarque": "L'échographie utérine confirme l'absence d'embryon et la présence d'une masse trophoblastique multikystique intracavitaire."
   },
   "gyn-395": {
     "A": "Faux. Un régime riche en graisses animales n'est pas un facteur causal direct démontré.",
@@ -3578,15 +3290,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. L'échographie a déjà été devancée par la biopsie initiale.",
     "_synthese": "Devant un endomètre hyperplasique saignant chez une femme de 55 ans sous œstrogènes, l'attitude clinique impose l'arrêt immédiat de l'œstrogénothérapie et la réalisation d'un curetage biopsique étagé complet pour éliminer un cancer de l'endomètre.",
     "_remarque": "L'hystéroscopie diagnostique avec biopsies dirigées permet une analyse plus fine des reliefs muqueux que le curetage aveugle."
-  },
-  "gyn-399": {
-    "A": "Faux. Les zones saines d'épithélium malpighien gardent leur transparence rosée habituelle sous acide acétique.",
-    "B": "Vrai. L'acide acétique coagule les protéines cellulaires des tissus à forte densité nucléaire et activité mitotique élevée, faisant virer les zones pathologiques (dysplasies, CIN) en blanc (zones acéto-blanches).",
-    "C": "Faux selon la sélection de la clé d'Oran dans ce QCM (bien que la jonction soit visualisée, la clé a ciblé spécifiquement la caractérisation des zones pathologiques et la confrontation aux réactifs).",
-    "D": "Vrai selon le corrigé officiel de cette épreuve (en référence didactique à l'évaluation combinée acide acétique et test de Schiller de la colposcopie).",
-    "E": "Faux. Les zones pauvres en glycogène sont iodonégatives sous solution de Lugol.",
-    "_synthese": "L'application d'acide acétique à 3 % en colposcopie est le temps capital permettant de démasquer les lésions précancéreuses intra-épithéliales sous forme de zones acétoblanches anormales.",
-    "_remarque": "Les atypies colposcopiques majeures sous acide acétique associent une acidophilie épaisse, une ponctuation rouge régulière et des mosaïques de haut grade."
   },
   "gyn-400": {
     "A": "Vrai. La douleur vive, localisée et persistante au niveau de la cicatrice utérieure en dehors des contractions est le signe fonctionnel d'appel classique de rupture imminente sur utérus cicatriciel.",
@@ -3642,15 +3345,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "La physiopathologie de l'allo-immunisation Rhésus repose sur le passage transplacentaire d'hématies fœtales D-positives dans la circulation générale d'une mère D-négative, induisant la synthèse d'anticorps anti-D maternels.",
     "_remarque": "Ces anticorps maternels de type IgG traversent ensuite la barrière placentaire lors des grossesses ultérieures pour détruire les hématies du fœtus Rhésus positif."
   },
-  "gyn-406": {
-    "A": "Faux. Les tumeurs virilisantes de l'ovaire surviennent préférentiellement chez la femme adulte jeune sous forme d'aménorrhée secondaire.",
-    "B": "Faux. Le syndrome de Rokitansky s'accompagne de caractères sexuels secondaires féminins normaux (ovaires fonctionnels) sans virilisation.",
-    "C": "Vrai. L'hyperplasie congénitale des surrénales par déficit en 21-hydroxylase entraîne une hypersécrétion d'androgènes surrénaliens responsable d'ambiguïté sexuelle à la naissance et de virilisation avec aménorrhée primaire.",
-    "D": "Faux. Le syndrome de Turner (45,X0) présente un impubérisme sans développement mammaire ni virilisation.",
-    "E": "Faux. L'hypothyroïdie ne donne pas de virilisation des caractères sexuels secondaires.",
-    "_synthese": "Une aménorrhée primaire associée à des caractères sexuels secondaires virilisés (hypertrophie clitoridienne, hirsutisme) évoque en premier lieu une hyperplasie congénitale des surrénales par bloc enzymatique.",
-    "_remarque": "Le dosage de la 17-hydroxyprogestérone plasmatique de base ou sous synacthène confirme le déficit enzymatique en 21-hydroxylase."
-  },
   "gyn-407": {
     "A": "Faux. La glycémie n'a pas de valeur pronostique propre dans la toxémie gravidique.",
     "B": "Faux. La créatininémie s'élève tardivement dans les formes sévères décompensées.",
@@ -3660,15 +3354,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'uricémie est le marqueur biologique cardinal de la toxémie gravidique : son taux s'élève précocement par baisse de la filtration glomérulaire et est corrélé au pronostic fœto-maternel.",
     "_remarque": "Une uricémie supérieure à 350-400 µmol/L est un signal d'alarme imposant une surveillance rapprochée du bien-être fœtal et de la protéinurie."
   },
-  "gyn-408": {
-    "A": "Vrai. Chez la gestante, l'infection à Listeria monocytogenes se présente classiquement comme un syndrome pseudo-grippal fébrile banal avec courbatures.",
-    "B": "Vrai. La bactériémie maternelle et l'infection hématogène fœtale peuvent aboutir à une chorioamniotite et à la mort fœtale in utero.",
-    "C": "Faux. Le diagnostic microbiologique repose sur les hémocultures maternelles systématiques devant toute fièvre inexpliquée, et non sur le prélèvement vaginal.",
-    "D": "Faux. La contamination fœtale est hématogène par voie transplacentaire lors d'une bactériémie maternelle, et non par voie ascendante vaginale.",
-    "E": "Vrai. Listeria monocytogenes est un bacille à Gram positif sensible à l'ampicilline (amoxicilline à forte dose, souvent associée aux aminosides).",
-    "_synthese": "La listériose gravidique se traduit par un syndrome fébrile pseudo-grippal et expose à la mort fœtale in utero. Le diagnostic repose sur les hémocultures et le traitement de référence est l'ampicilline.",
-    "_remarque": "Toute fièvre inexpliquée chez une femme enceinte impose des hémocultures et l'instauration immédiate d'amoxicilline à dose efficace (3 à 6 g/j)."
-  },
   "gyn-409": {
     "A": "Faux. Si l'enfant est Rhésus négatif, il ne porte pas l'antigène D et ne risque pas d'immuniser sa mère.",
     "B": "Faux. Si le test de Coombs indirect est déjà positif, la mère est déjà allo-immunisée ; l'injection d'anti-D est inefficace et sans objet.",
@@ -3677,24 +3362,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Si l'enfant est Rhésus négatif, la prophylaxie par anti-D n'est pas indiquée.",
     "_synthese": "L'injection prophylactique d'immunoglobulines anti-D (Rhophylac) s'adresse exclusivement aux femmes Rhésus négatif non immunisées (Coombs négatif) ayant accouché d'un nouveau-né Rhésus positif.",
     "_remarque": "L'injection doit être réalisée dans les 72 heures suivant l'accouchement par voie intraveineuse ou intramusculaire après réalisation d'un test de Kleihauer."
-  },
-  "gyn-410": {
-    "A": "Vrai. Le Dogmatil (sulpiride) est un antipsychotique antidopaminergique bloquant les récepteurs D2 hypophysaires, induisant une hyperprolactinémie médicamenteuse et une aménorrhée.",
-    "B": "Vrai. L'élévation de la prolactine inhibe la pulsatilité de la GnRH et constitue une cause classique d'aménorrhée secondaire avec galactorrhée.",
-    "C": "Vrai. Les hyperandrogénies (SOPK, bloc enzymatique surrénalien) bloquent la folliculogenèse et constituent une étiologie fréquente d'aménorrhée secondaire.",
-    "D": "Vrai. L'hypopituitarisme antérieur (syndrome de Sheehan consécutif à un choc hémorragique de la délivrance) entraîne un déficit gonadotrope avec aménorrhée secondaire.",
-    "E": "Faux. Le syndrome de Turner (45,X0) est une dysgénésie gonadique congénitale responsable d'aménorrhée PRIMAIRE avec impubérisme.",
-    "_synthese": "L'aménorrhée secondaire relève de causes médicamenteuses (antidopaminergiques comme le Dogmatil), hypophysaires (hyperprolactinémie, Sheehan) ou ovariennes/surrénaliennes (hyperandrogénie).",
-    "_remarque": "L'arrêt des règles impose systématiquement en priorité absolue la réalisation d'un test de grossesse (bêta-hCG plasmatiques)."
-  },
-  "gyn-411": {
-    "A": "Vrai selon le corrigé officiel de la Faculté d'Oran (la clé a validé A pour cette observation clinique, faisant suspecter un chancre ou une co-infection vénérienne).",
-    "B": "Faux. Les condylomes vulvaires acuminés sont des lésions végétantes indolores induites par HPV 6 et 11.",
-    "C": "Faux selon le corrigé officiel de cette épreuve (bien que cliniquement des vésicules en bouquet douloureuses fébriles signent typiquement une primo-infection herpétique).",
-    "D": "Faux. Le cancer de la vulve est une lésion ulcérovégétante chronique indolore du sujet âgé.",
-    "E": "Faux. La mycose vulvaire se manifeste par un érythème prurigineux sans vésicules en bouquet.",
-    "_synthese": "La Faculté d'Oran a retenu l'item A (syphilis) dans son corrigé officiel d'évaluation pour ce cas clinique de lésion vulvaire douloureuse avec adénopathies fébriles.",
-    "_remarque": "Dans la pratique médicale, des vésicules en bouquet rompues et douloureuses avec adénopathies fébriles évoquent au premier chef une primo-infection à HSV-2."
   },
   "gyn-412": {
     "A": "Faux. À 38 SA + 3 jours, la patiente est à terme (≥ 37 SA), excluant toute menace d'accouchement prématuré.",
@@ -3804,15 +3471,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'endométrite du postpartum est la cause la plus fréquente de fièvre puerpérale vers la fin de la première semaine post-accouchement (J5-J7).",
     "_remarque": "L'examen clinique retrouve un utérus mou, volumineux, douloureux à la palpation et à la mobilisation cervicale, avec des lochies sales et malodorantes."
   },
-  "gyn-424": {
-    "A": "Faux. Au 8e mois (environ 34-35 SA), la hauteur utérine normale est d'environ 30 à 32 cm ; 25 cm est pathologiquement insuffisant.",
-    "B": "Faux. La mesure est trop petite et non excessive pour le terme.",
-    "C": "Vrai. Une hauteur utérine inférieure de plus de 4 cm par rapport à l'âge théorique doit faire réévaluer la date de conception et rechercher une erreur de terme.",
-    "D": "Vrai. C'est le maître-signe d'alerte clinique d'un retard de croissance intra-utérin (RCIU) ou d'un oligoamnios, imposant une échographie biométrique urgente.",
-    "E": "Faux. Une gémellité donnerait une hauteur utérine supérieure aux normes (> 34 cm).",
-    "_synthese": "Une hauteur utérine de 25 cm au 8e mois est anormalement basse : elle impose de vérifier le terme exact et de rechercher un retard de croissance intra-utérin par échographie obstétricale.",
-    "_remarque": "La mesure de la hauteur utérine au ruban métrique est l'examen de dépistage clinique universel du RCIU à chaque consultation prénatale."
-  },
   "gyn-425": {
     "A": "Faux. La fontanelle antérieure est le bregma (losangique) ; lambda désigne la fontanelle postérieure (triangulaire).",
     "B": "Faux. La variété de dégagement la plus fréquente est l'occipito-pubienne (OP) ; l'OIGA est une variété d'engagement.",
@@ -3830,15 +3488,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Les muscles pyramidaux renforcent la paroi abdominale basse sans action sur le plancher pelvien.",
     "_synthese": "Les éléments musculaires majeurs de soutien des organes pelviens sont représentés par le muscle élévateur de l'anus (levator ani), composé du muscle pubo-rectal, du muscle pubo-coccygien et du muscle ilio-coccygien.",
     "_remarque": "L'avulsion obstétricale unilatérale ou bilatérale du muscle pubo-rectal lors d'un accouchement dystocique multiplie par 4 à 7 le risque de prolapsus génital ultérieur."
-  },
-  "gyn-427": {
-    "A": "Faux. Le fond utérin au-dessus de l'ombilic à J6 est pathologique, témoignant d'une atonie ou d'une endométrite avec rétention.",
-    "B": "Faux. Le fond utérin est situé au niveau de l'ombilic immédiatement après l'accouchement.",
-    "C": "Vrai. L'involution myométriale progresse d'environ 1 cm par jour ; vers le 6e-7e jour du postpartum, le fond utérin se palpe exactement à mi-chemin entre l'ombilic et la symphyse pubienne.",
-    "D": "Faux. L'utérus ne redevient purement intrapelvien sous la symphyse pubienne qu'après le 12e-14e jour.",
-    "E": "Faux. La taille définitive d'avant la grossesse n'est récupérée qu'à 6-8 semaines post-partum.",
-    "_synthese": "L'involution utérine physiologique du postpartum s'effectue au rythme régulier d'environ 1 travers de doigt par jour. Au 6e-7e jour, le fond utérin se situe à mi-chemin entre la symphyse pubienne et l'ombilic.",
-    "_remarque": "La surveillance quotidienne palpe la régression de la hauteur utérine et s'assure de l'absence de sensibilité anormale à la mobilisation."
   },
   "gyn-428": {
     "A": "Vrai. L'activité cardiaque embryonnaire rythmée et le sac gestationnel sont visibles avec certitude dès 6 semaines d'aménorrhée par voie endovaginale.",
@@ -3858,15 +3507,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'accrochage céphalique de jumeaux en cours de travail interdit formellement toute tentative d'extraction par forceps et impose une césarienne d'extrême urgence.",
     "_remarque": "Les conditions préalables d'application de tout forceps sont : dilatation complète, présentation engagée, membranes rompues, présentation connue et bassin maternel adéquat."
   },
-  "gyn-430": {
-    "A": "Faux. L'utérus physiologique normal est en antéversion et antéflexion (non rétrofléchi).",
-    "B": "Vrai. L'utérus occupe la loge génitale médiane du petit bassin, situé entre la vessie en avant et l'ampoule rectale en arrière.",
-    "C": "Faux. L'utérus est situé en AVANT du cul-de-sac de Douglas.",
-    "D": "Faux. L'utérus est un organe musculo-cavitaire impair et médian.",
-    "E": "Vrai. Il est tapissé à sa face externe par le péritoine viscéral utérin (périmétrium) qui se réfléchit sur les organes de voisinage.",
-    "_synthese": "L'utérus est un organe impair et médian, interposé entre la vessie et le rectum, recouvert par le péritoine viscéral formant les culs-de-sac pelviens.",
-    "_remarque": "Les ligaments ronds et les ligaments utéro-sacrés maintiennent l'utérus en antéversion et centré dans l'axe pelvien."
-  },
   "gyn-431": {
     "A": "Faux. La maturité pulmonaire s'évalue historiquement par le rapport lécithine/sphingomyéline dans le liquide amniotique.",
     "B": "Faux. L'allo-immunisation se dépiste par la recherche d'agglutinines irrégulières (RAI) et le titrage des anticorps chez la mère.",
@@ -3884,24 +3524,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Le détroit inférieur est le plan d'expulsion.",
     "_synthese": "Le synclitisme correspond à la descente céphalique équilibrée où la suture sagittale est parfaitement centrée dans l'axe médian du détroit supérieur.",
     "_remarque": "L'asynclitisme prononcé peut constituer un obstacle à l'engagement dans les bassins transversalement rétrécis."
-  },
-  "gyn-433": {
-    "A": "Faux. La ceinture pelvienne osseuse est formée par les deux os coxaux et le sacrum ; le coccyx est appendu sous le sacrum sans fermer la ceinture proprement dite.",
-    "B": "Vrai. L'os coxal résulte de la synostose embryonnaire de trois os primitifs : l'ilion, le pubis et l'ischion.",
-    "C": "Vrai. La ligne arquée (ligne innominée) marque la crête osseuse de démarcation entre le grand bassin supérieur et le petit bassin inférieur.",
-    "D": "Vrai. Le bassin osseux comporte anatomiquement deux cavités superposées : le grand bassin en haut et le petit bassin (pelvis minor) en bas.",
-    "E": "Faux. Le sacrum a une forme pyramidale à base SUPÉRIEURE articulée avec la cinquième vertèbre lombaire.",
-    "_synthese": "Le bassin osseux obstétrical est divisé par la ligne arquée en grand bassin supérieur et petit bassin inférieur. L'os iliaque est formé par la soudure de l'ilion, du pubis et de l'ischion.",
-    "_remarque": "Le petit bassin constitue la véritable filière mécanique d'accouchement franchie successivement par la présentation."
-  },
-  "gyn-434": {
-    "A": "Vrai. Les fibromes sous-muqueux déformant la lumière endométriale gênent la nidation et augmentent les fausses couches répétées.",
-    "B": "Vrai. Les synéchies intra-utérines post-curetage (syndrome d'Asherman) réduisent la surface muqueuse fonctionnelle d'implantation.",
-    "C": "Vrai. L'endométrite chronique bactérienne altère la réceptivité cellulaire de l'endomètre et provoque des avortements à répétition.",
-    "D": "Vrai. L'utérus cloisonné congénital est la malformation anatomique la plus pourvoyeuse d'avortements répétés par défaut de vascularisation de la cloison.",
-    "E": "Faux. Le cancer in situ (CIN 3) du col utérin n'intéresse pas la cavité utérine corporéale et ne cause pas d'avortements spontanés répétés.",
-    "_synthese": "Les causes utérines d'avortements spontanés à répétition regroupent l'utérus cloisonné, les synéchies utérines, les fibromes sous-muqueux et l'endométrite chronique.",
-    "_remarque": "L'hystéroscopie diagnostique avec biopsie endométriale est l'examen pivot indispensable pour explorer ces 4 étiologies utérines."
   },
   "gyn-435": {
     "A": "Faux. L'énoncé précise formellement que l'utérus est bien rétracté, excluant l'inertie ou atonie utérine.",
@@ -3921,15 +3543,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'aménorrhée primaire du syndrome de Turner (45,X0) est due à une dysgénésie gonadique primitive avec agénésie folliculaire bilatérale, induisant un hypogonadisme hypergonadotrope.",
     "_remarque": "Le phénotype turnérien associe une petite taille, un cou palmé (pterygium colli), un cubitus valgus et des anomalies cardiovasculaires (coarctation de l'aorte)."
   },
-  "gyn-437": {
-    "A": "Faux. L'antigène D du système Rhésus est exclusivement porté par les érythrocytes, et non par les leucocytes.",
-    "B": "Faux. L'immunisation découle du passage de cellules sanguines fœtales chez la mère, et non l'inverse.",
-    "C": "Vrai. L'allo-immunisation maternelle anti-D est initiée par l'effraction d'hématies fœtales Rhésus positif dans la circulation d'une gestante Rhésus négatif.",
-    "D": "Faux. Le passage d'anticorps maternels dans la circulation fœtale est l'étape d'hémolyse secondaire fœtale, non l'étape d'immunisation initiale.",
-    "E": "Faux. La bilirubine n'a aucune propriété antigénique inductrice d'allo-anticorps.",
-    "_synthese": "L'immunisation fœto-maternelle Rhésus résulte du passage transplacentaire d'hématies fœtales Rhésus positif chez une mère Rhésus négatif, déclenchant la synthèse d'anticorps anti-D maternels.",
-    "_remarque": "Tout événement à risque d'hémorragie fœto-maternelle (métrorragies, traumatisme, amniocentèse, délivrance) impose une injection d'immunoglobulines anti-D dans les 72h."
-  },
   "gyn-438": {
     "A": "Vrai. L'antécédent de salpingite aiguë ou chronique (infection à Chlamydia) est le facteur étiologique majeur par destruction des cils vibratiles et sténose tubaire.",
     "B": "Vrai. En cas d'échec contraceptif chez une femme porteuse d'un stérilet (DIU), le risque relatif de survenue d'une GEU est nettement accru.",
@@ -3939,33 +3552,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Les causes et facteurs de risque majeurs de grossesse extra-utérine sont les infections génitales hautes (salpingites), la chirurgie tubaire, les malformations de la trompe et les contraceptions microprogestatives ou par DIU en cas d'échec.",
     "_remarque": "L'échographie endovaginale couplée au dosage quantitatif des bêta-hCG constitue le protocole de dépistage précoce systématique chez ces patientes à haut risque."
   },
-  "gyn-439": {
-    "A": "Faux. Les bruits du cœur fœtal s'auscultent au-dessous de l'ombilic dans le quadrant inférieur gauche.",
-    "B": "Vrai. La tête étant engagée ou appliquée en bas, le pôle fœtal situé au fond utérin est le siège, plus gros, mou et irrégulier que la tête.",
-    "C": "Faux. Le toucher vaginal perçoit le pôle céphalique (sommet avec petite fontanelle) et non le siège.",
-    "D": "Faux. C'est l'occiput qui descend vers la symphyse pubienne en variété antérieure, tandis que le front est situé en arrière.",
-    "E": "Vrai. La pression douce sur le fond utérin fait saillir la convexité régulière et dure du plan du dos fœtal, perçu dans le flanc gauche maternel.",
-    "_synthese": "Dans la présentation du sommet dos à gauche (OIGA/OIGP), le siège occupe le fond utérin et le plan du dos est nettement perçu à la palpation dans le flanc gauche maternel.",
-    "_remarque": "Les manœuvres palpatoires de Léopold permettent de déterminer la situation, la présentation, la position du dos et l'engagement fœtal."
-  },
-  "gyn-440": {
-    "A": "Faux. L'utérus bicorne expose davantage aux avortements tardifs du 2e trimestre et à la prématurité.",
-    "B": "Faux. L'utérus unicorne réduit la taille de la cavité mais n'est pas la malformation la plus fréquente.",
-    "C": "Faux. L'utérus pseudo-unicorne expose aux grossesses sur corne rudimentaire.",
-    "D": "Vrai. L'utérus cloisonné congénital est la malformation utérine la plus fréquente et celle qui expose le plus aux avortements spontanés précoces à répétition par hypovascularisation de la cloison fibro-conjonctive.",
-    "E": "Faux. La béance cervico-isthmique donne des avortements tardifs indolores du 2e trimestre (vers 18-22 SA) et non des avortements précoces.",
-    "_synthese": "L'utérus cloisonné est la malformation congénitale utérine la plus pourvoyeuse d'avortements spontanés précoces récurrents par défaut d'implantation sur la cloison avasculaire.",
-    "_remarque": "La résection de la cloison utérine par hystéroscopie opératoire (métroplastie) permet de restaurer un taux de grossesses menées à terme normal."
-  },
-  "gyn-441": {
-    "A": "Vrai. Une hauteur utérine nettement supérieure à l'âge gestationnel théorique est le maître-signe d'alerte clinique de la môle hydatiforme.",
-    "B": "Faux. Les métrorragies molaires sont classiquement faites de sang noirâtre ou séro-sanglant couleur « jus de prune » et non de sang rouge vif.",
-    "C": "Vrai. L'hypersécrétion massive d'hCG induit l'apparition de volumineux kystes théco-lutéiniques ovariens bilatéraux.",
-    "D": "Faux. Le col utérin est ramolli et souvent déhiscent sous forte imprégnation trophoblastique.",
-    "E": "Faux. L'échographie montre une masse intracavitaire multikystique hétérogène en nid d'abeille et non un simple hématome décidual.",
-    "_synthese": "La suspicion d'avortement molaire au 1er trimestre repose sur la discordance volume utérin supérieur au terme et la palpation de volumineux kystes ovariens théco-lutéiniques bilatéraux.",
-    "_remarque": "Le dosage plasmatique des bêta-hCG retrouve des taux exceptionnellement élevés, souvent supérieurs à 100 000 UI/L."
-  },
   "gyn-442": {
     "A": "Vrai. Les tumeurs ovariennes virilisantes des cordons sexuels (arrhénoblastome / tumeur de Sertoli-Leydig) sécrètent de la testostérone et provoquent un virilisme précoce.",
     "B": "Faux. Le syndrome de Rokitansky s'accompagne d'un phénotype féminin strictement normal sans signes de virilisation.",
@@ -3974,15 +3560,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. L'hypothyroïdie ne cause pas de virilisation des caractères sexuels secondaires.",
     "_synthese": "Une aménorrhée primaire avec virilisation des caractères sexuels secondaires évoque en premier lieu une hyperplasie congénitale des surrénales ou une tumeur ovarienne sécrétant des androgènes.",
     "_remarque": "L'interrogatoire recherche la notion d'ambiguïté sexuelle à la naissance et la biologie dose la 17-hydroxyprogestérone et la testostérone plasmatique."
-  },
-  "gyn-443": {
-    "A": "Vrai. L'échographie montre une masse hétérogène associant des zones hyperéchogènes denses (sébum, poils, dents) et des plages liquidiennes anéchogènes.",
-    "B": "Faux. Les kystes dermoïdes sont bilatéraux dans 10 à 15 % des cas.",
-    "C": "Vrai. En raison de leur densité tissulaire élevée et de leur poids, ils sont très mobiles et se tordent fréquemment autour de leur pédicule lombo-ovarien.",
-    "D": "Vrai. La présence d'ébauches dentaires ou osseuses rend le kyste dermoïde visible sous forme de calcifications sur un cliché d'ASP.",
-    "E": "Faux. La rupture péritonéale d'un kyste dermoïde est rare ; elle entraîne une péritonite chimique granulomateuse sévère.",
-    "_synthese": "Le kyste dermoïde ovarien (tératome mature) est une lésion hétérogène, lourde et sujette à la torsion d'annexe, parfois radio-opaque à l'abdomen sans préparation.",
-    "_remarque": "La kystectomie chirurgicale par cœlioscopie sous sac protecteur permet l'exérèse complète sans contamination péritonéale."
   },
   "gyn-444": {
     "A": "Vrai. La rupture prolongée des membranes ouvre une brèche directe permettant l'ascension bactérienne vaginale vers la cavité utérine.",
@@ -4002,15 +3579,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "La lymphangite aiguë du sein est une infection unilatérale à staphylocoque doré survenant vers J10-J15, caractérisée par un clocher thermique à 39-40°C avec placard érythémateux et traînées rouges axillaires.",
     "_remarque": "Le traitement repose sur les anti-inflammatoires, le drainage régulier du sein et une antibiothérapie anti-staphylococcique par voie orale pendant 7 à 10 jours."
   },
-  "gyn-446": {
-    "A": "Vrai. La RPM avant 37 SA est la première cause d'accouchement prématuré spontané.",
-    "B": "Faux. Le placenta prævia est une anomalie primitive d'insertion du blastocyste et ne résulte en rien d'une rupture des membranes.",
-    "C": "Faux. La présentation de la face est une présentation primitive de déflexion qui ne constitue pas une conséquence mécanique d'une RPM.",
-    "D": "Vrai. La vidange brutale du liquide amniotique peut entraîner une procidence du cordon ombilical en avant de la présentation fœtale non engagée.",
-    "E": "Faux. La dysgravidie (toxémie/prééclampsie) est une maladie vasculaire placentaire qui ne découle pas d'une RPM.",
-    "_synthese": "Les conséquences directes majeures de la rupture prématurée des membranes sont la prématurité et la procidence du cordon ombilical.",
-    "_remarque": "La surveillance quotidienne sous traitement conservateur comporte la prise de température, la mesure de la CRP, les leucocytes et le monitoring cardiotocographique."
-  },
   "gyn-447": {
     "A": "Vrai. La survenue de contractions utérines régulières, douloureuses et rapprochées avant 37 SA est le premier critère indispensable de la MAP.",
     "B": "Vrai. Des métrorragies minimes ou modérées accompagnent fréquemment les modifications cervicales ou traduisent un décollement décidual marginal.",
@@ -4019,15 +3587,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. L'hypertension artérielle signe une pathologie vasculo-rénale associée mais ne définit pas la MAP en soi.",
     "_synthese": "La menace d'accouchement prématuré (MAP) associe obligatoirement des contractions utérines douloureuses et des modifications cervicales progressives avant 37 semaines d'aménorrhée.",
     "_remarque": "Le dosage de la fibronectine fœtale dans les sécrétions cervico-vaginales possède une excellente valeur prédictive négative pour éliminer un accouchement imminent dans les 7 jours."
-  },
-  "gyn-448": {
-    "A": "Vrai. Le manque de fer bloque la synthèse de l'hémoglobine, aboutissant à des hématies de petit volume (microcytose avec VGM < 80 fL).",
-    "B": "Faux. L'anémie ferriprive est hypochrome (TCMH < 27 pg et CCMH < 32 g/dL), non hyperchrome.",
-    "C": "Faux. L'anémie est arégénérative par défaut de substrat médullaire (réticulocytes bas).",
-    "D": "Faux. Le fer sérique est effondré au cours de la carence martiale vraie.",
-    "E": "Faux. La ferritine sérique est effondrée (< 15-30 µg/L), affirmant la déplétion totale des réserves tissulaires en fer.",
-    "_synthese": "L'anémie par carence martiale se caractérise par une anémie microcytaire, hypochrome et arégénérative avec effondrement de la ferritine plasmatique.",
-    "_remarque": "La prescription de fer per os (100 à 200 mg/j de fer ferreux) doit être poursuivie pendant au moins 3 à 6 mois pour reconstituer les réserves de ferritine."
   },
   "gyn-449": {
     "A": "Vraie. Un volumineux fibrome utérin déforme la cavité corporéale et peut rendre difficile l'évaluation clinique du terme au 1er trimestre.",
@@ -4047,15 +3606,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Chez une patiente hypertendue dans les suites d'une césarienne, la contraception autorisée fait appel aux méthodes barrières locales et aux progestatifs purs (oraux microdosés ou injectables retard).",
     "_remarque": "La pose d'un DIU peut être également discutée lors de la consultation post-natale du 2e mois après cicatrisation complète de l'hystérotomie de césarienne."
   },
-  "gyn-451": {
-    "A": "Vrai (1, 2, 3). Devant un décollement prématuré du placenta (HRP), la triade de surveillance indispensable comprend la diurèse horaire (surveillance de l'insuffisance rénale aiguë), les constantes hémodynamiques (pouls, TA pour dépister le choc) et la crase sanguine (recherche de CIVD).",
-    "B": "Faux. La surveillance hémodynamique (2) est tout aussi vitale.",
-    "C": "Faux. La diurèse horaire (1) et la crase sanguine (3) sont prioritaires.",
-    "D": "Faux. L'ensemble de la surveillance hémodynamique et de coagulation est impératif.",
-    "E": "Faux selon le corrigé officiel de cette épreuve (qui validait le triplet 1, 2, 3).",
-    "_synthese": "La prise en charge réanimatoire d'un hématome rétroplacentaire aigu surveille prioritairement la diurèse horaire par sonde à demeure, la stabilité tensionnelle/pouls et le bilan de crase sanguine (fibrinogène).",
-    "_remarque": "L'hypovolémie efficace par séquestration hématomateuse intra-utérine peut dépasser 1 à 2 litres de sang sans extériorisation vaginale concordante."
-  },
   "gyn-452": {
     "A": "Faux. L'absence de ménopause à 50 ans n'est pas en soi un facteur de risque autonome spécifique comparativement à la nulliparité et l'obésité.",
     "B": "Vrai. La nulliparité avec infertilité prolongée témoigne de cycles anovulatoires chroniques sans opposition progestative, favorisant l'hyperplasie et le cancer endométrial.",
@@ -4064,24 +3614,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. La prise de progestatifs exerce un effet protecteur antiprolifératif sur la muqueuse endométriale.",
     "_synthese": "La triade classique prédisposant au cancer de l'endomètre associe l'obésité métabolique, l'hypertension artérielle et la nulliparité avec antécédent de dysovulation prolongée.",
     "_remarque": "Toute métrorragie survenant chez une femme présentant ce profil à haut risque impose impérativement une échographie endovaginale et une biopsie d'endomètre."
-  },
-  "gyn-453": {
-    "A": "Vrai. L'insertion basse du placenta au pôle inférieur de l'œuf fragilise les membranes et majore significativement le risque de rupture prématurée.",
-    "B": "Vrai. Certains placentas prævia demeurent asymptomatiques pendant toute la gestation et ne sont découverts que lors des hémorragies du travail d'accouchement.",
-    "C": "Vrai. La masse placentaire comblant le segment inférieur empêche l'engagement céphalique et favorise les présentations vicieuses transverses, obliques ou du siège.",
-    "D": "Faux. Un placenta prævia latéral ou marginal permet fréquemment un accouchement par voie basse après rupture artificielle des membranes.",
-    "E": "Faux. L'utérus dans le placenta prævia est souple ; la contracture utérine permanente est le signe clinique distinctif de l'hématome rétro-placentaire.",
-    "_synthese": "Le placenta prævia fragilise les membranes, prédispose aux présentations fœtales dystociques et peut se révéler uniquement lors du travail d'accouchement. La césarienne n'est obligatoire que pour les formes recouvrantes.",
-    "_remarque": "Le toucher vaginal est formellement proscrit tant que l'insertion placentaire n'a pas été formellement localisée par échographie."
-  },
-  "gyn-454": {
-    "A": "Vrai (1, 2, 3). Les barbituriques, l'hydantoïne et la rifampicine sont de puissants inducteurs enzymatiques hépatiques (cytochrome P450 3A4) qui accélèrent le catabolisme des estroprogestatifs.",
-    "B": "Faux. La proposition 2 (hydantoïne) est également un inducteur enzymatique diminuant l'efficacité contraceptive.",
-    "C": "Faux. Les barbituriques (1) et la rifampicine (3) sont des inducteurs majeurs.",
-    "D": "Faux. Les anti-inflammatoires (4) n'ont pas d'effet inducteur enzymatique interférant avec la biodisponibilité de la pilule.",
-    "E": "Faux. L'item 4 (anti-inflammatoires) n'altère pas les contraceptifs oraux.",
-    "_synthese": "Les médicaments inducteurs enzymatiques (barbituriques, anti-épileptiques comme l'hydantoïne, et rifampicine) accélèrent la dégradation hépatique des hormones stéroïdiennes et exposent au risque de grossesse imprévue.",
-    "_remarque": "En cas de traitement par un inducteur enzymatique, une contraception non hormonale mécanique ou un stérilet au cuivre doit être impérativement associé."
   },
   "gyn-455": {
     "A": "Faux. L'interruption de grossesse n'est pas indiquée chez une patiente démontrant des anticorps protecteurs anciens.",
@@ -4128,15 +3660,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Les facteurs de risque majeurs de rupture utérine lors d'une épreuve du travail sur utérus cicatriciel sont l'antécédent de perforation utérine, l'utilisation d'ocytociques et les expressions utérines manuelles.",
     "_remarque": "L'utilisation des prostaglandines pour le déclenchement du travail est formellement contre-indiquée sur utérus cicatriciel en raison d'un taux inacceptable de rupture utérine."
   },
-  "gyn-460": {
-    "A": "Faux. Renvoyer la patiente à domicile à 39 SA avec une prééclampsie sévère symptomatique constitue une faute médicale majeure engageant le pronostic vital.",
-    "B": "Faux. Les bilans ambulatoires n'ont aucune place devant un tableau de prééclampsie sévère à terme.",
-    "C": "Faux. L'UIV avec produit de contraste iodé et irradiation fœtale est formellement contre-indiquée pendant la grossesse.",
-    "D": "Faux selon la décision d'action prioritaire terminale retenue par le collège d'enseignants (bien que l'hospitalisation soit immédiate, la conduite obstétricale définitive à 39 SA est l'interruption de la grossesse).",
-    "E": "Vrai. À 39 SA, la présence de signes neuro-sensoriels prémonitoires d'éclampsie (céphalées, phosphènes), d'une protéinurie à 3 croix et d'une TA à 150/105 impose la délivrance fœto-maternelle par interruption immédiate de la grossesse.",
-    "_synthese": "À 39 semaines d'aménorrhée, l'apparition de signes neurologiques de prééclampsie sévère impose l'interruption de la grossesse dans les plus brefs délais afin de prévenir la crise convulsive d'éclampsie et le décollement placentaire.",
-    "_remarque": "Le seul traitement étiologique curatif définitif de la prééclampsie est la délivrance du placenta, rendue obligatoire et sans risque de prématurité à ce terme à terme."
-  },
   "gyn-461": {
     "A": "Faux. Le prolapsus vésical (cystocèle) constitue une colpocèle ANTÉRIEURE développée aux dépens de la paroi antérieure du vagin.",
     "B": "Faux. Le prolapsus urétral (urétrocèle) intéresse la paroi antérieure sous-vésicale du vagin.",
@@ -4145,15 +3668,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. L'hystérocèle correspond à la descente du col et du corps de l'utérus le long de l'axe vaginal médian.",
     "_synthese": "Une colpocèle postérieure correspond à la ptose de la paroi postérieure du vagin, pouvant associer une rectocèle (hernie du rectum) et une élytrocèle (hernie péritonéale du cul-de-sac de Douglas).",
     "_remarque": "L'élytrocèle s'extériorise à l'effort au pôle supérieur du vagin et doit être recherchée systématiquement avant toute cure chirurgicale de rectocèle."
-  },
-  "gyn-462": {
-    "A": "Vrai. La rétention fœtale prolongée in utero au-delà de 2 à 3 semaines libère des thromboplastines fœto-placentaires et expose à une CIVD maternelle sévère par hypofibrinogénémie.",
-    "B": "Vrai. L'insuffisance placentaire sévère consécutive à une prééclampsie compliquée est l'une des causes vasculaires majeures de mort fœtale in utero.",
-    "C": "Vrai. La survenue d'une chorioamniotite ou infection intra-utérine peut être à la fois la cause initiale ou une complication de la MFIU.",
-    "D": "Faux. L'expulsion s'effectue préférentiellement par voie basse après déclenchement médical par prostaglandines ; la césarienne sur fœtus mort est proscrite.",
-    "E": "Faux. La mort in utero peut survenir brutalement sans aucun retard de croissance fœtal préalable (accident de cordon, hématome rétroplacentaire massif, infection foudroyante).",
-    "_synthese": "La mort fœtale in utero peut être secondaire à une prééclampsie sévère ou une infection, et se compliquer de troubles majeurs de l'hémostase maternelle (CIVD). L'accouchement par voie basse déclenché est la règle.",
-    "_remarque": "Le dosage régulier du fibrinogène plasmatique et des plaquettes est impératif en cas d'attente d'expulsion d'une MFIU pour prévenir le syndrome de défibrination."
   },
   "gyn-463": {
     "A": "Vrai. La prise en charge diététique préconise un apport calorique adapté sans restriction excessive (supérieur à 1600-1800 kcal/j) pour éviter la cétogenèse délétère pour le cerveau fœtal.",
@@ -4172,15 +3686,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Le sérodiagnostic de la listériose manque totalement de sensibilité et de spécificité et n'a aucune valeur diagnostique.",
     "_synthese": "L'isolement de Listeria monocytogenes par les hémocultures maternelles systématiques devant toute fièvre gravidique est l'examen diagnostique bactériologique de certitude.",
     "_remarque": "L'examen bactériologique du placenta au décours de l'accouchement (examen direct, culture, anatomopathologie avec micro-abcès) confirme formellement l'atteinte fœto-placentaire."
-  },
-  "gyn-465": {
-    "A": "Faux. Un tracé plat (variabilité < 5 bpm) témoigne d'une hypoxie fœtale sévère ou d'une dépression du système nerveux central.",
-    "B": "Faux. Le rythme sinusoïdal est un tracé très péjoratif traduisant une anémie fœtale profonde ou une hypoxie pré-mortem.",
-    "C": "Vrai. La survenue d'accélérations transitoires de la fréquence cardiaque fœtale synchrones aux mouvements actifs fœtaux définit la réactivité fœtale normale de bon pronostic.",
-    "D": "Faux. Une tachycardie fœtale peut révéler une fièvre maternelle, une chorioamniotite ou une hypoxie.",
-    "E": "Faux. La bradycardie persistante est un signe de souffrance fœtale aiguë imposant une intervention urgente.",
-    "_synthese": "La présence d'accélérations du rythme cardiaque fœtal lors des mouvements fœtaux sur le tracé cardiotocographique atteste d'une réactivité fœtale physiologique et d'une bonne oxygénation cérébrale.",
-    "_remarque": "Un tracé normal présente un rythme de base entre 110 et 160 bpm, des oscillations entre 6 et 25 bpm, des accélérations et aucune décélération."
   },
   "gyn-466": {
     "A": "Vrai. La présence d'une mutation constitutionnelle du gène BRCA2 confère un risque cumulé de développer un cancer du sein de l'ordre de 40 à 60 % à l'âge de 70 ans.",
@@ -4254,15 +3759,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "La complication majeure et de très loin la plus habituelle du fibrome sous-muqueux intracavitaire est la survenue de méno-métrorragies responsables d'une anémie ferriprive chronique.",
     "_remarque": "Le traitement de choix du fibrome sous-muqueux hémorragique symptomatique de moins de 4-5 cm est la résection hystéroscopique per-vaginale."
   },
-  "gyn-474": {
-    "A": "Faux. La maturité pulmonaire s'évalue historiquement par les phospholipides du liquide amniotique.",
-    "B": "Faux. L'allo-immunisation se dépiste par la recherche d'agglutinines irrégulières (RAI).",
-    "C": "Vrai. Le test de Kleihauer recherche et quantifie la présence d'hématies fœtales dans le sang maternel après un événement à risque d'hémorragie fœto-maternelle.",
-    "D": "Faux. Le titrage des agglutinines immunes s'effectue par test de Coombs indirect.",
-    "E": "Faux. Le caryotype fœtal permet de préciser le sexe génétique.",
-    "_synthese": "Le test de Kleihauer permet d'identifier et de chiffrer le volume d'une hémorragie fœto-maternelle en détectant les hématies fœtales dans le sang maternel grâce à leur résistance à l'élution acide.",
-    "_remarque": "Le résultat du test de Kleihauer permet d'adapter la posologie d'immunoglobulines anti-D à injecter chez une femme Rhésus négatif afin de prévenir l'allo-immunisation fœto-maternelle."
-  },
   "gyn-475": {
     "A": "Faux. Un kyste fonctionnel ne se transforme jamais en tumeur organique ; ce sont deux entités distinctes.",
     "B": "Faux. Les kystes fonctionnels sont rigoureusement bénins et ne dégénèrent jamais en cancer.",
@@ -4299,24 +3795,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "La datation biométrique échographique de référence la plus précise est obtenue lors de l'échographie du premier trimestre entre 11 SA et 13 SA + 6 jours par la mesure de la longueur cranio-caudale (LCC).",
     "_remarque": "Cette datation précoce par la LCC ne doit plus être modifiée par les échographies biométriques ultérieures des 2e et 3e trimestres."
   },
-  "gyn-479": {
-    "A": "Faux. Au 5e jour, les sécrétions de glaire cervicale sont minimes sous imprégnation œstrogénique faible.",
-    "B": "Faux. Au 8e jour, la glaire commence à se fluidifier mais n'est pas à son pic.",
-    "C": "Vrai. Dans un cycle physiologique de 28 jours avec ovulation à J14, la sécrétion de glaire cervicale est maximale au 13e jour sous l'influence du pic d'œstradiol pré-ovulatoire.",
-    "D": "Faux. Au 23e jour, la progestérone rend la glaire épaisse, coagulée et imperméable aux spermatozoïdes.",
-    "E": "Faux. Au 28e jour, la glaire est totalement fermée et absente.",
-    "_synthese": "La sécrétion de glaire cervicale atteint son acmé au 13e jour du cycle (en phase pré-ovulatoire immédiate) : elle devient alors abondante, claire, limpide, filante et cristallise en feuilles de fougère.",
-    "_remarque": "Cette glaire cervicale optimale facilite l'ascension et la survie des spermatozoïdes dans le canal génital féminin."
-  },
-  "gyn-480": {
-    "A": "Faux. La fin des règles dépend de la cicatrisation endométriale précoce vers le 5e jour du cycle.",
-    "B": "Faux. La croissance folliculaire est sous la dépendance principale de la FSH en première phase du cycle.",
-    "C": "Vrai. Le pic ovulatoire de LH (déclenché par le rétrocontrôle positif de l'œstradiol dépassant 200 pg/mL pendant 48 heures) déclenche la rupture du follicule mûr de De Graaf et l'ovulation 36 à 40 heures plus tard.",
-    "D": "Faux. Le début des règles résulte de la lutéolyse et de la chute brutale de la progestérone à la fin du cycle.",
-    "E": "Faux. La sécrétion d'œstradiol précède le pic de LH et en constitue le signal inducteur.",
-    "_synthese": "Le pic plasmatique de l'hormone lutéinisante (pic de LH) est l'événement endocrinien indispensable qui déclenche l'ovulation par rupture de la paroi folliculaire ovarienne.",
-    "_remarque": "Les tests urinaires d'ovulation commercialisés détectent précisément l'ascension urinaire de la LH pour prédire l'ovulation dans les 24 à 36 heures suivantes."
-  },
   "gyn-481": {
     "A": "Vrai. Le diamètre bipariétal (BIP), mesuré en coupe axiale trans-thalamique passant par les thalami et le cavum du septum pellucidum, est l'un des paramètres biométriques céphaliques fondamentaux de la surveillance de la croissance fœtale.",
     "B": "Vrai. La longueur fémorale (LF), mesurée sur la diaphyse osseuse fémorale bien horizontalisée sans inclure les épiphyses cartilagineuses, est le paramètre squelettique standard de biométrie fœtale.",
@@ -4335,15 +3813,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "Chez une patiente ayant des cycles réguliers de 28 jours vue pour la première fois au 2e trimestre, le calcul du terme à partir de la date des dernières règles (DDR) reste le repère de datation le plus fiable en l'absence d'écho de T1.",
     "_remarque": "Le gold standard absolu de datation reste la mesure échographique de la longueur cranio-caudale (LCC) entre 11 et 13+6 SA (précision de ± 3 à 5 jours)."
   },
-  "gyn-483": {
-    "A": "Faux. Un fond utérin sus-ombilical à ce terme est anormal et traduit une atonie utérine, une rétention de caillots ou un globe vésical.",
-    "B": "Faux. Le fond utérin se projette au niveau de l'ombilic immédiatement après la délivrance au premier jour du post-partum.",
-    "C": "Vrai. La régression utérine normale est d'environ 1 cm (ou 1 travers de doigt) par jour ; au 6e-7e jour, l'utérus a diminué de moitié et son fond se situe exactement à mi-chemin entre l'ombilic et la symphyse pubienne.",
-    "D": "Faux. L'utérus ne devient strictement intrapelvien (non palpable au-dessus de la symphyse pubienne) qu'aux alentours du 10e au 12e jour du post-partum.",
-    "E": "Faux. L'utérus ne retrouve ses mensurations initiales d'avant la grossesse qu'au bout de 6 à 8 semaines du post-partum.",
-    "_synthese": "L'involution utérine normale diminue de façon quotidienne : au niveau ombilical à J1, à mi-distance ombilic-symphyse à J6-J7, et devient purement intrapelvienne après J10-J12.",
-    "_remarque": "Tout arrêt de l'involution utérine ou utérus sensible à la palpation doit faire éliminer une endométrite du post-partum ou une rétention placentaire."
-  },
   "gyn-484": {
     "A": "Faux. Une prise de poids de 2 à 3 kg est inhabituelle à seulement 5 SA (3 semaines de retard) et peut même être négative en cas de vomissements gravidiques débutants.",
     "B": "Vrai. La tension mammaire précoce avec gonflement des seins, hypersensibilité mamelonnaire et accentuation du réseau veineux superficiel (veines de Haller) est un signe sympathique précoce classique.",
@@ -4352,15 +3821,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. Bien que la progestérone réduise la motilité colique, la constipation est un symptôme digestif très commun et tardif, non retenu isolément comme argument d'appel de grossesse débutante.",
     "_synthese": "Devant un retard de règles, les signes sympathiques de présomption de grossesse comprennent la tension mammaire douloureuse, les nausées matinales, l'hypersomnie et la pollakiurie.",
     "_remarque": "Ces signes fonctionnels imposent une confirmation objective par un test immunologique de grossesse urinaire ou sérique (dosage quantitatif de β-hCG)."
-  },
-  "gyn-485": {
-    "A": "Faux. 20 cm correspond à la hauteur utérine normale attendue à 20 SA (ou 4 mois et demi de gestation).",
-    "B": "Faux. 22 cm correspond approximativement au terme de 26 SA.",
-    "C": "Vrai. À partir de 20 SA (où la HU mesure 20 cm), la règle clinique pratique retient une progression d'environ 1 cm par quinzaine ou l'utilisation de la formule HU = terme en SA - 4, soit 28 - 4 = 24 cm à 28 SA.",
-    "D": "Faux. 28 cm est la hauteur utérine normale attendue à 32 SA.",
-    "E": "Faux. 32 cm correspond à la hauteur utérine à terme (36 à 38 SA).",
-    "_synthese": "La hauteur utérine normale à 28 SA est de 24 cm selon la formule clinique classique [HU = SA - 4], avec une croissance moyenne de 1 cm par quinzaine au 3e trimestre.",
-    "_remarque": "Une HU inférieure à 22 cm à ce terme doit faire suspecter un RCIU ou un oligoamnios ; une HU supérieure à 26 cm évoque un hydramnios ou une macrosomie."
   },
   "gyn-486": {
     "A": "Faux. Un rythme à 80 bpm correspond à une bradycardie fœtale sévère imposant une prise en charge d'extrême urgence.",
@@ -4380,15 +3840,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "_synthese": "L'engagement est l'étape initiale de la descente fœtale définie mécaniquement par le passage du plus grand diamètre de la présentation au-delà du plan du détroit supérieur.",
     "_remarque": "Cliniquement au toucher vaginal, l'engagement est affirmé par le signe de Farabeuf (deux doigts introduits sous la symphyse pubienne vers S2 butent sur la présentation)."
   },
-  "gyn-488": {
-    "A": "Faux. L'émission du bouchon muqueux peut précéder le travail effectif de plusieurs jours et ne constitue pas un critère affirmant à lui seul l'entrée en travail.",
-    "B": "Vrai. La présence de contractions utérines involontaires, régulières, rythmées et douloureuses dont la fréquence et l'intensité augmentent progressivement est indispensable.",
-    "C": "Faux. La rupture de la poche des eaux peut survenir avant tout travail (RPM) ou n'intervenir qu'à dilatation complète ; elle ne définit pas le début du travail.",
-    "D": "Vrai. La maturation cervicale avec effacement et ouverture progressive du col utérin au toucher vaginal est le critère anatomique sine qua non du travail actif.",
-    "E": "Faux. L'engagement de la tête fœtale peut survenir plusieurs semaines avant le travail chez la primipare ou seulement en cours de travail chez la multipare.",
-    "_synthese": "Le diagnostic obstétrical de début de travail à terme repose sur la conjonction de contractions utérines régulières, fréquentes et douloureuses, et de modifications anatomiques progressives du col (effacement et dilatation).",
-    "_remarque": "Des contractions régulières sans modification cervicale définissent le faux travail de Braxton-Hicks."
-  },
   "gyn-489": {
     "A": "Faux. 9,5 cm est la mesure du diamètre sous-occipito-bregmatique (présentation du sommet bien fléchie) ou sous-mento-bregmatique (face).",
     "B": "Vrai. Le diamètre sous-occipito-frontal mesure exactement 10,5 cm ; il correspond à la présentation du sommet incomplètement fléchie.",
@@ -4397,24 +3848,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Faux. 13,5 cm est le diamètre syncipito-mentonnier, le plus grand diamètre de la tête fœtale, rencontré dans la présentation du front.",
     "_synthese": "Le diamètre sous-occipito-frontal mesure 10,5 cm, caractérisant un sommet imparfaitement fléchi, supérieur au diamètre d'accommodation optimale sous-occipito-bregmatique (9,5 cm).",
     "_remarque": "Une flexion incomplète de la tête fœtale augmente les résistances mécaniques lors de l'engagement au niveau du détroit supérieur."
-  },
-  "gyn-490": {
-    "A": "Faux. L'utérus normal chez la femme est physiologiquement antéversé et antéfléchi, et non rétrofléchi.",
-    "B": "Vrai. L'utérus est situé dans la cavité pelvienne médiane, en arrière de la vessie et en avant du rectum.",
-    "C": "Faux. L'utérus est situé en avant du cul-de-sac péritonéal de Douglas (cul-de-sac recto-utérin), qui sépare sa face postérieure de la paroi antérieure du rectum.",
-    "D": "Faux. L'utérus est un organe musculaire creux médian et impair résultant de la fusion des canaux de Müller.",
-    "E": "Vrai. Le péritoine pelvien recouvre les faces utérines et forme la séreuse utérine (périmétrium) avant de se réfléchir sur les organes adjacents.",
-    "_synthese": "L'utérus est un organe médian impair tapissé par le péritoine viscéral, interposé entre le réservoir vésical en avant et le carrefour ano-rectal et le cul-de-sac de Douglas en arrière.",
-    "_remarque": "La position d'antéversion-antéflexion permet d'amortir les pressions intra-abdominales en les dirigeant sur le plancher périnéal et la symphyse pubienne."
-  },
-  "gyn-491": {
-    "A": "Faux. L'occipito-sacrée (OS) est une variété de dégagement minoritaire et dystocique (moins de 2 à 5 % des dégagements du sommet).",
-    "B": "Vrai. L'occipito-pubienne (OP) est la variété de dégagement céphalique de très loin la plus courante (plus de 95 % des accouchements par voie basse), l'occiput pivotant sous la symphyse pubienne.",
-    "C": "Faux. L'OIGA (occipito-iliaque gauche antérieure) est une variété de position d'engagement et de descente, non une modalité de dégagement vulvaire.",
-    "D": "Faux. L'OIDP est une variété d'engagement qui nécessite une rotation intrapelvienne de 135° pour parvenir au dégagement en OP.",
-    "E": "Faux. L'OIGP est également une variété d'engagement postérieure, et non une variété de dégagement final.",
-    "_synthese": "Au terme de la descente et de la rotation interne dans le bassin, le dégagement du sommet s'effectue dans plus de 95 % des cas en variété occipito-pubienne (OP).",
-    "_remarque": "Le dégagement en occipito-sacrée nécessite une amplification majeure de la déflexion de la tête fœtale et majore le risque de rupture périnéale complète."
   },
   "gyn-492": {
     "A": "Faux. Le corps jaune se forme à partir des restes du follicule mûr déhiscent (follicule de De Graaf) après extrusion ovocytaire, et non d'un follicule primordial.",
@@ -4622,24 +4055,6 @@ window.JUSTIFICATIONS_GYNECO = {
     "E": "Vrai. L'hystérosalpingographie permet de vérifier la morphologie de la cavité utérine et d'objectiver la perméabilité des trompes de Fallope par opacification radiologique.",
     "_synthese": "L'infertilité du couple (après 12 mois de tentatives) justifie une évaluation simultanée des deux partenaires : spermogramme chez l'homme, bilan hormonal d'ovulation et hystérosalpingographie chez la femme.",
     "_remarque": "L'évaluation de la réserve ovarienne repose conjointement sur le dosage sérique de l'hormone anti-müllérienne (AMH) et le compte des follicules antraux (CFA) en échographie."
-  },
-  "gyn-515": {
-    "A": "Faux. L'injection d'immunoglobulines anti-D est formellement indiquée chez les femmes Rh négatif NON immunisées (RAI négatives) ; elle est dépourvue d'efficacité si la patiente est déjà immunisée.",
-    "B": "Vrai. Toute interruption volontaire de grossesse, interruption médicale ou fausse couche spontanée chez une patiente Rh- impose l'injection préventive systématique d'anti-D dans les 72 heures.",
-    "C": "Vrai. La césarienne entraîne une brèche vasculaire et expose au passage d'hématies fœtales ; l'injection d'anti-D est requise si le nouveau-né est Rh positif.",
-    "D": "Faux. La grossesse extra-utérine comporte un risque majeur d'allo-immunisation ; l'administration d'immunoglobulines anti-D y est obligatoire.",
-    "E": "Vrai. La recommandation universelle préconise une dose systématique de 300 µg d'anti-D à 28 SA chez toute femme Rh- portant un fœtus Rh+ (ou de statut inconnu) pour couvrir le 3e trimestre.",
-    "_synthese": "La prophylaxie de l'allo-immunisation Rhésus repose sur l'injection d'anti-D chez la patiente Rh- non immunisée dans les 72h suivant toute circonstance à risque (FCS, GEU, accouchement) et systématiquement à 28 SA.",
-    "_remarque": "Le génotypage RHD fœtal sur sang maternel dès 11 SA permet d'éviter les injections inutiles d'anti-D lorsque le fœtus est également Rhésus négatif."
-  },
-  "gyn-516": {
-    "A": "Faux (élément participant au diagnostic). La présence de contractions utérines douloureuses et régulières (au moins 1 toutes les 10 minutes) est une condition indispensable.",
-    "B": "Faux (élément participant au diagnostic). Les modifications cervicales objectivées au toucher vaginal (raccourcissement, ramollissement, décentrage, ouverture) caractérisent la MAP.",
-    "C": "Vrai (l'intrus / critère absent). Un col fermé et long supérieur à 30 mm à l'échographie endovaginale témoigne de l'absence de modifications cervicales significatives et élimine le diagnostic de MAP.",
-    "D": "Faux (élément participant au diagnostic). La MAP se définit rigoureusement entre 22 SA et 36 SA + 6 jours (terme inférieur à 37 SA).",
-    "E": "Faux (élément participant au diagnostic). La positivité de la fibronectine fœtale dans les sécrétions cervico-vaginales atteste d'une rupture de l'interface choriodéciduale et soutient la menace.",
-    "_synthese": "La menace d'accouchement prématuré associe des contractions utérines régulières et des modifications cervicales entre 22 et 36+6 SA. Un col long (> 30 mm) à l'échographie exclut le diagnostic de MAP active.",
-    "_remarque": "Une longueur du col > 30 mm possède une valeur prédictive négative d'accouchement prématuré sous 7 jours supérieure à 97 %."
   },
   "gyn-517": {
     "A": "Faux (proposition exacte). La pilule combinée associe un composé œstrogénique (souvent l'éthinylestradiol) et un progestatif synthétique antigonadotrope.",
