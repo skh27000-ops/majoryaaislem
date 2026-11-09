@@ -201,56 +201,6 @@
     "faculty": "Mostaganem"
   },
   {
-    "id": "anat-s2-2021-05",
-    "module": "anatomie",
-    "chapitre": "Le fémur et patella",
-    "chapitre_num": 26,
-    "section": "Le fémur et patella",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2020/2021 - Q5",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2020/2021 - Q5",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "À propos de la patella, cochez la ou les propositions exactes :",
-    "propositions": {
-      "A": "Sa face antérieure est convexe, creusée de nombreux foramens vasculaires.",
-      "B": "Sa face postérieure est divisée en deux parties : inférieure articulaire et supérieure non articulaire.",
-      "C": "Sa base donne insertion au muscle biceps fémoral.",
-      "D": "Son apex donne insertion au ligament patellaire.",
-      "E": "Ses bords latéraux donnent insertion aux muscles vaste médial et vaste latéral."
-    },
-    "question_fr": "À propos de la patella, cochez la ou les propositions exactes :",
-    "question_en": "Regarding the patella, check the correct proposition(s):",
-    "propositions_fr": {
-      "A": "Sa face antérieure est convexe, creusée de nombreux foramens vasculaires.",
-      "B": "Sa face postérieure est divisée en deux parties : inférieure articulaire et supérieure non articulaire.",
-      "C": "Sa base donne insertion au muscle biceps fémoral.",
-      "D": "Son apex donne insertion au ligament patellaire.",
-      "E": "Ses bords latéraux donnent insertion aux muscles vaste médial et vaste latéral."
-    },
-    "propositions_en": {
-      "A": "Its anterior face is convex, hollowed by numerous vascular foramina.",
-      "B": "Its posterior face is divided into two parts: inferior articular and superior non-articular.",
-      "C": "Its base gives insertion to the biceps femoris muscle.",
-      "D": "Its apex gives insertion to the patellar ligament.",
-      "E": "Its lateral borders give insertion to the vastus medialis and vastus lateralis muscles."
-    },
-    "bonnes_reponses": [
-      "A",
-      "D",
-      "E"
-    ],
-    "faculty": "Mostaganem",
-    "note_cle": "Clé source « BCE » incohérente (la base de la patella ne donne pas insertion au biceps fémoral ; face postérieure inversée) ; clé corrigée ADE, identique à la session 2022-2023."
-  },
-  {
     "id": "anat-s2-2021-06",
     "module": "anatomie",
     "chapitre": "Les os de la jambe (tibia et fibula)",
@@ -1967,54 +1917,6 @@
     "note_cle": "Clé source « C F » : faute de frappe ; le triceps sural est innervé par le nerf tibial (B)."
   },
   {
-    "id": "anat-s2-2023-01",
-    "module": "anatomie",
-    "chapitre": "Les nerfs du membre thoracique",
-    "chapitre_num": 24,
-    "section": "Les nerfs du membre thoracique",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q1",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q1",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "À propos de l'innervation du membre thoracique, cochez les propositions exactes :",
-    "propositions": {
-      "A": "Le nerf musculo-cutané est un nerf purement sensitif.",
-      "B": "Le nerf ulnaire passe en arrière de l'épicondyle latéral de l'humérus.",
-      "C": "Le nerf médian passe dans le canal carpien.",
-      "D": "Le nerf cutané médial de l'avant-bras participe à l'innervation sensitive de la main.",
-      "E": "Le nerf radial est le nerf de l'extension et de la supination du coude."
-    },
-    "question_fr": "À propos de l'innervation du membre thoracique, cochez les propositions exactes :",
-    "question_en": "Regarding the innervation of the thoracic limb, check the correct propositions:",
-    "propositions_fr": {
-      "A": "Le nerf musculo-cutané est un nerf purement sensitif.",
-      "B": "Le nerf ulnaire passe en arrière de l'épicondyle latéral de l'humérus.",
-      "C": "Le nerf médian passe dans le canal carpien.",
-      "D": "Le nerf cutané médial de l'avant-bras participe à l'innervation sensitive de la main.",
-      "E": "Le nerf radial est le nerf de l'extension et de la supination du coude."
-    },
-    "propositions_en": {
-      "A": "The musculocutaneous nerve is purely sensory.",
-      "B": "The ulnar nerve passes behind the lateral epicondyle of the humerus.",
-      "C": "The median nerve passes through the carpal tunnel.",
-      "D": "The medial cutaneous nerve of the forearm participates in the sensory innervation of the hand.",
-      "E": "The radial nerve is the nerve of extension and supination of the elbow."
-    },
-    "bonnes_reponses": [
-      "C",
-      "E"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "anat-s2-2023-02",
     "module": "anatomie",
     "chapitre": "L'os coxal",
@@ -2222,6 +2124,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q6",
         "type": "EMD",
         "annee": "2022/2023"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2020/2021 - Q5",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "À propos de la patella, cochez la ou les propositions exactes :",
@@ -3177,53 +3084,6 @@
     "faculty": "Mostaganem"
   },
   {
-    "id": "anat-s2-2023-26",
-    "module": "anatomie",
-    "chapitre": "L'artère poplitée",
-    "chapitre_num": 38,
-    "section": "L'artère poplitée",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q26",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q26",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "Quelle est la branche collatérale de l'artère poplitée :",
-    "propositions": {
-      "A": "L'artère descendante du genou.",
-      "B": "L'artère moyenne du genou.",
-      "C": "Les artères perforantes.",
-      "D": "Les artères pudendales.",
-      "E": "L'artère circonflexe iliaque superficielle."
-    },
-    "question_fr": "Quelle est la branche collatérale de l'artère poplitée :",
-    "question_en": "What is the collateral branch of the popliteal artery:",
-    "propositions_fr": {
-      "A": "L'artère descendante du genou.",
-      "B": "L'artère moyenne du genou.",
-      "C": "Les artères perforantes.",
-      "D": "Les artères pudendales.",
-      "E": "L'artère circonflexe iliaque superficielle."
-    },
-    "propositions_en": {
-      "A": "The descending genicular artery.",
-      "B": "The middle genicular artery.",
-      "C": "The perforating arteries.",
-      "D": "The pudendal arteries.",
-      "E": "The superficial circumflex iliac artery."
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "anat-s2-2023-27",
     "module": "anatomie",
     "chapitre": "Les artères de la jambe",
@@ -3316,53 +3176,6 @@
     "bonnes_reponses": [
       "A",
       "E"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-s2-2023-29",
-    "module": "anatomie",
-    "chapitre": "L'artère poplitée",
-    "chapitre_num": 38,
-    "section": "L'artère poplitée",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q29",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q29",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "Cochez la proposition exacte. Dans la fosse poplitée, l'élément le plus postérieur est :",
-    "propositions": {
-      "A": "L'artère poplitée.",
-      "B": "La veine poplitée.",
-      "C": "Le nerf tibial.",
-      "D": "Le nerf fibulaire superficiel.",
-      "E": "Le nerf ischiatique."
-    },
-    "question_fr": "Cochez la proposition exacte. Dans la fosse poplitée, l'élément le plus postérieur est :",
-    "question_en": "Check the correct proposition. In the popliteal fossa, the most posterior element is:",
-    "propositions_fr": {
-      "A": "L'artère poplitée.",
-      "B": "La veine poplitée.",
-      "C": "Le nerf tibial.",
-      "D": "Le nerf fibulaire superficiel.",
-      "E": "Le nerf ischiatique."
-    },
-    "propositions_en": {
-      "A": "The popliteal artery.",
-      "B": "The popliteal vein.",
-      "C": "The tibial nerve.",
-      "D": "The superficial peroneal nerve.",
-      "E": "The sciatic nerve."
-    },
-    "bonnes_reponses": [
-      "C"
     ],
     "faculty": "Mostaganem"
   },
@@ -3554,53 +3367,6 @@
     },
     "bonnes_reponses": [
       "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-s2-2023-34",
-    "module": "anatomie",
-    "chapitre": "Plexus lombaire (nerf lombaire et nerf fémoral)",
-    "chapitre_num": 41,
-    "section": "Plexus lombaire (nerf lombaire et nerf fémoral)",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q34",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q34",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "La fonction motrice du nerf obturateur est :",
-    "propositions": {
-      "A": "La rotation médiale de la cuisse.",
-      "B": "L'adduction de la cuisse.",
-      "C": "L'abduction de la cuisse.",
-      "D": "L'extension de la cuisse.",
-      "E": "La flexion de la cuisse."
-    },
-    "question_fr": "La fonction motrice du nerf obturateur est :",
-    "question_en": "The motor function of the obturator nerve is:",
-    "propositions_fr": {
-      "A": "La rotation médiale de la cuisse.",
-      "B": "L'adduction de la cuisse.",
-      "C": "L'abduction de la cuisse.",
-      "D": "L'extension de la cuisse.",
-      "E": "La flexion de la cuisse."
-    },
-    "propositions_en": {
-      "A": "Medial rotation of the thigh.",
-      "B": "Adduction of the thigh.",
-      "C": "Abduction of the thigh.",
-      "D": "Extension of the thigh.",
-      "E": "Flexion of the thigh."
-    },
-    "bonnes_reponses": [
-      "B"
     ],
     "faculty": "Mostaganem"
   },
@@ -3910,6 +3676,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q1",
         "type": "EMD",
         "annee": "2023/2024"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q1",
+        "type": "EMD",
+        "annee": "2022/2023"
       }
     ],
     "question": "À propos de l'innervation du membre thoracique, cochez les propositions exactes :",
@@ -5046,54 +4817,6 @@
     "faculty": "Mostaganem"
   },
   {
-    "id": "anat-s2-2024-25",
-    "module": "anatomie",
-    "chapitre": "L'artère fémorale",
-    "chapitre_num": 37,
-    "section": "L'artère fémorale",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q25",
-      "type": "EMD",
-      "annee": "2023/2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q25",
-        "type": "EMD",
-        "annee": "2023/2024"
-      }
-    ],
-    "question": "Cochez les propositions exactes : la lacune vasculaire livre passage à :",
-    "propositions": {
-      "A": "L'artère fémorale profonde.",
-      "B": "La veine fémorale.",
-      "C": "Le muscle ilio-psoas.",
-      "D": "Le nerf fémoral.",
-      "E": "L'artère fémorale."
-    },
-    "question_fr": "Cochez les propositions exactes : la lacune vasculaire livre passage à :",
-    "question_en": "Check the correct statements, the vascular lacuna (lacune vasculaire) gives passage to:",
-    "propositions_fr": {
-      "A": "L'artère fémorale profonde.",
-      "B": "La veine fémorale.",
-      "C": "Le muscle ilio-psoas.",
-      "D": "Le nerf fémoral.",
-      "E": "L'artère fémorale."
-    },
-    "propositions_en": {
-      "A": "The deep femoral artery.",
-      "B": "The femoral vein.",
-      "C": "The psoas-iliac muscle.",
-      "D": "The femoral nerve.",
-      "E": "The femoral artery."
-    },
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "anat-s2-2024-26",
     "module": "anatomie",
     "chapitre": "L'artère fémorale",
@@ -5205,6 +4928,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q28",
         "type": "EMD",
         "annee": "2023/2024"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q29",
+        "type": "EMD",
+        "annee": "2022/2023"
       }
     ],
     "question": "Cochez la proposition exacte : dans la fosse poplitée, l'élément le plus postérieur est :",
@@ -5235,56 +4963,6 @@
       "C"
     ],
     "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-s2-2024-29",
-    "module": "anatomie",
-    "chapitre": "Les artères de la jambe",
-    "chapitre_num": 39,
-    "section": "Les artères de la jambe",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q29",
-      "type": "EMD",
-      "annee": "2023/2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q29",
-        "type": "EMD",
-        "annee": "2023/2024"
-      }
-    ],
-    "question": "Concernant l'artère tibiale antérieure, cochez les propositions exactes :",
-    "propositions": {
-      "A": "Elle contourne le col de la fibula.",
-      "B": "Elle se termine au bord inférieur du rétinaculum des extenseurs.",
-      "C": "Elle est accompagnée du nerf fibulaire profond.",
-      "D": "Elle traverse la membrane interosseuse.",
-      "E": "Elle se termine par les artères plantaires."
-    },
-    "question_fr": "Concernant l'artère tibiale antérieure, cochez les propositions exactes :",
-    "question_en": "Concerning the anterior tibial artery, check the correct statements:",
-    "propositions_fr": {
-      "A": "Elle contourne le col de la fibula.",
-      "B": "Elle se termine au bord inférieur du rétinaculum des extenseurs.",
-      "C": "Elle est accompagnée du nerf fibulaire profond.",
-      "D": "Elle traverse la membrane interosseuse.",
-      "E": "Elle se termine par les artères plantaires."
-    },
-    "propositions_en": {
-      "A": "It contours the neck of the fibula.",
-      "B": "It ends at the inferior border of the extensor retinaculum.",
-      "C": "It is accompanied by the deep fibular nerve.",
-      "D": "It traverses the interosseous membrane.",
-      "E": "It ends as the plantar arteries."
-    },
-    "bonnes_reponses": [
-      "B",
-      "C",
-      "D"
-    ],
-    "faculty": "Mostaganem",
-    "note_cle": "Clé source BC ; D est aussi vraie."
   },
   {
     "id": "anat-s2-2024-30",
@@ -5520,100 +5198,6 @@
       "A",
       "C",
       "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-s2-2024-35",
-    "module": "anatomie",
-    "chapitre": "Plexus lombaire (nerf lombaire et nerf fémoral)",
-    "chapitre_num": 41,
-    "section": "Plexus lombaire (nerf lombaire et nerf fémoral)",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q35",
-      "type": "EMD",
-      "annee": "2023/2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q35",
-        "type": "EMD",
-        "annee": "2023/2024"
-      }
-    ],
-    "question": "Parmi les branches du plexus lombaire, laquelle traverse le psoas ?",
-    "propositions": {
-      "A": "Le nerf ilio-inguinal.",
-      "B": "Le nerf génito-fémoral.",
-      "C": "Le nerf fémoral.",
-      "D": "Le nerf obturateur.",
-      "E": "Le nerf cutané latéral de la cuisse."
-    },
-    "question_fr": "Parmi les branches du plexus lombaire, laquelle traverse le psoas ?",
-    "question_en": "Among the branches of the lumbar plexus, which branch traverses the psoas?",
-    "propositions_fr": {
-      "A": "Le nerf ilio-inguinal.",
-      "B": "Le nerf génito-fémoral.",
-      "C": "Le nerf fémoral.",
-      "D": "Le nerf obturateur.",
-      "E": "Le nerf cutané latéral de la cuisse."
-    },
-    "propositions_en": {
-      "A": "Ilio-inguinal nerve.",
-      "B": "Genitofemoral nerve.",
-      "C": "Femoral nerve.",
-      "D": "Obturator nerve.",
-      "E": "Lateral cutaneous nerve of the thigh."
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-s2-2024-36",
-    "module": "anatomie",
-    "chapitre": "Plexus lombaire (nerf lombaire et nerf fémoral)",
-    "chapitre_num": 41,
-    "section": "Plexus lombaire (nerf lombaire et nerf fémoral)",
-    "source": {
-      "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q36",
-      "type": "EMD",
-      "annee": "2023/2024"
-    },
-    "sources": [
-      {
-        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q36",
-        "type": "EMD",
-        "annee": "2023/2024"
-      }
-    ],
-    "question": "La fonction motrice du nerf obturateur est :",
-    "propositions": {
-      "A": "La rotation médiale de la cuisse.",
-      "B": "L'adduction de la cuisse.",
-      "C": "L'abduction de la cuisse.",
-      "D": "L'extension de la cuisse.",
-      "E": "La flexion de la cuisse."
-    },
-    "question_fr": "La fonction motrice du nerf obturateur est :",
-    "question_en": "The motor function of the obturator nerve is:",
-    "propositions_fr": {
-      "A": "La rotation médiale de la cuisse.",
-      "B": "L'adduction de la cuisse.",
-      "C": "L'abduction de la cuisse.",
-      "D": "L'extension de la cuisse.",
-      "E": "La flexion de la cuisse."
-    },
-    "propositions_en": {
-      "A": "Medial rotation of the thigh.",
-      "B": "Adduction of the thigh.",
-      "C": "Abduction of the thigh.",
-      "D": "Extension of the thigh.",
-      "E": "Flexion of the thigh."
-    },
-    "bonnes_reponses": [
-      "B"
     ],
     "faculty": "Mostaganem"
   },
@@ -7028,6 +6612,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2024/2025 - Q26",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q25",
+        "type": "EMD",
+        "annee": "2023/2024"
       }
     ],
     "question": "Cochez les propositions exactes : la lacune vasculaire livre passage à :",
@@ -7172,6 +6761,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2024/2025 - Q29",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q26",
+        "type": "EMD",
+        "annee": "2022/2023"
       }
     ],
     "question": "Quelle est la branche collatérale de l'artère poplitée ?",
@@ -7267,6 +6861,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2024/2025 - Q31",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q29",
+        "type": "EMD",
+        "annee": "2023/2024"
       }
     ],
     "question": "Concernant l'artère tibiale antérieure, cochez les propositions exactes :",
@@ -7410,6 +7009,11 @@
         "texte": "Examen Anatomie Mostaganem S2 2024/2025 - Q34",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q35",
+        "type": "EMD",
+        "annee": "2023/2024"
       }
     ],
     "question": "Parmi les branches du plexus lombaire, laquelle traverse le psoas ?",
@@ -7457,6 +7061,16 @@
         "texte": "Examen Anatomie Mostaganem S2 2024/2025 - Q35",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2023/2024 - Q36",
+        "type": "EMD",
+        "annee": "2023/2024"
+      },
+      {
+        "texte": "Examen Anatomie Mostaganem S2 2022/2023 - Q34",
+        "type": "EMD",
+        "annee": "2022/2023"
       }
     ],
     "question": "La fonction motrice du nerf obturateur est :",

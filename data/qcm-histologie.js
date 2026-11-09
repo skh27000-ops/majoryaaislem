@@ -1093,15 +1093,15 @@ window.QCM_HISTOLOGIE = [
       },
       {
         "label": "B",
-        "text": "Les érythrocytes matures contiennent mitochondries nécessaires au transport de l'oxygène C Ont une tbrrne biconcave. (Mature erythrocytes contain mitochondria necessary for oxygen transport. C Have a biconcave shape.)",
-        "text_fr": "Les érythrocytes matures contiennent mitochondries nécessaires au transport de l'oxygène C Ont une tbrrne biconcave.",
-        "text_en": "Mature erythrocytes contain mitochondria necessary for oxygen transport. C Have a biconcave shape."
+        "text": "Les érythrocytes matures contiennent des mitochondries nécessaires au transport de l'oxygène (Mature erythrocytes contain mitochondria necessary for oxygen transport)",
+        "text_fr": "Les érythrocytes matures contiennent des mitochondries nécessaires au transport de l'oxygène",
+        "text_en": "Mature erythrocytes contain mitochondria necessary for oxygen transport"
       },
       {
         "label": "C",
-        "text": "",
-        "text_fr": "",
-        "text_en": ""
+        "text": "Ont une forme biconcave (Have a biconcave shape)",
+        "text_fr": "Ont une forme biconcave",
+        "text_en": "Have a biconcave shape"
       },
       {
         "label": "D",
@@ -1122,7 +1122,7 @@ window.QCM_HISTOLOGIE = [
       "D"
     ],
     "correctLetter": "A, C, D",
-    "note_cle": "La proposition C est illisible dans la source."
+    "note_cle": "Propositions B et C reconstruites (scan : C vide et fusionnee dans B)."
   },
   {
     "id": "histo-23",

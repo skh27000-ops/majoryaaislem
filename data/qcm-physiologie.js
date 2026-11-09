@@ -5164,45 +5164,6 @@ window.QCM_PHYSIOLOGIE = [
     "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q4"
   },
   {
-    "id": "physio-125",
-    "num": 125,
-    "module": "physiologie",
-    "moduleTitle": "Physiologie",
-    "chapter": "La synapse neuro-neurale",
-    "year": "2020-2021",
-    "session": "EMD",
-    "faculty": "Section Inter-Facultés",
-    "type": "QCM",
-    "text": "The triggering of an action potential in a central nervous system neuron requires the activation of: (check the correct answer)",
-    "options": [
-      {
-        "label": "A",
-        "text": "A single synapse"
-      },
-      {
-        "label": "B",
-        "text": "Two synapses"
-      },
-      {
-        "label": "C",
-        "text": "At least 50 synapses"
-      },
-      {
-        "label": "D",
-        "text": "Between 3 and 10 synapses"
-      },
-      {
-        "label": "E",
-        "text": "All answers are false"
-      }
-    ],
-    "answer": [
-      "C"
-    ],
-    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q5",
-    "note_cle": "Clé corrigée : cohérence avec physio-156 (au moins 50 synapses)."
-  },
-  {
     "id": "physio-126",
     "num": 126,
     "module": "physiologie",
@@ -5284,44 +5245,6 @@ window.QCM_PHYSIOLOGIE = [
     "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q7"
   },
   {
-    "id": "physio-128",
-    "num": 128,
-    "module": "physiologie",
-    "moduleTitle": "Physiologie",
-    "chapter": "La synapse neuro-musculaire",
-    "year": "2020-2021",
-    "session": "EMD",
-    "faculty": "Section Inter-Facultés",
-    "type": "QCM",
-    "text": "At the neuromuscular junction (check the correct answer(s)):",
-    "options": [
-      {
-        "label": "A",
-        "text": "Muscarinic receptors are pentamers"
-      },
-      {
-        "label": "B",
-        "text": "Acetylcholine is stored at the soma"
-      },
-      {
-        "label": "C",
-        "text": "Acetylcholine is synthesized at the soma"
-      },
-      {
-        "label": "D",
-        "text": "Acetylcholine is synthesized at the axon terminal"
-      },
-      {
-        "label": "E",
-        "text": "All answers are false"
-      }
-    ],
-    "answer": [
-      "D"
-    ],
-    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q8"
-  },
-  {
     "id": "physio-129",
     "num": 129,
     "module": "physiologie",
@@ -5397,82 +5320,6 @@ window.QCM_PHYSIOLOGIE = [
       "E"
     ],
     "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q10"
-  },
-  {
-    "id": "physio-131",
-    "num": 131,
-    "module": "physiologie",
-    "moduleTitle": "Physiologie",
-    "chapter": "Le système nerveux autonome",
-    "year": "2020-2021",
-    "session": "EMD",
-    "faculty": "Section Inter-Facultés",
-    "type": "QCM",
-    "text": "At the postganglionic fiber - effector organ junction of the parasympathetic system: (check the correct answer)",
-    "options": [
-      {
-        "label": "A",
-        "text": "ACh acts on a and β  receptors"
-      },
-      {
-        "label": "B",
-        "text": "ACh acts on muscarinic receptors"
-      },
-      {
-        "label": "C",
-        "text": "Norepinephrine acts on a and β  receptors"
-      },
-      {
-        "label": "D",
-        "text": "ACh acts on nicotinic receptors"
-      },
-      {
-        "label": "E",
-        "text": "All answers are false"
-      }
-    ],
-    "answer": [
-      "B"
-    ],
-    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q11"
-  },
-  {
-    "id": "physio-132",
-    "num": 132,
-    "module": "physiologie",
-    "moduleTitle": "Physiologie",
-    "chapter": "Le système nerveux autonome",
-    "year": "2020-2021",
-    "session": "EMD",
-    "faculty": "Section Inter-Facultés",
-    "type": "QCM",
-    "text": "Ganglionic transmission in the ANS: (check the correct answer)",
-    "options": [
-      {
-        "label": "A",
-        "text": "Is cholinergic"
-      },
-      {
-        "label": "B",
-        "text": "Is adrenergic"
-      },
-      {
-        "label": "C",
-        "text": "Is GABAergic"
-      },
-      {
-        "label": "D",
-        "text": "All answers are false"
-      },
-      {
-        "label": "E",
-        "text": "Answers b and c are correct"
-      }
-    ],
-    "answer": [
-      "A"
-    ],
-    "source": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q12"
   },
   {
     "id": "physio-133",
@@ -6220,82 +6067,6 @@ window.QCM_PHYSIOLOGIE = [
     "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q11"
   },
   {
-    "id": "physio-152",
-    "num": 152,
-    "module": "physiologie",
-    "moduleTitle": "Physiologie",
-    "chapter": "Le système nerveux autonome",
-    "year": "2022-2023",
-    "session": "EMD",
-    "faculty": "Section Inter-Facultés",
-    "type": "QCM",
-    "text": "The sympathetic nervous system: (choose the correct answer)",
-    "options": [
-      {
-        "label": "A",
-        "text": "Is cranio-lumbar"
-      },
-      {
-        "label": "B",
-        "text": "Is cranio-dorsal"
-      },
-      {
-        "label": "C",
-        "text": "Is cranio-sacral"
-      },
-      {
-        "label": "D",
-        "text": "Is dorso-lumbar"
-      },
-      {
-        "label": "E",
-        "text": "Is exclusively lumbar."
-      }
-    ],
-    "answer": [
-      "D"
-    ],
-    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q12"
-  },
-  {
-    "id": "physio-153",
-    "num": 153,
-    "module": "physiologie",
-    "moduleTitle": "Physiologie",
-    "chapter": "Le système nerveux autonome",
-    "year": "2022-2023",
-    "session": "EMD",
-    "faculty": "Section Inter-Facultés",
-    "type": "QCM",
-    "text": "The parasympathetic nervous system: (choose the correct answer)",
-    "options": [
-      {
-        "label": "A",
-        "text": "Is cranio-lumbar"
-      },
-      {
-        "label": "B",
-        "text": "Is cranio-dorsal"
-      },
-      {
-        "label": "C",
-        "text": "Is cranio-sacral"
-      },
-      {
-        "label": "D",
-        "text": "Is dorso-lumbar"
-      },
-      {
-        "label": "E",
-        "text": "Is exclusively lumbar."
-      }
-    ],
-    "answer": [
-      "C"
-    ],
-    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q13"
-  },
-  {
     "id": "physio-154",
     "num": 154,
     "module": "physiologie",
@@ -6331,7 +6102,23 @@ window.QCM_PHYSIOLOGIE = [
     "answer": [
       "A"
     ],
-    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q14"
+    "source": {
+      "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q14",
+      "type": "EMD",
+      "annee": "2022-2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q14",
+        "type": "EMD",
+        "annee": "2022-2023"
+      },
+      {
+        "texte": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q12",
+        "type": "EMD",
+        "annee": "2020-2021"
+      }
+    ]
   },
   {
     "id": "physio-155",
@@ -6369,7 +6156,23 @@ window.QCM_PHYSIOLOGIE = [
     "answer": [
       "B"
     ],
-    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q15"
+    "source": {
+      "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q15",
+      "type": "EMD",
+      "annee": "2022-2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q15",
+        "type": "EMD",
+        "annee": "2022-2023"
+      },
+      {
+        "texte": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q11",
+        "type": "EMD",
+        "annee": "2020-2021"
+      }
+    ]
   },
   {
     "id": "physio-156",
@@ -6407,7 +6210,23 @@ window.QCM_PHYSIOLOGIE = [
     "answer": [
       "C"
     ],
-    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q16"
+    "source": {
+      "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q16",
+      "type": "EMD",
+      "annee": "2022-2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q16",
+        "type": "EMD",
+        "annee": "2022-2023"
+      },
+      {
+        "texte": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q5",
+        "type": "EMD",
+        "annee": "2020-2021"
+      }
+    ]
   },
   {
     "id": "physio-157",
@@ -6527,7 +6346,23 @@ window.QCM_PHYSIOLOGIE = [
     "answer": [
       "D"
     ],
-    "source": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q19"
+    "source": {
+      "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q19",
+      "type": "EMD",
+      "annee": "2022-2023"
+    },
+    "sources": [
+      {
+        "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q19",
+        "type": "EMD",
+        "annee": "2022-2023"
+      },
+      {
+        "texte": "EMD Physiologie 2020-2021 (Section Inter-Facultés) · Q8",
+        "type": "EMD",
+        "annee": "2020-2021"
+      }
+    ]
   },
   {
     "id": "physio-160",
@@ -6682,7 +6517,23 @@ window.QCM_PHYSIOLOGIE = [
     "answer": [
       "D"
     ],
-    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q3"
+    "source": {
+      "texte": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q3",
+      "type": "EMD",
+      "annee": "2024-2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q3",
+        "type": "EMD",
+        "annee": "2024-2025"
+      },
+      {
+        "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q12",
+        "type": "EMD",
+        "annee": "2022-2023"
+      }
+    ]
   },
   {
     "id": "physio-164",
@@ -6720,7 +6571,23 @@ window.QCM_PHYSIOLOGIE = [
     "answer": [
       "C"
     ],
-    "source": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q4"
+    "source": {
+      "texte": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q4",
+      "type": "EMD",
+      "annee": "2024-2025"
+    },
+    "sources": [
+      {
+        "texte": "EMD Physiologie 2024-2025 (Section Inter-Facultés) · Q4",
+        "type": "EMD",
+        "annee": "2024-2025"
+      },
+      {
+        "texte": "EMD Physiologie 2022-2023 (Section Inter-Facultés) · Q13",
+        "type": "EMD",
+        "annee": "2022-2023"
+      }
+    ]
   },
   {
     "id": "physio-165",

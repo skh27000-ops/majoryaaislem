@@ -66,6 +66,11 @@ window.QCM_CYTOLOGIE = [
         "texte": "EMD 1 Cytologie Mostaganem 2025/2026 (05/01/2026) - Q2",
         "type": "EMD",
         "annee": "2025/2026"
+      },
+      {
+        "texte": "EMD 1 Cytologie Mostaganem 2022/2023 (17/01/2023) - Q2",
+        "type": "EMD",
+        "annee": "2022/2023"
       }
     ],
     "question": "Parmi les organites suivants, lesquels sont communs aux cellules végétales et animales et absents chez les cellules procaryotes ?",
@@ -3493,53 +3498,6 @@ window.QCM_CYTOLOGIE = [
     "bonnes_reponses": [
       "B",
       "E"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "cyto-2023-emd1-02",
-    "module": "cytologie",
-    "chapitre": "Organisation générale de la cellule (Eucaryotes, Procaryotes, Virus)",
-    "source": {
-      "texte": "EMD 1 Cytologie Mostaganem 2022/2023 (17/01/2023) - Q2",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "EMD 1 Cytologie Mostaganem 2022/2023 (17/01/2023) - Q2",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "Parmi les organites suivants lesquels se trouvent dans les cellules végétales et animales et sont absents dans les cellules procaryotes :",
-    "propositions": {
-      "A": "La mitochondrie",
-      "B": "Le chloroplaste",
-      "C": "L'enveloppe nucléaire",
-      "D": "Le réticulum endoplasmique",
-      "E": "Le ribosome"
-    },
-    "question_fr": "Parmi les organites suivants lesquels se trouvent dans les cellules végétales et animales et sont absents dans les cellules procaryotes :",
-    "question_en": "Among the following organelles, which are found in both plant and animal cells and absent in prokaryotic cells:",
-    "propositions_fr": {
-      "A": "La mitochondrie",
-      "B": "Le chloroplaste",
-      "C": "L'enveloppe nucléaire",
-      "D": "Le réticulum endoplasmique",
-      "E": "Le ribosome"
-    },
-    "propositions_en": {
-      "A": "Mitochondria",
-      "B": "Chloroplast",
-      "C": "Nuclear envelope",
-      "D": "Endoplasmic reticulum",
-      "E": "Ribosome"
-    },
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
     ],
     "faculty": "Mostaganem"
   },

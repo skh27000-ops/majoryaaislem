@@ -977,6 +977,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2024/2025 - Q1",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2019/2020 - Q3",
+        "type": "EMD",
+        "annee": "2019/2020"
       }
     ],
     "question": "Les déterminants sociaux de la santé sont l'une des causes principales : (Réponse correcte)",
@@ -1071,6 +1076,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2024/2025 - Q3",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2023/2024 - Q14",
+        "type": "EMD",
+        "annee": "2023/2024"
       }
     ],
     "question": "Un ensemble organisé de connaissances, croyances, opinions, images et attitudes partagées par un groupe concernant un objet social donné, c'est : (Réponse correcte)",
@@ -1454,6 +1464,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2024/2025 - Q11",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2020/2021 - Q11",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "Dans une communauté de 100 000 habitants, en 1960, 1 000 décès ont été enregistrés (toutes causes confondues). Tous les cas de tuberculose de l'année ont été investigués, soit 300 cas au total. Durant la même année, 60 décès dus à la tuberculose ont été rapportés. Le taux de létalité de la tuberculose est égal à : (Réponse correcte)",
@@ -1595,6 +1610,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2024/2025 - Q14",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2020/2021 - Q14",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "Au cours de l'année 1985, 200 nouveaux cas d'une maladie X ont été diagnostiqués ; le nombre de cas existants diagnostiqués antérieurement était de 800 cas. La population moyenne au 1er juillet était de 10 000 000 d'habitants. Quel est le taux d'incidence pour 100 000 habitants en 1985 ?",
@@ -1642,6 +1662,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2024/2025 - Q15",
         "type": "EMD",
         "annee": "2024/2025"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2020/2021 - Q15",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "Au total, 83 cas de fièvre typhoïde (53 hommes et 30 femmes) ont été enregistrés lors d'une épidémie dans une localité de 25 000 habitants (12 000 hommes et 13 000 femmes). Le taux d'attaque global de la fièvre typhoïde est égal à :",
@@ -2114,6 +2139,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2023/2024 - Q5",
         "type": "EMD",
         "annee": "2023/2024"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2022/2023 - Q13",
+        "type": "EMD",
+        "annee": "2022/2023"
       }
     ],
     "question": "Pour une maladie, que représente le numérateur d'un taux d'incidence ?",
@@ -2451,6 +2481,16 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2023/2024 - Q12",
         "type": "EMD",
         "annee": "2023/2024"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2022/2023 - Q20",
+        "type": "EMD",
+        "annee": "2022/2023"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2020/2021 - Q2",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "Les circonstances dans lesquelles les individus naissent, grandissent, vivent, travaillent et vieillissent, ainsi que les systèmes mis en place pour faire face à la maladie. Ceci renvoie à :",
@@ -2526,53 +2566,6 @@ window.QCM_SSH = [
     },
     "bonnes_reponses": [
       "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "ssh-2023-14",
-    "module": "ssh",
-    "chapitre": "La Santé et la culture",
-    "chapitre_num": 13,
-    "section": "La Santé et la culture",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2023/2024 - Q14",
-      "type": "EMD",
-      "annee": "2023/2024"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2023/2024 - Q14",
-        "type": "EMD",
-        "annee": "2023/2024"
-      }
-    ],
-    "question": "Un ensemble organisé de connaissances, croyances, opinions, images et attitudes partagées par un groupe concernant un objet social donné, c'est :",
-    "propositions": {
-      "A": "Les représentations sociales ;",
-      "B": "La perception de la santé ;",
-      "C": "Les croyances sociales ;",
-      "D": "Les sciences sociales ;",
-      "E": "La culture."
-    },
-    "question_fr": "Un ensemble organisé de connaissances, croyances, opinions, images et attitudes partagées par un groupe concernant un objet social donné, c'est :",
-    "question_en": "An organized set of knowledge, beliefs, opinions, images, and attitudes shared by a group regarding a given social object, this is:?",
-    "propositions_fr": {
-      "A": "Les représentations sociales ;",
-      "B": "La perception de la santé ;",
-      "C": "Les croyances sociales ;",
-      "D": "Les sciences sociales ;",
-      "E": "La culture."
-    },
-    "propositions_en": {
-      "A": "Social representations",
-      "B": "Perception of health",
-      "C": "Social beliefs",
-      "D": "Social sciences",
-      "E": "Culture"
-    },
-    "bonnes_reponses": [
-      "A"
     ],
     "faculty": "Mostaganem"
   },
@@ -3429,53 +3422,6 @@ window.QCM_SSH = [
     "faculty": "Mostaganem"
   },
   {
-    "id": "ssh-2022-13",
-    "module": "ssh",
-    "chapitre": "Les indicateurs de la santé",
-    "chapitre_num": 21,
-    "section": "Les indicateurs de la santé",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2022/2023 - Q13",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2022/2023 - Q13",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "Pour une maladie, que représente le numérateur d'un taux d'incidence ?",
-    "propositions": {
-      "A": "Le nombre total d'individus malades durant la période d'observation ;",
-      "B": "Le nombre de sujets exposés à la maladie ;",
-      "C": "L'effectif de la population observée ;",
-      "D": "Le nombre de cas déjà présents avant le début de l'observation ;",
-      "E": "Le nombre de NOUVEAUX cas apparus pendant la période d'observation."
-    },
-    "question_fr": "Pour une maladie, que représente le numérateur d'un taux d'incidence ?",
-    "question_en": "For a disease, what does the numerator of an incidence rate represent?",
-    "propositions_fr": {
-      "A": "Le nombre total d'individus malades durant la période d'observation ;",
-      "B": "Le nombre de sujets exposés à la maladie ;",
-      "C": "L'effectif de la population observée ;",
-      "D": "Le nombre de cas déjà présents avant le début de l'observation ;",
-      "E": "Le nombre de NOUVEAUX cas apparus pendant la période d'observation."
-    },
-    "propositions_en": {
-      "A": "Total number of sick individuals during the observation period",
-      "B": "Number of subjects exposed to the disease",
-      "C": "Number of the observed population",
-      "D": "Number of cases already present before the start of observation",
-      "E": "Number of new cases that appeared during the observation period"
-    },
-    "bonnes_reponses": [
-      "E"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "ssh-2022-14",
     "module": "ssh",
     "chapitre": "Introduction à la santé publique",
@@ -3679,6 +3625,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2022/2023 - Q18",
         "type": "EMD",
         "annee": "2022/2023"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2020/2021 - Q4",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "La stigmatisation liée à la santé est un processus social par lequel sont construites ou renforcées :",
@@ -3758,53 +3709,6 @@ window.QCM_SSH = [
     "faculty": "Mostaganem"
   },
   {
-    "id": "ssh-2022-20",
-    "module": "ssh",
-    "chapitre": "La Santé et la culture",
-    "chapitre_num": 13,
-    "section": "La Santé et la culture",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2022/2023 - Q20",
-      "type": "EMD",
-      "annee": "2022/2023"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2022/2023 - Q20",
-        "type": "EMD",
-        "annee": "2022/2023"
-      }
-    ],
-    "question": "Les circonstances dans lesquelles les individus naissent, grandissent, vivent, travaillent et vieillissent, ainsi que les systèmes mis en place pour faire face à la maladie. Ceci renvoie à :",
-    "propositions": {
-      "A": "La sociologie de la santé ;",
-      "B": "Les déterminants sociaux de la santé ;",
-      "C": "Les inégalités sociales ;",
-      "D": "Les conditions sociales ;",
-      "E": "Les stratégies sociales."
-    },
-    "question_fr": "Les circonstances dans lesquelles les individus naissent, grandissent, vivent, travaillent et vieillissent, ainsi que les systèmes mis en place pour faire face à la maladie. Ceci renvoie à :",
-    "question_en": "Circumstances in which individuals are born, grow up, live, work, and age, as well as the systems put in place to deal with illness. This refers to:",
-    "propositions_fr": {
-      "A": "La sociologie de la santé ;",
-      "B": "Les déterminants sociaux de la santé ;",
-      "C": "Les inégalités sociales ;",
-      "D": "Les conditions sociales ;",
-      "E": "Les stratégies sociales."
-    },
-    "propositions_en": {
-      "A": "Sociology of health",
-      "B": "Social determinants of health",
-      "C": "Social inequalities",
-      "D": "Social conditions",
-      "E": "Social strategies"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "ssh-2020-01",
     "module": "ssh",
     "chapitre": "La relation soignant-soigné",
@@ -3852,53 +3756,6 @@ window.QCM_SSH = [
     "faculty": "Mostaganem"
   },
   {
-    "id": "ssh-2020-02",
-    "module": "ssh",
-    "chapitre": "La Santé et la culture",
-    "chapitre_num": 13,
-    "section": "La Santé et la culture",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2020/2021 - Q2",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2020/2021 - Q2",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "Les circonstances dans lesquelles les individus naissent, grandissent, vivent, travaillent et vieillissent, ainsi que les systèmes mis en place pour faire face à la maladie. Ceci renvoie à : (Réponse correcte)",
-    "propositions": {
-      "A": "La sociologie de la santé ;",
-      "B": "Les déterminants sociaux de la santé ;",
-      "C": "Les inégalités sociales ;",
-      "D": "Les conditions sociales ;",
-      "E": "Les stratégies sociales."
-    },
-    "question_fr": "Les circonstances dans lesquelles les individus naissent, grandissent, vivent, travaillent et vieillissent, ainsi que les systèmes mis en place pour faire face à la maladie. Ceci renvoie à : (Réponse correcte)",
-    "question_en": "Circumstances in which individuals are born, grow up, live, work, and age, as well as the systems put in place to deal with illness. This refers to: (Correct answer)",
-    "propositions_fr": {
-      "A": "La sociologie de la santé ;",
-      "B": "Les déterminants sociaux de la santé ;",
-      "C": "Les inégalités sociales ;",
-      "D": "Les conditions sociales ;",
-      "E": "Les stratégies sociales."
-    },
-    "propositions_en": {
-      "A": "Sociology of health",
-      "B": "Social determinants of health",
-      "C": "Social inequalities",
-      "D": "Social conditions",
-      "E": "Social strategies"
-    },
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "ssh-2020-03",
     "module": "ssh",
     "chapitre": "La Santé et la culture",
@@ -3942,53 +3799,6 @@ window.QCM_SSH = [
     },
     "bonnes_reponses": [
       "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "ssh-2020-04",
-    "module": "ssh",
-    "chapitre": "Vulnérabilité et stigmatisation",
-    "chapitre_num": 14,
-    "section": "Vulnérabilité et stigmatisation",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2020/2021 - Q4",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2020/2021 - Q4",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "La stigmatisation liée à la santé est un processus social par lequel sont construites ou renforcées : (Réponse correcte)",
-    "propositions": {
-      "A": "Les conflits sociaux ;",
-      "B": "Les déterminants sociaux de la santé ;",
-      "C": "Les maladies mentales ;",
-      "D": "La marginalisation ;",
-      "E": "Les représentations sociales négatives."
-    },
-    "question_fr": "La stigmatisation liée à la santé est un processus social par lequel sont construites ou renforcées : (Réponse correcte)",
-    "question_en": "Health-related stigmatization is a social process through which are constructed or reinforced: (Correct answer)",
-    "propositions_fr": {
-      "A": "Les conflits sociaux ;",
-      "B": "Les déterminants sociaux de la santé ;",
-      "C": "Les maladies mentales ;",
-      "D": "La marginalisation ;",
-      "E": "Les représentations sociales négatives."
-    },
-    "propositions_en": {
-      "A": "Social conflicts",
-      "B": "Social determinants of health",
-      "C": "Mental illnesses",
-      "D": "Marginalization",
-      "E": "Negative social representations"
-    },
-    "bonnes_reponses": [
-      "E"
     ],
     "faculty": "Mostaganem"
   },
@@ -4275,53 +4085,6 @@ window.QCM_SSH = [
     "faculty": "Mostaganem"
   },
   {
-    "id": "ssh-2020-11",
-    "module": "ssh",
-    "chapitre": "Les indicateurs de la santé",
-    "chapitre_num": 21,
-    "section": "Les indicateurs de la santé",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2020/2021 - Q11",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2020/2021 - Q11",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "Dans une communauté de 100 000 habitants, en 1960, 1 000 décès ont été enregistrés (toutes causes confondues). Tous les cas de tuberculose de l'année ont été investigués, soit 300 cas au total. Durant la même année, 20 décès dus à la tuberculose ont été rapportés. Le taux de létalité de la tuberculose est égal à : (Réponse correcte)",
-    "propositions": {
-      "A": "01.0 %",
-      "B": "03.0 %",
-      "C": "06.0 %",
-      "D": "20.0 %",
-      "E": "30.0 %"
-    },
-    "question_fr": "Dans une communauté de 100 000 habitants, en 1960, 1 000 décès ont été enregistrés (toutes causes confondues). Tous les cas de tuberculose de l'année ont été investigués, soit 300 cas au total. Durant la même année, 20 décès dus à la tuberculose ont été rapportés. Le taux de létalité de la tuberculose est égal à : (Réponse correcte)",
-    "question_en": "In a community of 100,000 inhabitants, in 1960, 1,000 deaths were recorded (all causes combined). All tuberculosis cases for that year were investigated, a total of 300 cases. During the same year, 20 deaths due to tuberculosis were reported. The case fatality rate for tuberculosis is equal to: (Correct answer)",
-    "propositions_fr": {
-      "A": "01.0 %",
-      "B": "03.0 %",
-      "C": "06.0 %",
-      "D": "20.0 %",
-      "E": "30.0 %"
-    },
-    "propositions_en": {
-      "A": "01.0%",
-      "B": "03.0%",
-      "C": "06.0%",
-      "D": "20.0%",
-      "E": "30.0%"
-    },
-    "bonnes_reponses": [
-      "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "ssh-2020-12",
     "module": "ssh",
     "chapitre": "Les indicateurs de la santé",
@@ -4416,100 +4179,6 @@ window.QCM_SSH = [
     "faculty": "Mostaganem"
   },
   {
-    "id": "ssh-2020-14",
-    "module": "ssh",
-    "chapitre": "Les indicateurs de la santé",
-    "chapitre_num": 21,
-    "section": "Les indicateurs de la santé",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2020/2021 - Q14",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2020/2021 - Q14",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "Au cours de l'année 1985, 200 nouveaux cas d'une maladie X ont été diagnostiqués ; le nombre de cas existants au 1er janvier 1985 diagnostiqués antérieurement était de 800 cas. La population moyenne au 1er juillet au sein de laquelle ces cas ont été diagnostiqués était de 10 000 000 d'habitants. Quel est le taux d'incidence pour 100 000 habitants en 1985 ? (Réponse correcte)",
-    "propositions": {
-      "A": "0,2",
-      "B": "1,6",
-      "C": "2,0",
-      "D": "10,0",
-      "E": "16,0"
-    },
-    "question_fr": "Au cours de l'année 1985, 200 nouveaux cas d'une maladie X ont été diagnostiqués ; le nombre de cas existants au 1er janvier 1985 diagnostiqués antérieurement était de 800 cas. La population moyenne au 1er juillet au sein de laquelle ces cas ont été diagnostiqués était de 10 000 000 d'habitants. Quel est le taux d'incidence pour 100 000 habitants en 1985 ? (Réponse correcte)",
-    "question_en": "During the year 1985, 200 new cases of a disease X were diagnosed; the number of existing cases on January 1, 1985, diagnosed previously is 800 cases. The average population on July 1 among which these cases were diagnosed is 10,000,000. What is the incidence rate per 100,000 inhabitants in 1985? (Correct answer)",
-    "propositions_fr": {
-      "A": "0,2",
-      "B": "1,6",
-      "C": "2,0",
-      "D": "10,0",
-      "E": "16,0"
-    },
-    "propositions_en": {
-      "A": "0.2",
-      "B": "1.6",
-      "C": "2.0",
-      "D": "10.0",
-      "E": "16.0"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "ssh-2020-15",
-    "module": "ssh",
-    "chapitre": "La surveillance épidémiologique",
-    "chapitre_num": 24,
-    "section": "La surveillance épidémiologique",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2020/2021 - Q15",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2020/2021 - Q15",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "Au total, 83 cas de fièvre typhoïde (53 hommes et 30 femmes) ont été enregistrés lors d'une épidémie dans une localité de 25 000 habitants (12 000 hommes et 13 000 femmes). Le taux d'attaque global de la fièvre typhoïde est égal à : (Réponse correcte)",
-    "propositions": {
-      "A": "0,1 %",
-      "B": "0,2 %",
-      "C": "0,3 %",
-      "D": "0,4 %",
-      "E": "0,5 %"
-    },
-    "question_fr": "Au total, 83 cas de fièvre typhoïde (53 hommes et 30 femmes) ont été enregistrés lors d'une épidémie dans une localité de 25 000 habitants (12 000 hommes et 13 000 femmes). Le taux d'attaque global de la fièvre typhoïde est égal à : (Réponse correcte)",
-    "question_en": "In total, 83 cases of typhoid fever (53 male patients and 30 female patients) were recorded during an epidemic in a locality of 25,000 inhabitants (12,000 male subjects and 13,000 female subjects). The overall attack rate of typhoid fever is equal to: (Correct answer)",
-    "propositions_fr": {
-      "A": "0,1 %",
-      "B": "0,2 %",
-      "C": "0,3 %",
-      "D": "0,4 %",
-      "E": "0,5 %"
-    },
-    "propositions_en": {
-      "A": "0.1%",
-      "B": "0.2%",
-      "C": "0.3%",
-      "D": "0.4%",
-      "E": "0.5%"
-    },
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
     "id": "ssh-2020-16",
     "module": "ssh",
     "chapitre": "L'informations et consentement du malade",
@@ -4525,6 +4194,11 @@ window.QCM_SSH = [
         "texte": "EMD SSH Mostaganem 2020/2021 - Q16",
         "type": "EMD",
         "annee": "2020/2021"
+      },
+      {
+        "texte": "EMD SSH Mostaganem 2019/2020 - Q16",
+        "type": "EMD",
+        "annee": "2019/2020"
       }
     ],
     "question": "Le caractère loyal de l'information médicale délivrée au patient : (Réponse fausse / Intrus)",
@@ -4835,53 +4509,6 @@ window.QCM_SSH = [
     },
     "bonnes_reponses": [
       "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "ssh-2019-03",
-    "module": "ssh",
-    "chapitre": "La Santé et la culture",
-    "chapitre_num": 13,
-    "section": "La Santé et la culture",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2019/2020 - Q3",
-      "type": "EMD",
-      "annee": "2019/2020"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2019/2020 - Q3",
-        "type": "EMD",
-        "annee": "2019/2020"
-      }
-    ],
-    "question": "Les déterminants sociaux de la santé sont l'une des causes principales : (Réponse correcte)",
-    "propositions": {
-      "A": "Des problèmes sociaux ;",
-      "B": "Des maladies mentales ;",
-      "C": "Des inégalités sociales de santé ;",
-      "D": "Des épidémies ;",
-      "E": "Des stratégies sociales."
-    },
-    "question_fr": "Les déterminants sociaux de la santé sont l'une des causes principales : (Réponse correcte)",
-    "question_en": "Social determinants of health are one of the main causes of: (Correct answer)",
-    "propositions_fr": {
-      "A": "Des problèmes sociaux ;",
-      "B": "Des maladies mentales ;",
-      "C": "Des inégalités sociales de santé ;",
-      "D": "Des épidémies ;",
-      "E": "Des stratégies sociales."
-    },
-    "propositions_en": {
-      "A": "Social problems",
-      "B": "Mental illnesses",
-      "C": "Social inequalities",
-      "D": "Epidemics",
-      "E": "Social strategies."
-    },
-    "bonnes_reponses": [
-      "C"
     ],
     "faculty": "Mostaganem"
   },
@@ -5446,53 +5073,6 @@ window.QCM_SSH = [
     },
     "bonnes_reponses": [
       "B"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "ssh-2019-16",
-    "module": "ssh",
-    "chapitre": "L'informations et consentement du malade",
-    "chapitre_num": 5,
-    "section": "L'informations et consentement du malade",
-    "source": {
-      "texte": "EMD SSH Mostaganem 2019/2020 - Q16",
-      "type": "EMD",
-      "annee": "2019/2020"
-    },
-    "sources": [
-      {
-        "texte": "EMD SSH Mostaganem 2019/2020 - Q16",
-        "type": "EMD",
-        "annee": "2019/2020"
-      }
-    ],
-    "question": "Le caractère loyal de l'information médicale délivrée au patient : (Réponse fausse / Intrus)",
-    "propositions": {
-      "A": "Permet au patient de prendre une décision sur les choix thérapeutiques disponibles ;",
-      "B": "Permet au patient d'être informé sur son état de santé ;",
-      "C": "Permet au patient de refuser ou d'accepter un acte médical proposé par le médecin ;",
-      "D": "Permet au patient de prendre une décision sans pression ni contrainte ;",
-      "E": "Toutes les réponses sont fausses."
-    },
-    "question_fr": "Le caractère loyal de l'information médicale délivrée au patient : (Réponse fausse / Intrus)",
-    "question_en": "The loyal nature of the patient's medical information: (Incorrect answer)",
-    "propositions_fr": {
-      "A": "Permet au patient de prendre une décision sur les choix thérapeutiques disponibles ;",
-      "B": "Permet au patient d'être informé sur son état de santé ;",
-      "C": "Permet au patient de refuser ou d'accepter un acte médical proposé par le médecin ;",
-      "D": "Permet au patient de prendre une décision sans pression ni contrainte ;",
-      "E": "Toutes les réponses sont fausses."
-    },
-    "propositions_en": {
-      "A": "Allows the patient to make a decision about the therapeutic choices available to them",
-      "B": "Allows the patient to be informed about their health status",
-      "C": "Allows the patient to refuse or accept a medical procedure proposed by the doctor",
-      "D": "Allows the patient to make a decision without pressure or constraint",
-      "E": "All answers are incorrect."
-    },
-    "bonnes_reponses": [
-      "E"
     ],
     "faculty": "Mostaganem"
   },

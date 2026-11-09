@@ -487,8 +487,8 @@ window.QCM_OTR = [
   {
     "id": "otr-690",
     "module": "otr",
-    "chapitre": "Infections ostéo-articulaires",
-    "chapitre_num": 20,
+    "chapitre": "Mal de Pott et tuberculose ostéo-articulaire",
+    "chapitre_num": 28,
     "section": "Tuberculose Ostéoarticulaire",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2025/2026 (29/01/2026) - Q14",
@@ -524,8 +524,8 @@ window.QCM_OTR = [
   {
     "id": "otr-691",
     "module": "otr",
-    "chapitre": "Infections ostéo-articulaires",
-    "chapitre_num": 20,
+    "chapitre": "Mal de Pott et tuberculose ostéo-articulaire",
+    "chapitre_num": 28,
     "section": "Tuberculose Ostéoarticulaire",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2025/2026 (29/01/2026) - Q15",
@@ -1071,8 +1071,8 @@ window.QCM_OTR = [
   {
     "id": "otr-054",
     "module": "otr",
-    "chapitre": "PEC des lésions traumatiques en MPR",
-    "chapitre_num": 35,
+    "chapitre": "Complications de l'immobilité et décubitus",
+    "chapitre_num": 5,
     "section": "Rééducation en Traumatologie",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2025/2026 (29/01/2026) - Q30",
@@ -1412,8 +1412,8 @@ window.QCM_OTR = [
   {
     "id": "otr-668",
     "module": "otr",
-    "chapitre": "Généralités Fractures de l'enfant",
-    "chapitre_num": 19,
+    "chapitre": "Malformations congénitales du pied chez l'enfant",
+    "chapitre_num": 29,
     "section": "Pied Bot Varus Équin Congenital",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2025/2026 (29/01/2026) - Q39",
@@ -2711,8 +2711,8 @@ window.QCM_OTR = [
   {
     "id": "otr-223",
     "module": "otr",
-    "chapitre": "PEC des lésions traumatiques en MPR",
-    "chapitre_num": 35,
+    "chapitre": "Traumatismes ligamentaires et osseux du genou",
+    "chapitre_num": 44,
     "section": "Rééducation en Traumatologie",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2022/2023 (09/02/2023) - Q2",
@@ -3659,8 +3659,8 @@ window.QCM_OTR = [
   {
     "id": "otr-651",
     "module": "otr",
-    "chapitre": "Lombalgies et lombosciatalgies",
-    "chapitre_num": 26,
+    "chapitre": "Spondylarthrites",
+    "chapitre_num": 40,
     "section": "Spondylarthrite Ankylosante",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2022/2023 (09/02/2023) - Q28",
@@ -3768,8 +3768,8 @@ window.QCM_OTR = [
   {
     "id": "otr-629",
     "module": "otr",
-    "chapitre": "PEC des lésions traumatiques en MPR",
-    "chapitre_num": 35,
+    "chapitre": "Lombalgies et lombosciatalgies",
+    "chapitre_num": 26,
     "section": "Rééducation en Traumatologie",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2022/2023 (09/02/2023) - Q32",
@@ -4497,8 +4497,8 @@ window.QCM_OTR = [
   {
     "id": "otr-267",
     "module": "otr",
-    "chapitre": "Fracture diaphysaire des deux os de l'avant-bras",
-    "chapitre_num": 14,
+    "chapitre": "Fracture de jambe ouverte et fermée",
+    "chapitre_num": 9,
     "section": "Fractures de la Jambe",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2019/2020 (22/10/2020) - Q12",
@@ -4678,8 +4678,8 @@ window.QCM_OTR = [
   {
     "id": "otr-384",
     "module": "otr",
-    "chapitre": "Généralités Fractures de l'enfant",
-    "chapitre_num": 19,
+    "chapitre": "Déviations rachidiennes",
+    "chapitre_num": 7,
     "section": "Scoliose",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2019/2020 (22/10/2020) - Q17",
@@ -4714,8 +4714,8 @@ window.QCM_OTR = [
   {
     "id": "otr-385",
     "module": "otr",
-    "chapitre": "Généralités Fractures de l'enfant",
-    "chapitre_num": 19,
+    "chapitre": "Déviations rachidiennes",
+    "chapitre_num": 7,
     "section": "Scoliose",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2019/2020 (22/10/2020) - Q18",
@@ -5115,8 +5115,8 @@ window.QCM_OTR = [
   {
     "id": "otr-442",
     "module": "otr",
-    "chapitre": "Ostéopathies reminéralisantes",
-    "chapitre_num": 32,
+    "chapitre": "Tumeurs osseuses",
+    "chapitre_num": 45,
     "section": "Ostéopathies Raréfiantes Bénignes",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2019/2020 (22/10/2020) - Q29",
@@ -5959,8 +5959,8 @@ window.QCM_OTR = [
   {
     "id": "otr-029",
     "module": "otr",
-    "chapitre": "Fracture de l'anneau pelvien",
-    "chapitre_num": 10,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Gonarthrose",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -6205,8 +6205,8 @@ window.QCM_OTR = [
   {
     "id": "otr-047",
     "module": "otr",
-    "chapitre": "Boiterie chez l'enfant",
-    "chapitre_num": 4,
+    "chapitre": "Les maladies luxantes de la hanche",
+    "chapitre_num": 23,
     "section": "Hanche Douloureuse de l'Enfant",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -6240,8 +6240,8 @@ window.QCM_OTR = [
   {
     "id": "otr-048",
     "module": "otr",
-    "chapitre": "Boiterie chez l'enfant",
-    "chapitre_num": 4,
+    "chapitre": "Les maladies luxantes de la hanche",
+    "chapitre_num": 23,
     "section": "Hanche Douloureuse de l'Enfant",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -6555,8 +6555,8 @@ window.QCM_OTR = [
   {
     "id": "otr-064",
     "module": "otr",
-    "chapitre": "Épaule douloureuse",
-    "chapitre_num": 8,
+    "chapitre": "Les traumatismes de l'épaule",
+    "chapitre_num": 24,
     "section": "CAT devant une Épaule Douloureuse",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -7673,8 +7673,8 @@ window.QCM_OTR = [
   {
     "id": "otr-109",
     "module": "otr",
-    "chapitre": "Fracture de l'humérus",
-    "chapitre_num": 12,
+    "chapitre": "Les traumatismes de l'épaule",
+    "chapitre_num": 24,
     "section": "Fractures de la Diaphyse Humérale",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -9609,8 +9609,8 @@ window.QCM_OTR = [
   {
     "id": "otr-179",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Rhumatisme métabolique (goutte)",
+    "chapitre_num": 38,
     "section": "Goutte",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -12784,8 +12784,8 @@ window.QCM_OTR = [
   {
     "id": "otr-283",
     "module": "otr",
-    "chapitre": "PEC des lésions traumatiques en MPR",
-    "chapitre_num": 35,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Rééducation en Traumatologie",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -12994,8 +12994,8 @@ window.QCM_OTR = [
   {
     "id": "otr-289",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Polytraumatisme",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -13169,8 +13169,8 @@ window.QCM_OTR = [
   {
     "id": "otr-294",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Polytraumatisme",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -13520,8 +13520,8 @@ window.QCM_OTR = [
   {
     "id": "otr-304",
     "module": "otr",
-    "chapitre": "Infections ostéo-articulaires",
-    "chapitre_num": 20,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Ostéomyélite Aiguë de l'Enfant",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -13766,8 +13766,8 @@ window.QCM_OTR = [
   {
     "id": "otr-311",
     "module": "otr",
-    "chapitre": "Infections ostéo-articulaires",
-    "chapitre_num": 20,
+    "chapitre": "Les traumatismes de l'épaule",
+    "chapitre_num": 24,
     "section": "Ostéomyélite Aiguë de l'Enfant",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -14608,8 +14608,8 @@ window.QCM_OTR = [
   {
     "id": "otr-335",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Polytraumatisme",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -14923,8 +14923,8 @@ window.QCM_OTR = [
   {
     "id": "otr-344",
     "module": "otr",
-    "chapitre": "Fracture de l'extrémité proximale de l'avant-bras",
-    "chapitre_num": 11,
+    "chapitre": "Fracture diaphysaire des deux os de l'avant-bras",
+    "chapitre_num": 14,
     "section": "Fractures de l'Avant Bras",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -15238,8 +15238,8 @@ window.QCM_OTR = [
   {
     "id": "otr-353",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Polytraumatisme",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -15343,8 +15343,8 @@ window.QCM_OTR = [
   {
     "id": "otr-356",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Généralités Fractures de l'adulte",
+    "chapitre_num": 18,
     "section": "Polytraumatisme",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -15805,8 +15805,8 @@ window.QCM_OTR = [
   {
     "id": "otr-378",
     "module": "otr",
-    "chapitre": "Les traumatismes vertébraux médullaires",
-    "chapitre_num": 25,
+    "chapitre": "Déviations rachidiennes",
+    "chapitre_num": 7,
     "section": "Traumatismes du Rachis",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -19367,8 +19367,8 @@ window.QCM_OTR = [
   {
     "id": "otr-495",
     "module": "otr",
-    "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 36,
+    "chapitre": "Complications de l'immobilité et décubitus",
+    "chapitre_num": 5,
     "section": "Polyarthrite Rhumatoïde",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -21168,8 +21168,8 @@ window.QCM_OTR = [
   {
     "id": "otr-557",
     "module": "otr",
-    "chapitre": "Les maladies luxantes de la hanche",
-    "chapitre_num": 23,
+    "chapitre": "Malformations congénitales du pied chez l'enfant",
+    "chapitre_num": 29,
     "section": "Luxation Congénitale de la Hanche",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -21343,8 +21343,8 @@ window.QCM_OTR = [
   {
     "id": "otr-565",
     "module": "otr",
-    "chapitre": "Fracture diaphysaire des deux os de l'avant-bras",
-    "chapitre_num": 14,
+    "chapitre": "Luxation du coude",
+    "chapitre_num": 27,
     "section": "Fractures de l'Avant Bras",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -21378,8 +21378,8 @@ window.QCM_OTR = [
   {
     "id": "otr-566",
     "module": "otr",
-    "chapitre": "Fracture diaphysaire des deux os de l'avant-bras",
-    "chapitre_num": 14,
+    "chapitre": "Luxation du coude",
+    "chapitre_num": 27,
     "section": "Fractures de l'Avant Bras",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -21413,8 +21413,8 @@ window.QCM_OTR = [
   {
     "id": "otr-567",
     "module": "otr",
-    "chapitre": "Fracture diaphysaire des deux os de l'avant-bras",
-    "chapitre_num": 14,
+    "chapitre": "Luxation du coude",
+    "chapitre_num": 27,
     "section": "Fractures de l'Avant Bras",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -21448,8 +21448,8 @@ window.QCM_OTR = [
   {
     "id": "otr-569",
     "module": "otr",
-    "chapitre": "Les traumatismes de l'épaule",
-    "chapitre_num": 24,
+    "chapitre": "Luxation du coude",
+    "chapitre_num": 27,
     "section": "Fractures de l'Avant Bras",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -22763,8 +22763,8 @@ window.QCM_OTR = [
   {
     "id": "otr-613",
     "module": "otr",
-    "chapitre": "Lombalgies et lombosciatalgies",
-    "chapitre_num": 26,
+    "chapitre": "Traumatisme du bassin",
+    "chapitre_num": 43,
     "section": "Luxation Traumatique de la Hanche",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -22798,8 +22798,8 @@ window.QCM_OTR = [
   {
     "id": "otr-614",
     "module": "otr",
-    "chapitre": "Arthrose (hanche, genou)",
-    "chapitre_num": 3,
+    "chapitre": "Traumatisme du bassin",
+    "chapitre_num": 43,
     "section": "Luxation Traumatique de la Hanche",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",
@@ -24179,8 +24179,8 @@ window.QCM_OTR = [
   {
     "id": "otr-682",
     "module": "otr",
-    "chapitre": "Ostéopathies reminéralisantes",
-    "chapitre_num": 32,
+    "chapitre": "Tumeurs osseuses",
+    "chapitre_num": 45,
     "section": "Ostéopathies Raréfiantes Bénignes",
     "source": {
       "texte": "Faculté de Médecine d'Oran - Auto-évaluation & Annales Oran",

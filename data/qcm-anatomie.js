@@ -2386,6 +2386,16 @@ window.QCM_ANATOMIE = [
         "texte": "Annales Anatomie Mostaganem 2022/2023 - Q50",
         "type": "EMD",
         "annee": "2022/2023"
+      },
+      {
+        "texte": "Annales Anatomie Mostaganem 2021/2022 - Q29",
+        "type": "EMD",
+        "annee": "2021/2022"
+      },
+      {
+        "texte": "Annales Anatomie Mostaganem 2020/2021 - Q28",
+        "type": "EMD",
+        "annee": "2020/2021"
       }
     ],
     "question": "Le nerf médian innerve les muscles suivants :",
@@ -3770,54 +3780,6 @@ window.QCM_ANATOMIE = [
       "A",
       "B",
       "E"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-2022-29",
-    "module": "anatomie",
-    "chapitre": "Les nerfs du membre thoracique",
-    "chapitre_num": 24,
-    "section": "Les nerfs du membre thoracique",
-    "source": {
-      "texte": "Annales Anatomie Mostaganem 2021/2022 - Q29",
-      "type": "EMD",
-      "annee": "2021/2022"
-    },
-    "sources": [
-      {
-        "texte": "Annales Anatomie Mostaganem 2021/2022 - Q29",
-        "type": "EMD",
-        "annee": "2021/2022"
-      }
-    ],
-    "question": "Le nerf médian innerve les muscles suivants :",
-    "propositions": {
-      "A": "Les deux chefs latéraux du muscle fléchisseur profond des doigts.",
-      "B": "Les deux chefs médiaux du muscle fléchisseur profond des doigts.",
-      "C": "Le muscle carré pronateur.",
-      "D": "Le muscle fléchisseur ulnaire du carpe.",
-      "E": "Le muscle brachio-radial."
-    },
-    "question_fr": "Le nerf médian innerve les muscles suivants :",
-    "question_en": "The median nerve innervates the following muscles:",
-    "propositions_fr": {
-      "A": "Les deux chefs latéraux du muscle fléchisseur profond des doigts.",
-      "B": "Les deux chefs médiaux du muscle fléchisseur profond des doigts.",
-      "C": "Le muscle carré pronateur.",
-      "D": "Le muscle fléchisseur ulnaire du carpe.",
-      "E": "Le muscle brachio-radial."
-    },
-    "propositions_en": {
-      "A": "The two lateral heads of the flexor digitorum profundus muscle.",
-      "B": "The two medial heads of the flexor digitorum profundus muscle.",
-      "C": "The pronator quadratus muscle.",
-      "D": "The flexor carpi ulnaris muscle.",
-      "E": "The brachioradialis muscle."
-    },
-    "bonnes_reponses": [
-      "A",
-      "C"
     ],
     "faculty": "Mostaganem"
   },
@@ -5625,53 +5587,6 @@ window.QCM_ANATOMIE = [
       "B",
       "C",
       "D"
-    ],
-    "faculty": "Mostaganem"
-  },
-  {
-    "id": "anat-2021-28",
-    "module": "anatomie",
-    "chapitre": "Les nerfs du membre thoracique",
-    "chapitre_num": 24,
-    "section": "Les nerfs du membre thoracique",
-    "source": {
-      "texte": "Annales Anatomie Mostaganem 2020/2021 - Q28",
-      "type": "EMD",
-      "annee": "2020/2021"
-    },
-    "sources": [
-      {
-        "texte": "Annales Anatomie Mostaganem 2020/2021 - Q28",
-        "type": "EMD",
-        "annee": "2020/2021"
-      }
-    ],
-    "question": "Le nerf médian innerve les muscles suivants :",
-    "propositions": {
-      "A": "Les deux chefs latéraux du muscle fléchisseur profond des doigts.",
-      "B": "Les deux chefs médiaux du muscle fléchisseur profond des doigts.",
-      "C": "Le muscle carré pronateur.",
-      "D": "Le muscle fléchisseur ulnaire du carpe.",
-      "E": "Le muscle brachio-radial."
-    },
-    "question_fr": "Le nerf médian innerve les muscles suivants :",
-    "question_en": "The median nerve innervates the following muscles:",
-    "propositions_fr": {
-      "A": "Les deux chefs latéraux du muscle fléchisseur profond des doigts.",
-      "B": "Les deux chefs médiaux du muscle fléchisseur profond des doigts.",
-      "C": "Le muscle carré pronateur.",
-      "D": "Le muscle fléchisseur ulnaire du carpe.",
-      "E": "Le muscle brachio-radial."
-    },
-    "propositions_en": {
-      "A": "The two lateral heads of the flexor digitorum profundus muscle.",
-      "B": "The two medial heads of the flexor digitorum profundus muscle.",
-      "C": "The pronator quadratus muscle.",
-      "D": "The flexor carpi ulnaris muscle.",
-      "E": "The brachioradialis muscle."
-    },
-    "bonnes_reponses": [
-      "C"
     ],
     "faculty": "Mostaganem"
   },
