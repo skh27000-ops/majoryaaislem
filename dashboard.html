@@ -1668,6 +1668,30 @@ function qInFac(q){
 }
 function chapterQsCount(i){ return (QCMS[i] || []).filter(qInFac).length; }
 
+/* PDF simple d'un cours : ouvre une page imprimable (Ctrl+P → Enregistrer en PDF) */
+function downloadChapterPdf(i){
+  const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const qs = (QCMS[i] || []).filter(qInFac).slice().sort((a, b) => String(b.y).localeCompare(String(a.y)));
+  if (!qs.length) { alert('Aucune question pour les facultés choisies dans ce cours.'); return; }
+  const w = window.open('', '_blank');
+  if (!w) { alert('Autorise les pop-ups pour télécharger le PDF.'); return; }
+  const body = qs.map((q, n) => `<div class="q"><p class="qt"><b>${n + 1}.</b> ${esc(q.question_fr || q.q)} <span class="src">[${esc(q.faculty)} · ${esc(q.t)} ${esc(q.y)}]</span></p>
+    ${q.image ? `<img src="${esc(q.image)}" style="max-width:60%">` : ''}
+    ${q.c.map(c => `<p class="o">${esc(c.letter)}. ${esc(c.t_fr || c.t)}</p>`).join('')}</div>`).join('');
+  const key = qs.map((q, n) => `<span>${n + 1}: <b>${q.bonnes_reponses ? esc(q.bonnes_reponses.join('')) : '—'}</b></span>`).join('');
+  w.document.write(`<!doctype html><meta charset="utf-8"><title>${esc(CHAPTERS[i])}</title><style>
+    body{font:12.5px/1.45 Arial,sans-serif;color:#111;max-width:780px;margin:24px auto;padding:0 16px}
+    h1{font-size:19px;margin:0 0 2px}.sub{color:#555;margin:0 0 16px}
+    .q{break-inside:avoid;margin:0 0 14px}.qt{margin:0 0 4px}.o{margin:1px 0 1px 18px}.src{color:#777;font-size:10.5px}
+    h2{font-size:15px;border-top:2px solid #111;padding-top:10px;break-before:page}
+    .key span{display:inline-block;width:92px;margin:2px 0}
+    @media print{body{margin:0}}</style>
+    <h1>${esc(CHAPTERS[i])}</h1><p class="sub">${qs.length} questions · MAJORY</p>${body}
+    <h2>Corrigé</h2><div class="key">${key}</div>
+    <script>window.onload=function(){setTimeout(function(){window.print()},300)}<\/script>`);
+  w.document.close();
+}
+
 function chapterDone(i){
   const qs = QCMS[i] || [];
   const n = qs.filter(qInFac).length;
@@ -2502,7 +2526,7 @@ function renderAnnales(){
         const rawN = (QCMS[i] || []).length, n = chapterQsCount(i), done = chapterAnswered(i);
         return `<div class="chap-row" data-i="${i}" onclick="chooseChapter(${i})">
           <span class="chap-num">${String(i + 1).padStart(2, '0')}</span>
-          <div><h4>${c}</h4><p class="cm">${n ? n + ' QUESTIONS D\'ANNALES OFFICIELLES' : (rawN ? 'AUCUNE QUESTION POUR LES FACULTÉS CHOISIES' : 'ANNALES EN COURS D\'INDEXATION')}</p></div>
+          <div><h4>${c}</h4><p class="cm">${n ? n + ' QUESTIONS D\'ANNALES OFFICIELLES' : (rawN ? 'AUCUNE QUESTION POUR LES FACULTÉS CHOISIES' : 'ANNALES EN COURS D\'INDEXATION')}</p>${n ? `<button class="btn btn-sm btn-ghost" style="margin-top:6px;padding:2px 10px;font-size:11px" onclick="event.stopPropagation();downloadChapterPdf(${i})">📄 Télécharger PDF</button>` : ''}</div>
           ${n ? `<span class="chip ${done === n ? 'g' : ''}">${done}/${n} QCM</span>` : `<span class="chip">${rawN ? '0 QCM' : 'BIENTÔT'}</span>`}
           <span class="btn btn-sm btn-ghost">Practise →</span>
         </div>`;

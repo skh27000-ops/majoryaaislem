@@ -4497,8 +4497,8 @@ window.QCM_OTR = [
   {
     "id": "otr-267",
     "module": "otr",
-    "chapitre": "Fracture diaphysaire des deux os de l'avant-bras",
-    "chapitre_num": 14,
+    "chapitre": "Fracture de jambe ouverte et fermée",
+    "chapitre_num": 9,
     "section": "Fractures de la Jambe",
     "source": {
       "texte": "Faculté de Médecine de Mostaganem - EMD OTR Mostaganem 2019/2020 (22/10/2020) - Q12",
