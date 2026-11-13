@@ -398,6 +398,14 @@
 /* ================= DATA & INITIALIZATION ================= */
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const EXT_FACS = { constantine: 'Constantine', tlemcen: 'Tlemcen', sba: 'Sidi Bel Abbès' };
+const ALL_FACS = ['mosta', 'alger', 'oran', 'constantine', 'tlemcen', 'sba'];
+function facKey(q){
+  if (q.isAlger) return 'alger';
+  if (q.isOran) return 'oran';
+  const f = String(q.faculty || '');
+  return /constantine/i.test(f) ? 'constantine' : /tlemcen/i.test(f) ? 'tlemcen' : /sidi/i.test(f) ? 'sba' : 'mosta';
+}
 const ACADEMIC_YEARS = {
   '1ere': {
     id: '1ere',
@@ -1751,7 +1759,7 @@ function filterChapRows(v){
 // Question retenue par le filtre de facultés actif (Mosta / Alger / Oran)
 function qInFac(q){
   let facs; try { facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties(); } catch(e){ facs = ['mosta','alger','oran']; }
-  return facs.includes(q.isAlger ? 'alger' : (q.isOran ? 'oran' : 'mosta'));
+  return facs.includes(facKey(q));
 }
 function chapterQsCount(i){ return (QCMS[i] || []).filter(qInFac).length; }
 
@@ -2216,10 +2224,14 @@ function getStoredFaculties(){
     const raw = localStorage.getItem(STORAGE_FACULTIES_KEY);
     if (raw) {
       const arr = JSON.parse(raw);
-      if (Array.isArray(arr) && arr.length > 0) return arr;
+      if (Array.isArray(arr) && arr.length > 0) {
+        // ancien choix « toutes » (3 facultés) : on y ajoute les nouvelles
+        if (['mosta', 'alger', 'oran'].every(f => arr.includes(f)) && !Object.keys(EXT_FACS).some(f => arr.includes(f))) return ALL_FACS.slice();
+        return arr;
+      }
     }
   } catch(e){}
-  return ['mosta', 'alger', 'oran']; // Par défaut : toutes les facultés
+  return ALL_FACS.slice(); // Par défaut : toutes les facultés
 }
 
 function setStoredFaculties(facs){
@@ -2235,7 +2247,7 @@ function isFacultySelected(fac){
 
 function isAllFacultiesSelected(){
   const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
-  return ['mosta', 'alger', 'oran'].every(f => facs.includes(f));
+  return ALL_FACS.every(f => facs.includes(f));
 }
 
 function getFacultyCountsForCurrentModule(){
@@ -2244,25 +2256,17 @@ function getFacultyCountsForCurrentModule(){
     const qs = QCMS[i] || [];
     qs.forEach(q => allQuestions.push(q));
   });
-  let mosta = 0, alger = 0, oran = 0; const ext = {};
-  allQuestions.forEach(q => {
-    if (q.isAlger || (q.faculty && q.faculty.toLowerCase() === 'alger')) alger++;
-    else if (q.isOran || (q.faculty && q.faculty.toLowerCase() === 'oran')) oran++;
-    else if (q.faculty && q.faculty !== 'Mostaganem') ext[q.faculty] = (ext[q.faculty] || 0) + 1; // regroupées avec Mostaganem dans le filtre
-    else mosta++;
-  });
-  const extN = Object.values(ext).reduce((a, b) => a + b, 0);
-  return { mosta: mosta + extN, mostaOnly: mosta, ext, alger, oran, total: allQuestions.length };
+  const c = { mosta: 0, alger: 0, oran: 0, constantine: 0, tlemcen: 0, sba: 0 };
+  allQuestions.forEach(q => { c[facKey(q)]++; });
+  c.total = allQuestions.length;
+  return c;
 }
 
 function getFacultyBadgeSummary(){
   const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
-  if (facs.length === 3) return 'Toutes (3/3)';
-  const names = [];
-  if (facs.includes('mosta')) names.push('Mosta');
-  if (facs.includes('alger')) names.push('Alger');
-  if (facs.includes('oran')) names.push('Oran');
-  return names.join(' + ') + ' (' + facs.length + '/3)';
+  if (ALL_FACS.every(f => facs.includes(f))) return 'Toutes (' + ALL_FACS.length + '/' + ALL_FACS.length + ')';
+  const lab = { mosta: 'Mosta', alger: 'Alger', oran: 'Oran', ...EXT_FACS };
+  return ALL_FACS.filter(f => facs.includes(f)).map(f => lab[f]).join(' + ') + ' (' + facs.length + '/' + ALL_FACS.length + ')';
 }
 
 function renderActiveFacultyBadges(){
@@ -2270,9 +2274,9 @@ function renderActiveFacultyBadges(){
   const counts = getFacultyCountsForCurrentModule();
   const chips = [];
   if (facs.includes('mosta')) {
-    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">Mostaganem (${counts.mostaOnly} QCM)</span>`);
-    Object.entries(counts.ext).forEach(([n, c]) => chips.push(`<span class="chip" style="background:#F3EFFB;color:#5B3FA0;border:1px solid #D9CDF2;font-weight:700">${n} (${c} QCM)</span>`));
+    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">Mostaganem (${counts.mosta} QCM)</span>`);
   }
+  Object.entries(EXT_FACS).forEach(([k, n]) => { if (facs.includes(k) && counts[k] > 0) chips.push(`<span class="chip" style="background:#F3EFFB;color:#5B3FA0;border:1px solid #D9CDF2;font-weight:700">${n} (${counts[k]} QCM)</span>`); });
   if (facs.includes('alger')) {
     chips.push(`<span class="chip" style="background:#EBF3FE;color:#185ABC;border:1px solid #C2E7FF;font-weight:700">Alger (${counts.alger} QCM)</span>`);
   }
@@ -2314,7 +2318,7 @@ function openFacultyModal(){
         id: 'mosta',
         ico: '🎓',
         name: 'Faculté de Médecine de Mostaganem',
-        sub: 'Programme officiel local · EMD & rattrapages de Mostaganem' + (Object.keys(counts.ext).length ? ' · inclut ' + Object.entries(counts.ext).map(([n, c]) => n + ' (' + c + ')').join(', ') : ''),
+        sub: 'Programme officiel local · EMD & rattrapages de Mostaganem',
         count: counts.mosta,
         badgeBg: '#FFF9F0',
         badgeColor: '#925400',
@@ -2341,6 +2345,9 @@ function openFacultyModal(){
         checked: facs.includes('oran')
       }
     ];
+    Object.entries(EXT_FACS).forEach(([k, n]) => {
+      if (counts[k] > 0) options.push({ id: k, ico: '🏛️', name: 'Faculté de Médecine de ' + n, sub: 'Sujets d\'évaluation de la faculté de ' + n, count: counts[k], badgeBg: '#F3EFFB', badgeColor: '#5B3FA0', checked: facs.includes(k) });
+    });
 
     listEl.innerHTML = options.map(opt => {
       const note = opt.count > 0 ? opt.count + ' QCM' : (opt.id === 'mosta' ? 'En cours d\'indexation' : 'Bientôt');
@@ -2348,7 +2355,7 @@ function openFacultyModal(){
       <label class="fm-row fac-select-card c-${opt.id}">
         <input type="checkbox" name="facSelect" value="${opt.id}" ${opt.checked ? 'checked' : ''} onchange="onFacultyCheckboxChange()">
         <span class="fm-box" aria-hidden="true"></span>
-        <span class="fm-main"><b>${({mosta:'Mostaganem',alger:'Alger',oran:'Oran'})[opt.id]}</b><small>${opt.sub}</small></span>
+        <span class="fm-main"><b>${({mosta:'Mostaganem',alger:'Alger',oran:'Oran',...EXT_FACS})[opt.id]}</b><small>${opt.sub}</small></span>
         <span class="fm-count${opt.count > 0 ? '' : ' off'}">${note}</span>
       </label>`;
     }).join('');
@@ -2406,8 +2413,8 @@ function toggleAllFaculties(){
     setStoredFaculties(['mosta']);
     toast('🎓 Filtre activé : Mostaganem uniquement');
   } else {
-    setStoredFaculties(['mosta', 'alger', 'oran']);
-    toast('Toutes les facultés activées (Mostaganem + Alger + Oran)');
+    setStoredFaculties(ALL_FACS.slice());
+    toast('Toutes les facultés activées');
   }
   anView.qi = 0;
   renderAnnales();
@@ -2418,8 +2425,7 @@ function getFilteredQcms(ch){
   const fy = anView.fy || 'all', ft = anView.ft || 'all', fs = anView.fs || 'all';
   const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
   return qs.map((q, j) => ({ q, j })).filter(({ q, j }) => {
-    const qFac = q.isAlger ? 'alger' : (q.isOran ? 'oran' : 'mosta');
-    if (!facs.includes(qFac)) return false;
+    if (!facs.includes(facKey(q))) return false;
     if (fy !== 'all' && !qYears(q).includes(String(fy))) return false;
     if (ft !== 'all' && q.t !== ft) return false;
     const a = state.answers[ch + ':' + j];
@@ -2688,7 +2694,7 @@ function renderAnnales(){
     const hasAlger = qs.some(q => q.isAlger);
     const hasOran = qs.some(q => q.isOran);
     const hasExternal = hasAlger || hasOran;
-    const mostaTotal = qs.filter(q => !q.isAlger && !q.isOran).length;
+    const mostaTotal = qs.filter(q => facKey(q) === 'mosta').length;
     const algerTotal = qs.filter(q => q.isAlger).length;
     const oranTotal = qs.filter(q => q.isOran).length;
 
@@ -2983,9 +2989,9 @@ function renderAnnales(){
             Toutes (${cnt.totalChapter})
           </button>
           <button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Basculer Mostaganem">
-            Mostaganem (${qs.filter(q => !q.isAlger && !q.isOran && (!q.faculty || q.faculty === 'Mostaganem')).length})
+            Mostaganem (${qs.filter(q => facKey(q) === 'mosta').length})
           </button>
-          ${['Constantine', 'Tlemcen', 'Sidi Bel Abbès'].map(n => { const c = qs.filter(q => !q.isAlger && !q.isOran && q.faculty === n).length; return c ? `<button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Regroupé avec Mostaganem dans le filtre">${n} (${c})</button>` : ''; }).join('')}
+          ${Object.entries(EXT_FACS).map(([k, n]) => { const c = qs.filter(q => facKey(q) === k).length; return c ? `<button class="fchip ${isFacultySelected(k) ? 'on' : ''}" onclick="toggleSingleFaculty('${k}')" title="Basculer ${n}">${n} (${c})</button>` : ''; }).join('')}
           ${hasAlger || cnt.alger > 0 ? `
           <button class="fchip ${isFacultySelected('alger') ? 'on' : ''}" onclick="toggleSingleFaculty('alger')" title="Basculer Alger">
             Alger (${cnt.alger})
