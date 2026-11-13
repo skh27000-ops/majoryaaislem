@@ -3376,7 +3376,7 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
           <span class="chip" style="font-weight:700;background:var(--ink);color:var(--paper)">QUESTION ${String(displayNum).padStart(2, '0')} / ${displayTotal}</span>
           <span class="chip b">SESSION ${allYears(q)}</span>
           <span class="chip">${q.t.toUpperCase()}</span>
-          ${q.isAlger ? `<span class="chip" style="background:#EBF3FE;color:#185ABC;font-weight:700;border:1px solid #C2E7FF">🇩🇿 ALGER</span>` : (q.isOran ? `<span class="chip" style="background:#EAF6F0;color:#0F6B3A;font-weight:700;border:1px solid #A8DCBF">🏥 ORAN</span>` : `<span class="chip" style="background:#F4EFE6;color:var(--ink);font-weight:600">🎓 ${esc(String(q.faculty || 'Mostaganem').toUpperCase())}</span>`)}
+          ${q.isAlger ? `<span class="chip" style="background:#EBF3FE;color:#185ABC;font-weight:700;border:1px solid #C2E7FF">🇩🇿 ALGER</span>` : (q.isOran ? `<span class="chip" style="background:#EAF6F0;color:#0F6B3A;font-weight:700;border:1px solid #A8DCBF">🏥 ORAN</span>` : `<span class="chip" style="background:#F4EFE6;color:var(--ink);font-weight:600">🎓 ${String(q.faculty || 'Mostaganem').toUpperCase().replace(/[<>&]/g, '')}</span>`)}
           ${isRepeated ? `<span class="chip">POSÉE ${q.sources.length}×</span>` : ''}
           ${q.bonnes_reponses === null ? `<span class="chip" style="background:var(--paper2)">SANS CORRIGÉ OFFICIEL</span>` : ''}
           ${statusBadge}
