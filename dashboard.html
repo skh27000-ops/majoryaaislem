@@ -354,6 +354,22 @@
 <script src="data/justifications-uro.js"></script>
 <script src="data/qcm-otr.js"></script>
 <script src="data/justifications-otr.js"></script>
+<script src="data/qcm-systemique.js"></script>
+<script src="data/justifications-systemique.js"></script>
+<script src="data/qcm-medlegale.js"></script>
+<script src="data/justifications-medlegale.js"></script>
+<script src="data/qcm-medtravail.js"></script>
+<script src="data/justifications-medtravail.js"></script>
+<script src="data/qcm-geriatrie.js"></script>
+<script src="data/justifications-geriatrie.js"></script>
+<script src="data/qcm-dermato.js"></script>
+<script src="data/justifications-dermato.js"></script>
+<script src="data/qcm-umc.js"></script>
+<script src="data/justifications-umc.js"></script>
+<script src="data/qcm-ophtalmo.js"></script>
+<script src="data/justifications-ophtalmo.js"></script>
+<script src="data/qcm-orl.js"></script>
+<script src="data/justifications-orl.js"></script>
 <script src="data/qcm-ssh.js"></script>
 <script src="data/justifications-ssh.js"></script>
 <script src="data/qcm-anatomie.js"></script>
@@ -436,6 +452,26 @@ const ACADEMIC_YEARS = {
       { id:'gyn', ico:'🤰', name:'Gynécologie', active:true, chaps:37, qcm:466, desc:'Gynécologie et obstétrique · 37 cours officiels · 466 QCM d\'annales' },
       { id:'ped', ico:'👶', name:'Pédiatrie', active:true, chaps:57, qcm:190, desc:'Pédiatrie et néonatalogie · 49 cours & 8 TD officiels' },
       { id:'gen5', ico:'📚', name:'Général / Transversal 5A', desc:'Questions transversales communes aux modules de 5ème année', transversal:true }
+    ]
+  },
+  '6eme': {
+    id: '6eme',
+    title: '6ème Année',
+    code: '6A',
+    facBadge: '6ᵉ ANNÉE · MÉDECINE',
+    subTitle: 'Université de Mostaganem · 6ème année',
+    desc: 'Programme officiel du 2ème cycle · 9 modules cliniques',
+    modules: [
+      { id:'umc', ico:'🚑', name:'UMC (Urgences Médico-Chirurgicales)', active:true, chaps:36, qcm:258, desc:'Urgences médico-chirurgicales · 36 cours · 258 QCM (Mostaganem 2021-2025 & Oran 2023)' },
+      { id:'ophtalmo', ico:'👁️', name:'Ophtalmologie', active:true, chaps:14, qcm:153, desc:'Ophtalmologie · 14 cours · 153 QCM (EMD 2019-2025, Mostaganem)' },
+      { id:'orl', ico:'👂', name:'ORL', active:true, chaps:12, qcm:56, desc:'Oto-rhino-laryngologie · 12 cours · 56 QCM (EMD 2022-2025, Mostaganem)' },
+      { id:'dermato', ico:'🧴', name:'Dermatologie', active:true, chaps:17, qcm:311, desc:'Dermatologie · 17 cours · 311 QCM (EMD 2020-2025, Mostaganem)' },
+      { id:'systemique', ico:'🧬', name:'Maladies systémiques', active:true, chaps:20, qcm:124, desc:'Maladies systémiques · 20 cours · 124 QCM (2024-2025, Mostaganem)' },
+      { id:'medlegale', ico:'⚖️', name:'Médecine légale & Droit médical', active:true, chaps:21, qcm:309, desc:'Médecine légale et droit médical · 21 cours · 309 QCM (Mostaganem 2014-2025 & Oran 2013-2020)' },
+      { id:'medtravail', ico:'🏭', name:'Médecine du travail', active:true, chaps:13, qcm:193, desc:'Médecine du travail · 13 cours · 193 QCM (EMD 2019-2025, Mostaganem)' },
+      { id:'geriatrie', ico:'👴', name:'Gériatrie', active:true, chaps:12, qcm:313, desc:'Gériatrie · 12 cours · 313 QCM (2023-2025, Mostaganem, Alger, Constantine, Tlemcen & Sidi Bel Abbès)' },
+      { id:'epidemio', ico:'📈', name:'Épidémiologie', active:true, chaps:0, qcm:0, desc:'Épidémiologie · annales en cours d\'ajout' },
+      { id:'gen6', ico:'📚', name:'Général / Transversal 6A', desc:'Questions transversales communes aux modules de 6ème année', transversal:true }
     ]
   }
 };
@@ -1291,6 +1327,54 @@ const MODULE_CONFIGS = {
     getJustifications: () => (window.JUSTIFICATIONS_SSH || {})
   },
 };
+/* 6ème année : Ophtalmologie et ORL ont leurs QCM ; les autres modules restent vides (aucune donnée inventée) */
+MODULE_CONFIGS['systemique'] = { id:'systemique', year:'6eme', title:'Maladies systémiques', ico:'🧬', fullName:'Maladies systémiques',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · 20 COURS · 124 QCM D\'ANNALES (2024-2025)',
+  chapters:["Lupus et néphropathie lupique","Traitements des maladies systémiques","Maladie de Behçet","Bilan inflammatoire et cytokines","Bilan inflammatoire","Syndrome des antiphospholipides","Fièvre prolongée","Vascularites systémiques","Thrombophilie","Myopathies inflammatoires","Déficits immunitaires","Syndrome de Sjögren","Granulomatoses systémiques","Sclérodermie systémique","Acrosyndromes","Maladies auto-inflammatoires","Maladies rares","Amylose","Bilan d’auto-immunité","Cas clinique transversal : lupus, néphropathie et SAPL"],
+  getRawQcms: () => (window.QCM_SYSTEMIQUE && Array.isArray(window.QCM_SYSTEMIQUE)) ? window.QCM_SYSTEMIQUE : [],
+  getJustifications: () => (window.JUSTIFICATIONS_SYSTEMIQUE || {}) };
+MODULE_CONFIGS['medlegale'] = { id:'medlegale', year:'6eme', title:'Médecine légale', ico:'⚖️', fullName:'Médecine légale & Droit médical',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 6ÈME ANNÉE · 21 COURS · 309 QCM D\'ANNALES (2013-2025)',
+  chapters:["Introduction : Instances de contrôle en médecine","Hiérarchie des lois et sources du droit","Exercice illégal de la médecine et conditions légales d’exercice","Le secret médical et ses dérogations","Règles de prescription et ordonnance médicale","Les certificats médicaux et le constat de décès","Le contrat médical, l’information et le consentement aux soins","La réquisition médico-judiciaire et administrative","Responsabilité médicale civile et administrative","Responsabilité médicale pénale","Les prélèvements et transplantations d’organes","De la déontologie médicale — Règles de déontologie médicale","Toxicomanies : Aspects médico-légaux","Thanatologie, diagnostic de la mort, phénomènes cadavériques, levée de corps et autopsie","Asphyxies mécaniques (pendaison, strangulation, suffocation, noyade) et CO","Traumatologie médico-légale, blessures et balistique","Infanticide, avortement et médecine légale de la reproduction","Violences sexuelles et agressions","Épreuves pratiques et TD de Droit médical · Faculté d’Oran (2018–2020)","TD, Épreuves pratiques et Cas cliniques de Droit médical · Mostaganem (2018–2022)","TD, Certificats de décès et Cas pratiques de Médecine légale · Mostaganem (2021–2023)"],
+  getRawQcms: () => (window.QCM_MEDLEGALE && Array.isArray(window.QCM_MEDLEGALE)) ? window.QCM_MEDLEGALE : [],
+  getJustifications: () => (window.JUSTIFICATIONS_MEDLEGALE || {}) };
+MODULE_CONFIGS['medtravail'] = { id:'medtravail', year:'6eme', title:'Médecine du travail', ico:'🏭', fullName:'Médecine du travail',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · 13 COURS · 193 QCM D\'ANNALES (2019-2025)',
+  chapters:['Introduction à la santé au travail et réglementation','Accidents du travail, maladies professionnelles et aptitude','Risque biologique et accidents d’exposition','Toxicologie industrielle et évaluation du risque chimique','Métaux : plomb, cadmium et mercure','Solvants et cancers professionnels','Pesticides et perturbateurs endocriniens','Pathologies respiratoires professionnelles','Dermatoses professionnelles','Bruit, surdité et radioprotection','Troubles musculo-squelettiques','Travail de nuit, horaires atypiques et épuisement','Nanomatériaux, environnement et technologies'],
+  getRawQcms: () => (window.QCM_MEDTRAVAIL && Array.isArray(window.QCM_MEDTRAVAIL)) ? window.QCM_MEDTRAVAIL : [],
+  getJustifications: () => (window.JUSTIFICATIONS_MEDTRAVAIL || {}) };
+MODULE_CONFIGS['geriatrie'] = { id:'geriatrie', year:'6eme', title:'Gériatrie', ico:'👴', fullName:'Gériatrie',
+  subText:'MOSTAGANEM, ALGER, CONSTANTINE, TLEMCEN & SIDI BEL ABBÈS · 6ÈME ANNÉE · 12 COURS · 313 QCM D\'ANNALES (2023-2025)',
+  chapters:['Introduction à la gériatrie, gérontologie, démographie, raisonnement gériatrique et gérontechnologie','Vieillissement physiologique, sémiologie atypique et stratégies préventives','Textes législatifs, déontologie, éthique, bientraitance, isolement social et maltraitance','Fragilité, autonomie, dépendance, maintien à domicile et activité physique adaptée (APA)','Chutes, troubles de la marche et de l’équilibre, syndrome post-chute et complications traumatiques (HSD)','Immobilisation, complications de décubitus et escarres','Déshydratation et troubles hydro-électrolytiques du sujet âgé','Troubles vésico-sphinctériens de la personne âgée','Grands syndromes neuropsychiques : Confusion, troubles neurocognitifs, dépression, sommeil et glissement','Douleurs, soins palliatifs et accompagnement de fin de vie','Polypathologie, polymédication, iatrogénie et règles de prescription médicamenteuse','Troubles nutritionnels, dénutrition, sarcopénie et obésité du sujet âgé'],
+  getRawQcms: () => (window.QCM_GERIATRIE && Array.isArray(window.QCM_GERIATRIE)) ? window.QCM_GERIATRIE : [],
+  getJustifications: () => (window.JUSTIFICATIONS_GERIATRIE || {}) };
+MODULE_CONFIGS['dermato'] = { id:'dermato', year:'6eme', title:'Dermatologie', ico:'🧴', fullName:'Dermatologie',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · 17 COURS · 309 QCM D\'ANNALES (2020-2025)',
+  chapters:['Démarche diagnostique et lésions élémentaires','Urticaire et angio-œdème','Gale, pédiculoses et leishmaniose','Carcinomes cutanés et mélanome','Acné','Psoriasis','Eczéma et dermatite atopique','Infections sexuellement transmissibles','Mycoses superficielles','Infections cutanées bactériennes et tuberculose','Ulcères de jambe','Prurit','Toxidermies','Alopécies','Anomalies vasculaires','Dermocorticoïdes et traitements','Autres dermatoses et gestes cliniques'],
+  getRawQcms: () => (window.QCM_DERMATO && Array.isArray(window.QCM_DERMATO)) ? window.QCM_DERMATO : [],
+  getJustifications: () => (window.JUSTIFICATIONS_DERMATO || {}) };
+MODULE_CONFIGS['umc'] = { id:'umc', year:'6eme', title:'UMC', ico:'🚑', fullName:'Urgences Médico-Chirurgicales',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM & ORAN · 6ÈME ANNÉE · 36 COURS · 255 QCM D\'ANNALES (2021-2025)',
+  chapters:['Arrêt cardiaque et réanimation','Choc anaphylactique et allergie','États de choc et remplissage','Polytraumatisme et traumatisme crânien','Insuffisance respiratoire et voies aériennes','Douleur thoracique et troubles du rythme','Embolie pulmonaire','Ischémie aiguë de membre','Troubles de conscience et AVC','Convulsions et état de mal épileptique','Brûlures cutanées','Gestion de la douleur aiguë','Diabète et urgences métaboliques','Déshydratation et troubles hydroélectrolytiques','Néonatologie','Urgences obstétricales','Hémorragie digestive','Pancréatite aiguë','Urgences abdominales','Urgences rénales et urinaires','Médicaments et iatrogénie','Noyade','Électrisation','Organisation, triage et médecine de catastrophe','Neurologie périphérique','Morsures et envenimations','Céphalées','Pendaison','Pharmacologie et pharmacovigilance','Biothérapies et méthotrexate','Vaccination','Anticoagulants et antiagrégants','Éducation thérapeutique','Accès vasculaires','Sutures et instruments','Hypertension artérielle'],
+  getRawQcms: () => (window.QCM_UMC && Array.isArray(window.QCM_UMC)) ? window.QCM_UMC : [],
+  getJustifications: () => (window.JUSTIFICATIONS_UMC || {}) };
+MODULE_CONFIGS['ophtalmo'] = { id:'ophtalmo', year:'6eme', title:'Ophtalmologie', ico:'👁️', fullName:'Ophtalmologie',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · 14 COURS · 151 QCM D\'ANNALES (2019-2025)',
+  chapters:['Anatomie et physiologie','Vices de réfraction et accommodation','Œil rouge et examen clinique','Paupières et appareil lacrymal','Conjonctivites et trachome','Rétine et vitré','Cornée','Glaucomes','Cataractes','Uvéites','Strabisme et amblyopie','Traumatismes oculaires','Tumeurs oculaires et leucocorie','Thérapeutique'],
+  getRawQcms: () => (window.QCM_OPHTALMO && Array.isArray(window.QCM_OPHTALMO)) ? window.QCM_OPHTALMO : [],
+  getJustifications: () => (window.JUSTIFICATIONS_OPHTALMO || {}) };
+MODULE_CONFIGS['orl'] = { id:'orl', year:'6eme', title:'ORL', ico:'👂', fullName:'Oto-rhino-laryngologie',
+  subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · 12 COURS · 53 QCM D\'ANNALES (2022-2025)',
+  chapters:['Corps étrangers en ORL','Cancers des voies aérodigestives supérieures','Pathologies de l’oreille externe','Surdités','Otites moyennes','Otites chroniques et complications','Tuméfactions cervicales','Rhinopharyngites et angines','Dyspnée laryngée','Vertiges périphériques','Rhinosinusites','Cancer du nasopharynx'],
+  getRawQcms: () => (window.QCM_ORL && Array.isArray(window.QCM_ORL)) ? window.QCM_ORL : [],
+  getJustifications: () => (window.JUSTIFICATIONS_ORL || {}) };
+[
+  ['epidemio','Épidémiologie','📈','Épidémiologie']
+].forEach(([id, title, ico, fullName]) => {
+  MODULE_CONFIGS[id] = { id, year: '6eme', title, ico, fullName,
+    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · COURS ET ANNALES EN COURS D\'AJOUT',
+    chapters: [], getRawQcms: () => [], getJustifications: () => ({}) };
+});
 MODULE_CONFIGS['infectiologie'] = MODULE_CONFIGS['infectieux'];
 MODULE_CONFIGS['pneumologie'] = MODULE_CONFIGS['pneumo'];
 MODULE_CONFIGS['hemato-oncologie'] = MODULE_CONFIGS['hemato'];
@@ -1317,6 +1401,7 @@ MODULE_CONFIGS['histo'] = MODULE_CONFIGS['histologie'];
 function getDefaultModuleForYear(year){
   if (year === '1ere') return 'anatomie';
   if (year === '4eme') return 'cardio';
+  if (year === '6eme') return 'umc';
   return 'endo';
 }
 
@@ -1328,7 +1413,9 @@ if (!MODULE_CONFIGS[currentModuleId]) currentModuleId = getDefaultModuleForYear(
 
 const YEARS = ['2026', '2025', '2024', '2023', '2022', '2021', '2020/21'];
 // Sessions et types réellement présents dans le module courant (les listes fixes masquaient 2017-2019, 2018/2019, Contrôle, TD…)
-function getSessionYears(){ const s = new Set(); QCMS.forEach(ch => ch.forEach(q => { if (q.y) s.add(String(q.y)); })); return [...s].sort((a, b) => (parseInt(b) || 0) - (parseInt(a) || 0) || b.localeCompare(a)); }
+// Toutes les années d'une question (une question fusionnée est posée plusieurs années)
+function qYears(q){ const s = new Set((q.sources || []).map(x => x && x.annee).filter(Boolean).map(String)); if (q.y) s.add(String(q.y)); return [...s]; }
+function getSessionYears(){ const s = new Set(); QCMS.forEach(ch => ch.forEach(q => { qYears(q).forEach(y => s.add(y)); })); return [...s].sort((a, b) => (parseInt(b) || 0) - (parseInt(a) || 0) || b.localeCompare(a)); }
 function getSessionTypes(){ const s = new Set(); QCMS.forEach(ch => ch.forEach(q => { if (q.t) s.add(String(q.t)); })); return [...s].sort(); }
 
 const CHAPTERS = [];
@@ -1552,7 +1639,7 @@ function setActiveModule(modId){
   loadModuleState(modId);
 }
 
-const COMING_YEARS = { '2eme': '2ᵉ année', '3eme': '3ᵉ année', '6eme': '6ᵉ année' };
+const COMING_YEARS = { '2eme': '2ᵉ année', '3eme': '3ᵉ année' };
 
 function switchAcademicYear(year){
   if (COMING_YEARS[year] && !ACADEMIC_YEARS[year]) {
@@ -2022,6 +2109,8 @@ function chooseChapter(i){
     }
   }
 
+  const mb = $('scmModBadge'); // le badge était figé sur « Endocrinologie »
+  if (mb) { const cfg = MODULE_CONFIGS[currentModuleId]; mb.textContent = (cfg ? (cfg.ico || '') + ' ' + String(cfg.title || '').toUpperCase() : '').trim(); }
   openOv('ov-scoring');
 }
 
@@ -2155,13 +2244,15 @@ function getFacultyCountsForCurrentModule(){
     const qs = QCMS[i] || [];
     qs.forEach(q => allQuestions.push(q));
   });
-  let mosta = 0, alger = 0, oran = 0;
+  let mosta = 0, alger = 0, oran = 0; const ext = {};
   allQuestions.forEach(q => {
     if (q.isAlger || (q.faculty && q.faculty.toLowerCase() === 'alger')) alger++;
     else if (q.isOran || (q.faculty && q.faculty.toLowerCase() === 'oran')) oran++;
+    else if (q.faculty && q.faculty !== 'Mostaganem') ext[q.faculty] = (ext[q.faculty] || 0) + 1; // regroupées avec Mostaganem dans le filtre
     else mosta++;
   });
-  return { mosta, alger, oran, total: allQuestions.length };
+  const extN = Object.values(ext).reduce((a, b) => a + b, 0);
+  return { mosta: mosta + extN, mostaOnly: mosta, ext, alger, oran, total: allQuestions.length };
 }
 
 function getFacultyBadgeSummary(){
@@ -2179,7 +2270,8 @@ function renderActiveFacultyBadges(){
   const counts = getFacultyCountsForCurrentModule();
   const chips = [];
   if (facs.includes('mosta')) {
-    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">Mostaganem (${counts.mosta} QCM)</span>`);
+    chips.push(`<span class="chip" style="background:#FFF9F0;color:#925400;border:1px solid #FFE0B2;font-weight:700">Mostaganem (${counts.mostaOnly} QCM)</span>`);
+    Object.entries(counts.ext).forEach(([n, c]) => chips.push(`<span class="chip" style="background:#F3EFFB;color:#5B3FA0;border:1px solid #D9CDF2;font-weight:700">${n} (${c} QCM)</span>`));
   }
   if (facs.includes('alger')) {
     chips.push(`<span class="chip" style="background:#EBF3FE;color:#185ABC;border:1px solid #C2E7FF;font-weight:700">Alger (${counts.alger} QCM)</span>`);
@@ -2222,7 +2314,7 @@ function openFacultyModal(){
         id: 'mosta',
         ico: '🎓',
         name: 'Faculté de Médecine de Mostaganem',
-        sub: 'Programme officiel local · EMD & rattrapages de Mostaganem',
+        sub: 'Programme officiel local · EMD & rattrapages de Mostaganem' + (Object.keys(counts.ext).length ? ' · inclut ' + Object.entries(counts.ext).map(([n, c]) => n + ' (' + c + ')').join(', ') : ''),
         count: counts.mosta,
         badgeBg: '#FFF9F0',
         badgeColor: '#925400',
@@ -2328,7 +2420,7 @@ function getFilteredQcms(ch){
   return qs.map((q, j) => ({ q, j })).filter(({ q, j }) => {
     const qFac = q.isAlger ? 'alger' : (q.isOran ? 'oran' : 'mosta');
     if (!facs.includes(qFac)) return false;
-    if (fy !== 'all' && String(q.y) !== String(fy)) return false;
+    if (fy !== 'all' && !qYears(q).includes(String(fy))) return false;
     if (ft !== 'all' && q.t !== ft) return false;
     const a = state.answers[ch + ':' + j];
     if (fs === 'star' && !(a && a.star)) return false;
@@ -2462,7 +2554,7 @@ function renderAnnales(){
             <button class="fchip" onclick="switchAcademicYear('3eme')">3ᵉ</button>
             <button class="fchip ${currentAcademicYear==='4eme'?'on':''}" onclick="switchAcademicYear('4eme')">4ᵉ</button>
             <button class="fchip ${currentAcademicYear==='5eme'?'on':''}" onclick="switchAcademicYear('5eme')">5ᵉ</button>
-            <button class="fchip" onclick="switchAcademicYear('6eme')">6ᵉ</button>
+            <button class="fchip ${currentAcademicYear==='6eme'?'on':''}" onclick="switchAcademicYear('6eme')">6ᵉ</button>
           </div>
         </div>
       </div>
@@ -2891,8 +2983,9 @@ function renderAnnales(){
             Toutes (${cnt.totalChapter})
           </button>
           <button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Basculer Mostaganem">
-            Mostaganem (${cnt.mosta})
+            Mostaganem (${qs.filter(q => !q.isAlger && !q.isOran && (!q.faculty || q.faculty === 'Mostaganem')).length})
           </button>
+          ${['Constantine', 'Tlemcen', 'Sidi Bel Abbès'].map(n => { const c = qs.filter(q => !q.isAlger && !q.isOran && q.faculty === n).length; return c ? `<button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Regroupé avec Mostaganem dans le filtre">${n} (${c})</button>` : ''; }).join('')}
           ${hasAlger || cnt.alger > 0 ? `
           <button class="fchip ${isFacultySelected('alger') ? 'on' : ''}" onclick="toggleSingleFaculty('alger')" title="Basculer Alger">
             Alger (${cnt.alger})
@@ -3024,7 +3117,7 @@ function renderAnnales(){
               ${Math.round(((v.qi + 1) / filtered.length) * 100)}% DU CHAPITRE
             </span>
             <span style="font-size:11.5px;color:var(--ink-soft)">
-              (Session ${filtered[v.qi].q.y} · ${filtered[v.qi].q.t} · ${filtered[v.qi].q.isAlger ? '🇩🇿 Alger' : (filtered[v.qi].q.isOran ? '🏥 Oran' : '🎓 Mostaganem')})
+              (Session ${filtered[v.qi].q.y} · ${filtered[v.qi].q.t} · ${filtered[v.qi].q.isAlger ? '🇩🇿 Alger' : (filtered[v.qi].q.isOran ? '🏥 Oran' : '🎓 ' + (filtered[v.qi].q.faculty || 'Mostaganem'))})
             </span>
           </div>
 
@@ -3277,7 +3370,7 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
           <span class="chip" style="font-weight:700;background:var(--ink);color:var(--paper)">QUESTION ${String(displayNum).padStart(2, '0')} / ${displayTotal}</span>
           <span class="chip b">SESSION ${allYears(q)}</span>
           <span class="chip">${q.t.toUpperCase()}</span>
-          ${q.isAlger ? `<span class="chip" style="background:#EBF3FE;color:#185ABC;font-weight:700;border:1px solid #C2E7FF">🇩🇿 ALGER</span>` : (q.isOran ? `<span class="chip" style="background:#EAF6F0;color:#0F6B3A;font-weight:700;border:1px solid #A8DCBF">🏥 ORAN</span>` : `<span class="chip" style="background:#F4EFE6;color:var(--ink);font-weight:600">🎓 MOSTAGANEM</span>`)}
+          ${q.isAlger ? `<span class="chip" style="background:#EBF3FE;color:#185ABC;font-weight:700;border:1px solid #C2E7FF">🇩🇿 ALGER</span>` : (q.isOran ? `<span class="chip" style="background:#EAF6F0;color:#0F6B3A;font-weight:700;border:1px solid #A8DCBF">🏥 ORAN</span>` : `<span class="chip" style="background:#F4EFE6;color:var(--ink);font-weight:600">🎓 ${esc(String(q.faculty || 'Mostaganem').toUpperCase())}</span>`)}
           ${isRepeated ? `<span class="chip">POSÉE ${q.sources.length}×</span>` : ''}
           ${q.bonnes_reponses === null ? `<span class="chip" style="background:var(--paper2)">SANS CORRIGÉ OFFICIEL</span>` : ''}
           ${statusBadge}
@@ -4256,6 +4349,7 @@ function updateSide(){
   if (b1) b1.classList.toggle('on', currentAcademicYear === '1ere');
   if (b4) b4.classList.toggle('on', currentAcademicYear === '4eme');
   if (b5) b5.classList.toggle('on', currentAcademicYear === '5eme');
+  const b6 = $('btnYear6'); if (b6) b6.classList.toggle('on', currentAcademicYear === '6eme');
 
   const dashYearOverline = $('dashYearOverline');
   if (dashYearOverline) dashYearOverline.textContent = yearInfo.subTitle;
