@@ -236,7 +236,7 @@ main{position:relative;padding:34px clamp(16px,3.4vw,44px) 40px;min-width:0}
 .ttbl tbody tr:hover{background:var(--cream)}
 .lchk{width:32px;height:32px;border:3px solid var(--ink);border-radius:10px;background:#fff;font-size:.85rem;font-weight:800;color:transparent;transition:.12s;display:grid;place-items:center}
 .lchk:hover:not(.lock){background:var(--y)}
-.lchk.on{background:var(--green);color:#fff}
+.lchk.on{background:var(--green);color:#fff;font-size:1.05rem;font-weight:900;line-height:1}
 .lchk.lock{opacity:.3;cursor:not-allowed}
 .lchk.no360{transition:background .15s,opacity .15s}
 .tch-name b{display:block;font-weight:700}
@@ -637,3 +637,74 @@ nav .ni .dart,nav .ni .door,nav .ni .bk,nav .ni .fc1,nav .ni .fc2{transform-box:
 .sem-tab{font-family:var(--body);font-weight:700;font-size:12px;padding:6px 14px;border:2px solid transparent;border-radius:10px;background:transparent;color:var(--ink);cursor:pointer;transition:all .12s;display:inline-flex;align-items:center;gap:6px}
 .sem-tab:hover{background:var(--paper2)}
 .sem-tab.on{background:var(--purple-brand);color:#fff;border-color:var(--ink);box-shadow:0 2px 0 var(--ink)}
+
+/* ---- photo liée à une question (TP) ---- */
+.q-fig{margin:0 0 22px;display:grid;justify-items:center;gap:10px}
+.q-fig-btn{padding:10px;border:1px solid var(--line2);border-radius:20px;background:#fff;cursor:zoom-in;box-shadow:0 1px 2px rgba(26,22,38,.05),0 8px 24px rgba(26,22,38,.06);transition:box-shadow .3s var(--e),translate .3s var(--e)}
+@media(hover:hover) and (pointer:fine){.q-fig-btn:hover{translate:0 -2px;box-shadow:0 14px 36px rgba(26,22,38,.12)}}
+.q-fig img{display:block;max-height:480px;width:auto;max-width:100%;border-radius:12px}
+.q-fig figcaption{font:500 11px var(--mono);letter-spacing:.06em;color:var(--ink-soft);text-align:center}
+.q-lightbox{position:fixed;inset:0;z-index:500;background:rgba(26,22,38,.82);display:grid;place-items:center;padding:24px;cursor:zoom-out;animation:v-fade .2s var(--e)}
+.q-lightbox figure{margin:0;display:grid;gap:12px;justify-items:center;max-height:100%}
+.q-lightbox img{max-height:calc(100vh - 110px);max-width:100%;border-radius:16px;background:#fff;box-shadow:0 30px 80px rgba(0,0,0,.4)}
+.q-lightbox figcaption{color:#fff;font:500 12px var(--mono);letter-spacing:.06em}
+.q-lightbox-x{position:absolute;top:18px;right:18px;width:44px;height:44px;border-radius:50%;border:0;background:#fff;color:var(--ink);font-size:1.6rem;line-height:1;cursor:pointer}
+/* ---- série de questions liées à un même schéma ---- */
+.q-group{margin:0 0 22px;padding:16px;border:1.5px dashed rgba(108,92,231,.55);border-radius:22px;background:linear-gradient(180deg,rgba(238,235,253,.55),rgba(255,255,255,0))}
+.q-link{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 14px}
+.q-link-t{font-size:.88rem;color:var(--ink-soft)}.q-link-t b{color:var(--ink)}
+.q-link-dots{display:flex;gap:6px}
+.q-link-dots i{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;border:1.5px solid rgba(108,92,231,.4);font:600 11px var(--mono);font-style:normal;color:var(--ink-soft);background:#fff}
+.q-link-dots i.done{background:rgba(108,92,231,.14);color:var(--purple-brand,#6C5CE7)}
+.q-link-dots i.on{background:var(--purple-brand,#6C5CE7);border-color:var(--purple-brand,#6C5CE7);color:#fff}
+.q-group .q-fig{margin:0}
+.q-group .q-fig img{max-height:300px}
+/* ---- tableaux de données d'une question ---- */
+.q-tbls{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 20px;align-items:flex-start}
+.q-tbl-w{max-width:100%;overflow-x:auto;border:2px solid var(--ink);border-radius:14px;background:#fff;box-shadow:3px 3px 0 var(--ink)}
+.q-tbl{border-collapse:collapse;font:500 .95rem var(--mono);min-width:100%}
+.q-tbl caption{caption-side:top;padding:8px 12px;font:700 .8rem var(--mono);letter-spacing:.05em;text-align:left;border-bottom:2px solid var(--ink);background:#EEEBFD}
+.q-tbl th,.q-tbl td{padding:8px 14px;border:1px solid rgba(26,22,38,.28);text-align:center;white-space:nowrap}
+.q-tbl thead th{background:#FFD25A;border-bottom:2px solid var(--ink)}
+.q-tbl tbody th{background:#FFF3CC;text-align:left}
+.q-tbl td.blank{background:repeating-linear-gradient(135deg,#fff 0 6px,#f3f1fb 6px 12px);min-width:48px}
+.q-tbl tr:last-child>*:first-child{border-bottom-left-radius:12px}
+/* ===================== Correctifs UX (nov. 2026) ===================== */
+html,body{overflow-x:hidden}
+/* en-tête « QCM / Sélectionne un module… » inutile une fois dans un module */
+#view-annales.in-mod .view-head{display:none}
+/* barre compacte du chapitre */
+.ch-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.ch-top-t{flex:1;min-width:180px}
+.ch-top-t b{display:block;font:800 1.15rem/1.2 var(--disp)}
+.ch-top-t span{font:500 11px var(--mono);color:var(--ink-soft)}
+.ch-more{position:relative}
+.ch-more>summary{list-style:none;cursor:pointer}
+.ch-more>summary::-webkit-details-marker{display:none}
+.ch-more-menu{position:absolute;right:0;top:calc(100% + 6px);z-index:60;background:#fff;border:var(--stk);border-radius:14px;box-shadow:0 6px 0 var(--ink);padding:6px;display:flex;flex-direction:column;min-width:220px}
+.ch-more-menu button{all:unset;cursor:pointer;padding:9px 12px;border-radius:9px;font:600 .9rem var(--body)}
+.ch-more-menu button:hover,.ch-more-menu button:focus-visible{background:rgba(26,22,38,.07)}
+.ch-more-menu button[disabled]{opacity:.35;pointer-events:none}
+.ch-foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:22px;padding-top:16px;border-top:1.5px solid var(--line)}
+.chap-go{white-space:nowrap}
+@media(max-width:700px){
+  /* la mascotte du milieu cachait le choix d'année et coupait le logo */
+  .pill-mascot-center{display:none}
+  .pill-bar{grid-template-columns:auto 1fr;padding-left:16px}
+  /* libellés visibles sous les icônes de la barre du bas */
+  .nav-it{flex-direction:column;gap:1px;padding:.45rem 0}
+  .nav-it span:not(.bdg){display:block!important;font:700 10px/1.1 var(--body)}
+  /* le contenu ne passe plus sous la barre du bas (ex. « Question suivante ») */
+  main{padding-bottom:120px}
+  /* accueil : la grande mascotte repousse les modules trop bas */
+  #view-dashboard .stage{display:none}
+  /* bouton « Commencer » visible sur chaque chapitre */
+  .chap-row{grid-template-columns:46px 1fr auto}
+  .chap-row .chap-go{display:inline-flex}
+  /* fenêtre de notation : cartes empilées au lieu de déborder */
+  #ov-scoring .modal [style*="grid-template-columns"]{grid-template-columns:1fr!important}
+}
+@media(max-width:700px){.pill-header .reset-btn{display:none}.pill-header .year-btn{padding:6px 7px}.pill-right{gap:8px}.scm-ico svg{width:100%;height:100%}}
+.scm-ico svg{width:100%;height:100%}
+@media(max-width:700px){.qcm-stepper-wrap .qs-opt{display:none!important}.qcm-stepper-wrap{gap:8px!important;padding:8px 10px!important}.ch-top .ch-more{margin-left:auto}}
+main{padding-bottom:120px}

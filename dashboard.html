@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -123,7 +123,7 @@
   <div class="view-head">
     <span class="overline" id="trYearOverline">Université de Mostaganem · Méthode des 3 couches</span>
     <h1>Checklist <em>des Cours</em></h1>
-    <p class="sub">Suis méthodiquement ta progression par cours : valide la <b>1ère couche</b> (compréhension globale), la <b>2ème couche</b> (mémorisation active des détails) et la <b>3ème couche</b> (consolidation rapide), puis teste tes connaissances avec le bouton <b>Practise</b>.</p>
+    <p class="sub">Suis méthodiquement ta progression par cours : valide la <b>1ère couche</b> (compréhension globale), la <b>2ème couche</b> (mémorisation active des détails) et la <b>3ème couche</b> (consolidation rapide), puis teste tes connaissances avec le bouton <b>Commencer</b>.</p>
   </div>
   <div id="tr-body"></div>
 </section>
@@ -486,6 +486,8 @@ const ACADEMIC_YEARS = {
 
 const STORAGE_YEAR_KEY = 'majory_academic_year_v2';
 let currentAcademicYear = localStorage.getItem(STORAGE_YEAR_KEY) || '4eme';
+// année choisie sur la page d'accueil du site (dashboard.html?year=5eme)
+{ const y = new URLSearchParams(location.search).get('year'); if (y && ACADEMIC_YEARS[y]) { currentAcademicYear = y; try { localStorage.setItem(STORAGE_YEAR_KEY, y); } catch (e) {} } }
 
 function getActiveModules(){
   return ACADEMIC_YEARS[currentAcademicYear] ? ACADEMIC_YEARS[currentAcademicYear].modules : ACADEMIC_YEARS['4eme'].modules;
@@ -1594,6 +1596,9 @@ function loadModuleState(modId){
   state.layers = CHAPTERS.map(() => [false, false, false]);
   state.scoringModes = {};
   try {
+    const pr = JSON.parse(localStorage.getItem('majory_prefs_v1') || '{}');
+    if (pr.scoringDefault) state.scoringDefault = pr.scoringDefault;
+    if (pr.lastPos) state.lastPos = pr.lastPos;
     const sAns = localStorage.getItem(keys.ans);
     if (sAns) state.answers = JSON.parse(sAns);
     const sTrk = localStorage.getItem(keys.trk);
@@ -1628,6 +1633,8 @@ function saveState(){
     localStorage.setItem(keys.trk, JSON.stringify(state.layers));
     localStorage.setItem(STORAGE_DECKS_KEY, JSON.stringify(state.decks));
     localStorage.setItem(keys.sc, JSON.stringify(state.scoringModes || {}));
+    // préférences communes à tous les modules : barème par défaut et dernier chapitre ouvert
+    localStorage.setItem('majory_prefs_v1', JSON.stringify({ scoringDefault: state.scoringDefault || null, lastPos: state.lastPos || null }));
   } catch(e){}
   updateSide();
 }
@@ -1832,7 +1839,36 @@ function go(view){
   if (target) target.classList.add('on');
   window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
   renderAll();
+  curView = view;
+  navPush();
 }
+
+/* Historique : le bouton « retour » du téléphone/navigateur revient à l'écran précédent au lieu de quitter le site */
+let curView = 'dashboard', navRestoring = false, navSameTick = false;
+function navPush(){
+  if (navRestoring) return;
+  let s;
+  try { s = { v: curView, page: anView ? anView.page : null, mod: currentModuleId, ch: anView ? anView.ch : 0 }; }
+  catch (e) { return; } // appelé avant l'initialisation de la page
+  if (!history.state) history.replaceState({ v: 'dashboard' }, '');
+  // plusieurs appels dans le même clic (ex. go + openModule) = une seule entrée
+  if (navSameTick) history.replaceState(s, ''); else history.pushState(s, '');
+  navSameTick = true; setTimeout(() => { navSameTick = false; }, 0);
+}
+window.addEventListener('popstate', e => {
+  const s = e.state; if (!s) return;
+  navRestoring = true;
+  try {
+    document.querySelectorAll('.overlay.on').forEach(o => closeOv(o.id));
+    go(s.v || 'dashboard');
+    if (s.v === 'annales') {
+      if (s.mod && s.mod !== currentModuleId) setActiveModule(s.mod);
+      if (s.page === 'chapter' || s.page === 'player') openChapter(s.ch);
+      else if (s.page === 'module') openModule();
+      else openModuleList();
+    }
+  } finally { navRestoring = false; }
+});
 
 document.querySelectorAll('.nav-it').forEach(b => b.addEventListener('click', () => go(b.dataset.view)));
 
@@ -1852,27 +1888,24 @@ function renderDash(){
   $('dateLine').innerHTML = d.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) + ' · <b>session 2025/26</b>';
   $('hallHi').textContent = hr < 5 || hr >= 18 ? 'Bonsoir' : (hr < 12 ? 'Bonjour' : 'Bon après-midi');
 
-  const modCfg = MODULE_CONFIGS[currentModuleId] || MODULE_CONFIGS['gastro'];
-  const totalAllQcm = QCMS.reduce((acc, qList) => acc + qList.length, 0);
   const mods = MODULES.filter(m => !m.transversal);
+  // total de l'année (avant : seulement le module actif)
+  const totalAllQcm = mods.reduce((acc, m) => acc + (m.qcm || 0), 0);
   const activeModsCount = mods.filter(m => m.active).length;
   const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['4eme'];
 
-  const lastAnsCh = 0;
-  const ch0Answered = chapterAnswered(lastAnsCh);
-  const ch0Total = QCMS[lastAnsCh]?.length || 0;
-  const ch0Pct = ch0Total ? Math.round(ch0Answered / ch0Total * 100) : 0;
-
-  $('hall-resume').innerHTML = `
-    <div class="resume" onclick="go('annales');chooseChapter(${lastAnsCh})">
-      <div class="emo">${modCfg.ico}</div>
+  // « Reprendre » uniquement pour le dernier chapitre réellement ouvert, dans cette année
+  const lp = state.lastPos;
+  const lpCfg = lp && mods.some(m => m.id === lp.mod) ? MODULE_CONFIGS[lp.mod] : null;
+  $('hall-resume').innerHTML = lpCfg ? `
+    <div class="resume" onclick="setActiveModule('${lp.mod}');go('annales');openChapter(${Number(lp.ch) || 0})">
+      <div class="emo">${lpCfg.ico}</div>
       <div class="tt">
-        <h3>${modCfg.title} — Chapitre 01</h3>
-        <p class="mono">${(CHAPTERS[lastAnsCh] || '').toUpperCase()} · ${ch0Answered}/${ch0Total} RÉPONDUS</p>
-        <div class="mbar"><i style="width:${ch0Pct}%"></i></div>
+        <h3>${lpCfg.title} — Chapitre ${String((Number(lp.ch) || 0) + 1).padStart(2, '0')}</h3>
+        <p class="mono">${String((lpCfg.chapters || [])[lp.ch] || '').toUpperCase()}</p>
       </div>
       <span class="btn btn-red btn-sm">Reprendre →</span>
-    </div>`;
+    </div>` : '';
 
   let say = 'Première garde ? Choisis un module !';
   if (qs.ans > 0) say = qs.rate >= 70 ? 'Excellent taux ! On continue ?' : (qs.rate < 50 ? 'On reprend les erreurs, tu vas y arriver.' : 'Bon rythme, encore une série !');
@@ -1880,15 +1913,15 @@ function renderDash(){
   const bub = $('hallSay'); bub.textContent = say; bub.dataset.base = say;
 
   $('dash-body').innerHTML = `
-    <div class="vitals">
+    <div class="building">
+      <div class="bld-bar"><span id="dashProgramTitle">Modules de <b>${yearInfo.title}</b></span><span>${mods.length} modules · ${activeModsCount} ouverts</span></div>
+      <div class="mod-grid">${mods.map(modCard).join('') + wideCard()}</div>
+    </div>
+    <div class="vitals" style="margin-top:26px">
       <div class="vit"><span class="k">QCM disponibles</span><span class="v" data-count="${totalAllQcm}">0</span></div>
       <div class="vit b"><span class="k">Questions révisées</span><span class="v" data-count="${qs.ans}">0</span></div>
       <div class="vit p"><span class="k">Taux de réussite</span><span class="v">${qs.rate === null ? '–' : `<span data-count="${qs.rate}" data-suffix="%">0</span>`}</span></div>
       <div class="vit o"><span class="k">Cartes à réviser</span><span class="v" data-count="${fs.due}">0</span></div>
-    </div>
-    <div class="building">
-      <div class="bld-bar"><span id="dashProgramTitle">Bâtiment <b>${yearInfo.code}</b> · ${yearInfo.title}</span><span>${mods.length} modules · ${activeModsCount} ouverts</span></div>
-      <div class="mod-grid">${mods.map(modCard).join('') + wideCard()}</div>
     </div>
     <p class="hand" style="font-size:1.5rem;margin-top:26px;display:block">✚ Valide tes 3 couches avant de passer aux QCM : c'est ça, la méthode des majors.</p>`;
 
@@ -2085,10 +2118,17 @@ function computeChapterFullSummary(ch){
   };
 }
 
-function chooseChapter(i){
+function chooseChapter(i, force){
   i = Number(i);
   if (isNaN(i) || i < 0 || i >= CHAPTERS.length) i = 0;
   pendingChapterIdx = i;
+  // barème déjà choisi une fois : on ne redemande plus (modifiable via « Changer barème »)
+  if (!force && state.scoringDefault) {
+    if (!state.scoringModes) state.scoringModes = {};
+    if (!state.scoringModes[i]) state.scoringModes[i] = state.scoringDefault;
+    openChapter(i);
+    return;
+  }
   const qs = (QCMS[i] || []).filter(qInFac);
   const curMode = (state.scoringModes && state.scoringModes[i]) || 'partiel';
 
@@ -2118,7 +2158,7 @@ function chooseChapter(i){
   }
 
   const mb = $('scmModBadge'); // le badge était figé sur « Endocrinologie »
-  if (mb) { const cfg = MODULE_CONFIGS[currentModuleId]; mb.textContent = (cfg ? (cfg.ico || '') + ' ' + String(cfg.title || '').toUpperCase() : '').trim(); }
+  if (mb) { const cfg = MODULE_CONFIGS[currentModuleId]; mb.innerHTML = cfg ? `<span class="scm-ico" style="display:inline-block;width:18px;height:18px;vertical-align:-4px">${cfg.ico || ''}</span> ` + String(cfg.title || '').toUpperCase().replace(/[<>&]/g, '') : ''; }
   openOv('ov-scoring');
 }
 
@@ -2126,6 +2166,7 @@ function setChapterScoringMode(mode){
   if (pendingChapterIdx === null || pendingChapterIdx === undefined) pendingChapterIdx = 0;
   if (!state.scoringModes) state.scoringModes = {};
   state.scoringModes[pendingChapterIdx] = mode;
+  state.scoringDefault = mode;
   saveState();
   closeOv('ov-scoring');
   openChapter(pendingChapterIdx);
@@ -2169,6 +2210,7 @@ function openModuleList(){
   anView = { page: 'list', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', fa: savedFacultyFilter, displayMode: anView.displayMode || 'single' };
   renderAnnales();
   window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+  navPush();
 }
 function openModule(modId){
   if (modId) setActiveModule(modId);
@@ -2176,6 +2218,7 @@ function openModule(modId){
   anView = { page: 'module', ch: 0, qi: 0, fy: 'all', ft: 'all', fs: 'all', faculties: getStoredFaculties(), displayMode: anView.displayMode || 'single' };
   renderAnnales();
   window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+  navPush();
 }
 function openChapter(i, qi){
   i = Number(i);
@@ -2210,6 +2253,9 @@ function openChapter(i, qi){
 
   renderAnnales();
   window.scrollTo({ top: 0, behavior: RM ? 'auto' : 'smooth' });
+  curView = 'annales';
+  state.lastPos = { mod: currentModuleId, ch: i }; saveState();
+  navPush();
 }
 function openPlayer(ch, qi){
   openChapter(ch, qi);
@@ -2540,6 +2586,7 @@ function showBilanAndScroll(){
 
 function renderAnnales(){
   const v = anView, el = $('an-body');
+  const av = $('view-annales'); if (av) av.classList.toggle('in-mod', v.page !== 'list');
   if (v.page === 'list'){
     const yearInfo = ACADEMIC_YEARS[currentAcademicYear] || ACADEMIC_YEARS['4eme'];
     const crumbs = `<div class="crumbs">
@@ -2582,10 +2629,16 @@ function renderAnnales(){
 
   if (v.page === 'module'){
     const facBadgeSummary = getFacultyBadgeSummary();
-    el.innerHTML = crumbs + `
+    // facultés réellement présentes dans le module (le texte fixe annonçait parfois une faculté sans aucune question)
+    const fc = getFacultyCountsForCurrentModule();
+    const facNames = [['mosta','Mostaganem'],['alger','Alger'],['oran','Oran'],...Object.entries(EXT_FACS)].filter(([k]) => fc[k] > 0).map(([, n]) => n.toUpperCase());
+    const subLine = `${facNames.length ? 'ANNALES : ' + facNames.join(', ') + ' · ' : ''}${CHAPTERS.length} COURS · ${fc.total} QCM`;
+    const visibleTotal = CHAPTERS.reduce((a, _, i) => a + chapterQsCount(i), 0);
+    const facTrap = fc.total > 0 && visibleTotal === 0;
+    el.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px;flex-wrap:wrap">
         <button class="btn btn-sm btn-solid" onclick="openModuleList()">
-          ← Revenir au choix de module
+          ← Modules
         </button>
         <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
           <button class="btn btn-sm" onclick="selectTrackerModule('${modCfg.id}');go('tracker')" style="background:#fff;border:2px solid var(--ink);border-radius:10px;font-weight:700;display:inline-flex;align-items:center;gap:6px;box-shadow:0 2px 0 var(--ink);cursor:pointer">
@@ -2603,7 +2656,7 @@ function renderAnnales(){
               <span class="chip g">MODULE ACTIF</span>
             </div>
             <h2 style="font-size:1.9rem;margin:10px 0 4px">${modCfg.ico} ${modCfg.title}</h2>
-            <p class="mono" style="font-size:11.5px;color:var(--ink-soft)">${modCfg.subText}</p>
+            <p class="mono" style="font-size:11.5px;color:var(--ink-soft)">${subLine}</p>
           </div>
           <div style="text-align:right" class="mono">
             <b style="font-size:1.7rem;color:var(--red)">${qcmStats().ans}</b><span style="font-size:.8rem;color:var(--ink-soft)"> répondus</span><br>
@@ -2615,32 +2668,30 @@ function renderAnnales(){
             <span style="font-weight:700;color:var(--ink)">Facultés sélectionnées :</span>
             ${renderActiveFacultyBadges()}
           </div>
-          <button class="btn btn-sm" onclick="openFacultyModal()" style="padding:4px 12px;font-size:11.5px">
-            Modifier les facultés ⚙️
-          </button>
         </div>
       </div>
-      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;flex-wrap:wrap;gap:10px">
-        <p class="wtitle" style="margin:0">CHAPITRES DU MODULE · <span class="hand" style="font-size:1.15rem">choisis un chapitre</span></p>
-        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Changer de module</button>
-      </div>
+      ${facTrap ? `<div class="card" style="margin-bottom:16px;border-color:var(--red);background:#FFF5F3">
+        <b>Aucune question n'est affichée avec les facultés choisies.</b>
+        <p style="margin:6px 0 10px;font-size:.9rem">Les ${fc.total} QCM de ce module viennent d'une faculté que tu as décochée.</p>
+        <button class="btn btn-sm btn-solid" onclick="setStoredFaculties(ALL_FACS.slice());renderAnnales()">Afficher toutes les facultés</button>
+      </div>` : ''}
+      <p class="wtitle" style="margin:0 0 14px">CHAPITRES DU MODULE · <span class="hand" style="font-size:1.15rem">choisis un chapitre</span></p>
       <input type="search" class="srch-in" placeholder="🔍 Rechercher un cours ou une question dans ce module…" oninput="filterChapRows(this.value)" style="width:100%;max-width:520px;padding:9px 14px;margin:0 0 14px;border:1.5px solid var(--ink);border-radius:10px;font:inherit">
       <div class="chap-list">${CHAPTERS.length > 0 ? CHAPTERS.map((c, i) => {
         const rawN = (QCMS[i] || []).length, n = chapterQsCount(i), done = chapterAnswered(i);
         return `<div class="chap-row" data-i="${i}" onclick="chooseChapter(${i})">
           <span class="chap-num">${String(i + 1).padStart(2, '0')}</span>
-          <div><h4>${c}</h4><p class="cm">${n ? n + ' QUESTIONS D\'ANNALES OFFICIELLES' : (rawN ? 'AUCUNE QUESTION POUR LES FACULTÉS CHOISIES' : 'ANNALES EN COURS D\'INDEXATION')}</p>${n ? `<button class="btn btn-sm btn-ghost" style="margin-top:6px;padding:2px 10px;font-size:11px" onclick="event.stopPropagation();downloadChapterPdf(${i})">📄 Télécharger PDF</button>` : ''}</div>
+          <div><h4>${c}</h4><p class="cm">${n ? n + ' QCM' : (rawN ? 'AUCUNE QUESTION POUR LES FACULTÉS CHOISIES' : 'ANNALES EN COURS D\'INDEXATION')}</p>${n ? `<button class="btn btn-sm btn-ghost" style="margin-top:6px;padding:2px 10px;font-size:11px" onclick="event.stopPropagation();downloadChapterPdf(${i})">📄 Télécharger PDF</button>` : ''}</div>
           ${n ? `<span class="chip ${done === n ? 'g' : ''}">${done}/${n} QCM</span>` : `<span class="chip">${rawN ? '0 QCM' : 'BIENTÔT'}</span>`}
-          <span class="btn btn-sm btn-ghost">Practise →</span>
+          ${n ? `<span class="btn btn-sm btn-solid chap-go">Commencer →</span>` : ''}
         </div>`;
       }).join('') : `
         <div class="empty" style="border:none;padding:50px 20px;text-align:center">
           <div class="big">📚 En attente des cours</div>
           <p style="color:var(--ink-soft);margin-top:8px">Les cours officiels de ce module seront ajoutés dès réception.</p>
         </div>`}</div>
-      <div style="margin-top:24px;padding-top:16px;border-top:1.5px solid var(--line);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
-        <button class="btn btn-sm btn-solid" onclick="openModuleList()">← Revenir au choix de module</button>
-        <button class="btn btn-sm btn-ghost" onclick="go('dashboard')">← Retour au Dashboard</button>
+      <div class="ch-foot">
+        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Modules</button>
       </div>`;
     return;
   }
@@ -2648,43 +2699,35 @@ function renderAnnales(){
   if (v.page === 'chapter'){
     const ch = v.ch, qs = QCMS[ch] || [];
     const hasBilingual = qs.some(q => !!q.question_en);
-    const navCh = `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;gap:10px;flex-wrap:wrap">
-      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-        <button class="btn btn-sm btn-solid" onclick="openModule()">← Retour au choix du chapitre</button>
-        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Revenir au choix de module</button>
-        ${hasBilingual ? `
-          <div style="display:inline-flex;align-items:center;gap:6px;background:#fff;border:2px solid var(--ink);border-radius:12px;padding:3px 10px;box-shadow:0 2px 0 var(--ink)">
-            <span style="font-size:11.5px;font-weight:700">🌐 Langue :</span>
-            <button class="btn btn-sm ${qcmGlobalLang === 'fr' ? 'btn-solid' : 'btn-ghost'}" type="button" onclick="setQcmGlobalLang('fr')" style="padding:2px 8px;font-size:11px">🇫🇷 Français</button>
-            <button class="btn btn-sm ${qcmGlobalLang === 'en' ? 'btn-solid' : 'btn-ghost'}" type="button" onclick="setQcmGlobalLang('en')" style="padding:2px 8px;font-size:11px">🇬🇧 English</button>
-          </div>
-        ` : ''}
+    // Une seule barre de navigation en haut (avant : 3 blocs de boutons répétés)
+    const chDone = chapterAnswered(ch), chTotal = chapterQsCount(ch);
+    const chMode = (state.scoringModes && state.scoringModes[ch]) || 'partiel';
+    const navCh = `<div class="ch-top">
+      <button class="btn btn-sm btn-solid" onclick="openModule()">← Chapitres</button>
+      <div class="ch-top-t">
+        <b>${String(ch + 1).padStart(2, '0')} · ${CHAPTERS[ch]}</b>
+        <span>${String(modCfg.title).toUpperCase()} · <i id="chDoneCount" style="font-style:normal">${chDone}</i>/${chTotal} RÉPONDUS · ${chMode === 'partiel' ? '🎯 NOTATION PARTIELLE' : '⚡ TOUT OU RIEN'}</span>
       </div>
-      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-        <button type="button" class="btn-restart-hero btn-sm" onclick="restartChapterSession(${ch})" title="Recommencer ce chapitre à zéro">
-          <span class="spin-ico">↺</span> Refaire la session
-        </button>
-        <button class="btn btn-sm btn-ghost" ${ch === 0 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.max(0, ch - 1)})">← Chapitre précédent</button>
-        <button class="btn btn-sm btn-ghost" ${ch >= CHAPTERS.length - 1 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.min(CHAPTERS.length - 1, ch + 1)})">Chapitre suivant →</button>
-      </div>
+      <details class="ch-more">
+        <summary class="btn btn-sm btn-ghost">⋯ Options</summary>
+        <div class="ch-more-menu">
+          <button type="button" onclick="restartChapterSession(${ch})">↺ Refaire la session</button>
+          <button type="button" onclick="chooseChapter(${ch}, true)">⚙️ Changer le barème</button>
+          ${chDone > 0 ? `<button type="button" onclick="showBilanAndScroll()">📊 Voir le bilan (${chDone}/${chTotal})</button>` : ''}
+          <button type="button" ${ch === 0 ? 'disabled' : ''} onclick="openChapter(${Math.max(0, ch - 1)})">← Chapitre précédent</button>
+          <button type="button" ${ch >= CHAPTERS.length - 1 ? 'disabled' : ''} onclick="openChapter(${Math.min(CHAPTERS.length - 1, ch + 1)})">Chapitre suivant →</button>
+          ${hasBilingual ? `<button type="button" onclick="setQcmGlobalLang('${qcmGlobalLang === 'fr' ? 'en' : 'fr'}')">🌐 ${qcmGlobalLang === 'fr' ? 'Passer en anglais' : 'Passer en français'}</button>` : ''}
+        </div>
+      </details>
     </div>`;
 
-    const bottomNav = `<div style="display:flex;justify-content:space-between;align-items:center;margin-top:24px;gap:10px;flex-wrap:wrap;padding-top:18px;border-top:1.5px solid var(--line)">
-      <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <button class="btn btn-sm btn-solid" onclick="openModule()">← Retour au choix du chapitre</button>
-        <button class="btn btn-sm btn-ghost" onclick="openModuleList()">← Revenir au choix de module</button>
-      </div>
-      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-        <button type="button" class="btn-restart-hero btn-sm" onclick="restartChapterSession(${ch})" title="Recommencer ce chapitre à zéro">
-          <span class="spin-ico">↺</span> Refaire la session
-        </button>
-        <button class="btn btn-sm btn-ghost" ${ch === 0 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.max(0, ch - 1)})">← Chapitre précédent</button>
-        <button class="btn btn-sm btn-ghost" ${ch >= CHAPTERS.length - 1 ? 'disabled style="opacity:.35"' : ''} onclick="openChapter(${Math.min(CHAPTERS.length - 1, ch + 1)})">Chapitre suivant →</button>
-      </div>
+    const bottomNav = `<div class="ch-foot">
+      <button class="btn btn-sm btn-ghost" onclick="openModule()">← Chapitres</button>
+      ${ch < CHAPTERS.length - 1 ? `<button class="btn btn-sm btn-solid" onclick="openChapter(${ch + 1})">Chapitre suivant →</button>` : ''}
     </div>`;
 
     if (!qs.length){
-      el.innerHTML = crumbs + navCh + `<div class="card" style="margin-bottom:18px"><span class="chip">CHAPITRE ${String(ch + 1).padStart(2, '0')}</span>
+      el.innerHTML = navCh + `<div class="card" style="margin-bottom:18px"><span class="chip">CHAPITRE ${String(ch + 1).padStart(2, '0')}</span>
         <h2 style="font-size:1.7rem;margin:10px 0 4px">${modCfg.title}</h2><p class="mono" style="font-size:11px;color:var(--ink-soft)">CHAPITRE ${String(ch + 1).padStart(2, '0')} · ${CHAPTERS[ch].toUpperCase()}</p></div>` +
         `<div class="empty"><div class="big">Aucun QCM ne correspond</div><p>Les annales officielles de ce chapitre sont en cours de numérisation et d'indexation pédagogique. Reviens très prochainement ✚</p></div>` + bottomNav;
       return;
@@ -2753,7 +2796,7 @@ function renderAnnales(){
             <button type="button" class="btn-restart-hero" onclick="restartChapterSession(${ch})" title="Réinitialiser toutes tes réponses et refaire la session à zéro">
               <span class="spin-ico">↺</span> Refaire la session
             </button>
-            <button class="btn btn-sm btn-ghost" onclick="chooseChapter(${ch})" title="Reconfigurer le barème de correction">
+            <button class="btn btn-sm btn-ghost" onclick="chooseChapter(${ch}, true)" title="Reconfigurer le barème de correction">
               ⚙️ Changer barème
             </button>
             ${sum.answeredCount > 0 ? `
@@ -2811,7 +2854,7 @@ function renderAnnales(){
             <button class="btn btn-sm btn-ghost" onclick="anView.showReport = false; renderAnnales(); scrollToQcm();" title="Masquer le rapport et revoir les questions une par une">
               👁️ Revoir questions
             </button>
-            <button class="btn btn-sm btn-ghost" onclick="chooseChapter(${ch})" title="Reconfigurer le barème">
+            <button class="btn btn-sm btn-ghost" onclick="chooseChapter(${ch}, true)" title="Reconfigurer le barème">
               ⚙️ Changer barème
             </button>
           </div>
@@ -3093,7 +3136,7 @@ function renderAnnales(){
       </div>
     `;
 
-    el.innerHTML = crumbs + navCh + (showReport ? reportHtml : practiceHeaderHtml) + `
+    el.innerHTML = navCh + (showReport ? reportHtml : '') + `
       <div id="qcm-focus-anchor"></div>
       ${!filtered.length ? `
         <div class="qcm-stepper-wrap" id="qcm-stepper-container" style="padding:10px 16px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
@@ -3119,10 +3162,10 @@ function renderAnnales(){
             <span style="font-weight:800;font-size:13.5px;color:var(--ink)">
               QUESTION ${v.qi + 1} / ${filtered.length}
             </span>
-            <span class="chip" style="font-size:10px;font-weight:700">
+            <span class="chip qs-opt" style="font-size:10px;font-weight:700">
               ${Math.round(((v.qi + 1) / filtered.length) * 100)}% DU CHAPITRE
             </span>
-            <span style="font-size:11.5px;color:var(--ink-soft)">
+            <span class="qs-opt" style="font-size:11.5px;color:var(--ink-soft)">
               (Session ${filtered[v.qi].q.y} · ${filtered[v.qi].q.t} · ${filtered[v.qi].q.isAlger ? '🇩🇿 Alger' : (filtered[v.qi].q.isOran ? '🏥 Oran' : '🎓 ' + (filtered[v.qi].q.faculty || 'Mostaganem'))})
             </span>
           </div>
@@ -3134,7 +3177,7 @@ function renderAnnales(){
                     onclick="toggleQcmFilters()" 
                     style="padding:4px 12px;font-size:11.5px;display:inline-flex;align-items:center;gap:6px"
                     title="Afficher/Masquer les filtres (Session, Type, Faculté)">
-              <span>⚙️ Filtres &amp; Session</span>
+              <span>⚙️ Filtres</span>
               ${hasActiveFilters ? '<span class="chip" style="background:var(--red);color:#fff;font-size:9.5px;padding:1px 5px;line-height:1">Actif</span>' : ''}
               <span class="toggle-arrow" style="font-size:9px">${anView.showFilters ? '▲' : '▼'}</span>
             </button>
@@ -3145,11 +3188,11 @@ function renderAnnales(){
                     onclick="toggleQcmPalette()" 
                     style="padding:4px 12px;font-size:11.5px;display:inline-flex;align-items:center;gap:6px"
                     title="Afficher/Masquer la grille des questions">
-              <span>🔢 Grille des questions (${v.qi + 1}/${filtered.length})</span>
+              <span>🔢 Questions</span>
               <span class="toggle-arrow" style="font-size:9px">${anView.showPalette ? '▲' : '▼'}</span>
             </button>
 
-            <div style="display:inline-flex;background:var(--paper);border:1.5px solid var(--line);border-radius:9px;padding:2px">
+            <div class="qs-opt" style="display:inline-flex;background:var(--paper);border:1.5px solid var(--line);border-radius:9px;padding:2px">
               <button type="button" class="fchip ${displayMode === 'single' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('single')" title="Afficher une question à la fois">◻️ 1 par 1</button>
               <button type="button" class="fchip ${displayMode === 'list' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('list')" title="Afficher toutes les questions">☰ Liste</button>
             </div>
@@ -3187,12 +3230,12 @@ function renderAnnales(){
                     onclick="toggleQcmFilters()" 
                     style="padding:4px 12px;font-size:11.5px;display:inline-flex;align-items:center;gap:6px"
                     title="Afficher/Masquer les filtres (Session, Type, Faculté)">
-              <span>⚙️ Filtres &amp; Session</span>
+              <span>⚙️ Filtres</span>
               ${hasActiveFilters ? '<span class="chip" style="background:var(--red);color:#fff;font-size:9.5px;padding:1px 5px;line-height:1">Actif</span>' : ''}
               <span class="toggle-arrow" style="font-size:9px">${anView.showFilters ? '▲' : '▼'}</span>
             </button>
 
-            <div style="display:inline-flex;background:var(--paper);border:1.5px solid var(--line);border-radius:9px;padding:2px">
+            <div class="qs-opt" style="display:inline-flex;background:var(--paper);border:1.5px solid var(--line);border-radius:9px;padding:2px">
               <button type="button" class="fchip ${displayMode === 'single' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('single')" title="Afficher une question à la fois">◻️ 1 par 1</button>
               <button type="button" class="fchip ${displayMode === 'list' ? 'on' : ''}" style="padding:2px 8px;font-size:10.5px" onclick="setDisplayMode('list')" title="Afficher toutes les questions">☰ Liste</button>
             </div>
@@ -3234,7 +3277,7 @@ function renderQcmCardHtml(ch, j, q, isSingleMode, qiIndex, totalCount){
   const displayTotal = totalCount || (QCMS[ch] || []).length;
   const key = ch + ':' + j;
   const a = state.answers[key];
-  const isExplVisible = !!(state.showExpl && state.showExpl[key]);
+  const isExplVisible = !(state.showExpl && key in state.showExpl) || !!state.showExpl[key]; // affichée d'office après la réponse
   const letters = ['A','B','C','D','E'];
   const isRepeated = q.sources && q.sources.length > 1;
   const modeActive = (state.scoringModes && state.scoringModes[ch]) || 'partiel';
@@ -3587,7 +3630,7 @@ function validateQcm(ch, j){
 function toggleExplanation(ch, j){
   const key = ch + ':' + j;
   if (!state.showExpl) state.showExpl = {};
-  state.showExpl[key] = !state.showExpl[key];
+  state.showExpl[key] = !(key in state.showExpl ? state.showExpl[key] : true); // visible par défaut
   const el = $('expl-' + ch + '-' + j);
   const btn = $('btn-expl-' + ch + '-' + j);
   if (el) el.style.display = state.showExpl[key] ? 'block' : 'none';
@@ -3941,7 +3984,7 @@ function renderTracker(){
               onclick="toggleLayer(${r.i},${nl})" style="margin:0 auto">${r.L[nl] ? '✓' : ''}</button></td>`;
           }).join('')}
           <td class="mono" style="font-size:.8rem;text-align:center">${r.tot ? `<span class="chip ${r.qcmValid ? 'g' : ''}">${r.done}/${r.tot}</span>` : '<span style="color:var(--ink-soft)">—</span>'}</td>
-          <td style="text-align:center"><button class="btn btn-sm btn-ghost" onclick="go('annales');chooseChapter(${r.i})" style="font-weight:700">Practise →</button></td>
+          <td style="text-align:center"><button class="btn btn-sm btn-ghost" onclick="go('annales');chooseChapter(${r.i})" style="font-weight:700">Commencer →</button></td>
         </tr>`).join('') || `<tr><td colspan="6"><div class="empty" style="border:none"><div class="big">Aucun cours ne correspond</div><p>Modifie ta recherche ou tes filtres pour afficher les cours.</p></div></td></tr>`}
       </tbody>
     </table>
@@ -4360,7 +4403,7 @@ function updateSide(){
   const dashYearOverline = $('dashYearOverline');
   if (dashYearOverline) dashYearOverline.textContent = yearInfo.subTitle;
   const dashProgTitle = $('dashProgramTitle');
-  if (dashProgTitle) dashProgTitle.innerHTML = `Bâtiment <b>${yearInfo.code}</b> · ${yearInfo.title}`;
+  if (dashProgTitle) dashProgTitle.innerHTML = `Modules de <b>${yearInfo.title}</b>`;
 }
 
 function renderAll(){
