@@ -183,11 +183,11 @@
           </optgroup>
           <optgroup label="5ème Année (Mostaganem)">
             <option value="Endocrinologie">🩺 Endocrinologie</option>
-            <option value="OTR">🦴 OTR</option>
             <option value="Uro-néphrologie">🫘 Uro-néphrologie</option>
             <option value="Psychiatrie">🧠 Psychiatrie</option>
             <option value="Gynécologie">🤰 Gynécologie</option>
             <option value="Pédiatrie">👶 Pédiatrie</option>
+            <option value="OTR">🦴 OTR</option>
           </optgroup>
           <option value="Général">📚 Général / Transversal</option>
         </select>
@@ -352,8 +352,6 @@
 <script src="data/justifications-psy.js"></script>
 <script src="data/justifications-pediatrie.js"></script>
 <script src="data/justifications-uro.js"></script>
-<script src="data/qcm-otr.js"></script>
-<script src="data/justifications-otr.js"></script>
 <script src="data/qcm-systemique.js"></script>
 <script src="data/justifications-systemique.js"></script>
 <script src="data/qcm-medlegale.js"></script>
@@ -362,6 +360,8 @@
 <script src="data/justifications-medtravail.js"></script>
 <script src="data/qcm-geriatrie.js"></script>
 <script src="data/justifications-geriatrie.js"></script>
+<script src="data/qcm-otr.js"></script>
+<script src="data/justifications-otr.js"></script>
 <script src="data/qcm-dermato.js"></script>
 <script src="data/justifications-dermato.js"></script>
 <script src="data/qcm-umc.js"></script>
@@ -451,14 +451,14 @@ const ACADEMIC_YEARS = {
     code: '5A',
     facBadge: '5ᵉ ANNÉE · MÉDECINE',
     subTitle: 'Université de Mostaganem · 5ème année',
-    desc: 'Programme officiel du 2ème cycle · 6 modules cliniques',
+    desc: 'Programme officiel du 2ème cycle · 7 modules cliniques',
     modules: [
       { id:'endo', ico:'🩺', name:'Endocrinologie', active:true, chaps:25, qcm:369, desc:'Annales complètes EMD, contrôles et rattrapages' },
-      { id:'otr', ico:'🦴', name:'OTR (Orthopédie - Traumatologie - Rhumatologie - MPR)', active:true, chaps:45, qcm:686, desc:'Annales Officielles Mostaganem & Banque Oran · 686 QCM' },
       { id:'uro', ico:'🫘', name:'Uro-néphrologie', active:true, chaps:34, qcm:920, desc:'Urologie et néphrologie · 22 cours & 12 TD officiels' },
       { id:'psy', ico:'🧠', name:'Psychiatrie', active:true, chaps:23, qcm:197, desc:'Psychiatrie et santé mentale · 23 cours & TD · 197 QCM d\'annales certifiées (Mostaganem & Oran)' },
       { id:'gyn', ico:'🤰', name:'Gynécologie', active:true, chaps:37, qcm:466, desc:'Gynécologie et obstétrique · 37 cours officiels · 466 QCM d\'annales' },
       { id:'ped', ico:'👶', name:'Pédiatrie', active:true, chaps:57, qcm:190, desc:'Pédiatrie et néonatalogie · 49 cours & 8 TD officiels' },
+      { id:'otr', ico:'🦴', name:'OTR (Orthopédie-Traumatologie & Rhumatologie)', active:true, chaps:46, qcm:796, desc:'OTR · 46 cours · 796 QCM d\'annales (Faculté d\'Oran)' },
       { id:'gen5', ico:'📚', name:'Général / Transversal 5A', desc:'Questions transversales communes aux modules de 5ème année', transversal:true }
     ]
   },
@@ -808,63 +808,6 @@ const MODULE_CONFIGS = {
       ],
     getRawQcms: () => (window.QCM_GYNECO && Array.isArray(window.QCM_GYNECO)) ? window.QCM_GYNECO : [],
     getJustifications: () => (window.JUSTIFICATIONS_GYNECO || {})
-  },
-  'otr': {
-    id: 'otr',
-    year: '5eme',
-    title: 'OTR',
-    ico: '🦴',
-    fullName: 'Orthopédie - Traumatologie - Rhumatologie - MPR',
-    subText: 'FACULTÉ DE MÉDECINE DE MOSTAGANEM • 5ÈME ANNÉE • 45 COURS • ANNALES OFFICIELLES MOSTAGANEM (2019-2026: 144 QCM) & BANQUE ORAN (558 QCM)',
-    chapters: [
-      "Algoneurodystrophie",
-      "Arthrite septique",
-      "Arthrose (hanche, genou)",
-      "Boiterie chez l'enfant",
-      "Complications de l'immobilité et décubitus",
-      "Connectivites",
-      "Déviations rachidiennes",
-      "Épaule douloureuse",
-      "Fracture de jambe ouverte et fermée",
-      "Fracture de l'anneau pelvien",
-      "Fracture de l'extrémité proximale de l'avant-bras",
-      "Fracture de l'humérus",
-      "Fracture des os du carpe",
-      "Fracture diaphysaire des deux os de l'avant-bras",
-      "Fracture du cou du pied",
-      "Fracture du fémur proximal",
-      "Fracture du poignet",
-      "Généralités Fractures de l'adulte",
-      "Généralités Fractures de l'enfant",
-      "Infections ostéo-articulaires",
-      "Les amputations des membres",
-      "Lésions nerveuses périphériques",
-      "Les maladies luxantes de la hanche",
-      "Les traumatismes de l'épaule",
-      "Les traumatismes vertébraux médullaires",
-      "Lombalgies et lombosciatalgies",
-      "Luxation du coude",
-      "Mal de Pott et tuberculose ostéo-articulaire",
-      "Malformations congénitales du pied chez l'enfant",
-      "Membre inférieur et locomotion",
-      "Membre supérieur et préhension",
-      "Ostéopathies reminéralisantes",
-      "Paralysie obstétricale du plexus brachial",
-      "PEC des atteintes articulaires",
-      "PEC des lésions traumatiques en MPR",
-      "Polyarthrite rhumatoïde",
-      "Principes et base en MPR",
-      "Rhumatisme métabolique (goutte)",
-      "Situations d'handicap et qualité de vie",
-      "Spondylarthrites",
-      "Syndrome des loges",
-      "Syndrome du canal carpien",
-      "Traumatisme du bassin",
-      "Traumatismes ligamentaires et osseux du genou",
-      "Tumeurs osseuses"
-    ],
-    getRawQcms: () => (window.QCM_OTR && Array.isArray(window.QCM_OTR)) ? window.QCM_OTR : [],
-    getJustifications: () => (window.JUSTIFICATIONS_OTR || {})
   },
   'neuro': {
     id: 'neuro',
@@ -1358,6 +1301,11 @@ MODULE_CONFIGS['geriatrie'] = { id:'geriatrie', year:'6eme', title:'Gériatrie',
   chapters:['Introduction à la gériatrie, gérontologie, démographie, raisonnement gériatrique et gérontechnologie','Vieillissement physiologique, sémiologie atypique et stratégies préventives','Textes législatifs, déontologie, éthique, bientraitance, isolement social et maltraitance','Fragilité, autonomie, dépendance, maintien à domicile et activité physique adaptée (APA)','Chutes, troubles de la marche et de l’équilibre, syndrome post-chute et complications traumatiques (HSD)','Immobilisation, complications de décubitus et escarres','Déshydratation et troubles hydro-électrolytiques du sujet âgé','Troubles vésico-sphinctériens de la personne âgée','Grands syndromes neuropsychiques : Confusion, troubles neurocognitifs, dépression, sommeil et glissement','Douleurs, soins palliatifs et accompagnement de fin de vie','Polypathologie, polymédication, iatrogénie et règles de prescription médicamenteuse','Troubles nutritionnels, dénutrition, sarcopénie et obésité du sujet âgé'],
   getRawQcms: () => (window.QCM_GERIATRIE && Array.isArray(window.QCM_GERIATRIE)) ? window.QCM_GERIATRIE : [],
   getJustifications: () => (window.JUSTIFICATIONS_GERIATRIE || {}) };
+MODULE_CONFIGS['otr'] = { id:'otr', year:'5eme', title:'OTR', ico:'🦴', fullName:'Orthopédie-Traumatologie & Rhumatologie',
+  subText:'FACULTÉ DE MÉDECINE D’ORAN · 5ÈME ANNÉE · 46 COURS · 796 QCM D\'ANNALES',
+  chapters:["Généralités sur les fractures de l’adulte","Luxation de l’épaule","Disjonction acromio-claviculaire","Fracture de la clavicule","Fracture de l’humérus proximal","Fractures de la diaphyse humérale","Fractures de la palette humérale","Fractures de l’extrémité proximale des 2 os de l’avant-bras","Luxation du coude","Fractures du poignet et de l’extrémité inférieure du radius","Fractures des os du carpe","Fractures des os de l’avant-bras","Fractures de l’anneau pelvien","Fractures-luxations traumatiques de la hanche","Fractures du fémur proximal","Syndrome des loges","Fractures de jambe ouverte et fermée","Fractures du pilon tibial","Fractures bi-malléolaires","Traumatismes du rachis","Traumatismes ligamentaires et osseux du genou","Polyarthrite rhumatoïde","Spondyloarthrites","Lombalgies et lombosciatique","Arthrose (genou, hanche)","Syndrome du canal carpien","Rhumatismes métaboliques (goutte)","Algoneurodystrophie (SDRC)","Épaule douloureuse","Ostéopathies déminéralisantes (ostéoporose, ostéomalacie)","Arthrites infectieuses septiques et mal de Pott","Fractures de l’enfant et traumatismes du cartilage de croissance","Maladies luxantes de la hanche","Déviations rachidiennes (scoliose, cyphose)","Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)","Boiterie chez l’enfant et l’adolescent","Malformations congénitales du pied chez l’enfant","Tumeurs osseuses (bénignes, malignes, primitives, secondaires)","Membres inférieurs et locomotion","Membres supérieurs et préhension","Situations de handicap et qualité de vie","Principes de base en MPR","Complications de l’immobilité et du décubitus","Amputations des membres","Prise en charge MPR des atteintes articulaires","Prise en charge MPR des lésions traumatiques"],
+  getRawQcms: () => (window.QCM_OTR && Array.isArray(window.QCM_OTR)) ? window.QCM_OTR : [],
+  getJustifications: () => (window.JUSTIFICATIONS_OTR || {}) };
 MODULE_CONFIGS['dermato'] = { id:'dermato', year:'6eme', title:'Dermatologie', ico:'🧴', fullName:'Dermatologie',
   subText:'FACULTÉ DE MÉDECINE DE MOSTAGANEM · 6ÈME ANNÉE · 17 COURS · 309 QCM D\'ANNALES (2020-2025)',
   chapters:['Démarche diagnostique et lésions élémentaires','Urticaire et angio-œdème','Gale, pédiculoses et leishmaniose','Carcinomes cutanés et mélanome','Acné','Psoriasis','Eczéma et dermatite atopique','Infections sexuellement transmissibles','Mycoses superficielles','Infections cutanées bactériennes et tuberculose','Ulcères de jambe','Prurit','Toxidermies','Alopécies','Anomalies vasculaires','Dermocorticoïdes et traitements','Autres dermatoses et gestes cliniques'],
@@ -1393,8 +1341,6 @@ MODULE_CONFIGS['neurologie'] = MODULE_CONFIGS['neuro'];
 MODULE_CONFIGS['cardiologie'] = MODULE_CONFIGS['cardio'];
 MODULE_CONFIGS['gynecologie'] = MODULE_CONFIGS['gyn'];
 MODULE_CONFIGS['psychiatrie'] = MODULE_CONFIGS['psy'];
-MODULE_CONFIGS['orthopedie'] = MODULE_CONFIGS['otr'];
-MODULE_CONFIGS['rhumatologie'] = MODULE_CONFIGS['otr'];
 MODULE_CONFIGS['pediatrie'] = MODULE_CONFIGS['ped'];
 MODULE_CONFIGS['uro-nephrologie'] = MODULE_CONFIGS['uro'];
 MODULE_CONFIGS['urologie'] = MODULE_CONFIGS['uro'];
