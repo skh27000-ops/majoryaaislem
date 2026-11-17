@@ -6353,38 +6353,6 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Excès de tissu ostéoïde.",
     "_synthese": "Ostéomalacie carentielle."
   },
-  "mos-001": {
-    "A": "Vrai. Urgence médico-chirurgicale.",
-    "B": "Vrai. Destruction articulaire rapide.",
-    "C": "Vrai. La ponction est l’examen clé.",
-    "D": "Faux. Souvent monoarticulaire.",
-    "E": "Vrai. Genou fréquent.",
-    "_synthese": "Arthrite septique : urgence, ponction, genou."
-  },
-  "mos-002": {
-    "A": "Vrai. Voie hématogène.",
-    "B": "Vrai. Inoculation directe.",
-    "C": "Vrai. Contiguïté.",
-    "D": "Faux. Pas lymphatique.",
-    "E": "Faux. Plusieurs sont justes.",
-    "_synthese": "Infection ostéo-articulaire : hématogène, directe, contiguïté."
-  },
-  "mos-011": {
-    "A": "Faux. Chirurgie.",
-    "B": "Vrai. Antibiothérapie.",
-    "C": "Faux. Immobilisation.",
-    "D": "Faux. Traction.",
-    "E": "Faux. Kinésithérapie.",
-    "_synthese": "Lyme : antibiotiques."
-  },
-  "mos-012": {
-    "A": "Vrai. Articulaire.",
-    "B": "Vrai. Cardiaque.",
-    "C": "Vrai. Neurologique.",
-    "D": "Vrai. Toutes possibles.",
-    "E": "Faux. Pas seulement.",
-    "_synthese": "Lyme : atteintes articulaire, cardiaque, neurologique."
-  },
   "mos-396": {
     "A": "Vrai. Mal de Pott : spondylodiscite tuberculeuse.",
     "B": "Faux. Horton : artérite.",
@@ -6481,30 +6449,6 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Traitement médical d’abord.",
     "_synthese": "Mal de Pott : hématogène, évolution en trois phases, traitement médical d’abord."
   },
-  "otr-443": {
-    "A": "Vrai. Le germe provient souvent d’un foyer à distance (peau, dents, poumon, urines) et gagne l’articulation par voie hématogène.",
-    "B": "Vrai. Le staphylocoque doré est le germe le plus fréquent des arthrites septiques de l’adulte comme de l’enfant.",
-    "C": "Faux. On ne retarde jamais l’antibiothérapie d’une arthrite septique pour attendre le germe : on prélève (ponction, hémocultures) puis on traite en urgence.",
-    "D": "Faux. L’arthrite microcristalline n’est pas à éliminer avant le traitement ; devant le moindre doute d’infection, on traite.",
-    "E": "Vrai. Le traitement probabiliste est adapté secondairement à l’antibiogramme.",
-    "_synthese": "Arthrite septique : urgence thérapeutique. Ponction articulaire avec examen direct, culture et recherche de cristaux, hémocultures, antibiothérapie probabiliste immédiate puis adaptée, drainage et immobilisation."
-  },
-  "otr-444": {
-    "A": "Vrai. L’immunodépression du VIH augmente le risque d’infection articulaire.",
-    "B": "Faux. L’ostéoporose est une ostéopathie fragilisante mais n’expose pas à l’infection articulaire.",
-    "C": "Vrai. Les rhumatismes inflammatoires chroniques (PR) fragilisent l’articulation et s’accompagnent d’immunosuppression thérapeutique.",
-    "D": "Faux. L’insuffisance rénale aiguë n’est pas un facteur classique ; l’insuffisance rénale chronique, elle, expose aux infections.",
-    "E": "Vrai. La corticothérapie au long cours diminue les défenses immunitaires.",
-    "_synthese": "Facteurs de risque d’arthrite infectieuse : immunodépression (VIH, corticoïdes, diabète), articulation pathologique (PR, prothèse), gestes intra-articulaires, foyer infectieux à distance."
-  },
-  "otr-445": {
-    "A": "Vrai. Un foyer infectieux à distance (peau, dent, poumon, urines) est la source de la bactériémie.",
-    "B": "Vrai. Le terrain immunodéprimé favorise la dissémination hématogène.",
-    "C": "Faux. Un geste intra-articulaire (infiltration, arthroscopie) donne une contamination directe, non hématogène.",
-    "D": "Faux. Une lésion cutanée en regard de l’articulation évoque une inoculation directe ou une contiguïté.",
-    "E": "Faux. Un traumatisme articulaire inocule le germe directement.",
-    "_synthese": "Voies de contamination : hématogène (foyer à distance, immunodépression), directe (plaie, geste intra-articulaire), contiguïté (ostéite)."
-  },
   "otr-446": {
     "A": "Vrai. Le mal de Pott peut siéger à tous les étages, y compris cervical (plus rare).",
     "B": "Faux. L’atteinte du mur postérieur est possible et expose à la compression médullaire.",
@@ -6520,14 +6464,6 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. L’IRM est l’examen le plus précoce.",
     "E": "Vrai. L’image en fuseau paravertébral thoracique correspond à l’abcès froid.",
     "_synthese": "Mal de Pott : géodes en miroir, pincement discal, abcès en fuseau. L’IRM est l’examen le plus précoce et le plus performant."
-  },
-  "otr-448": {
-    "A": "Faux. Le LCR est étudié dans les méningites.",
-    "B": "Faux. Le liquide pleural est étudié dans les pleurésies.",
-    "C": "Vrai. L’isolement du germe dans le liquide synovial fait le diagnostic de certitude.",
-    "D": "Vrai. La culture d’une biopsie synoviale peut aussi l’identifier.",
-    "E": "Vrai. Les hémocultures sont positives dans une partie des cas.",
-    "_synthese": "Diagnostic de certitude d’une arthrite septique : germe retrouvé dans le liquide synovial, la biopsie ou les hémocultures."
   },
   "otr-452": {
     "A": "Faux selon le cours. Dans le mal de Pott, la lésion débute au corps vertébral, contrairement aux spondylodiscites à pyogènes qui débutent par le disque.",
@@ -6552,14 +6488,6 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Une IDR négative n’élimine pas le diagnostic (anergie, forme évolutive).",
     "E": "Faux. Le traitement médical antituberculeux est débuté d’abord ; la chirurgie est réservée aux complications.",
     "_synthese": "Mal de Pott : forme la plus fréquente de tuberculose ostéoarticulaire, évolution cyclique, traitement antituberculeux de 9 à 12 mois, chirurgie secondaire."
-  },
-  "otr-455": {
-    "A": "Vrai. Le diabète favorise les infections articulaires.",
-    "B": "Vrai. Un traumatisme articulaire (plaie, ponction) peut inoculer un germe.",
-    "C": "Vrai. L’âge jeune (nouveau-né, nourrisson) expose à l’arthrite septique, par voie hématogène et ostéo-articulaire.",
-    "D": "Vrai. Une prothèse articulaire est une porte d’entrée classique.",
-    "E": "Faux. Les antalgiques non morphiniques ne favorisent pas l’infection.",
-    "_synthese": "Facteurs favorisants : diabète, immunodépression, traumatisme, prothèse, geste intra-articulaire, jeune âge."
   },
   "mos-240": {
     "A": "Faux. La palette est la région concernée, mais la fracture typique est supracondylienne.",
@@ -7791,54 +7719,6 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Recherchée dos penché en avant.",
     "E": "Faux. Elle se voit à l’examen clinique.",
     "_synthese": "Gibbosité : rotation vertébrale visible en antéflexion."
-  },
-  "mos-004": {
-    "A": "Vrai. Métaphysaire.",
-    "B": "Faux. Pas épiphysaire.",
-    "C": "Faux. Pas diaphysaire.",
-    "D": "Faux. Une est juste.",
-    "E": "Faux. Pas toutes.",
-    "_synthese": "Infection ostéo-articulaire : douleur métaphysaire."
-  },
-  "mos-005": {
-    "A": "Faux. Staphylocoque doré.",
-    "B": "Vrai. Enfant en croissance.",
-    "C": "Faux. Métaphyse.",
-    "D": "Vrai. Bactériémie.",
-    "E": "Faux. Possible chez le nourrisson.",
-    "_synthese": "Ostéomyélite : staphylocoque, métaphyse, enfant."
-  },
-  "mos-006": {
-    "A": "Vrai. Douleur métaphysaire.",
-    "B": "Vrai. Fièvre.",
-    "C": "Faux. Début brutal.",
-    "D": "Faux. Douleur localisée.",
-    "E": "Faux. Pas d’adénopathies.",
-    "_synthese": "Ostéomyélite : douleur métaphysaire et fièvre."
-  },
-  "mos-008": {
-    "A": "Faux. Douleur intense.",
-    "B": "Vrai. Douleur, œdème, fièvre.",
-    "C": "Faux. Pas minime.",
-    "D": "Faux. Pas déformation.",
-    "E": "Faux. Pas crépitation.",
-    "_synthese": "Ostéomyélite : douleur intense, œdème, fièvre."
-  },
-  "mos-013": {
-    "A": "Faux. Radiographie tardive.",
-    "B": "Faux. Échographie.",
-    "C": "Vrai. IRM : diagnostic précoce.",
-    "D": "Faux. Scanner.",
-    "E": "Faux. Scintigraphie.",
-    "_synthese": "Ostéomyélite : IRM."
-  },
-  "mos-015": {
-    "A": "Faux. Pseudarthrose.",
-    "B": "Faux. Cal vicieux.",
-    "C": "Faux. Raideur.",
-    "D": "Vrai. Abcès osseux.",
-    "E": "Faux. Nécrose.",
-    "_synthese": "Ostéomyélite : abcès osseux."
   },
   "mos-221": {
     "A": "Faux. L’enfant pré-scolaire n’est pas concerné.",
@@ -9406,22 +9286,6 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Des examens neurologiques et musculo-squelettiques normaux orientent vers une forme physiologique.",
     "E": "Faux. Une déviation de 10° se situe dans les limites physiologiques entre 3 et 6 ans.",
     "_synthese": "Genu valgum pathologique : trop précoce, asymétrique, associé à une maladie (rachitisme), déviation importante."
-  },
-  "mos-007": {
-    "A": "Faux. Douleur vive.",
-    "B": "Vrai. Douleur, œdème, rougeur.",
-    "C": "Faux. Pas minime.",
-    "D": "Faux. Pas déformation.",
-    "E": "Faux. Pas crépitation.",
-    "_synthese": "Infection de la main : douleur, œdème, rougeur."
-  },
-  "mos-014": {
-    "A": "Faux. Pas l’os.",
-    "B": "Faux. Pas le muscle.",
-    "C": "Vrai. Le doigt.",
-    "D": "Faux. Pas le tendon.",
-    "E": "Faux. Pas l’articulation.",
-    "_synthese": "Panaris : infection du doigt."
   },
   "mos-350": {
     "A": "Faux. Immobilisation.",
@@ -11134,5 +10998,157 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Pas de charge.",
     "E": "Faux. Pas d’appui total.",
     "_synthese": "Fracture non consolidée."
+  },
+  "mos-001": {
+    "A": "Vrai. Urgence médico-chirurgicale.",
+    "B": "Vrai. Destruction articulaire rapide.",
+    "C": "Vrai. La ponction est l’examen clé.",
+    "D": "Faux. Souvent monoarticulaire.",
+    "E": "Vrai. Genou fréquent.",
+    "_synthese": "Arthrite septique : urgence, ponction, genou."
+  },
+  "mos-002": {
+    "A": "Vrai. Voie hématogène.",
+    "B": "Vrai. Inoculation directe.",
+    "C": "Vrai. Contiguïté.",
+    "D": "Faux. Pas lymphatique.",
+    "E": "Faux. Plusieurs sont justes.",
+    "_synthese": "Infection ostéo-articulaire : hématogène, directe, contiguïté."
+  },
+  "mos-004": {
+    "A": "Vrai. Métaphysaire.",
+    "B": "Faux. Pas épiphysaire.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Une est juste.",
+    "E": "Faux. Pas toutes.",
+    "_synthese": "Infection ostéo-articulaire : douleur métaphysaire."
+  },
+  "mos-005": {
+    "A": "Faux. Staphylocoque doré.",
+    "B": "Vrai. Enfant en croissance.",
+    "C": "Faux. Métaphyse.",
+    "D": "Vrai. Bactériémie.",
+    "E": "Faux. Possible chez le nourrisson.",
+    "_synthese": "Ostéomyélite : staphylocoque, métaphyse, enfant."
+  },
+  "mos-006": {
+    "A": "Vrai. Douleur métaphysaire.",
+    "B": "Vrai. Fièvre.",
+    "C": "Faux. Début brutal.",
+    "D": "Faux. Douleur localisée.",
+    "E": "Faux. Pas d’adénopathies.",
+    "_synthese": "Ostéomyélite : douleur métaphysaire et fièvre."
+  },
+  "mos-007": {
+    "A": "Faux. Douleur vive.",
+    "B": "Vrai. Douleur, œdème, rougeur.",
+    "C": "Faux. Pas minime.",
+    "D": "Faux. Pas déformation.",
+    "E": "Faux. Pas crépitation.",
+    "_synthese": "Infection de la main : douleur, œdème, rougeur."
+  },
+  "mos-008": {
+    "A": "Faux. Douleur intense.",
+    "B": "Vrai. Douleur, œdème, fièvre.",
+    "C": "Faux. Pas minime.",
+    "D": "Faux. Pas déformation.",
+    "E": "Faux. Pas crépitation.",
+    "_synthese": "Ostéomyélite : douleur intense, œdème, fièvre."
+  },
+  "mos-009": {
+    "A": "Faux. Le risque existe.",
+    "B": "Faux. Il n’est pas très rare.",
+    "C": "Vrai. Une septicémie est possible : un foyer osseux ou articulaire peut essaimer dans le sang.",
+    "D": "Faux. Elle n’est pas systématique.",
+    "E": "Faux. Il n’est pas très élevé.",
+    "_synthese": "Une infection ostéo-articulaire peut se compliquer de septicémie : risque possible, non systématique."
+  },
+  "mos-010": {
+    "A": "Vrai. L’adulte est concerné (plaies, piqûres, panaris).",
+    "B": "Vrai. L’enfant l’est aussi.",
+    "C": "Vrai. Les deux populations sont concernées.",
+    "D": "Faux. Pas spécifique du sujet âgé.",
+    "E": "Faux. Pas spécifique de l’adolescent.",
+    "_synthese": "Infection de la main : adulte et enfant."
+  },
+  "mos-011": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Antibiothérapie.",
+    "C": "Faux. Immobilisation.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Lyme : antibiotiques."
+  },
+  "mos-012": {
+    "A": "Vrai. Articulaire.",
+    "B": "Vrai. Cardiaque.",
+    "C": "Vrai. Neurologique.",
+    "D": "Vrai. Toutes possibles.",
+    "E": "Faux. Pas seulement.",
+    "_synthese": "Lyme : atteintes articulaire, cardiaque, neurologique."
+  },
+  "mos-013": {
+    "A": "Faux. Radiographie tardive.",
+    "B": "Faux. Échographie.",
+    "C": "Vrai. IRM : diagnostic précoce.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Ostéomyélite : IRM."
+  },
+  "mos-014": {
+    "A": "Faux. Pas l’os.",
+    "B": "Faux. Pas le muscle.",
+    "C": "Vrai. Le doigt.",
+    "D": "Faux. Pas le tendon.",
+    "E": "Faux. Pas l’articulation.",
+    "_synthese": "Panaris : infection du doigt."
+  },
+  "mos-015": {
+    "A": "Faux. Pseudarthrose.",
+    "B": "Faux. Cal vicieux.",
+    "C": "Faux. Raideur.",
+    "D": "Vrai. Abcès osseux.",
+    "E": "Faux. Nécrose.",
+    "_synthese": "Ostéomyélite : abcès osseux."
+  },
+  "otr-443": {
+    "A": "Vrai. Le germe provient souvent d’un foyer à distance (peau, dents, poumon, urines) et gagne l’articulation par voie hématogène.",
+    "B": "Vrai. Le staphylocoque doré est le germe le plus fréquent des arthrites septiques de l’adulte comme de l’enfant.",
+    "C": "Faux. On ne retarde jamais l’antibiothérapie d’une arthrite septique pour attendre le germe : on prélève (ponction, hémocultures) puis on traite en urgence.",
+    "D": "Faux. L’arthrite microcristalline n’est pas à éliminer avant le traitement ; devant le moindre doute d’infection, on traite.",
+    "E": "Vrai. Le traitement probabiliste est adapté secondairement à l’antibiogramme.",
+    "_synthese": "Arthrite septique : urgence thérapeutique. Ponction articulaire avec examen direct, culture et recherche de cristaux, hémocultures, antibiothérapie probabiliste immédiate puis adaptée, drainage et immobilisation."
+  },
+  "otr-444": {
+    "A": "Vrai. L’immunodépression du VIH augmente le risque d’infection articulaire.",
+    "B": "Faux. L’ostéoporose est une ostéopathie fragilisante mais n’expose pas à l’infection articulaire.",
+    "C": "Vrai. Les rhumatismes inflammatoires chroniques (PR) fragilisent l’articulation et s’accompagnent d’immunosuppression thérapeutique.",
+    "D": "Faux. L’insuffisance rénale aiguë n’est pas un facteur classique ; l’insuffisance rénale chronique, elle, expose aux infections.",
+    "E": "Vrai. La corticothérapie au long cours diminue les défenses immunitaires.",
+    "_synthese": "Facteurs de risque d’arthrite infectieuse : immunodépression (VIH, corticoïdes, diabète), articulation pathologique (PR, prothèse), gestes intra-articulaires, foyer infectieux à distance."
+  },
+  "otr-445": {
+    "A": "Vrai. Un foyer infectieux à distance (peau, dent, poumon, urines) est la source de la bactériémie.",
+    "B": "Vrai. Le terrain immunodéprimé favorise la dissémination hématogène.",
+    "C": "Faux. Un geste intra-articulaire (infiltration, arthroscopie) donne une contamination directe, non hématogène.",
+    "D": "Faux. Une lésion cutanée en regard de l’articulation évoque une inoculation directe ou une contiguïté.",
+    "E": "Faux. Un traumatisme articulaire inocule le germe directement.",
+    "_synthese": "Voies de contamination : hématogène (foyer à distance, immunodépression), directe (plaie, geste intra-articulaire), contiguïté (ostéite)."
+  },
+  "otr-448": {
+    "A": "Faux. Le LCR est étudié dans les méningites.",
+    "B": "Faux. Le liquide pleural est étudié dans les pleurésies.",
+    "C": "Vrai. L’isolement du germe dans le liquide synovial fait le diagnostic de certitude.",
+    "D": "Vrai. La culture d’une biopsie synoviale peut aussi l’identifier.",
+    "E": "Vrai. Les hémocultures sont positives dans une partie des cas.",
+    "_synthese": "Diagnostic de certitude d’une arthrite septique : germe retrouvé dans le liquide synovial, la biopsie ou les hémocultures."
+  },
+  "otr-455": {
+    "A": "Vrai. Le diabète favorise les infections articulaires.",
+    "B": "Vrai. Un traumatisme articulaire (plaie, ponction) peut inoculer un germe.",
+    "C": "Vrai. L’âge jeune (nouveau-né, nourrisson) expose à l’arthrite septique, par voie hématogène et ostéo-articulaire.",
+    "D": "Vrai. Une prothèse articulaire est une porte d’entrée classique.",
+    "E": "Faux. Les antalgiques non morphiniques ne favorisent pas l’infection.",
+    "_synthese": "Facteurs favorisants : diabète, immunodépression, traumatisme, prothèse, geste intra-articulaire, jeune âge."
   }
 };

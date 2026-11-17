@@ -31435,163 +31435,6 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
-    "id": "mos-001",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "à propos de l’arthrite septique :",
-    "propositions": {
-      "A": "C’est une urgence médico-chirurgicale",
-      "B": "Elle peut entraîner une destruction articulaire rapide",
-      "C": "La ponction articulaire est un examen clé",
-      "D": "Elle est toujours polyarticulaire",
-      "E": "Le genou est une articulation fréquemment touchée"
-    },
-    "question_fr": "à propos de l’arthrite septique :",
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "E"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-002",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "L’infection ostéo-articulaire est une infection osseuse par :",
-    "propositions": {
-      "A": "Voie hématogène lors d’une septicémie ou d’une bactériémie",
-      "B": "Par inoculation directe",
-      "C": "Par contiguïté lors d’une infection proche de la métaphyse",
-      "D": "Voie lymphatique lors d’une septicémie",
-      "E": "Toutes les réponses sont fausses"
-    },
-    "question_fr": "L’infection ostéo-articulaire est une infection osseuse par :",
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-011",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le traitement de la maladie de Lyme est :",
-    "propositions": {
-      "A": "La chirurgie",
-      "B": "Le traitement médical",
-      "C": "L’immobilisation",
-      "D": "La traction",
-      "E": "La kinésithérapie"
-    },
-    "question_fr": "Le traitement de la maladie de Lyme est :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-012",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le principal risque de la maladie de Lyme est :",
-    "propositions": {
-      "A": "L’atteinte articulaire",
-      "B": "L’atteinte cardiaque",
-      "C": "L’atteinte neurologique",
-      "D": "Toutes ces réponses sont possibles",
-      "E": "L’infection"
-    },
-    "question_fr": "Le principal risque de la maladie de Lyme est :",
-    "bonnes_reponses": [
-      "D"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "mos-396",
     "module": "otr",
     "chapitre": "Arthrites infectieuses septiques et mal de Pott",
@@ -32058,133 +31901,6 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
-    "id": "otr-443",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · P2025 A",
-      "type": "EMD",
-      "session": "Normale",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2025 A",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2025"
-      }
-    ],
-    "question": "Au cours d'une arthrite septique lesquels des propositions suivantes sont justes",
-    "propositions": {
-      "A": "Le germe peut se trouver à distance de l'articulation",
-      "B": "Sont due le plus souvent aux staphylocoques",
-      "C": "L'identiﬁcation du germe est obligatoire avant de commencer un traitement antibiotique",
-      "D": "Le traitement ne peut être débuté qu'après avoir éliminé une arthrite microcristalline",
-      "E": "Après résultat de l'antibiogramme, le traitement doit être adapté"
-    },
-    "question_fr": "Au cours d'une arthrite septique lesquels des propositions suivantes sont justes",
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "E"
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false,
-    "note_cle": "Clé ABE conforme au cours ; le corrigé type officiel donnait BE."
-  },
-  {
-    "id": "otr-444",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · P2025 B",
-      "type": "EMD",
-      "session": "Normale",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2025 B",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2025"
-      }
-    ],
-    "question": "Parmi les facteurs exposants à une arthrite infectieuse, on peut énumérer :",
-    "propositions": {
-      "A": "Une infection par le VIH.",
-      "B": "Une ostéopathie fragilisante (une ostéoporose).",
-      "C": "Un rhumatisme inﬂammatoire chronique (polyarthrite rhumatoïde).",
-      "D": "Une insuﬃsance rénale aigue.",
-      "E": "Corticothérapie au long cours."
-    },
-    "question_fr": "Parmi les facteurs exposants à une arthrite infectieuse, on peut énumérer :",
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "E"
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "otr-445",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · P2024 A",
-      "type": "EMD",
-      "session": "Normale",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2024 A",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2024"
-      },
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · Rattrapage 2024",
-        "type": "EMD",
-        "session": "Rattrapage",
-        "annee": "2024"
-      }
-    ],
-    "question": "Au cours d'une arthrite septique à pyogènes quel(s) est/sont les éléments en faveur d'une dissémination par voie hématogène ?",
-    "propositions": {
-      "A": "Existence d'un foyer infectieux à distance de l'articulation",
-      "B": "Un terrain d'immunodépression",
-      "C": "Réalisation d'un geste intra-articulaire",
-      "D": "Existence d'une lésion cutanée en regard de l'articulation",
-      "E": "Traumatisme articulaire"
-    },
-    "question_fr": "Au cours d'une arthrite septique à pyogènes quel(s) est/sont les éléments en faveur d'une dissémination par voie hématogène ?",
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "otr-446",
     "module": "otr",
     "chapitre": "Arthrites infectieuses septiques et mal de Pott",
@@ -32276,53 +31992,6 @@ window.QCM_OTR = [
       "E"
     ],
     "faculty": "Oran & Mostaganem",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "otr-448",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · Rattrapage 2024",
-      "type": "EMD",
-      "session": "Rattrapage",
-      "annee": "2024"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · Rattrapage 2024",
-        "type": "EMD",
-        "session": "Rattrapage",
-        "annee": "2024"
-      },
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2024 B",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2024"
-      }
-    ],
-    "question": "Le diagnostic de certitude d'une arthrite septique à germe banal repose sur la mise en évidence du germe dans :",
-    "propositions": {
-      "A": "Le liquide céphalo-rachidien",
-      "B": "Le liquide pleural",
-      "C": "Le liquide synovial",
-      "D": "La culture d'une biopsie synoviale",
-      "E": "Les hémocultures"
-    },
-    "question_fr": "Le diagnostic de certitude d'une arthrite septique à germe banal repose sur la mise en évidence du germe dans :",
-    "bonnes_reponses": [
-      "C",
-      "D",
-      "E"
-    ],
-    "faculty": "Oran",
     "isOran": true,
     "isAlger": false
   },
@@ -32450,48 +32119,6 @@ window.QCM_OTR = [
     "faculty": "Oran & Mostaganem",
     "isOran": true,
     "isAlger": false
-  },
-  {
-    "id": "otr-455",
-    "module": "otr",
-    "chapitre": "Arthrites infectieuses septiques et mal de Pott",
-    "chapitre_num": 31,
-    "section": "Arthrites infectieuses septiques et mal de Pott",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · P2026 A",
-      "type": "EMD",
-      "session": "Normale",
-      "annee": "2026"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2026 A",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2026"
-      }
-    ],
-    "question": "La survenue d'une arthrite septique peut être favorisée par :",
-    "propositions": {
-      "A": "Un diabète sucré",
-      "B": "Un traumatisme articulaire",
-      "C": "Le jeune âge",
-      "D": "La prothèse articulaire",
-      "E": "Les antalgiques non morphiniques"
-    },
-    "question_fr": "La survenue d'une arthrite septique peut être favorisée par :",
-    "bonnes_reponses": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false,
-    "note_cle": "Clé ABCD ; l’annale ne retenait que AC alors que le traumatisme articulaire et la prothèse sont des facteurs reconnus."
   },
   {
     "id": "mos-240",
@@ -38604,236 +38231,6 @@ window.QCM_OTR = [
     "isOran": true,
     "isAlger": false,
     "note_cle": "L’énoncé de l’annale était mal recopié (« La scoliose ») ; il s’agit de la gibbosité."
-  },
-  {
-    "id": "mos-004",
-    "module": "otr",
-    "chapitre": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "chapitre_num": 35,
-    "section": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Dans l’infection ostéo-articulaire, la douleur est de :",
-    "propositions": {
-      "A": "Siège métaphysaire",
-      "B": "Siège épiphysaire",
-      "C": "Siège diaphysaire",
-      "D": "Toutes les réponses sont fausses",
-      "E": "Toutes les réponses sont justes"
-    },
-    "question_fr": "Dans l’infection ostéo-articulaire, la douleur est de :",
-    "bonnes_reponses": [
-      "A"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-005",
-    "module": "otr",
-    "chapitre": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "chapitre_num": 35,
-    "section": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "L’ostéomyélite est une infection aiguë de l’os :",
-    "propositions": {
-      "A": "due le plus souvent au streptocoque",
-      "B": "qui touche l’enfant jeune en pleine croissance",
-      "C": "qui siège au niveau des épiphyses",
-      "D": "due à une bactériémie",
-      "E": "ne survient pas chez le nourrisson avant 1 an"
-    },
-    "question_fr": "L’ostéomyélite est une infection aiguë de l’os :",
-    "bonnes_reponses": [
-      "B",
-      "D"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-006",
-    "module": "otr",
-    "chapitre": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "chapitre_num": 35,
-    "section": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Les signes cliniques de l’ostéomyélite aiguë sont :",
-    "propositions": {
-      "A": "douleur de siège métaphysaire",
-      "B": "fièvre",
-      "C": "le début est insidieux et progressif",
-      "D": "douleurs articulaires bilatérales",
-      "E": "parfois présence d’adénopathies"
-    },
-    "question_fr": "Les signes cliniques de l’ostéomyélite aiguë sont :",
-    "bonnes_reponses": [
-      "A",
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-008",
-    "module": "otr",
-    "chapitre": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "chapitre_num": 35,
-    "section": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le principal signe clinique d’une ostéomyélite aigue hématogène est :",
-    "propositions": {
-      "A": "Une douleur modérée",
-      "B": "Une douleur intense, un œdème et une fièvre",
-      "C": "Une douleur minime",
-      "D": "Une déformation",
-      "E": "Une crépitation osseuse"
-    },
-    "question_fr": "Le principal signe clinique d’une ostéomyélite aigue hématogène est :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-013",
-    "module": "otr",
-    "chapitre": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "chapitre_num": 35,
-    "section": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le diagnostic d’une ostéomyélite est fait par :",
-    "propositions": {
-      "A": "La radiographie",
-      "B": "L’échographie",
-      "C": "L’IRM",
-      "D": "Le scanner",
-      "E": "La scintigraphie osseuse"
-    },
-    "question_fr": "Le diagnostic d’une ostéomyélite est fait par :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-015",
-    "module": "otr",
-    "chapitre": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "chapitre_num": 35,
-    "section": "Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "La complication la plus fréquente d’une ostéomyélite aigue hématogène est :",
-    "propositions": {
-      "A": "La pseudarthrose",
-      "B": "Le cal vicieux",
-      "C": "La raideur articulaire",
-      "D": "L’abcès osseux",
-      "E": "La nécrose avasculaire"
-    },
-    "question_fr": "La complication la plus fréquente d’une ostéomyélite aigue hématogène est :",
-    "bonnes_reponses": [
-      "D"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
   },
   {
     "id": "mos-221",
@@ -46649,82 +46046,6 @@ window.QCM_OTR = [
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "mos-007",
-    "module": "otr",
-    "chapitre": "Membres supérieurs et préhension",
-    "chapitre_num": 40,
-    "section": "Membres supérieurs et préhension",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le principal signe clinique d’une infection de la main est :",
-    "propositions": {
-      "A": "Une douleur modérée",
-      "B": "Une douleur, un œdème et une rougeur",
-      "C": "Une douleur minime",
-      "D": "Une déformation",
-      "E": "Une crépitation osseuse"
-    },
-    "question_fr": "Le principal signe clinique d’une infection de la main est :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-014",
-    "module": "otr",
-    "chapitre": "Membres supérieurs et préhension",
-    "chapitre_num": 40,
-    "section": "Membres supérieurs et préhension",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le panaris est une infection de :",
-    "propositions": {
-      "A": "L’os",
-      "B": "Le muscle",
-      "C": "Le doigt",
-      "D": "Le tendon",
-      "E": "L’articulation"
-    },
-    "question_fr": "Le panaris est une infection de :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
     "isAlger": false
   },
   {
@@ -55208,5 +54529,760 @@ window.QCM_OTR = [
     "faculty": "Oran",
     "isOran": true,
     "isAlger": false
+  },
+  {
+    "id": "mos-001",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "à propos de l’arthrite septique :",
+    "propositions": {
+      "A": "C’est une urgence médico-chirurgicale",
+      "B": "Elle peut entraîner une destruction articulaire rapide",
+      "C": "La ponction articulaire est un examen clé",
+      "D": "Elle est toujours polyarticulaire",
+      "E": "Le genou est une articulation fréquemment touchée"
+    },
+    "question_fr": "à propos de l’arthrite septique :",
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-002",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "L’infection ostéo-articulaire est une infection osseuse par :",
+    "propositions": {
+      "A": "Voie hématogène lors d’une septicémie ou d’une bactériémie",
+      "B": "Par inoculation directe",
+      "C": "Par contiguïté lors d’une infection proche de la métaphyse",
+      "D": "Voie lymphatique lors d’une septicémie",
+      "E": "Toutes les réponses sont fausses"
+    },
+    "question_fr": "L’infection ostéo-articulaire est une infection osseuse par :",
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-004",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Dans l’infection ostéo-articulaire, la douleur est de :",
+    "propositions": {
+      "A": "Siège métaphysaire",
+      "B": "Siège épiphysaire",
+      "C": "Siège diaphysaire",
+      "D": "Toutes les réponses sont fausses",
+      "E": "Toutes les réponses sont justes"
+    },
+    "question_fr": "Dans l’infection ostéo-articulaire, la douleur est de :",
+    "bonnes_reponses": [
+      "A"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-005",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "L’ostéomyélite est une infection aiguë de l’os :",
+    "propositions": {
+      "A": "due le plus souvent au streptocoque",
+      "B": "qui touche l’enfant jeune en pleine croissance",
+      "C": "qui siège au niveau des épiphyses",
+      "D": "due à une bactériémie",
+      "E": "ne survient pas chez le nourrisson avant 1 an"
+    },
+    "question_fr": "L’ostéomyélite est une infection aiguë de l’os :",
+    "bonnes_reponses": [
+      "B",
+      "D"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-006",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Les signes cliniques de l’ostéomyélite aiguë sont :",
+    "propositions": {
+      "A": "douleur de siège métaphysaire",
+      "B": "fièvre",
+      "C": "le début est insidieux et progressif",
+      "D": "douleurs articulaires bilatérales",
+      "E": "parfois présence d’adénopathies"
+    },
+    "question_fr": "Les signes cliniques de l’ostéomyélite aiguë sont :",
+    "bonnes_reponses": [
+      "A",
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-007",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le principal signe clinique d’une infection de la main est :",
+    "propositions": {
+      "A": "Une douleur modérée",
+      "B": "Une douleur, un œdème et une rougeur",
+      "C": "Une douleur minime",
+      "D": "Une déformation",
+      "E": "Une crépitation osseuse"
+    },
+    "question_fr": "Le principal signe clinique d’une infection de la main est :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-008",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le principal signe clinique d’une ostéomyélite aigue hématogène est :",
+    "propositions": {
+      "A": "Une douleur modérée",
+      "B": "Une douleur intense, un œdème et une fièvre",
+      "C": "Une douleur minime",
+      "D": "Une déformation",
+      "E": "Une crépitation osseuse"
+    },
+    "question_fr": "Le principal signe clinique d’une ostéomyélite aigue hématogène est :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-009",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le risque de septicémie est :",
+    "propositions": {
+      "A": "Nul",
+      "B": "Très rare",
+      "C": "Possible",
+      "D": "Systématique",
+      "E": "Très élevé"
+    },
+    "question_fr": "Le risque de septicémie est :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-010",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "L’infection de la main est plus fréquente chez :",
+    "propositions": {
+      "A": "Les adultes",
+      "B": "Les enfants",
+      "C": "Les deux",
+      "D": "Les personnes âgées",
+      "E": "Les adolescents"
+    },
+    "question_fr": "L’infection de la main est plus fréquente chez :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-011",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le traitement de la maladie de Lyme est :",
+    "propositions": {
+      "A": "La chirurgie",
+      "B": "Le traitement médical",
+      "C": "L’immobilisation",
+      "D": "La traction",
+      "E": "La kinésithérapie"
+    },
+    "question_fr": "Le traitement de la maladie de Lyme est :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-012",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le principal risque de la maladie de Lyme est :",
+    "propositions": {
+      "A": "L’atteinte articulaire",
+      "B": "L’atteinte cardiaque",
+      "C": "L’atteinte neurologique",
+      "D": "Toutes ces réponses sont possibles",
+      "E": "L’infection"
+    },
+    "question_fr": "Le principal risque de la maladie de Lyme est :",
+    "bonnes_reponses": [
+      "D"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-013",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le diagnostic d’une ostéomyélite est fait par :",
+    "propositions": {
+      "A": "La radiographie",
+      "B": "L’échographie",
+      "C": "L’IRM",
+      "D": "Le scanner",
+      "E": "La scintigraphie osseuse"
+    },
+    "question_fr": "Le diagnostic d’une ostéomyélite est fait par :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-014",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le panaris est une infection de :",
+    "propositions": {
+      "A": "L’os",
+      "B": "Le muscle",
+      "C": "Le doigt",
+      "D": "Le tendon",
+      "E": "L’articulation"
+    },
+    "question_fr": "Le panaris est une infection de :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-015",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "La complication la plus fréquente d’une ostéomyélite aigue hématogène est :",
+    "propositions": {
+      "A": "La pseudarthrose",
+      "B": "Le cal vicieux",
+      "C": "La raideur articulaire",
+      "D": "L’abcès osseux",
+      "E": "La nécrose avasculaire"
+    },
+    "question_fr": "La complication la plus fréquente d’une ostéomyélite aigue hématogène est :",
+    "bonnes_reponses": [
+      "D"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "otr-443",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · P2025 A",
+      "type": "EMD",
+      "session": "Normale",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2025 A",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2025"
+      }
+    ],
+    "question": "Au cours d'une arthrite septique lesquels des propositions suivantes sont justes",
+    "propositions": {
+      "A": "Le germe peut se trouver à distance de l'articulation",
+      "B": "Sont due le plus souvent aux staphylocoques",
+      "C": "L'identiﬁcation du germe est obligatoire avant de commencer un traitement antibiotique",
+      "D": "Le traitement ne peut être débuté qu'après avoir éliminé une arthrite microcristalline",
+      "E": "Après résultat de l'antibiogramme, le traitement doit être adapté"
+    },
+    "question_fr": "Au cours d'une arthrite septique lesquels des propositions suivantes sont justes",
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "E"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false,
+    "note_cle": "Clé ABE conforme au cours ; le corrigé type officiel donnait BE."
+  },
+  {
+    "id": "otr-444",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · P2025 B",
+      "type": "EMD",
+      "session": "Normale",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2025 B",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2025"
+      }
+    ],
+    "question": "Parmi les facteurs exposants à une arthrite infectieuse, on peut énumérer :",
+    "propositions": {
+      "A": "Une infection par le VIH.",
+      "B": "Une ostéopathie fragilisante (une ostéoporose).",
+      "C": "Un rhumatisme inﬂammatoire chronique (polyarthrite rhumatoïde).",
+      "D": "Une insuﬃsance rénale aigue.",
+      "E": "Corticothérapie au long cours."
+    },
+    "question_fr": "Parmi les facteurs exposants à une arthrite infectieuse, on peut énumérer :",
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "E"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false
+  },
+  {
+    "id": "otr-445",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · P2024 A",
+      "type": "EMD",
+      "session": "Normale",
+      "annee": "2024"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2024 A",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2024"
+      },
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · Rattrapage 2024",
+        "type": "EMD",
+        "session": "Rattrapage",
+        "annee": "2024"
+      }
+    ],
+    "question": "Au cours d'une arthrite septique à pyogènes quel(s) est/sont les éléments en faveur d'une dissémination par voie hématogène ?",
+    "propositions": {
+      "A": "Existence d'un foyer infectieux à distance de l'articulation",
+      "B": "Un terrain d'immunodépression",
+      "C": "Réalisation d'un geste intra-articulaire",
+      "D": "Existence d'une lésion cutanée en regard de l'articulation",
+      "E": "Traumatisme articulaire"
+    },
+    "question_fr": "Au cours d'une arthrite septique à pyogènes quel(s) est/sont les éléments en faveur d'une dissémination par voie hématogène ?",
+    "bonnes_reponses": [
+      "A",
+      "B"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false
+  },
+  {
+    "id": "otr-448",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · Rattrapage 2024",
+      "type": "EMD",
+      "session": "Rattrapage",
+      "annee": "2024"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · Rattrapage 2024",
+        "type": "EMD",
+        "session": "Rattrapage",
+        "annee": "2024"
+      },
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2024 B",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2024"
+      }
+    ],
+    "question": "Le diagnostic de certitude d'une arthrite septique à germe banal repose sur la mise en évidence du germe dans :",
+    "propositions": {
+      "A": "Le liquide céphalo-rachidien",
+      "B": "Le liquide pleural",
+      "C": "Le liquide synovial",
+      "D": "La culture d'une biopsie synoviale",
+      "E": "Les hémocultures"
+    },
+    "question_fr": "Le diagnostic de certitude d'une arthrite septique à germe banal repose sur la mise en évidence du germe dans :",
+    "bonnes_reponses": [
+      "C",
+      "D",
+      "E"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false
+  },
+  {
+    "id": "otr-455",
+    "module": "otr",
+    "chapitre": "Arthrite septique à germe banal",
+    "chapitre_num": 47,
+    "section": "Arthrite septique à germe banal",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · P2026 A",
+      "type": "EMD",
+      "session": "Normale",
+      "annee": "2026"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2026 A",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2026"
+      }
+    ],
+    "question": "La survenue d'une arthrite septique peut être favorisée par :",
+    "propositions": {
+      "A": "Un diabète sucré",
+      "B": "Un traumatisme articulaire",
+      "C": "Le jeune âge",
+      "D": "La prothèse articulaire",
+      "E": "Les antalgiques non morphiniques"
+    },
+    "question_fr": "La survenue d'une arthrite septique peut être favorisée par :",
+    "bonnes_reponses": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false,
+    "note_cle": "Clé ABCD ; l’annale ne retenait que AC alors que le traumatisme articulaire et la prothèse sont des facteurs reconnus."
   }
 ];
