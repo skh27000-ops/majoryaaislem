@@ -458,7 +458,7 @@ const ACADEMIC_YEARS = {
       { id:'psy', ico:'🧠', name:'Psychiatrie', active:true, chaps:23, qcm:197, desc:'Psychiatrie et santé mentale · 23 cours & TD · 197 QCM d\'annales certifiées (Mostaganem & Oran)' },
       { id:'gyn', ico:'🤰', name:'Gynécologie', active:true, chaps:37, qcm:466, desc:'Gynécologie et obstétrique · 37 cours officiels · 466 QCM d\'annales' },
       { id:'ped', ico:'👶', name:'Pédiatrie', active:true, chaps:57, qcm:190, desc:'Pédiatrie et néonatalogie · 49 cours & 8 TD officiels' },
-      { id:'otr', ico:'🦴', name:'OTR (Orthopédie-Traumatologie & Rhumatologie)', active:true, chaps:46, qcm:796, desc:'OTR · 46 cours · 796 QCM d\'annales (Faculté d\'Oran)' },
+      { id:'otr', ico:'🦴', name:'OTR (Orthopédie-Traumatologie & Rhumatologie)', active:true, chaps:46, qcm:1395, desc:'OTR · 46 cours · 1395 QCM d\'annales (Oran & Mostaganem)' },
       { id:'gen5', ico:'📚', name:'Général / Transversal 5A', desc:'Questions transversales communes aux modules de 5ème année', transversal:true }
     ]
   },
@@ -1302,7 +1302,7 @@ MODULE_CONFIGS['geriatrie'] = { id:'geriatrie', year:'6eme', title:'Gériatrie',
   getRawQcms: () => (window.QCM_GERIATRIE && Array.isArray(window.QCM_GERIATRIE)) ? window.QCM_GERIATRIE : [],
   getJustifications: () => (window.JUSTIFICATIONS_GERIATRIE || {}) };
 MODULE_CONFIGS['otr'] = { id:'otr', year:'5eme', title:'OTR', ico:'🦴', fullName:'Orthopédie-Traumatologie & Rhumatologie',
-  subText:'FACULTÉ DE MÉDECINE D’ORAN · 5ÈME ANNÉE · 46 COURS · 796 QCM D\'ANNALES',
+  subText:'MOSTAGANEM & ORAN · 5ÈME ANNÉE · 46 COURS · 1395 QCM D\'ANNALES ET D\'AUTO-ÉVALUATION',
   chapters:["Généralités sur les fractures de l’adulte","Luxation de l’épaule","Disjonction acromio-claviculaire","Fracture de la clavicule","Fracture de l’humérus proximal","Fractures de la diaphyse humérale","Fractures de la palette humérale","Fractures de l’extrémité proximale des 2 os de l’avant-bras","Luxation du coude","Fractures du poignet et de l’extrémité inférieure du radius","Fractures des os du carpe","Fractures des os de l’avant-bras","Fractures de l’anneau pelvien","Fractures-luxations traumatiques de la hanche","Fractures du fémur proximal","Syndrome des loges","Fractures de jambe ouverte et fermée","Fractures du pilon tibial","Fractures bi-malléolaires","Traumatismes du rachis","Traumatismes ligamentaires et osseux du genou","Polyarthrite rhumatoïde","Spondyloarthrites","Lombalgies et lombosciatique","Arthrose (genou, hanche)","Syndrome du canal carpien","Rhumatismes métaboliques (goutte)","Algoneurodystrophie (SDRC)","Épaule douloureuse","Ostéopathies déminéralisantes (ostéoporose, ostéomalacie)","Arthrites infectieuses septiques et mal de Pott","Fractures de l’enfant et traumatismes du cartilage de croissance","Maladies luxantes de la hanche","Déviations rachidiennes (scoliose, cyphose)","Infections ostéoarticulaires (ostéoarthrite, ostéomyélite)","Boiterie chez l’enfant et l’adolescent","Malformations congénitales du pied chez l’enfant","Tumeurs osseuses (bénignes, malignes, primitives, secondaires)","Membres inférieurs et locomotion","Membres supérieurs et préhension","Situations de handicap et qualité de vie","Principes de base en MPR","Complications de l’immobilité et du décubitus","Amputations des membres","Prise en charge MPR des atteintes articulaires","Prise en charge MPR des lésions traumatiques"],
   getRawQcms: () => (window.QCM_OTR && Array.isArray(window.QCM_OTR)) ? window.QCM_OTR : [],
   getJustifications: () => (window.JUSTIFICATIONS_OTR || {}) };
@@ -1449,6 +1449,9 @@ function buildModuleQcms(){
       const isAlger = /alger/i.test(srcText) || (q.sources && q.sources.some(s => /alger/i.test(s.texte || '')));
       const isOran = /oran/i.test(srcText) || (q.sources && q.sources.some(s => /oran/i.test(s.texte || ''))) || !!q.isOran;
 
+      const baseFac = (f => /constantine/i.test(f) ? 'constantine' : /tlemcen/i.test(f) ? 'tlemcen' : /sidi/i.test(f) ? 'sba' : 'mosta')(String(q.faculty || ''));
+      const facSet = [...new Set((q.sources || []).map(s => { const t = s.texte || ''; return /alger/i.test(t) ? 'alger' : /oran/i.test(t) ? 'oran' : /mostaganem/i.test(t) ? 'mosta' : baseFac; }))];
+      const FAC_LAB = { mosta: 'Mostaganem', alger: 'Alger', oran: 'Oran', constantine: 'Constantine', tlemcen: 'Tlemcen', sba: 'Sidi Bel Abbès' };
       return {
         id: q.id,
         y: annee,
@@ -1464,7 +1467,8 @@ function buildModuleQcms(){
         remarque: [justifs._remarque || q.remarque || '', (q.note_cle && !String(justifs._remarque || '').includes(q.note_cle)) ? '⚠ ' + q.note_cle : ''].filter(Boolean).join(' '),
         isAlger: !!isAlger,
         isOran: !!isOran,
-        faculty: isAlger ? 'Alger' : (isOran ? 'Oran' : (q.faculty || 'Mostaganem')),
+        facs: facSet.length > 1 ? facSet : null,
+        faculty: facSet.length > 1 ? facSet.map(f => FAC_LAB[f]).join(' · ') : (isAlger ? 'Alger' : (isOran ? 'Oran' : (q.faculty || 'Mostaganem'))),
         image: q.image || '',
         image_legende: q.image_legende || '',
         groupe: q.groupe || '',
@@ -1709,10 +1713,12 @@ function filterChapRows(v){
   });
 }
 
+// Une question fusionnée (ex. Oran + Mostaganem) compte dans chacune de ses facultés
+function facOf(q){ return (q.facs && q.facs.length) ? q.facs : [facKey(q)]; }
 // Question retenue par le filtre de facultés actif (Mosta / Alger / Oran)
 function qInFac(q){
   let facs; try { facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties(); } catch(e){ facs = ['mosta','alger','oran']; }
-  return facs.includes(facKey(q));
+  return facOf(q).some(f => facs.includes(f));
 }
 function chapterQsCount(i){ return (QCMS[i] || []).filter(qInFac).length; }
 
@@ -2249,7 +2255,7 @@ function getFacultyCountsForCurrentModule(){
     qs.forEach(q => allQuestions.push(q));
   });
   const c = { mosta: 0, alger: 0, oran: 0, constantine: 0, tlemcen: 0, sba: 0 };
-  allQuestions.forEach(q => { c[facKey(q)]++; });
+  allQuestions.forEach(q => { facOf(q).forEach(f => { c[f]++; }); });
   c.total = allQuestions.length;
   return c;
 }
@@ -2417,7 +2423,7 @@ function getFilteredQcms(ch){
   const fy = anView.fy || 'all', ft = anView.ft || 'all', fs = anView.fs || 'all';
   const facs = (anView && anView.faculties) ? anView.faculties : getStoredFaculties();
   return qs.map((q, j) => ({ q, j })).filter(({ q, j }) => {
-    if (!facs.includes(facKey(q))) return false;
+    if (!facOf(q).some(f => facs.includes(f))) return false;
     if (fy !== 'all' && !qYears(q).includes(String(fy))) return false;
     if (ft !== 'all' && q.t !== ft) return false;
     const a = state.answers[ch + ':' + j];
@@ -2683,7 +2689,7 @@ function renderAnnales(){
     const hasAlger = qs.some(q => q.isAlger);
     const hasOran = qs.some(q => q.isOran);
     const hasExternal = hasAlger || hasOran;
-    const mostaTotal = qs.filter(q => facKey(q) === 'mosta').length;
+    const mostaTotal = qs.filter(q => facOf(q).includes('mosta')).length;
     const algerTotal = qs.filter(q => q.isAlger).length;
     const oranTotal = qs.filter(q => q.isOran).length;
 
@@ -2978,9 +2984,9 @@ function renderAnnales(){
             Toutes (${cnt.totalChapter})
           </button>
           <button class="fchip ${isFacultySelected('mosta') ? 'on' : ''}" onclick="toggleSingleFaculty('mosta')" title="Basculer Mostaganem">
-            Mostaganem (${qs.filter(q => facKey(q) === 'mosta').length})
+            Mostaganem (${qs.filter(q => facOf(q).includes('mosta')).length})
           </button>
-          ${Object.entries(EXT_FACS).map(([k, n]) => { const c = qs.filter(q => facKey(q) === k).length; return c ? `<button class="fchip ${isFacultySelected(k) ? 'on' : ''}" onclick="toggleSingleFaculty('${k}')" title="Basculer ${n}">${n} (${c})</button>` : ''; }).join('')}
+          ${Object.entries(EXT_FACS).map(([k, n]) => { const c = qs.filter(q => facOf(q).includes(k)).length; return c ? `<button class="fchip ${isFacultySelected(k) ? 'on' : ''}" onclick="toggleSingleFaculty('${k}')" title="Basculer ${n}">${n} (${c})</button>` : ''; }).join('')}
           ${hasAlger || cnt.alger > 0 ? `
           <button class="fchip ${isFacultySelected('alger') ? 'on' : ''}" onclick="toggleSingleFaculty('alger')" title="Basculer Alger">
             Alger (${cnt.alger})

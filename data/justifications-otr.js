@@ -1,4 +1,268 @@
 window.JUSTIFICATIONS_OTR = {
+  "mos-243": {
+    "A": "Vrai. Le tétanos est une urgence médico-chirurgicale.",
+    "B": "Vrai. Le germe est Clostridium tetani, bacille anaérobie sporulé.",
+    "C": "Vrai. Le parage chirurgical de la plaie est fondamental pour éliminer les spores.",
+    "D": "Faux. La prophylaxie associe vaccination et sérothérapie, pas la sérothérapie seule.",
+    "E": "Vrai. Le trismus est le signe cardinal d’entrée.",
+    "_synthese": "Tétanos : urgence, C. tetani, parage de la plaie, trismus ; prophylaxie par vaccin et immunoglobulines selon le statut vaccinal."
+  },
+  "mos-252": {
+    "A": "Vrai. La neuropraxie est un blocage de conduction physiologique sans rupture anatomique.",
+    "B": "Faux. La section complète est une neurotmésis.",
+    "C": "Vrai. Il s’agit d’une sidération nerveuse temporaire.",
+    "D": "Vrai. Elle récupère en général en quelques semaines.",
+    "E": "Faux. Plusieurs propositions sont justes.",
+    "_synthese": "Classification de Seddon : neuropraxie (sidération réversible), axonotmésis (rupture de l’axone), neurotmésis (section complète)."
+  },
+  "mos-253": {
+    "A": "Vrai. La fracture diaphysaire du fémur survient chez le sujet jeune après un traumatisme violent.",
+    "B": "Vrai. L’hypovolémie (hémorragie dans la cuisse) et l’embolie graisseuse sont les complications graves précoces.",
+    "C": "Vrai. L’enclouage centromédullaire verrouillé est le traitement de référence.",
+    "D": "Vrai. Elle s’inscrit souvent dans un polytraumatisme avec stratégie de damage control.",
+    "E": "Vrai. Les quatre propositions sont justes.",
+    "_synthese": "Fracture diaphysaire du fémur : traumatisme violent, hémorragie et embolie graisseuse, enclouage centromédullaire, damage control en cas de polytraumatisme."
+  },
+  "mos-255": {
+    "A": "Faux. L’ischémie aiguë est une urgence absolue.",
+    "B": "Faux. Le pronostic vital et fonctionnel du membre est en jeu.",
+    "C": "Vrai selon le cours : la désobstruction doit être la plus précoce possible (idéalement avant 6 à 12 heures).",
+    "D": "Faux. L’embolie survient sur une artère saine ; une thrombose survient sur artère pathologique.",
+    "E": "Faux. Le diagnostic est clinique ; l’imagerie ne doit pas retarder la prise en charge.",
+    "_synthese": "Ischémie aiguë : urgence absolue, héparine immédiate, revascularisation précoce."
+  },
+  "mos-259": {
+    "A": "Vrai. Le plâtre de Paris se modèle facilement.",
+    "B": "Vrai. Il permet des modifications comme les gibbosotomies et les fenêtres.",
+    "C": "Faux. La résine est plus légère que le plâtre.",
+    "D": "Faux selon le livre ; la résine peut donner des allergies, mais l’avantage retenu est ailleurs.",
+    "E": "Faux. La résine est plus esthétique.",
+    "_synthese": "Avantages du plâtre : malléable, modifiable, peu coûteux. Avantages de la résine : légère, résistante, plus propre."
+  },
+  "mos-261": {
+    "A": "Vrai. Scie oscillante.",
+    "B": "Vrai. Brûlure.",
+    "C": "Vrai. Coups brefs.",
+    "D": "Vrai. Plaie.",
+    "E": "Vrai. Toutes.",
+    "_synthese": "Scie à plâtre : oscillante, risque de plaie et de brûlure."
+  },
+  "mos-262": {
+    "A": "Vrai. La ouate protège la peau contre les frottements.",
+    "B": "Vrai. Elle protège les axes vasculo-nerveux contre la compression.",
+    "C": "Vrai. Elle protège les saillies osseuses.",
+    "D": "Vrai. Elle évite les espaces entre le plâtre et le membre.",
+    "E": "Vrai. Toutes les propositions sont justes.",
+    "_synthese": "La ouate sous un plâtre protège la peau, les saillies osseuses et les axes vasculo-nerveux."
+  },
+  "mos-264": {
+    "A": "Faux selon le livre.",
+    "B": "Proposition mal retranscrite dans la source, non retenue.",
+    "C": "Vrai. Les consignes de surveillance doivent être données en présence d’un accompagnant.",
+    "D": "Vrai. Le plâtre circulaire est fendu immédiatement pour prévenir le syndrome des loges.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Un plâtre circulaire est fendu, avec consignes de surveillance données devant un accompagnant."
+  },
+  "mos-265": {
+    "A": "Faux. Un syndrome des loges de cuisse reste rare.",
+    "B": "Vrai. La pseudarthrose est une complication classique.",
+    "C": "Vrai. L’embolie graisseuse survient dans les 48 premières heures.",
+    "D": "Faux. L’artère tibiale postérieure n’est pas concernée.",
+    "E": "Faux. L’ostéonécrose de la tête fémorale est liée aux fractures du col.",
+    "_synthese": "Complications de la diaphyse fémorale : hémorragie, embolie graisseuse, pseudarthrose, cal vicieux."
+  },
+  "mos-278": {
+    "A": "Faux. Une fracture ouverte peut être stable.",
+    "B": "Faux. Le traitement chirurgical n’est pas la définition.",
+    "C": "Vrai. Une fracture stable consolide sous simple immobilisation.",
+    "D": "Faux. Une fracture articulaire peut être stable ou non.",
+    "E": "Faux. Une luxation associée aggrave l’instabilité.",
+    "_synthese": "Une fracture est stable si l’immobilisation seule suffit à la consolidation."
+  },
+  "mos-282": {
+    "A": "Faux. L’immobilisation est un temps distinct de la réduction.",
+    "B": "Vrai. La réduction rétablit l’anatomie et l’axe fonctionnel.",
+    "C": "Faux. Le nettoyage appartient au parage.",
+    "D": "Faux. Le drainage n’est pas la réduction.",
+    "E": "Faux. L’antibiotique est un traitement complémentaire.",
+    "_synthese": "Réduire une fracture = rétablir l’anatomie et l’axe fonctionnel."
+  },
+  "mos-285": {
+    "A": "Faux. Une luxation se réduit.",
+    "B": "Faux. L’aponévrotomie traite le syndrome des loges.",
+    "C": "Vrai. Le débridement enlève les tissus nécrosés d’une fracture ouverte.",
+    "D": "Faux. Une fracture fermée se réduit.",
+    "E": "Faux. Une lésion ligamentaire se répare.",
+    "_synthese": "Débridement chirurgical : excision des tissus nécrosés et lavage dans les fractures ouvertes."
+  },
+  "mos-288": {
+    "A": "Faux. Le remodelage de l’enfant rend le cal vicieux moins fréquent, sauf exceptions comme la fracture supracondylienne.",
+    "B": "Faux en valeur absolue ; la proposition n’est pas la plus caractéristique.",
+    "C": "Vrai. Le cal vicieux apparaît après consolidation.",
+    "D": "Faux. Il n’est pas immédiat.",
+    "E": "Faux. Il n’est pas systématique.",
+    "_synthese": "Le cal vicieux est une complication tardive, liée à une réduction ou une contention insuffisante."
+  },
+  "mos-290": {
+    "A": "Faux. Le type de fracture guide le traitement.",
+    "B": "Faux. L’âge compte.",
+    "C": "Faux. Les comorbidités influencent le choix.",
+    "D": "Vrai (à cocher). Le mois de l’année n’intervient pas.",
+    "E": "Faux. La localisation guide le traitement.",
+    "_synthese": "Le traitement dépend du type, de la localisation, de l’âge, des comorbidités, pas du mois."
+  },
+  "mos-291": {
+    "A": "Vrai. Fracture ouverte.",
+    "B": "Faux. Fermée.",
+    "C": "Faux. Jeune.",
+    "D": "Faux. Chirurgie.",
+    "E": "Faux. Plâtre.",
+    "_synthese": "Pseudarthrose : fracture ouverte."
+  },
+  "mos-292": {
+    "A": "Faux. La douleur est un signe de fracture.",
+    "B": "Faux. L’impotence fonctionnelle absolue est typique.",
+    "C": "Faux. L’œdème est un signe de fracture.",
+    "D": "Vrai (à cocher). L’hémarthrose évoque une lésion articulaire et n’est pas un signe général de fracture.",
+    "E": "Faux. La crépitation est un signe de certitude.",
+    "_synthese": "Signes de fracture : douleur, impotence absolue, œdème, déformation, crépitation, mobilité anormale."
+  },
+  "mos-293": {
+    "A": "Faux. Le scanner précise mais ne confirme pas en première intention.",
+    "B": "Faux. L’IRM n’est pas l’examen de confirmation.",
+    "C": "Faux. L’échographie n’est pas l’examen de référence.",
+    "D": "Vrai. La radiographie standard confirme le diagnostic.",
+    "E": "Faux. La scintigraphie est réservée aux cas douteux.",
+    "_synthese": "Le diagnostic de fracture est confirmé par la radiographie standard (deux incidences)."
+  },
+  "mos-295": {
+    "A": "Vrai. L’enclouage centromédullaire est une ostéosynthèse.",
+    "B": "Vrai. Le brochage en est une.",
+    "C": "Vrai. Plaque et vis en sont une.",
+    "D": "Vrai. Le fixateur externe en est une.",
+    "E": "Faux. La prothèse remplace l’articulation.",
+    "_synthese": "Ostéosynthèse : clou, broches, plaque vissée, fixateur externe."
+  },
+  "mos-296": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Faux. Pas précoce.",
+    "C": "Vrai. Tardive.",
+    "D": "Faux. Pas luxation.",
+    "E": "Faux. Pas entorse.",
+    "_synthese": "Pseudarthrose : tardive."
+  },
+  "mos-302": {
+    "A": "Faux. Une fracture non déplacée n’est pas opérée.",
+    "B": "Vrai. Traitement fonctionnel avec attelle ou écharpe.",
+    "C": "Faux. La traction n’est pas indiquée.",
+    "D": "Vrai. Un plâtre est une alternative selon le siège.",
+    "E": "Faux. L’arthrodèse n’a pas de place.",
+    "_synthese": "Fracture non déplacée : traitement orthopédique, fonctionnel ou plâtré."
+  },
+  "mos-303": {
+    "A": "Vrai. L’incidence de profil complète la face.",
+    "B": "Faux. Le trois-quarts est un cliché complémentaire.",
+    "C": "Faux. La comparative est réservée à certains cas (enfant).",
+    "D": "Faux. Ce n’est pas une incidence.",
+    "E": "Faux. Ce n’est pas une incidence.",
+    "_synthese": "La radiographie standard comprend deux incidences orthogonales, face et profil."
+  },
+  "mos-307": {
+    "A": "Faux. Il n’est pas immédiat.",
+    "B": "Faux. Il n’est pas précoce.",
+    "C": "Vrai. Il se constate à la consolidation.",
+    "D": "Faux. Il n’est pas lié à une luxation.",
+    "E": "Faux. Il n’est pas lié à une infection.",
+    "_synthese": "Le cal vicieux est une complication tardive."
+  },
+  "mos-309": {
+    "A": "Faux. Le cal osseux vient après.",
+    "B": "Faux. Le cal fibreux vient après la phase inflammatoire.",
+    "C": "Vrai. La phase inflammatoire (hématome) ouvre le processus.",
+    "D": "Faux. Le remodelage est la dernière phase.",
+    "E": "Faux. La densification n’est pas la première étape.",
+    "_synthese": "Consolidation : hématome et inflammation, cal conjonctif, cal osseux, remodelage."
+  },
+  "mos-315": {
+    "A": "Faux. L’œdème est non spécifique.",
+    "B": "Faux. L’hématome est non spécifique.",
+    "C": "Vrai. L’impotence fonctionnelle absolue est le signe le plus évocateur.",
+    "D": "Faux. La déformation n’est pas constante.",
+    "E": "Faux. La douleur est non spécifique.",
+    "_synthese": "Impotence fonctionnelle absolue : signe le plus évocateur d’une fracture."
+  },
+  "mos-321": {
+    "A": "Faux. Il n’est pas immédiat.",
+    "B": "Faux. Il n’est pas précoce.",
+    "C": "Vrai. Il est tardif.",
+    "D": "Faux. Il n’est pas lié à l’infection.",
+    "E": "Faux. Il n’est pas lié à un trouble neurologique.",
+    "_synthese": "Le cal vicieux est une complication tardive."
+  },
+  "mos-335": {
+    "A": "Vrai. L’atteinte vasculaire est une complication immédiate.",
+    "B": "Faux selon le livre.",
+    "C": "Faux. Elle n’est pas tardive.",
+    "D": "Faux. Elle n’est pas très rare.",
+    "E": "Faux. Elle est grave.",
+    "_synthese": "Les lésions vasculaires sont des complications immédiates à rechercher."
+  },
+  "mos-337": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Faux. Pas précoce.",
+    "C": "Vrai. Tardive.",
+    "D": "Faux. Pas luxation.",
+    "E": "Faux. Pas infection.",
+    "_synthese": "Pseudarthrose : tardive."
+  },
+  "mos-339": {
+    "A": "Faux. Un débridement unique est insuffisant.",
+    "B": "Vrai. Débridement chirurgical et stabilisation par fixateur externe.",
+    "C": "Faux. Le plâtre est inadapté.",
+    "D": "Faux. Le traitement fonctionnel est inadapté.",
+    "E": "Faux. L’immobilisation simple est insuffisante.",
+    "_synthese": "Gustilo III : parage soigneux, fixateur externe, antibiothérapie, couverture cutanée."
+  },
+  "mos-341": {
+    "A": "Faux. La chirurgie bien conduite diminue le risque.",
+    "B": "Vrai. Une mauvaise réduction favorise le cal vicieux.",
+    "C": "Faux. La rééducation précoce diminue le risque.",
+    "D": "Faux. Le jeune n’est pas plus exposé.",
+    "E": "Faux. L’âge n’est pas déterminant.",
+    "_synthese": "Cal vicieux : conséquence d’une mauvaise réduction ou d’un déplacement secondaire."
+  },
+  "mos-344": {
+    "A": "Faux. L’infection n’est pas immédiate.",
+    "B": "Vrai selon le livre : précoce dans les jours qui suivent.",
+    "C": "Faux selon le livre.",
+    "D": "Faux. Pas de lien avec une luxation.",
+    "E": "Faux. Pas de lien avec la réduction.",
+    "_synthese": "L’infection est une complication précoce."
+  },
+  "mos-352": {
+    "A": "Faux. La chirurgie diminue le risque.",
+    "B": "Vrai selon le livre : une immobilisation plâtrée expose au déplacement secondaire.",
+    "C": "Faux. La rééducation précoce diminue le risque.",
+    "D": "Faux. Le jeune n’est pas plus exposé.",
+    "E": "Faux. L’âge n’est pas déterminant.",
+    "_synthese": "Le cal vicieux est à craindre après traitement orthopédique si la réduction n’est pas maintenue."
+  },
+  "mos-353": {
+    "A": "Faux. Le déplacement ne définit pas l’ouverture.",
+    "B": "Faux. Le siège ne définit pas l’ouverture.",
+    "C": "Vrai. Communication entre le foyer et l’extérieur.",
+    "D": "Faux. L’hématome ne définit pas l’ouverture.",
+    "E": "Faux. La fracture articulaire n’est pas ouverte pour autant.",
+    "_synthese": "Fracture ouverte : communication entre le foyer et le milieu extérieur."
+  },
+  "mos-358": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Faux. Pas précoce.",
+    "C": "Vrai. Tardive.",
+    "D": "Faux. Pas luxation.",
+    "E": "Faux. Pas entorse.",
+    "_synthese": "Pseudarthrose : tardive."
+  },
   "otr-001": {
     "A": "Faux. Trois mois correspond plutôt au délai à partir duquel on parle de retard de consolidation : l’os conserve alors de bonnes chances de consolider spontanément ou après un geste simple.",
     "B": "Vrai. La pseudarthrose se définit par l’absence de consolidation (pas de cal osseux solide) au-delà de 6 mois d’évolution, même si des auteurs retiennent 6 à 9 mois selon le segment.",
@@ -15,6 +279,14 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Chez l’enfant le cartilage de croissance assure un remodelage actif qui corrige certains défauts avec la croissance, surtout dans le plan du mouvement articulaire. Ce potentiel n’existe plus chez l’adulte.",
     "E": "Vrai. Lorsque le cal vicieux est mal toléré, on le traite par ostéotomie de réaxation (correction de l’axe).",
     "_synthese": "Cal vicieux = os consolidé en mauvaise position. Sa gravité dépend de l’importance du défaut, du siège (articulaire ou non) et de l’âge. Prévention : réduction correcte puis surveillance radiologique pour dépister le déplacement secondaire."
+  },
+  "otr-003": {
+    "A": "Faux. La compression axiale est favorable à la consolidation : elle stimule la callogenèse et c’est le principe des montages en compression.",
+    "B": "Vrai. Le cisaillement rompt les micro-ponts du cal en formation et empêche la stabilité mécanique nécessaire à l’ossification.",
+    "C": "Vrai. Les contraintes en flexion, comme celles en cisaillement et en torsion, mobilisent le foyer et nuisent à la consolidation ; ce sont les contraintes « néfastes » enseignées dans le cours.",
+    "D": "Vrai. La torsion (rotation) cisaille le foyer dans son axe et empêche la stabilisation du cal : c’est l’une des contraintes les plus délétères.",
+    "E": "Faux. Les « contraintes professionnelles » ne sont pas une contrainte mécanique agissant sur le foyer ; c’est un distracteur.",
+    "_synthese": "Favorables : compression axiale (et micromouvements axiaux modérés). Néfastes : cisaillement, flexion et torsion, qui déplacent le foyer et rompent le cal. Toute ostéosynthèse ou immobilisation vise à supprimer ces contraintes."
   },
   "otr-004": {
     "A": "Vrai. Les anomalies de consolidation se reconnaissent à l’examen clinique : douleur, mobilité anormale du foyer, chaleur locale, boiterie ou impotence persistante.",
@@ -184,13 +456,37 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Le retard de consolidation et la pseudarthrose compliquent les ostéosynthèses par plaque vissée, car la plaque dévascularise l’os et laisse un montage peu dynamique.",
     "_synthese": "Fracture diaphysaire du fémur : traumatisme violent, risque d’embolie graisseuse, traitement orthopédique chez l’enfant, enclouage chez l’adulte."
   },
-  "otr-025": {
-    "A": "Faux. La compression axiale est favorable à la consolidation : elle stimule la callogenèse et c’est le principe des montages en compression.",
-    "B": "Vrai. Le cisaillement rompt les micro-ponts du cal en formation et empêche la stabilité mécanique nécessaire à l’ossification.",
-    "C": "Vrai. Les contraintes en flexion, comme celles en cisaillement et en torsion, mobilisent le foyer et nuisent à la consolidation ; ce sont les contraintes « néfastes » enseignées dans le cours.",
-    "D": "Vrai. La torsion (rotation) cisaille le foyer dans son axe et empêche la stabilisation du cal : c’est l’une des contraintes les plus délétères.",
-    "E": "Faux. Les « contraintes professionnelles » ne sont pas une contrainte mécanique agissant sur le foyer ; c’est un distracteur.",
-    "_synthese": "Favorables : compression axiale (et micromouvements axiaux modérés). Néfastes : cisaillement, flexion et torsion, qui déplacent le foyer et rompent le cal. Toute ostéosynthèse ou immobilisation vise à supprimer ces contraintes."
+  "mos-065": {
+    "A": "Faux. Pas très rare.",
+    "B": "Faux. La chirurgie est possible.",
+    "C": "Vrai. Souvent associée à une luxation de l’épaule.",
+    "D": "Faux. Pas extra-articulaire.",
+    "E": "Faux. Pas le col anatomique.",
+    "_synthese": "Tubérosité majeure : luxation d’épaule associée."
+  },
+  "mos-682": {
+    "A": "Vrai. Mécanisme classique : abduction, rotation externe et extension (chute sur la main) qui chasse la tête en avant.",
+    "B": "Faux. La luxation de l’épaule est une lésion de l’adulte jeune, rare chez l’enfant.",
+    "C": "Faux. Dans la luxation antérieure, la tête se place en avant de la glène (sous-coracoïdienne).",
+    "D": "Vrai. C’est la plus fréquente des luxations de l’épaule (plus de 95 %).",
+    "E": "Faux. Elle s’accompagne presque toujours de lésions capsulo-labrales (Bankart).",
+    "_synthese": "Luxation antéro-interne de l’épaule : mécanisme en abduction-rotation externe, la plus fréquente, lésion de Bankart associée."
+  },
+  "mos-684": {
+    "A": "Faux. Le nerf radial est en danger dans la diaphyse humérale.",
+    "B": "Faux. Le nerf ulnaire n’est pas concerné par la luxation d’épaule.",
+    "C": "Vrai. Le nerf circonflexe (axillaire) est le plus souvent atteint ; il faut tester la sensibilité du moignon de l’épaule.",
+    "D": "Faux. Le nerf médian est rarement touché.",
+    "E": "Faux. Le plexus brachial est plus rarement atteint.",
+    "_synthese": "Luxation de l’épaule : lésion du nerf axillaire (circonflexe), hypoesthésie de la face externe de l’épaule."
+  },
+  "mos-685": {
+    "A": "Faux. Moins de 15 jours expose à la récidive.",
+    "B": "Vrai. L’immobilisation d’un premier épisode dure environ 3 à 4 semaines (corrigé type).",
+    "C": "Faux selon le corrigé type.",
+    "D": "Faux. Une immobilisation prolongée raidit l’épaule.",
+    "E": "Faux. Même raison.",
+    "_synthese": "Premier épisode de luxation isolée de l’épaule : immobilisation de 3 à 4 semaines puis rééducation."
   },
   "otr-027": {
     "A": "Faux. Le nerf radial n’est pas concerné par la luxation de l’épaule : il se situe plus bas dans la gouttière humérale.",
@@ -256,6 +552,14 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Le comblement du sillon delto-pectoral est un signe classique.",
     "_synthese": "Luxation antéro-interne : abduction irréductible, coup de hache externe, vide sous-acromial, comblement du sillon delto-pectoral. L’ecchymose de Hennequin oriente plutôt vers une fracture."
   },
+  "mos-064": {
+    "A": "Vrai. Diarthrose (arthrodie).",
+    "B": "Faux. Amphiarthrose.",
+    "C": "Faux. Synarthrose.",
+    "D": "Faux. Synostose.",
+    "E": "Faux. Symphyse.",
+    "_synthese": "Acromio-claviculaire : diarthrose."
+  },
   "otr-035": {
     "A": "Vrai. Le signe de l’épaulette (saillie de l’extrémité externe de la clavicule) est retenu pour la luxation acromio-claviculaire.",
     "B": "Vrai. Un tiroir antéro-postérieur de la clavicule traduit l’instabilité horizontale de l’articulation.",
@@ -271,6 +575,125 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Le stade III inclut aussi la rupture des moyens d’union propres de l’articulation acromio-claviculaire (capsule et ligaments).",
     "E": "Faux. L’atteinte des insertions des pectoraux ne fait pas partie de la classification.",
     "_synthese": "Classification de Tossy : I entorse bénigne ; II rupture de la capsule acromio-claviculaire ; III rupture de l’articulation et des ligaments coraco-claviculaires (luxation complète)."
+  },
+  "mos-188": {
+    "A": "Vrai. Le tiers moyen est le siège habituel (environ 80 %).",
+    "B": "Vrai. Une lésion du plexus brachial est possible, mais rare.",
+    "C": "Faux selon le livre : un cal vicieux est le plus souvent bien toléré, mais il peut avoir un retentissement.",
+    "D": "Vrai. Le traitement est le plus souvent orthopédique (écharpe).",
+    "E": "Vrai. La consolidation est rapide, en 4 à 6 semaines.",
+    "_synthese": "Fracture de la clavicule : tiers moyen, traitement orthopédique, consolidation rapide, complications nerveuses rares."
+  },
+  "mos-190": {
+    "A": "Faux. Le signe de l’épaulette caractérise la luxation de l’épaule.",
+    "B": "Faux. Le signe du tiroir concerne le genou.",
+    "C": "Vrai. Le fragment saillant sous la peau est caractéristique.",
+    "D": "Faux. L’adduction n’est pas spécifique.",
+    "E": "Faux. La mobilité n’est pas abolie.",
+    "_synthese": "Fracture de la clavicule : saillie du fragment sous la peau, bras soutenu par l’autre main."
+  },
+  "mos-191": {
+    "A": "Faux. Elle est rapide.",
+    "B": "Faux. La pseudarthrose est rare.",
+    "C": "Vrai. Consolidation rapide et spontanée.",
+    "D": "Faux. La chirurgie n’est pas systématique.",
+    "E": "Faux. La raideur n’est pas la règle.",
+    "_synthese": "La clavicule consolide rapidement sous simple immobilisation."
+  },
+  "mos-192": {
+    "A": "Faux. Le nerf axillaire est exposé à l’épaule, pas à la clavicule.",
+    "B": "Faux. Le nerf radial est exposé à la diaphyse humérale.",
+    "C": "Vrai. Le plexus brachial passe sous la clavicule.",
+    "D": "Faux. Le nerf ulnaire n’est pas concerné.",
+    "E": "Faux. Le nerf médian n’est pas concerné.",
+    "_synthese": "Complication nerveuse redoutée : atteinte du plexus brachial."
+  },
+  "mos-193": {
+    "A": "Faux. Le tiers externe vient en second.",
+    "B": "Vrai. Le tiers moyen est le siège le plus fréquent.",
+    "C": "Faux. Le tiers interne est rare.",
+    "D": "Faux. Ce n’est pas une fracture.",
+    "E": "Faux. Ce n’est pas une fracture.",
+    "_synthese": "Clavicule : tiers moyen dans 80 % des cas."
+  },
+  "mos-194": {
+    "A": "Faux. La fracture simple du tiers moyen est traitée par écharpe.",
+    "B": "Faux. Une fracture non déplacée n’est pas opérée.",
+    "C": "Vrai. Pseudarthrose, fracture ouverte, complication cutanée ou vasculo-nerveuse justifient la chirurgie.",
+    "D": "Faux. Une douleur minime n’est pas une indication.",
+    "E": "Faux. L’enfant est traité orthopédiquement.",
+    "_synthese": "Indications opératoires : ouverture, pseudarthrose, complication vasculo-nerveuse, déplacement majeur."
+  },
+  "mos-195": {
+    "A": "Faux. Le ligament coraco-acromial n’est pas concerné.",
+    "B": "Faux. Le ligament acromio-claviculaire n’est pas le plus exposé.",
+    "C": "Vrai. Le ligament coraco-claviculaire peut être rompu (fracture de type Neer II).",
+    "D": "Faux. Le ligament sterno-claviculaire est à l’extrémité interne.",
+    "_synthese": "Fracture du tiers externe : risque de rupture des ligaments coraco-claviculaires, donc d’instabilité."
+  },
+  "mos-196": {
+    "A": "Faux. La plaque est réservée aux fractures déplacées.",
+    "B": "Faux. Les broches ne sont pas indiquées.",
+    "C": "Vrai. Écharpe ou bandage en huit.",
+    "D": "Faux. La traction n’est pas utilisée.",
+    "E": "Faux. Le plâtre n’est pas utilisé à la clavicule.",
+    "_synthese": "Fracture non déplacée de la clavicule : immobilisation par écharpe."
+  },
+  "mos-197": {
+    "A": "Faux. La pseudarthrose est rare.",
+    "B": "Vrai. Le cal vicieux est la complication la plus fréquente, souvent bien toléré.",
+    "C": "Faux. L’atteinte nerveuse est rare.",
+    "D": "Faux. La lésion vasculaire est rare.",
+    "E": "Faux. L’infection est rare.",
+    "_synthese": "Complication la plus fréquente : le cal vicieux, bien toléré."
+  },
+  "mos-198": {
+    "A": "Faux. Une chirurgie n’est pas nécessaire.",
+    "B": "Vrai. Écharpe ou bandage en huit, la clavicule remodèle.",
+    "C": "Faux. La traction n’est pas indiquée.",
+    "D": "Faux. Le plâtre n’est pas utilisé.",
+    "E": "Faux. Le fixateur externe n’est pas indiqué.",
+    "_synthese": "Fracture de la clavicule chez l’enfant : immobilisation simple."
+  },
+  "mos-199": {
+    "A": "Faux. Le deltoïde n’est pas responsable.",
+    "B": "Faux. Le grand pectoral intervient peu.",
+    "C": "Vrai. Le poids du membre fait chuter le moignon de l’épaule.",
+    "D": "Faux. La saillie est liée au déplacement mais n’explique pas l’aspect global.",
+    "E": "Faux. Le fragment médial est tiré en haut.",
+    "_synthese": "Déformation : chute du moignon de l’épaule en avant et en bas."
+  },
+  "mos-200": {
+    "A": "Faux. Le scanner n’est pas de première intention.",
+    "B": "Vrai. La radiographie de face confirme la fracture.",
+    "C": "Faux. L’IRM n’est pas nécessaire.",
+    "D": "Faux. L’échographie n’est pas l’examen de référence.",
+    "E": "Faux. La scintigraphie n’est pas utilisée.",
+    "_synthese": "Diagnostic : radiographie de face de la clavicule."
+  },
+  "mos-201": {
+    "A": "Faux. Ce n’est pas une urgence chirurgicale.",
+    "B": "Faux. Un traitement simple est nécessaire.",
+    "C": "Vrai. Consolidation rapide, bon pronostic.",
+    "D": "Faux. Pas de syndrome des loges.",
+    "E": "Faux. L’ostéosynthèse n’est pas systématique.",
+    "_synthese": "Clavicule de l’enfant : consolidation rapide, traitement simple."
+  },
+  "mos-203": {
+    "A": "Faux. La chirurgie n’est pas systématique.",
+    "B": "Vrai. Le cal vicieux est fréquent et le plus souvent asymptomatique.",
+    "C": "Faux. Pseudarthrose et cal vicieux sont deux complications différentes.",
+    "D": "Faux. L’impotence majeure est rare.",
+    "E": "Faux. Il est tardif.",
+    "_synthese": "Cal vicieux claviculaire : fréquent, souvent bien toléré."
+  },
+  "mos-204": {
+    "A": "Vrai. Le mécanisme le plus fréquent est une chute directe sur l’épaule.",
+    "B": "Faux. Le choc indirect sur la main est plus rare.",
+    "C": "Faux. La torsion n’est pas le mécanisme principal.",
+    "D": "Faux. Le mouvement de lancer n’est pas en cause.",
+    "E": "Faux. Le choc sur le coude est rare.",
+    "_synthese": "Clavicule : mécanisme principal = chute sur l’épaule (choc direct)."
   },
   "otr-038": {
     "A": "Faux. Le deltoïde tire sur le fragment externe vers le bas et en dehors, non sur le fragment interne.",
@@ -320,6 +743,93 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Le dôme pleural est proche : un pneumothorax est possible.",
     "_synthese": "Fracture déplacée du tiers interne de la clavicule : surveiller l’artère sous-clavière, le plexus brachial et la plèvre."
   },
+  "mos-063": {
+    "A": "Faux. IRM.",
+    "B": "Faux. Échographie.",
+    "C": "Vrai. Radiographie de face et de profil.",
+    "D": "Faux. Scintigraphie.",
+    "E": "Faux. Scanner complémentaire.",
+    "_synthese": "Humérus proximal : radiographie."
+  },
+  "mos-110": {
+    "A": "Faux. Le plexus est rarement atteint.",
+    "B": "Vrai. Le nerf circonflexe est le plus souvent lésé dans les fractures du col.",
+    "C": "Faux. Le nerf radial est lésé dans la diaphyse.",
+    "D": "Faux. Le nerf ulnaire est à distance.",
+    "_synthese": "Extrémité supérieure de l’humérus : lésion du nerf axillaire (circonflexe)."
+  },
+  "mos-112": {
+    "A": "Faux. Ce sont des fractures du sujet âgé, pas du sujet jeune.",
+    "B": "Faux. Elles sont rares chez l’enfant.",
+    "C": "Vrai. La femme ménopausée ostéoporotique chute sur la main ou le moignon.",
+    "D": "Faux. Les sportifs sont peu touchés.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Fractures de l’humérus proximal : femme ménopausée ostéoporotique."
+  },
+  "mos-113": {
+    "A": "Faux selon le livre : le signe est attribué à l’extrémité supérieure de l’humérus.",
+    "B": "Faux. L’hématome de la diaphyse est brachial.",
+    "C": "Vrai. L’hématome de Hennequin descend sur la face interne du bras et le thorax.",
+    "D": "Faux. La luxation ne donne pas d’hématome.",
+    "E": "Faux. La clavicule est à distance.",
+    "_synthese": "Hématome de Hennequin : fracture de l’extrémité supérieure de l’humérus."
+  },
+  "mos-137": {
+    "A": "Faux. Une immobilisation simple convient aux fractures non déplacées.",
+    "B": "Vrai. L’arthroplastie (prothèse inversée) est indiquée dans les fractures déplacées à plusieurs fragments du sujet âgé.",
+    "C": "Faux. La traction continue n’a plus de place à l’épaule.",
+    "D": "Faux. Le plâtre n’est pas utilisé à l’épaule.",
+    "E": "Vrai. La plaque verrouillée est une option si l’os est de qualité suffisante.",
+    "_synthese": "Fracture déplacée de l’humérus proximal du sujet âgé : prothèse d’épaule ou ostéosynthèse par plaque selon la qualité osseuse."
+  },
+  "mos-249": {
+    "A": "Vrai. Chute sur le moignon de l’épaule ou sur la main, chez le sujet âgé ostéoporotique.",
+    "B": "Faux. Une fracture engrenée, stable, se traite orthopédiquement.",
+    "C": "Vrai. Immobilisation coude au corps pendant 3 semaines environ.",
+    "D": "Vrai. Le pronostic est bon : la fracture est stable.",
+    "E": "Faux. La nécrose est rare dans les fractures engrenées.",
+    "_synthese": "Fracture engrenée du col chirurgical : écharpe 3 semaines puis rééducation, bon pronostic."
+  },
+  "mos-283": {
+    "A": "Faux. Le nerf radial est exposé à la diaphyse.",
+    "B": "Faux. Le nerf médian est rare.",
+    "C": "Vrai. Le nerf axillaire contourne le col chirurgical.",
+    "D": "Faux. Le nerf musculo-cutané est rare.",
+    "E": "Faux. Le plexus est rarement atteint.",
+    "_synthese": "Extrémité supérieure de l’humérus : nerf axillaire (circonflexe)."
+  },
+  "mos-284": {
+    "A": "Vrai. Le col chirurgical est sous les tubérosités : extra-articulaire.",
+    "B": "Faux. Le col anatomique est intra-articulaire.",
+    "C": "Faux. Il n’est pas diaphysaire.",
+    "D": "Faux. Il n’est pas épiphyso-métaphysaire.",
+    "E": "Faux. La tête humérale est au-dessus.",
+    "_synthese": "Col chirurgical : fracture extra-articulaire, risque nerveux axillaire."
+  },
+  "mos-300": {
+    "A": "Vrai. Fracture déplacée et instable : ostéosynthèse ou prothèse.",
+    "B": "Faux. Une fracture non déplacée est traitée orthopédiquement.",
+    "C": "Faux. L’âge seul ne suffit pas.",
+    "D": "Faux. L’enfant est traité par orthopédie.",
+    "E": "Faux. La douleur minime n’indique pas la chirurgie.",
+    "_synthese": "Chirurgie : fracture déplacée et instable."
+  },
+  "mos-313": {
+    "A": "Faux. Le cal vicieux est possible mais moins redoutable.",
+    "B": "Faux. La pseudarthrose est possible.",
+    "C": "Faux. Le syndrome des loges est rare à l’épaule.",
+    "D": "Vrai. La vascularisation de la tête humérale est menacée, d’où la nécrose.",
+    "E": "Faux. L’infection n’est pas le risque principal.",
+    "_synthese": "Fracture du col anatomique de l’humérus : risque de nécrose avasculaire de la tête."
+  },
+  "mos-357": {
+    "A": "Faux. Une fracture à un fragment est non déplacée.",
+    "B": "Faux. Deux fragments : une des situations.",
+    "C": "Faux. Trois fragments : une des situations.",
+    "D": "Faux. Quatre fragments : une des situations.",
+    "E": "Vrai selon le livre : la classification de Neer comprend toutes les situations, de 1 à 4 fragments.",
+    "_synthese": "Neer : fractures à 1, 2, 3 ou 4 fragments selon la tête, les tubérosités et la diaphyse."
+  },
   "otr-044": {
     "A": "Faux. La nécrose de la tête humérale est grave, mais moins fréquente que la raideur ; elle touche surtout les fractures à trois et quatre fragments.",
     "B": "Faux. Les cals vicieux sont fréquents mais ne sont pas la complication la plus courante.",
@@ -335,6 +845,60 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Le petit pectoral s’insère sur l’apophyse coracoïde, pas sur l’humérus.",
     "E": "Faux. Pour la même raison.",
     "_synthese": "L’extrémité supérieure de l’humérus s’étend jusqu’au bord inférieur de l’insertion du grand pectoral ; au-delà, on parle de diaphyse."
+  },
+  "mos-109": {
+    "A": "Faux. L’artère axillaire est lésée dans les fractures du col.",
+    "B": "Faux. La pseudarthrose est possible mais non spécifique.",
+    "C": "Faux. Le cal vicieux est possible mais non spécifique.",
+    "D": "Vrai. Le nerf radial, collé à l’os dans la gouttière de torsion, est exposé.",
+    "_synthese": "Diaphyse humérale : complication spécifique = paralysie du nerf radial."
+  },
+  "mos-111": {
+    "A": "Vrai. L’ouverture cutanée est possible.",
+    "B": "Faux. Le nerf ulnaire n’est pas concerné.",
+    "C": "Faux. L’artère fémorale n’est pas concernée.",
+    "D": "Vrai. La pseudarthrose est une complication connue.",
+    "E": "Vrai. La raideur du coude survient après immobilisation.",
+    "_synthese": "Diaphyse humérale : ouverture cutanée, paralysie radiale, pseudarthrose, raideur du coude."
+  },
+  "mos-592": {
+    "A": "Vrai. La main tombante traduit la perte d’extension du poignet.",
+    "B": "Vrai. L’extension des doigts est abolie.",
+    "C": "Faux. L’abduction du pouce est surtout médiane.",
+    "D": "Vrai. L’anesthésie touche la face dorsale de la première commissure.",
+    "_synthese": "Paralysie radiale : main tombante, extension impossible, anesthésie de la première commissure dorsale."
+  },
+  "mos-593": {
+    "A": "Faux. La griffe cubitale est ulnaire.",
+    "B": "Vrai. Perte d’extension du coude et du poignet (lésion haute).",
+    "C": "Faux. L’opposition est médiane.",
+    "D": "Vrai. Le réflexe tricipital diminue.",
+    "E": "Faux. Le réflexe bicipital est musculo-cutané.",
+    "_synthese": "Lésion haute du nerf radial : triceps, extenseurs, réflexe tricipital diminué."
+  },
+  "mos-596": {
+    "A": "Vrai. Extension du poignet, de la main et du pouce impossible.",
+    "B": "Faux. L’abduction de l’épaule est axillaire.",
+    "C": "Faux. La flexion dorsale du pied est sciatique poplité externe.",
+    "D": "Faux. La flexion du poignet est médiane et ulnaire.",
+    "E": "Faux. L’anesthésie de l’épaule est axillaire.",
+    "_synthese": "Paralysie radiale motrice : extension du poignet et du pouce impossible."
+  },
+  "mos-598": {
+    "A": "Vrai. Main tombante.",
+    "B": "Faux. Flexion : médian.",
+    "C": "Faux. Griffe : ulnaire.",
+    "D": "Faux. Prédicateur : médian.",
+    "E": "Faux. Singe : médian.",
+    "_synthese": "Paralysie radiale : extension impossible."
+  },
+  "mos-602": {
+    "A": "Faux. Le nerf ulnaire donne la griffe cubitale.",
+    "B": "Faux. Le nerf médian donne la main de singe.",
+    "C": "Vrai. La paralysie radiale est une lésion du nerf radial.",
+    "D": "Faux. Le nerf axillaire concerne l’épaule.",
+    "E": "Faux. Le musculo-cutané concerne le biceps.",
+    "_synthese": "Paralysie radiale = lésion du nerf radial."
   },
   "otr-047": {
     "A": "Faux. L’anesthésie de la pulpe du 5e doigt dépend du nerf cubital.",
@@ -512,6 +1076,102 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Le médian est rarement atteint.",
     "_synthese": "Fracture de la diaphyse humérale : paralysie du radial."
   },
+  "mos-181": {
+    "A": "Vrai. La fracture de l’épitrochlée accompagne souvent une luxation du coude.",
+    "B": "Faux. Une fracture du radius n’est pas associée.",
+    "C": "Faux. Une fracture de l’ulna non plus.",
+    "D": "Faux. L’humérus est déjà concerné.",
+    "E": "Faux. La clavicule n’est pas concernée.",
+    "_synthese": "Épitrochlée : luxation du coude associée."
+  },
+  "mos-185": {
+    "A": "Faux. Aucun risque vital.",
+    "B": "Vrai. L’artère humérale peut être comprimée : urgence vasculaire, risque de Volkmann.",
+    "C": "Faux. L’urgence n’est pas seulement fonctionnelle.",
+    "D": "Faux. Ce n’est pas esthétique.",
+    "E": "Faux. Le nerf peut être touché mais l’urgence est vasculaire.",
+    "_synthese": "Supracondylienne de l’enfant : surveillance du pouls radial."
+  },
+  "mos-186": {
+    "A": "Faux. Le nerf radial est à distance.",
+    "B": "Vrai. Le nerf ulnaire passe derrière l’épitrochlée.",
+    "C": "Faux. Le nerf médian est en avant.",
+    "D": "Faux. Le nerf axillaire est à l’épaule.",
+    "E": "Faux. Le nerf musculo-cutané est à distance.",
+    "_synthese": "Épitrochlée : nerf ulnaire exposé."
+  },
+  "mos-231": {
+    "A": "Faux. La palette est une zone articulaire.",
+    "B": "Vrai. Les fractures de la palette adulte sont souvent articulaires.",
+    "C": "Faux. Elles sont instables.",
+    "D": "Faux selon le livre.",
+    "E": "Faux. Elles ne sont pas spécifiques de la femme âgée.",
+    "_synthese": "Palette humérale : fractures souvent articulaires, chirurgie."
+  },
+  "mos-236": {
+    "A": "Faux. Une TVP n’est pas la complication redoutée.",
+    "B": "Faux. La rupture de l’artère radiale n’est pas la complication.",
+    "C": "Vrai. Le syndrome de Volkmann est la complication vasculaire redoutée.",
+    "D": "Faux. Une AOMI n’est pas liée à la fracture.",
+    "E": "Faux. L’hémorragie n’est pas la complication redoutée.",
+    "_synthese": "Supracondylienne : Volkmann si ischémie non traitée."
+  },
+  "mos-251": {
+    "A": "Faux. Le nerf ulnaire est le plus souvent atteint.",
+    "B": "Vrai. La raideur du coude est la complication majeure à long terme.",
+    "C": "Vrai. Adhérences, rétractions et ossifications périarticulaires.",
+    "D": "Faux. Des complications vasculaires existent.",
+    "E": "Faux. Des propositions sont justes.",
+    "_synthese": "Palette humérale de l’adulte : raideur du coude."
+  },
+  "mos-274": {
+    "A": "Vrai. Chirurgie : réduction anatomique et ostéosynthèse.",
+    "B": "Faux. Un traitement fonctionnel isolé est insuffisant.",
+    "C": "Faux. Une immobilisation simple est insuffisante.",
+    "D": "Faux. La traction est rarement utilisée.",
+    "E": "Faux. Un plâtre est insuffisant.",
+    "_synthese": "Palette humérale de l’adulte : traitement chirurgical."
+  },
+  "mos-301": {
+    "A": "Faux. Elle est rapide.",
+    "B": "Vrai. Consolidation rapide chez l’enfant.",
+    "C": "Faux. Pas de difficulté.",
+    "D": "Faux. La pseudarthrose est rare.",
+    "E": "Faux. Le cal vicieux n’est pas systématique.",
+    "_synthese": "Supracondylienne de l’enfant : consolidation rapide."
+  },
+  "mos-320": {
+    "A": "Faux. L’échographie n’est pas l’examen standard.",
+    "B": "Faux. L’IRM n’est pas de première intention.",
+    "C": "Vrai. Face et profil du coude.",
+    "D": "Faux. La scintigraphie n’est pas indiquée.",
+    "E": "Faux. Le scanner n’est pas de première intention.",
+    "_synthese": "Diagnostic : radiographie du coude de face et de profil."
+  },
+  "mos-331": {
+    "A": "Faux. Une simple immobilisation est insuffisante.",
+    "B": "Vrai. Hospitalisation pour surveiller l’état vasculo-nerveux.",
+    "C": "Faux. La chirurgie n’est pas systématique.",
+    "D": "Faux. La traction est rare.",
+    "E": "Faux. Un plâtre de 6 semaines n’est pas le traitement type.",
+    "_synthese": "Supracondylienne de l’enfant : hospitalisation, surveillance du pouls radial."
+  },
+  "mos-345": {
+    "A": "Faux. La trochlée est articulaire.",
+    "B": "Vrai. La fracture de la trochlée est intra-articulaire.",
+    "C": "Faux. Le siège n’est pas l’épicondyle.",
+    "D": "Faux. Le siège n’est pas l’épitrochlée.",
+    "E": "Faux. Le siège n’est pas le capitellum.",
+    "_synthese": "Fracture de la trochlée : intra-articulaire, traitement chirurgical."
+  },
+  "mos-590": {
+    "A": "Faux. La pseudarthrose est rare.",
+    "B": "Faux. Le cal vicieux est moins fréquent.",
+    "C": "Vrai. La raideur est la plus fréquente.",
+    "D": "Faux. La nécrose est rare.",
+    "E": "Faux. L’infection est rare.",
+    "_synthese": "Extrémité inférieure de l’humérus : raideur du coude."
+  },
   "otr-071": {
     "A": "Vrai. Les fractures parcellaires (apophysaires : épicondyle, épitrochlée) sont extra-articulaires : elles détachent un fragment extérieur à l’articulation.",
     "B": "Faux. Le trait n’est pas horizontal ; il détache un fragment latéral ou médial.",
@@ -599,6 +1259,174 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Le nerf ulnaire passe derrière l’épicondyle médial.",
     "E": "Faux. L’artère brachiale est antérieure.",
     "_synthese": "Fracture de l’épicondyle médial : lésion du nerf ulnaire."
+  },
+  "mos-182": {
+    "A": "Faux. L’IRM n’est pas nécessaire.",
+    "B": "Faux. L’échographie n’est pas l’examen standard.",
+    "C": "Vrai. Face et profil du coude.",
+    "D": "Faux. Le scanner n’est pas de première intention.",
+    "E": "Faux. La scintigraphie n’est pas indiquée.",
+    "_synthese": "Olécrane : radiographie de face et de profil."
+  },
+  "mos-183": {
+    "A": "Faux. La douleur est non spécifique.",
+    "B": "Faux. L’œdème est non spécifique.",
+    "C": "Vrai. L’extension active du coude est impossible (triceps).",
+    "D": "Faux. L’hématome n’est pas spécifique.",
+    "E": "Faux. La crépitation n’est pas le signe principal.",
+    "_synthese": "Olécrane : extension active du coude impossible."
+  },
+  "mos-213": {
+    "A": "Vrai. Extrémité supérieure de l’ulna.",
+    "B": "Faux. Pas inférieure.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Pas le radius.",
+    "E": "Faux. Le coude est l’articulation concernée.",
+    "_synthese": "Olécrane = extrémité supérieure de l’ulna."
+  },
+  "mos-216": {
+    "A": "Faux. Pas la clavicule.",
+    "B": "Faux. Pas l’humérus.",
+    "C": "Vrai. Mason : tête radiale.",
+    "D": "Faux. Pas le fémur.",
+    "E": "Faux. Pas la patella.",
+    "_synthese": "Mason : tête radiale."
+  },
+  "mos-256": {
+    "A": "Faux. Les fractures peu déplacées sont traitées orthopédiquement.",
+    "B": "Faux selon le livre.",
+    "C": "Vrai. La résection de la tête radiale est possible dans les comminutives.",
+    "D": "Vrai. Le vissage ou le brochage est possible.",
+    "E": "Faux. L’arthrodèse du coude n’est pas une option.",
+    "_synthese": "Tête radiale : orthopédique si non déplacée ; chirurgie si déplacée, vissage, résection ou prothèse si comminutive."
+  },
+  "mos-276": {
+    "A": "Faux. Type I : orthopédique.",
+    "B": "Faux. Peu déplacée : orthopédique.",
+    "C": "Vrai. Fracture associée à une luxation : chirurgie.",
+    "D": "Faux. L’enfant est traité orthopédiquement.",
+    "E": "Faux. La douleur minime n’indique pas la chirurgie.",
+    "_synthese": "Tête radiale : chirurgie si déplacée, comminutive ou associée à une luxation."
+  },
+  "mos-286": {
+    "A": "Faux. Pas de lien.",
+    "B": "Vrai. La luxation du coude est fréquemment associée.",
+    "C": "Faux. Aucun lien.",
+    "D": "Faux. Aucun lien.",
+    "E": "Faux. Aucun lien.",
+    "_synthese": "Tête radiale : luxation du coude associée."
+  },
+  "mos-304": {
+    "A": "Faux. L’artère radiale n’est pas concernée.",
+    "B": "Faux. L’artère brachiale n’est pas concernée.",
+    "C": "Faux. Le nerf radial n’est pas concerné.",
+    "D": "Faux. Le ligament latéral interne n’est pas concerné.",
+    "E": "Vrai. Le ligament latéral externe peut être rompu dans le mécanisme.",
+    "_synthese": "Tête radiale : lésion du ligament latéral externe."
+  },
+  "mos-310": {
+    "A": "Faux. L’olécrane est articulaire.",
+    "B": "Vrai. La fracture de l’olécrane est intra-articulaire.",
+    "C": "Faux. Elle n’est pas diaphysaire.",
+    "D": "Faux. Ce terme concerne l’enfant.",
+    "E": "Faux. Elle n’est pas métaphysaire.",
+    "_synthese": "Olécrane : fracture intra-articulaire."
+  },
+  "mos-319": {
+    "A": "Faux. La tête radiale est articulaire.",
+    "B": "Vrai. Fracture intra-articulaire.",
+    "C": "Faux. Elle n’est pas diaphysaire.",
+    "D": "Faux. Terme de l’enfant.",
+    "E": "Faux. Elle n’est pas métaphysaire.",
+    "_synthese": "Tête radiale : fracture intra-articulaire."
+  },
+  "mos-324": {
+    "A": "Faux. Type I : traitement orthopédique.",
+    "B": "Faux. Type II : vissage ou résection.",
+    "C": "Vrai. Fracture comminutive : prothèse ou résection.",
+    "D": "Faux. Peu déplacée : orthopédique.",
+    "E": "Faux. L’enfant n’est pas appareillé.",
+    "_synthese": "Prothèse de la tête radiale : fractures comminutives."
+  },
+  "mos-326": {
+    "A": "Vrai. Une chute sur le coude fléchi est le mécanisme direct.",
+    "B": "Faux. Chute sur la main : tête radiale.",
+    "C": "Faux. Le choc sur la diaphyse n’est pas le mécanisme.",
+    "D": "Faux. L’hyperextension n’est pas le mécanisme principal.",
+    "E": "Faux. La torsion n’est pas le mécanisme.",
+    "_synthese": "Olécrane : chute sur le coude fléchi."
+  },
+  "mos-332": {
+    "A": "Vrai. Douleur à la palpation de la tête radiale.",
+    "B": "Faux. L’impotence n’est pas absolue.",
+    "C": "Faux. La déformation n’est pas fréquente.",
+    "D": "Faux. L’œdème n’est pas le principal.",
+    "E": "Faux. La crépitation n’est pas le signe principal.",
+    "_synthese": "Tête radiale : douleur à la palpation et limitation de la prono-supination."
+  },
+  "mos-334": {
+    "A": "Faux. Rare chez l’enfant.",
+    "B": "Vrai. Elle touche l’adulte.",
+    "C": "Faux. Peu fréquente chez l’adolescent.",
+    "D": "Faux. Moins fréquente chez le sujet âgé.",
+    "E": "Faux. Exceptionnelle chez le nourrisson.",
+    "_synthese": "Tête radiale : adulte."
+  },
+  "mos-342": {
+    "A": "Faux. Non déplacée : orthopédique.",
+    "B": "Vrai. Immobilisation plâtrée coude fléchi.",
+    "C": "Faux. Traction non indiquée.",
+    "D": "Faux. L’arthrodèse n’est pas indiquée.",
+    "E": "Faux. La prothèse n’est pas indiquée.",
+    "_synthese": "Olécrane non déplacée : plâtre brachio-antébrachial."
+  },
+  "mos-343": {
+    "A": "Faux. Le choc sur le coude donne l’olécrane.",
+    "B": "Vrai. Chute sur la main, coude en extension et pronation.",
+    "C": "Faux. La chute sur l’épaule n’est pas en cause.",
+    "D": "Faux. La traction n’est pas en cause.",
+    "E": "Faux. La flexion forcée n’est pas le mécanisme.",
+    "_synthese": "Tête radiale : chute sur la main, coude en extension."
+  },
+  "mos-349": {
+    "A": "Faux. Insuffisante.",
+    "B": "Vrai. Haubanage.",
+    "C": "Faux. Traction non indiquée.",
+    "D": "Faux. Plâtre insuffisant.",
+    "E": "Faux. Prothèse non indiquée.",
+    "_synthese": "Olécrane déplacée : haubanage."
+  },
+  "mos-359": {
+    "A": "Faux. Le syndrome des loges est rare.",
+    "B": "Faux. La pseudarthrose est rare.",
+    "C": "Vrai. La raideur du coude est fréquente.",
+    "D": "Faux. Le cal vicieux est moins fréquent.",
+    "E": "Faux. La nécrose est rare.",
+    "_synthese": "Tête radiale : raideur du coude."
+  },
+  "mos-583": {
+    "A": "Faux. Une fracture non déplacée est traitée orthopédiquement.",
+    "B": "Faux. La résection peut entraîner une instabilité.",
+    "C": "Vrai. Essex-Lopresti associe la fracture de la tête radiale, la rupture de la membrane interosseuse et la disjonction radio-ulnaire inférieure.",
+    "D": "Faux. La raideur est fréquente.",
+    "E": "Faux. La prono-supination peut être limitée.",
+    "_synthese": "Essex-Lopresti : fracture de la tête radiale, rupture de la membrane interosseuse et disjonction radio-ulnaire distale."
+  },
+  "mos-586": {
+    "A": "Faux. Mason I : traitement orthopédique.",
+    "B": "Vrai. Immobilisation simple de courte durée puis mobilisation.",
+    "C": "Faux. Pas de plâtre prolongé.",
+    "D": "Faux. La traction n’est pas indiquée.",
+    "E": "Faux. La prothèse n’est pas indiquée.",
+    "_synthese": "Mason I : traitement fonctionnel."
+  },
+  "mos-587": {
+    "A": "Vrai. La tête radiale est l’extrémité supérieure du radius.",
+    "B": "Faux. L’extrémité inférieure est au poignet.",
+    "C": "Faux. Ce n’est pas la diaphyse.",
+    "D": "Faux. L’olécrane est ulnaire.",
+    "E": "Faux. L’épicondyle est huméral.",
+    "_synthese": "Tête radiale = extrémité supérieure du radius."
   },
   "otr-082": {
     "A": "Faux. Le choc direct n’est pas le mécanisme habituel : la tête radiale se fracture lors d’une chute sur la main, bras tendu, par transmission de la force le long du radius.",
@@ -720,6 +1548,149 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai (à cocher). C’est le respect de la longueur relative des deux os qui compte : une inégalité de longueur gêne le mouvement.",
     "_synthese": "Prono-supination : radio-ulnaire proximale, radio-ulnaire distale, membrane interosseuse, longueurs et courbures respectées. L’huméro-olécrânienne n’y participe pas."
   },
+  "mos-563": {
+    "A": "Vrai. Un syndrome des loges est une complication possible mais rare.",
+    "B": "Vrai. La réduction se fait vite, sous anesthésie, pour relâcher les muscles.",
+    "C": "Faux (à cocher). Le traitement est orthopédique : réduction par manœuvre externe, puis immobilisation.",
+    "D": "Vrai. La luxation s’accompagne d’une rupture des ligaments latéraux.",
+    "E": "Vrai. Le diagnostic est clinique, la radiographie confirme et cherche une fracture.",
+    "_synthese": "Luxation du coude : urgence, réduction orthopédique sous anesthésie, ligaments latéraux rompus, diagnostic clinique."
+  },
+  "mos-564": {
+    "A": "Faux. L’association extension-supination se fait en valgus.",
+    "B": "Vrai. Extension, supination et valgus avec compression axiale.",
+    "C": "Faux. La flexion-pronation n’est pas le mécanisme.",
+    "D": "Faux. Même raison.",
+    "_synthese": "Luxation du coude : extension, supination, valgus (mécanisme de la luxation postéro-latérale)."
+  },
+  "mos-565": {
+    "A": "Faux. La luxation antérieure est rare.",
+    "B": "Faux. La forme purement postérieure est moins fréquente que la postéro-latérale.",
+    "C": "Vrai. La forme postéro-latérale est la plus fréquente.",
+    "D": "Faux. Les formes latérales sont rares.",
+    "E": "Faux. Ce n’est pas une forme anatomo-pathologique.",
+    "_synthese": "Forme anatomo-pathologique la plus fréquente : luxation postéro-latérale."
+  },
+  "mos-567": {
+    "A": "Faux. La divergente est rare.",
+    "B": "Faux. L’antérieure est rare.",
+    "C": "Faux. La latérale est rare.",
+    "D": "Faux. La médiale est rare.",
+    "E": "Vrai. La luxation conjointe postérieure est la plus fréquente.",
+    "_synthese": "Luxation du coude : le plus souvent conjointe postérieure."
+  },
+  "mos-568": {
+    "A": "Faux. Il ne s’agit pas d’une urgence esthétique.",
+    "B": "Vrai. Une réduction rapide préserve la fonction et limite les complications.",
+    "C": "Faux. Aucun risque vital.",
+    "D": "Faux en règle générale : l’atteinte vasculaire est possible mais ce n’est pas la définition.",
+    "E": "Faux en règle générale : l’atteinte neurologique est une complication, non la définition.",
+    "_synthese": "La luxation du coude est une urgence fonctionnelle : réduction rapide, contrôle vasculo-nerveux avant et après."
+  },
+  "mos-569": {
+    "A": "Faux. Elle n’est pas immédiate.",
+    "B": "Faux. Elle n’est pas précoce.",
+    "C": "Vrai. L’instabilité chronique est une complication tardive.",
+    "D": "Faux. Elle n’est pas liée à l’infection.",
+    "E": "Faux en règle générale ; elle résulte surtout de lésions ligamentaires non cicatrisées.",
+    "_synthese": "Instabilité chronique du coude : complication tardive."
+  },
+  "mos-570": {
+    "A": "Faux. Une immobilisation prolongée aggrave la raideur.",
+    "B": "Vrai. La kinésithérapie douce est le traitement de base.",
+    "C": "Faux. Une nouvelle réduction n’est pas nécessaire.",
+    "D": "Vrai. Une arthrolyse peut être nécessaire en cas d’échec.",
+    "E": "Faux. Un plâtre aggrave la raideur.",
+    "_synthese": "Raideur du coude : kinésithérapie, arthrolyse si échec."
+  },
+  "mos-571": {
+    "A": "Vrai. Le profil complète la face et précise le sens de la luxation.",
+    "B": "Faux. Le trois-quarts n’est pas la base.",
+    "C": "Faux. La position du poignet n’est pas en cause.",
+    "D": "Faux. Pas d’incidence de face en supination.",
+    "E": "Faux. Pas d’incidence de face en pronation.",
+    "_synthese": "Luxation du coude : radiographie de face et de profil."
+  },
+  "mos-572": {
+    "A": "Faux. Le nerf radial est rarement touché.",
+    "B": "Vrai. Le nerf ulnaire, en arrière de l’épitrochlée, est le plus souvent étiré.",
+    "C": "Faux selon le cours : le médian peut aussi être touché, plus rarement.",
+    "D": "Faux. Le nerf axillaire est à l’épaule.",
+    "E": "Faux. Le musculo-cutané est rare.",
+    "_synthese": "Luxation du coude : lésion nerveuse la plus fréquente = nerf ulnaire, puis médian."
+  },
+  "mos-573": {
+    "A": "Faux. La luxation antérieure est rare.",
+    "B": "Vrai. Le coude se luxe le plus souvent en arrière.",
+    "C": "Faux. La médiale est rare.",
+    "D": "Faux. La latérale est rare.",
+    "E": "Faux. Pas de luxation inférieure.",
+    "_synthese": "Luxation du coude : deuxième après l’épaule, postérieure dans l’immense majorité."
+  },
+  "mos-574": {
+    "A": "Faux. Non chirurgical en première intention.",
+    "B": "Faux. L’immobilisation vient après la réduction.",
+    "C": "Vrai. La réduction vient en premier.",
+    "D": "Faux. L’attelle suit la réduction.",
+    "E": "Faux. Les antalgiques accompagnent la réduction.",
+    "_synthese": "Traitement : réduction d’abord, puis immobilisation et rééducation."
+  },
+  "mos-575": {
+    "A": "Faux. Un scanner n’est pas systématique.",
+    "B": "Vrai. Radiographie de contrôle pour vérifier la réduction et exclure une fracture.",
+    "C": "Faux. L’échographie n’est pas systématique.",
+    "D": "Faux. L’immobilisation se fait en flexion, non en extension.",
+    "E": "Vrai. Immobilisation en flexion à 90°.",
+    "_synthese": "Après réduction : contrôle radiographique, immobilisation en flexion 2 à 3 semaines, rééducation précoce."
+  },
+  "mos-576": {
+    "A": "Vrai. Une fracture de l’olécrane peut être associée.",
+    "B": "Vrai. Une fracture de la tête radiale peut être associée.",
+    "C": "Vrai. Une fracture du processus coronoïde peut être associée.",
+    "D": "Vrai. Une fracture de l’épitrochlée peut être associée.",
+    "E": "Vrai. Toutes ces associations sont possibles.",
+    "_synthese": "Luxation du coude : fractures associées de l’olécrane, de la tête radiale, de la coronoïde, de l’épitrochlée."
+  },
+  "mos-577": {
+    "A": "Faux. L’échographie n’est pas le premier examen.",
+    "B": "Faux. L’IRM n’est pas nécessaire.",
+    "C": "Vrai. Face et profil.",
+    "D": "Faux. La scintigraphie n’est pas indiquée.",
+    "E": "Faux. Le scanner est un complément.",
+    "_synthese": "Diagnostic : clinique, confirmé par radiographie de face et de profil."
+  },
+  "mos-578": {
+    "A": "Faux. L’ouverture est un autre critère.",
+    "B": "Vrai. Une luxation simple est sans fracture associée.",
+    "C": "Faux. La facilité de réduction n’est pas le critère.",
+    "D": "Faux. La date n’est pas le critère.",
+    "E": "Faux. Le sens n’est pas le critère.",
+    "_synthese": "Luxation simple : sans fracture associée."
+  },
+  "mos-579": {
+    "A": "Faux. La mobilité est abolie.",
+    "B": "Faux. L’impotence est complète.",
+    "C": "Vrai. Impotence fonctionnelle absolue du coude.",
+    "D": "Faux. La douleur est vive.",
+    "E": "Faux. La déformation est un coude bloqué en semi-flexion avec perte des repères.",
+    "_synthese": "Luxation du coude : impotence absolue, déformation, perte des repères."
+  },
+  "mos-580": {
+    "A": "Faux. Le choc direct est moins fréquent.",
+    "B": "Vrai. Chute sur la main, coude en hyperextension.",
+    "C": "Faux. Moins fréquent.",
+    "D": "Faux. Moins fréquent.",
+    "E": "Faux. Moins fréquent.",
+    "_synthese": "Mécanisme le plus fréquent : chute sur la main avec hyperextension du coude."
+  },
+  "mos-581": {
+    "A": "Vrai. Fracture associée instable : ostéosynthèse.",
+    "B": "Faux. La luxation simple n’est pas opérée.",
+    "C": "Faux. La douleur minime n’est pas une indication.",
+    "D": "Faux. L’âge seul n’est pas une indication.",
+    "E": "Faux. L’âge seul n’est pas une indication.",
+    "_synthese": "Chirurgie : fracture associée instable, échec de réduction, instabilité résiduelle."
+  },
   "otr-098": {
     "A": "Vrai. Le mécanisme en varus-supination avec compression axiale est décrit pour la luxation pure du coude.",
     "B": "Vrai. L’hyperextension du coude est le mécanisme le plus fréquent : l’olécrane vient buter dans la fossette olécrânienne et fait levier.",
@@ -751,6 +1722,147 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. La réduction se fait sous anesthésie générale, non sous anesthésie locale.",
     "E": "Vrai. L’ostéome (ossification périarticulaire) est une complication fréquente.",
     "_synthese": "Luxation du coude : sujet jeune, perte des repères osseux, réduction sous anesthésie générale, risque d’ossifications périarticulaires et de raideur."
+  },
+  "mos-086": {
+    "A": "Faux. C’est la fracture la plus fréquente de l’appareil locomoteur.",
+    "B": "Faux. Le traitement est souvent orthopédique.",
+    "C": "Faux. Le mécanisme est indirect.",
+    "D": "Faux. Prédominance féminine.",
+    "E": "Vrai. L’ostéoporose est le facteur favorisant.",
+    "_synthese": "Radius distal : femme âgée ostéoporotique, mécanisme indirect."
+  },
+  "mos-088": {
+    "A": "Faux. C’est la plus fréquente.",
+    "B": "Faux. Le déplacement est postérieur.",
+    "C": "Faux. Elle est extra-articulaire.",
+    "D": "Vrai. Le traitement peut être orthopédique.",
+    "E": "Vrai. Chute sur la paume, poignet en hyperextension.",
+    "_synthese": "Pouteau-Colles : extra-articulaire, déplacement postérieur, mécanisme en hyperextension."
+  },
+  "mos-089": {
+    "A": "Faux. Le mécanisme est une hyperextension.",
+    "B": "Faux. La fracture est extra-articulaire.",
+    "C": "Vrai. Le déplacement est postérieur.",
+    "D": "Vrai. Dos de fourchette.",
+    "E": "Vrai. Le traitement peut être orthopédique.",
+    "_synthese": "Pouteau-Colles : hyperextension, extra-articulaire, déplacement postérieur, dos de fourchette."
+  },
+  "mos-090": {
+    "A": "Faux. La fracture touche le sujet âgé.",
+    "B": "Faux. C’est la plus fréquente.",
+    "C": "Vrai. Elle perturbe la radio-ulnaire distale.",
+    "D": "Vrai. Mécanisme indirect.",
+    "E": "Faux. Pas toujours chirurgicale.",
+    "_synthese": "Radius distal : mécanisme indirect, retentissement possible sur la radio-ulnaire distale."
+  },
+  "mos-091": {
+    "A": "Vrai. Translation externe.",
+    "B": "Faux. La bascule est postérieure.",
+    "C": "Vrai. Bascule postérieure.",
+    "D": "Faux. La translation est externe.",
+    "_synthese": "Pouteau-Colles : bascule postérieure, translation externe, impaction."
+  },
+  "mos-093": {
+    "A": "Vrai. De face, la glène radiale regarde en bas et en dedans (inclinaison radiale normale d’environ 25°).",
+    "B": "Faux. En dehors serait une inclinaison inversée : ce n’est pas l’orientation normale.",
+    "C": "Vrai. De profil, la glène regarde en bas et en avant (bascule antérieure normale d’environ 10°).",
+    "D": "Faux. Une glène orientée en arrière correspond à la bascule postérieure du Pouteau-Colles non réduit.",
+    "_synthese": "Critères de bonne réduction du radius distal : de face inclinaison radiale en bas et en dedans, de profil bascule en bas et en avant, longueur radiale conservée, surface articulaire congruente."
+  },
+  "mos-094": {
+    "A": "Faux. La main botte radiale est inconstante.",
+    "B": "Faux. La main botte cubitale n’est pas la déformation de ce type de fracture.",
+    "C": "Vrai. Dos de fourchette.",
+    "D": "Faux. Le ventre de fourchette est le Goyrand-Smith.",
+    "_synthese": "Pouteau-Colles : déformation en dos de fourchette."
+  },
+  "mos-096": {
+    "A": "Faux. Le dos de fourchette s’observe de profil.",
+    "B": "Vrai. Trait sus-articulaire.",
+    "C": "Vrai. Fracture du sujet âgé.",
+    "D": "Faux. La pseudarthrose est exceptionnelle.",
+    "E": "Faux. La bascule est postérieure.",
+    "_synthese": "Pouteau-Colles : trait sus-articulaire, sujet âgé, bascule postérieure."
+  },
+  "mos-099": {
+    "A": "Faux. Antérieur : Smith.",
+    "B": "Vrai. Postérieur en hyperextension.",
+    "C": "Faux. Pas latéral.",
+    "D": "Faux. Pas médial.",
+    "E": "Faux. Pas de rotation.",
+    "_synthese": "Pouteau-Colles : déplacement postérieur."
+  },
+  "mos-100": {
+    "A": "Faux. La chirurgie est réservée aux fractures déplacées ou instables.",
+    "B": "Vrai. Une fracture peu déplacée, stable, se traite par réduction éventuelle et immobilisation plâtrée de 4 à 6 semaines.",
+    "C": "Faux. La traction continue n’a aucune place au poignet.",
+    "D": "Faux. Le traitement fonctionnel seul expose au déplacement secondaire.",
+    "E": "Faux. Le fixateur externe est une option pour les fractures instables ou comminutives.",
+    "_synthese": "Fracture du radius distal peu déplacée : traitement orthopédique par immobilisation plâtrée."
+  },
+  "mos-101": {
+    "A": "Vrai. Barton : fracture marginale articulaire.",
+    "B": "Faux. Elle est intra-articulaire.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Pas métaphysaire pure.",
+    "E": "Faux. Pas épiphyso-métaphysaire.",
+    "_synthese": "Barton : fracture-luxation marginale intra-articulaire."
+  },
+  "mos-102": {
+    "A": "Faux. Une fracture du poignet ne menace pas la vie du patient.",
+    "B": "Vrai. La réduction doit être rapide pour préserver la fonction : œdème et compression du nerf médian augmentent avec le délai.",
+    "C": "Faux. L’esthétique n’est pas le critère d’urgence.",
+    "D": "Faux. Le geste n’est pas électif : un retard compromet la réduction.",
+    "E": "Faux. La réduction est un geste courant.",
+    "_synthese": "La réduction d’une fracture du radius distal est une urgence fonctionnelle."
+  },
+  "mos-104": {
+    "A": "Faux. C’est le déplacement postérieur par hyperextension du Pouteau-Colles.",
+    "B": "Vrai. Smith (ou Goyrand-Smith) : déplacement antérieur du fragment distal, par chute sur le dos de la main en flexion.",
+    "C": "Faux. Le déplacement est antérieur.",
+    "D": "Faux. Il n’est pas médial.",
+    "E": "Faux. La rotation n’est pas le déplacement caractéristique.",
+    "_synthese": "Smith = fracture inversée de Pouteau-Colles : déplacement antérieur, poignet en flexion, instable, souvent opérée."
+  },
+  "mos-105": {
+    "A": "Faux. Les hommes jeunes ne sont concernés qu’après un traumatisme violent.",
+    "B": "Faux. Chez l’enfant, la lésion est le plus souvent une fracture en motte de beurre ou un décollement.",
+    "C": "Vrai. Femme âgée ostéoporotique, chute de sa hauteur sur la paume.",
+    "D": "Faux. Pas de prédominance chez les sportifs.",
+    "E": "Faux. Chez le nourrisson, la fracture est exceptionnelle.",
+    "_synthese": "Fracture du radius distal : femme âgée ostéoporotique après une chute de sa hauteur."
+  },
+  "mos-106": {
+    "A": "Faux. Le coude n’est pas en cause.",
+    "B": "Vrai. Main en extension.",
+    "C": "Faux. La flexion donne Smith.",
+    "D": "Faux. Pas direct.",
+    "E": "Faux. Pas le bras.",
+    "_synthese": "Pouteau-Colles : chute sur la paume, poignet en extension."
+  },
+  "mos-107": {
+    "A": "Faux. Une fracture non déplacée se traite sans chirurgie.",
+    "B": "Vrai. Un déplacement important, instable ou articulaire justifie une ostéosynthèse.",
+    "C": "Faux. Une douleur minime n’est pas une indication opératoire.",
+    "D": "Faux. L’âge jeune seul n’indique pas la chirurgie.",
+    "E": "Faux. L’âge avancé seul n’est pas une indication ; c’est le déplacement qui décide.",
+    "_synthese": "Indication chirurgicale : déplacement important, instabilité, fracture articulaire."
+  },
+  "mos-108": {
+    "A": "Faux. Pas la clavicule.",
+    "B": "Vrai. Dos de fourchette.",
+    "C": "Faux. Pas Monteggia.",
+    "D": "Faux. Pas l’humérus.",
+    "E": "Faux. Pas la luxation du coude.",
+    "_synthese": "Dos de fourchette = Pouteau-Colles."
+  },
+  "mos-680": {
+    "A": "Faux. Hyperextension.",
+    "B": "Faux. Extra-articulaire.",
+    "C": "Vrai. Déplacement postérieur.",
+    "D": "Vrai. Dos de fourchette.",
+    "E": "Vrai. Traitement orthopédique possible.",
+    "_synthese": "Pouteau-Colles : hyperextension, extra-articulaire, postérieur, dos de fourchette."
   },
   "otr-103": {
     "A": "Faux. La fracture de Pouteau-Colles est la plus fréquente des fractures de l’extrémité inférieure du radius, non la plus rare.",
@@ -944,6 +2056,53 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Le traitement n’est pas toujours chirurgical.",
     "_synthese": "Pouteau-Colles : hyperextension, dos de fourchette, trait sus-articulaire, déplacement postérieur."
   },
+  "mos-087": {
+    "A": "Faux. C’est la plus fréquente.",
+    "B": "Faux. Mécanisme indirect.",
+    "C": "Faux. Pas toujours chirurgical.",
+    "D": "Vrai. Les fractures proximales exposent à la nécrose.",
+    "E": "Vrai. Artère à flux rétrograde.",
+    "_synthese": "Scaphoïde : vascularisation rétrograde, risque de nécrose du pôle proximal."
+  },
+  "mos-092": {
+    "A": "Faux. Corporéale haute : autre type.",
+    "B": "Vrai selon le cours : type IV transtubérositaire.",
+    "C": "Faux. Tubercule distal : autre type.",
+    "D": "Faux. Ce n’est pas la plus fréquente.",
+    "_synthese": "Classification de Schernberg."
+  },
+  "mos-153": {
+    "A": "Vrai. Fracture la plus fréquente du carpe.",
+    "B": "Faux. Diagnostic difficile.",
+    "C": "Vrai. Parfois découverte au stade de pseudarthrose.",
+    "D": "Faux. Traitement non toujours chirurgical.",
+    "E": "Faux. La fracture transtubérositaire, distale, ne se complique pas de nécrose.",
+    "_synthese": "Scaphoïde : diagnostic parfois tardif."
+  },
+  "mos-679": {
+    "A": "Vrai. C’est la plus fréquente des fractures du carpe.",
+    "B": "Faux. Le diagnostic est difficile au début.",
+    "C": "Vrai. Découverte tardive au stade de pseudarthrose.",
+    "D": "Faux. Le traitement peut être orthopédique.",
+    "E": "Faux. La fracture tubérositaire, distale, ne se complique pas de nécrose.",
+    "_synthese": "Scaphoïde : diagnostic difficile, pseudarthrose, nécrose du pôle proximal."
+  },
+  "mos-681": {
+    "A": "Faux. Les fractures distales sont bien vascularisées.",
+    "B": "Vrai. Les fractures proximales exposent à la nécrose.",
+    "C": "Faux. Pas lié au trait vertical.",
+    "D": "Faux. Pas 6 heures.",
+    "E": "Faux. Pas spécifique du sujet jeune.",
+    "_synthese": "Scaphoïde : nécrose du pôle proximal dans les fractures proximales."
+  },
+  "otr-132": {
+    "A": "Faux. La fracture du scaphoïde est bien la plus fréquente des fractures du carpe.",
+    "B": "Faux. La vascularisation du pôle proximal est précaire (artère à flux rétrograde).",
+    "C": "Faux. Le diagnostic est parfois difficile : clichés spéciaux, contrôle à 15 jours, scanner.",
+    "D": "Faux. Certaines fractures non déplacées sont traitées par manchette scaphoïde.",
+    "E": "Vrai (à cocher). Une radiographie initiale normale n’élimine pas une fracture du scaphoïde.",
+    "_synthese": "Fracture du scaphoïde : la plus fréquente du carpe, diagnostic parfois différé, vascularisation précaire du pôle proximal."
+  },
   "otr-133": {
     "A": "Faux. L’ostéonécrose touche le fragment proximal, non distal.",
     "B": "Vrai. Pseudarthrose.",
@@ -992,13 +2151,116 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. La radiographie initiale peut être normale.",
     "_synthese": "Fracture du scaphoïde : douleur de la tabatière anatomique, impotence relative, radiographie initiale parfois normale."
   },
-  "otr-140": {
-    "A": "Faux. La fracture du scaphoïde est bien la plus fréquente des fractures du carpe.",
-    "B": "Faux. La vascularisation du pôle proximal est précaire (artère à flux rétrograde).",
-    "C": "Faux. Le diagnostic est parfois difficile : clichés spéciaux, contrôle à 15 jours, scanner.",
-    "D": "Faux. Certaines fractures non déplacées sont traitées par manchette scaphoïde.",
-    "E": "Vrai (à cocher). Une radiographie initiale normale n’élimine pas une fracture du scaphoïde.",
-    "_synthese": "Fracture du scaphoïde : la plus fréquente du carpe, diagnostic parfois différé, vascularisation précaire du pôle proximal."
+  "mos-205": {
+    "A": "Vrai. Courbures du radius.",
+    "B": "Faux. L’ulna est rectiligne.",
+    "C": "Vrai. Intégrité de la radio-ulnaire inférieure.",
+    "D": "Faux. La radio-carpienne n’intervient pas.",
+    "E": "Vrai. Intégrité de la membrane interosseuse.",
+    "_synthese": "Prono-supination : courbures du radius, radio-ulnaires, membrane interosseuse."
+  },
+  "mos-206": {
+    "A": "Vrai. Synostose.",
+    "B": "Faux. Pas de lien avec le poignet.",
+    "C": "Vrai. Cal vicieux du radius.",
+    "D": "Faux. Pas de lien avec le poignet.",
+    "_synthese": "Deux os de l’avant-bras : synostose et cal vicieux limitent la prono-supination."
+  },
+  "mos-208": {
+    "A": "Faux. Le syndrome des loges est rare.",
+    "B": "Vrai. Le nerf interosseux postérieur est exposé.",
+    "C": "Faux. Pseudarthrose moins fréquente.",
+    "D": "Faux. Cal vicieux moins fréquent.",
+    "E": "Faux. Pas de nécrose.",
+    "_synthese": "Monteggia : atteinte du nerf radial (interosseux postérieur)."
+  },
+  "mos-209": {
+    "A": "Faux. Le coude est atteint dans d’autres mécanismes.",
+    "B": "Faux. L’extension n’est pas le mécanisme principal.",
+    "C": "Vrai. Pronation forcée.",
+    "D": "Faux. Le choc direct est possible mais moins fréquent.",
+    "E": "Faux. Pas de torsion du poignet.",
+    "_synthese": "Monteggia : pronation forcée ou choc postérieur sur l’ulna."
+  },
+  "mos-210": {
+    "A": "Faux. Elle est lente.",
+    "B": "Vrai. La consolidation est longue et difficile.",
+    "C": "Faux. Pas spontanée.",
+    "D": "Faux. La chirurgie n’est pas impossible à éviter dans tous les cas, mais elle est la règle chez l’adulte.",
+    "E": "Faux. Il y a des risques.",
+    "_synthese": "Deux os : consolidation longue, risque de cal vicieux et de pseudarthrose."
+  },
+  "mos-211": {
+    "A": "Faux. L’immobilisation seule est insuffisante.",
+    "B": "Vrai. Monteggia de l’adulte : ostéosynthèse.",
+    "C": "Faux. Pas de traction.",
+    "D": "Faux. Plâtre seul insuffisant.",
+    "E": "Faux. La rééducation suit la chirurgie.",
+    "_synthese": "Monteggia de l’adulte : chirurgie."
+  },
+  "mos-212": {
+    "A": "Faux. L’échographie est inutile.",
+    "B": "Faux. IRM inutile.",
+    "C": "Vrai. Radiographie de l’avant-bras avec coude et poignet.",
+    "D": "Faux. Scanner inutile.",
+    "E": "Faux. Scintigraphie inutile.",
+    "_synthese": "Radiographie de l’avant-bras incluant les deux articulations."
+  },
+  "mos-214": {
+    "A": "Faux selon le livre.",
+    "B": "Vrai. Choc direct.",
+    "C": "Faux. Pas de torsion.",
+    "D": "Faux. Pas de chute sur le coude.",
+    "E": "Faux. Pas de lancer.",
+    "_synthese": "Deux os de l’avant-bras : choc direct."
+  },
+  "mos-215": {
+    "A": "Faux. Pas comme une fracture fermée.",
+    "B": "Vrai. Débridement en urgence.",
+    "C": "Faux. Risque de pseudarthrose.",
+    "D": "Faux. Risque d’infection.",
+    "E": "Faux. C’est une urgence.",
+    "_synthese": "Fracture ouverte : débridement urgent."
+  },
+  "mos-217": {
+    "A": "Faux. Baïonnette : autre fracture.",
+    "B": "Faux. Pas valgus.",
+    "C": "Faux. Pas varus.",
+    "D": "Vrai. Angulation et translation.",
+    "E": "Faux. Pas supination.",
+    "_synthese": "Déformation : angulation et translation."
+  },
+  "mos-218": {
+    "A": "Faux. Pas l’olécrane.",
+    "B": "Faux. Pas le radius distal.",
+    "C": "Vrai. Diaphyse de l’ulna et luxation de la tête radiale.",
+    "D": "Faux. Galeazzi.",
+    "E": "Faux. Pas l’humérus.",
+    "_synthese": "Monteggia : ulna et tête radiale."
+  },
+  "mos-219": {
+    "A": "Faux. Plâtre insuffisant.",
+    "B": "Faux. Traction inadaptée.",
+    "C": "Vrai. Ostéosynthèse.",
+    "D": "Faux. Fixateur externe en cas d’ouverture.",
+    "E": "Faux. Traitement fonctionnel insuffisant.",
+    "_synthese": "Deux os de l’avant-bras de l’adulte : plaques vissées."
+  },
+  "mos-220": {
+    "A": "Faux. Pas l’olécrane.",
+    "B": "Faux. Mason.",
+    "C": "Vrai. Bado : Monteggia.",
+    "D": "Faux. Pas diaphyse de l’ulna isolée.",
+    "E": "Faux. Pas humérus.",
+    "_synthese": "Bado : Monteggia."
+  },
+  "mos-346": {
+    "A": "Vrai. Galeazzi : fracture du radius, luxation de la radio-ulnaire distale.",
+    "B": "Faux. Monteggia.",
+    "C": "Faux. Pas les deux os.",
+    "D": "Faux. Pas le poignet seul.",
+    "E": "Faux. Pas le coude.",
+    "_synthese": "Galeazzi : radius et radio-ulnaire distale."
   },
   "otr-141": {
     "A": "Faux. Il s’agit d’une fracture diaphysaire du radius.",
@@ -1088,6 +2350,124 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Une réponse est juste.",
     "_synthese": "Monteggia : cubitus + tête radiale."
   },
+  "mos-244": {
+    "A": "Faux (utilisé). Le hamac soutient le bassin.",
+    "B": "Faux (utilisé). Hamac et traction.",
+    "C": "Faux (utilisé). Le fixateur externe stabilise le bassin.",
+    "D": "Vrai (à cocher). La coquille plâtrée n’est pas utilisée dans les fractures du bassin.",
+    "_synthese": "Fractures du bassin : hamac, hamac et traction, fixateur externe, ostéosynthèse."
+  },
+  "mos-246": {
+    "A": "Vrai. Il faut d’abord éliminer une urgence vitale (hémorragie).",
+    "B": "Faux. Devant un globe vésical, on évite le sondage d’emblée : risque de rupture de l’urètre, on réalise une urétrographie.",
+    "C": "Vrai. Les examens complémentaires viennent après le conditionnement du patient.",
+    "D": "Faux. Une fracture non déplacée n’est pas opérée.",
+    "E": "Vrai. Un grand déplacement instable est opéré.",
+    "_synthese": "Traumatisme du bassin : éliminer l’urgence vitale, conditionner, puis imagerie ; chirurgie si déplacement important."
+  },
+  "mos-275": {
+    "A": "Faux. Le syndrome des loges n’est pas en cause.",
+    "B": "Vrai. L’hémorragie est la première cause de décès.",
+    "C": "Faux. L’atteinte nerveuse n’est pas létale.",
+    "D": "Faux. L’atteinte viscérale vient après.",
+    "E": "Faux. Le choc septique est tardif.",
+    "_synthese": "Fracture du bassin : mortalité par hémorragie."
+  },
+  "mos-279": {
+    "A": "Faux. Le traitement fonctionnel est réservé aux fractures stables.",
+    "B": "Faux. L’orthopédie ne suffit pas.",
+    "C": "Vrai. Chirurgie (fixateur, ostéosynthèse) pour stabiliser.",
+    "D": "Faux. Pas d’ambulatoire.",
+    "E": "Faux. Pas de traitement médical seul.",
+    "_synthese": "Bassin instable : chirurgie."
+  },
+  "mos-280": {
+    "A": "Faux. Le rein est rarement atteint.",
+    "B": "Faux. L’uretère est rarement atteint.",
+    "C": "Faux selon le cours : la vessie est atteinte moins souvent que l’urètre.",
+    "D": "Vrai. La rupture de l’urètre postérieur est classique.",
+    "E": "Faux. L’infection n’est pas la lésion principale.",
+    "_synthese": "Fracture du bassin : lésions de l’urètre et de la vessie à rechercher."
+  },
+  "mos-287": {
+    "A": "Faux. Le syndrome des loges est rare.",
+    "B": "Faux. La nécrose de la tête fémorale n’est pas le risque principal.",
+    "C": "Faux. La pseudarthrose est rare.",
+    "D": "Vrai. Le choc hémorragique est le risque principal.",
+    "E": "Faux. L’infection n’est pas le risque principal.",
+    "_synthese": "Bassin : risque principal = choc hémorragique."
+  },
+  "mos-305": {
+    "A": "Faux. L’échographie n’est pas l’examen de référence.",
+    "B": "Faux. IRM non indiquée.",
+    "C": "Vrai. Radiographie du bassin de face.",
+    "D": "Faux. Le scanner complète.",
+    "E": "Faux. Scintigraphie non indiquée.",
+    "_synthese": "Bassin : radiographie de face, scanner en complément."
+  },
+  "mos-317": {
+    "A": "Faux. Stable : pas de fixateur.",
+    "B": "Vrai. Instable : fixateur externe, urgence hémodynamique.",
+    "C": "Faux. Pas selon l’âge.",
+    "D": "Faux. Pas selon l’âge.",
+    "E": "Faux. Pas selon le sport.",
+    "_synthese": "Fixateur externe : bassin instable."
+  },
+  "mos-325": {
+    "A": "Vrai. Bilan neurologique.",
+    "B": "Vrai. Bilan vasculaire.",
+    "C": "Vrai. Bilan urologique.",
+    "D": "Vrai. Bilan radiologique.",
+    "E": "Vrai. Toutes ces réponses sont justes.",
+    "_synthese": "Bilan initial : neurologique, vasculaire, urologique, radiologique."
+  },
+  "mos-327": {
+    "A": "Faux. Humérus : Neer.",
+    "B": "Faux. Fémur : Garden.",
+    "C": "Vrai. Tile : bassin.",
+    "D": "Faux. Patella : Wilson.",
+    "E": "Faux. Rachis : Denis.",
+    "_synthese": "Tile : fractures de l’anneau pelvien."
+  },
+  "mos-329": {
+    "A": "Faux. La chirurgie n’est pas nécessaire.",
+    "B": "Vrai. Repos et immobilisation.",
+    "C": "Faux. Pas de traction.",
+    "D": "Faux. Pas d’ostéosynthèse.",
+    "E": "Faux. Pas de fixateur.",
+    "_synthese": "Bassin stable : repos, antalgiques, reprise de l’appui progressive."
+  },
+  "mos-330": {
+    "A": "Faux. L’acétabulum est une autre structure.",
+    "B": "Vrai. La branche ilio-pubienne est la branche supérieure du pubis.",
+    "C": "Faux. Le sacrum est postérieur.",
+    "D": "Faux. L’ilion est l’aile iliaque.",
+    "E": "Faux. L’ischion est la branche ischio-pubienne.",
+    "_synthese": "Fracture de la branche ilio-pubienne : fracture de la branche pubienne."
+  },
+  "mos-333": {
+    "A": "Faux. Une chute de sa hauteur n’explique pas les formes graves.",
+    "B": "Vrai. Traumatisme à haute énergie.",
+    "C": "Faux. Basse énergie : sujet âgé.",
+    "D": "Faux. Pas le plus fréquent.",
+    "E": "Faux. Pas le plus fréquent.",
+    "_synthese": "Bassin : traumatisme à haute énergie."
+  },
+  "mos-368": {
+    "A": "Vrai. Atteinte de l’urètre.",
+    "B": "Faux selon le livre : complication nerveuse.",
+    "C": "Vrai. Atteinte de la vessie.",
+    "D": "Vrai. Atteinte vasculaire.",
+    "_synthese": "Bassin : urètre, vessie, vaisseaux."
+  },
+  "mos-622": {
+    "A": "Faux. La pseudarthrose est rare.",
+    "B": "Faux. Le cal vicieux est moins fréquent.",
+    "C": "Vrai. L’arthrose post-traumatique est le risque principal.",
+    "D": "Faux. L’infection est rare.",
+    "E": "Faux. L’atteinte vasculaire est rare.",
+    "_synthese": "Fracture de l’acétabulum : arthrose post-traumatique."
+  },
   "otr-152": {
     "A": "Faux. Les traumatismes du bassin ne sont pas toujours bénins.",
     "B": "Faux. Ils ne sont pas toujours graves.",
@@ -1127,6 +2507,150 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Souvent bénins (fracture isolée du sujet âgé), parfois très graves (hémorragie).",
     "E": "Vrai. Classification de Tile.",
     "_synthese": "Traumatismes du bassin : spectre allant du bénin au vital ; classification de Tile."
+  },
+  "mos-612": {
+    "A": "Faux. Elle touche l’adulte jeune.",
+    "B": "Vrai. Une hanche en flexion-adduction favorise la luxation postérieure.",
+    "C": "Faux. Il faut un traumatisme violent.",
+    "D": "Faux. Le col ostéoporotique se fracture.",
+    "E": "Vrai. Mécanisme du tableau de bord.",
+    "_synthese": "Luxation traumatique de la hanche : adulte jeune, accident de la route, tableau de bord."
+  },
+  "mos-614": {
+    "A": "Vrai. Fracture de la tête fémorale (Pipkin).",
+    "B": "Faux. Le nerf fémoral est antérieur.",
+    "C": "Vrai. Fracture de la paroi postérieure du cotyle.",
+    "D": "Faux. Le nerf radial n’est pas concerné.",
+    "E": "Vrai. Lésion du nerf sciatique.",
+    "_synthese": "Luxation postérieure : tête fémorale, paroi postérieure, nerf sciatique."
+  },
+  "mos-616": {
+    "A": "Faux. Pas le fémoral.",
+    "B": "Vrai. Le sciatique est le plus souvent atteint dans la luxation postérieure.",
+    "C": "Faux. Pas obturateur.",
+    "D": "Faux. Pas pudendal.",
+    "E": "Faux. Pas le plexus sacré.",
+    "_synthese": "Luxation de la hanche : nerf sciatique."
+  },
+  "mos-617": {
+    "A": "Vrai. L’atteinte est immédiate (traumatisme) ou à la réduction.",
+    "B": "Faux selon le livre.",
+    "C": "Faux. Pas tardive.",
+    "D": "Faux. Pas infectieuse.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Sciatique de la luxation de hanche : complication immédiate."
+  },
+  "mos-618": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Faux. Pas précoce.",
+    "C": "Vrai. Tardive.",
+    "D": "Faux. Pas infectieuse.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Arthrose de la hanche : tardive."
+  },
+  "mos-619": {
+    "A": "Faux. Échographie : nourrisson.",
+    "B": "Faux. IRM inutile.",
+    "C": "Vrai. Radiographie du bassin de face et de profil.",
+    "D": "Faux. Scanner en complément.",
+    "E": "Faux. Scintigraphie inutile.",
+    "_synthese": "Diagnostic : radiographie du bassin."
+  },
+  "mos-620": {
+    "A": "Faux. Pas vitale.",
+    "B": "Vrai. Urgence fonctionnelle : nécrose si retard.",
+    "C": "Faux. Pas principalement vasculaire.",
+    "D": "Faux. Le nerf sciatique est exposé mais l’urgence est fonctionnelle.",
+    "E": "Faux. Pas esthétique.",
+    "_synthese": "Luxation de la hanche : urgence fonctionnelle."
+  },
+  "mos-624": {
+    "A": "Faux. Pas l’infection.",
+    "B": "Vrai. Nécrose avasculaire.",
+    "C": "Faux. Pas la pseudarthrose.",
+    "D": "Faux. Pas le cal vicieux.",
+    "E": "Faux. Le sciatique est atteint d’emblée ou à la réduction.",
+    "_synthese": "Luxation non réduite : nécrose de la tête fémorale."
+  },
+  "mos-626": {
+    "A": "Faux. Antérieure : rare.",
+    "B": "Vrai. Postérieure : plus de 80 %.",
+    "C": "Faux. Pas latérale.",
+    "D": "Faux. Pas médiale.",
+    "E": "Faux. Centrale : fracture du cotyle.",
+    "_synthese": "Luxation de hanche : postérieure."
+  },
+  "mos-627": {
+    "A": "Faux. Pas le plus fréquent.",
+    "B": "Faux. Pas le plus fréquent.",
+    "C": "Vrai. Tableau de bord.",
+    "D": "Faux. Pas le plus fréquent.",
+    "E": "Faux. Pas le plus fréquent.",
+    "_synthese": "Mécanisme : choc du genou sur le tableau de bord."
+  },
+  "mos-629": {
+    "A": "Faux. L’immobilisation suit.",
+    "B": "Faux. La chirurgie est secondaire.",
+    "C": "Vrai. Réduction en urgence.",
+    "D": "Faux. La traction suit.",
+    "E": "Faux. Pas de repos seul.",
+    "_synthese": "Luxation de hanche : réduction en urgence."
+  },
+  "mos-630": {
+    "A": "Faux. Pas le bassin.",
+    "B": "Faux. Pas le fémur.",
+    "C": "Vrai. Acétabulum.",
+    "D": "Faux. Pas la patella.",
+    "E": "Faux. Pas le tibia.",
+    "_synthese": "Luxation postérieure : fracture de l’acétabulum."
+  },
+  "mos-632": {
+    "A": "Vrai. Radiographie de contrôle.",
+    "B": "Faux. Le scanner est souvent fait mais n’est pas la réponse retenue.",
+    "C": "Faux. IRM non systématique.",
+    "D": "Faux. Échographie non systématique.",
+    "E": "Faux. Pas de plâtre.",
+    "_synthese": "Après réduction : contrôle radiographique."
+  },
+  "mos-633": {
+    "A": "Faux. Abduction-RE : luxation antérieure.",
+    "B": "Vrai. Adduction-rotation interne.",
+    "C": "Faux. Pas d’abduction.",
+    "D": "Faux. Pas de RE.",
+    "E": "Faux. Incomplet.",
+    "_synthese": "Luxation postérieure : adduction, rotation interne, raccourcissement."
+  },
+  "mos-634": {
+    "A": "Faux. Simple : réduction orthopédique.",
+    "B": "Faux. Pas selon l’âge.",
+    "C": "Vrai. Luxation irréductible.",
+    "D": "Faux. Pas selon l’âge.",
+    "E": "Faux. Pas selon la douleur.",
+    "_synthese": "Chirurgie : irréductibilité, fragment intra-articulaire."
+  },
+  "mos-635": {
+    "A": "Vrai selon le livre : raideur.",
+    "B": "Faux. Pas pseudarthrose.",
+    "C": "Faux. Pas cal vicieux.",
+    "D": "Faux. Pas infection.",
+    "E": "Faux. Nerveuse moins fréquente.",
+    "_synthese": "Complications : raideur, arthrose, nécrose."
+  },
+  "mos-636": {
+    "A": "Faux. Réduction rapide : moins de nécrose.",
+    "B": "Vrai. Plus de 6 heures.",
+    "C": "Faux. Pas lié.",
+    "D": "Faux. Pas lié.",
+    "E": "Faux. Pas lié.",
+    "_synthese": "Nécrose : réduction tardive."
+  },
+  "mos-670": {
+    "A": "Faux. Luxation postérieure.",
+    "B": "Faux. Pas poignet.",
+    "C": "Vrai. Rotule.",
+    "D": "Vrai. Fracture-luxation postérieure.",
+    "E": "Vrai. Ligament du genou.",
+    "_synthese": "Tableau de bord : rotule, hanche, ligaments du genou."
   },
   "otr-157": {
     "A": "Faux. Il manque la flexion.",
@@ -1239,6 +2763,236 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Le fémur entier n’est pas systématique.",
     "E": "Vrai. Bassin de face + trois-quarts alaire + trois-quarts obturateur (Judet) pour étudier le cotyle.",
     "_synthese": "Bilan radiologique d’une fracture-luxation de hanche : bassin de face, trois-quarts alaire et obturateur, scanner."
+  },
+  "mos-114": {
+    "A": "Vrai. Raccourcissement.",
+    "B": "Vrai. Adduction.",
+    "C": "Faux. Pas d’abduction.",
+    "D": "Faux. Rotation externe.",
+    "E": "Faux. Pas d’allongement.",
+    "_synthese": "Fracture du fémur proximal : raccourcissement, adduction, rotation externe."
+  },
+  "mos-115": {
+    "A": "Faux. Une fracture déplacée ne consolide pas sans chirurgie.",
+    "B": "Vrai. Chez le sujet de moins de 60 ans, ostéosynthèse en urgence pour conserver la tête.",
+    "C": "Faux. Pas fonctionnel.",
+    "D": "Faux. Pas de chirurgie radicale d’emblée.",
+    "E": "Faux. Pas d’arthroplastie chez le sujet jeune sans nécessité.",
+    "_synthese": "Garden IV du sujet jeune : ostéosynthèse en urgence."
+  },
+  "mos-116": {
+    "A": "Faux. La corticale est fine.",
+    "B": "Faux. Vascularisation riche.",
+    "C": "Faux. Pas de nécrose.",
+    "D": "Vrai. Corticale fine.",
+    "E": "Vrai. Os spongieux bien vascularisé.",
+    "_synthese": "Région trochantérienne : os spongieux, corticale fine, riche vascularisation."
+  },
+  "mos-117": {
+    "A": "Faux. La pseudarthrose est plus rare dans les trochantériennes.",
+    "B": "Vrai. Le cal vicieux est fréquent.",
+    "C": "Faux. Le décubitus concerne les deux.",
+    "D": "Faux. La nécrose est rare dans les trochantériennes.",
+    "_synthese": "Trochantérienne : cal vicieux ; col : nécrose et pseudarthrose."
+  },
+  "mos-119": {
+    "A": "Vrai. Femme âgée.",
+    "B": "Vrai. Ostéoporose.",
+    "C": "Vrai. Le but est la consolidation.",
+    "D": "Faux. La nécrose est rare.",
+    "E": "Vrai. Ostéosynthèse.",
+    "_synthese": "Fractures trochantériennes : femme âgée ostéoporotique, ostéosynthèse, consolidation."
+  },
+  "mos-120": {
+    "A": "Faux. Pas très faible.",
+    "B": "Vrai. Élevé.",
+    "C": "Faux. Pas nul.",
+    "D": "Faux. Pas rare.",
+    "E": "Faux. Pas lié à l’infection.",
+    "_synthese": "Embolie pulmonaire : prévention par anticoagulants."
+  },
+  "mos-121": {
+    "A": "Faux. Pas d’immobilisation seule.",
+    "B": "Vrai. Ostéosynthèse.",
+    "C": "Faux. Prothèse rare.",
+    "D": "Faux. Pas de repos.",
+    "E": "Faux. Pas de traction.",
+    "_synthese": "Pertrochantérienne : ostéosynthèse."
+  },
+  "mos-122": {
+    "A": "Faux. Extra-articulaire.",
+    "B": "Vrai. Extra-articulaire.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Pas métaphysaire pure.",
+    "E": "Faux. Pas épiphyso-métaphysaire.",
+    "_synthese": "Pertrochantérienne : extra-articulaire."
+  },
+  "mos-123": {
+    "A": "Faux. La nécrose est rare.",
+    "B": "Faux. Arthrose rare.",
+    "C": "Vrai selon le livre : cal vicieux.",
+    "D": "Faux. Infection rare.",
+    "E": "Faux. Pseudarthrose rare.",
+    "_synthese": "Pertrochantérienne : cal vicieux."
+  },
+  "mos-124": {
+    "A": "Faux. Pseudarthrose rare.",
+    "B": "Faux. Nécrose rare.",
+    "C": "Faux. Décubitus : commun.",
+    "D": "Vrai. Cal vicieux.",
+    "E": "Faux. Raideur moins fréquente.",
+    "_synthese": "Trochantérienne : cal vicieux."
+  },
+  "mos-125": {
+    "A": "Vrai. Ostéosynthèse à foyer fermé.",
+    "B": "Vrai. Ostéosynthèse à foyer ouvert.",
+    "C": "Vrai. Traitement orthopédique si non opérable.",
+    "D": "Faux selon le livre.",
+    "E": "Vrai. Clou Gamma.",
+    "_synthese": "Pertrochantérienne : ostéosynthèse (clou, vis-plaque)."
+  },
+  "mos-126": {
+    "A": "Faux. Garden I.",
+    "B": "Faux. Garden I.",
+    "C": "Faux. Garden IV.",
+    "D": "Vrai. Garden III : déplacée en varus.",
+    "E": "Vrai. Travées horizontalisées.",
+    "_synthese": "Garden III : déplacement en varus."
+  },
+  "mos-127": {
+    "A": "Faux. Intracapsulaire.",
+    "B": "Faux. La nécrose existe.",
+    "C": "Vrai. Décompensation du terrain.",
+    "D": "Vrai. Chirurgie systématique.",
+    "E": "Faux. Godin : autre signe.",
+    "_synthese": "Col du fémur : intra-articulaire, risque de nécrose, chirurgie."
+  },
+  "mos-128": {
+    "A": "Faux. Trait oblique : bon pronostic.",
+    "B": "Faux. Pseudarthrose plus fréquente après FCV.",
+    "C": "Faux. Pas vissage.",
+    "D": "Vrai. Trait vertical.",
+    "E": "Vrai. Très fréquente au-delà de 30°.",
+    "_synthese": "Pseudarthrose du col : trait vertical."
+  },
+  "mos-129": {
+    "A": "Vrai. Rotation externe.",
+    "B": "Vrai. Adduction.",
+    "C": "Vrai. Pas de déformation si non déplacée.",
+    "D": "Vrai. Flexion-abduction possible.",
+    "_synthese": "Col fémoral : adduction, rotation externe, raccourcissement."
+  },
+  "mos-130": {
+    "A": "Vrai. Trait horizontal, coxa valga.",
+    "B": "Faux. Vara.",
+    "C": "Faux. Vertical.",
+    "D": "Faux. Déplacé.",
+    "E": "Faux. Pas de diaphyse.",
+    "_synthese": "Pauwels I et Garden I."
+  },
+  "mos-134": {
+    "A": "Faux. Pas trois mois.",
+    "B": "Faux. Pas cal vicieux.",
+    "C": "Vrai. Arthroplastie.",
+    "D": "Vrai. 20 % de décès.",
+    "E": "Vrai. Thrombogène.",
+    "_synthese": "Garden IV du vieillard : arthroplastie céphalique."
+  },
+  "mos-135": {
+    "A": "Faux. Pas jeunes.",
+    "B": "Faux. Pas enfants.",
+    "C": "Vrai. Sujets âgés.",
+    "D": "Faux. Pas sportifs.",
+    "E": "Faux. Pas nourrissons.",
+    "_synthese": "Fémur proximal : sujet âgé."
+  },
+  "mos-136": {
+    "A": "Faux. Pas loges.",
+    "B": "Vrai. Nécrose.",
+    "C": "Faux. Pas principale.",
+    "D": "Faux. Pas main.",
+    "E": "Faux. Pas clavicule.",
+    "_synthese": "Col fémoral : nécrose."
+  },
+  "mos-138": {
+    "A": "Faux. Échographie.",
+    "B": "Faux. IRM.",
+    "C": "Vrai. Bassin de face et profil.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Diagnostic : radiographie."
+  },
+  "mos-139": {
+    "A": "Faux. Humérus.",
+    "B": "Faux. Fémur : général.",
+    "C": "Vrai. Col fémoral.",
+    "D": "Faux. Bassin.",
+    "E": "Faux. Patella.",
+    "_synthese": "Garden : col fémoral."
+  },
+  "mos-140": {
+    "A": "Faux. Loges.",
+    "B": "Vrai. Nécrose.",
+    "C": "Faux. Pseudarthrose.",
+    "D": "Faux. Cal.",
+    "E": "Faux. Infection.",
+    "_synthese": "Col : nécrose."
+  },
+  "mos-142": {
+    "A": "Faux. Fréquente.",
+    "B": "Vrai. Fréquente.",
+    "C": "Faux. Existe.",
+    "D": "Faux. Grave.",
+    "E": "Faux. Symptomatique.",
+    "_synthese": "Col : fracture ostéoporotique fréquente."
+  },
+  "mos-143": {
+    "A": "Faux. Pas abduction.",
+    "B": "Vrai. Adduction, rotation externe.",
+    "C": "Faux. Pas abduction.",
+    "D": "Faux. Pas RI.",
+    "E": "Faux. Pas flexion.",
+    "_synthese": "Col : adduction, RE, raccourcissement."
+  },
+  "mos-144": {
+    "A": "Faux. Pas prothèse.",
+    "B": "Vrai. Ostéosynthèse.",
+    "C": "Faux. Pas repos.",
+    "D": "Faux. Pas plâtre.",
+    "E": "Faux. Pas traction.",
+    "_synthese": "Jeune : ostéosynthèse."
+  },
+  "mos-145": {
+    "A": "Faux. Pas immobilisation.",
+    "B": "Vrai. Prothèse.",
+    "C": "Faux. Pas traction.",
+    "D": "Faux. Pas repos.",
+    "E": "Faux. Moins fréquent.",
+    "_synthese": "Âgé : prothèse."
+  },
+  "mos-146": {
+    "A": "Faux. Intra.",
+    "B": "Vrai. Intra-articulaire.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Pas métaphysaire.",
+    "E": "Faux. Pas épiphyso-métaphysaire.",
+    "_synthese": "Col : intra-articulaire."
+  },
+  "mos-257": {
+    "A": "Faux. Garden IV est une fracture totalement déplacée ; Pauwels III n’est pas un trait de moins de 30°.",
+    "B": "Faux. Pauwels II correspond à un trait de 30° à 70°.",
+    "C": "Faux. Pauwels III correspond à un trait vertical de plus de 70°.",
+    "D": "Vrai. Delbet I (sous-capitale), Pauwels I (angle inférieur à 30°), Garden I (engrenée en valgus).",
+    "E": "Faux. Pauwels III n’est pas un angle inférieur à 30°.",
+    "_synthese": "Une fracture engrenée en valgus avec trait de moins de 30° est Garden I et Pauwels I, de bon pronostic."
+  },
+  "mos-338": {
+    "A": "Faux. Patella : Wilson.",
+    "B": "Faux. Col : Garden.",
+    "C": "Vrai. Gustilo : fractures ouvertes.",
+    "D": "Faux. Humérus : Neer.",
+    "E": "Faux. Articulaires : AO.",
+    "_synthese": "Gustilo : fractures ouvertes."
   },
   "otr-171": {
     "A": "Vrai. Garden I : fracture du col fémoral incomplète, engrenée ou impactée en valgus, de bon pronostic.",
@@ -1472,6 +3226,22 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Le bilan inflammatoire n’a pas d’intérêt.",
     "_synthese": "Chute chez le sujet âgé avec douleur de hanche : toujours radiographier, même si le blessé peut marcher."
   },
+  "mos-187": {
+    "A": "Faux. Bassin.",
+    "B": "Faux. Clavicule.",
+    "C": "Faux selon le livre : les deux os existent.",
+    "D": "Vrai. Supracondylienne de l’humérus.",
+    "E": "Faux. Fémur.",
+    "_synthese": "Volkmann : supracondylienne."
+  },
+  "mos-693": {
+    "A": "Vrai. Douleur.",
+    "B": "Faux. Pouls présent.",
+    "C": "Vrai. Pouls présent.",
+    "D": "Vrai. Œdème.",
+    "E": "Faux. Pas toutes.",
+    "_synthese": "Syndrome de loge aigu : douleur, pouls conservé, tension."
+  },
   "otr-201": {
     "A": "Faux. Les symptômes aigus relèvent du syndrome des loges aigu, non de la séquelle de Volkmann.",
     "B": "Faux. Il ne s’agit pas d’un syndrome de loge chronique.",
@@ -1519,6 +3289,85 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Surélever la main limite l’œdème.",
     "E": "Vrai. Toute douleur anormale doit faire enlever ou fendre le plâtre.",
     "_synthese": "Prévention de Volkmann : plâtre fendu, surélévation, contrôle à 24 h, douleur = ouvrir le plâtre."
+  },
+  "mos-154": {
+    "A": "Vrai. Une fracture ouverte impose une antibiothérapie et une prévention antitétanique.",
+    "B": "Vrai. Le parage soigneux des parties molles est le temps essentiel.",
+    "C": "Faux. Dans un type III, la peau ne se ferme pas d’emblée : fermeture primitive impossible ou différée.",
+    "D": "Faux. Une plaque vissée expose à l’infection dans un foyer ouvert souillé.",
+    "E": "Vrai. Le fixateur externe est la stabilisation de choix.",
+    "_synthese": "Fracture ouverte de jambe type III : antibiothérapie, parage, fixateur externe, couverture cutanée différée."
+  },
+  "mos-156": {
+    "A": "Faux. L’hématome n’est pas évacué en urgence ; c’est le parage complet qui compte.",
+    "B": "Faux. Le parage ne se diffère pas : urgence chirurgicale, idéalement avant la 6e heure.",
+    "C": "Vrai. L’antibiothérapie prophylactique est systématique.",
+    "D": "Vrai. L’immobilisation par attelle est le geste d’urgence.",
+    "E": "Faux. Si le blessé est vacciné, un rappel suffit ; la sérothérapie n’est pas systématique.",
+    "_synthese": "Fracture ouverte de jambe : immobiliser, antibiothérapie, vaccination antitétanique, parage urgent."
+  },
+  "mos-241": {
+    "A": "Faux. Le mécanisme peut aussi être indirect.",
+    "B": "Faux. L’ouverture de dedans en dehors est de meilleur pronostic que l’ouverture de dehors en dedans.",
+    "C": "Vrai. Le parage se fait au bloc opératoire.",
+    "D": "Faux selon le livre : la classification se fait après le parage.",
+    "E": "Vrai. Le parage conditionne le traitement et le pronostic.",
+    "_synthese": "Fracture ouverte : parage au bloc, classification après le parage."
+  },
+  "mos-245": {
+    "A": "Vrai. La plaie se classe après excision des tissus dévitalisés.",
+    "B": "Faux. Avant le parage, l’étendue réelle des lésions n’est pas connue.",
+    "C": "Vrai. Le type III associe perte de substance, os à nu et suture impossible.",
+    "D": "Faux. Si la suture est possible sous tension, c’est un type II.",
+    "_synthese": "Cauchoix et Duparc : I plaie punctiforme, II suturable, III perte de substance non suturable ; classement après parage."
+  },
+  "mos-269": {
+    "A": "Faux. Elle n’est pas très rapide.",
+    "B": "Faux. Elle n’est pas rapide.",
+    "C": "Vrai. La consolidation du tibia est longue (3 à 6 mois).",
+    "D": "Faux. Elle n’est pas impossible.",
+    "E": "Faux. Il y a des risques de retard et de pseudarthrose.",
+    "_synthese": "Tibia : consolidation longue, pseudarthrose et cal vicieux possibles."
+  },
+  "mos-297": {
+    "A": "Faux. L’échographie ne montre pas l’os.",
+    "B": "Faux. IRM inutile.",
+    "C": "Vrai. Radiographie de la jambe incluant genou et cheville.",
+    "D": "Faux. Scanner complémentaire.",
+    "E": "Faux. Scintigraphie inutile.",
+    "_synthese": "Jambe : radiographie complète genou et cheville inclus."
+  },
+  "mos-299": {
+    "A": "Faux. L’immobilisation simple est insuffisante.",
+    "B": "Vrai. Débridement chirurgical urgent.",
+    "C": "Faux. Le plâtre est inadapté.",
+    "D": "Faux. La traction est inadaptée.",
+    "E": "Faux. Une plaque expose à l’infection.",
+    "_synthese": "Fracture ouverte : débridement chirurgical urgent."
+  },
+  "mos-336": {
+    "A": "Faux. Le plâtre est réservé aux fractures stables.",
+    "B": "Faux. La traction est abandonnée.",
+    "C": "Vrai. Enclouage centromédullaire verrouillé.",
+    "D": "Faux. La plaque est une option pour les fractures articulaires.",
+    "E": "Faux. Le fixateur externe est réservé aux fractures ouvertes.",
+    "_synthese": "Tibia fermé déplacé : enclouage centromédullaire."
+  },
+  "mos-340": {
+    "A": "Faux. Le syndrome des loges est une complication précoce.",
+    "B": "Faux. Le cal vicieux est moins fréquent.",
+    "C": "Vrai. Le risque principal est l’infection.",
+    "D": "Faux. La pseudarthrose est une complication tardive.",
+    "E": "Faux. Le risque vasculaire est moindre.",
+    "_synthese": "Fracture ouverte : infection."
+  },
+  "mos-348": {
+    "A": "Faux. Une chute de sa hauteur donne une fracture spiroïde.",
+    "B": "Vrai. Le tibia sous-cutané reçoit directement le choc, notamment lors d’un accident de la route.",
+    "C": "Faux. La torsion donne un trait spiroïde.",
+    "D": "Faux. C’est une fracture à haute énergie.",
+    "E": "Faux. Une chute sur le pied donne un pilon tibial.",
+    "_synthese": "Tibia : traumatisme direct à haute énergie."
   },
   "otr-207": {
     "A": "Faux. Les contrôles radiographiques répétés ne sont pas spécifiques des fractures ouvertes.",
@@ -1680,6 +3529,115 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Type C = articulaire complète.",
     "_synthese": "Pilon tibial (AO) : A extra-articulaire, B articulaire partielle, C articulaire complète. État cutané et scanner sont essentiels."
   },
+  "mos-068": {
+    "A": "Faux. Le centrage de l’astragale se juge sur l’interligne.",
+    "B": "Faux. L’axe du tibia est un autre critère.",
+    "C": "Vrai. Le test de Skinner apprécie la longueur du péroné.",
+    "D": "Faux. La hauteur de la mortaise est un autre critère.",
+    "_synthese": "Skinner : longueur du péroné."
+  },
+  "mos-069": {
+    "A": "Vrai. Le type II de Duparc et Alnot est la bimalléolaire par abduction.",
+    "B": "Faux. L’abduction donne une pronation, non une supination.",
+    "C": "Faux. Le coup de hache externe n’est pas le signe de l’abduction pure.",
+    "D": "Faux. La malléole interne menaçant la peau n’est pas le signe.",
+    "E": "Faux. Une lésion de la syndesmose est possible.",
+    "_synthese": "Abduction : type II de Duparc et Alnot."
+  },
+  "mos-072": {
+    "A": "Faux. La plus fréquente est la fracture par abduction.",
+    "B": "Vrai. Dans l’adduction, le trait de la malléole interne est vertical.",
+    "C": "Faux. Dans l’adduction, le trait du péroné est sous-tuberculaire.",
+    "_synthese": "Adduction : trait vertical interne, péroné sous-tuberculaire."
+  },
+  "mos-075": {
+    "A": "Faux. Pas du genou.",
+    "B": "Faux. Pas du pied.",
+    "C": "Vrai. Lauge-Hansen : cheville.",
+    "D": "Faux. Pas du poignet.",
+    "E": "Faux. Pas de l’épaule.",
+    "_synthese": "Lauge-Hansen : cheville."
+  },
+  "mos-076": {
+    "A": "Faux. Une chute sur le pied donne un pilon.",
+    "B": "Faux. L’inversion donne une entorse.",
+    "C": "Vrai. Torsion de la cheville.",
+    "D": "Faux. Pas direct.",
+    "E": "Faux. Pas d’hyperextension.",
+    "_synthese": "Bimalléolaire : torsion."
+  },
+  "mos-077": {
+    "A": "Faux. Pas extra-articulaire.",
+    "B": "Vrai. Intra-articulaire.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Pas métaphysaire.",
+    "E": "Faux. Pas épiphyso-métaphysaire.",
+    "_synthese": "Bimalléolaire : articulaire."
+  },
+  "mos-078": {
+    "A": "Faux. Non déplacée : orthopédique.",
+    "B": "Vrai. Immobilisation plâtrée.",
+    "C": "Faux. Pas de traction.",
+    "D": "Faux. Pas fonctionnel.",
+    "E": "Faux. Pas de fixateur.",
+    "_synthese": "Non déplacée : plâtre."
+  },
+  "mos-079": {
+    "A": "Faux. Immobilisation insuffisante.",
+    "B": "Vrai. Chirurgie.",
+    "C": "Faux. Pas de repos.",
+    "D": "Faux. Pas de traction.",
+    "E": "Faux. Plâtre insuffisant.",
+    "_synthese": "Déplacée : chirurgie."
+  },
+  "mos-080": {
+    "A": "Vrai. Infection.",
+    "B": "Faux. Pseudarthrose rare.",
+    "C": "Faux. Cal vicieux.",
+    "D": "Faux. Nerveuse rare.",
+    "E": "Faux. Vasculaire rare.",
+    "_synthese": "Chirurgie : infection cutanée."
+  },
+  "mos-081": {
+    "A": "Faux. Pas seulement tibia et péroné.",
+    "B": "Faux. Pas le fémur.",
+    "C": "Faux. Pas talus.",
+    "D": "Vrai. Cheville.",
+    "E": "Faux. Pas le pied.",
+    "_synthese": "Bimalléolaire : cheville."
+  },
+  "mos-082": {
+    "A": "Faux. Échographie.",
+    "B": "Faux. IRM.",
+    "C": "Vrai. Radiographie.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Radiographie."
+  },
+  "mos-083": {
+    "A": "Faux. Douleur vive.",
+    "B": "Vrai. Impotence absolue.",
+    "C": "Faux. Valgus.",
+    "D": "Faux. Varus.",
+    "E": "Faux. Œdème important.",
+    "_synthese": "Impotence absolue."
+  },
+  "mos-084": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal.",
+    "D": "Vrai. Arthrose.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Arthrose post-traumatique."
+  },
+  "mos-085": {
+    "A": "Faux. La douleur n’est pas le but.",
+    "B": "Faux. Consolidation spontanée.",
+    "C": "Vrai. Anatomie et stabilité.",
+    "D": "Faux. Pas l’infection.",
+    "E": "Faux. Pas la pseudarthrose.",
+    "_synthese": "Chirurgie : réduction anatomique, stabilité."
+  },
   "otr-236": {
     "A": "Faux. La fracture par abduction est la plus fréquente.",
     "B": "Faux. L’adduction est le mécanisme, non l’éversion.",
@@ -1695,6 +3653,14 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Trait sus-tuberculaire.",
     "E": "Faux. Pas d’atteinte du SPE.",
     "_synthese": "Bimalléolaire par abduction : syndesmose rompue, trait sus-tuberculaire, chirurgie."
+  },
+  "otr-238": {
+    "A": "Faux. La fracture par abduction est la plus fréquente.",
+    "B": "Faux. L’adduction est le mécanisme, non l’éversion.",
+    "C": "Vrai. Le trait sur la malléole interne est vertical.",
+    "D": "Vrai. Pas de lésion de la syndesmose.",
+    "E": "Faux. Le trait péronier est sous-tuberculaire.",
+    "_synthese": "Bimalléolaire par adduction : trait péronier sous-tuberculaire, trait interne vertical, syndesmose intacte. Par abduction : trait péronier sus-tuberculaire, syndesmose rompue."
   },
   "otr-239": {
     "A": "Vrai. Mécanisme le plus souvent indirect.",
@@ -1792,14 +3758,6 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Il existe un diastasis.",
     "_synthese": "Abduction : trait interne transversal, lésion de la syndesmose, diastasis."
   },
-  "otr-256": {
-    "A": "Faux. Ce n’est pas la fracture du péroné la plus fréquente.",
-    "B": "Faux. Le mécanisme est une adduction.",
-    "C": "Vrai. Trait interne vertical.",
-    "D": "Vrai. Syndesmose intacte.",
-    "E": "Faux. Sous-tuberculaire.",
-    "_synthese": "Bimalléolaire par adduction : trait vertical interne, syndesmose intacte."
-  },
   "otr-257": {
     "A": "Vrai (à cocher). Le mécanisme est indirect, par adduction du pied.",
     "B": "Vrai (à cocher). La fracture bimalléolaire n’est pas la plus fréquente de l’appareil locomoteur (c’est l’extrémité inférieure du radius).",
@@ -1816,6 +3774,228 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. La membrane interosseuse est intacte.",
     "_synthese": "Bimalléolaire sous-tuberculaire (par adduction) : mécanisme indirect, syndesmose intacte, trait péronier sous-tuberculaire."
   },
+  "mos-366": {
+    "A": "Vrai. La burst fracture est de type A3 de Magerl.",
+    "B": "Faux. Mécanisme en compression.",
+    "C": "Vrai. Elle est instable (deux colonnes).",
+    "D": "Vrai. Le recul du mur postérieur comprime le canal.",
+    "E": "Faux. La laminectomie n’est pas systématique.",
+    "_synthese": "Burst fracture : type A3, compression, instable, recul du mur postérieur."
+  },
+  "mos-374": {
+    "A": "Faux. La moelle est plus courte que le canal.",
+    "B": "Vrai. Canal ostéo-ligamentaire inextensible.",
+    "C": "Faux. Elle contient aussi des neurones sensitifs.",
+    "D": "Faux. Les cornes antérieures sont motrices.",
+    "_synthese": "Moelle : plus courte que le canal, canal inextensible."
+  },
+  "mos-375": {
+    "A": "Faux. La minerve est nécessaire.",
+    "B": "Faux. L’intubation reste possible en axe.",
+    "C": "Faux. La désincarcération se fait en traction axiale.",
+    "D": "Faux. Le massage cardiaque reste possible.",
+    "E": "Vrai. Examen neurologique sur place.",
+    "_synthese": "Rachis cervical suspect : minerve, axe tête-cou-tronc."
+  },
+  "mos-377": {
+    "A": "Faux. Lordose cervicale.",
+    "B": "Vrai. Lordose lombaire.",
+    "C": "Vrai. Lordose cervicale.",
+    "D": "Vrai. Cyphose dorsale.",
+    "E": "Faux. Lordose lombaire.",
+    "_synthese": "Courbures : lordose cervicale, cyphose dorsale, lordose lombaire."
+  },
+  "mos-390": {
+    "A": "Faux. L’humérus n’est pas concerné.",
+    "B": "Faux. Le fémur non plus.",
+    "C": "Vrai. La queue de cheval est dans le canal lombaire bas.",
+    "D": "Faux. Le rachis thoracique contient la moelle.",
+    "E": "Faux. Le rachis cervical contient la moelle.",
+    "_synthese": "Syndrome de la queue de cheval : fracture lombaire basse avec atteinte des racines."
+  },
+  "mos-391": {
+    "A": "Faux. Pas le but principal.",
+    "B": "Vrai. Stabilité.",
+    "C": "Vrai. Décompression.",
+    "D": "Faux. Pas vasculaire.",
+    "E": "Faux. Pas infection.",
+    "_synthese": "Chirurgie du rachis : stabilité et décompression."
+  },
+  "mos-392": {
+    "A": "Vrai. Atteinte nerveuse.",
+    "B": "Faux. Pas vasculaire.",
+    "C": "Faux. Pas pseudarthrose.",
+    "D": "Faux. Pas cal vicieux.",
+    "E": "Faux. Pas infection.",
+    "_synthese": "Rachis : atteinte nerveuse."
+  },
+  "mos-397": {
+    "A": "Faux. Douleur minime.",
+    "B": "Faux. Douleur modérée.",
+    "C": "Vrai. Compression médullaire.",
+    "D": "Faux. Âge.",
+    "E": "Faux. Âge.",
+    "_synthese": "Chirurgie : compression."
+  },
+  "mos-398": {
+    "A": "Vrai. Paraplégie ou tétraplégie.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal.",
+    "D": "Faux. Loges.",
+    "E": "Faux. Infection.",
+    "_synthese": "Rachis : atteinte médullaire."
+  },
+  "mos-399": {
+    "A": "Vrai. Traumatisme.",
+    "B": "Faux. Infection.",
+    "C": "Faux. Tumeur.",
+    "D": "Faux. Auto-immune.",
+    "E": "Faux. Métabolique.",
+    "_synthese": "Paraplégie : traumatisme du rachis."
+  },
+  "mos-406": {
+    "A": "Faux. Loges.",
+    "B": "Faux. Raideur.",
+    "C": "Vrai. Infections urinaires.",
+    "D": "Faux. Pseudarthrose.",
+    "E": "Faux. Cal.",
+    "_synthese": "Lésion médullaire : infections urinaires."
+  },
+  "mos-409": {
+    "A": "Vrai. Chirurgie.",
+    "B": "Faux. Immobilisation insuffisante.",
+    "C": "Faux. Traction.",
+    "D": "Faux. Repos.",
+    "E": "Faux. Arthrodèse : un temps.",
+    "_synthese": "Rachis instable : chirurgie."
+  },
+  "mos-410": {
+    "A": "Faux. Échographie.",
+    "B": "Faux. IRM : moelle.",
+    "C": "Vrai. Scanner.",
+    "D": "Faux. Radiographie : premier examen.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Rachis : radiographie puis scanner."
+  },
+  "mos-411": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Immobilisation.",
+    "C": "Faux. Traction.",
+    "D": "Faux. Repos.",
+    "E": "Faux. Arthrodèse.",
+    "_synthese": "Stable : immobilisation."
+  },
+  "mos-412": {
+    "A": "Faux. Pseudarthrose.",
+    "B": "Faux. Cal.",
+    "C": "Vrai. Infection.",
+    "D": "Faux. Nerveuse.",
+    "E": "Faux. Vasculaire.",
+    "_synthese": "Chirurgie du rachis : infection."
+  },
+  "mos-417": {
+    "A": "Vrai. Clinique.",
+    "B": "Faux. Échographie.",
+    "C": "Faux. IRM : étiologie.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Radiographie.",
+    "_synthese": "Diagnostic clinique."
+  },
+  "mos-418": {
+    "A": "Faux. Humérus : Neer.",
+    "B": "Faux. Fémur : Garden.",
+    "C": "Vrai. Denis classe les fractures du rachis thoraco-lombaire.",
+    "D": "Faux. Bassin : Tile.",
+    "E": "Faux. Patella : Wilson.",
+    "_synthese": "Classification de Denis : colonnes antérieure, moyenne et postérieure."
+  },
+  "mos-419": {
+    "A": "Vrai. Flexion.",
+    "B": "Faux. Extension.",
+    "C": "Faux. Rotation.",
+    "D": "Faux. Torsion.",
+    "E": "Faux. Cisaillement.",
+    "_synthese": "Flexion."
+  },
+  "mos-428": {
+    "A": "Vrai. Antélisthésis.",
+    "B": "Vrai. Clichés dynamiques.",
+    "C": "Vrai. Radio normale.",
+    "D": "Faux (à cocher). La lésion ligamentaire peut cicatriser.",
+    "E": "Vrai. Orthopédique.",
+    "_synthese": "Entorse grave du rachis cervical : diagnostic dynamique."
+  },
+  "mos-429": {
+    "A": "Vrai. Choc spinal.",
+    "B": "Vrai. Phase spastique.",
+    "C": "Vrai. Para ou tétraplégie.",
+    "D": "Vrai. Troubles vésicosphinctériens.",
+    "E": "Faux (à cocher). Les lésions ne sont pas toujours complètes.",
+    "_synthese": "Traumatisme vertébro-médullaire : phase flasque puis spastique."
+  },
+  "mos-430": {
+    "A": "Faux. Type A3.",
+    "B": "Faux. Instabilité mixte.",
+    "C": "Vrai. Recul du mur postérieur.",
+    "D": "Vrai. Compression.",
+    "E": "Faux. Pas systématique.",
+    "_synthese": "Burst : compression."
+  },
+  "mos-464": {
+    "A": "Faux. Pas seulement.",
+    "B": "Faux. Paraplégie.",
+    "C": "Vrai. Quatre membres.",
+    "D": "Faux. Tronc.",
+    "E": "Faux. Cou.",
+    "_synthese": "Tétraplégie : quatre membres."
+  },
+  "mos-508": {
+    "A": "Vrai. Para et tétraplégie.",
+    "B": "Faux. Arthrose.",
+    "C": "Faux. PR.",
+    "D": "Faux. Spondylarthrite.",
+    "E": "Faux. Goutte.",
+    "_synthese": "Vessie neurologique : lésion médullaire."
+  },
+  "mos-512": {
+    "A": "Vrai. Perte de sensibilité du périnée.",
+    "B": "Vrai. Incontinence sphinctérienne.",
+    "C": "Vrai. Réflexe bulbo-caverneux.",
+    "D": "Faux. Le réflexe crémastérien ne se recherche pas au toucher rectal.",
+    "_synthese": "Toucher rectal : tonus anal, sensibilité du périnée, réflexe bulbo-caverneux."
+  },
+  "mos-547": {
+    "A": "Faux. Membres supérieurs.",
+    "B": "Vrai. Membres inférieurs.",
+    "C": "Faux. Quatre membres.",
+    "D": "Faux. Tronc.",
+    "E": "Faux. Cou.",
+    "_synthese": "Paraplégie : membres inférieurs."
+  },
+  "mos-550": {
+    "A": "Faux. Chirurgie.",
+    "B": "Faux. Médical.",
+    "C": "Vrai. Médical et réadaptation.",
+    "D": "Faux. Immobilisation.",
+    "E": "Faux. Traction.",
+    "_synthese": "Paraplégie : traitement médical et réadaptation."
+  },
+  "mos-553": {
+    "A": "Faux. Immédiate.",
+    "B": "Vrai. Le plus tôt possible.",
+    "C": "Faux. Pas 6 semaines.",
+    "D": "Faux. Pas 3 mois.",
+    "E": "Faux. Pas jamais.",
+    "_synthese": "Rééducation : précoce."
+  },
+  "mos-554": {
+    "A": "Vrai. Spasticité.",
+    "B": "Faux. Arthrose.",
+    "C": "Faux. PR.",
+    "D": "Faux. Spondylarthrite.",
+    "E": "Faux. Goutte.",
+    "_synthese": "Spasticité : lésion médullaire."
+  },
   "otr-259": {
     "A": "Vrai. La fracture-éclatement (burst) est un type A3 de Magerl : lésion du corps vertébral par compression.",
     "B": "Faux. Le mécanisme est une compression axiale, non une distraction (distraction = type B).",
@@ -1825,6 +4005,14 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Burst fracture dorso-lombaire : compression axiale, type A3 de Magerl, instabilité osseuse, risque neurologique par recul du mur postérieur."
   },
   "otr-260": {
+    "A": "Vrai. Les radiographies standard peuvent être normales : seules les clichés dynamiques ou l’IRM montrent la lésion.",
+    "B": "Vrai. Les clichés dynamiques en flexion et extension objectivent l’instabilité.",
+    "C": "Vrai. L’entorse grave touche le segment mobile rachidien (disque, ligaments, articulaires postérieures).",
+    "D": "Faux. Le segment vertébral moyen concerne le corps vertébral et le mur postérieur.",
+    "E": "Faux. Une entorse grave est instable : elle relève d’un traitement chirurgical (arthrodèse), non d’un traitement orthopédique.",
+    "_synthese": "Entorse grave du rachis cervical : lésion disco-ligamentaire du segment mobile, radiographie initiale parfois normale, diagnostic sur clichés dynamiques ou IRM, traitement chirurgical."
+  },
+  "otr-261": {
     "A": "Vrai. Les radiographies standard peuvent être normales : seules les clichés dynamiques ou l’IRM montrent la lésion.",
     "B": "Vrai. Les clichés dynamiques en flexion et extension objectivent l’instabilité.",
     "C": "Vrai. L’entorse grave touche le segment mobile rachidien (disque, ligaments, articulaires postérieures).",
@@ -1912,13 +4100,101 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Les métastases fracturent.",
     "_synthese": "Fractures pathologiques du rachis : myélome, lymphome, ostéoporose, métastases."
   },
-  "otr-272": {
-    "A": "Vrai. La radiographie peut être normale.",
-    "B": "Vrai. L’IRM objective la lésion disco-ligamentaire.",
-    "C": "Vrai. Elle touche le segment mou (ligaments, disque).",
-    "D": "Faux. Elle ne touche pas le segment vertébral moyen.",
-    "E": "Faux. Une entorse grave n’est pas traitée orthopédiquement.",
-    "_synthese": "Entorse grave : radiographie normale possible, IRM et clichés dynamiques utiles."
+  "mos-147": {
+    "A": "Vrai. Un traumatisme en valgus fracture le plateau externe (fracture pare-chocs).",
+    "B": "Faux. Le varus donne un plateau interne.",
+    "C": "Faux. Pas de flexion.",
+    "D": "Faux. Pas d’extension.",
+    "E": "Faux. Pas de rotation.",
+    "_synthese": "Plateaux tibiaux : valgus, plateau externe."
+  },
+  "mos-148": {
+    "A": "Faux. Non déplacée : orthopédique.",
+    "B": "Vrai. Immobilisation plâtrée.",
+    "C": "Faux. Pas de traction.",
+    "D": "Faux. Le traitement fonctionnel seul n’est pas le standard.",
+    "E": "Faux. Pas de fixateur.",
+    "_synthese": "Plateaux tibiaux non déplacés : immobilisation."
+  },
+  "mos-149": {
+    "A": "Faux. L’impotence est complète mais ce n’est pas le signe cité.",
+    "B": "Faux. L’impotence est complète.",
+    "C": "Faux. Pas minime.",
+    "D": "Vrai. La douleur est importante.",
+    "E": "Faux. La crépitation est inconstante.",
+    "_synthese": "Plateaux tibiaux : douleur et œdème du genou, hémarthrose."
+  },
+  "mos-150": {
+    "A": "Faux. Pas l’artère fémorale.",
+    "B": "Vrai. L’artère poplitée est exposée.",
+    "C": "Faux. Moins fréquente.",
+    "D": "Faux. Moins fréquente.",
+    "E": "Faux. Moins fréquente.",
+    "_synthese": "Plateaux tibiaux : risque vasculaire poplité."
+  },
+  "mos-151": {
+    "A": "Faux. Intra-articulaires.",
+    "B": "Vrai. Intra-articulaires.",
+    "C": "Faux. Pas diaphysaires.",
+    "D": "Faux. Pas métaphysaires seules.",
+    "E": "Faux. Pas épiphyso-métaphysaires.",
+    "_synthese": "Plateaux : fractures articulaires."
+  },
+  "mos-152": {
+    "A": "Vrai. Ostéosynthèse.",
+    "B": "Faux. Pas d’arthrodèse.",
+    "C": "Faux. Pas de méniscectomie.",
+    "D": "Faux. Pas de prothèse.",
+    "E": "Faux. Réduction : un temps.",
+    "_synthese": "Plateaux : ostéosynthèse."
+  },
+  "mos-271": {
+    "A": "Faux. La chirurgie est réservée aux fractures déplacées.",
+    "B": "Vrai. Immobilisation plâtrée en extension pendant 4 à 6 semaines.",
+    "C": "Faux. Le repos au lit n’est pas un traitement spécifique.",
+    "D": "Faux. La traction n’a pas de place.",
+    "E": "Faux. Le traitement fonctionnel seul n’est pas indiqué.",
+    "_synthese": "Fracture non déplacée de la patella : immobilisation en extension (attelle ou plâtre cruro-pédieux)."
+  },
+  "mos-272": {
+    "A": "Faux. L’immobilisation seule laisse persister le déplacement.",
+    "B": "Faux. Le repos au lit n’est pas un traitement.",
+    "C": "Vrai. La chirurgie (haubanage) rétablit l’appareil extenseur.",
+    "D": "Faux. La traction n’est pas indiquée.",
+    "E": "Faux. Le traitement fonctionnel n’est pas adapté.",
+    "_synthese": "Fracture déplacée de la patella : haubanage, avec rééducation précoce."
+  },
+  "mos-277": {
+    "A": "Vrai. Le haubanage est une ostéosynthèse.",
+    "B": "Faux. L’arthrodèse bloque l’articulation.",
+    "C": "Faux. La méniscectomie traite le ménisque.",
+    "D": "Faux. La prothèse n’est pas indiquée.",
+    "E": "Faux. La réduction n’est qu’un temps du geste.",
+    "_synthese": "La chirurgie d’une fracture de patella déplacée est une ostéosynthèse."
+  },
+  "mos-289": {
+    "A": "Faux. La flexion passive est possible.",
+    "B": "Vrai. L’extension active du genou est impossible quand l’appareil extenseur est rompu.",
+    "C": "Faux. La douleur est vive.",
+    "D": "Faux. Le valgus n’est pas un signe de fracture de patella.",
+    "E": "Faux. Le varus non plus.",
+    "_synthese": "Fracture de la patella : impossibilité de l’extension active, hémarthrose, douleur."
+  },
+  "mos-322": {
+    "A": "Faux. Humérus : Neer.",
+    "B": "Faux. Fémur : Garden, Pauwels, AO.",
+    "C": "Vrai. Schatzker classe les fractures des plateaux tibiaux.",
+    "D": "Faux. Patella : classification de Wilson.",
+    "E": "Faux. Bassin : Tile.",
+    "_synthese": "Schatzker : fractures des plateaux tibiaux (six types)."
+  },
+  "otr-273": {
+    "A": "Vrai. Mécanisme en flexion-valgus-rotation externe (ou rotation interne selon les cas).",
+    "B": "Faux. La translation tibiale est antérieure, pas postérieure.",
+    "C": "Vrai. Translation tibiale antérieure (tiroir antérieur, Lachman).",
+    "D": "Faux. L’hémarthrose n’est pas pathognomonique : elle s’observe dans plusieurs lésions.",
+    "E": "Vrai. L’IRM est l’examen le plus performant.",
+    "_synthese": "Rupture du LCA : torsion, tiroir antérieur, Lachman, hémarthrose non spécifique, IRM de référence."
   },
   "otr-274": {
     "A": "Faux. Une hyperflexion lèse plutôt le LCP.",
@@ -2000,14 +4276,6 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai (à cocher). La fracture est articulaire.",
     "_synthese": "« RF » = réponses fausses : B et E."
   },
-  "otr-287": {
-    "A": "Vrai. Mécanisme en flexion-valgus-rotation externe (ou rotation interne selon les cas).",
-    "B": "Faux. La translation tibiale est antérieure, pas postérieure.",
-    "C": "Vrai. Translation tibiale antérieure (tiroir antérieur, Lachman).",
-    "D": "Faux. L’hémarthrose n’est pas pathognomonique : elle s’observe dans plusieurs lésions.",
-    "E": "Vrai. L’IRM est l’examen le plus performant.",
-    "_synthese": "Rupture du LCA : torsion, tiroir antérieur, Lachman, hémarthrose non spécifique, IRM de référence."
-  },
   "otr-288": {
     "A": "Faux. La fracture de la rotule est articulaire mais associée à l’appareil extenseur.",
     "B": "Vrai. Rupture de l’appareil extenseur possible.",
@@ -2015,6 +4283,126 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Chute directe = principal mécanisme.",
     "E": "Faux. Le traitement n’est pas toujours chirurgical.",
     "_synthese": "Rotule : choc direct, ouverture cutanée possible, appareil extenseur à évaluer."
+  },
+  "mos-157": {
+    "A": "Faux. Pas spondyloarthrite.",
+    "B": "Vrai. Rhumatisme inflammatoire le plus fréquent.",
+    "C": "Faux. Pas microcristalline.",
+    "D": "Vrai. Maladie auto-immune.",
+    "E": "Faux. Pas dégénératif.",
+    "_synthese": "PR : rhumatisme inflammatoire chronique auto-immun."
+  },
+  "mos-158": {
+    "A": "Vrai. Anti-TNF.",
+    "B": "Faux. Corticoïde.",
+    "C": "Vrai. Méthotrexate.",
+    "D": "Faux. AINS.",
+    "E": "Vrai. Léflunomide.",
+    "_synthese": "Traitement de fond : méthotrexate, léflunomide, biothérapies."
+  },
+  "mos-162": {
+    "A": "Faux. Arthrose.",
+    "B": "Vrai. Maladies inflammatoires.",
+    "C": "Faux. Douleurs.",
+    "D": "Faux. Infections.",
+    "E": "Faux. Fractures.",
+    "_synthese": "Corticoïdes : maladies inflammatoires."
+  },
+  "mos-163": {
+    "A": "Faux. Pas nerveux.",
+    "B": "Faux. Pas vasculaire.",
+    "C": "Vrai. Destruction articulaire.",
+    "D": "Faux. Pas pseudarthrose.",
+    "E": "Faux. Pas infection.",
+    "_synthese": "Rhumatisme : destruction articulaire."
+  },
+  "mos-165": {
+    "A": "Vrai. Échec du traitement médical.",
+    "B": "Vrai. Destruction articulaire.",
+    "C": "Faux. Douleur minime.",
+    "D": "Faux. Âge.",
+    "E": "Faux. Âge.",
+    "_synthese": "Chirurgie : échec médical, destruction."
+  },
+  "mos-166": {
+    "A": "Vrai. Les critères de Jones (révisés) fondent le diagnostic du rhumatisme articulaire aigu.",
+    "B": "Faux. Les critères de Rome concernent les troubles fonctionnels digestifs.",
+    "C": "Faux. Bado classe la lésion de Monteggia.",
+    "D": "Faux. Mason classe les fractures de la tête radiale.",
+    "E": "Faux. Neer classe les fractures de l’humérus proximal.",
+    "_synthese": "RAA : critères de Jones (cardite, polyarthrite, chorée, érythème marginé, nodules sous-cutanés)."
+  },
+  "mos-167": {
+    "A": "Faux. Pas hebdomadaire.",
+    "B": "Faux. Pas seulement mensuelle.",
+    "C": "Faux. Pas annuelle.",
+    "D": "Vrai. Régulière et multidisciplinaire.",
+    "E": "Faux. Pas nulle.",
+    "_synthese": "Connectivite : surveillance régulière."
+  },
+  "mos-169": {
+    "A": "Faux. Pas hommes.",
+    "B": "Vrai. Femmes.",
+    "C": "Faux. Pas enfants.",
+    "D": "Faux. Pas adolescents.",
+    "E": "Faux. Pas nourrissons.",
+    "_synthese": "Rhumatismes inflammatoires : femme."
+  },
+  "mos-170": {
+    "A": "Vrai. Peau.",
+    "B": "Faux. Articulations.",
+    "C": "Faux. Muscles.",
+    "D": "Faux. Os.",
+    "E": "Faux. Nerfs.",
+    "_synthese": "Sclérodermie : peau."
+  },
+  "mos-172": {
+    "A": "Faux. Peau.",
+    "B": "Faux. Articulations.",
+    "C": "Vrai. Muscles.",
+    "D": "Faux. Os.",
+    "E": "Faux. Nerfs.",
+    "_synthese": "Myosite : muscles."
+  },
+  "mos-174": {
+    "A": "Faux. Douleur.",
+    "B": "Faux. Raideur.",
+    "C": "Vrai. Signes généraux et cutanés.",
+    "D": "Faux. Nerveux.",
+    "E": "Faux. Vasculaires.",
+    "_synthese": "Connectivite : signes généraux et cutanés."
+  },
+  "mos-465": {
+    "A": "Vrai. Douleur.",
+    "B": "Faux. Déformation.",
+    "C": "Faux. Œdème.",
+    "D": "Faux. Crépitation.",
+    "E": "Faux. Impotence.",
+    "_synthese": "Rhumatisme : douleur."
+  },
+  "mos-471": {
+    "A": "Faux. Clinique seule.",
+    "B": "Faux. Biologie seule.",
+    "C": "Faux. Imagerie seule.",
+    "D": "Vrai. Les trois.",
+    "E": "Faux. Anamnèse seule.",
+    "_synthese": "Rhumatologie : clinique, biologie, imagerie."
+  },
+  "mos-674": {
+    "A": "Vrai. Anti-TNF.",
+    "B": "Faux. Corticoïde.",
+    "C": "Vrai. Méthotrexate.",
+    "D": "Faux. AINS.",
+    "E": "Vrai. Léflunomide.",
+    "_synthese": "PR : traitements de fond."
+  },
+  "mos-677": {
+    "A": "Vrai. Facteurs génétiques et environnementaux.",
+    "B": "Faux. L’immunité innée seule ne suffit pas.",
+    "C": "Vrai. Immunité innée et adaptative.",
+    "D": "Faux. L’enthésite : spondyloarthrite.",
+    "E": "Vrai. Synovite.",
+    "_synthese": "PR : synovite, immunité innée et adaptative."
   },
   "otr-289": {
     "A": "Faux. Les allèles associés sont HLA-DR1 et DR4, pas DR5.",
@@ -2152,6 +4540,118 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Maladie de Lyme.",
     "_synthese": "Diagnostics différentiels de la PR débutante : goutte, lupus, Lyme, infections virales."
   },
+  "mos-061": {
+    "A": "Faux. L’atteinte nerveuse n’est pas le risque principal.",
+    "B": "Faux. Pas vasculaire.",
+    "C": "Vrai. L’ankylose du rachis est le risque.",
+    "D": "Faux. Pas pseudarthrose.",
+    "E": "Faux. Pas infection.",
+    "_synthese": "Spondyloarthrite : raideur et ankylose du rachis."
+  },
+  "mos-159": {
+    "A": "Faux. Le HLA B27 n’est ni nécessaire ni suffisant ; il oriente seulement.",
+    "B": "Vrai. C’est un rhumatisme à atteinte axiale (sacro-iliaques et rachis).",
+    "C": "Vrai. Les ossifications sous-ligamentaires unissant les corps vertébraux sont les syndesmophytes.",
+    "D": "Faux. Une fracture sur rachis ankylosé est instable et expose aux complications neurologiques.",
+    "E": "Vrai. La sacro-iliite est le signe radiologique majeur.",
+    "_synthese": "Spondylarthrite : atteinte axiale, syndesmophytes, sacro-iliite ; rachis ankylosé = fracture instable à risque neurologique."
+  },
+  "mos-160": {
+    "A": "Vrai. Uvéite.",
+    "B": "Faux. Infection urinaire.",
+    "C": "Faux. Infection respiratoire.",
+    "D": "Faux. Infection cutanée.",
+    "E": "Faux. Infection digestive.",
+    "_synthese": "Spondyloarthrite : uvéite."
+  },
+  "mos-164": {
+    "A": "Faux. Infectieuse.",
+    "B": "Vrai selon le livre : auto-immune.",
+    "C": "Faux. Métabolique.",
+    "D": "Faux. Neurologique.",
+    "E": "Faux. Traumatique.",
+    "_synthese": "Spondyloarthrite : inflammatoire."
+  },
+  "mos-168": {
+    "A": "Faux. Pas lié à l’arthrose.",
+    "B": "Faux. La PR est associée à l’HLA DR4 et aux facteurs rhumatoïdes.",
+    "C": "Vrai. Le HLA B27 est le marqueur génétique des spondylarthropathies.",
+    "D": "Faux. Pas lié au lupus.",
+    "E": "Faux. Pas lié à la goutte.",
+    "_synthese": "HLA B27 : spondylarthropathies (positif dans environ 90 % des SA)."
+  },
+  "mos-173": {
+    "A": "Faux. Arthrose.",
+    "B": "Vrai. IRM des sacro-iliaques.",
+    "C": "Faux. PR.",
+    "D": "Faux. Lupus.",
+    "E": "Faux. Goutte.",
+    "_synthese": "IRM : spondyloarthrite précoce."
+  },
+  "mos-511": {
+    "A": "Faux. Une géode intra-somatique n’est pas typique.",
+    "B": "Vrai. Syndesmophytes.",
+    "C": "Vrai. Mise en ligne du bord antérieur des corps vertébraux (carré).",
+    "D": "Faux. Les ostéophytes évoquent l’arthrose.",
+    "E": "Vrai. Irrégularités sacro-iliaques.",
+    "_synthese": "Signes radiologiques de SA : syndesmophytes, rachis carré, sacro-iliite."
+  },
+  "mos-513": {
+    "A": "Faux. Mécanique : lombalgie commune.",
+    "B": "Vrai. Douleur inflammatoire.",
+    "C": "Faux. Non spécifique.",
+    "D": "Faux. Non spécifique.",
+    "E": "Faux. Non spécifique.",
+    "_synthese": "Spondylarthropathie : douleur lombaire inflammatoire."
+  },
+  "mos-514": {
+    "A": "Faux. Pas la hanche.",
+    "B": "Faux. Pas le genou.",
+    "C": "Vrai. Schober : flexion du rachis lombaire.",
+    "D": "Faux. Pas l’épaule.",
+    "E": "Faux. Pas la cheville.",
+    "_synthese": "Schober : mobilité du rachis lombaire."
+  },
+  "mos-651": {
+    "A": "Faux. Le HLA B27 n’est pas toujours positif.",
+    "B": "Vrai. La sacro-iliite peut simuler une sciatique tronquée (douleur fessière à bascule).",
+    "C": "Faux. Le tableau le plus fréquent est axial, avec oligoarthrite des membres inférieurs.",
+    "D": "Faux. Les rachialgies sont inflammatoires, non mécaniques.",
+    "E": "Vrai. L’uvéite antérieure aiguë non granulomateuse est la manifestation extra-articulaire la plus fréquente.",
+    "_synthese": "Spondyloarthrite : HLA B27 inconstant, douleur inflammatoire, uvéite antérieure aiguë."
+  },
+  "mos-652": {
+    "A": "Vrai. Syndesmophytes.",
+    "B": "Vrai. Ossifications ligamentaires.",
+    "C": "Faux. Les ostéophytes marginaux évoquent l’arthrose.",
+    "D": "Vrai. Spondylite érosive de Romanus (coins vertébraux).",
+    "E": "Vrai. Ankylose des sacro-iliaques.",
+    "_synthese": "Radiographie de la spondyloarthrite axiale : syndesmophytes, spondylite de Romanus, ankylose sacro-iliaque."
+  },
+  "mos-653": {
+    "A": "Faux. Un début précoce (avant 16 ans) est un facteur de mauvais pronostic.",
+    "B": "Vrai. La coxite est de mauvais pronostic.",
+    "C": "Vrai. Le tabagisme aggrave l’évolution.",
+    "D": "Vrai. La dactylite est de mauvais pronostic.",
+    "E": "Faux. Une bonne réponse aux AINS est un facteur de bon pronostic.",
+    "_synthese": "Mauvais pronostic : début précoce, coxite, dactylite, tabac, VS élevée, mauvaise réponse aux AINS."
+  },
+  "mos-654": {
+    "A": "Vrai. Oligoarthrite asymétrique des membres inférieurs.",
+    "B": "Vrai. Iridocyclite unilatérale.",
+    "C": "Faux. Les arthrites bilatérales des poignets et des IPD évoquent plutôt une autre arthropathie.",
+    "D": "Vrai. Talalgies (enthésites).",
+    "E": "Vrai. Fessalgies à bascule (sacro-iliite).",
+    "_synthese": "Spondylarthrite ankylosante : oligoarthrite, uvéite, enthésites, fessalgies à bascule."
+  },
+  "mos-655": {
+    "A": "Vrai. Oligoarthrite asymétrique des membres inférieurs.",
+    "B": "Faux. Le sexe masculin est plus fréquent.",
+    "C": "Faux. Une raideur de 15 minutes est trop brève ; elle dépasse 30 minutes dans l’inflammatoire.",
+    "D": "Vrai. Les réveils nocturnes en seconde partie de nuit sont inflammatoires.",
+    "E": "Vrai. Lombalgie inflammatoire.",
+    "_synthese": "Éléments en faveur d’une spondylarthrite : oligoarthrite, lombalgie inflammatoire, réveils nocturnes."
+  },
   "otr-307": {
     "A": "Faux. Polyarthrite symétrique des petites articulations : PR.",
     "B": "Vrai. Oligoarthrite asymétrique des membres inférieurs.",
@@ -2239,6 +4739,173 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux selon la clé de l’annale.",
     "E": "Vrai. Gymnastique respiratoire.",
     "_synthese": "SpA axiale : AINS, kinésithérapie, anti-TNF si échec."
+  },
+  "mos-365": {
+    "A": "Faux. Le gros orteil correspond à L5.",
+    "B": "Vrai. Le réflexe achilléen est aboli dans une sciatique S1.",
+    "C": "Faux. L’extension du genou est L3-L4.",
+    "D": "Faux. Le Lasègue n’est pas « positif en dedans ».",
+    "E": "Vrai. L’hypoesthésie siège sur le bord externe du pied et la plante.",
+    "_synthese": "Sciatique S1 : douleur postérieure jusqu’au talon et à la plante, réflexe achilléen aboli, hypoesthésie du bord externe du pied."
+  },
+  "mos-367": {
+    "A": "Vrai. Rupture de l’isthme.",
+    "B": "Vrai. Souvent asymptomatique.",
+    "C": "Vrai. Évolution possible vers le spondylolisthésis.",
+    "D": "Faux. Lombaire basse.",
+    "E": "Vrai. Le scanner est l’examen de référence.",
+    "_synthese": "Spondylolyse L5 : rupture de l’isthme."
+  },
+  "mos-369": {
+    "A": "Vrai. Une aréflexie rotulienne est L4, donc inhabituelle dans S1.",
+    "B": "Faux. L’aréflexie achilléenne est habituelle dans S1.",
+    "C": "Vrai. La marche sur les talons relève des releveurs (L4-L5).",
+    "D": "Faux. L’hypotonie du mollet (triceps sural) est habituelle dans S1.",
+    "_synthese": "Sciatique S1 : aréflexie achilléenne et déficit du triceps sural ; rotulien et talons évoquent L4-L5."
+  },
+  "mos-372": {
+    "A": "Vrai. Douleur postéro-externe de la cuisse et de la jambe.",
+    "B": "Vrai. Hypoesthésie du dos du pied.",
+    "C": "Faux. Le réflexe rotulien est L4.",
+    "D": "Vrai. Atteinte des releveurs : marche sur les talons impossible.",
+    "E": "Vrai. Déficit de l’extenseur propre du gros orteil.",
+    "_synthese": "Sciatique L5 : face externe de la jambe, dos du pied, gros orteil, déficit de l’extenseur propre et des releveurs."
+  },
+  "mos-373": {
+    "A": "Faux. Un épisode hyperalgique relève de la sciatique hyperalgique, traitée médicalement.",
+    "B": "Faux. Le Lasègue positif seul n’indique pas la chirurgie.",
+    "C": "Vrai. Le steppage traduit une paralysie : chirurgie en urgence.",
+    "D": "Faux. L’abolition du réflexe achilléen n’est pas une indication formelle.",
+    "E": "Faux. Une protrusion au scanner n’indique pas à elle seule la chirurgie.",
+    "_synthese": "Indication chirurgicale formelle : sciatique paralysante (déficit moteur sévère), syndrome de la queue de cheval, sciatique hyperalgique rebelle."
+  },
+  "mos-378": {
+    "A": "Vrai. Hernie discale et arthrose zygapophysaire sont les causes fréquentes.",
+    "B": "Faux (à cocher). Une radiographie n’est pas indispensable en première semaine ; elle n’est demandée qu’au-delà de 4 à 6 semaines ou devant des signes d’alerte.",
+    "C": "Vrai. Le diagnostic est clinique.",
+    "D": "Vrai. Un déficit moteur coté à 3 ou moins impose une IRM et une discussion chirurgicale.",
+    "E": "Vrai. La tendinopathie du moyen fessier est un diagnostic différentiel.",
+    "_synthese": "Lombosciatique commune : diagnostic clinique, imagerie non systématique, IRM si déficit moteur sévère."
+  },
+  "mos-381": {
+    "A": "Vrai. Fièvre, amaigrissement et douleur nocturne : rechercher une cause infectieuse ou tumorale.",
+    "B": "Faux. Le réflexe achilléen (calcanéen) est S1, non L5.",
+    "C": "Vrai. Antalgiques, AINS et décontracturants en première intention.",
+    "D": "Vrai. Une activité adaptée est conseillée.",
+    "E": "Faux. Le repos strict est déconseillé.",
+    "_synthese": "Lombosciatique : signes d’alerte, traitement médical, activité adaptée, pas de repos strict."
+  },
+  "mos-384": {
+    "A": "Faux (à cocher). Ce n’est pas une urgence neurochirurgicale d’emblée.",
+    "B": "Vrai. Elle résulte souvent d’une hernie discale.",
+    "C": "Vrai. Elle peut être paralysante.",
+    "D": "Faux (à cocher). Le signe de Léri s’applique à la cruralgie.",
+    "E": "Faux (à cocher). Le bilan inflammatoire est normal dans la forme commune.",
+    "_synthese": "Lombosciatique commune : Lasègue positif, bilan inflammatoire normal, pas d’urgence d’emblée."
+  },
+  "mos-393": {
+    "A": "Faux.",
+    "B": "Faux.",
+    "C": "Vrai selon le livre : la douleur peut être nocturne, notamment dans les formes hyperalgiques.",
+    "D": "Faux.",
+    "E": "Faux.",
+    "_synthese": "Sciatique : douleur intense, parfois nocturne."
+  },
+  "mos-394": {
+    "A": "Faux. Douleur minime : traitement médical.",
+    "B": "Faux. Douleur modérée : traitement médical.",
+    "C": "Vrai. Un déficit moteur sévère impose la chirurgie.",
+    "D": "Faux. Chronique : médical d’abord.",
+    "E": "Faux. Récente : médical d’abord.",
+    "_synthese": "Hernie discale : chirurgie si déficit moteur sévère, queue de cheval ou hyperalgie rebelle."
+  },
+  "mos-395": {
+    "A": "Faux. Il donne une claudication, pas une sciatique aiguë.",
+    "B": "Vrai. Cause chronique de sciatique ou de claudication radiculaire.",
+    "C": "Faux. Pas aiguë.",
+    "D": "Faux. Il existe.",
+    "E": "Faux. Il n’est pas rare.",
+    "_synthese": "Canal lombaire étroit : claudication neurogène, évolution chronique."
+  },
+  "mos-401": {
+    "A": "Faux. L’échographie ne voit pas le disque.",
+    "B": "Vrai selon le livre : l’IRM montre le conflit disco-radiculaire, mais le diagnostic reste clinique.",
+    "C": "Faux. La radiographie est peu informative.",
+    "D": "Faux. Le scanner est une alternative.",
+    "E": "Faux. La scintigraphie n’est pas indiquée.",
+    "_synthese": "Sciatique : clinique ; IRM si indication chirurgicale ou doute."
+  },
+  "mos-404": {
+    "A": "Vrai. L4 peut être en cause (cruro-sciatique).",
+    "B": "Vrai. L5.",
+    "C": "Vrai. S1.",
+    "D": "Faux. S2 est rare.",
+    "E": "Faux. S3 est rare.",
+    "_synthese": "Sciatique : racines L5 ou S1, parfois L4."
+  },
+  "mos-407": {
+    "A": "Vrai. Hernie discale.",
+    "B": "Faux. Moins fréquent.",
+    "C": "Faux. Rare.",
+    "D": "Faux. Rare.",
+    "E": "Faux. Rare.",
+    "_synthese": "Cause la plus fréquente : hernie discale."
+  },
+  "mos-414": {
+    "A": "Vrai. Le Lasègue étire le nerf sciatique.",
+    "B": "Faux. Pas spécifique.",
+    "C": "Faux. C’est la cause.",
+    "D": "Faux. Pas spécifique.",
+    "E": "Faux. Pas spécifique.",
+    "_synthese": "Étirement du sciatique : signe de Lasègue."
+  },
+  "mos-421": {
+    "A": "Vrai. Laminectomie.",
+    "B": "Faux. Arthrodèse.",
+    "C": "Faux. Prothèse.",
+    "D": "Faux. Discectomie.",
+    "E": "Faux. Ostéosynthèse.",
+    "_synthese": "Canal lombaire étroit : laminectomie."
+  },
+  "mos-422": {
+    "A": "Vrai. Lasègue positif : sciatique par hernie discale.",
+    "B": "Faux. Le canal lombaire étroit donne une claudication.",
+    "C": "Faux. Une tumeur n’est pas la cause habituelle.",
+    "D": "Faux. Une infection n’est pas la cause habituelle.",
+    "E": "Faux. Un traumatisme n’est pas la cause.",
+    "_synthese": "Lasègue : étirement du nerf sciatique, souvent discal."
+  },
+  "mos-423": {
+    "A": "Faux selon le livre.",
+    "B": "Vrai. Le déficit moteur est la complication à craindre.",
+    "C": "Faux. Pas vasculaire.",
+    "D": "Faux. Pas infectieux.",
+    "E": "Faux. Pas l’arthrose.",
+    "_synthese": "Sciatique : déficit moteur, paralysie, queue de cheval."
+  },
+  "mos-424": {
+    "A": "Faux. Le nerf fémoral donne la cruralgie.",
+    "B": "Vrai. Trajet du nerf sciatique.",
+    "C": "Faux. Obturateur : face interne de la cuisse.",
+    "D": "Faux. Pudendal : périnée.",
+    "E": "Faux. Tibial : jambe.",
+    "_synthese": "Sciatique : trajet du nerf sciatique."
+  },
+  "mos-501": {
+    "A": "Vrai. Renforcement des muscles du dos.",
+    "B": "Vrai. Réduction de la douleur.",
+    "C": "Vrai. Mobilité.",
+    "D": "Vrai. Force.",
+    "E": "Vrai. Toutes ces réponses sont possibles.",
+    "_synthese": "Kinésithérapie de la sciatique : antalgie, mobilité, renforcement."
+  },
+  "mos-510": {
+    "A": "Vrai. Le conflit disco-radiculaire est la cause la plus fréquente.",
+    "B": "Faux. Le trajet est L5 ou S1 ; L3 ou L4 donne une cruralgie.",
+    "C": "Vrai. Impulsivité à la toux.",
+    "D": "Faux. Le Lasègue n’est pas toujours positif.",
+    "E": "Faux. Les examens ne sont pas demandés d’emblée.",
+    "_synthese": "Lombosciatique commune : cause discale, trajet L5 ou S1, impulsivité à la toux."
   },
   "otr-318": {
     "A": "Faux. Pas une urgence d’emblée.",
@@ -2392,6 +5059,94 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Achilléen : S1.",
     "_synthese": "S1 : face postérieure, bord externe, achilléen ; L5 : talon."
   },
+  "mos-016": {
+    "A": "Faux. Les ligaments croisés ne sont pas le siège initial.",
+    "B": "Faux. Les ménisques sont atteints secondairement.",
+    "C": "Faux. La bourse séreuse est étrangère à l’arthrose.",
+    "D": "Vrai. La lésion initiale est le cartilage articulaire.",
+    "E": "Faux. L’os sous-chondral réagit secondairement.",
+    "_synthese": "Arthrose : lésion initiale du cartilage."
+  },
+  "mos-017": {
+    "A": "Faux. Pas de fracture.",
+    "B": "Vrai. Pincement de l’interligne.",
+    "C": "Faux. Pas de luxation.",
+    "D": "Vrai. Ostéophytes.",
+    "E": "Vrai. Géodes sous-chondrales.",
+    "_synthese": "Coxarthrose : pincement, ostéophytes, géodes, condensation."
+  },
+  "mos-019": {
+    "A": "Faux. Échographie.",
+    "B": "Faux. IRM.",
+    "C": "Vrai. Radiographie.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Arthrose : radiographie."
+  },
+  "mos-020": {
+    "A": "Vrai. Arthrose.",
+    "B": "Vrai. Maladies inflammatoires.",
+    "C": "Vrai. Douleurs.",
+    "D": "Vrai. Toutes ces réponses sont possibles.",
+    "E": "Vrai. Goutte.",
+    "_synthese": "AINS : antalgique et anti-inflammatoire."
+  },
+  "mos-022": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Faux. Pas précoce.",
+    "C": "Vrai. Tardive.",
+    "D": "Faux. Pas infectieuse.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Arthrose post-traumatique : complication tardive."
+  },
+  "mos-023": {
+    "A": "Vrai. Arthrose.",
+    "B": "Vrai. PR.",
+    "C": "Vrai. Les deux.",
+    "D": "Faux. Infections.",
+    "E": "Faux. Fractures.",
+    "_synthese": "Kinésithérapie : arthrose et PR."
+  },
+  "mos-027": {
+    "A": "Vrai. Tendinite.",
+    "B": "Vrai. Bursite.",
+    "C": "Vrai. Capsulite.",
+    "D": "Vrai. Arthrose.",
+    "E": "Vrai. Toutes ces réponses sont possibles.",
+    "_synthese": "Kinésithérapie : tendinite, bursite, capsulite, arthrose."
+  },
+  "mos-029": {
+    "A": "Faux. Arthrose : radiographie.",
+    "B": "Vrai. Synovites et tendinites.",
+    "C": "Faux. Fractures : radiographie.",
+    "D": "Faux. Tumeurs : IRM.",
+    "E": "Faux. Infections : IRM.",
+    "_synthese": "Échographie : synovites, tendons."
+  },
+  "mos-066": {
+    "A": "Faux. Inflammatoire.",
+    "B": "Vrai. Dégénérative.",
+    "C": "Faux. Infectieuse.",
+    "D": "Faux. Métabolique.",
+    "E": "Faux. Neurologique.",
+    "_synthese": "Arthrose : dégénérative."
+  },
+  "mos-675": {
+    "A": "Faux. Pas les ligaments croisés.",
+    "B": "Faux. Pas les ménisques.",
+    "C": "Faux. Pas la bourse.",
+    "D": "Vrai. Le cartilage.",
+    "E": "Faux. L’os sous-chondral : secondaire.",
+    "_synthese": "Gonarthrose : cartilage."
+  },
+  "mos-676": {
+    "A": "Faux. Pas de fracture.",
+    "B": "Vrai. Pincement.",
+    "C": "Faux. Pas de luxation.",
+    "D": "Vrai. Ostéophytes.",
+    "E": "Vrai. Géodes.",
+    "_synthese": "Coxarthrose : pincement, ostéophytes, géodes."
+  },
   "otr-341": {
     "A": "Vrai. Les ostéophytes fémoraux et cotyloïdiens (becs de perroquet) sont des signes de la coxarthrose : l’os réagit à l’usure du cartilage par des excroissances marginales.",
     "B": "Faux. L’ostéonécrose aseptique de la tête fémorale est une autre pathologie, avec condensation puis perte de la sphéricité de la tête, et non un signe radiographique de coxarthrose.",
@@ -2542,6 +5297,102 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. L’intensité de la douleur n’est pas corrélée aux lésions radiographiques.",
     "_synthese": "Douleur arthrosique : mécanique, dérouillage matinal bref, pas de corrélation radio-clinique."
   },
+  "mos-461": {
+    "A": "Faux. Antalgiques seuls.",
+    "B": "Faux. AINS.",
+    "C": "Faux. Corticoïdes.",
+    "D": "Vrai. Douleur neuropathique.",
+    "E": "Faux. Antibiotiques.",
+    "_synthese": "Lésion nerveuse : douleur neuropathique."
+  },
+  "mos-500": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal.",
+    "D": "Vrai. Perte de fonction.",
+    "E": "Faux. Douleur.",
+    "_synthese": "Lésion nerveuse : perte de fonction."
+  },
+  "mos-637": {
+    "A": "Faux. Médian.",
+    "B": "Faux. Médian.",
+    "C": "Vrai. Médian.",
+    "D": "Faux. Femme.",
+    "E": "Vrai. Idiopathique.",
+    "_synthese": "Canal carpien : médian, femme, idiopathique."
+  },
+  "mos-640": {
+    "A": "Vrai. Déficit moteur.",
+    "B": "Vrai. Amyotrophie.",
+    "C": "Vrai. Réflexes diminués.",
+    "D": "Vrai. Troubles sensitifs.",
+    "E": "Faux (à cocher). Hypotonie, non hypertonie.",
+    "_synthese": "Lésion nerveuse : déficit moteur, amyotrophie, hypotonie, troubles sensitifs."
+  },
+  "mos-641": {
+    "A": "Faux. Canal de Guyon : nerf ulnaire.",
+    "B": "Faux. L’algodystrophie donne douleur et raideur, sans amyotrophie thénarienne.",
+    "C": "Vrai. Paresthésies nocturnes des trois doigts et demi externes avec amyotrophie thénarienne : canal carpien.",
+    "D": "Faux. Volkmann est précoce.",
+    "E": "Faux. Le siège est le canal carpien.",
+    "_synthese": "Canal carpien secondaire à une fracture du radius distal."
+  },
+  "mos-643": {
+    "A": "Faux. Échographie.",
+    "B": "Faux. IRM.",
+    "C": "Vrai. Électromyogramme.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Radiographie.",
+    "_synthese": "Lésion nerveuse : EMG."
+  },
+  "mos-644": {
+    "A": "Faux. Ulnaire.",
+    "B": "Vrai. Médian.",
+    "C": "Faux. Radial.",
+    "D": "Faux. Axillaire.",
+    "E": "Faux. Musculo-cutané.",
+    "_synthese": "Canal carpien : médian."
+  },
+  "mos-645": {
+    "A": "Faux. Ulnaire : griffe.",
+    "B": "Vrai. Médian : main de singe.",
+    "C": "Faux. Radial : main tombante.",
+    "D": "Faux. Axillaire.",
+    "E": "Faux. Musculo-cutané.",
+    "_synthese": "Main de singe : médian."
+  },
+  "mos-647": {
+    "A": "Vrai. Chirurgie (libération) en cas d’échec ou de déficit.",
+    "B": "Faux. Pas médical seul.",
+    "C": "Faux. Orthèse.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Canal carpien : libération chirurgicale."
+  },
+  "mos-648": {
+    "A": "Vrai. Ulnaire.",
+    "B": "Faux. Médian.",
+    "C": "Faux. Radial.",
+    "D": "Faux. Axillaire.",
+    "E": "Faux. Musculo-cutané.",
+    "_synthese": "Syndrome de la gouttière épitrochléo-olécrânienne : ulnaire."
+  },
+  "mos-649": {
+    "A": "Faux. Douleur.",
+    "B": "Vrai. Paresthésies.",
+    "C": "Faux. Impotence.",
+    "D": "Faux. Déformation.",
+    "E": "Faux. Crépitation.",
+    "_synthese": "Canal carpien : paresthésies nocturnes."
+  },
+  "mos-650": {
+    "A": "Vrai. Ulnaire : main en griffe.",
+    "B": "Faux. Médian.",
+    "C": "Faux. Radial.",
+    "D": "Faux. Axillaire.",
+    "E": "Faux. Musculo-cutané.",
+    "_synthese": "Main en griffe : ulnaire."
+  },
   "otr-360": {
     "A": "Vrai. Picotements et engourdissements des trois premiers doigts, surtout nocturnes.",
     "B": "Faux. L’hippocratisme digital n’appartient pas au tableau.",
@@ -2597,6 +5448,54 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Une atteinte bilatérale doit faire chercher une cause générale (diabète, hypothyroïdie, PR).",
     "E": "Faux. Le diagnostic est clinique ; l’ENMG le confirme et en évalue la gravité.",
     "_synthese": "Canal carpien : diagnostic clinique, ENMG de confirmation, rechercher une cause générale si bilatéral."
+  },
+  "mos-030": {
+    "A": "Vrai. Cristaux de pyrophosphate de calcium.",
+    "B": "Faux. Acide urique : goutte.",
+    "C": "Faux. Pas du calcium.",
+    "D": "Faux. Pas du phosphore.",
+    "E": "Faux. Pas du glucose.",
+    "_synthese": "Chondrocalcinose : pyrophosphate de calcium."
+  },
+  "mos-175": {
+    "A": "Vrai. L’alcool, surtout la bière, augmente l’uricémie.",
+    "B": "Vrai. L’insuffisance rénale chronique diminue l’élimination de l’acide urique.",
+    "C": "Faux. La femme avant la ménopause est protégée par les œstrogènes.",
+    "D": "Vrai. Un régime riche en purines (viandes, abats) augmente la production d’urate.",
+    "E": "Vrai. Les diurétiques thiazidiques réduisent l’excrétion rénale d’urate.",
+    "_synthese": "Facteurs de la goutte : sexe masculin, alcool, insuffisance rénale, régime riche en purines, thiazidiques."
+  },
+  "mos-176": {
+    "A": "Vrai. Début brutal, souvent nocturne.",
+    "B": "Faux. L’accès est le plus souvent monoarticulaire.",
+    "C": "Vrai. L’atteinte de la métatarsophalangienne du gros orteil (podagre) est la plus fréquente.",
+    "D": "Vrai. Rougeur, chaleur, douleur intense.",
+    "E": "Vrai. Survenue nocturne préférentielle.",
+    "_synthese": "Accès goutteux : monoarthrite aiguë, gros orteil, début nocturne, inflammation intense."
+  },
+  "mos-177": {
+    "A": "Vrai selon le livre : la chondrocalcinose donne classiquement des accès d’arthrite aiguë (pseudo-goutte).",
+    "B": "Faux selon le livre ; une forme chronique existe.",
+    "C": "Faux selon le livre.",
+    "D": "Faux. Elle existe.",
+    "E": "Faux. Elle n’est pas rare chez le sujet âgé.",
+    "_synthese": "Chondrocalcinose : arthrite aiguë microcristalline à pyrophosphate de calcium."
+  },
+  "mos-178": {
+    "A": "Faux. La chirurgie n’est pas le traitement.",
+    "B": "Vrai. Traitement médical : AINS, colchicine, repos articulaire.",
+    "C": "Faux. L’immobilisation n’est pas le traitement de fond.",
+    "D": "Faux. Pas de traction.",
+    "E": "Faux. La kinésithérapie n’est qu’un appoint.",
+    "_synthese": "Chondrocalcinose : traitement médical symptomatique."
+  },
+  "mos-180": {
+    "A": "Vrai. Elle favorise une arthrose secondaire.",
+    "B": "Faux. Pas primaire.",
+    "C": "Faux. Pas aiguë.",
+    "D": "Faux selon le livre.",
+    "E": "Faux. Pas rare.",
+    "_synthese": "Chondrocalcinose : arthrose secondaire."
   },
   "otr-367": {
     "A": "Vrai. Le liquide inflammatoire de l’accès goutteux est riche en protides.",
@@ -2693,6 +5592,78 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Le diagnostic de certitude repose sur les cristaux d’urate.",
     "E": "Faux. L’uricémie peut être normale pendant la crise.",
     "_synthese": "Goutte : 1re MTP, tophus, atteinte rénale, diagnostic par les cristaux."
+  },
+  "mos-360": {
+    "A": "Faux selon le livre : l’infection ostéo-articulaire n’est pas un facteur déclenchant classique.",
+    "B": "Vrai. La chirurgie orthopédique peut déclencher une algodystrophie.",
+    "C": "Faux. Le phénomène de Raynaud n’est pas un facteur déclenchant.",
+    "D": "Vrai. L’AVC (hémiplégie) est un facteur déclenchant.",
+    "E": "Vrai. L’entorse est un facteur déclenchant fréquent.",
+    "_synthese": "Algodystrophie : déclenchée par traumatisme, entorse, chirurgie, AVC, immobilisation."
+  },
+  "mos-361": {
+    "A": "Vrai. Œdème.",
+    "B": "Vrai. Troubles de la sudation.",
+    "C": "Faux. Pas de déformation précoce irréversible.",
+    "D": "Vrai. Troubles de la coloration cutanée.",
+    "E": "Vrai. Troubles trophiques cutanés et unguéaux.",
+    "_synthese": "Algodystrophie : douleur, œdème, troubles vasomoteurs, sudoraux et trophiques."
+  },
+  "mos-362": {
+    "A": "Vrai. Antalgiques.",
+    "B": "Faux. Les AINS sont peu efficaces.",
+    "C": "Vrai. Corticoïdes en cure courte à la phase chaude.",
+    "D": "Vrai. Médicaments de la douleur neuropathique.",
+    "E": "Faux. Pas d’antibiotiques.",
+    "_synthese": "SDRC : antalgiques, bisphosphonates, corticoïdes courts, anti-neuropathiques, rééducation douce."
+  },
+  "mos-447": {
+    "A": "Vrai. Douleur.",
+    "B": "Vrai. Œdème.",
+    "C": "Faux. Pas hypoesthésie médiane.",
+    "D": "Faux. Les pouls sont présents.",
+    "E": "Vrai. Hypersudation.",
+    "_synthese": "SDRC type I : douleur, œdème, troubles vasomoteurs et sudoraux."
+  },
+  "mos-448": {
+    "A": "Vrai. Déminéralisation.",
+    "B": "Vrai. Enraidissement.",
+    "C": "Faux. Les PAON sont d’origine neurologique.",
+    "D": "Faux selon le livre.",
+    "E": "Vrai. Amyotrophie.",
+    "_synthese": "Immobilisation : déminéralisation, raideur, amyotrophie."
+  },
+  "mos-458": {
+    "A": "Faux. Loges.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal.",
+    "D": "Vrai. Algoneurodystrophie.",
+    "E": "Faux. Infection.",
+    "_synthese": "Immobilisation prolongée : algodystrophie."
+  },
+  "mos-477": {
+    "A": "Faux. Loges.",
+    "B": "Faux selon le livre.",
+    "C": "Vrai. Ostéoporose d’immobilisation.",
+    "D": "Faux. Infection.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Immobilisation prolongée : ostéoporose."
+  },
+  "mos-485": {
+    "A": "Vrai. Le diagnostic du SDRC est clinique.",
+    "B": "Faux. La radiographie est tardive.",
+    "C": "Faux. Biologie normale.",
+    "D": "Faux. Échographie.",
+    "E": "Faux. IRM : appoint.",
+    "_synthese": "SDRC : diagnostic clinique."
+  },
+  "mos-502": {
+    "A": "Vrai. Phase chaude : œdème, rougeur, chaleur.",
+    "B": "Faux. Phase froide.",
+    "C": "Faux. Douleur vive.",
+    "D": "Faux. Raideur : phase froide.",
+    "E": "Faux. Non spécifique.",
+    "_synthese": "SDRC : phase chaude inflammatoire, phase froide de raideur."
   },
   "otr-379": {
     "A": "Faux. La douleur est intense et durable.",
@@ -2822,6 +5793,14 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Une réponse est juste.",
     "_synthese": "Traitements de l’algodystrophie : calcitonine, biphosphonates."
   },
+  "mos-062": {
+    "A": "Faux. L’épaule pseudo-paralytique évoque une rupture de la coiffe.",
+    "B": "Faux. La mobilité passive est conservée dans la tendinopathie non rompue.",
+    "C": "Vrai. La manœuvre de Jobe est douloureuse.",
+    "D": "Faux. Déficitaire et indolore : rupture.",
+    "E": "Faux. La manœuvre de Patte teste le sous-épineux.",
+    "_synthese": "Tendinopathie non rompue du supra-épineux : Jobe douloureux, mobilité passive libre."
+  },
   "otr-396": {
     "A": "Vrai. Elle peut compliquer une tendinopathie calcifiante du sus-épineux.",
     "B": "Vrai. La migration de la calcification dans la bourse déclenche la crise.",
@@ -2933,6 +5912,182 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. L’échographie n’est pas indispensable.",
     "E": "Faux. Pas de rupture partielle.",
     "_synthese": "Épaule douloureuse simple : clinique, radiographies normales."
+  },
+  "mos-018": {
+    "A": "Faux. Antibiotiques.",
+    "B": "Faux. Anti-inflammatoires.",
+    "C": "Vrai. Les bisphosphonates freinent la résorption osseuse.",
+    "D": "Faux. Les corticoïdes causent l’ostéoporose.",
+    "E": "Faux. Immunosuppresseurs.",
+    "_synthese": "Ostéoporose : bisphosphonates, calcium, vitamine D."
+  },
+  "mos-021": {
+    "A": "Faux. Chez l’enfant : rachitisme.",
+    "B": "Vrai. Ostéomalacie : adulte.",
+    "C": "Faux. Pas les deux.",
+    "D": "Faux. Nourrisson : rachitisme.",
+    "E": "Faux. Pas spécifique.",
+    "_synthese": "Ostéomalacie : adulte ; rachitisme : enfant."
+  },
+  "mos-024": {
+    "A": "Vrai. Diminution de la densité.",
+    "B": "Faux. Pas la forme.",
+    "C": "Faux. Pas la vascularisation.",
+    "D": "Faux. Pas l’innervation.",
+    "E": "Vrai. Diminution de la résistance.",
+    "_synthese": "Ostéoporose : baisse de densité et de résistance osseuse."
+  },
+  "mos-026": {
+    "A": "Faux. Pas l’infection.",
+    "B": "Faux. Pas la pseudarthrose.",
+    "C": "Vrai. Fracture.",
+    "D": "Faux. Pas le cal.",
+    "E": "Faux. Pas nerveux.",
+    "_synthese": "Paget : déformations, fractures."
+  },
+  "mos-028": {
+    "A": "Faux. Pas les hommes.",
+    "B": "Vrai. Femmes ménopausées.",
+    "C": "Faux. Pas les enfants.",
+    "D": "Faux. Pas les adolescents.",
+    "E": "Faux. Pas les nourrissons.",
+    "_synthese": "Ostéoporose : femme ménopausée."
+  },
+  "mos-045": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Vitamine D et calcium.",
+    "C": "Faux. Immobilisation.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Rachitisme : traitement médical."
+  },
+  "mos-179": {
+    "A": "Faux. Pas du tissu conjonctif.",
+    "B": "Vrai. Maladie du remodelage osseux.",
+    "C": "Faux. Pas neurologique.",
+    "D": "Faux. Pas vasculaire.",
+    "E": "Faux. Pas immunitaire.",
+    "_synthese": "Paget : maladie du métabolisme osseux."
+  },
+  "mos-242": {
+    "A": "Vrai. Déminéralisation diffuse et homogène.",
+    "B": "Faux. Pas cervicales.",
+    "C": "Faux. Pas d’ostéolyse.",
+    "D": "Vrai. Fractures D9-L2.",
+    "E": "Faux. Pas du mur postérieur.",
+    "_synthese": "Ostéoporose primitive : déminéralisation homogène, fractures D9-L2."
+  },
+  "mos-250": {
+    "A": "Faux. Les côtes sont un siège fréquent de fracture ostéoporotique.",
+    "B": "Vrai. Les os de la face ne sont pas touchés par l’ostéoporose.",
+    "C": "Faux selon certaines années du corrigé type : la fracture ostéoporotique du scapula est exceptionnelle mais décrite.",
+    "D": "Vrai. Les phalanges sont rarement touchées.",
+    "E": "Faux. La cheville peut être atteinte.",
+    "_synthese": "Fractures ostéoporotiques : vertèbres, poignet, col du fémur, côtes, humérus ; jamais l’os de la face ni les doigts."
+  },
+  "mos-356": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Vrai. Fracture.",
+    "D": "Faux. Cal vicieux.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Ostéoporose : fracture."
+  },
+  "mos-436": {
+    "A": "Vrai. Hypocalcémie.",
+    "B": "Vrai. Hypophosphatémie.",
+    "C": "Faux. Pas hypophosphatasie.",
+    "D": "Vrai. Hypovitaminose D.",
+    "E": "Faux. Hyperparathyroïdie secondaire.",
+    "_synthese": "Ostéomalacie : hypocalcémie, hypophosphatémie, déficit en vitamine D."
+  },
+  "mos-463": {
+    "A": "Vrai. Densité minérale osseuse.",
+    "B": "Faux. Pas la vascularisation.",
+    "C": "Faux. Pas l’innervation.",
+    "D": "Faux. Pas la résistance.",
+    "E": "Faux. Pas la forme.",
+    "_synthese": "Densitométrie : densité minérale osseuse."
+  },
+  "mos-490": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Bisphosphonates.",
+    "C": "Faux. Immobilisation.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Paget : traitement médical."
+  },
+  "mos-505": {
+    "A": "Faux. Pas précoce.",
+    "B": "Vrai. Souvent après une fracture.",
+    "C": "Faux. Pas immédiat.",
+    "D": "Faux. Pas facile.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Ostéoporose : diagnostic souvent tardif."
+  },
+  "mos-507": {
+    "A": "Vrai. Activité physique.",
+    "B": "Vrai. Arrêt du tabac.",
+    "C": "Vrai. Calcium et vitamine D.",
+    "D": "Vrai. Arrêt de l’alcool.",
+    "E": "Vrai. Toutes ces réponses sont possibles.",
+    "_synthese": "Prévention : activité, tabac, alcool, calcium, vitamine D."
+  },
+  "mos-509": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Médical et hygiéno-diététique.",
+    "C": "Faux. Immobilisation.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Ostéoporose : traitement médical."
+  },
+  "mos-656": {
+    "A": "Vrai. Diminution de la taille.",
+    "B": "Faux. L’ostéoporose est indolore sans fracture.",
+    "C": "Vrai. Fracture à bas niveau d’énergie.",
+    "D": "Faux. Condensation : autre cause.",
+    "E": "Vrai. Densitométrie basse.",
+    "_synthese": "Ostéoporose : perte de taille, fracture à faible énergie, T-score bas."
+  },
+  "mos-657": {
+    "A": "Faux. Tardive protège.",
+    "B": "Vrai. Ménopause précoce.",
+    "C": "Faux. Apport suffisant protège.",
+    "D": "Faux. Surpoids protège.",
+    "E": "Vrai. Corticothérapie.",
+    "_synthese": "Ostéoporose : ménopause précoce, corticoïdes."
+  },
+  "mos-658": {
+    "A": "Faux. Bénigne.",
+    "B": "Vrai. Raréfiante bénigne.",
+    "C": "Vrai. Carence en vitamine D.",
+    "D": "Faux. Myalgies fréquentes.",
+    "E": "Vrai. Douleurs diffuses symétriques.",
+    "_synthese": "Ostéomalacie : carence en vitamine D, douleurs diffuses."
+  },
+  "mos-659": {
+    "A": "Vrai. Déminéralisation diffuse.",
+    "B": "Faux. Pas cervicales.",
+    "C": "Faux. Pas d’ostéolyse.",
+    "D": "Vrai. Fractures D9-L2.",
+    "E": "Faux. Pas du mur postérieur.",
+    "_synthese": "Ostéoporose primitive : déminéralisation, fractures D9-L2."
+  },
+  "mos-660": {
+    "A": "Vrai. Hypocalcémie.",
+    "B": "Vrai. Hypophosphatémie.",
+    "C": "Faux. Pas hypophosphatasie.",
+    "D": "Vrai. Hypovitaminose D.",
+    "E": "Faux. Hyperparathyroïdie secondaire.",
+    "_synthese": "Ostéomalacie : hypocalcémie, hypophosphatémie, déficit en vitamine D."
+  },
+  "mos-661": {
+    "A": "Faux. Côtes : fréquent.",
+    "B": "Vrai. Os de la face : jamais.",
+    "C": "Faux selon certaines années.",
+    "D": "Vrai. Doigts : jamais.",
+    "E": "Faux. Cheville : possible.",
+    "_synthese": "Fractures ostéoporotiques : vertèbres, poignet, col du fémur, côtes ; jamais la face ni les doigts."
   },
   "otr-410": {
     "A": "Faux. Pas d’hypocalcémie.",
@@ -3198,6 +6353,134 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Excès de tissu ostéoïde.",
     "_synthese": "Ostéomalacie carentielle."
   },
+  "mos-001": {
+    "A": "Vrai. Urgence médico-chirurgicale.",
+    "B": "Vrai. Destruction articulaire rapide.",
+    "C": "Vrai. La ponction est l’examen clé.",
+    "D": "Faux. Souvent monoarticulaire.",
+    "E": "Vrai. Genou fréquent.",
+    "_synthese": "Arthrite septique : urgence, ponction, genou."
+  },
+  "mos-002": {
+    "A": "Vrai. Voie hématogène.",
+    "B": "Vrai. Inoculation directe.",
+    "C": "Vrai. Contiguïté.",
+    "D": "Faux. Pas lymphatique.",
+    "E": "Faux. Plusieurs sont justes.",
+    "_synthese": "Infection ostéo-articulaire : hématogène, directe, contiguïté."
+  },
+  "mos-011": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Antibiothérapie.",
+    "C": "Faux. Immobilisation.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Lyme : antibiotiques."
+  },
+  "mos-012": {
+    "A": "Vrai. Articulaire.",
+    "B": "Vrai. Cardiaque.",
+    "C": "Vrai. Neurologique.",
+    "D": "Vrai. Toutes possibles.",
+    "E": "Faux. Pas seulement.",
+    "_synthese": "Lyme : atteintes articulaire, cardiaque, neurologique."
+  },
+  "mos-396": {
+    "A": "Vrai. Mal de Pott : spondylodiscite tuberculeuse.",
+    "B": "Faux. Horton : artérite.",
+    "C": "Faux. Crohn : digestif.",
+    "D": "Faux. Paget : os.",
+    "E": "Faux. Charcot : neurologique.",
+    "_synthese": "Mal de Pott : tuberculose vertébrale."
+  },
+  "mos-520": {
+    "A": "Vrai. Corps et disque.",
+    "B": "Vrai. Pauci-bacillaire.",
+    "C": "Faux. Une radiographie normale n’écarte pas le diagnostic.",
+    "D": "Faux. Elle touche aussi le rachis cervical.",
+    "E": "Vrai. Douleurs parfois mécaniques.",
+    "_synthese": "Spondylite tuberculeuse : corps et disque, pauci-bacillaire, radiographie initiale normale possible."
+  },
+  "mos-522": {
+    "A": "Faux. Pas l’articulation seule.",
+    "B": "Faux. Pas l’os seul.",
+    "C": "Faux. Pas le muscle.",
+    "D": "Faux. Pas le tendon.",
+    "E": "Vrai. Os et articulation.",
+    "_synthese": "Tuberculose ostéoarticulaire : os et articulation."
+  },
+  "mos-523": {
+    "A": "Faux. Pas interne.",
+    "B": "Faux. Pas externe.",
+    "C": "Vrai. Hématogène.",
+    "D": "Faux. Pas iatrogène.",
+    "E": "Faux. Pas traumatique.",
+    "_synthese": "Tuberculose ostéoarticulaire : voie hématogène."
+  },
+  "mos-526": {
+    "A": "Faux. Pas viral.",
+    "B": "Vrai. Bactérie.",
+    "C": "Faux. Pas fongique.",
+    "D": "Faux. Pas parasite.",
+    "E": "Faux. Pas allergique.",
+    "_synthese": "Lyme : Borrelia, bactérie."
+  },
+  "mos-528": {
+    "A": "Faux. Pas inflammatoire aigu.",
+    "B": "Vrai. Douleur chronique, raideur, boiterie.",
+    "C": "Faux. Pas aiguë.",
+    "D": "Faux. Pas fébrile aigu.",
+    "E": "Faux. Pas crépitation.",
+    "_synthese": "Tuberculose ostéoarticulaire : douleur chronique, raideur, boiterie."
+  },
+  "mos-529": {
+    "A": "Faux. Chirurgie : complication.",
+    "B": "Vrai. Antituberculeux.",
+    "C": "Faux. Kinésithérapie.",
+    "D": "Faux. Immobilisation.",
+    "E": "Faux. Traction.",
+    "_synthese": "Tuberculose ostéoarticulaire : antituberculeux."
+  },
+  "mos-530": {
+    "A": "Faux. Pas aiguë.",
+    "B": "Vrai. Chronique.",
+    "C": "Faux. Pas les deux.",
+    "D": "Faux. Existe.",
+    "E": "Faux. Pas rare.",
+    "_synthese": "Tuberculose ostéoarticulaire : chronique."
+  },
+  "mos-531": {
+    "A": "Faux. Pas précoce.",
+    "B": "Vrai. Tardif.",
+    "C": "Faux. Pas immédiat.",
+    "D": "Vrai. Difficile.",
+    "E": "Faux. Pas impossible.",
+    "_synthese": "Tuberculose ostéoarticulaire : diagnostic tardif et difficile."
+  },
+  "mos-694": {
+    "A": "Vrai. Début insidieux.",
+    "B": "Faux. Pas brutal.",
+    "C": "Vrai. Rachis thoracique fréquent.",
+    "D": "Faux. Signes généraux inconstants.",
+    "E": "Vrai. Complications neurologiques possibles.",
+    "_synthese": "Spondylodiscite tuberculeuse : début insidieux, rachis thoracique, complications neurologiques."
+  },
+  "mos-695": {
+    "A": "Vrai. Radiographie normale au début.",
+    "B": "Vrai. IRM.",
+    "C": "Faux. Pas le scanner.",
+    "D": "Vrai. BK : certitude.",
+    "E": "Faux. Le granulome seul est insuffisant.",
+    "_synthese": "Spondylodiscite tuberculeuse : IRM, BK pour la certitude."
+  },
+  "mos-696": {
+    "A": "Vrai. Dissémination hématogène.",
+    "B": "Faux. Forme la plus fréquente.",
+    "C": "Vrai. Trois phases.",
+    "D": "Faux. Une IDR négative n’élimine pas.",
+    "E": "Faux. Traitement médical d’abord.",
+    "_synthese": "Mal de Pott : hématogène, évolution en trois phases, traitement médical d’abord."
+  },
   "otr-443": {
     "A": "Vrai. Le germe provient souvent d’un foyer à distance (peau, dents, poumon, urines) et gagne l’articulation par voie hématogène.",
     "B": "Vrai. Le staphylocoque doré est le germe le plus fréquent des arthrites septiques de l’adulte comme de l’enfant.",
@@ -3277,6 +6560,158 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Une prothèse articulaire est une porte d’entrée classique.",
     "E": "Faux. Les antalgiques non morphiniques ne favorisent pas l’infection.",
     "_synthese": "Facteurs favorisants : diabète, immunodépression, traumatisme, prothèse, geste intra-articulaire, jeune âge."
+  },
+  "mos-240": {
+    "A": "Faux. La palette est la région concernée, mais la fracture typique est supracondylienne.",
+    "B": "Vrai. La fracture supracondylienne est la plus fréquente de l’extrémité inférieure de l’humérus de l’enfant (5 à 8 ans).",
+    "C": "Faux. La fracture de la trochlée est rare.",
+    "D": "Faux. La fracture de l’épicondyle est plus rare.",
+    "E": "Faux. La fracture de l’épitrochlée vient en second.",
+    "_synthese": "Chez l’enfant, la fracture supracondylienne est la plus fréquente de l’extrémité inférieure de l’humérus."
+  },
+  "mos-248": {
+    "A": "Vrai. La classification repose sur le trait de fracture par rapport au cartilage de croissance.",
+    "B": "Vrai. Dans les types I à IV, le trait intéresse le cartilage de croissance.",
+    "C": "Faux (à cocher). Le type V (écrasement du cartilage) est le plus difficile à diagnostiquer, la radiographie initiale étant souvent normale.",
+    "D": "Vrai. Dans le type IV, le trait est épiphyso-métaphysaire.",
+    "E": "Vrai. Elle s’applique aux traumatismes du cartilage de croissance.",
+    "_synthese": "Salter et Harris : I décollement pur, II avec fragment métaphysaire, III fragment épiphysaire, IV épiphyso-métaphysaire, V écrasement (diagnostic rétrospectif)."
+  },
+  "mos-263": {
+    "A": "Vrai. Le type III est articulaire : une réduction non anatomique donne un mauvais pronostic.",
+    "B": "Faux. Le fragment épiphysaire est détaché ; le fragment métaphysaire caractérise le type II.",
+    "C": "Faux. Un décollement pur est le type I.",
+    "D": "Vrai. Le trait traverse et rompt le cartilage de croissance.",
+    "E": "Vrai. Une mauvaise réduction expose à l’épiphysiodèse.",
+    "_synthese": "Salter III : trait épiphysaire traversant la plaque, atteinte articulaire, réduction anatomique indispensable."
+  },
+  "mos-266": {
+    "A": "Vrai. La fracture en motte de beurre est de bon pronostic.",
+    "B": "Vrai. Elle résulte de l’impaction de la métaphyse sous l’effet d’une force axiale.",
+    "C": "Vrai. La corticale se plisse sans se rompre.",
+    "D": "Faux. Le cartilage de croissance n’est pas atteint.",
+    "E": "Faux. Toutes les réponses ne sont pas justes.",
+    "_synthese": "Fracture en motte de beurre (torus) : incomplète, par tassement, de bon pronostic, immobilisation de 3 semaines."
+  },
+  "mos-267": {
+    "A": "Vrai. Type I : décollement épiphysaire pur.",
+    "B": "Vrai. Type II : décollement avec fragment métaphysaire (Thurston-Holland).",
+    "C": "Faux. Le type III est épiphysaire ; le type IV est épiphyso-métaphysaire.",
+    "D": "Faux. Le type IV détache un fragment épiphyso-métaphysaire.",
+    "E": "Vrai. Type V : tassement du cartilage de croissance.",
+    "_synthese": "Salter-Harris : I pur, II métaphysaire, III épiphysaire, IV épiphyso-métaphysaire, V tassement."
+  },
+  "mos-270": {
+    "A": "Vrai. Le décollement épiphysaire est une fracture du cartilage de croissance.",
+    "B": "Faux. La diaphyse n’est pas concernée.",
+    "C": "Faux. La métaphyse peut être associée mais n’est pas l’atteinte définissante.",
+    "D": "Faux. L’épiphyse n’est pas la structure définissante.",
+    "E": "Faux. La diaphyse n’est pas concernée.",
+    "_synthese": "Décollement épiphysaire = fracture du cartilage de croissance, d’où le risque de trouble de croissance."
+  },
+  "mos-298": {
+    "A": "Faux. Une faible vascularisation retarderait la consolidation.",
+    "B": "Vrai. La forte vascularisation et le périoste épais favorisent la consolidation de l’enfant.",
+    "C": "Faux. L’âge n’est pas favorable en soi.",
+    "D": "Faux. Le poids n’intervient pas.",
+    "E": "Faux. La taille n’intervient pas.",
+    "_synthese": "Chez l’enfant, la consolidation est rapide grâce à la forte vascularisation et au périoste épais."
+  },
+  "mos-308": {
+    "A": "Faux. La consolidation est plus rapide chez l’enfant.",
+    "B": "Vrai. Consolidation plus rapide grâce au périoste et à la vascularisation.",
+    "C": "Faux. La pseudarthrose est rare.",
+    "D": "Faux. Les cals vicieux sont moins fréquents grâce au remodelage.",
+    "E": "Faux. Proposition imprécise.",
+    "_synthese": "Chez l’enfant, consolidation rapide et remodelage important."
+  },
+  "mos-312": {
+    "A": "Vrai. La fracture en tore est incomplète.",
+    "B": "Faux. Elle n’est pas complète.",
+    "C": "Vrai. Elle résulte d’une compression axiale.",
+    "D": "Faux. Ce n’est pas une torsion.",
+    "E": "Faux. Ce n’est pas un choc direct.",
+    "_synthese": "Fracture en tore : incomplète, par compression de la métaphyse."
+  },
+  "mos-314": {
+    "A": "Faux. La fracture en bois vert est incomplète.",
+    "B": "Vrai. Une corticale se rompt, l’autre se plie.",
+    "C": "Faux. Elle est diaphysaire mais ce n’est pas sa définition.",
+    "D": "Faux. Ce n’est pas la définition.",
+    "E": "Faux. Ce n’est pas la définition.",
+    "_synthese": "Bois vert : fracture incomplète de l’enfant."
+  },
+  "mos-323": {
+    "A": "Faux. L’échographie n’est pas de première intention.",
+    "B": "Faux. L’IRM est réservée aux cas particuliers.",
+    "C": "Vrai. La radiographie reste l’examen de référence.",
+    "D": "Faux. Le scanner irradie.",
+    "E": "Faux. La scintigraphie n’est pas utilisée en première intention.",
+    "_synthese": "Chez l’enfant, le diagnostic repose sur la radiographie, parfois comparative."
+  },
+  "mos-328": {
+    "A": "Faux. La diaphyse n’est pas concernée.",
+    "B": "Faux. La métaphyse seule n’est pas concernée.",
+    "C": "Vrai. Salter-Harris classe les décollements épiphysaires.",
+    "D": "Faux. Ce n’est pas une classification articulaire.",
+    "E": "Faux. Ce n’est pas la clavicule.",
+    "_synthese": "Salter-Harris : fractures du cartilage de croissance."
+  },
+  "mos-347": {
+    "A": "Faux. La chirurgie n’est pas le traitement le plus fréquent.",
+    "B": "Vrai. L’immobilisation plâtrée traite la majorité des fractures de l’enfant.",
+    "C": "Faux. La traction n’est pas le plus fréquent.",
+    "D": "Faux. Le traitement fonctionnel est minoritaire.",
+    "E": "Faux. La prothèse n’est pas utilisée.",
+    "_synthese": "Chez l’enfant, le traitement est le plus souvent orthopédique par plâtre."
+  },
+  "mos-351": {
+    "A": "Faux. L’atteinte nerveuse est possible mais pas le principal risque.",
+    "B": "Faux. L’atteinte vasculaire non plus.",
+    "C": "Vrai. Le risque principal est le trouble de croissance.",
+    "D": "Faux. L’infection n’est pas le risque principal.",
+    "E": "Faux. La pseudarthrose est rare.",
+    "_synthese": "Décollement épiphysaire : risque de trouble de croissance."
+  },
+  "mos-354": {
+    "A": "Faux. Le remodelage est plus important chez l’enfant.",
+    "B": "Faux. Il n’est pas moins important.",
+    "C": "Vrai. Le remodelage est très important chez l’enfant.",
+    "D": "Faux. Il n’est pas nul.",
+    "E": "Faux. Il n’est pas toujours nécessaire.",
+    "_synthese": "Chez l’enfant, le remodelage osseux est très important."
+  },
+  "mos-355": {
+    "A": "Faux. Pas fréquente.",
+    "B": "Vrai. Rare chez l’enfant.",
+    "C": "Faux. Pas systématique.",
+    "D": "Faux. Non retenu.",
+    "E": "Faux. Pas immédiate.",
+    "_synthese": "Pseudarthrose : rare chez l’enfant."
+  },
+  "mos-582": {
+    "A": "Vrai. Urgence thérapeutique.",
+    "B": "Vrai. Risque de Volkmann.",
+    "C": "Vrai. Le déplacement se fait le plus souvent en extension.",
+    "D": "Faux. Le trait est extra-articulaire.",
+    "E": "Vrai. La classification de Gartland guide le traitement.",
+    "_synthese": "Supracondylienne de l’enfant : extension dans 95 % des cas, Gartland, risque vasculaire."
+  },
+  "mos-588": {
+    "A": "Faux. Une fracture non déplacée n’est pas opérée.",
+    "B": "Vrai. Plâtre brachio-antébrachial coude fléchi.",
+    "C": "Faux. La traction n’est pas indiquée.",
+    "D": "Faux. Pas d’ostéosynthèse.",
+    "E": "Faux. Pas de prothèse.",
+    "_synthese": "Supracondylienne non déplacée : immobilisation plâtrée."
+  },
+  "mos-589": {
+    "A": "Faux. Une chute sur le coude donne le type en flexion.",
+    "B": "Vrai. Chute sur la main, coude en hyperextension.",
+    "C": "Faux. Pas de lien.",
+    "D": "Faux. Pas de lien.",
+    "E": "Faux. Pas de lien.",
+    "_synthese": "Supracondylienne : chute sur la main, coude en hyperextension."
   },
   "otr-456": {
     "A": "Faux. Le type I (décollement pur) respecte la couche germinative : le risque d’épiphysiodèse est faible.",
@@ -3573,6 +7008,174 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Mise au repos du membre supérieur durant les trois premières semaines.",
     "_synthese": "POPB : traumatisme obstétrical, mise au repos puis rééducation, chirurgie précoce si pas de récupération."
   },
+  "mos-032": {
+    "A": "Faux. Plus fréquente chez les filles.",
+    "B": "Vrai. Le ressaut d’Ortolani est caractéristique.",
+    "C": "Vrai. Abduction maintenue.",
+    "D": "Faux selon le livre.",
+    "E": "Faux. Marche tardive.",
+    "_synthese": "LCH : filles, ressaut, abduction."
+  },
+  "mos-033": {
+    "A": "Faux. L’hérédité est un facteur de risque.",
+    "B": "Faux. La césarienne n’est pas facteur de risque direct.",
+    "C": "Faux. Le siège est un facteur de risque.",
+    "D": "Faux. La primiparité est un facteur de risque.",
+    "E": "Vrai (à cocher). La prématurité est un facteur protecteur.",
+    "_synthese": "LCH : sexe féminin, siège, primiparité, hérédité ; prématurité protectrice."
+  },
+  "mos-037": {
+    "A": "Vrai. Siège.",
+    "B": "Vrai. Limitation de l’abduction.",
+    "C": "Faux. Césarienne.",
+    "D": "Faux. RCIU.",
+    "E": "Faux. Garçon.",
+    "_synthese": "LCH : siège, limitation de l’abduction."
+  },
+  "mos-042": {
+    "A": "Vrai. Le noyau d’ossification de la tête fémorale apparaît en retard (après 4 à 6 mois).",
+    "B": "Faux. L’angle acétabulaire augmenté évoque une dysplasie, non une luxation.",
+    "C": "Faux. Dans la luxation, le noyau se projette dans le quadrant supéro-externe.",
+    "D": "Vrai. La rupture du cintre cervico-obturateur (Shenton) signe la luxation.",
+    "E": "Faux. La construction de Putti s’utilise avant l’apparition des noyaux, celle d’Ombrédanne après.",
+    "_synthese": "Radiographie de LCH : retard du noyau, noyau en position supéro-externe, rupture du cintre cervico-obturateur, constructions d’Ombrédanne et de Putti."
+  },
+  "mos-043": {
+    "A": "Vrai. Boiterie.",
+    "B": "Faux. Douleur tardive.",
+    "C": "Faux. Infection.",
+    "D": "Faux. Pseudarthrose.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "LCH non traitée : boiterie."
+  },
+  "mos-044": {
+    "A": "Vrai. À la naissance.",
+    "B": "Faux. Pas 6 mois.",
+    "C": "Faux. Pas 1 an.",
+    "D": "Faux. Pas 2 ans.",
+    "E": "Faux. Pas la marche.",
+    "_synthese": "LCH : diagnostic à la naissance."
+  },
+  "mos-046": {
+    "A": "Faux. Scanner.",
+    "B": "Faux. IRM.",
+    "C": "Vrai. Échographie.",
+    "D": "Faux. Radiographie : plus tard.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "LCH : échographie."
+  },
+  "mos-047": {
+    "A": "Faux. Pas réductible.",
+    "B": "Vrai. Luxation irréductible.",
+    "C": "Faux. Pas dysplasie.",
+    "D": "Faux. Pas instabilité.",
+    "E": "Faux. Pas nerveuse.",
+    "_synthese": "Signe du télescope : luxation irréductible."
+  },
+  "mos-049": {
+    "A": "Vrai. Systématique.",
+    "B": "Faux. Pas optionnel.",
+    "C": "Faux. Pas seulement.",
+    "D": "Faux. Pas seulement.",
+    "E": "Faux. Pas seulement.",
+    "_synthese": "LCH : dépistage systématique."
+  },
+  "mos-050": {
+    "A": "Faux. Garçons.",
+    "B": "Vrai. Filles.",
+    "C": "Faux. Césarienne.",
+    "D": "Faux. Petite taille.",
+    "E": "Faux. Grande taille.",
+    "_synthese": "LCH : filles."
+  },
+  "mos-051": {
+    "A": "Faux. Plis : signe d’appel.",
+    "B": "Vrai. Ortolani et Barlow.",
+    "C": "Faux. Boiterie tardive.",
+    "D": "Faux. Inégalité tardive.",
+    "E": "Faux. Télescope : autre.",
+    "_synthese": "LCH : Ortolani, Barlow."
+  },
+  "mos-559": {
+    "A": "Faux. Plis inguinaux : signe d’asymétrie de la LCH.",
+    "B": "Faux. Plis fessiers : signe d’asymétrie de la LCH.",
+    "C": "Faux. Plis poplités : signe d’asymétrie de la LCH.",
+    "D": "Vrai. Le signe de Galeazzi est un raccourcissement apparent de la cuisse : les genoux ne sont pas à même hauteur, hanches et genoux fléchis.",
+    "E": "Faux. La limitation de l’abduction est un autre signe.",
+    "_synthese": "LCH : signe de Galeazzi = raccourcissement apparent de la cuisse."
+  },
+  "mos-604": {
+    "A": "Faux. Hérédité.",
+    "B": "Faux. Césarienne.",
+    "C": "Faux. Siège.",
+    "D": "Faux. Primiparité.",
+    "E": "Vrai (à cocher). Prématurité protectrice.",
+    "_synthese": "LCH : prématurité protectrice."
+  },
+  "mos-607": {
+    "A": "Faux. Grade 1 : noyau médial.",
+    "B": "Vrai. Grade 2.",
+    "C": "Vrai. Grade 3.",
+    "D": "Faux. Grade 4 : au-dessus.",
+    "E": "Faux. Ligne des Y.",
+    "_synthese": "Tönnis."
+  },
+  "mos-609": {
+    "A": "Vrai. Le U est ouvert et peu dense en cas de tête peu enfoncée.",
+    "B": "Faux selon le livre.",
+    "C": "Faux. La densité diminue en cas de luxation.",
+    "D": "Vrai. La lame quadrilatère en constitue une partie.",
+    "E": "Vrai. Un U ouvert témoigne d’une dysplasie acétabulaire.",
+    "_synthese": "U radiologique : image de l’arrière-fond du cotyle."
+  },
+  "mos-611": {
+    "A": "Faux. Ombrédanne s’applique à droite seulement.",
+    "B": "Faux. Putti s’applique à gauche seulement.",
+    "C": "Vrai. Ombrédanne à droite (noyau présent), Putti à gauche (noyau absent).",
+    "D": "Faux. Inversion.",
+    "E": "Faux. La radiographie est interprétable.",
+    "_synthese": "Noyau présent : Ombrédanne ; noyau absent : Putti."
+  },
+  "mos-615": {
+    "A": "Faux. Luxation réductible : orthopédique.",
+    "B": "Vrai. Échec du traitement orthopédique.",
+    "C": "Faux. Diagnostic précoce : orthopédique.",
+    "D": "Faux. Nouveau-né : orthopédique.",
+    "E": "Faux. L’absence de douleur ne guide pas.",
+    "_synthese": "LCH : chirurgie en cas d’échec du traitement orthopédique."
+  },
+  "mos-623": {
+    "A": "Vrai. Acétabulum.",
+    "B": "Faux. Fémur.",
+    "C": "Faux. Bassin.",
+    "D": "Faux. Col.",
+    "E": "Faux. Tête.",
+    "_synthese": "LCH : dysplasie de l’acétabulum."
+  },
+  "mos-625": {
+    "A": "Faux. Plâtre.",
+    "B": "Faux. Chirurgie.",
+    "C": "Vrai. Harnais de Pavlik.",
+    "D": "Faux. Pas d’urgence.",
+    "E": "Faux. Traction.",
+    "_synthese": "LCH précoce : harnais de Pavlik."
+  },
+  "mos-628": {
+    "A": "Faux. Antécédents.",
+    "B": "Vrai. Siège.",
+    "C": "Faux. Sexe.",
+    "D": "Faux. Taille.",
+    "E": "Faux. Poids.",
+    "_synthese": "LCH : siège."
+  },
+  "mos-631": {
+    "A": "Vrai. Âge.",
+    "B": "Faux. Poids.",
+    "C": "Faux. Sexe.",
+    "D": "Faux. Antécédent.",
+    "E": "Faux. Taille.",
+    "_synthese": "LCH : traitement selon l’âge."
+  },
   "otr-493": {
     "A": "Faux. L’échographie systématique n’est pas recommandée ; elle est faite en cas de facteurs de risque.",
     "B": "Faux. La radiographie n’est pas systématique à 4 mois.",
@@ -3837,6 +7440,166 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Pas d’attelles de Petit.",
     "_synthese": "Hanche luxable avant 4 mois : harnais de Pavlik."
   },
+  "mos-040": {
+    "A": "Vrai. La gibbosité à l’antéflexion traduit la rotation vertébrale : signe de scoliose structurale.",
+    "B": "Faux. La scoliose idiopathique est le plus souvent indolore.",
+    "C": "Vrai. La rotation vertébrale se voit sur la radiographie de face (pédicule déplacé).",
+    "D": "Faux. La correction en antéflexion est le propre de l’attitude scoliotique.",
+    "E": "Faux. Le déséquilibre du tronc n’est pas spécifique.",
+    "_synthese": "Scoliose structurale : gibbosité irréductible, rotation vertébrale, angle de Cobb supérieur à 10°."
+  },
+  "mos-059": {
+    "A": "Faux. L’IRM n’est pas un examen de dépistage.",
+    "B": "Vrai selon le livre : la radiographie du rachis en entier confirme et mesure.",
+    "C": "Faux. L’angle de Cobb se mesure sur la radiographie, ce n’est pas un test de dépistage.",
+    "D": "Faux. La mobilité articulaire ne dépiste pas la scoliose.",
+    "E": "Faux. L’échographie n’est pas utilisée.",
+    "_synthese": "Scoliose : dépistage clinique (test d’Adams), confirmation par radiographie du rachis entier debout."
+  },
+  "mos-060": {
+    "A": "Vrai. L’angle de Cobb mesure la gravité.",
+    "B": "Vrai. L’asymétrie des épaules et des hanches traduit le déséquilibre.",
+    "C": "Faux. La flexion du genou n’intervient pas.",
+    "D": "Faux. La mobilité thoracique est secondaire.",
+    "E": "Faux. La posture assise n’évalue pas la gravité.",
+    "_synthese": "Gravité d’une scoliose : angle de Cobb, déséquilibre du tronc, rotation."
+  },
+  "mos-370": {
+    "A": "Vrai. Elle est la plus fréquente des scolioses de l’enfant.",
+    "B": "Faux. Elle prédomine chez les filles.",
+    "C": "Faux. Elle est indolore.",
+    "D": "Vrai. La gibbosité apparaît à l’antéflexion.",
+    "E": "Vrai. Traitement long, lourd et coûteux.",
+    "_synthese": "Scoliose idiopathique : fréquente, filles, gibbosité, indolore."
+  },
+  "mos-371": {
+    "A": "Vrai. Déformation évolutive pendant la croissance.",
+    "B": "Vrai. Incurvation dans le plan frontal.",
+    "C": "Vrai. Modification de la cyphose ou de la lordose.",
+    "D": "Vrai. Rotation axiale et gibbosité.",
+    "E": "Faux (à cocher). Dans la forme idiopathique, on ne trouve pas de cause pathologique.",
+    "_synthese": "Scoliose : déformation en trois dimensions sans cause décelable dans la forme idiopathique."
+  },
+  "mos-376": {
+    "A": "Faux. C’est l’inverse.",
+    "B": "Vrai. La gibbosité est présente dans la scoliose.",
+    "C": "Faux. L’angle de Cobb n’a pas de seuil de 50° pour définir la scoliose.",
+    "D": "Vrai. Rotation vertébrale radiologique dans la scoliose.",
+    "E": "Vrai. Pas de rotation dans l’attitude scoliotique.",
+    "_synthese": "Attitude scoliotique : réductible, sans rotation ni gibbosité."
+  },
+  "mos-380": {
+    "A": "Faux. L’angle de Cobb n’est pas la définition.",
+    "B": "Faux. Pas de gibbosité.",
+    "C": "Faux. Pas de rotation.",
+    "D": "Vrai. Réductible à l’antéflexion.",
+    "E": "Faux. Pas de déformation structurale.",
+    "_synthese": "Attitude scoliotique : réductible."
+  },
+  "mos-387": {
+    "A": "Vrai. Rotation vertébrale.",
+    "B": "Vrai. Déviation frontale.",
+    "C": "Vrai. Cobb supérieur à 10°.",
+    "D": "Faux. Hémivertèbre : scoliose congénitale.",
+    "E": "Faux. Risser 4 : maturité osseuse.",
+    "_synthese": "Scoliose idiopathique : rotation, déviation frontale, Cobb supérieur à 10°."
+  },
+  "mos-400": {
+    "A": "Faux selon le livre.",
+    "B": "Faux. Pas congénitale.",
+    "C": "Vrai. Cyphose juvénile.",
+    "D": "Faux. Pas acquise.",
+    "E": "Faux. Pas post-traumatique.",
+    "_synthese": "Scheuermann : cyphose juvénile."
+  },
+  "mos-402": {
+    "A": "Vrai. Plan sagittal.",
+    "B": "Faux. Plan frontal : scoliose.",
+    "C": "Faux. Transversal.",
+    "D": "Faux. Les trois.",
+    "E": "Faux. Existe.",
+    "_synthese": "Cyphose : plan sagittal."
+  },
+  "mos-403": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal vicieux.",
+    "D": "Vrai. Déformation et perte de fonction respiratoire.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Scoliose : déformation, retentissement respiratoire."
+  },
+  "mos-405": {
+    "A": "Faux. Pas la cyphose.",
+    "B": "Vrai. Adams : scoliose.",
+    "C": "Faux. Pas la lordose.",
+    "D": "Faux. Pas les deux.",
+    "E": "Faux. Pas les deux.",
+    "_synthese": "Test d’Adams : scoliose."
+  },
+  "mos-408": {
+    "A": "Faux. Minime : observation.",
+    "B": "Faux. Modérée : corset.",
+    "C": "Vrai. Plus de 40° : chirurgie.",
+    "D": "Faux. Âge.",
+    "E": "Faux. Âge.",
+    "_synthese": "Scoliose : chirurgie au-delà de 40-45°."
+  },
+  "mos-413": {
+    "A": "Faux. Pas seulement la scoliose.",
+    "B": "Faux. Pas seulement la cyphose.",
+    "C": "Vrai. Scoliose et cyphose.",
+    "D": "Faux. Pas la lordose.",
+    "E": "Faux. Pas les fractures.",
+    "_synthese": "Corset : scoliose et cyphose."
+  },
+  "mos-415": {
+    "A": "Faux. Échographie.",
+    "B": "Faux. IRM.",
+    "C": "Vrai. Radiographie.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Scoliose : radiographie."
+  },
+  "mos-420": {
+    "A": "Faux. Garçons.",
+    "B": "Vrai. Filles.",
+    "C": "Faux. Adultes.",
+    "D": "Faux. Âgés.",
+    "E": "Faux. Nourrissons.",
+    "_synthese": "Scoliose : filles."
+  },
+  "mos-425": {
+    "A": "Faux. Connue.",
+    "B": "Vrai. Inconnue.",
+    "C": "Faux. Traumatique.",
+    "D": "Faux. Infectieuse.",
+    "E": "Faux. Génétique.",
+    "_synthese": "Idiopathique : cause inconnue."
+  },
+  "mos-426": {
+    "A": "Vrai. Plan sagittal.",
+    "B": "Faux. Plan frontal : scoliose.",
+    "C": "Faux. Plan transversal.",
+    "D": "Faux. Pas les trois.",
+    "E": "Faux. Existe.",
+    "_synthese": "Lordose : plan sagittal."
+  },
+  "mos-427": {
+    "A": "Faux. Sagittal.",
+    "B": "Vrai. Frontal.",
+    "C": "Faux. Transversal.",
+    "D": "Faux. Les trois.",
+    "E": "Faux. Existe.",
+    "_synthese": "Scoliose : plan frontal."
+  },
+  "mos-483": {
+    "A": "Faux. Pas toujours chirurgical.",
+    "B": "Faux. Pas médical.",
+    "C": "Vrai. Observation, corset, chirurgie.",
+    "D": "Faux. Immobilisation.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "Scoliose : observation, corset, chirurgie."
+  },
   "otr-532": {
     "A": "Faux. La courbe de Duval-Beaupère ne sert pas à classer la scoliose (on utilise l’étiologie, la localisation et l’angle de Cobb).",
     "B": "Vrai. En comparant la progression de l’angle de Cobb et du stade de Risser sur la courbe, elle permet de prévoir l’évolutivité de la scoliose pendant la croissance.",
@@ -4028,6 +7791,165 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Recherchée dos penché en avant.",
     "E": "Faux. Elle se voit à l’examen clinique.",
     "_synthese": "Gibbosité : rotation vertébrale visible en antéflexion."
+  },
+  "mos-004": {
+    "A": "Vrai. Métaphysaire.",
+    "B": "Faux. Pas épiphysaire.",
+    "C": "Faux. Pas diaphysaire.",
+    "D": "Faux. Une est juste.",
+    "E": "Faux. Pas toutes.",
+    "_synthese": "Infection ostéo-articulaire : douleur métaphysaire."
+  },
+  "mos-005": {
+    "A": "Faux. Staphylocoque doré.",
+    "B": "Vrai. Enfant en croissance.",
+    "C": "Faux. Métaphyse.",
+    "D": "Vrai. Bactériémie.",
+    "E": "Faux. Possible chez le nourrisson.",
+    "_synthese": "Ostéomyélite : staphylocoque, métaphyse, enfant."
+  },
+  "mos-006": {
+    "A": "Vrai. Douleur métaphysaire.",
+    "B": "Vrai. Fièvre.",
+    "C": "Faux. Début brutal.",
+    "D": "Faux. Douleur localisée.",
+    "E": "Faux. Pas d’adénopathies.",
+    "_synthese": "Ostéomyélite : douleur métaphysaire et fièvre."
+  },
+  "mos-008": {
+    "A": "Faux. Douleur intense.",
+    "B": "Vrai. Douleur, œdème, fièvre.",
+    "C": "Faux. Pas minime.",
+    "D": "Faux. Pas déformation.",
+    "E": "Faux. Pas crépitation.",
+    "_synthese": "Ostéomyélite : douleur intense, œdème, fièvre."
+  },
+  "mos-013": {
+    "A": "Faux. Radiographie tardive.",
+    "B": "Faux. Échographie.",
+    "C": "Vrai. IRM : diagnostic précoce.",
+    "D": "Faux. Scanner.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Ostéomyélite : IRM."
+  },
+  "mos-015": {
+    "A": "Faux. Pseudarthrose.",
+    "B": "Faux. Cal vicieux.",
+    "C": "Faux. Raideur.",
+    "D": "Vrai. Abcès osseux.",
+    "E": "Faux. Nécrose.",
+    "_synthese": "Ostéomyélite : abcès osseux."
+  },
+  "mos-221": {
+    "A": "Faux. L’enfant pré-scolaire n’est pas concerné.",
+    "B": "Vrai. Chez le nouveau-né et le nourrisson, l’ostéomyélite s’accompagne d’une arthrite (vaisseaux trans-physaires).",
+    "C": "Faux. Pas lié à l’atteinte multifocale.",
+    "D": "Faux selon le livre.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Ostéomyélite avec arthrite : nouveau-né et nourrisson."
+  },
+  "mos-223": {
+    "A": "Faux. Pas le garçon scolaire.",
+    "B": "Vrai. Nouveau-né et nourrisson.",
+    "C": "Faux selon le livre.",
+    "D": "Faux selon le livre.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Ostéomyélite avec arthrite : nouveau-né et nourrisson."
+  },
+  "mos-224": {
+    "A": "Vrai. Pas de signe radiologique au début.",
+    "B": "Faux. La lacune est tardive.",
+    "C": "Vrai. Douleur circonférentielle.",
+    "D": "Vrai. Douleur segmentaire.",
+    "E": "Faux. Pas toutes.",
+    "_synthese": "Infection ostéo-articulaire débutante : radio normale."
+  },
+  "mos-225": {
+    "A": "Vrai. Métaphyse.",
+    "B": "Faux. Épiphyse.",
+    "C": "Faux. Diaphyse.",
+    "D": "Faux. Pas toutes.",
+    "_synthese": "Ostéomyélite : métaphyse."
+  },
+  "mos-232": {
+    "A": "Faux. Pas externe.",
+    "B": "Vrai. Hématogène.",
+    "C": "Faux. Pas locale.",
+    "D": "Faux. Pas traumatique.",
+    "E": "Faux. Pas iatrogène.",
+    "_synthese": "Ostéomyélite aiguë hématogène : origine interne."
+  },
+  "mos-233": {
+    "A": "Faux. Pas l’articulation.",
+    "B": "Vrai. L’os.",
+    "C": "Faux. Pas le muscle.",
+    "D": "Faux. Pas le tendon.",
+    "E": "Faux. Pas le ligament.",
+    "_synthese": "Ostéomyélite : infection de l’os."
+  },
+  "mos-234": {
+    "A": "Faux. Pas chronique.",
+    "B": "Vrai. Aiguë.",
+    "C": "Faux. Pas les deux.",
+    "D": "Faux. Existe.",
+    "E": "Faux. Pas rare.",
+    "_synthese": "Ostéomyélite aiguë."
+  },
+  "mos-235": {
+    "A": "Faux. Radiographie.",
+    "B": "Faux. Scanner.",
+    "C": "Faux. IRM.",
+    "D": "Vrai. Prélèvement bactériologique.",
+    "E": "Faux. Scintigraphie.",
+    "_synthese": "Certitude : prélèvement."
+  },
+  "mos-237": {
+    "A": "Faux. Immobilisation.",
+    "B": "Vrai. Antibiothérapie.",
+    "C": "Faux. Chirurgie : abcès.",
+    "D": "Faux. Kinésithérapie.",
+    "E": "Faux. Traction.",
+    "_synthese": "Ostéomyélite : antibiothérapie."
+  },
+  "mos-238": {
+    "A": "Faux. Pas après confirmation radiologique.",
+    "B": "Faux. Pas après chirurgie.",
+    "C": "Vrai. Le plus tôt possible.",
+    "D": "Faux. Pas 6 semaines.",
+    "E": "Faux. Pas 3 mois.",
+    "_synthese": "Ostéomyélite : traitement immédiat."
+  },
+  "mos-239": {
+    "A": "Faux. Adultes.",
+    "B": "Faux. Âgés.",
+    "C": "Vrai. Enfants.",
+    "D": "Faux. Adolescents.",
+    "E": "Faux. Nourrissons.",
+    "_synthese": "Ostéomyélite : enfant."
+  },
+  "mos-515": {
+    "A": "Faux. Pas exclusivement l’os.",
+    "B": "Vrai. Ostéomyélite, arthrite, spondylodiscite.",
+    "C": "Faux. Pas traumatique.",
+    "D": "Vrai. Aiguës ou chroniques.",
+    "E": "Faux. Pas que l’adulte.",
+    "_synthese": "Infections ostéo-articulaires : ostéomyélite, arthrite, spondylodiscite."
+  },
+  "mos-516": {
+    "A": "Vrai. Antibiothérapie après prélèvements.",
+    "B": "Faux. Durée longue.",
+    "C": "Vrai. Adaptation à l’antibiogramme.",
+    "D": "Vrai. Drainage possible.",
+    "E": "Vrai. Repos.",
+    "_synthese": "Traitement : prélèvements, antibiothérapie adaptée, drainage, repos."
+  },
+  "mos-527": {
+    "A": "Faux. Streptocoque.",
+    "B": "Vrai. Staphylocoque doré.",
+    "C": "Faux. Pneumocoque.",
+    "D": "Faux. E. coli.",
+    "E": "Faux. Pyocyanique.",
+    "_synthese": "Staphylocoque doré."
   },
   "otr-557": {
     "A": "Vrai. Infection de l’os par un germe pathogène d’origine hématogène.",
@@ -4293,6 +8215,14 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Non pathognomonique.",
     "_synthese": "Ostéomyélite : début brutal, fièvre."
   },
+  "otr-592": {
+    "A": "Faux. Staphylocoque.",
+    "B": "Faux selon l’annale.",
+    "C": "Vrai. Atrophie pulpaire.",
+    "D": "Vrai. Diffusion au poignet.",
+    "E": "Faux. Lymphangite non fréquente.",
+    "_synthese": "Panaris du pouce : staphylocoque, gaine du pouce, atrophie pulpaire."
+  },
   "otr-593": {
     "A": "Vrai. Excision de la porte d’entrée.",
     "B": "Vrai. Lavage de la gaine.",
@@ -4381,14 +8311,6 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai (à cocher). La ponction a un grand intérêt.",
     "_synthese": "Ponction articulaire : urgente, diagnostique et thérapeutique."
   },
-  "otr-604": {
-    "A": "Faux. Staphylocoque.",
-    "B": "Faux selon l’annale.",
-    "C": "Vrai. Atrophie pulpaire.",
-    "D": "Vrai. Diffusion au poignet.",
-    "E": "Faux. Lymphangite non fréquente.",
-    "_synthese": "Panaris du pouce : staphylocoque, gaine du pouce, atrophie pulpaire."
-  },
   "otr-605": {
     "A": "Faux. Douleur du pli palmaire distal.",
     "B": "Faux. Pas d’anesthésie au début.",
@@ -4396,6 +8318,30 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Crochet irréductible : plus tardif.",
     "E": "Faux. Cyanose : tardive.",
     "_synthese": "Phlegmon de gaine au début : douleur au pli palmaire distal."
+  },
+  "mos-041": {
+    "A": "Faux. Dans une atteinte C5-C6, le bras est en adduction et rotation interne.",
+    "B": "Vrai. L’avant-bras est en pronation.",
+    "C": "Faux. Le coude est en extension par paralysie du biceps.",
+    "D": "Vrai. Dans l’atteinte totale, la main est paralysée, pouce inclus.",
+    "E": "Vrai. La tête se détourne de la lésion.",
+    "_synthese": "Paralysie obstétricale : Duchenne-Erb (C5-C6) bras en adduction, rotation interne, coude en extension, pronation."
+  },
+  "mos-444": {
+    "A": "Vrai. Fièvre.",
+    "B": "Vrai. Altération de l’état général.",
+    "C": "Faux. Douleur chronique.",
+    "D": "Vrai. Gonflement.",
+    "E": "Faux. Limitation non spécifique.",
+    "_synthese": "Hanche douloureuse : fièvre, altération de l’état général, gonflement."
+  },
+  "mos-560": {
+    "A": "Faux. Boiterie d’esquive.",
+    "B": "Vrai. Bascule du tronc du côté pathologique.",
+    "C": "Vrai. Altération du pas.",
+    "D": "Vrai. Pas raccourci.",
+    "E": "Vrai selon le livre.",
+    "_synthese": "Boiterie d’équilibration : bascule du tronc."
   },
   "otr-606": {
     "A": "Faux. L’épiphysiolyse fémorale supérieure survient chez l’adolescent (10 à 16 ans), à la puberté, pas avant 10 ans.",
@@ -4516,6 +8462,70 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. La maladie d’Osgood-Schlatter touche l’adolescent.",
     "E": "Faux. L’ostéochondrite disséquante touche l’adolescent.",
     "_synthese": "Genou du nouveau-né : recurvatum, malformation, arthrite ; Osgood-Schlatter et ostéochondrite sont de l’adolescent."
+  },
+  "mos-038": {
+    "A": "Vrai. Varus équin.",
+    "B": "Vrai. Pied convexe.",
+    "C": "Faux. Pied plat.",
+    "D": "Faux. Pied talus.",
+    "E": "Faux. Pied creux.",
+    "_synthese": "Pied bot : varus équin, convexe."
+  },
+  "mos-039": {
+    "A": "Faux. Pas adduction.",
+    "B": "Faux. Pas équinisme talo-calcanéen.",
+    "C": "Faux. Pas adduction.",
+    "D": "Vrai. Varus.",
+    "E": "Faux. Pas équinisme tibio-calcanéen.",
+    "_synthese": "Pied bot : varus du calcanéum."
+  },
+  "mos-226": {
+    "A": "Faux. Pas cette définition.",
+    "B": "Faux. Pas transversal.",
+    "C": "Faux. Pas longitudinal.",
+    "D": "Vrai. Défaut de séparation longitudinal.",
+    "E": "Faux. Pas transversal.",
+    "_synthese": "Synostose radio-ulnaire : défaut de séparation longitudinal."
+  },
+  "mos-227": {
+    "A": "Faux. Attendre la fin de la croissance est insuffisant dans une forme évolutive.",
+    "B": "Faux. L’amputation n’est pas systématique.",
+    "C": "Vrai. La macrodactylie est un type IV de Swanson (hypercroissance).",
+    "D": "Vrai. L’épiphysiodèse est indiquée quand le doigt atteint la taille de l’adulte.",
+    "E": "Faux. La cotométrie est une autre forme d’hypercroissance.",
+    "_synthese": "Macrodactylie : hypercroissance, épiphysiodèse au bon moment."
+  },
+  "mos-228": {
+    "A": "Faux. Intermalléolaire : genu valgum.",
+    "B": "Vrai. Intercondylien.",
+    "C": "Faux. Pas obligatoire.",
+    "D": "Vrai. Réductible couché.",
+    "E": "Vrai. Physiologique avant 4 ans.",
+    "_synthese": "Genu varum : écart intercondylien, physiologique chez le petit enfant."
+  },
+  "mos-230": {
+    "A": "Vrai. Blount.",
+    "B": "Vrai. Rachitisme.",
+    "C": "Vrai. Maladies osseuses constitutionnelles.",
+    "D": "Faux. Pas lié.",
+    "E": "Faux. Pas lié.",
+    "_synthese": "Genu varum : Blount, rachitisme, maladies osseuses."
+  },
+  "mos-671": {
+    "A": "Vrai. Déviation médiale de l’avant-pied.",
+    "B": "Vrai. Contrainte intra-utérine.",
+    "C": "Faux. Pas associée.",
+    "D": "Vrai. Souple et régressif.",
+    "E": "Faux. Pas chirurgical d’emblée.",
+    "_synthese": "Métatarsus adductus : bénin, souple, régressif."
+  },
+  "mos-672": {
+    "A": "Vrai. Orthopédique.",
+    "B": "Vrai. Prise en charge précoce.",
+    "C": "Faux. Utiles.",
+    "D": "Faux. Pas toujours.",
+    "E": "Vrai. Compliance.",
+    "_synthese": "Pied bot : traitement orthopédique précoce, compliance."
   },
   "otr-622": {
     "A": "Faux. Le talus ne repose pas sur le sol.",
@@ -4693,6 +8703,14 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Le sous-développement est le type V.",
     "_synthese": "Classification de Swanson."
   },
+  "mos-686": {
+    "A": "Faux. Type IA : géographique.",
+    "B": "Vrai. IB : lacune à contours condensés.",
+    "C": "Vrai. IC : lacune à contours flous.",
+    "D": "Faux. Type III plus agressif.",
+    "E": "Vrai. Abcès de Brodie.",
+    "_synthese": "Lodwick : IA, IB, IC, II, III."
+  },
   "otr-645": {
     "A": "Faux. Le chondroblastome est bénin.",
     "B": "Vrai. Le fibrosarcome est malin.",
@@ -4788,6 +8806,14 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Chondrome.",
     "E": "Vrai. Chondroblastome.",
     "_synthese": "Tumeurs cartilagineuses bénignes : ostéochondrome, chondrome, chondroblastome."
+  },
+  "otr-658": {
+    "A": "Faux. Kyste anévrysmal.",
+    "B": "Faux. Chondroblastome.",
+    "C": "Vrai. Nidus : ostéome ostéoïde.",
+    "D": "Faux. Ostéome.",
+    "E": "Faux. Ostéochondrome.",
+    "_synthese": "Le nidus caractérise l’ostéome ostéoïde."
   },
   "otr-659": {
     "A": "Faux. Exostose et ostéoblastome : tumeurs différentes.",
@@ -5277,13 +9303,37 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Ostéoblastome bénin.",
     "_synthese": "Ostéoblastome bénin."
   },
-  "otr-725": {
-    "A": "Faux. Kyste anévrysmal.",
-    "B": "Faux. Chondroblastome.",
-    "C": "Vrai. Nidus : ostéome ostéoïde.",
-    "D": "Faux. Ostéome.",
-    "E": "Faux. Ostéochondrome.",
-    "_synthese": "Le nidus caractérise l’ostéome ostéoïde."
+  "mos-031": {
+    "A": "Vrai. Douleur à l’appui : boiterie d’esquive.",
+    "B": "Faux. Trendelenburg.",
+    "C": "Vrai. Déficit du moyen fessier : Trendelenburg.",
+    "D": "Vrai. Syndrome cérébelleux : marche ébrieuse.",
+    "E": "Vrai. Parkinson : marche à petits pas.",
+    "_synthese": "Troubles de la marche : esquive, Trendelenburg, ébrieuse, piétinante."
+  },
+  "mos-434": {
+    "A": "Faux. Oscillante : 40 %.",
+    "B": "Faux. Double appui existe.",
+    "C": "Vrai. Appui : 60 %.",
+    "D": "Faux. Réception : début de l’appui.",
+    "E": "Vrai. Décollage : fin de l’appui.",
+    "_synthese": "Marche : appui 60 %, oscillante 40 %."
+  },
+  "mos-441": {
+    "A": "Vrai. Traumatique.",
+    "B": "Vrai. Neurologique.",
+    "C": "Vrai. Douloureuse.",
+    "D": "Vrai. Psychogène.",
+    "E": "Vrai. Toutes.",
+    "_synthese": "Troubles de la marche : causes multiples."
+  },
+  "mos-662": {
+    "A": "Faux. Oscillante : 40 %.",
+    "B": "Faux. Double appui existe.",
+    "C": "Vrai. Appui : 60 %.",
+    "D": "Faux. Réception : début de l’appui.",
+    "E": "Vrai. Décollage : fin de l’appui.",
+    "_synthese": "Marche : appui 60 %, oscillante 40 %."
   },
   "otr-726": {
     "A": "Vrai. La marche parkinsonienne se fait à petits pas, traînants, le pied décollant à peine du sol.",
@@ -5356,6 +9406,150 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Des examens neurologiques et musculo-squelettiques normaux orientent vers une forme physiologique.",
     "E": "Faux. Une déviation de 10° se situe dans les limites physiologiques entre 3 et 6 ans.",
     "_synthese": "Genu valgum pathologique : trop précoce, asymétrique, associé à une maladie (rachitisme), déviation importante."
+  },
+  "mos-007": {
+    "A": "Faux. Douleur vive.",
+    "B": "Vrai. Douleur, œdème, rougeur.",
+    "C": "Faux. Pas minime.",
+    "D": "Faux. Pas déformation.",
+    "E": "Faux. Pas crépitation.",
+    "_synthese": "Infection de la main : douleur, œdème, rougeur."
+  },
+  "mos-014": {
+    "A": "Faux. Pas l’os.",
+    "B": "Faux. Pas le muscle.",
+    "C": "Vrai. Le doigt.",
+    "D": "Faux. Pas le tendon.",
+    "E": "Faux. Pas l’articulation.",
+    "_synthese": "Panaris : infection du doigt."
+  },
+  "mos-350": {
+    "A": "Faux. Immobilisation.",
+    "B": "Faux. Pas médical.",
+    "C": "Vrai. Chirurgie : incision, excision.",
+    "D": "Faux. Kinésithérapie.",
+    "E": "Faux. Traction.",
+    "_synthese": "Panaris : chirurgie au stade de collection."
+  },
+  "mos-437": {
+    "A": "Faux. Le musculo-cutané ne donne pas la sensibilité de la paume.",
+    "B": "Faux. L’orientation de la main n’est pas uniquement au poignet.",
+    "C": "Vrai. Les structures corticales sont en cause chez l’hémiplégique.",
+    "D": "Faux. Extension du poignet : fermeture de la main.",
+    "E": "Vrai. Orthèse anti-coup de vent ulnaire.",
+    "_synthese": "Préhension : cortex, orthèses de la main rhumatoïde."
+  },
+  "mos-484": {
+    "A": "Faux. Pas après confirmation radiologique.",
+    "B": "Faux. Pas après chirurgie.",
+    "C": "Vrai. Le plus tôt possible.",
+    "D": "Faux. Pas 6 semaines.",
+    "E": "Faux. Pas 3 mois.",
+    "_synthese": "Infection de la main : traitement précoce."
+  },
+  "mos-487": {
+    "A": "Vrai. Clinique.",
+    "B": "Faux. Radiologie.",
+    "C": "Faux. Biologie.",
+    "D": "Faux. Échographie.",
+    "E": "Faux. IRM.",
+    "_synthese": "Infection de la main : diagnostic clinique."
+  },
+  "mos-519": {
+    "A": "Faux. Le tendon extenseur n’est pas concerné.",
+    "B": "Vrai. Incision sans excision.",
+    "C": "Faux. La gaine n’est pas envahie dans une forme traînante.",
+    "D": "Vrai. Ostéite de la phalange distale.",
+    "E": "Vrai. Forme en bouton de chemise.",
+    "_synthese": "Panaris traînant : incision sans excision, ostéite, bouton de chemise."
+  },
+  "mos-566": {
+    "A": "Faux. La loge palmaire moyenne est atteinte secondairement.",
+    "B": "Faux. La loge thénarienne est atteinte dans d’autres circonstances.",
+    "C": "Vrai. Un panaris du pouce diffuse à la gaine radiale des fléchisseurs (phlegmon).",
+    "D": "Faux. La gaine cubitale est celle du cinquième doigt.",
+    "E": "Faux. La loge dorsale n’est pas la voie préférentielle.",
+    "_synthese": "Panaris du pouce : gaine radiale ; panaris du petit doigt : gaine cubitale ; communication possible en bourse radio-ulnaire."
+  },
+  "mos-591": {
+    "A": "Vrai. Face dorsale.",
+    "B": "Vrai. Molle et fluctuante.",
+    "C": "Vrai. Régression spontanée possible.",
+    "D": "Faux. Pas la ponction.",
+    "E": "Faux. La récidive est fréquente.",
+    "_synthese": "Kyste synovial du poignet : dorsal, mou, régression possible."
+  },
+  "mos-594": {
+    "A": "Vrai. Seddon donne le pronostic.",
+    "B": "Faux. La neuropraxie est réversible.",
+    "C": "Faux. Pas toujours traumatique.",
+    "D": "Faux. Pas spasticité.",
+    "E": "Vrai. Hypotonie.",
+    "_synthese": "Lésions nerveuses périphériques : Seddon, hypotonie, amyotrophie."
+  },
+  "mos-595": {
+    "A": "Vrai. Incision sans excision.",
+    "B": "Vrai. Bouton de chemise.",
+    "C": "Vrai. Ostéite.",
+    "D": "Faux. Pas la gaine.",
+    "E": "Faux. Pas le tendon.",
+    "_synthese": "Panaris traînant : incision sans excision, ostéite, bouton de chemise."
+  },
+  "mos-597": {
+    "A": "Faux. Pas favorable.",
+    "B": "Faux. Pas rapide.",
+    "C": "Vrai. Extension et perte de fonction.",
+    "D": "Faux. Pas pseudarthrose.",
+    "E": "Faux. Pas cal.",
+    "_synthese": "Infection de la main non traitée : extension et perte de fonction."
+  },
+  "mos-599": {
+    "A": "Vrai. Compression.",
+    "B": "Vrai. Traction.",
+    "C": "Vrai. Section.",
+    "D": "Vrai. Toutes.",
+    "E": "Faux. Existent.",
+    "_synthese": "Lésions nerveuses : compression, traction, section."
+  },
+  "mos-600": {
+    "A": "Faux. Loges.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Vrai. Raideur.",
+    "D": "Faux. Algodystrophie.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Infection de la main : raideur."
+  },
+  "mos-601": {
+    "A": "Faux. Pas vitale.",
+    "B": "Vrai. Urgence fonctionnelle.",
+    "C": "Faux. Pas vasculaire.",
+    "D": "Faux. Pas esthétique.",
+    "E": "Faux. Pas neurologique.",
+    "_synthese": "Phlegmon des gaines : urgence fonctionnelle."
+  },
+  "mos-603": {
+    "A": "Faux selon le livre.",
+    "B": "Vrai. Section : suture ou greffe.",
+    "C": "Faux selon le livre.",
+    "D": "Faux. Pas minime.",
+    "E": "Faux. Pas modérée.",
+    "_synthese": "Lésion nerveuse : chirurgie en cas de section."
+  },
+  "mos-642": {
+    "A": "Faux. Panaris.",
+    "B": "Vrai. Phlegmon des gaines.",
+    "C": "Faux. Arthrite.",
+    "D": "Faux. Ostéomyélite.",
+    "E": "Faux. Lymphangite.",
+    "_synthese": "Phlegmon des gaines : doigt en crochet."
+  },
+  "mos-646": {
+    "A": "Faux. Panaris.",
+    "B": "Faux. Phlegmon.",
+    "C": "Faux. Ténosynovite.",
+    "D": "Faux. Arthrite.",
+    "E": "Vrai. La tétanie de la main est un signe d’hypocalcémie, aucune de ces infections.",
+    "_synthese": "Tétanie : hypocalcémie."
   },
   "otr-738": {
     "A": "Vrai. La préhension est un acte cortical qui met en jeu le cortex moteur et sensitif.",
@@ -5437,6 +9631,142 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Vrai. Rechercher une lésion du nerf collatéral.",
     "_synthese": "Plaie des fléchisseurs : suture, mobilisation protégée, nerf collatéral."
   },
+  "mos-451": {
+    "A": "Faux. Une seule discipline ne suffit pas.",
+    "B": "Vrai. La prise en charge est multidisciplinaire (médecin MPR, kinésithérapeute, ergothérapeute, orthophoniste, psychologue, assistant social).",
+    "C": "Faux. Elle n’est pas simple.",
+    "D": "Faux. Complexe n’est pas le qualificatif retenu.",
+    "E": "Faux. Elle n’est pas nulle.",
+    "_synthese": "Handicap : prise en charge multidisciplinaire coordonnée par le médecin MPR."
+  },
+  "mos-480": {
+    "A": "Vrai. Le handicap est la limitation de la capacité à réaliser une activité (CIF).",
+    "B": "Faux. L’anatomie est atteinte par la déficience.",
+    "C": "Faux. La fonction : déficience.",
+    "D": "Faux. La force : déficience.",
+    "E": "Faux. La mobilité : déficience.",
+    "_synthese": "CIF : déficience (organe), limitation d’activité, restriction de participation."
+  },
+  "mos-481": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal vicieux.",
+    "D": "Vrai. Dépendance et perte d’autonomie.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Handicap : dépendance et perte d’autonomie."
+  },
+  "mos-532": {
+    "A": "Faux. Étiologie reconnue.",
+    "B": "Faux. Étiologie reconnue.",
+    "C": "Faux. Étiologie reconnue.",
+    "D": "Faux. Étiologie reconnue.",
+    "E": "Vrai (à cocher). Un syndrome grippal ne cause pas de handicap.",
+    "_synthese": "Étiologies du handicap : lésions cérébrales, médullaires, rhumatismes, plexus."
+  },
+  "mos-533": {
+    "A": "Vrai. Environ 80 % des handicaps sont invisibles.",
+    "B": "Vrai. Pays en voie de développement : infections et pathologies infantiles.",
+    "C": "Vrai. Pays développés : vieillissement et pathologies cardio-neuro-vasculaires.",
+    "D": "Faux. C’est l’inverse.",
+    "E": "Faux. C’est l’inverse.",
+    "_synthese": "Handicap : causes différentes selon le niveau de développement."
+  },
+  "mos-534": {
+    "A": "Faux. La paraplégie associe perte motrice et sensitive.",
+    "B": "Vrai. Perte de la motricité volontaire et de la sensibilité sous la lésion.",
+    "C": "Faux. Les troubles sphinctériens sont fréquents.",
+    "D": "Faux. Elle ne guérit pas en quelques jours.",
+    "E": "Faux. Pas toujours traumatique.",
+    "_synthese": "Paraplégie : perte motrice et sensitive sous la lésion, troubles sphinctériens."
+  },
+  "mos-535": {
+    "A": "Faux. Établir le pronostic de récupération relève du médecin MPR.",
+    "B": "Vrai. Tout acte de rééducation se fait avec le médecin MPR prescripteur.",
+    "C": "Faux. La masso-kinésithérapie se fait sur prescription.",
+    "D": "Vrai. Les ergothérapeutes réalisent le petit appareillage.",
+    "E": "Vrai. L’orthophoniste prend en charge la déglutition.",
+    "_synthese": "MPR : équipe pluridisciplinaire, prescription médicale, ergothérapeute et orthophoniste."
+  },
+  "mos-536": {
+    "A": "Faux. Une paraplégique D12 est indépendante pour la vie quotidienne.",
+    "B": "Faux. La marche n’est pas possible dans une paraplégie complète D12.",
+    "C": "Vrai. Le contrôle vésico-sphinctérien est impossible (ASIA A).",
+    "D": "Vrai. Le 4e étage sans ascenseur est un facteur environnemental limitant.",
+    "E": "Faux. Un travail de femme de ménage n’est pas repris en l’état.",
+    "_synthese": "Paraplégie D12 ASIA A : autonomie en fauteuil, vessie neurologique, adaptation du logement."
+  },
+  "mos-541": {
+    "A": "Faux. Pas seulement la mobilité.",
+    "B": "Vrai. Rétablir la fonction.",
+    "C": "Faux. Pas la force.",
+    "D": "Faux. Pas l’anatomie.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Appareillage : fonction."
+  },
+  "mos-543": {
+    "A": "Faux. Pas seulement la mobilité.",
+    "B": "Vrai. Fonction et autonomie.",
+    "C": "Faux. Pas la force.",
+    "D": "Faux. Pas l’anatomie.",
+    "E": "Faux. Pas la dépendance.",
+    "_synthese": "Appareillage : fonction et autonomie."
+  },
+  "mos-544": {
+    "A": "Faux. Marcher : kinésithérapie.",
+    "B": "Vrai. Parler.",
+    "C": "Faux. Écrire.",
+    "D": "Faux. Lire.",
+    "E": "Faux. Se nourrir.",
+    "_synthese": "Orthophonie : langage, déglutition."
+  },
+  "mos-546": {
+    "A": "Faux. Mobilité.",
+    "B": "Faux. Force.",
+    "C": "Vrai. Autonomie.",
+    "D": "Faux. Anatomie.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Réadaptation : autonomie."
+  },
+  "mos-548": {
+    "A": "Faux. Supérieurs.",
+    "B": "Vrai. Inférieurs.",
+    "C": "Faux. Tronc.",
+    "D": "Faux. Cou.",
+    "E": "Faux. Deux.",
+    "_synthese": "Fauteuil roulant : membres inférieurs."
+  },
+  "mos-549": {
+    "A": "Faux. Pas diagnostic.",
+    "B": "Faux. Pas traitement.",
+    "C": "Vrai. Rééducation.",
+    "D": "Faux. Pas chirurgie.",
+    "E": "Faux. Pas médical.",
+    "_synthese": "MPR : rééducation et réadaptation."
+  },
+  "mos-552": {
+    "A": "Faux. Mobilité.",
+    "B": "Vrai. Fonction et autonomie.",
+    "C": "Faux. Force.",
+    "D": "Faux. Anatomie.",
+    "E": "Faux. Tronc.",
+    "_synthese": "Réadaptation : fonction et autonomie."
+  },
+  "mos-555": {
+    "A": "Faux. Se déplacer.",
+    "B": "Vrai. Se nourrir et s’habiller.",
+    "C": "Faux. Se laver.",
+    "D": "Faux. Se lever.",
+    "E": "Faux. Se coucher.",
+    "_synthese": "Ergothérapie : activités de la vie quotidienne."
+  },
+  "mos-556": {
+    "A": "Faux. Anatomie.",
+    "B": "Vrai. Fonction et autonomie.",
+    "C": "Faux. Force.",
+    "D": "Faux. Mobilité.",
+    "E": "Faux. Pas toutes.",
+    "_synthese": "MPR : fonction et autonomie."
+  },
   "otr-751": {
     "A": "Faux. Reprise d’activité professionnelle : participation.",
     "B": "Vrai. Paralysie des membres inférieurs : déficience.",
@@ -5484,6 +9814,62 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Notion sociale.",
     "E": "Vrai (à cocher). Le handicap n’est pas qu’une notion médicale.",
     "_synthese": "Handicap : notion sociale."
+  },
+  "mos-433": {
+    "A": "Vrai. Fonctionnement physique et cognitif.",
+    "B": "Faux. Elle traite le patient, non l’organe.",
+    "C": "Vrai. Objectif : la fonction.",
+    "D": "Vrai. Pas déterminée par un organe.",
+    "E": "Faux. Pas seulement les adultes.",
+    "_synthese": "MPR : spécialité de la fonction."
+  },
+  "mos-435": {
+    "A": "Vrai. Paralysie puis amyotrophie.",
+    "B": "Vrai. Douleurs par rétraction.",
+    "C": "Vrai. Troubles de croissance.",
+    "D": "Vrai. Aggravation par la croissance.",
+    "E": "Vrai. Retentissement fonctionnel.",
+    "_synthese": "Poliomyélite : paralysie, rétractions, troubles de croissance."
+  },
+  "mos-446": {
+    "A": "Faux. Neuropraxie.",
+    "B": "Faux. Neurotmésis.",
+    "C": "Faux. Récupération possible.",
+    "D": "Vrai. Sunderland 2, 3 et 4.",
+    "E": "Vrai. Gaines conjonctives intactes.",
+    "_synthese": "Axonotmésis : axone rompu, gaines conservées."
+  },
+  "mos-462": {
+    "A": "Faux. Pas seulement passive.",
+    "B": "Faux. Pas seulement active.",
+    "C": "Vrai. Passive et active.",
+    "D": "Faux. Pas seulement intense.",
+    "E": "Faux. Pas seulement progressive.",
+    "_synthese": "Rééducation : passive et active."
+  },
+  "mos-492": {
+    "A": "Faux. Fractures : radiographie.",
+    "B": "Vrai. Ligaments et disques.",
+    "C": "Faux. Articulations.",
+    "D": "Faux. Vaisseaux.",
+    "E": "Faux. Muscles.",
+    "_synthese": "IRM : ligaments, disques."
+  },
+  "mos-493": {
+    "A": "Faux. Pas immédiat.",
+    "B": "Vrai. Le plus tôt possible.",
+    "C": "Faux. Pas 6 semaines.",
+    "D": "Faux. Pas 3 mois.",
+    "E": "Faux. Pas jamais.",
+    "_synthese": "Rééducation précoce."
+  },
+  "mos-495": {
+    "A": "Faux. Pas immédiat.",
+    "B": "Faux. Pas 3 semaines.",
+    "C": "Faux. Pas 6 semaines.",
+    "D": "Vrai. Le plus tôt possible.",
+    "E": "Faux. Pas jamais.",
+    "_synthese": "Rééducation précoce."
   },
   "otr-757": {
     "A": "Faux. Gain d’amplitude.",
@@ -5668,6 +10054,206 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Ordonnance.",
     "E": "Vrai. Évaluation.",
     "_synthese": "Prescription de rééducation."
+  },
+  "mos-052": {
+    "A": "Vrai. Changement de position : prévention.",
+    "B": "Vrai. Régime hypercalorique hyperprotidique.",
+    "C": "Faux (à cocher). L’acidification des urines concerne les infections urinaires.",
+    "D": "Faux (à cocher). L’anticoagulation préventive concerne la thrombose.",
+    "E": "Vrai. Hygiène.",
+    "_synthese": "Prévention des escarres : changements de position, nutrition, hygiène."
+  },
+  "mos-053": {
+    "A": "Faux. Occiput : décubitus dorsal.",
+    "B": "Vrai. Épines iliaques antéro-supérieures.",
+    "C": "Vrai. Front.",
+    "D": "Faux. Sacrum et talons : décubitus dorsal.",
+    "E": "Vrai. Tubérosités tibiales antérieures.",
+    "_synthese": "Décubitus ventral : face antérieure."
+  },
+  "mos-054": {
+    "A": "Vrai. Aérosol.",
+    "B": "Vrai. Retournements, clapping.",
+    "C": "Vrai. Drainage postural.",
+    "D": "Vrai. Mobilité de la cage thoracique.",
+    "E": "Faux. L’intubation n’est pas de la kinésithérapie.",
+    "_synthese": "Kinésithérapie respiratoire : aérosols, drainage, mobilité thoracique."
+  },
+  "mos-057": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Faux selon le livre.",
+    "C": "Vrai. Tardive.",
+    "D": "Faux. Pas infectieuse.",
+    "E": "Faux. Pas lié à la réduction.",
+    "_synthese": "Raideur : complication tardive."
+  },
+  "mos-438": {
+    "A": "Vrai. Matelas.",
+    "B": "Vrai. Changements de position.",
+    "C": "Vrai. Points d’appui.",
+    "D": "Vrai. Macération.",
+    "E": "Vrai. Toutes.",
+    "_synthese": "Prévention des escarres : support, position, surveillance, macération."
+  },
+  "mos-442": {
+    "A": "Vrai. Ischémie.",
+    "B": "Vrai. Pression prolongée sur un relief osseux.",
+    "C": "Faux. Quelques heures suffisent.",
+    "D": "Faux. Pas toutes.",
+    "E": "Faux. Pas toutes fausses.",
+    "_synthese": "Escarre : ischémie par pression prolongée."
+  },
+  "mos-443": {
+    "A": "Vrai. Verticalisation précoce.",
+    "B": "Vrai. Contention veineuse.",
+    "C": "Faux. Massages contre-indiqués.",
+    "D": "Vrai. Mobilisation.",
+    "E": "Faux. AINS.",
+    "_synthese": "Prévention des TVP : verticalisation, contention, mobilisation."
+  },
+  "mos-445": {
+    "A": "Vrai. Parmi les plus précoces.",
+    "B": "Vrai. Phénomènes intrinsèques et extrinsèques.",
+    "C": "Faux (à cocher). L’érythème persistant est le stade 1, non le stade 3.",
+    "D": "Vrai. Infection possible.",
+    "E": "Faux (à cocher). En décubitus dorsal, le siège électif est le sacrum.",
+    "_synthese": "Escarres : stade 1 érythème ; siège en décubitus dorsal : sacrum, talons."
+  },
+  "mos-449": {
+    "A": "Vrai. Compression.",
+    "B": "Vrai. Prévention.",
+    "C": "Faux (à cocher). Il y a quatre stades.",
+    "D": "Vrai. Zones d’appui.",
+    "E": "Faux (à cocher). Les stades avancés ne sont pas toujours réversibles.",
+    "_synthese": "Escarres : quatre stades, zones d’appui, prévention."
+  },
+  "mos-450": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal.",
+    "D": "Vrai. Décubitus.",
+    "E": "Faux. Nerveuse : déjà présente.",
+    "_synthese": "Para : complications de décubitus."
+  },
+  "mos-453": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Vrai. Embolie pulmonaire.",
+    "D": "Faux. Cal vicieux.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "TVP : embolie pulmonaire."
+  },
+  "mos-457": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Vrai. Décubitus.",
+    "D": "Faux. Cal.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Immobilisation prolongée : décubitus."
+  },
+  "mos-466": {
+    "A": "Faux. Massages contre-indiqués.",
+    "B": "Vrai. Contention et héparine.",
+    "C": "Faux. AINS.",
+    "D": "Faux. Antibiotiques.",
+    "E": "Faux. Corticoïdes.",
+    "_synthese": "Prévention TVP : contention, héparine."
+  },
+  "mos-469": {
+    "A": "Faux. Muscle.",
+    "B": "Faux. Nerf.",
+    "C": "Vrai. Os et articulation.",
+    "D": "Faux. Tendon.",
+    "E": "Faux. Ligament.",
+    "_synthese": "PAON : os et articulation."
+  },
+  "mos-472": {
+    "A": "Faux. Pas immédiate.",
+    "B": "Vrai. Précoce.",
+    "C": "Faux. Pas tardive.",
+    "D": "Faux. Pas infectieuse.",
+    "E": "Faux. Pas neurologique.",
+    "_synthese": "Embolie pulmonaire : précoce."
+  },
+  "mos-473": {
+    "A": "Faux. Artères.",
+    "B": "Vrai. Veines.",
+    "C": "Faux. Nerfs.",
+    "D": "Faux. Muscles.",
+    "E": "Faux. Os.",
+    "_synthese": "TVP : veines."
+  },
+  "mos-475": {
+    "A": "Faux. Adultes.",
+    "B": "Faux. Enfants.",
+    "C": "Vrai. Âgés.",
+    "D": "Faux. Adolescents.",
+    "E": "Faux. Nourrissons.",
+    "_synthese": "Décubitus : sujet âgé."
+  },
+  "mos-482": {
+    "A": "Faux. Traumatisme.",
+    "B": "Faux. Infection.",
+    "C": "Vrai. Immobilisation prolongée.",
+    "D": "Faux. Chirurgie.",
+    "E": "Faux. Auto-immune.",
+    "_synthese": "Décubitus : immobilisation prolongée."
+  },
+  "mos-494": {
+    "A": "Faux. Massages.",
+    "B": "Vrai. Changements de position.",
+    "C": "Faux. AINS.",
+    "D": "Faux. Antibiotiques.",
+    "E": "Faux. Corticoïdes.",
+    "_synthese": "Prévention des escarres : changements de position."
+  },
+  "mos-498": {
+    "A": "Faux. Intestin.",
+    "B": "Vrai. Vessie.",
+    "C": "Faux. Rein.",
+    "D": "Faux. Uretère.",
+    "E": "Faux. Urètre.",
+    "_synthese": "Vessie neurologique : vessie."
+  },
+  "mos-499": {
+    "A": "Faux. Chirurgie.",
+    "B": "Vrai. Anticoagulants.",
+    "C": "Faux. Immobilisation.",
+    "D": "Faux. Traction.",
+    "E": "Faux. Kinésithérapie.",
+    "_synthese": "TVP : anticoagulants."
+  },
+  "mos-503": {
+    "A": "Faux. Cœur.",
+    "B": "Faux. Foie.",
+    "C": "Vrai. Poumons.",
+    "D": "Faux. Reins.",
+    "E": "Faux. Cerveau.",
+    "_synthese": "Pneumopathie : poumons."
+  },
+  "mos-504": {
+    "A": "Vrai. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal vicieux.",
+    "D": "Faux. Nerveuse.",
+    "E": "Faux. Raideur.",
+    "_synthese": "Escarre : infection."
+  },
+  "mos-540": {
+    "A": "Vrai. Escarres de la paraplégie.",
+    "B": "Faux. Arthrose.",
+    "C": "Faux. PR.",
+    "D": "Faux. Spondylarthrite.",
+    "E": "Faux. Goutte.",
+    "_synthese": "Escarres : paraplégie, tétraplégie."
+  },
+  "mos-542": {
+    "A": "Faux. Pas le muscle.",
+    "B": "Faux. Pas le nerf.",
+    "C": "Vrai. La peau.",
+    "D": "Faux. Pas l’os.",
+    "E": "Faux. Pas le tendon.",
+    "_synthese": "Escarre : lésion cutanée."
   },
   "otr-782": {
     "A": "Faux. Toutes les 2 à 3 heures.",
@@ -5949,6 +10535,150 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Stade 4.",
     "_synthese": "Classification des escarres."
   },
+  "mos-055": {
+    "A": "Faux. Les sensations fantômes sont très fréquentes.",
+    "B": "Faux. Les névromes douloureux sont fréquents.",
+    "C": "Faux. L’hématome du moignon est fréquent.",
+    "D": "Faux. La déhiscence de la plaie est fréquente.",
+    "E": "Vrai (à cocher). Les phlyctènes ne sont pas une complication fréquente de l’amputation.",
+    "_synthese": "Complications de l’amputation : membre fantôme, névromes, hématome, désunion de cicatrice."
+  },
+  "mos-452": {
+    "A": "Vrai. Le membre fantôme concerne le membre amputé.",
+    "B": "Faux. Pas le membre sain.",
+    "C": "Faux. Pas les deux.",
+    "D": "Faux. Il existe.",
+    "E": "Faux. Il est fréquent.",
+    "_synthese": "Membre fantôme : sensation du membre amputé."
+  },
+  "mos-459": {
+    "A": "Vrai. Prothèse.",
+    "B": "Faux. Orthèse.",
+    "C": "Faux. Attelle.",
+    "D": "Faux. Corset.",
+    "E": "Faux. Canne.",
+    "_synthese": "Amputé : prothèse."
+  },
+  "mos-460": {
+    "A": "Faux. Immédiate.",
+    "B": "Vrai. Le plus tôt possible.",
+    "C": "Faux. Pas 6 semaines.",
+    "D": "Faux. Pas 3 mois.",
+    "E": "Faux. Pas jamais.",
+    "_synthese": "Rééducation de l’amputé : précoce."
+  },
+  "mos-468": {
+    "A": "Vrai. Ablation d’un membre.",
+    "B": "Faux. Réduction : fracture.",
+    "C": "Faux. Nerf : suture.",
+    "D": "Faux. Artère : pontage.",
+    "E": "Faux. Os : ostéosynthèse.",
+    "_synthese": "Amputation : ablation d’un segment de membre."
+  },
+  "mos-470": {
+    "A": "Faux. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal.",
+    "D": "Vrai. Problèmes cutanés.",
+    "E": "Faux. Nerveuse.",
+    "_synthese": "Appareillage : problèmes cutanés."
+  },
+  "mos-474": {
+    "A": "Faux. L’amputation ne sauve pas le membre.",
+    "B": "Faux selon le livre.",
+    "C": "Vrai. Préparer un moignon appareillable.",
+    "D": "Faux. Pas le but principal.",
+    "E": "Faux. Pas le but principal.",
+    "_synthese": "Amputation : moignon appareillable."
+  },
+  "mos-479": {
+    "A": "Vrai. MPR.",
+    "B": "Faux. Neurologie.",
+    "C": "Faux. Rhumatologie.",
+    "D": "Faux. Cardiologie.",
+    "E": "Faux. Chirurgie.",
+    "_synthese": "Rééducation de l’amputé : MPR."
+  },
+  "mos-486": {
+    "A": "Vrai. L’âge.",
+    "B": "Vrai. Le niveau d’amputation.",
+    "C": "Vrai. Les besoins.",
+    "D": "Vrai. Le mode de vie.",
+    "E": "Vrai. Toutes ces réponses sont justes.",
+    "_synthese": "Appareillage : âge, niveau, besoins, mode de vie."
+  },
+  "mos-489": {
+    "A": "Faux. Pas toujours chirurgical.",
+    "B": "Vrai. Traitement médical : antalgiques, anti-neuropathiques.",
+    "C": "Faux. Pas d’immobilisation.",
+    "D": "Faux. Pas de traction.",
+    "E": "Faux. Appoint.",
+    "_synthese": "Membre fantôme douloureux : traitement médical, miroir."
+  },
+  "mos-491": {
+    "A": "Vrai. Infection.",
+    "B": "Faux. Pseudarthrose.",
+    "C": "Faux. Cal vicieux.",
+    "D": "Faux. Algodystrophie.",
+    "E": "Faux. Raideur.",
+    "_synthese": "Amputation : infection."
+  },
+  "mos-496": {
+    "A": "Faux. Pas esthétique.",
+    "B": "Faux selon le livre.",
+    "C": "Vrai. Intervention de sauvetage.",
+    "D": "Faux. Pas toujours urgente.",
+    "E": "Faux. Pas nulle.",
+    "_synthese": "Amputation : acte de sauvetage."
+  },
+  "mos-537": {
+    "A": "Vrai. Définition de l’orthèse.",
+    "B": "Faux. C’est la prothèse qui remplace un segment manquant.",
+    "C": "Vrai. Le corset Lyonnais est un corset sur mesure.",
+    "D": "Vrai. Grand appareillage sur ordonnance spécialisée.",
+    "E": "Faux. Les pieds prothétiques diffèrent.",
+    "_synthese": "Orthèse : dispositif externe ; prothèse : remplace un segment."
+  },
+  "mos-538": {
+    "A": "Vrai. Origine vasculaire majoritaire.",
+    "B": "Vrai. Les amputations majeures ne conservent pas l’appui distal.",
+    "C": "Faux. Le niveau idéal tibial est au tiers moyen-supérieur.",
+    "D": "Vrai. Myoplastie et myodèse.",
+    "E": "Vrai. Prothèse transfémorale : emboîture, manchon, pièce de liaison, pied.",
+    "_synthese": "Amputations du membre inférieur : cause vasculaire, myoplastie, appareillage."
+  },
+  "mos-539": {
+    "A": "Faux. Traumatisme : moins fréquent.",
+    "B": "Faux. Infection.",
+    "C": "Vrai. Artériopathie diabétique.",
+    "D": "Faux. Tumeur.",
+    "E": "Faux. Neurologique.",
+    "_synthese": "Amputation : cause vasculaire (diabète)."
+  },
+  "mos-545": {
+    "A": "Faux. Pas une fracture.",
+    "B": "Vrai. Amputation.",
+    "C": "Faux. Pas une luxation.",
+    "D": "Faux. Pas une entorse.",
+    "E": "Faux. Pas une infection.",
+    "_synthese": "Moignon : après amputation."
+  },
+  "mos-551": {
+    "A": "Faux. Kinésithérapeute.",
+    "B": "Faux. Ergothérapeute.",
+    "C": "Vrai. Orthoprothésiste.",
+    "D": "Faux. Chirurgien.",
+    "E": "Faux. Médecin.",
+    "_synthese": "Appareillage : orthoprothésiste."
+  },
+  "mos-562": {
+    "A": "Vrai. Ostéomyoplastie.",
+    "B": "Vrai. Membre supérieur : environ 10 à 15 %.",
+    "C": "Faux. Inférieurs plus fréquentes.",
+    "D": "Faux. Les causes vasculaires touchent surtout les sujets âgés.",
+    "E": "Vrai. Tumeurs osseuses et des parties molles.",
+    "_synthese": "Amputations : membre inférieur majoritaire, cause vasculaire chez l’âgé."
+  },
   "otr-821": {
     "A": "Vrai. Un moignon cylindro-conique, bien étoffé, s’adapte à l’emboîture de la prothèse et supporte les pressions.",
     "B": "Faux. Une cicatrice antérieure se trouve dans une zone d’appui : elle serait comprimée par l’emboîture, donc fragilisée.",
@@ -6093,6 +10823,14 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Un moignon sans douleur est favorable.",
     "_synthese": "Bon moignon : cylindro-conique, équilibré, indolore, bien étoffé, cicatrice postéro-médiane."
   },
+  "mos-440": {
+    "A": "Faux. Pas de renforcement contre résistance en poussée.",
+    "B": "Faux. Pas de chaud en poussée.",
+    "C": "Faux. Pas de mobilisation forcée en poussée.",
+    "D": "Faux. L’orthèse n’est pas pharmacologique.",
+    "E": "Vrai. Orthèses de repos antalgiques et préventives.",
+    "_synthese": "Rééducation rhumatologique : repos en poussée, orthèses de repos."
+  },
   "otr-842": {
     "A": "Faux. Des mobilisations faites par le kinésithérapeute relèvent de la kinésithérapie passive.",
     "B": "Faux. L’action sur les tissus de soutien (capsule, ligaments) relève de la kinésithérapie passive.",
@@ -6204,6 +10942,38 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Les orthèses sont utiles même en dehors des poussées.",
     "E": "Vrai. La chirurgie prothétique concerne surtout le genou et la hanche.",
     "_synthese": "PR : méthotrexate en première intention, rééducation douce en poussée, prothèses de genou et de hanche."
+  },
+  "mos-439": {
+    "A": "Vrai. Complications du décubitus et de la douleur.",
+    "B": "Vrai. Indépendance.",
+    "C": "Vrai. Attitudes vicieuses.",
+    "D": "Faux. Force maximale : plus tard.",
+    "E": "Faux. Pas toutes.",
+    "_synthese": "Phase aiguë : prévention des complications."
+  },
+  "mos-690": {
+    "A": "Vrai. Rééducation : douleur et amplitudes.",
+    "B": "Faux. La consolidation est biologique.",
+    "C": "Vrai. Équilibre et coordination.",
+    "D": "Faux. La réduction est un acte médical.",
+    "E": "Vrai. Force musculaire.",
+    "_synthese": "Rééducation en traumatologie : douleur, amplitudes, équilibre, force."
+  },
+  "mos-691": {
+    "A": "Vrai. Masso-kinésithérapie.",
+    "B": "Vrai. Physiothérapie.",
+    "C": "Vrai. Ergothérapie.",
+    "D": "Faux. L’ostéomyoplastie est chirurgicale.",
+    "E": "Faux. L’immobilisation n’est pas une technique de rééducation.",
+    "_synthese": "Techniques de base : kinésithérapie, physiothérapie, ergothérapie."
+  },
+  "mos-692": {
+    "A": "Vrai. Prévenir les complications du décubitus et de la douleur.",
+    "B": "Vrai. Favoriser l’indépendance fonctionnelle.",
+    "C": "Vrai. Prévenir attitudes vicieuses, enraidissement et fonte musculaire.",
+    "D": "Faux. Force maximale : objectif de la phase de réentraînement.",
+    "E": "Faux. Toutes les réponses ne sont pas justes.",
+    "_synthese": "Phase aiguë : prévention des complications, indépendance, attitudes vicieuses."
   },
   "otr-858": {
     "A": "Vrai. Le massage libère les adhérences cicatricielles.",
