@@ -5153,27 +5153,12 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Pas d’attelles de Petit.",
     "_synthese": "Hanche luxable avant 4 mois : harnais de Pavlik."
   },
-  "mos-063": {
-    "A": "Faux. IRM.",
-    "B": "Faux. Échographie.",
-    "C": "Vrai. Radiographie de face et de profil.",
-    "D": "Faux. Scintigraphie.",
-    "E": "Faux. Scanner complémentaire.",
-    "_synthese": "Humérus proximal : radiographie."
-  },
   "mos-109": {
     "A": "Faux. L’artère axillaire est lésée dans les fractures du col.",
     "B": "Faux. La pseudarthrose est possible mais non spécifique.",
     "C": "Faux. Le cal vicieux est possible mais non spécifique.",
     "D": "Vrai. Le nerf radial, collé à l’os dans la gouttière de torsion, est exposé.",
     "_synthese": "Diaphyse humérale : complication spécifique = paralysie du nerf radial."
-  },
-  "mos-110": {
-    "A": "Faux. Le plexus est rarement atteint.",
-    "B": "Vrai. Le nerf circonflexe est le plus souvent lésé dans les fractures du col.",
-    "C": "Faux. Le nerf radial est lésé dans la diaphyse.",
-    "D": "Faux. Le nerf ulnaire est à distance.",
-    "_synthese": "Extrémité supérieure de l’humérus : lésion du nerf axillaire (circonflexe)."
   },
   "mos-111": {
     "A": "Vrai. L’ouverture cutanée est possible.",
@@ -5182,174 +5167,6 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. La pseudarthrose est une complication connue.",
     "E": "Vrai. La raideur du coude survient après immobilisation.",
     "_synthese": "Diaphyse humérale : ouverture cutanée, paralysie radiale, pseudarthrose, raideur du coude."
-  },
-  "mos-112": {
-    "A": "Faux. Ce sont des fractures du sujet âgé, pas du sujet jeune.",
-    "B": "Faux. Elles sont rares chez l’enfant.",
-    "C": "Vrai. La femme ménopausée ostéoporotique chute sur la main ou le moignon.",
-    "D": "Faux. Les sportifs sont peu touchés.",
-    "E": "Faux selon le livre.",
-    "_synthese": "Fractures de l’humérus proximal : femme ménopausée ostéoporotique."
-  },
-  "mos-113": {
-    "A": "Faux selon le livre : le signe est attribué à l’extrémité supérieure de l’humérus.",
-    "B": "Faux. L’hématome de la diaphyse est brachial.",
-    "C": "Vrai. L’hématome de Hennequin descend sur la face interne du bras et le thorax.",
-    "D": "Faux. La luxation ne donne pas d’hématome.",
-    "E": "Faux. La clavicule est à distance.",
-    "_synthese": "Hématome de Hennequin : fracture de l’extrémité supérieure de l’humérus."
-  },
-  "mos-137": {
-    "A": "Faux. Une immobilisation simple convient aux fractures non déplacées.",
-    "B": "Vrai. L’arthroplastie (prothèse inversée) est indiquée dans les fractures déplacées à plusieurs fragments du sujet âgé.",
-    "C": "Faux. La traction continue n’a plus de place à l’épaule.",
-    "D": "Faux. Le plâtre n’est pas utilisé à l’épaule.",
-    "E": "Vrai. La plaque verrouillée est une option si l’os est de qualité suffisante.",
-    "_synthese": "Fracture déplacée de l’humérus proximal du sujet âgé : prothèse d’épaule ou ostéosynthèse par plaque selon la qualité osseuse."
-  },
-  "mos-181": {
-    "A": "Vrai. La fracture de l’épitrochlée accompagne souvent une luxation du coude.",
-    "B": "Faux. Une fracture du radius n’est pas associée.",
-    "C": "Faux. Une fracture de l’ulna non plus.",
-    "D": "Faux. L’humérus est déjà concerné.",
-    "E": "Faux. La clavicule n’est pas concernée.",
-    "_synthese": "Épitrochlée : luxation du coude associée."
-  },
-  "mos-185": {
-    "A": "Faux. Aucun risque vital.",
-    "B": "Vrai. L’artère humérale peut être comprimée : urgence vasculaire, risque de Volkmann.",
-    "C": "Faux. L’urgence n’est pas seulement fonctionnelle.",
-    "D": "Faux. Ce n’est pas esthétique.",
-    "E": "Faux. Le nerf peut être touché mais l’urgence est vasculaire.",
-    "_synthese": "Supracondylienne de l’enfant : surveillance du pouls radial."
-  },
-  "mos-186": {
-    "A": "Faux. Le nerf radial est à distance.",
-    "B": "Vrai. Le nerf ulnaire passe derrière l’épitrochlée.",
-    "C": "Faux. Le nerf médian est en avant.",
-    "D": "Faux. Le nerf axillaire est à l’épaule.",
-    "E": "Faux. Le nerf musculo-cutané est à distance.",
-    "_synthese": "Épitrochlée : nerf ulnaire exposé."
-  },
-  "mos-231": {
-    "A": "Faux. La palette est une zone articulaire.",
-    "B": "Vrai. Les fractures de la palette adulte sont souvent articulaires.",
-    "C": "Faux. Elles sont instables.",
-    "D": "Faux selon le livre.",
-    "E": "Faux. Elles ne sont pas spécifiques de la femme âgée.",
-    "_synthese": "Palette humérale : fractures souvent articulaires, chirurgie."
-  },
-  "mos-236": {
-    "A": "Faux. Une TVP n’est pas la complication redoutée.",
-    "B": "Faux. La rupture de l’artère radiale n’est pas la complication.",
-    "C": "Vrai. Le syndrome de Volkmann est la complication vasculaire redoutée.",
-    "D": "Faux. Une AOMI n’est pas liée à la fracture.",
-    "E": "Faux. L’hémorragie n’est pas la complication redoutée.",
-    "_synthese": "Supracondylienne : Volkmann si ischémie non traitée."
-  },
-  "mos-249": {
-    "A": "Vrai. Chute sur le moignon de l’épaule ou sur la main, chez le sujet âgé ostéoporotique.",
-    "B": "Faux. Une fracture engrenée, stable, se traite orthopédiquement.",
-    "C": "Vrai. Immobilisation coude au corps pendant 3 semaines environ.",
-    "D": "Vrai. Le pronostic est bon : la fracture est stable.",
-    "E": "Faux. La nécrose est rare dans les fractures engrenées.",
-    "_synthese": "Fracture engrenée du col chirurgical : écharpe 3 semaines puis rééducation, bon pronostic."
-  },
-  "mos-251": {
-    "A": "Faux. Le nerf ulnaire est le plus souvent atteint.",
-    "B": "Vrai. La raideur du coude est la complication majeure à long terme.",
-    "C": "Vrai. Adhérences, rétractions et ossifications périarticulaires.",
-    "D": "Faux. Des complications vasculaires existent.",
-    "E": "Faux. Des propositions sont justes.",
-    "_synthese": "Palette humérale de l’adulte : raideur du coude."
-  },
-  "mos-274": {
-    "A": "Vrai. Chirurgie : réduction anatomique et ostéosynthèse.",
-    "B": "Faux. Un traitement fonctionnel isolé est insuffisant.",
-    "C": "Faux. Une immobilisation simple est insuffisante.",
-    "D": "Faux. La traction est rarement utilisée.",
-    "E": "Faux. Un plâtre est insuffisant.",
-    "_synthese": "Palette humérale de l’adulte : traitement chirurgical."
-  },
-  "mos-283": {
-    "A": "Faux. Le nerf radial est exposé à la diaphyse.",
-    "B": "Faux. Le nerf médian est rare.",
-    "C": "Vrai. Le nerf axillaire contourne le col chirurgical.",
-    "D": "Faux. Le nerf musculo-cutané est rare.",
-    "E": "Faux. Le plexus est rarement atteint.",
-    "_synthese": "Extrémité supérieure de l’humérus : nerf axillaire (circonflexe)."
-  },
-  "mos-284": {
-    "A": "Vrai. Le col chirurgical est sous les tubérosités : extra-articulaire.",
-    "B": "Faux. Le col anatomique est intra-articulaire.",
-    "C": "Faux. Il n’est pas diaphysaire.",
-    "D": "Faux. Il n’est pas épiphyso-métaphysaire.",
-    "E": "Faux. La tête humérale est au-dessus.",
-    "_synthese": "Col chirurgical : fracture extra-articulaire, risque nerveux axillaire."
-  },
-  "mos-300": {
-    "A": "Vrai. Fracture déplacée et instable : ostéosynthèse ou prothèse.",
-    "B": "Faux. Une fracture non déplacée est traitée orthopédiquement.",
-    "C": "Faux. L’âge seul ne suffit pas.",
-    "D": "Faux. L’enfant est traité par orthopédie.",
-    "E": "Faux. La douleur minime n’indique pas la chirurgie.",
-    "_synthese": "Chirurgie : fracture déplacée et instable."
-  },
-  "mos-301": {
-    "A": "Faux. Elle est rapide.",
-    "B": "Vrai. Consolidation rapide chez l’enfant.",
-    "C": "Faux. Pas de difficulté.",
-    "D": "Faux. La pseudarthrose est rare.",
-    "E": "Faux. Le cal vicieux n’est pas systématique.",
-    "_synthese": "Supracondylienne de l’enfant : consolidation rapide."
-  },
-  "mos-313": {
-    "A": "Faux. Le cal vicieux est possible mais moins redoutable.",
-    "B": "Faux. La pseudarthrose est possible.",
-    "C": "Faux. Le syndrome des loges est rare à l’épaule.",
-    "D": "Vrai. La vascularisation de la tête humérale est menacée, d’où la nécrose.",
-    "E": "Faux. L’infection n’est pas le risque principal.",
-    "_synthese": "Fracture du col anatomique de l’humérus : risque de nécrose avasculaire de la tête."
-  },
-  "mos-320": {
-    "A": "Faux. L’échographie n’est pas l’examen standard.",
-    "B": "Faux. L’IRM n’est pas de première intention.",
-    "C": "Vrai. Face et profil du coude.",
-    "D": "Faux. La scintigraphie n’est pas indiquée.",
-    "E": "Faux. Le scanner n’est pas de première intention.",
-    "_synthese": "Diagnostic : radiographie du coude de face et de profil."
-  },
-  "mos-331": {
-    "A": "Faux. Une simple immobilisation est insuffisante.",
-    "B": "Vrai. Hospitalisation pour surveiller l’état vasculo-nerveux.",
-    "C": "Faux. La chirurgie n’est pas systématique.",
-    "D": "Faux. La traction est rare.",
-    "E": "Faux. Un plâtre de 6 semaines n’est pas le traitement type.",
-    "_synthese": "Supracondylienne de l’enfant : hospitalisation, surveillance du pouls radial."
-  },
-  "mos-345": {
-    "A": "Faux. La trochlée est articulaire.",
-    "B": "Vrai. La fracture de la trochlée est intra-articulaire.",
-    "C": "Faux. Le siège n’est pas l’épicondyle.",
-    "D": "Faux. Le siège n’est pas l’épitrochlée.",
-    "E": "Faux. Le siège n’est pas le capitellum.",
-    "_synthese": "Fracture de la trochlée : intra-articulaire, traitement chirurgical."
-  },
-  "mos-357": {
-    "A": "Faux. Une fracture à un fragment est non déplacée.",
-    "B": "Faux. Deux fragments : une des situations.",
-    "C": "Faux. Trois fragments : une des situations.",
-    "D": "Faux. Quatre fragments : une des situations.",
-    "E": "Vrai selon le livre : la classification de Neer comprend toutes les situations, de 1 à 4 fragments.",
-    "_synthese": "Neer : fractures à 1, 2, 3 ou 4 fragments selon la tête, les tubérosités et la diaphyse."
-  },
-  "mos-590": {
-    "A": "Faux. La pseudarthrose est rare.",
-    "B": "Faux. Le cal vicieux est moins fréquent.",
-    "C": "Vrai. La raideur est la plus fréquente.",
-    "D": "Faux. La nécrose est rare.",
-    "E": "Faux. L’infection est rare.",
-    "_synthese": "Extrémité inférieure de l’humérus : raideur du coude."
   },
   "mos-592": {
     "A": "Vrai. La main tombante traduit la perte d’extension du poignet.",
@@ -5389,22 +5206,6 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Faux. Le nerf axillaire concerne l’épaule.",
     "E": "Faux. Le musculo-cutané concerne le biceps.",
     "_synthese": "Paralysie radiale = lésion du nerf radial."
-  },
-  "otr-044": {
-    "A": "Faux. La nécrose de la tête humérale est grave, mais moins fréquente que la raideur ; elle touche surtout les fractures à trois et quatre fragments.",
-    "B": "Faux. Les cals vicieux sont fréquents mais ne sont pas la complication la plus courante.",
-    "C": "Vrai. La raideur de l’épaule est la complication la plus fréquente des fractures de l’extrémité supérieure de l’humérus, d’où l’intérêt d’une mobilisation précoce.",
-    "D": "Faux. L’atteinte de l’artère axillaire est rare.",
-    "E": "Faux. La pseudarthrose est rare à l’humérus proximal.",
-    "_synthese": "Fractures de l’humérus proximal : la raideur domine, d’où la rééducation précoce ; nécrose céphalique selon le nombre de fragments."
-  },
-  "otr-045": {
-    "A": "Faux. Le deltoïde s’insère bien plus bas, sur la diaphyse.",
-    "B": "Faux. Le bord supérieur du grand pectoral n’est pas la limite.",
-    "C": "Vrai. La limite inférieure de l’extrémité supérieure de l’humérus est le bord inférieur de l’insertion du grand pectoral.",
-    "D": "Faux. Le petit pectoral s’insère sur l’apophyse coracoïde, pas sur l’humérus.",
-    "E": "Faux. Pour la même raison.",
-    "_synthese": "L’extrémité supérieure de l’humérus s’étend jusqu’au bord inférieur de l’insertion du grand pectoral ; au-delà, on parle de diaphyse."
   },
   "otr-047": {
     "A": "Faux. L’anesthésie de la pulpe du 5e doigt dépend du nerf cubital.",
@@ -5582,6 +5383,102 @@ window.JUSTIFICATIONS_OTR = {
     "E": "Faux. Le médian est rarement atteint.",
     "_synthese": "Fracture de la diaphyse humérale : paralysie du radial."
   },
+  "mos-181": {
+    "A": "Vrai. La fracture de l’épitrochlée accompagne souvent une luxation du coude.",
+    "B": "Faux. Une fracture du radius n’est pas associée.",
+    "C": "Faux. Une fracture de l’ulna non plus.",
+    "D": "Faux. L’humérus est déjà concerné.",
+    "E": "Faux. La clavicule n’est pas concernée.",
+    "_synthese": "Épitrochlée : luxation du coude associée."
+  },
+  "mos-185": {
+    "A": "Faux. Aucun risque vital.",
+    "B": "Vrai. L’artère humérale peut être comprimée : urgence vasculaire, risque de Volkmann.",
+    "C": "Faux. L’urgence n’est pas seulement fonctionnelle.",
+    "D": "Faux. Ce n’est pas esthétique.",
+    "E": "Faux. Le nerf peut être touché mais l’urgence est vasculaire.",
+    "_synthese": "Supracondylienne de l’enfant : surveillance du pouls radial."
+  },
+  "mos-186": {
+    "A": "Faux. Le nerf radial est à distance.",
+    "B": "Vrai. Le nerf ulnaire passe derrière l’épitrochlée.",
+    "C": "Faux. Le nerf médian est en avant.",
+    "D": "Faux. Le nerf axillaire est à l’épaule.",
+    "E": "Faux. Le nerf musculo-cutané est à distance.",
+    "_synthese": "Épitrochlée : nerf ulnaire exposé."
+  },
+  "mos-231": {
+    "A": "Faux. La palette est une zone articulaire.",
+    "B": "Vrai. Les fractures de la palette adulte sont souvent articulaires.",
+    "C": "Faux. Elles sont instables.",
+    "D": "Faux selon le livre.",
+    "E": "Faux. Elles ne sont pas spécifiques de la femme âgée.",
+    "_synthese": "Palette humérale : fractures souvent articulaires, chirurgie."
+  },
+  "mos-236": {
+    "A": "Faux. Une TVP n’est pas la complication redoutée.",
+    "B": "Faux. La rupture de l’artère radiale n’est pas la complication.",
+    "C": "Vrai. Le syndrome de Volkmann est la complication vasculaire redoutée.",
+    "D": "Faux. Une AOMI n’est pas liée à la fracture.",
+    "E": "Faux. L’hémorragie n’est pas la complication redoutée.",
+    "_synthese": "Supracondylienne : Volkmann si ischémie non traitée."
+  },
+  "mos-251": {
+    "A": "Faux. Le nerf ulnaire est le plus souvent atteint.",
+    "B": "Vrai. La raideur du coude est la complication majeure à long terme.",
+    "C": "Vrai. Adhérences, rétractions et ossifications périarticulaires.",
+    "D": "Faux. Des complications vasculaires existent.",
+    "E": "Faux. Des propositions sont justes.",
+    "_synthese": "Palette humérale de l’adulte : raideur du coude."
+  },
+  "mos-274": {
+    "A": "Vrai. Chirurgie : réduction anatomique et ostéosynthèse.",
+    "B": "Faux. Un traitement fonctionnel isolé est insuffisant.",
+    "C": "Faux. Une immobilisation simple est insuffisante.",
+    "D": "Faux. La traction est rarement utilisée.",
+    "E": "Faux. Un plâtre est insuffisant.",
+    "_synthese": "Palette humérale de l’adulte : traitement chirurgical."
+  },
+  "mos-301": {
+    "A": "Faux. Elle est rapide.",
+    "B": "Vrai. Consolidation rapide chez l’enfant.",
+    "C": "Faux. Pas de difficulté.",
+    "D": "Faux. La pseudarthrose est rare.",
+    "E": "Faux. Le cal vicieux n’est pas systématique.",
+    "_synthese": "Supracondylienne de l’enfant : consolidation rapide."
+  },
+  "mos-320": {
+    "A": "Faux. L’échographie n’est pas l’examen standard.",
+    "B": "Faux. L’IRM n’est pas de première intention.",
+    "C": "Vrai. Face et profil du coude.",
+    "D": "Faux. La scintigraphie n’est pas indiquée.",
+    "E": "Faux. Le scanner n’est pas de première intention.",
+    "_synthese": "Diagnostic : radiographie du coude de face et de profil."
+  },
+  "mos-331": {
+    "A": "Faux. Une simple immobilisation est insuffisante.",
+    "B": "Vrai. Hospitalisation pour surveiller l’état vasculo-nerveux.",
+    "C": "Faux. La chirurgie n’est pas systématique.",
+    "D": "Faux. La traction est rare.",
+    "E": "Faux. Un plâtre de 6 semaines n’est pas le traitement type.",
+    "_synthese": "Supracondylienne de l’enfant : hospitalisation, surveillance du pouls radial."
+  },
+  "mos-345": {
+    "A": "Faux. La trochlée est articulaire.",
+    "B": "Vrai. La fracture de la trochlée est intra-articulaire.",
+    "C": "Faux. Le siège n’est pas l’épicondyle.",
+    "D": "Faux. Le siège n’est pas l’épitrochlée.",
+    "E": "Faux. Le siège n’est pas le capitellum.",
+    "_synthese": "Fracture de la trochlée : intra-articulaire, traitement chirurgical."
+  },
+  "mos-590": {
+    "A": "Faux. La pseudarthrose est rare.",
+    "B": "Faux. Le cal vicieux est moins fréquent.",
+    "C": "Vrai. La raideur est la plus fréquente.",
+    "D": "Faux. La nécrose est rare.",
+    "E": "Faux. L’infection est rare.",
+    "_synthese": "Extrémité inférieure de l’humérus : raideur du coude."
+  },
   "otr-071": {
     "A": "Vrai. Les fractures parcellaires (apophysaires : épicondyle, épitrochlée) sont extra-articulaires : elles détachent un fragment extérieur à l’articulation.",
     "B": "Faux. Le trait n’est pas horizontal ; il détache un fragment latéral ou médial.",
@@ -5669,6 +5566,109 @@ window.JUSTIFICATIONS_OTR = {
     "D": "Vrai. Le nerf ulnaire passe derrière l’épicondyle médial.",
     "E": "Faux. L’artère brachiale est antérieure.",
     "_synthese": "Fracture de l’épicondyle médial : lésion du nerf ulnaire."
+  },
+  "mos-063": {
+    "A": "Faux. IRM.",
+    "B": "Faux. Échographie.",
+    "C": "Vrai. Radiographie de face et de profil.",
+    "D": "Faux. Scintigraphie.",
+    "E": "Faux. Scanner complémentaire.",
+    "_synthese": "Humérus proximal : radiographie."
+  },
+  "mos-110": {
+    "A": "Faux. Le plexus est rarement atteint.",
+    "B": "Vrai. Le nerf circonflexe est le plus souvent lésé dans les fractures du col.",
+    "C": "Faux. Le nerf radial est lésé dans la diaphyse.",
+    "D": "Faux. Le nerf ulnaire est à distance.",
+    "_synthese": "Extrémité supérieure de l’humérus : lésion du nerf axillaire (circonflexe)."
+  },
+  "mos-112": {
+    "A": "Faux. Ce sont des fractures du sujet âgé, pas du sujet jeune.",
+    "B": "Faux. Elles sont rares chez l’enfant.",
+    "C": "Vrai. La femme ménopausée ostéoporotique chute sur la main ou le moignon.",
+    "D": "Faux. Les sportifs sont peu touchés.",
+    "E": "Faux selon le livre.",
+    "_synthese": "Fractures de l’humérus proximal : femme ménopausée ostéoporotique."
+  },
+  "mos-113": {
+    "A": "Faux selon le livre : le signe est attribué à l’extrémité supérieure de l’humérus.",
+    "B": "Faux. L’hématome de la diaphyse est brachial.",
+    "C": "Vrai. L’hématome de Hennequin descend sur la face interne du bras et le thorax.",
+    "D": "Faux. La luxation ne donne pas d’hématome.",
+    "E": "Faux. La clavicule est à distance.",
+    "_synthese": "Hématome de Hennequin : fracture de l’extrémité supérieure de l’humérus."
+  },
+  "mos-137": {
+    "A": "Faux. Une immobilisation simple convient aux fractures non déplacées.",
+    "B": "Vrai. L’arthroplastie (prothèse inversée) est indiquée dans les fractures déplacées à plusieurs fragments du sujet âgé.",
+    "C": "Faux. La traction continue n’a plus de place à l’épaule.",
+    "D": "Faux. Le plâtre n’est pas utilisé à l’épaule.",
+    "E": "Vrai. La plaque verrouillée est une option si l’os est de qualité suffisante.",
+    "_synthese": "Fracture déplacée de l’humérus proximal du sujet âgé : prothèse d’épaule ou ostéosynthèse par plaque selon la qualité osseuse."
+  },
+  "mos-249": {
+    "A": "Vrai. Chute sur le moignon de l’épaule ou sur la main, chez le sujet âgé ostéoporotique.",
+    "B": "Faux. Une fracture engrenée, stable, se traite orthopédiquement.",
+    "C": "Vrai. Immobilisation coude au corps pendant 3 semaines environ.",
+    "D": "Vrai. Le pronostic est bon : la fracture est stable.",
+    "E": "Faux. La nécrose est rare dans les fractures engrenées.",
+    "_synthese": "Fracture engrenée du col chirurgical : écharpe 3 semaines puis rééducation, bon pronostic."
+  },
+  "mos-283": {
+    "A": "Faux. Le nerf radial est exposé à la diaphyse.",
+    "B": "Faux. Le nerf médian est rare.",
+    "C": "Vrai. Le nerf axillaire contourne le col chirurgical.",
+    "D": "Faux. Le nerf musculo-cutané est rare.",
+    "E": "Faux. Le plexus est rarement atteint.",
+    "_synthese": "Extrémité supérieure de l’humérus : nerf axillaire (circonflexe)."
+  },
+  "mos-284": {
+    "A": "Vrai. Le col chirurgical est sous les tubérosités : extra-articulaire.",
+    "B": "Faux. Le col anatomique est intra-articulaire.",
+    "C": "Faux. Il n’est pas diaphysaire.",
+    "D": "Faux. Il n’est pas épiphyso-métaphysaire.",
+    "E": "Faux. La tête humérale est au-dessus.",
+    "_synthese": "Col chirurgical : fracture extra-articulaire, risque nerveux axillaire."
+  },
+  "mos-300": {
+    "A": "Vrai. Fracture déplacée et instable : ostéosynthèse ou prothèse.",
+    "B": "Faux. Une fracture non déplacée est traitée orthopédiquement.",
+    "C": "Faux. L’âge seul ne suffit pas.",
+    "D": "Faux. L’enfant est traité par orthopédie.",
+    "E": "Faux. La douleur minime n’indique pas la chirurgie.",
+    "_synthese": "Chirurgie : fracture déplacée et instable."
+  },
+  "mos-313": {
+    "A": "Faux. Le cal vicieux est possible mais moins redoutable.",
+    "B": "Faux. La pseudarthrose est possible.",
+    "C": "Faux. Le syndrome des loges est rare à l’épaule.",
+    "D": "Vrai. La vascularisation de la tête humérale est menacée, d’où la nécrose.",
+    "E": "Faux. L’infection n’est pas le risque principal.",
+    "_synthese": "Fracture du col anatomique de l’humérus : risque de nécrose avasculaire de la tête."
+  },
+  "mos-357": {
+    "A": "Faux. Une fracture à un fragment est non déplacée.",
+    "B": "Faux. Deux fragments : une des situations.",
+    "C": "Faux. Trois fragments : une des situations.",
+    "D": "Faux. Quatre fragments : une des situations.",
+    "E": "Vrai selon le livre : la classification de Neer comprend toutes les situations, de 1 à 4 fragments.",
+    "_synthese": "Neer : fractures à 1, 2, 3 ou 4 fragments selon la tête, les tubérosités et la diaphyse."
+  },
+  "otr-044": {
+    "A": "Faux. La nécrose de la tête humérale est grave, mais moins fréquente que la raideur ; elle touche surtout les fractures à trois et quatre fragments.",
+    "B": "Faux. Les cals vicieux sont fréquents mais ne sont pas la complication la plus courante.",
+    "C": "Vrai. La raideur de l’épaule est la complication la plus fréquente des fractures de l’extrémité supérieure de l’humérus, d’où l’intérêt d’une mobilisation précoce.",
+    "D": "Faux. L’atteinte de l’artère axillaire est rare.",
+    "E": "Faux. La pseudarthrose est rare à l’humérus proximal.",
+    "_synthese": "Fractures de l’humérus proximal : la raideur domine, d’où la rééducation précoce ; nécrose céphalique selon le nombre de fragments."
+  },
+  "otr-045": {
+    "A": "Faux. Le deltoïde s’insère bien plus bas, sur la diaphyse.",
+    "B": "Faux. Le bord supérieur du grand pectoral n’est pas la limite.",
+    "C": "Vrai. La limite inférieure de l’extrémité supérieure de l’humérus est le bord inférieur de l’insertion du grand pectoral.",
+    "D": "Faux. Le petit pectoral s’insère sur l’apophyse coracoïde, pas sur l’humérus.",
+    "E": "Faux. Pour la même raison.",
+    "_synthese": "L’extrémité supérieure de l’humérus s’étend jusqu’au bord inférieur de l’insertion du grand pectoral ; au-delà, on parle de diaphyse."
   },
   "mos-005": {
     "A": "Faux. Staphylocoque doré.",

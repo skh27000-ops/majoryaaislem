@@ -25635,49 +25635,11 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
-    "id": "mos-063",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Le diagnostic d’une fracture de l’extrémité supérieure de l’humérus est fait par :",
-    "propositions": {
-      "A": "Une IRM",
-      "B": "Une échographie",
-      "C": "Une radiographie de l’épaule de face et de profil",
-      "D": "Une scintigraphie osseuse",
-      "E": "Un scanner"
-    },
-    "question_fr": "Le diagnostic d’une fracture de l’extrémité supérieure de l’humérus est fait par :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "mos-109",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -25710,48 +25672,11 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
-    "id": "mos-110",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Quelle est la complication immédiate a recherche lors d’une fracture de l’extremité supérieure de l’humorus :",
-    "propositions": {
-      "A": "Lesions du plexus bracheal.",
-      "B": "Lesion du erf circonflexe.",
-      "C": "Lesion du nerf radial.",
-      "D": "Lesion du nerf ulnaire."
-    },
-    "question_fr": "Quelle est la complication immédiate a recherche lors d’une fracture de l’extremité supérieure de l’humorus :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "mos-111",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -25787,815 +25712,11 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
-    "id": "mos-112",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Les fractures de l’extrémité supérieure de l’humérus sont plus fréquentes chez :",
-    "propositions": {
-      "A": "Les hommes jeunes",
-      "B": "Les enfants",
-      "C": "Les femmes ménopausées, souvent en raison d’une chute sur la main",
-      "D": "Les sportifs",
-      "E": "Les personnes âgées après une chute sur le coude"
-    },
-    "question_fr": "Les fractures de l’extrémité supérieure de l’humérus sont plus fréquentes chez :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-113",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Un hématome de la face interne du bras et de la paroi thoracique est un signe clinique :",
-    "propositions": {
-      "A": "D’une fracture du col chirurgical",
-      "B": "D’une fracture de la diaphyse humérale",
-      "C": "D’une fracture de l’extrémité supérieure de l’humérus",
-      "D": "D’une luxation de l’épaule",
-      "E": "D’une fracture de la clavicule"
-    },
-    "question_fr": "Un hématome de la face interne du bras et de la paroi thoracique est un signe clinique :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-137",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": ".Le traitement des fractures déplacées chez le sujet âgé peut consister en :",
-    "propositions": {
-      "A": "Une immobilisation simple",
-      "B": "La pose d’une prothèse de l’épaule",
-      "C": "Une traction continue",
-      "D": "Un plâtre",
-      "E": "Une ostéosynthèse par plaque et vis"
-    },
-    "question_fr": ".Le traitement des fractures déplacées chez le sujet âgé peut consister en :",
-    "bonnes_reponses": [
-      "B",
-      "E"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false,
-    "note_cle": "Clé BE ; le livre donnait B seule. L’ostéosynthèse par plaque verrouillée reste une option chez le sujet âgé."
-  },
-  {
-    "id": "mos-181",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Une fracture de l'épitrochlée peut être associée à :",
-    "propositions": {
-      "A": "Une luxation du coude",
-      "B": "Une fracture du radius",
-      "C": "Une fracture de l'ulna",
-      "D": "Une fracture de l'humérus",
-      "E": "Une fracture de la clavicule"
-    },
-    "question_fr": "Une fracture de l'épitrochlée peut être associée à :",
-    "bonnes_reponses": [
-      "A"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-185",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Une fracture supracondylienne de l’humérus chez l’enfant est une urgence :",
-    "propositions": {
-      "A": "Vitale",
-      "B": "Vasculaire",
-      "C": "Fonctionnelle",
-      "D": "Esthétique",
-      "E": "Neurologique"
-    },
-    "question_fr": "Une fracture supracondylienne de l’humérus chez l’enfant est une urgence :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-186",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Quel nerf peut être lésé lors d’une fracture de l’épicondyle médial ?",
-    "propositions": {
-      "A": "Nerf radial",
-      "B": "Nerf ulnaire",
-      "C": "Nerf médian",
-      "D": "Nerf axillaire",
-      "E": "Nerf musculo-cutané"
-    },
-    "question_fr": "Quel nerf peut être lésé lors d’une fracture de l’épicondyle médial ?",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-231",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "La fracture de la palette humérale est :",
-    "propositions": {
-      "A": "Toujours extra-articulaire",
-      "B": "Souvent intra-articulaire",
-      "C": "Toujours stable",
-      "D": "Plus fréquente chez l’enfant",
-      "E": "Plus fréquente chez la femme âgée"
-    },
-    "question_fr": "La fracture de la palette humérale est :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-236",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Quelle est la complication vasculaire la plus redoutée après une fracture supracondylienne de l’humérus chez l’enfant ?",
-    "propositions": {
-      "A": "Thrombose veineuse profonde",
-      "B": "Rupture de l’artère radiale",
-      "C": "Syndrome de Volkmann",
-      "D": "AOMI",
-      "E": "Hémorragie"
-    },
-    "question_fr": "Quelle est la complication vasculaire la plus redoutée après une fracture supracondylienne de l’humérus chez l’enfant ?",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-249",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "La fracture engrenée, peu déplacée du col chirurgical de l’humérus chez le sujet âgé : (cochez la réponse juste)",
-    "propositions": {
-      "A": "Fait suite à une chute sur le moignon de l’épaule",
-      "B": "Nécessite toujours un traitement chirurgical par ostéosynthèse",
-      "C": "Nécessite une immobilisation de 21 jours",
-      "D": "Est habituellement de bon pronostic",
-      "E": "Est souvent compliquée de nécrose de la tête humérale"
-    },
-    "question_fr": "La fracture engrenée, peu déplacée du col chirurgical de l’humérus chez le sujet âgé : (cochez la réponse juste)",
-    "bonnes_reponses": [
-      "A",
-      "C",
-      "D"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false,
-    "note_cle": "Clé ACD ; le livre donnait A seule. Une fracture engrenée peu déplacée est de bon pronostic et immobilisée environ 3 semaines."
-  },
-  {
-    "id": "mos-251",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "Concernant les complications au cours d’une fracture de la palette humérale de l’adulte :",
-    "propositions": {
-      "A": "L’élongation du nerf médian est la lésion neurologique la plus fréquente.",
-      "B": "La raideur du coude constitue la complication majeure à long terme.",
-      "C": "La raideur du coude peut être secondaire à des adhérences, des rétractions des parties molles ou à des ossifications périarticulaires.",
-      "D": "Les complications vasculaires ne se voient jamais au cours de ces fractures.",
-      "E": "Aucune réponse n’est juste."
-    },
-    "question_fr": "Concernant les complications au cours d’une fracture de la palette humérale de l’adulte :",
-    "bonnes_reponses": [
-      "B",
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-274",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "35. Le traitement d’une fracture de la palette humérale est le plus souvent :",
-    "propositions": {
-      "A": "Chirurgical",
-      "B": "Fonctionnel",
-      "C": "Une immobilisation simple",
-      "D": "Une traction",
-      "E": "Un plâtre"
-    },
-    "question_fr": "35. Le traitement d’une fracture de la palette humérale est le plus souvent :",
-    "bonnes_reponses": [
-      "A"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-283",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "44 La principale complication nerveuse d’une fracture de l’extrémité supérieure de l’humérus est l’atteinte :",
-    "propositions": {
-      "A": "Du nerf radial",
-      "B": "Du nerf médian",
-      "C": "Du nerf axillaire",
-      "D": "Du nerf musculo-cutané",
-      "E": "Du plexus brachial"
-    },
-    "question_fr": "44 La principale complication nerveuse d’une fracture de l’extrémité supérieure de l’humérus est l’atteinte :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-284",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "45 La fracture du col chirurgical de l’humérus est une fracture :",
-    "propositions": {
-      "A": "Extra-articulaire",
-      "B": "Intra-articulaire",
-      "C": "Diaphysaire",
-      "D": "Épiphyso-métaphysaire",
-      "E": "De la tête humérale"
-    },
-    "question_fr": "45 La fracture du col chirurgical de l’humérus est une fracture :",
-    "bonnes_reponses": [
-      "A"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-300",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "61 Le traitement chirurgical d’une fracture de l’extrémité supérieure de l’humérus est indiqué en cas de :",
-    "propositions": {
-      "A": "Fracture déplacée et instable",
-      "B": "Fracture non déplacée",
-      "C": "Fracture chez un patient âgé",
-      "D": "Fracture chez un enfant",
-      "E": "Douleur minime"
-    },
-    "question_fr": "61 Le traitement chirurgical d’une fracture de l’extrémité supérieure de l’humérus est indiqué en cas de :",
-    "bonnes_reponses": [
-      "A"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-301",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "62 La consolidation d’une fracture supracondylienne chez l’enfant est généralement :",
-    "propositions": {
-      "A": "Très longue",
-      "B": "Rapide",
-      "C": "Difficile",
-      "D": "Avec un risque élevé de pseudarthrose",
-      "E": "Toujours associée à un cal vicieux"
-    },
-    "question_fr": "62 La consolidation d’une fracture supracondylienne chez l’enfant est généralement :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-313",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "74 Le principal risque après une fracture du col anatomique de l’humérus est :",
-    "propositions": {
-      "A": "Le cal vicieux",
-      "B": "La pseudarthrose",
-      "C": "Le syndrome des loges",
-      "D": "La nécrose avasculaire de la tête humérale",
-      "E": "L’infection"
-    },
-    "question_fr": "74 Le principal risque après une fracture du col anatomique de l’humérus est :",
-    "bonnes_reponses": [
-      "D"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-320",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "81 Le diagnostic de la fracture de la palette humérale est fait par :",
-    "propositions": {
-      "A": "Une échographie",
-      "B": "Une IRM",
-      "C": "Une radiographie du coude de face et de profil",
-      "D": "Une scintigraphie osseuse",
-      "E": "Un scanner"
-    },
-    "question_fr": "81 Le diagnostic de la fracture de la palette humérale est fait par :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-331",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "92. Une fracture supracondylienne chez l’enfant nécessite :",
-    "propositions": {
-      "A": "Une simple immobilisation",
-      "B": "Une hospitalisation pour surveillance",
-      "C": "Une chirurgie systématique",
-      "D": "Une traction continue",
-      "E": "Un plâtre pour 6 semaines"
-    },
-    "question_fr": "92. Une fracture supracondylienne chez l’enfant nécessite :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-345",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "106 La fracture de la trochlée humérale est une fracture :",
-    "propositions": {
-      "A": "Extra-articulaire",
-      "B": "Intra-articulaire",
-      "C": "De l’épicondyle",
-      "D": "De l’épitrochlée",
-      "E": "Du capitellum"
-    },
-    "question_fr": "106 La fracture de la trochlée humérale est une fracture :",
-    "bonnes_reponses": [
-      "B"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-357",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "118 La classification de Neer est utilisée pour les fractures de l’extrémité supérieure de l’humérus. Elle est basée sur le nombre de fragments. Quel est le nombre de fragments ?",
-    "propositions": {
-      "A": "1 fragment",
-      "B": "2 fragments",
-      "C": "3 fragments",
-      "D": "4 fragments",
-      "E": "Tous les fragments"
-    },
-    "question_fr": "118 La classification de Neer est utilisée pour les fractures de l’extrémité supérieure de l’humérus. Elle est basée sur le nombre de fragments. Quel est le nombre de fragments ?",
-    "bonnes_reponses": [
-      "E"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
-    "id": "mos-590",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Mostaganem",
-      "texte": "Annales OTR Mostaganem · Auto-évaluation",
-      "type": "Auto-évaluation",
-      "session": "Normale",
-      "annee": "Sans date"
-    },
-    "sources": [
-      {
-        "fac": "Mostaganem",
-        "texte": "Annales OTR Mostaganem · Auto-évaluation",
-        "type": "Auto-évaluation",
-        "session": "Normale",
-        "annee": "Sans date"
-      }
-    ],
-    "question": "La complication la plus fréquente après une fracture de l’extrémité inférieure de l’humérus est :",
-    "propositions": {
-      "A": "La pseudarthrose",
-      "B": "Le cal vicieux",
-      "C": "La raideur du coude",
-      "D": "La nécrose avasculaire",
-      "E": "L’infection"
-    },
-    "question_fr": "La complication la plus fréquente après une fracture de l’extrémité inférieure de l’humérus est :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Mostaganem",
-    "isOran": false,
-    "isAlger": false
-  },
-  {
     "id": "mos-592",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -26632,9 +25753,9 @@ window.QCM_OTR = [
   {
     "id": "mos-593",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -26671,9 +25792,9 @@ window.QCM_OTR = [
   {
     "id": "mos-596",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -26709,9 +25830,9 @@ window.QCM_OTR = [
   {
     "id": "mos-598",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -26747,9 +25868,9 @@ window.QCM_OTR = [
   {
     "id": "mos-602",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Mostaganem",
       "texte": "Annales OTR Mostaganem · Auto-évaluation",
@@ -26783,94 +25904,11 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
-    "id": "otr-044",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · P2025 A",
-      "type": "EMD",
-      "session": "Normale",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2025 A",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2025"
-      },
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2023 A",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2023"
-      }
-    ],
-    "question": "Parmi les complications des fractures de l'extrémité supérieure de l'humérus, une est la plus fréquente",
-    "propositions": {
-      "A": "Nécrose de la tête humérale",
-      "B": "Cals vicieux",
-      "C": "Raideur",
-      "D": "Atteinte de l'artère axillaire",
-      "E": "Pseudarthrose"
-    },
-    "question_fr": "Parmi les complications des fractures de l'extrémité supérieure de l'humérus, une est la plus fréquente",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
-    "id": "otr-045",
-    "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
-    "source": {
-      "fac": "Oran",
-      "texte": "Annales OTR Oran · P2025 B",
-      "type": "EMD",
-      "session": "Normale",
-      "annee": "2025"
-    },
-    "sources": [
-      {
-        "fac": "Oran",
-        "texte": "Annales OTR Oran · P2025 B",
-        "type": "EMD",
-        "session": "Normale",
-        "annee": "2025"
-      }
-    ],
-    "question": "La limite distale des fractures de l'extrémité supérieure de l'humérus est située :",
-    "propositions": {
-      "A": "Au bord distal de l'insertion du muscle deltoïde.",
-      "B": "Au bord supérieur de l'insertion du muscle grand pectoral.",
-      "C": "Au bord inférieur de l'insertion du muscle grand pectoral.",
-      "D": "Au bord supérieur de l'insertion du muscle petit pectoral.",
-      "E": "Au bord inférieur de l'insertion du muscle petit pectoral."
-    },
-    "question_fr": "La limite distale des fractures de l'extrémité supérieure de l'humérus est située :",
-    "bonnes_reponses": [
-      "C"
-    ],
-    "faculty": "Oran",
-    "isOran": true,
-    "isAlger": false
-  },
-  {
     "id": "otr-047",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · Rattrapage 2024",
@@ -26907,9 +25945,9 @@ window.QCM_OTR = [
   {
     "id": "otr-048",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2024 A",
@@ -26945,9 +25983,9 @@ window.QCM_OTR = [
   {
     "id": "otr-049",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2021 B",
@@ -26983,9 +26021,9 @@ window.QCM_OTR = [
   {
     "id": "otr-050",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2021 B",
@@ -27021,9 +26059,9 @@ window.QCM_OTR = [
   {
     "id": "otr-051",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2021 A",
@@ -27061,9 +26099,9 @@ window.QCM_OTR = [
   {
     "id": "otr-052",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2021 A",
@@ -27100,9 +26138,9 @@ window.QCM_OTR = [
   {
     "id": "otr-053",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2018 B",
@@ -27139,9 +26177,9 @@ window.QCM_OTR = [
   {
     "id": "otr-054",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2018 B",
@@ -27179,9 +26217,9 @@ window.QCM_OTR = [
   {
     "id": "otr-055",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2018 B",
@@ -27217,9 +26255,9 @@ window.QCM_OTR = [
   {
     "id": "otr-056",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2018 B",
@@ -27256,9 +26294,9 @@ window.QCM_OTR = [
   {
     "id": "otr-057",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2018 B",
@@ -27294,9 +26332,9 @@ window.QCM_OTR = [
   {
     "id": "otr-058",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2020 C",
@@ -27332,9 +26370,9 @@ window.QCM_OTR = [
   {
     "id": "otr-059",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2019 A",
@@ -27379,9 +26417,9 @@ window.QCM_OTR = [
   {
     "id": "otr-061",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2019 C",
@@ -27420,9 +26458,9 @@ window.QCM_OTR = [
   {
     "id": "otr-062",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2022 A",
@@ -27458,9 +26496,9 @@ window.QCM_OTR = [
   {
     "id": "otr-063",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2022 A",
@@ -27496,9 +26534,9 @@ window.QCM_OTR = [
   {
     "id": "otr-064",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2022 A",
@@ -27536,9 +26574,9 @@ window.QCM_OTR = [
   {
     "id": "otr-066",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2015 C",
@@ -27577,9 +26615,9 @@ window.QCM_OTR = [
   {
     "id": "otr-067",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2017 B",
@@ -27618,9 +26656,9 @@ window.QCM_OTR = [
   {
     "id": "otr-068",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · Rattrapage 2017",
@@ -27658,9 +26696,9 @@ window.QCM_OTR = [
   {
     "id": "otr-069",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2023 A",
@@ -27697,9 +26735,9 @@ window.QCM_OTR = [
   {
     "id": "otr-070",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la diaphyse humérale",
     "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "section": "Fractures de la diaphyse humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2026 A",
@@ -27733,11 +26771,468 @@ window.QCM_OTR = [
     "isAlger": false
   },
   {
+    "id": "mos-181",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Une fracture de l'épitrochlée peut être associée à :",
+    "propositions": {
+      "A": "Une luxation du coude",
+      "B": "Une fracture du radius",
+      "C": "Une fracture de l'ulna",
+      "D": "Une fracture de l'humérus",
+      "E": "Une fracture de la clavicule"
+    },
+    "question_fr": "Une fracture de l'épitrochlée peut être associée à :",
+    "bonnes_reponses": [
+      "A"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-185",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Une fracture supracondylienne de l’humérus chez l’enfant est une urgence :",
+    "propositions": {
+      "A": "Vitale",
+      "B": "Vasculaire",
+      "C": "Fonctionnelle",
+      "D": "Esthétique",
+      "E": "Neurologique"
+    },
+    "question_fr": "Une fracture supracondylienne de l’humérus chez l’enfant est une urgence :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-186",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Quel nerf peut être lésé lors d’une fracture de l’épicondyle médial ?",
+    "propositions": {
+      "A": "Nerf radial",
+      "B": "Nerf ulnaire",
+      "C": "Nerf médian",
+      "D": "Nerf axillaire",
+      "E": "Nerf musculo-cutané"
+    },
+    "question_fr": "Quel nerf peut être lésé lors d’une fracture de l’épicondyle médial ?",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-231",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "La fracture de la palette humérale est :",
+    "propositions": {
+      "A": "Toujours extra-articulaire",
+      "B": "Souvent intra-articulaire",
+      "C": "Toujours stable",
+      "D": "Plus fréquente chez l’enfant",
+      "E": "Plus fréquente chez la femme âgée"
+    },
+    "question_fr": "La fracture de la palette humérale est :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-236",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Quelle est la complication vasculaire la plus redoutée après une fracture supracondylienne de l’humérus chez l’enfant ?",
+    "propositions": {
+      "A": "Thrombose veineuse profonde",
+      "B": "Rupture de l’artère radiale",
+      "C": "Syndrome de Volkmann",
+      "D": "AOMI",
+      "E": "Hémorragie"
+    },
+    "question_fr": "Quelle est la complication vasculaire la plus redoutée après une fracture supracondylienne de l’humérus chez l’enfant ?",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-251",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Concernant les complications au cours d’une fracture de la palette humérale de l’adulte :",
+    "propositions": {
+      "A": "L’élongation du nerf médian est la lésion neurologique la plus fréquente.",
+      "B": "La raideur du coude constitue la complication majeure à long terme.",
+      "C": "La raideur du coude peut être secondaire à des adhérences, des rétractions des parties molles ou à des ossifications périarticulaires.",
+      "D": "Les complications vasculaires ne se voient jamais au cours de ces fractures.",
+      "E": "Aucune réponse n’est juste."
+    },
+    "question_fr": "Concernant les complications au cours d’une fracture de la palette humérale de l’adulte :",
+    "bonnes_reponses": [
+      "B",
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-274",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "35. Le traitement d’une fracture de la palette humérale est le plus souvent :",
+    "propositions": {
+      "A": "Chirurgical",
+      "B": "Fonctionnel",
+      "C": "Une immobilisation simple",
+      "D": "Une traction",
+      "E": "Un plâtre"
+    },
+    "question_fr": "35. Le traitement d’une fracture de la palette humérale est le plus souvent :",
+    "bonnes_reponses": [
+      "A"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-301",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "62 La consolidation d’une fracture supracondylienne chez l’enfant est généralement :",
+    "propositions": {
+      "A": "Très longue",
+      "B": "Rapide",
+      "C": "Difficile",
+      "D": "Avec un risque élevé de pseudarthrose",
+      "E": "Toujours associée à un cal vicieux"
+    },
+    "question_fr": "62 La consolidation d’une fracture supracondylienne chez l’enfant est généralement :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-320",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "81 Le diagnostic de la fracture de la palette humérale est fait par :",
+    "propositions": {
+      "A": "Une échographie",
+      "B": "Une IRM",
+      "C": "Une radiographie du coude de face et de profil",
+      "D": "Une scintigraphie osseuse",
+      "E": "Un scanner"
+    },
+    "question_fr": "81 Le diagnostic de la fracture de la palette humérale est fait par :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-331",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "92. Une fracture supracondylienne chez l’enfant nécessite :",
+    "propositions": {
+      "A": "Une simple immobilisation",
+      "B": "Une hospitalisation pour surveillance",
+      "C": "Une chirurgie systématique",
+      "D": "Une traction continue",
+      "E": "Un plâtre pour 6 semaines"
+    },
+    "question_fr": "92. Une fracture supracondylienne chez l’enfant nécessite :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-345",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "106 La fracture de la trochlée humérale est une fracture :",
+    "propositions": {
+      "A": "Extra-articulaire",
+      "B": "Intra-articulaire",
+      "C": "De l’épicondyle",
+      "D": "De l’épitrochlée",
+      "E": "Du capitellum"
+    },
+    "question_fr": "106 La fracture de la trochlée humérale est une fracture :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-590",
+    "module": "otr",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "La complication la plus fréquente après une fracture de l’extrémité inférieure de l’humérus est :",
+    "propositions": {
+      "A": "La pseudarthrose",
+      "B": "Le cal vicieux",
+      "C": "La raideur du coude",
+      "D": "La nécrose avasculaire",
+      "E": "L’infection"
+    },
+    "question_fr": "La complication la plus fréquente après une fracture de l’extrémité inférieure de l’humérus est :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
     "id": "otr-071",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2025 A",
@@ -27774,9 +27269,9 @@ window.QCM_OTR = [
   {
     "id": "otr-072",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2025 A",
@@ -27813,9 +27308,9 @@ window.QCM_OTR = [
   {
     "id": "otr-073",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2025 B",
@@ -27852,9 +27347,9 @@ window.QCM_OTR = [
   {
     "id": "otr-074",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2025 B",
@@ -27892,9 +27387,9 @@ window.QCM_OTR = [
   {
     "id": "otr-075",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · Rattrapage 2024",
@@ -27931,9 +27426,9 @@ window.QCM_OTR = [
   {
     "id": "otr-076",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2024 A",
@@ -27970,9 +27465,9 @@ window.QCM_OTR = [
   {
     "id": "otr-077",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2022 B",
@@ -28009,9 +27504,9 @@ window.QCM_OTR = [
   {
     "id": "otr-078",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2023 A",
@@ -28047,9 +27542,9 @@ window.QCM_OTR = [
   {
     "id": "otr-079",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2026 A",
@@ -28088,9 +27583,9 @@ window.QCM_OTR = [
   {
     "id": "otr-080",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2026 A",
@@ -28126,9 +27621,9 @@ window.QCM_OTR = [
   {
     "id": "otr-081",
     "module": "otr",
-    "chapitre": "Les fractures de l’humérus",
-    "chapitre_num": 20,
-    "section": "Les fractures de l’humérus",
+    "chapitre": "Fractures de la palette humérale",
+    "chapitre_num": 21,
+    "section": "Fractures de la palette humérale",
     "source": {
       "fac": "Oran",
       "texte": "Annales OTR Oran · P2026 A",
@@ -28163,10 +27658,515 @@ window.QCM_OTR = [
     "note_cle": "Clé D conforme au cours ; le corrigé type officiel donnait BCD."
   },
   {
+    "id": "mos-063",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Le diagnostic d’une fracture de l’extrémité supérieure de l’humérus est fait par :",
+    "propositions": {
+      "A": "Une IRM",
+      "B": "Une échographie",
+      "C": "Une radiographie de l’épaule de face et de profil",
+      "D": "Une scintigraphie osseuse",
+      "E": "Un scanner"
+    },
+    "question_fr": "Le diagnostic d’une fracture de l’extrémité supérieure de l’humérus est fait par :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-110",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Quelle est la complication immédiate a recherche lors d’une fracture de l’extremité supérieure de l’humorus :",
+    "propositions": {
+      "A": "Lesions du plexus bracheal.",
+      "B": "Lesion du erf circonflexe.",
+      "C": "Lesion du nerf radial.",
+      "D": "Lesion du nerf ulnaire."
+    },
+    "question_fr": "Quelle est la complication immédiate a recherche lors d’une fracture de l’extremité supérieure de l’humorus :",
+    "bonnes_reponses": [
+      "B"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-112",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Les fractures de l’extrémité supérieure de l’humérus sont plus fréquentes chez :",
+    "propositions": {
+      "A": "Les hommes jeunes",
+      "B": "Les enfants",
+      "C": "Les femmes ménopausées, souvent en raison d’une chute sur la main",
+      "D": "Les sportifs",
+      "E": "Les personnes âgées après une chute sur le coude"
+    },
+    "question_fr": "Les fractures de l’extrémité supérieure de l’humérus sont plus fréquentes chez :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-113",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "Un hématome de la face interne du bras et de la paroi thoracique est un signe clinique :",
+    "propositions": {
+      "A": "D’une fracture du col chirurgical",
+      "B": "D’une fracture de la diaphyse humérale",
+      "C": "D’une fracture de l’extrémité supérieure de l’humérus",
+      "D": "D’une luxation de l’épaule",
+      "E": "D’une fracture de la clavicule"
+    },
+    "question_fr": "Un hématome de la face interne du bras et de la paroi thoracique est un signe clinique :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-137",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": ".Le traitement des fractures déplacées chez le sujet âgé peut consister en :",
+    "propositions": {
+      "A": "Une immobilisation simple",
+      "B": "La pose d’une prothèse de l’épaule",
+      "C": "Une traction continue",
+      "D": "Un plâtre",
+      "E": "Une ostéosynthèse par plaque et vis"
+    },
+    "question_fr": ".Le traitement des fractures déplacées chez le sujet âgé peut consister en :",
+    "bonnes_reponses": [
+      "B",
+      "E"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false,
+    "note_cle": "Clé BE ; le livre donnait B seule. L’ostéosynthèse par plaque verrouillée reste une option chez le sujet âgé."
+  },
+  {
+    "id": "mos-249",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "La fracture engrenée, peu déplacée du col chirurgical de l’humérus chez le sujet âgé : (cochez la réponse juste)",
+    "propositions": {
+      "A": "Fait suite à une chute sur le moignon de l’épaule",
+      "B": "Nécessite toujours un traitement chirurgical par ostéosynthèse",
+      "C": "Nécessite une immobilisation de 21 jours",
+      "D": "Est habituellement de bon pronostic",
+      "E": "Est souvent compliquée de nécrose de la tête humérale"
+    },
+    "question_fr": "La fracture engrenée, peu déplacée du col chirurgical de l’humérus chez le sujet âgé : (cochez la réponse juste)",
+    "bonnes_reponses": [
+      "A",
+      "C",
+      "D"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false,
+    "note_cle": "Clé ACD ; le livre donnait A seule. Une fracture engrenée peu déplacée est de bon pronostic et immobilisée environ 3 semaines."
+  },
+  {
+    "id": "mos-283",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "44 La principale complication nerveuse d’une fracture de l’extrémité supérieure de l’humérus est l’atteinte :",
+    "propositions": {
+      "A": "Du nerf radial",
+      "B": "Du nerf médian",
+      "C": "Du nerf axillaire",
+      "D": "Du nerf musculo-cutané",
+      "E": "Du plexus brachial"
+    },
+    "question_fr": "44 La principale complication nerveuse d’une fracture de l’extrémité supérieure de l’humérus est l’atteinte :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-284",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "45 La fracture du col chirurgical de l’humérus est une fracture :",
+    "propositions": {
+      "A": "Extra-articulaire",
+      "B": "Intra-articulaire",
+      "C": "Diaphysaire",
+      "D": "Épiphyso-métaphysaire",
+      "E": "De la tête humérale"
+    },
+    "question_fr": "45 La fracture du col chirurgical de l’humérus est une fracture :",
+    "bonnes_reponses": [
+      "A"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-300",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "61 Le traitement chirurgical d’une fracture de l’extrémité supérieure de l’humérus est indiqué en cas de :",
+    "propositions": {
+      "A": "Fracture déplacée et instable",
+      "B": "Fracture non déplacée",
+      "C": "Fracture chez un patient âgé",
+      "D": "Fracture chez un enfant",
+      "E": "Douleur minime"
+    },
+    "question_fr": "61 Le traitement chirurgical d’une fracture de l’extrémité supérieure de l’humérus est indiqué en cas de :",
+    "bonnes_reponses": [
+      "A"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-313",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "74 Le principal risque après une fracture du col anatomique de l’humérus est :",
+    "propositions": {
+      "A": "Le cal vicieux",
+      "B": "La pseudarthrose",
+      "C": "Le syndrome des loges",
+      "D": "La nécrose avasculaire de la tête humérale",
+      "E": "L’infection"
+    },
+    "question_fr": "74 Le principal risque après une fracture du col anatomique de l’humérus est :",
+    "bonnes_reponses": [
+      "D"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "mos-357",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Mostaganem",
+      "texte": "Annales OTR Mostaganem · Auto-évaluation",
+      "type": "Auto-évaluation",
+      "session": "Normale",
+      "annee": "Sans date"
+    },
+    "sources": [
+      {
+        "fac": "Mostaganem",
+        "texte": "Annales OTR Mostaganem · Auto-évaluation",
+        "type": "Auto-évaluation",
+        "session": "Normale",
+        "annee": "Sans date"
+      }
+    ],
+    "question": "118 La classification de Neer est utilisée pour les fractures de l’extrémité supérieure de l’humérus. Elle est basée sur le nombre de fragments. Quel est le nombre de fragments ?",
+    "propositions": {
+      "A": "1 fragment",
+      "B": "2 fragments",
+      "C": "3 fragments",
+      "D": "4 fragments",
+      "E": "Tous les fragments"
+    },
+    "question_fr": "118 La classification de Neer est utilisée pour les fractures de l’extrémité supérieure de l’humérus. Elle est basée sur le nombre de fragments. Quel est le nombre de fragments ?",
+    "bonnes_reponses": [
+      "E"
+    ],
+    "faculty": "Mostaganem",
+    "isOran": false,
+    "isAlger": false
+  },
+  {
+    "id": "otr-044",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · P2025 A",
+      "type": "EMD",
+      "session": "Normale",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2025 A",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2025"
+      },
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2023 A",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2023"
+      }
+    ],
+    "question": "Parmi les complications des fractures de l'extrémité supérieure de l'humérus, une est la plus fréquente",
+    "propositions": {
+      "A": "Nécrose de la tête humérale",
+      "B": "Cals vicieux",
+      "C": "Raideur",
+      "D": "Atteinte de l'artère axillaire",
+      "E": "Pseudarthrose"
+    },
+    "question_fr": "Parmi les complications des fractures de l'extrémité supérieure de l'humérus, une est la plus fréquente",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false
+  },
+  {
+    "id": "otr-045",
+    "module": "otr",
+    "chapitre": "Fractures de l’extrémité supérieure de l’humérus",
+    "chapitre_num": 22,
+    "section": "Fractures de l’extrémité supérieure de l’humérus",
+    "source": {
+      "fac": "Oran",
+      "texte": "Annales OTR Oran · P2025 B",
+      "type": "EMD",
+      "session": "Normale",
+      "annee": "2025"
+    },
+    "sources": [
+      {
+        "fac": "Oran",
+        "texte": "Annales OTR Oran · P2025 B",
+        "type": "EMD",
+        "session": "Normale",
+        "annee": "2025"
+      }
+    ],
+    "question": "La limite distale des fractures de l'extrémité supérieure de l'humérus est située :",
+    "propositions": {
+      "A": "Au bord distal de l'insertion du muscle deltoïde.",
+      "B": "Au bord supérieur de l'insertion du muscle grand pectoral.",
+      "C": "Au bord inférieur de l'insertion du muscle grand pectoral.",
+      "D": "Au bord supérieur de l'insertion du muscle petit pectoral.",
+      "E": "Au bord inférieur de l'insertion du muscle petit pectoral."
+    },
+    "question_fr": "La limite distale des fractures de l'extrémité supérieure de l'humérus est située :",
+    "bonnes_reponses": [
+      "C"
+    ],
+    "faculty": "Oran",
+    "isOran": true,
+    "isAlger": false
+  },
+  {
     "id": "mos-005",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28205,7 +28205,7 @@ window.QCM_OTR = [
     "id": "mos-006",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28244,7 +28244,7 @@ window.QCM_OTR = [
     "id": "mos-008",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28282,7 +28282,7 @@ window.QCM_OTR = [
     "id": "mos-013",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28320,7 +28320,7 @@ window.QCM_OTR = [
     "id": "mos-015",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28358,7 +28358,7 @@ window.QCM_OTR = [
     "id": "mos-221",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28396,7 +28396,7 @@ window.QCM_OTR = [
     "id": "mos-223",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28434,7 +28434,7 @@ window.QCM_OTR = [
     "id": "mos-224",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28474,7 +28474,7 @@ window.QCM_OTR = [
     "id": "mos-225",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28511,7 +28511,7 @@ window.QCM_OTR = [
     "id": "mos-232",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28549,7 +28549,7 @@ window.QCM_OTR = [
     "id": "mos-233",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28587,7 +28587,7 @@ window.QCM_OTR = [
     "id": "mos-234",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28625,7 +28625,7 @@ window.QCM_OTR = [
     "id": "mos-235",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28663,7 +28663,7 @@ window.QCM_OTR = [
     "id": "mos-237",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28701,7 +28701,7 @@ window.QCM_OTR = [
     "id": "mos-238",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28739,7 +28739,7 @@ window.QCM_OTR = [
     "id": "mos-239",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28777,7 +28777,7 @@ window.QCM_OTR = [
     "id": "mos-515",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28816,7 +28816,7 @@ window.QCM_OTR = [
     "id": "mos-516",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28857,7 +28857,7 @@ window.QCM_OTR = [
     "id": "mos-527",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Mostaganem",
@@ -28895,7 +28895,7 @@ window.QCM_OTR = [
     "id": "otr-557",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -28935,7 +28935,7 @@ window.QCM_OTR = [
     "id": "otr-558",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -28977,7 +28977,7 @@ window.QCM_OTR = [
     "id": "otr-559",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29016,7 +29016,7 @@ window.QCM_OTR = [
     "id": "otr-560",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29061,7 +29061,7 @@ window.QCM_OTR = [
     "id": "otr-561",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29102,7 +29102,7 @@ window.QCM_OTR = [
     "id": "otr-562",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29143,7 +29143,7 @@ window.QCM_OTR = [
     "id": "otr-563",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29182,7 +29182,7 @@ window.QCM_OTR = [
     "id": "otr-564",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29222,7 +29222,7 @@ window.QCM_OTR = [
     "id": "otr-565",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29262,7 +29262,7 @@ window.QCM_OTR = [
     "id": "otr-566",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29300,7 +29300,7 @@ window.QCM_OTR = [
     "id": "otr-567",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29340,7 +29340,7 @@ window.QCM_OTR = [
     "id": "otr-568",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29380,7 +29380,7 @@ window.QCM_OTR = [
     "id": "otr-569",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29420,7 +29420,7 @@ window.QCM_OTR = [
     "id": "otr-570",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29460,7 +29460,7 @@ window.QCM_OTR = [
     "id": "otr-571",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29499,7 +29499,7 @@ window.QCM_OTR = [
     "id": "otr-572",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29537,7 +29537,7 @@ window.QCM_OTR = [
     "id": "otr-573",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29575,7 +29575,7 @@ window.QCM_OTR = [
     "id": "otr-574",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29613,7 +29613,7 @@ window.QCM_OTR = [
     "id": "otr-575",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29665,7 +29665,7 @@ window.QCM_OTR = [
     "id": "otr-576",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29703,7 +29703,7 @@ window.QCM_OTR = [
     "id": "otr-577",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29741,7 +29741,7 @@ window.QCM_OTR = [
     "id": "otr-579",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29779,7 +29779,7 @@ window.QCM_OTR = [
     "id": "otr-580",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29817,7 +29817,7 @@ window.QCM_OTR = [
     "id": "otr-582",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29855,7 +29855,7 @@ window.QCM_OTR = [
     "id": "otr-583",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29895,7 +29895,7 @@ window.QCM_OTR = [
     "id": "otr-584",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29933,7 +29933,7 @@ window.QCM_OTR = [
     "id": "otr-585",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -29973,7 +29973,7 @@ window.QCM_OTR = [
     "id": "otr-586",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30011,7 +30011,7 @@ window.QCM_OTR = [
     "id": "otr-587",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30050,7 +30050,7 @@ window.QCM_OTR = [
     "id": "otr-588",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30089,7 +30089,7 @@ window.QCM_OTR = [
     "id": "otr-589",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30130,7 +30130,7 @@ window.QCM_OTR = [
     "id": "otr-590",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30169,7 +30169,7 @@ window.QCM_OTR = [
     "id": "otr-591",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30208,7 +30208,7 @@ window.QCM_OTR = [
     "id": "otr-592",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30254,7 +30254,7 @@ window.QCM_OTR = [
     "id": "otr-593",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30295,7 +30295,7 @@ window.QCM_OTR = [
     "id": "otr-594",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30333,7 +30333,7 @@ window.QCM_OTR = [
     "id": "otr-595",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30371,7 +30371,7 @@ window.QCM_OTR = [
     "id": "otr-596",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30409,7 +30409,7 @@ window.QCM_OTR = [
     "id": "otr-597",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30449,7 +30449,7 @@ window.QCM_OTR = [
     "id": "otr-598",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30489,7 +30489,7 @@ window.QCM_OTR = [
     "id": "otr-599",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30528,7 +30528,7 @@ window.QCM_OTR = [
     "id": "otr-600",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30567,7 +30567,7 @@ window.QCM_OTR = [
     "id": "otr-601",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30605,7 +30605,7 @@ window.QCM_OTR = [
     "id": "otr-602",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30643,7 +30643,7 @@ window.QCM_OTR = [
     "id": "otr-603",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30682,7 +30682,7 @@ window.QCM_OTR = [
     "id": "otr-605",
     "module": "otr",
     "chapitre": "Infections ostéo-articulaires de l’enfant",
-    "chapitre_num": 21,
+    "chapitre_num": 23,
     "section": "Infections ostéo-articulaires de l’enfant",
     "source": {
       "fac": "Oran",
@@ -30727,7 +30727,7 @@ window.QCM_OTR = [
     "id": "mos-451",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30765,7 +30765,7 @@ window.QCM_OTR = [
     "id": "mos-480",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30803,7 +30803,7 @@ window.QCM_OTR = [
     "id": "mos-481",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30841,7 +30841,7 @@ window.QCM_OTR = [
     "id": "mos-532",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30879,7 +30879,7 @@ window.QCM_OTR = [
     "id": "mos-533",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30919,7 +30919,7 @@ window.QCM_OTR = [
     "id": "mos-534",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30957,7 +30957,7 @@ window.QCM_OTR = [
     "id": "mos-535",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -30998,7 +30998,7 @@ window.QCM_OTR = [
     "id": "mos-536",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31037,7 +31037,7 @@ window.QCM_OTR = [
     "id": "mos-541",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31075,7 +31075,7 @@ window.QCM_OTR = [
     "id": "mos-543",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31113,7 +31113,7 @@ window.QCM_OTR = [
     "id": "mos-544",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31151,7 +31151,7 @@ window.QCM_OTR = [
     "id": "mos-546",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31189,7 +31189,7 @@ window.QCM_OTR = [
     "id": "mos-548",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31227,7 +31227,7 @@ window.QCM_OTR = [
     "id": "mos-549",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31265,7 +31265,7 @@ window.QCM_OTR = [
     "id": "mos-552",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31303,7 +31303,7 @@ window.QCM_OTR = [
     "id": "mos-555",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31341,7 +31341,7 @@ window.QCM_OTR = [
     "id": "mos-556",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Mostaganem",
@@ -31379,7 +31379,7 @@ window.QCM_OTR = [
     "id": "otr-751",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Oran",
@@ -31417,7 +31417,7 @@ window.QCM_OTR = [
     "id": "otr-752",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Oran",
@@ -31455,7 +31455,7 @@ window.QCM_OTR = [
     "id": "otr-753",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Oran",
@@ -31496,7 +31496,7 @@ window.QCM_OTR = [
     "id": "otr-754",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Oran",
@@ -31536,7 +31536,7 @@ window.QCM_OTR = [
     "id": "otr-755",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Oran",
@@ -31575,7 +31575,7 @@ window.QCM_OTR = [
     "id": "otr-756",
     "module": "otr",
     "chapitre": "Situations de handicap et concept de qualité",
-    "chapitre_num": 22,
+    "chapitre_num": 24,
     "section": "Situations de handicap et concept de qualité",
     "source": {
       "fac": "Oran",
@@ -31613,7 +31613,7 @@ window.QCM_OTR = [
     "id": "mos-686",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Mostaganem",
@@ -31653,7 +31653,7 @@ window.QCM_OTR = [
     "id": "otr-645",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31692,7 +31692,7 @@ window.QCM_OTR = [
     "id": "otr-646",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31740,7 +31740,7 @@ window.QCM_OTR = [
     "id": "otr-647",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31779,7 +31779,7 @@ window.QCM_OTR = [
     "id": "otr-648",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31817,7 +31817,7 @@ window.QCM_OTR = [
     "id": "otr-649",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31855,7 +31855,7 @@ window.QCM_OTR = [
     "id": "otr-651",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31895,7 +31895,7 @@ window.QCM_OTR = [
     "id": "otr-652",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31934,7 +31934,7 @@ window.QCM_OTR = [
     "id": "otr-653",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -31975,7 +31975,7 @@ window.QCM_OTR = [
     "id": "otr-654",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32015,7 +32015,7 @@ window.QCM_OTR = [
     "id": "otr-655",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32056,7 +32056,7 @@ window.QCM_OTR = [
     "id": "otr-656",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32094,7 +32094,7 @@ window.QCM_OTR = [
     "id": "otr-657",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32134,7 +32134,7 @@ window.QCM_OTR = [
     "id": "otr-658",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32179,7 +32179,7 @@ window.QCM_OTR = [
     "id": "otr-659",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32217,7 +32217,7 @@ window.QCM_OTR = [
     "id": "otr-660",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32255,7 +32255,7 @@ window.QCM_OTR = [
     "id": "otr-661",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32293,7 +32293,7 @@ window.QCM_OTR = [
     "id": "otr-662",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32331,7 +32331,7 @@ window.QCM_OTR = [
     "id": "otr-663",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32369,7 +32369,7 @@ window.QCM_OTR = [
     "id": "otr-664",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32422,7 +32422,7 @@ window.QCM_OTR = [
     "id": "otr-665",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32469,7 +32469,7 @@ window.QCM_OTR = [
     "id": "otr-666",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32508,7 +32508,7 @@ window.QCM_OTR = [
     "id": "otr-667",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32546,7 +32546,7 @@ window.QCM_OTR = [
     "id": "otr-668",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32584,7 +32584,7 @@ window.QCM_OTR = [
     "id": "otr-669",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32622,7 +32622,7 @@ window.QCM_OTR = [
     "id": "otr-670",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32660,7 +32660,7 @@ window.QCM_OTR = [
     "id": "otr-671",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32698,7 +32698,7 @@ window.QCM_OTR = [
     "id": "otr-672",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32736,7 +32736,7 @@ window.QCM_OTR = [
     "id": "otr-673",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32783,7 +32783,7 @@ window.QCM_OTR = [
     "id": "otr-674",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32824,7 +32824,7 @@ window.QCM_OTR = [
     "id": "otr-675",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32864,7 +32864,7 @@ window.QCM_OTR = [
     "id": "otr-676",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32902,7 +32902,7 @@ window.QCM_OTR = [
     "id": "otr-678",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32942,7 +32942,7 @@ window.QCM_OTR = [
     "id": "otr-679",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -32983,7 +32983,7 @@ window.QCM_OTR = [
     "id": "otr-680",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33024,7 +33024,7 @@ window.QCM_OTR = [
     "id": "otr-682",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33062,7 +33062,7 @@ window.QCM_OTR = [
     "id": "otr-683",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33100,7 +33100,7 @@ window.QCM_OTR = [
     "id": "otr-684",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33138,7 +33138,7 @@ window.QCM_OTR = [
     "id": "otr-685",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33176,7 +33176,7 @@ window.QCM_OTR = [
     "id": "otr-686",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33214,7 +33214,7 @@ window.QCM_OTR = [
     "id": "otr-687",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33252,7 +33252,7 @@ window.QCM_OTR = [
     "id": "otr-688",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33290,7 +33290,7 @@ window.QCM_OTR = [
     "id": "otr-689",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33328,7 +33328,7 @@ window.QCM_OTR = [
     "id": "otr-690",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33366,7 +33366,7 @@ window.QCM_OTR = [
     "id": "otr-691",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33407,7 +33407,7 @@ window.QCM_OTR = [
     "id": "otr-692",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33455,7 +33455,7 @@ window.QCM_OTR = [
     "id": "otr-693",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33495,7 +33495,7 @@ window.QCM_OTR = [
     "id": "otr-694",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33536,7 +33536,7 @@ window.QCM_OTR = [
     "id": "otr-696",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33574,7 +33574,7 @@ window.QCM_OTR = [
     "id": "otr-697",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33612,7 +33612,7 @@ window.QCM_OTR = [
     "id": "otr-698",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33650,7 +33650,7 @@ window.QCM_OTR = [
     "id": "otr-699",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33691,7 +33691,7 @@ window.QCM_OTR = [
     "id": "otr-700",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33731,7 +33731,7 @@ window.QCM_OTR = [
     "id": "otr-701",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33771,7 +33771,7 @@ window.QCM_OTR = [
     "id": "otr-702",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33811,7 +33811,7 @@ window.QCM_OTR = [
     "id": "otr-703",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33849,7 +33849,7 @@ window.QCM_OTR = [
     "id": "otr-704",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33887,7 +33887,7 @@ window.QCM_OTR = [
     "id": "otr-705",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33926,7 +33926,7 @@ window.QCM_OTR = [
     "id": "otr-706",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -33965,7 +33965,7 @@ window.QCM_OTR = [
     "id": "otr-708",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34007,7 +34007,7 @@ window.QCM_OTR = [
     "id": "otr-709",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34049,7 +34049,7 @@ window.QCM_OTR = [
     "id": "otr-710",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34087,7 +34087,7 @@ window.QCM_OTR = [
     "id": "otr-711",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34125,7 +34125,7 @@ window.QCM_OTR = [
     "id": "otr-712",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34163,7 +34163,7 @@ window.QCM_OTR = [
     "id": "otr-713",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34201,7 +34201,7 @@ window.QCM_OTR = [
     "id": "otr-714",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34241,7 +34241,7 @@ window.QCM_OTR = [
     "id": "otr-716",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34281,7 +34281,7 @@ window.QCM_OTR = [
     "id": "otr-717",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34322,7 +34322,7 @@ window.QCM_OTR = [
     "id": "otr-718",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34361,7 +34361,7 @@ window.QCM_OTR = [
     "id": "otr-719",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34399,7 +34399,7 @@ window.QCM_OTR = [
     "id": "otr-720",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34437,7 +34437,7 @@ window.QCM_OTR = [
     "id": "otr-721",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34475,7 +34475,7 @@ window.QCM_OTR = [
     "id": "otr-722",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34513,7 +34513,7 @@ window.QCM_OTR = [
     "id": "otr-723",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34552,7 +34552,7 @@ window.QCM_OTR = [
     "id": "otr-724",
     "module": "otr",
     "chapitre": "Tumeurs osseuses",
-    "chapitre_num": 23,
+    "chapitre_num": 25,
     "section": "Tumeurs osseuses",
     "source": {
       "fac": "Oran",
@@ -34590,7 +34590,7 @@ window.QCM_OTR = [
     "id": "mos-147",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34628,7 +34628,7 @@ window.QCM_OTR = [
     "id": "mos-148",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34666,7 +34666,7 @@ window.QCM_OTR = [
     "id": "mos-149",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34704,7 +34704,7 @@ window.QCM_OTR = [
     "id": "mos-150",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34742,7 +34742,7 @@ window.QCM_OTR = [
     "id": "mos-151",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34780,7 +34780,7 @@ window.QCM_OTR = [
     "id": "mos-152",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34818,7 +34818,7 @@ window.QCM_OTR = [
     "id": "mos-271",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34856,7 +34856,7 @@ window.QCM_OTR = [
     "id": "mos-272",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34894,7 +34894,7 @@ window.QCM_OTR = [
     "id": "mos-277",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34932,7 +34932,7 @@ window.QCM_OTR = [
     "id": "mos-289",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -34970,7 +34970,7 @@ window.QCM_OTR = [
     "id": "mos-322",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Mostaganem",
@@ -35008,7 +35008,7 @@ window.QCM_OTR = [
     "id": "otr-273",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35062,7 +35062,7 @@ window.QCM_OTR = [
     "id": "otr-274",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35115,7 +35115,7 @@ window.QCM_OTR = [
     "id": "otr-275",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35162,7 +35162,7 @@ window.QCM_OTR = [
     "id": "otr-278",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35209,7 +35209,7 @@ window.QCM_OTR = [
     "id": "otr-279",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35248,7 +35248,7 @@ window.QCM_OTR = [
     "id": "otr-280",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35295,7 +35295,7 @@ window.QCM_OTR = [
     "id": "otr-282",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35334,7 +35334,7 @@ window.QCM_OTR = [
     "id": "otr-283",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35373,7 +35373,7 @@ window.QCM_OTR = [
     "id": "otr-284",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35414,7 +35414,7 @@ window.QCM_OTR = [
     "id": "otr-285",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35454,7 +35454,7 @@ window.QCM_OTR = [
     "id": "otr-286",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35494,7 +35494,7 @@ window.QCM_OTR = [
     "id": "otr-288",
     "module": "otr",
     "chapitre": "Lésions ligamentaires du genou",
-    "chapitre_num": 24,
+    "chapitre_num": 26,
     "section": "Lésions ligamentaires du genou",
     "source": {
       "fac": "Oran",
@@ -35534,7 +35534,7 @@ window.QCM_OTR = [
     "id": "mos-365",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35573,7 +35573,7 @@ window.QCM_OTR = [
     "id": "mos-367",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35614,7 +35614,7 @@ window.QCM_OTR = [
     "id": "mos-369",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35653,7 +35653,7 @@ window.QCM_OTR = [
     "id": "mos-372",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35695,7 +35695,7 @@ window.QCM_OTR = [
     "id": "mos-373",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35733,7 +35733,7 @@ window.QCM_OTR = [
     "id": "mos-378",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35771,7 +35771,7 @@ window.QCM_OTR = [
     "id": "mos-381",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35811,7 +35811,7 @@ window.QCM_OTR = [
     "id": "mos-384",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35851,7 +35851,7 @@ window.QCM_OTR = [
     "id": "mos-393",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35889,7 +35889,7 @@ window.QCM_OTR = [
     "id": "mos-394",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35927,7 +35927,7 @@ window.QCM_OTR = [
     "id": "mos-395",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -35965,7 +35965,7 @@ window.QCM_OTR = [
     "id": "mos-401",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36003,7 +36003,7 @@ window.QCM_OTR = [
     "id": "mos-404",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36043,7 +36043,7 @@ window.QCM_OTR = [
     "id": "mos-407",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36081,7 +36081,7 @@ window.QCM_OTR = [
     "id": "mos-414",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36119,7 +36119,7 @@ window.QCM_OTR = [
     "id": "mos-421",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36157,7 +36157,7 @@ window.QCM_OTR = [
     "id": "mos-422",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36196,7 +36196,7 @@ window.QCM_OTR = [
     "id": "mos-423",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36234,7 +36234,7 @@ window.QCM_OTR = [
     "id": "mos-424",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36272,7 +36272,7 @@ window.QCM_OTR = [
     "id": "mos-501",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36311,7 +36311,7 @@ window.QCM_OTR = [
     "id": "mos-510",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Mostaganem",
@@ -36350,7 +36350,7 @@ window.QCM_OTR = [
     "id": "otr-318",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36395,7 +36395,7 @@ window.QCM_OTR = [
     "id": "otr-319",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36457,7 +36457,7 @@ window.QCM_OTR = [
     "id": "otr-320",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36497,7 +36497,7 @@ window.QCM_OTR = [
     "id": "otr-321",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36537,7 +36537,7 @@ window.QCM_OTR = [
     "id": "otr-322",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36579,7 +36579,7 @@ window.QCM_OTR = [
     "id": "otr-324",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36619,7 +36619,7 @@ window.QCM_OTR = [
     "id": "otr-326",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36666,7 +36666,7 @@ window.QCM_OTR = [
     "id": "otr-327",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36706,7 +36706,7 @@ window.QCM_OTR = [
     "id": "otr-328",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36745,7 +36745,7 @@ window.QCM_OTR = [
     "id": "otr-329",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36786,7 +36786,7 @@ window.QCM_OTR = [
     "id": "otr-330",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36834,7 +36834,7 @@ window.QCM_OTR = [
     "id": "otr-331",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36873,7 +36873,7 @@ window.QCM_OTR = [
     "id": "otr-333",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36911,7 +36911,7 @@ window.QCM_OTR = [
     "id": "otr-334",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36950,7 +36950,7 @@ window.QCM_OTR = [
     "id": "otr-335",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -36995,7 +36995,7 @@ window.QCM_OTR = [
     "id": "otr-336",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -37034,7 +37034,7 @@ window.QCM_OTR = [
     "id": "otr-337",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -37074,7 +37074,7 @@ window.QCM_OTR = [
     "id": "otr-338",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -37112,7 +37112,7 @@ window.QCM_OTR = [
     "id": "otr-339",
     "module": "otr",
     "chapitre": "Lombosciatique",
-    "chapitre_num": 25,
+    "chapitre_num": 27,
     "section": "Lombosciatique",
     "source": {
       "fac": "Oran",
@@ -37150,7 +37150,7 @@ window.QCM_OTR = [
     "id": "mos-563",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37188,7 +37188,7 @@ window.QCM_OTR = [
     "id": "mos-564",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37225,7 +37225,7 @@ window.QCM_OTR = [
     "id": "mos-565",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37263,7 +37263,7 @@ window.QCM_OTR = [
     "id": "mos-567",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37301,7 +37301,7 @@ window.QCM_OTR = [
     "id": "mos-568",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37340,7 +37340,7 @@ window.QCM_OTR = [
     "id": "mos-569",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37378,7 +37378,7 @@ window.QCM_OTR = [
     "id": "mos-570",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37418,7 +37418,7 @@ window.QCM_OTR = [
     "id": "mos-571",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37456,7 +37456,7 @@ window.QCM_OTR = [
     "id": "mos-572",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37495,7 +37495,7 @@ window.QCM_OTR = [
     "id": "mos-573",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37533,7 +37533,7 @@ window.QCM_OTR = [
     "id": "mos-574",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37571,7 +37571,7 @@ window.QCM_OTR = [
     "id": "mos-575",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37611,7 +37611,7 @@ window.QCM_OTR = [
     "id": "mos-576",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37649,7 +37649,7 @@ window.QCM_OTR = [
     "id": "mos-577",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37687,7 +37687,7 @@ window.QCM_OTR = [
     "id": "mos-578",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37725,7 +37725,7 @@ window.QCM_OTR = [
     "id": "mos-579",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37763,7 +37763,7 @@ window.QCM_OTR = [
     "id": "mos-580",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37801,7 +37801,7 @@ window.QCM_OTR = [
     "id": "mos-581",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Mostaganem",
@@ -37840,7 +37840,7 @@ window.QCM_OTR = [
     "id": "otr-098",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Oran",
@@ -37881,7 +37881,7 @@ window.QCM_OTR = [
     "id": "otr-099",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Oran",
@@ -37921,7 +37921,7 @@ window.QCM_OTR = [
     "id": "otr-100",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Oran",
@@ -37960,7 +37960,7 @@ window.QCM_OTR = [
     "id": "otr-101",
     "module": "otr",
     "chapitre": "Luxation du coude",
-    "chapitre_num": 26,
+    "chapitre_num": 28,
     "section": "Luxation du coude",
     "source": {
       "fac": "Oran",
@@ -38000,7 +38000,7 @@ window.QCM_OTR = [
     "id": "mos-244",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38037,7 +38037,7 @@ window.QCM_OTR = [
     "id": "mos-246",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38075,7 +38075,7 @@ window.QCM_OTR = [
     "id": "mos-275",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38113,7 +38113,7 @@ window.QCM_OTR = [
     "id": "mos-279",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38151,7 +38151,7 @@ window.QCM_OTR = [
     "id": "mos-280",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38190,7 +38190,7 @@ window.QCM_OTR = [
     "id": "mos-287",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38228,7 +38228,7 @@ window.QCM_OTR = [
     "id": "mos-305",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38266,7 +38266,7 @@ window.QCM_OTR = [
     "id": "mos-317",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38304,7 +38304,7 @@ window.QCM_OTR = [
     "id": "mos-325",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38342,7 +38342,7 @@ window.QCM_OTR = [
     "id": "mos-327",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38380,7 +38380,7 @@ window.QCM_OTR = [
     "id": "mos-329",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38418,7 +38418,7 @@ window.QCM_OTR = [
     "id": "mos-330",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38456,7 +38456,7 @@ window.QCM_OTR = [
     "id": "mos-333",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38494,7 +38494,7 @@ window.QCM_OTR = [
     "id": "mos-368",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38533,7 +38533,7 @@ window.QCM_OTR = [
     "id": "mos-612",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38572,7 +38572,7 @@ window.QCM_OTR = [
     "id": "mos-614",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38612,7 +38612,7 @@ window.QCM_OTR = [
     "id": "mos-616",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38650,7 +38650,7 @@ window.QCM_OTR = [
     "id": "mos-617",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38688,7 +38688,7 @@ window.QCM_OTR = [
     "id": "mos-618",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38726,7 +38726,7 @@ window.QCM_OTR = [
     "id": "mos-619",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38764,7 +38764,7 @@ window.QCM_OTR = [
     "id": "mos-620",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38802,7 +38802,7 @@ window.QCM_OTR = [
     "id": "mos-622",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38840,7 +38840,7 @@ window.QCM_OTR = [
     "id": "mos-624",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38878,7 +38878,7 @@ window.QCM_OTR = [
     "id": "mos-626",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38916,7 +38916,7 @@ window.QCM_OTR = [
     "id": "mos-627",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38954,7 +38954,7 @@ window.QCM_OTR = [
     "id": "mos-629",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -38992,7 +38992,7 @@ window.QCM_OTR = [
     "id": "mos-630",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39030,7 +39030,7 @@ window.QCM_OTR = [
     "id": "mos-632",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39068,7 +39068,7 @@ window.QCM_OTR = [
     "id": "mos-633",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39106,7 +39106,7 @@ window.QCM_OTR = [
     "id": "mos-634",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39144,7 +39144,7 @@ window.QCM_OTR = [
     "id": "mos-635",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39182,7 +39182,7 @@ window.QCM_OTR = [
     "id": "mos-636",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39220,7 +39220,7 @@ window.QCM_OTR = [
     "id": "mos-670",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Mostaganem",
@@ -39260,7 +39260,7 @@ window.QCM_OTR = [
     "id": "otr-152",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39301,7 +39301,7 @@ window.QCM_OTR = [
     "id": "otr-153",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39341,7 +39341,7 @@ window.QCM_OTR = [
     "id": "otr-154",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39380,7 +39380,7 @@ window.QCM_OTR = [
     "id": "otr-155",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39421,7 +39421,7 @@ window.QCM_OTR = [
     "id": "otr-156",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39462,7 +39462,7 @@ window.QCM_OTR = [
     "id": "otr-157",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39500,7 +39500,7 @@ window.QCM_OTR = [
     "id": "otr-158",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39538,7 +39538,7 @@ window.QCM_OTR = [
     "id": "otr-159",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39576,7 +39576,7 @@ window.QCM_OTR = [
     "id": "otr-160",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39614,7 +39614,7 @@ window.QCM_OTR = [
     "id": "otr-161",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39653,7 +39653,7 @@ window.QCM_OTR = [
     "id": "otr-162",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39693,7 +39693,7 @@ window.QCM_OTR = [
     "id": "otr-163",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39732,7 +39732,7 @@ window.QCM_OTR = [
     "id": "otr-164",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39772,7 +39772,7 @@ window.QCM_OTR = [
     "id": "otr-165",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39817,7 +39817,7 @@ window.QCM_OTR = [
     "id": "otr-166",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39857,7 +39857,7 @@ window.QCM_OTR = [
     "id": "otr-167",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39897,7 +39897,7 @@ window.QCM_OTR = [
     "id": "otr-168",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39935,7 +39935,7 @@ window.QCM_OTR = [
     "id": "otr-169",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -39974,7 +39974,7 @@ window.QCM_OTR = [
     "id": "otr-170",
     "module": "otr",
     "chapitre": "Luxation traumatique de la hanche",
-    "chapitre_num": 27,
+    "chapitre_num": 29,
     "section": "Luxation traumatique de la hanche",
     "source": {
       "fac": "Oran",
@@ -40012,7 +40012,7 @@ window.QCM_OTR = [
     "id": "mos-038",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Mostaganem",
@@ -40051,7 +40051,7 @@ window.QCM_OTR = [
     "id": "mos-039",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Mostaganem",
@@ -40089,7 +40089,7 @@ window.QCM_OTR = [
     "id": "mos-226",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Mostaganem",
@@ -40127,7 +40127,7 @@ window.QCM_OTR = [
     "id": "mos-227",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Mostaganem",
@@ -40166,7 +40166,7 @@ window.QCM_OTR = [
     "id": "mos-671",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Mostaganem",
@@ -40206,7 +40206,7 @@ window.QCM_OTR = [
     "id": "mos-672",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Mostaganem",
@@ -40246,7 +40246,7 @@ window.QCM_OTR = [
     "id": "otr-622",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40286,7 +40286,7 @@ window.QCM_OTR = [
     "id": "otr-623",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40327,7 +40327,7 @@ window.QCM_OTR = [
     "id": "otr-624",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40368,7 +40368,7 @@ window.QCM_OTR = [
     "id": "otr-625",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40407,7 +40407,7 @@ window.QCM_OTR = [
     "id": "otr-626",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40447,7 +40447,7 @@ window.QCM_OTR = [
     "id": "otr-627",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40488,7 +40488,7 @@ window.QCM_OTR = [
     "id": "otr-628",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40530,7 +40530,7 @@ window.QCM_OTR = [
     "id": "otr-629",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40571,7 +40571,7 @@ window.QCM_OTR = [
     "id": "otr-630",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40612,7 +40612,7 @@ window.QCM_OTR = [
     "id": "otr-631",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40652,7 +40652,7 @@ window.QCM_OTR = [
     "id": "otr-632",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40690,7 +40690,7 @@ window.QCM_OTR = [
     "id": "otr-633",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40730,7 +40730,7 @@ window.QCM_OTR = [
     "id": "otr-634",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40770,7 +40770,7 @@ window.QCM_OTR = [
     "id": "otr-635",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40809,7 +40809,7 @@ window.QCM_OTR = [
     "id": "otr-636",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40858,7 +40858,7 @@ window.QCM_OTR = [
     "id": "otr-638",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40898,7 +40898,7 @@ window.QCM_OTR = [
     "id": "otr-639",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40936,7 +40936,7 @@ window.QCM_OTR = [
     "id": "otr-640",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -40974,7 +40974,7 @@ window.QCM_OTR = [
     "id": "otr-641",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -41013,7 +41013,7 @@ window.QCM_OTR = [
     "id": "otr-642",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -41053,7 +41053,7 @@ window.QCM_OTR = [
     "id": "otr-643",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -41094,7 +41094,7 @@ window.QCM_OTR = [
     "id": "otr-644",
     "module": "otr",
     "chapitre": "Malformations congénitales du pied et pied bot varus équin",
-    "chapitre_num": 28,
+    "chapitre_num": 30,
     "section": "Malformations congénitales du pied et pied bot varus équin",
     "source": {
       "fac": "Oran",
@@ -41133,7 +41133,7 @@ window.QCM_OTR = [
     "id": "mos-031",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Mostaganem",
@@ -41181,7 +41181,7 @@ window.QCM_OTR = [
     "id": "mos-434",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Mostaganem",
@@ -41220,7 +41220,7 @@ window.QCM_OTR = [
     "id": "mos-441",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Mostaganem",
@@ -41258,7 +41258,7 @@ window.QCM_OTR = [
     "id": "mos-662",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Mostaganem",
@@ -41297,7 +41297,7 @@ window.QCM_OTR = [
     "id": "otr-726",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41337,7 +41337,7 @@ window.QCM_OTR = [
     "id": "otr-727",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41378,7 +41378,7 @@ window.QCM_OTR = [
     "id": "otr-728",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41417,7 +41417,7 @@ window.QCM_OTR = [
     "id": "otr-729",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41469,7 +41469,7 @@ window.QCM_OTR = [
     "id": "otr-730",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41510,7 +41510,7 @@ window.QCM_OTR = [
     "id": "otr-731",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41555,7 +41555,7 @@ window.QCM_OTR = [
     "id": "otr-733",
     "module": "otr",
     "chapitre": "Membre inférieur et locomotion",
-    "chapitre_num": 29,
+    "chapitre_num": 31,
     "section": "Membre inférieur et locomotion",
     "source": {
       "fac": "Oran",
@@ -41595,7 +41595,7 @@ window.QCM_OTR = [
     "id": "mos-350",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41633,7 +41633,7 @@ window.QCM_OTR = [
     "id": "mos-437",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41672,7 +41672,7 @@ window.QCM_OTR = [
     "id": "mos-484",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41710,7 +41710,7 @@ window.QCM_OTR = [
     "id": "mos-487",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41748,7 +41748,7 @@ window.QCM_OTR = [
     "id": "mos-519",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41788,7 +41788,7 @@ window.QCM_OTR = [
     "id": "mos-566",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41826,7 +41826,7 @@ window.QCM_OTR = [
     "id": "mos-591",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41866,7 +41866,7 @@ window.QCM_OTR = [
     "id": "mos-594",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41905,7 +41905,7 @@ window.QCM_OTR = [
     "id": "mos-595",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41945,7 +41945,7 @@ window.QCM_OTR = [
     "id": "mos-597",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -41983,7 +41983,7 @@ window.QCM_OTR = [
     "id": "mos-599",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -42021,7 +42021,7 @@ window.QCM_OTR = [
     "id": "mos-600",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -42059,7 +42059,7 @@ window.QCM_OTR = [
     "id": "mos-601",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -42097,7 +42097,7 @@ window.QCM_OTR = [
     "id": "mos-603",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -42135,7 +42135,7 @@ window.QCM_OTR = [
     "id": "mos-642",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -42173,7 +42173,7 @@ window.QCM_OTR = [
     "id": "mos-646",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Mostaganem",
@@ -42212,7 +42212,7 @@ window.QCM_OTR = [
     "id": "otr-738",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42259,7 +42259,7 @@ window.QCM_OTR = [
     "id": "otr-739",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42313,7 +42313,7 @@ window.QCM_OTR = [
     "id": "otr-740",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42351,7 +42351,7 @@ window.QCM_OTR = [
     "id": "otr-742",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42391,7 +42391,7 @@ window.QCM_OTR = [
     "id": "otr-743",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42431,7 +42431,7 @@ window.QCM_OTR = [
     "id": "otr-744",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42472,7 +42472,7 @@ window.QCM_OTR = [
     "id": "otr-745",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42510,7 +42510,7 @@ window.QCM_OTR = [
     "id": "otr-746",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42548,7 +42548,7 @@ window.QCM_OTR = [
     "id": "otr-747",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42587,7 +42587,7 @@ window.QCM_OTR = [
     "id": "otr-748",
     "module": "otr",
     "chapitre": "Membre supérieur et préhension",
-    "chapitre_num": 30,
+    "chapitre_num": 32,
     "section": "Membre supérieur et préhension",
     "source": {
       "fac": "Oran",
@@ -42627,7 +42627,7 @@ window.QCM_OTR = [
     "id": "mos-018",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42665,7 +42665,7 @@ window.QCM_OTR = [
     "id": "mos-021",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42703,7 +42703,7 @@ window.QCM_OTR = [
     "id": "mos-024",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42743,7 +42743,7 @@ window.QCM_OTR = [
     "id": "mos-026",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42781,7 +42781,7 @@ window.QCM_OTR = [
     "id": "mos-028",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42819,7 +42819,7 @@ window.QCM_OTR = [
     "id": "mos-045",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42857,7 +42857,7 @@ window.QCM_OTR = [
     "id": "mos-179",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42895,7 +42895,7 @@ window.QCM_OTR = [
     "id": "mos-242",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42934,7 +42934,7 @@ window.QCM_OTR = [
     "id": "mos-250",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -42973,7 +42973,7 @@ window.QCM_OTR = [
     "id": "mos-356",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43011,7 +43011,7 @@ window.QCM_OTR = [
     "id": "mos-436",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43051,7 +43051,7 @@ window.QCM_OTR = [
     "id": "mos-463",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43089,7 +43089,7 @@ window.QCM_OTR = [
     "id": "mos-490",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43127,7 +43127,7 @@ window.QCM_OTR = [
     "id": "mos-505",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43165,7 +43165,7 @@ window.QCM_OTR = [
     "id": "mos-507",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43204,7 +43204,7 @@ window.QCM_OTR = [
     "id": "mos-509",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43242,7 +43242,7 @@ window.QCM_OTR = [
     "id": "mos-656",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43282,7 +43282,7 @@ window.QCM_OTR = [
     "id": "mos-657",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43321,7 +43321,7 @@ window.QCM_OTR = [
     "id": "mos-658",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43361,7 +43361,7 @@ window.QCM_OTR = [
     "id": "mos-659",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43400,7 +43400,7 @@ window.QCM_OTR = [
     "id": "mos-660",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43440,7 +43440,7 @@ window.QCM_OTR = [
     "id": "mos-661",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Mostaganem",
@@ -43480,7 +43480,7 @@ window.QCM_OTR = [
     "id": "otr-410",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43518,7 +43518,7 @@ window.QCM_OTR = [
     "id": "otr-411",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43556,7 +43556,7 @@ window.QCM_OTR = [
     "id": "otr-412",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43594,7 +43594,7 @@ window.QCM_OTR = [
     "id": "otr-413",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43634,7 +43634,7 @@ window.QCM_OTR = [
     "id": "otr-414",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43674,7 +43674,7 @@ window.QCM_OTR = [
     "id": "otr-415",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43712,7 +43712,7 @@ window.QCM_OTR = [
     "id": "otr-416",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43753,7 +43753,7 @@ window.QCM_OTR = [
     "id": "otr-417",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43792,7 +43792,7 @@ window.QCM_OTR = [
     "id": "otr-418",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43832,7 +43832,7 @@ window.QCM_OTR = [
     "id": "otr-419",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43872,7 +43872,7 @@ window.QCM_OTR = [
     "id": "otr-420",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43912,7 +43912,7 @@ window.QCM_OTR = [
     "id": "otr-421",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43953,7 +43953,7 @@ window.QCM_OTR = [
     "id": "otr-422",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -43993,7 +43993,7 @@ window.QCM_OTR = [
     "id": "otr-423",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44034,7 +44034,7 @@ window.QCM_OTR = [
     "id": "otr-424",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44074,7 +44074,7 @@ window.QCM_OTR = [
     "id": "otr-425",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44112,7 +44112,7 @@ window.QCM_OTR = [
     "id": "otr-426",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44150,7 +44150,7 @@ window.QCM_OTR = [
     "id": "otr-427",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44188,7 +44188,7 @@ window.QCM_OTR = [
     "id": "otr-428",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44228,7 +44228,7 @@ window.QCM_OTR = [
     "id": "otr-429",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44268,7 +44268,7 @@ window.QCM_OTR = [
     "id": "otr-430",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44308,7 +44308,7 @@ window.QCM_OTR = [
     "id": "otr-431",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44347,7 +44347,7 @@ window.QCM_OTR = [
     "id": "otr-432",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44387,7 +44387,7 @@ window.QCM_OTR = [
     "id": "otr-433",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44426,7 +44426,7 @@ window.QCM_OTR = [
     "id": "otr-434",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44464,7 +44464,7 @@ window.QCM_OTR = [
     "id": "otr-435",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44502,7 +44502,7 @@ window.QCM_OTR = [
     "id": "otr-436",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44542,7 +44542,7 @@ window.QCM_OTR = [
     "id": "otr-437",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44582,7 +44582,7 @@ window.QCM_OTR = [
     "id": "otr-438",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44622,7 +44622,7 @@ window.QCM_OTR = [
     "id": "otr-439",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44663,7 +44663,7 @@ window.QCM_OTR = [
     "id": "otr-440",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44703,7 +44703,7 @@ window.QCM_OTR = [
     "id": "otr-441",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44742,7 +44742,7 @@ window.QCM_OTR = [
     "id": "otr-442",
     "module": "otr",
     "chapitre": "Ostéopathies déminéralisantes",
-    "chapitre_num": 31,
+    "chapitre_num": 33,
     "section": "Ostéopathies déminéralisantes",
     "source": {
       "fac": "Oran",
@@ -44783,7 +44783,7 @@ window.QCM_OTR = [
     "id": "mos-157",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -44822,7 +44822,7 @@ window.QCM_OTR = [
     "id": "mos-162",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -44860,7 +44860,7 @@ window.QCM_OTR = [
     "id": "mos-163",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -44898,7 +44898,7 @@ window.QCM_OTR = [
     "id": "mos-165",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -44938,7 +44938,7 @@ window.QCM_OTR = [
     "id": "mos-166",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -44976,7 +44976,7 @@ window.QCM_OTR = [
     "id": "mos-167",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45014,7 +45014,7 @@ window.QCM_OTR = [
     "id": "mos-169",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45052,7 +45052,7 @@ window.QCM_OTR = [
     "id": "mos-170",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45090,7 +45090,7 @@ window.QCM_OTR = [
     "id": "mos-172",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45128,7 +45128,7 @@ window.QCM_OTR = [
     "id": "mos-174",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45166,7 +45166,7 @@ window.QCM_OTR = [
     "id": "mos-465",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45204,7 +45204,7 @@ window.QCM_OTR = [
     "id": "mos-471",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Mostaganem",
@@ -45242,7 +45242,7 @@ window.QCM_OTR = [
     "id": "otr-289",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45281,7 +45281,7 @@ window.QCM_OTR = [
     "id": "otr-290",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45321,7 +45321,7 @@ window.QCM_OTR = [
     "id": "otr-291",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45361,7 +45361,7 @@ window.QCM_OTR = [
     "id": "otr-292",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45403,7 +45403,7 @@ window.QCM_OTR = [
     "id": "otr-293",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45443,7 +45443,7 @@ window.QCM_OTR = [
     "id": "otr-294",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45484,7 +45484,7 @@ window.QCM_OTR = [
     "id": "otr-295",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45530,7 +45530,7 @@ window.QCM_OTR = [
     "id": "otr-296",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45570,7 +45570,7 @@ window.QCM_OTR = [
     "id": "otr-298",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45609,7 +45609,7 @@ window.QCM_OTR = [
     "id": "otr-299",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45650,7 +45650,7 @@ window.QCM_OTR = [
     "id": "otr-300",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45689,7 +45689,7 @@ window.QCM_OTR = [
     "id": "otr-301",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45728,7 +45728,7 @@ window.QCM_OTR = [
     "id": "otr-302",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45768,7 +45768,7 @@ window.QCM_OTR = [
     "id": "otr-303",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45806,7 +45806,7 @@ window.QCM_OTR = [
     "id": "otr-304",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45844,7 +45844,7 @@ window.QCM_OTR = [
     "id": "otr-305",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45890,7 +45890,7 @@ window.QCM_OTR = [
     "id": "otr-306",
     "module": "otr",
     "chapitre": "Polyarthrite rhumatoïde",
-    "chapitre_num": 32,
+    "chapitre_num": 34,
     "section": "Polyarthrite rhumatoïde",
     "source": {
       "fac": "Oran",
@@ -45930,7 +45930,7 @@ window.QCM_OTR = [
     "id": "mos-433",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -45970,7 +45970,7 @@ window.QCM_OTR = [
     "id": "mos-435",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -46012,7 +46012,7 @@ window.QCM_OTR = [
     "id": "mos-446",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -46051,7 +46051,7 @@ window.QCM_OTR = [
     "id": "mos-462",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -46089,7 +46089,7 @@ window.QCM_OTR = [
     "id": "mos-492",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -46127,7 +46127,7 @@ window.QCM_OTR = [
     "id": "mos-493",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -46165,7 +46165,7 @@ window.QCM_OTR = [
     "id": "mos-495",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Mostaganem",
@@ -46203,7 +46203,7 @@ window.QCM_OTR = [
     "id": "otr-757",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46255,7 +46255,7 @@ window.QCM_OTR = [
     "id": "otr-758",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46296,7 +46296,7 @@ window.QCM_OTR = [
     "id": "otr-759",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46334,7 +46334,7 @@ window.QCM_OTR = [
     "id": "otr-761",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46373,7 +46373,7 @@ window.QCM_OTR = [
     "id": "otr-762",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46411,7 +46411,7 @@ window.QCM_OTR = [
     "id": "otr-763",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46450,7 +46450,7 @@ window.QCM_OTR = [
     "id": "otr-764",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46491,7 +46491,7 @@ window.QCM_OTR = [
     "id": "otr-766",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46529,7 +46529,7 @@ window.QCM_OTR = [
     "id": "otr-767",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46568,7 +46568,7 @@ window.QCM_OTR = [
     "id": "otr-768",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46608,7 +46608,7 @@ window.QCM_OTR = [
     "id": "otr-769",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46646,7 +46646,7 @@ window.QCM_OTR = [
     "id": "otr-770",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46686,7 +46686,7 @@ window.QCM_OTR = [
     "id": "otr-771",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46727,7 +46727,7 @@ window.QCM_OTR = [
     "id": "otr-772",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46766,7 +46766,7 @@ window.QCM_OTR = [
     "id": "otr-773",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46806,7 +46806,7 @@ window.QCM_OTR = [
     "id": "otr-774",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46846,7 +46846,7 @@ window.QCM_OTR = [
     "id": "otr-775",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46886,7 +46886,7 @@ window.QCM_OTR = [
     "id": "otr-776",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46927,7 +46927,7 @@ window.QCM_OTR = [
     "id": "otr-777",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -46967,7 +46967,7 @@ window.QCM_OTR = [
     "id": "otr-778",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -47005,7 +47005,7 @@ window.QCM_OTR = [
     "id": "otr-779",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -47046,7 +47046,7 @@ window.QCM_OTR = [
     "id": "otr-780",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -47087,7 +47087,7 @@ window.QCM_OTR = [
     "id": "otr-781",
     "module": "otr",
     "chapitre": "Principes de base en médecine physique et de réadaptation",
-    "chapitre_num": 33,
+    "chapitre_num": 35,
     "section": "Principes de base en médecine physique et de réadaptation",
     "source": {
       "fac": "Oran",
@@ -47127,7 +47127,7 @@ window.QCM_OTR = [
     "id": "mos-439",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Mostaganem",
@@ -47167,7 +47167,7 @@ window.QCM_OTR = [
     "id": "mos-690",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Mostaganem",
@@ -47207,7 +47207,7 @@ window.QCM_OTR = [
     "id": "mos-691",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Mostaganem",
@@ -47247,7 +47247,7 @@ window.QCM_OTR = [
     "id": "mos-692",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Mostaganem",
@@ -47288,7 +47288,7 @@ window.QCM_OTR = [
     "id": "otr-858",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47328,7 +47328,7 @@ window.QCM_OTR = [
     "id": "otr-859",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47369,7 +47369,7 @@ window.QCM_OTR = [
     "id": "otr-860",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47409,7 +47409,7 @@ window.QCM_OTR = [
     "id": "otr-861",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47450,7 +47450,7 @@ window.QCM_OTR = [
     "id": "otr-862",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47490,7 +47490,7 @@ window.QCM_OTR = [
     "id": "otr-863",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47530,7 +47530,7 @@ window.QCM_OTR = [
     "id": "otr-864",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47570,7 +47570,7 @@ window.QCM_OTR = [
     "id": "otr-865",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47609,7 +47609,7 @@ window.QCM_OTR = [
     "id": "otr-866",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47648,7 +47648,7 @@ window.QCM_OTR = [
     "id": "otr-867",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47688,7 +47688,7 @@ window.QCM_OTR = [
     "id": "otr-868",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47729,7 +47729,7 @@ window.QCM_OTR = [
     "id": "otr-869",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47769,7 +47769,7 @@ window.QCM_OTR = [
     "id": "otr-870",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47810,7 +47810,7 @@ window.QCM_OTR = [
     "id": "otr-871",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47850,7 +47850,7 @@ window.QCM_OTR = [
     "id": "otr-872",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47888,7 +47888,7 @@ window.QCM_OTR = [
     "id": "otr-873",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47928,7 +47928,7 @@ window.QCM_OTR = [
     "id": "otr-874",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -47968,7 +47968,7 @@ window.QCM_OTR = [
     "id": "otr-875",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -48006,7 +48006,7 @@ window.QCM_OTR = [
     "id": "otr-876",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -48044,7 +48044,7 @@ window.QCM_OTR = [
     "id": "otr-877",
     "module": "otr",
     "chapitre": "Prise en charge des lésions traumatiques en MPR",
-    "chapitre_num": 34,
+    "chapitre_num": 36,
     "section": "Prise en charge des lésions traumatiques en MPR",
     "source": {
       "fac": "Oran",
@@ -48084,7 +48084,7 @@ window.QCM_OTR = [
     "id": "mos-440",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Mostaganem",
@@ -48122,7 +48122,7 @@ window.QCM_OTR = [
     "id": "mos-674",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Mostaganem",
@@ -48169,7 +48169,7 @@ window.QCM_OTR = [
     "id": "mos-675",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Mostaganem",
@@ -48214,7 +48214,7 @@ window.QCM_OTR = [
     "id": "mos-676",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Mostaganem",
@@ -48261,7 +48261,7 @@ window.QCM_OTR = [
     "id": "mos-677",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Mostaganem",
@@ -48301,7 +48301,7 @@ window.QCM_OTR = [
     "id": "otr-842",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48340,7 +48340,7 @@ window.QCM_OTR = [
     "id": "otr-843",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48388,7 +48388,7 @@ window.QCM_OTR = [
     "id": "otr-844",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48435,7 +48435,7 @@ window.QCM_OTR = [
     "id": "otr-845",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48474,7 +48474,7 @@ window.QCM_OTR = [
     "id": "otr-848",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48513,7 +48513,7 @@ window.QCM_OTR = [
     "id": "otr-849",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48552,7 +48552,7 @@ window.QCM_OTR = [
     "id": "otr-850",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48590,7 +48590,7 @@ window.QCM_OTR = [
     "id": "otr-851",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48628,7 +48628,7 @@ window.QCM_OTR = [
     "id": "otr-852",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48666,7 +48666,7 @@ window.QCM_OTR = [
     "id": "otr-853",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48707,7 +48707,7 @@ window.QCM_OTR = [
     "id": "otr-854",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48747,7 +48747,7 @@ window.QCM_OTR = [
     "id": "otr-855",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48785,7 +48785,7 @@ window.QCM_OTR = [
     "id": "otr-856",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48827,7 +48827,7 @@ window.QCM_OTR = [
     "id": "otr-857",
     "module": "otr",
     "chapitre": "Rééducation des pathologies rhumatismales",
-    "chapitre_num": 35,
+    "chapitre_num": 37,
     "section": "Rééducation des pathologies rhumatismales",
     "source": {
       "fac": "Oran",
@@ -48865,7 +48865,7 @@ window.QCM_OTR = [
     "id": "mos-360",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -48905,7 +48905,7 @@ window.QCM_OTR = [
     "id": "mos-361",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -48946,7 +48946,7 @@ window.QCM_OTR = [
     "id": "mos-362",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -48987,7 +48987,7 @@ window.QCM_OTR = [
     "id": "mos-447",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -49027,7 +49027,7 @@ window.QCM_OTR = [
     "id": "mos-448",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -49067,7 +49067,7 @@ window.QCM_OTR = [
     "id": "mos-458",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -49105,7 +49105,7 @@ window.QCM_OTR = [
     "id": "mos-477",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -49143,7 +49143,7 @@ window.QCM_OTR = [
     "id": "mos-485",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -49181,7 +49181,7 @@ window.QCM_OTR = [
     "id": "mos-502",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Mostaganem",
@@ -49219,7 +49219,7 @@ window.QCM_OTR = [
     "id": "otr-379",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49258,7 +49258,7 @@ window.QCM_OTR = [
     "id": "otr-380",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49297,7 +49297,7 @@ window.QCM_OTR = [
     "id": "otr-381",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49337,7 +49337,7 @@ window.QCM_OTR = [
     "id": "otr-382",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49377,7 +49377,7 @@ window.QCM_OTR = [
     "id": "otr-383",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49415,7 +49415,7 @@ window.QCM_OTR = [
     "id": "otr-384",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49454,7 +49454,7 @@ window.QCM_OTR = [
     "id": "otr-385",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49493,7 +49493,7 @@ window.QCM_OTR = [
     "id": "otr-386",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49532,7 +49532,7 @@ window.QCM_OTR = [
     "id": "otr-387",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49571,7 +49571,7 @@ window.QCM_OTR = [
     "id": "otr-388",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49613,7 +49613,7 @@ window.QCM_OTR = [
     "id": "otr-389",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49651,7 +49651,7 @@ window.QCM_OTR = [
     "id": "otr-390",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49690,7 +49690,7 @@ window.QCM_OTR = [
     "id": "otr-391",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49730,7 +49730,7 @@ window.QCM_OTR = [
     "id": "otr-392",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49768,7 +49768,7 @@ window.QCM_OTR = [
     "id": "otr-393",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49806,7 +49806,7 @@ window.QCM_OTR = [
     "id": "otr-394",
     "module": "otr",
     "chapitre": "Syndrome douloureux régional complexe (SDRC)",
-    "chapitre_num": 36,
+    "chapitre_num": 38,
     "section": "Syndrome douloureux régional complexe (SDRC)",
     "source": {
       "fac": "Oran",
@@ -49845,7 +49845,7 @@ window.QCM_OTR = [
     "id": "mos-055",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -49883,7 +49883,7 @@ window.QCM_OTR = [
     "id": "mos-452",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -49921,7 +49921,7 @@ window.QCM_OTR = [
     "id": "mos-459",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -49959,7 +49959,7 @@ window.QCM_OTR = [
     "id": "mos-460",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -49997,7 +49997,7 @@ window.QCM_OTR = [
     "id": "mos-468",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50035,7 +50035,7 @@ window.QCM_OTR = [
     "id": "mos-470",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50073,7 +50073,7 @@ window.QCM_OTR = [
     "id": "mos-474",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50111,7 +50111,7 @@ window.QCM_OTR = [
     "id": "mos-479",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50149,7 +50149,7 @@ window.QCM_OTR = [
     "id": "mos-486",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50187,7 +50187,7 @@ window.QCM_OTR = [
     "id": "mos-489",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50225,7 +50225,7 @@ window.QCM_OTR = [
     "id": "mos-491",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50263,7 +50263,7 @@ window.QCM_OTR = [
     "id": "mos-496",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50301,7 +50301,7 @@ window.QCM_OTR = [
     "id": "mos-537",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50341,7 +50341,7 @@ window.QCM_OTR = [
     "id": "mos-538",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50382,7 +50382,7 @@ window.QCM_OTR = [
     "id": "mos-539",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50420,7 +50420,7 @@ window.QCM_OTR = [
     "id": "mos-545",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50458,7 +50458,7 @@ window.QCM_OTR = [
     "id": "mos-551",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50496,7 +50496,7 @@ window.QCM_OTR = [
     "id": "mos-562",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Mostaganem",
@@ -50536,7 +50536,7 @@ window.QCM_OTR = [
     "id": "otr-821",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50575,7 +50575,7 @@ window.QCM_OTR = [
     "id": "otr-822",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50615,7 +50615,7 @@ window.QCM_OTR = [
     "id": "otr-823",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50661,7 +50661,7 @@ window.QCM_OTR = [
     "id": "otr-824",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50701,7 +50701,7 @@ window.QCM_OTR = [
     "id": "otr-825",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50741,7 +50741,7 @@ window.QCM_OTR = [
     "id": "otr-826",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50787,7 +50787,7 @@ window.QCM_OTR = [
     "id": "otr-827",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50832,7 +50832,7 @@ window.QCM_OTR = [
     "id": "otr-830",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50870,7 +50870,7 @@ window.QCM_OTR = [
     "id": "otr-831",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50908,7 +50908,7 @@ window.QCM_OTR = [
     "id": "otr-832",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50947,7 +50947,7 @@ window.QCM_OTR = [
     "id": "otr-833",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -50987,7 +50987,7 @@ window.QCM_OTR = [
     "id": "otr-835",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51027,7 +51027,7 @@ window.QCM_OTR = [
     "id": "otr-836",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51068,7 +51068,7 @@ window.QCM_OTR = [
     "id": "otr-837",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51107,7 +51107,7 @@ window.QCM_OTR = [
     "id": "otr-838",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51146,7 +51146,7 @@ window.QCM_OTR = [
     "id": "otr-839",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51187,7 +51187,7 @@ window.QCM_OTR = [
     "id": "otr-840",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51226,7 +51226,7 @@ window.QCM_OTR = [
     "id": "otr-841",
     "module": "otr",
     "chapitre": "Séquelles de l’amputation",
-    "chapitre_num": 37,
+    "chapitre_num": 39,
     "section": "Séquelles de l’amputation",
     "source": {
       "fac": "Oran",
@@ -51265,7 +51265,7 @@ window.QCM_OTR = [
     "id": "mos-061",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51303,7 +51303,7 @@ window.QCM_OTR = [
     "id": "mos-159",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51343,7 +51343,7 @@ window.QCM_OTR = [
     "id": "mos-160",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51381,7 +51381,7 @@ window.QCM_OTR = [
     "id": "mos-164",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51419,7 +51419,7 @@ window.QCM_OTR = [
     "id": "mos-168",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51457,7 +51457,7 @@ window.QCM_OTR = [
     "id": "mos-173",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51495,7 +51495,7 @@ window.QCM_OTR = [
     "id": "mos-511",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51535,7 +51535,7 @@ window.QCM_OTR = [
     "id": "mos-513",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51573,7 +51573,7 @@ window.QCM_OTR = [
     "id": "mos-514",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51611,7 +51611,7 @@ window.QCM_OTR = [
     "id": "mos-651",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51650,7 +51650,7 @@ window.QCM_OTR = [
     "id": "mos-652",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51691,7 +51691,7 @@ window.QCM_OTR = [
     "id": "mos-653",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51731,7 +51731,7 @@ window.QCM_OTR = [
     "id": "mos-654",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51772,7 +51772,7 @@ window.QCM_OTR = [
     "id": "mos-655",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Mostaganem",
@@ -51813,7 +51813,7 @@ window.QCM_OTR = [
     "id": "otr-307",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -51851,7 +51851,7 @@ window.QCM_OTR = [
     "id": "otr-308",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -51891,7 +51891,7 @@ window.QCM_OTR = [
     "id": "otr-309",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -51931,7 +51931,7 @@ window.QCM_OTR = [
     "id": "otr-310",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -51972,7 +51972,7 @@ window.QCM_OTR = [
     "id": "otr-311",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52011,7 +52011,7 @@ window.QCM_OTR = [
     "id": "otr-312",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52050,7 +52050,7 @@ window.QCM_OTR = [
     "id": "otr-313",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52090,7 +52090,7 @@ window.QCM_OTR = [
     "id": "otr-314",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52129,7 +52129,7 @@ window.QCM_OTR = [
     "id": "otr-315",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52168,7 +52168,7 @@ window.QCM_OTR = [
     "id": "otr-316",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52207,7 +52207,7 @@ window.QCM_OTR = [
     "id": "otr-317",
     "module": "otr",
     "chapitre": "Spondyloarthrites",
-    "chapitre_num": 38,
+    "chapitre_num": 40,
     "section": "Spondyloarthrites",
     "source": {
       "fac": "Oran",
@@ -52246,7 +52246,7 @@ window.QCM_OTR = [
     "id": "mos-396",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52284,7 +52284,7 @@ window.QCM_OTR = [
     "id": "mos-520",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52325,7 +52325,7 @@ window.QCM_OTR = [
     "id": "mos-522",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52363,7 +52363,7 @@ window.QCM_OTR = [
     "id": "mos-523",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52401,7 +52401,7 @@ window.QCM_OTR = [
     "id": "mos-528",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52439,7 +52439,7 @@ window.QCM_OTR = [
     "id": "mos-529",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52477,7 +52477,7 @@ window.QCM_OTR = [
     "id": "mos-530",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52515,7 +52515,7 @@ window.QCM_OTR = [
     "id": "mos-531",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52555,7 +52555,7 @@ window.QCM_OTR = [
     "id": "mos-694",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52595,7 +52595,7 @@ window.QCM_OTR = [
     "id": "mos-695",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52635,7 +52635,7 @@ window.QCM_OTR = [
     "id": "mos-696",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Mostaganem",
@@ -52674,7 +52674,7 @@ window.QCM_OTR = [
     "id": "otr-446",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Oran",
@@ -52722,7 +52722,7 @@ window.QCM_OTR = [
     "id": "otr-447",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Oran",
@@ -52769,7 +52769,7 @@ window.QCM_OTR = [
     "id": "otr-452",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Oran",
@@ -52808,7 +52808,7 @@ window.QCM_OTR = [
     "id": "otr-454",
     "module": "otr",
     "chapitre": "Spondylodiscite tuberculeuse (mal de Pott)",
-    "chapitre_num": 39,
+    "chapitre_num": 41,
     "section": "Spondylodiscite tuberculeuse (mal de Pott)",
     "source": {
       "fac": "Oran",
@@ -52854,7 +52854,7 @@ window.QCM_OTR = [
     "id": "mos-461",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -52892,7 +52892,7 @@ window.QCM_OTR = [
     "id": "mos-500",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -52930,7 +52930,7 @@ window.QCM_OTR = [
     "id": "mos-637",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -52969,7 +52969,7 @@ window.QCM_OTR = [
     "id": "mos-640",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53007,7 +53007,7 @@ window.QCM_OTR = [
     "id": "mos-641",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53045,7 +53045,7 @@ window.QCM_OTR = [
     "id": "mos-643",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53083,7 +53083,7 @@ window.QCM_OTR = [
     "id": "mos-644",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53121,7 +53121,7 @@ window.QCM_OTR = [
     "id": "mos-645",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53159,7 +53159,7 @@ window.QCM_OTR = [
     "id": "mos-647",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53197,7 +53197,7 @@ window.QCM_OTR = [
     "id": "mos-648",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53235,7 +53235,7 @@ window.QCM_OTR = [
     "id": "mos-649",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53273,7 +53273,7 @@ window.QCM_OTR = [
     "id": "mos-650",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Mostaganem",
@@ -53311,7 +53311,7 @@ window.QCM_OTR = [
     "id": "otr-360",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53351,7 +53351,7 @@ window.QCM_OTR = [
     "id": "otr-361",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53389,7 +53389,7 @@ window.QCM_OTR = [
     "id": "otr-362",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53430,7 +53430,7 @@ window.QCM_OTR = [
     "id": "otr-363",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53469,7 +53469,7 @@ window.QCM_OTR = [
     "id": "otr-364",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53509,7 +53509,7 @@ window.QCM_OTR = [
     "id": "otr-365",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53549,7 +53549,7 @@ window.QCM_OTR = [
     "id": "otr-366",
     "module": "otr",
     "chapitre": "Syndrome du canal carpien",
-    "chapitre_num": 40,
+    "chapitre_num": 42,
     "section": "Syndrome du canal carpien",
     "source": {
       "fac": "Oran",
@@ -53589,7 +53589,7 @@ window.QCM_OTR = [
     "id": "mos-366",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53629,7 +53629,7 @@ window.QCM_OTR = [
     "id": "mos-374",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53666,7 +53666,7 @@ window.QCM_OTR = [
     "id": "mos-375",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53704,7 +53704,7 @@ window.QCM_OTR = [
     "id": "mos-377",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53744,7 +53744,7 @@ window.QCM_OTR = [
     "id": "mos-390",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53782,7 +53782,7 @@ window.QCM_OTR = [
     "id": "mos-391",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53822,7 +53822,7 @@ window.QCM_OTR = [
     "id": "mos-392",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53860,7 +53860,7 @@ window.QCM_OTR = [
     "id": "mos-397",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53898,7 +53898,7 @@ window.QCM_OTR = [
     "id": "mos-398",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53936,7 +53936,7 @@ window.QCM_OTR = [
     "id": "mos-399",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -53974,7 +53974,7 @@ window.QCM_OTR = [
     "id": "mos-406",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54012,7 +54012,7 @@ window.QCM_OTR = [
     "id": "mos-409",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54050,7 +54050,7 @@ window.QCM_OTR = [
     "id": "mos-410",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54088,7 +54088,7 @@ window.QCM_OTR = [
     "id": "mos-411",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54126,7 +54126,7 @@ window.QCM_OTR = [
     "id": "mos-412",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54164,7 +54164,7 @@ window.QCM_OTR = [
     "id": "mos-417",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54202,7 +54202,7 @@ window.QCM_OTR = [
     "id": "mos-418",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54240,7 +54240,7 @@ window.QCM_OTR = [
     "id": "mos-419",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54278,7 +54278,7 @@ window.QCM_OTR = [
     "id": "mos-428",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54316,7 +54316,7 @@ window.QCM_OTR = [
     "id": "mos-429",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54354,7 +54354,7 @@ window.QCM_OTR = [
     "id": "mos-430",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54393,7 +54393,7 @@ window.QCM_OTR = [
     "id": "mos-464",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54431,7 +54431,7 @@ window.QCM_OTR = [
     "id": "mos-508",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54469,7 +54469,7 @@ window.QCM_OTR = [
     "id": "mos-512",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54508,7 +54508,7 @@ window.QCM_OTR = [
     "id": "mos-547",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54546,7 +54546,7 @@ window.QCM_OTR = [
     "id": "mos-550",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54584,7 +54584,7 @@ window.QCM_OTR = [
     "id": "mos-553",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54622,7 +54622,7 @@ window.QCM_OTR = [
     "id": "mos-554",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Mostaganem",
@@ -54660,7 +54660,7 @@ window.QCM_OTR = [
     "id": "otr-259",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54700,7 +54700,7 @@ window.QCM_OTR = [
     "id": "otr-260",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54740,7 +54740,7 @@ window.QCM_OTR = [
     "id": "otr-261",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54787,7 +54787,7 @@ window.QCM_OTR = [
     "id": "otr-262",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54834,7 +54834,7 @@ window.QCM_OTR = [
     "id": "otr-263",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54873,7 +54873,7 @@ window.QCM_OTR = [
     "id": "otr-264",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54914,7 +54914,7 @@ window.QCM_OTR = [
     "id": "otr-265",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54954,7 +54954,7 @@ window.QCM_OTR = [
     "id": "otr-266",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -54994,7 +54994,7 @@ window.QCM_OTR = [
     "id": "otr-267",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -55033,7 +55033,7 @@ window.QCM_OTR = [
     "id": "otr-268",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -55071,7 +55071,7 @@ window.QCM_OTR = [
     "id": "otr-269",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -55112,7 +55112,7 @@ window.QCM_OTR = [
     "id": "otr-270",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
@@ -55153,7 +55153,7 @@ window.QCM_OTR = [
     "id": "otr-271",
     "module": "otr",
     "chapitre": "Traumatisme du rachis",
-    "chapitre_num": 41,
+    "chapitre_num": 43,
     "section": "Traumatisme du rachis",
     "source": {
       "fac": "Oran",
