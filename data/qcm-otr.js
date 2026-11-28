@@ -32574,11 +32574,12 @@ window.QCM_OTR = [
     },
     "question_fr": "Une tumeur qui montre à l'examen microscopique des places de cellules polygonales, présentant des atypies cytonucléaires, bordant directement des lacunes vasculaires irrégulières avec production importante de substance chondroide et de très rares foyers de substance ostéoide correspond à :",
     "bonnes_reponses": [
-      "B"
+      "D"
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : D (ancienne clé B). Non validée par un médecin."
   },
   {
     "id": "otr-669",
@@ -35879,11 +35880,12 @@ window.QCM_OTR = [
     },
     "question_fr": "La douleur de la sciatique est souvent :",
     "bonnes_reponses": [
-      "C"
+      "D"
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : D (ancienne clé C). Non validée par un médecin."
   },
   {
     "id": "mos-394",
@@ -36031,13 +36033,13 @@ window.QCM_OTR = [
     },
     "question_fr": "La sciatique est une douleur qui suit le trajet du nerf :",
     "bonnes_reponses": [
-      "A",
       "B",
       "C"
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : BC (ancienne clé ABC). Non validée par un médecin."
   },
   {
     "id": "mos-407",
@@ -36566,14 +36568,13 @@ window.QCM_OTR = [
     "question_fr": "Une sciatique commune par hernie discale se manifeste par :",
     "bonnes_reponses": [
       "A",
-      "B",
       "C",
       "D"
     ],
     "faculty": "Oran",
     "isOran": true,
     "isAlger": false,
-    "note_cle": "Clé ABCD conforme au cours ; le corrigé type officiel donnait ACD."
+    "note_cle": "Clé corrigée après relecture : ACD (ancienne clé ABCD). Non validée par un médecin."
   },
   {
     "id": "otr-324",
@@ -46117,11 +46118,13 @@ window.QCM_OTR = [
     },
     "question_fr": "L’IRM est l’examen de choix pour visualiser :",
     "bonnes_reponses": [
-      "B"
+      "B",
+      "E"
     ],
     "faculty": "Mostaganem",
     "isOran": false,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : BE (ancienne clé B). Non validée par un médecin."
   },
   {
     "id": "mos-493",
