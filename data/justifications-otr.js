@@ -39,10 +39,10 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Scaphoïde : nécrose du pôle proximal dans les fractures proximales."
   },
   "otr-132": {
-    "A": "Faux. La fracture du scaphoïde est bien la plus fréquente des fractures du carpe.",
-    "B": "Faux. La vascularisation du pôle proximal est précaire (artère à flux rétrograde).",
-    "C": "Faux. Le diagnostic est parfois difficile : clichés spéciaux, contrôle à 15 jours, scanner.",
-    "D": "Faux. Certaines fractures non déplacées sont traitées par manchette scaphoïde.",
+    "A": "Exacte, donc à ne pas cocher : le scaphoïde est l’os du carpe le plus souvent fracturé.",
+    "B": "Exacte, donc à ne pas cocher : le pôle proximal est irrigué à rebours, d’où le risque de nécrose.",
+    "C": "Exacte, donc à ne pas cocher : un trait invisible au début justifie clichés spécifiques, contrôle à quinze jours ou scanner.",
+    "D": "Exacte, donc à ne pas cocher : sans déplacement, une manchette prenant le pouce peut suffire.",
     "E": "Vrai (à cocher). Une radiographie initiale normale n’élimine pas une fracture du scaphoïde.",
     "_synthese": "Fracture du scaphoïde : la plus fréquente du carpe, diagnostic parfois différé, vascularisation précaire du pôle proximal."
   },
@@ -303,11 +303,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Scoliose : trois plans, non réductible, gibbosité en inclinaison avant, angle de Cobb, types fréquents dorsal droit et lombaire gauche."
   },
   "otr-539": {
-    "A": "Faux. Une cyphose est une augmentation de la courbure sagittale à concavité antérieure.",
-    "B": "Faux. Elle s’étend sur plusieurs vertèbres (cyphose régulière).",
+    "A": "Exacte, donc à ne pas cocher : la cyphose accentue la courbure dorsale, concave en avant.",
+    "B": "Exacte, donc à ne pas cocher : une cyphose régulière se répartit sur plusieurs niveaux, sans angle vif.",
     "C": "Vrai (à cocher). Les cyphoses régulières ne sont pas essentiellement post-infectieuses : le mal de Pott donne une cyphose angulaire.",
     "D": "Selon la formulation, la dystrophie de Scheuermann est classiquement la cause de cyphose régulière de l’adolescent ; elle n’est pas la réponse fausse retenue.",
-    "E": "Faux. La cunéiformisation vertébrale est caractéristique.",
+    "E": "Exacte, donc à ne pas cocher : les corps vertébraux prennent une forme en coin, plus basse en avant.",
     "_synthese": "Cyphose régulière : augmentation de la courbure sur plusieurs vertèbres ; maladie de Scheuermann ; cyphose angulaire = mal de Pott."
   },
   "otr-540": {
@@ -905,10 +905,10 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-010": {
     "A": "Vrai (à cocher). Deux fragments correspondent à une fracture simple : un seul trait sépare l’os en deux parties. Ce n’est donc pas une fracture complexe.",
-    "B": "Faux. Deux traits de fracture sur le même os délimitent au moins trois fragments : c’est une fracture complexe.",
-    "C": "Faux. La fracture étagée associe deux niveaux de trait sur la même diaphyse : elle est complexe.",
-    "D": "Faux. La présence d’un troisième fragment (fragment intermédiaire, « aile de papillon ») rend la fracture complexe.",
-    "E": "Faux. La lésion bifocale de l’os, avec un segment intermédiaire isolé, est une variété de fracture complexe.",
+    "B": "Exacte, donc à ne pas cocher : deux traits délimitent au moins trois fragments.",
+    "C": "Exacte, donc à ne pas cocher : deux niveaux de trait sur la même diaphyse en font une forme complexe.",
+    "D": "Exacte, donc à ne pas cocher : un fragment intermédiaire, en aile de papillon par exemple, complique le foyer.",
+    "E": "Exacte, donc à ne pas cocher : un segment intermédiaire isolé entre deux foyers est une forme complexe.",
     "_synthese": "Fracture simple : un trait, deux fragments. Fracture complexe : plusieurs traits ou fragments (fracture étagée, bifocale, comminutive, en aile de papillon), de pronostic plus réservé."
   },
   "otr-012": {
@@ -1288,7 +1288,7 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-614": {
     "A": "Vrai (à cocher). La déformation pathologique est souvent asymétrique ; ce n’est pas faux, mais l’annale demande la proposition fausse selon le cours.",
-    "B": "Faux. Une déformation persistante avec distance intercondylienne de plus de 6 cm est pathologique.",
+    "B": "Exacte, donc à ne pas cocher : un écart persistant de plus de 6 cm sort de la variation physiologique.",
     "C": "Vrai (à cocher). La majorité des déviations ne sont pas causées par un trouble phosphocalcique.",
     "D": "Fausse, donc à cocher : la marche précoce peut accentuer un varus physiologique mais n’est ni une cause ni une condition obligatoire.",
     "E": "Exacte selon l’annale : une désaxation importante gêne la marche, use le genou et se voit.",
@@ -1522,8 +1522,8 @@ window.JUSTIFICATIONS_OTR = {
     "A": "Vrai (à cocher). La fracture en cheveu du tibia est fréquente chez le petit enfant (1 à 5 ans, « toddler’s fracture »), non après 5 ans.",
     "B": "Exacte, donc à ne pas cocher : l’enfant évite l’appui douloureux ou refuse de marcher.",
     "C": "Vrai (à cocher). La boiterie de Trendelenburg est liée au moyen fessier et n’est pas en cause.",
-    "D": "Faux. Un refus d’appui est possible.",
-    "E": "Faux. La guérison peut être spontanée avec une simple immobilisation.",
+    "D": "Exacte, donc à ne pas cocher : la douleur peut empêcher l’enfant de poser le pied.",
+    "E": "Exacte, donc à ne pas cocher : ce trait stable consolide avec une simple immobilisation.",
     "_synthese": "Fracture en cheveu du tibia : petit enfant, boiterie d’esquive ou refus d’appui, radiographie parfois initialement normale, guérison spontanée."
   },
   "otr-610": {
@@ -1535,11 +1535,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Boiterie d’esquive : raccourcissement du temps d’appui du côté douloureux (douleur, fracture, arthrite)."
   },
   "otr-615": {
-    "A": "Faux. L’ostéochondrite de hanche (Legg-Perthes-Calvé) donne une hanche douloureuse.",
-    "B": "Faux. L’ostéo-arthrite de hanche est douloureuse.",
-    "C": "Faux. Une tumeur osseuse peut donner une hanche douloureuse.",
+    "A": "Diagnostic possible, donc à ne pas cocher : l’ostéochondrite (Legg-Perthes-Calvé) fait souffrir et boiter.",
+    "B": "Diagnostic possible, donc à ne pas cocher : infection douloureuse et urgente.",
+    "C": "Diagnostic possible, donc à ne pas cocher : une tumeur peut se révéler par la douleur.",
     "D": "Vrai (à cocher). La luxation congénitale de la hanche est indolore.",
-    "E": "Faux. La fracture du bassin donne une douleur de hanche.",
+    "E": "Diagnostic possible, donc à ne pas cocher : un trait voisin de la hanche y projette la douleur.",
     "_synthese": "Hanche douloureuse de l’enfant : ostéochondrite, ostéo-arthrite, tumeur, épiphysiolyse, fracture ; la luxation congénitale est indolore."
   },
   "otr-618": {
@@ -1750,10 +1750,10 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-355": {
     "A": "Vrai (à cocher selon le corrigé type). Un renforcement analytique des muscles « valgisants » n’est pas le moyen adapté à une gonarthrose fémoro-tibiale interne.",
-    "B": "Faux. Renforcer les muscles stabilisateurs du genou fait partie de la prise en charge.",
-    "C": "Faux. Gagner de l’amplitude, lutter contre le flessum et corriger la posture sont recommandés.",
-    "D": "Faux. Le travail proprioceptif est utile.",
-    "E": "Faux selon le corrigé type : ultrasons et massages peuvent être prescrits à titre antalgique.",
+    "B": "Moyen prescrit, donc à ne pas cocher : quadriceps et ischio-jambiers stabilisent le genou.",
+    "C": "Moyen prescrit, donc à ne pas cocher : lutter contre le flessum soulage et préserve la marche.",
+    "D": "Moyen prescrit, donc à ne pas cocher : il améliore le contrôle et la stabilité.",
+    "E": "Moyen prescrit selon le corrigé type, donc à ne pas cocher : appoint antalgique.",
     "_synthese": "Kinésithérapie de la gonarthrose : renforcement musculaire, gain d’amplitude, proprioception, antalgie."
   },
   "otr-356": {
@@ -1853,11 +1853,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Anesthésie en « épaulette » du moignon de l’épaule après une luxation : atteinte du nerf circonflexe, dont il faut vérifier la sensibilité et le deltoïde."
   },
   "otr-031": {
-    "A": "Faux. Le signe de l’épaulette est présent dans la luxation antérieure : il traduit la saillie acromiale et le vide sous-acromial.",
-    "B": "Faux. La vacuité de la glène visible à la radiographie est un signe positif de la luxation.",
-    "C": "Faux. La position anormale de la tête humérale (sous-coracoïdienne) est un signe positif.",
+    "A": "Exacte, donc à ne pas cocher : la saillie de l’acromion dessine l’épaulette.",
+    "B": "Exacte, donc à ne pas cocher : la tête a quitté la glène, qui paraît vide.",
+    "C": "Exacte, donc à ne pas cocher : la tête se palpe en avant, sous la coracoïde.",
     "D": "Vrai (à cocher). C’est l’abduction qui est irréductible, non réductible : le patient ne peut ni ramener le bras en adduction ni le laisser retomber.",
-    "E": "Faux. Le signe de Berger (impossibilité de toucher l’épaule opposée avec la main) fait partie des signes de luxation.",
+    "E": "Exacte, donc à ne pas cocher : le coude ne peut être ramené au thorax avec la main sur l’épaule opposée.",
     "_synthese": "Diagnostic clinique d’une luxation antéro-interne : épaulette, vacuité glénoïdienne, tête en position anormale, abduction irréductible et signe de Berger."
   },
   "otr-032": {
@@ -1877,11 +1877,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Luxation de l’épaule : antéro-interne sous-coracoïdienne dans la grande majorité des cas, chez le sujet jeune sportif."
   },
   "otr-034": {
-    "A": "Faux. L’abduction irréductible est un signe caractéristique de la luxation antéro-interne.",
+    "A": "Signe présent, donc à ne pas cocher : le bras reste écarté et revient si on le rapproche.",
     "B": "Vrai (à cocher). L’ecchymose brachio-thoracique (signe de Hennequin) évoque une fracture du col chirurgical, non une luxation simple.",
-    "C": "Faux. Le vide sous-acromial est un signe classique de luxation.",
-    "D": "Faux. Le coup de hache externe est un signe classique.",
-    "E": "Faux. Le comblement du sillon delto-pectoral est un signe classique.",
+    "C": "Signe présent, donc à ne pas cocher : la tête n’est plus sous l’acromion.",
+    "D": "Signe présent, donc à ne pas cocher : dépression sous la saillie acromiale.",
+    "E": "Signe présent, donc à ne pas cocher : la tête déplacée en avant efface le sillon.",
     "_synthese": "Luxation antéro-interne : abduction irréductible, coup de hache externe, vide sous-acromial, comblement du sillon delto-pectoral. L’ecchymose de Hennequin oriente plutôt vers une fracture."
   },
   "mos-052": {
@@ -2257,8 +2257,8 @@ window.JUSTIFICATIONS_OTR = {
     "B": "Exact (à ne pas cocher). Prévention classique.",
     "C": "Faux (à cocher). Il y a quatre stades, pas deux.",
     "D": "Exacte, donc à ne pas cocher : sacrum, talons, trochanters ou occiput selon que le patient est sur le dos ou le côté.",
-    "E": "Faux selon l’esprit de la question : les stades avancés ne sont pas réversibles par la seule prévention. La clé retenue ne coche toutefois que C.",
-    "_synthese": "Retenir les quatre stades ; relire la proposition E, également discutable."
+    "E": "Fausse, donc à cocher : une escarre profonde laisse une perte de substance que la prévention et les soins simples ne suffisent pas à faire régresser.",
+    "_synthese": "Il y a plusieurs stades, et les stades profonds ne sont pas spontanément réversibles."
   },
   "otr-808": {
     "A": "Faux (à cocher). Le déconditionnement commence dès les premiers jours d’alitement.",
@@ -2644,7 +2644,7 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Rupture de coiffe : passive conservée, active perdue."
   },
   "otr-406": {
-    "A": "Faux. Repos relatif indiqué.",
+    "A": "Exacte, donc à ne pas cocher : un repos relatif, sans immobilisation stricte, laisse le tendon cicatriser.",
     "B": "Exacte, donc à ne pas cocher : ils entretiennent l’amplitude et orientent la cicatrice tendineuse.",
     "C": "Exacte, donc à ne pas cocher : effet antalgique et trophique local.",
     "D": "Exacte, donc à ne pas cocher : la technique de Cyriax agit sur les adhérences.",
@@ -2882,10 +2882,10 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-252": {
     "A": "Vrai (à cocher). La nécrose de l’astragale n’est pas une complication des fractures bimalléolaires.",
-    "B": "Faux. L’ostéoporose (algodystrophique) peut survenir.",
+    "B": "Complication possible, donc à ne pas cocher : l’immobilisation déminéralise.",
     "C": "Complication réelle, donc à ne pas cocher : fréquente après immobilisation.",
     "D": "Complication réelle, donc à ne pas cocher : surtout si la réduction n’est pas parfaite.",
-    "E": "Faux. Algodystrophie possible.",
+    "E": "Complication possible, donc à ne pas cocher : douleur et troubles vasomoteurs après traumatisme.",
     "_synthese": "Complications d’une fracture bimalléolaire : raideur, arthrose, algodystrophie ; la nécrose de l’astragale ne s’y observe pas."
   },
   "otr-253": {
@@ -3120,8 +3120,8 @@ window.JUSTIFICATIONS_OTR = {
   "otr-110": {
     "A": "Vrai (à cocher). Le mécanisme est une hyperextension du poignet, pas une hyperflexion.",
     "B": "Vrai (à cocher). La fracture est sus-articulaire, non intra-articulaire.",
-    "C": "Faux. Le déplacement est bien postérieur.",
-    "D": "Faux. La déformation est bien en dos de fourchette.",
+    "C": "Exacte, donc à ne pas cocher : le fragment distal part en arrière.",
+    "D": "Exacte, donc à ne pas cocher : la bascule postérieure donne ce profil.",
     "E": "Exacte, donc à ne pas cocher : l’orthopédie est une option pour les formes réductibles et stables.",
     "_synthese": "Pouteau-Colles : hyperextension, trait extra-articulaire, déplacement postérieur, dos de fourchette."
   },
@@ -3605,11 +3605,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Fracture déplacée de l’olécrane de l’adulte jeune : haubanage, repères du coude perdus, radiographies standard suffisantes."
   },
   "otr-091": {
-    "A": "Faux. Respect des courbures du radius : c’est une condition nécessaire à la prono-supination.",
-    "B": "Faux. L’intégrité de la membrane interosseuse est nécessaire.",
-    "C": "Faux. Le respect de la longueur relative des deux os est nécessaire.",
+    "A": "Exacte, donc à ne pas cocher : la courbure du radius lui permet de tourner autour de l’ulna.",
+    "B": "Exacte, donc à ne pas cocher : elle solidarise les deux os pendant la rotation.",
+    "C": "Exacte, donc à ne pas cocher : un os raccourci désorganise les articulations radio-ulnaires.",
     "D": "Vrai (à cocher). L’articulation radio-carpienne n’intervient pas dans la prono-supination : le mouvement se fait entre radius et ulna.",
-    "E": "Faux. Les articulations radio-ulnaires proximale et distale sont indispensables.",
+    "E": "Exacte, donc à ne pas cocher : ce sont les deux pivots de la rotation.",
     "_synthese": "La prono-supination dépend des articulations radio-ulnaires, de la membrane interosseuse et des courbures et longueurs du radius et de l’ulna, pas de l’articulation radio-carpienne."
   },
   "otr-092": {
@@ -3653,12 +3653,12 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "La synostose radio-ulnaire supérieure est une malformation congénitale. Retenir surtout le siège (coude) et la perte de la prono-supination."
   },
   "otr-097": {
-    "A": "Faux. L’articulation huméro-olécrânienne assure la flexion-extension du coude, pas la prono-supination.",
-    "B": "Faux. La radio-ulnaire supérieure est indispensable à la prono-supination.",
-    "C": "Faux. La radio-ulnaire inférieure est indispensable à la prono-supination.",
-    "D": "Faux. La membrane interosseuse est nécessaire à la solidarité des deux os.",
-    "E": "Vrai (à cocher). C’est le respect de la longueur relative des deux os qui compte : une inégalité de longueur gêne le mouvement.",
-    "_synthese": "Prono-supination : radio-ulnaire proximale, radio-ulnaire distale, membrane interosseuse, longueurs et courbures respectées. L’huméro-olécrânienne n’y participe pas."
+    "A": "N’intervient pas dans la prono-supination, donc à cocher : cette articulation assure la flexion-extension du coude.",
+    "B": "Élément nécessaire, donc à ne pas cocher : pivot proximal de la rotation.",
+    "C": "Élément nécessaire, donc à ne pas cocher : pivot distal.",
+    "D": "Élément nécessaire, donc à ne pas cocher : lien entre radius et ulna.",
+    "E": "N’est pas un élément dont l’intégrité est requise, donc à cocher : une inégalité de longueur est justement une anomalie qui gêne la rotation.",
+    "_synthese": "Prono-supination : les deux radio-ulnaires, la membrane interosseuse, les longueurs et courbures respectées."
   },
   "otr-141": {
     "A": "Faux. Il s’agit d’une fracture diaphysaire du radius.",
@@ -4482,7 +4482,7 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Fracture fermée de jambe plâtrée : phlébite et déplacement secondaire sont les deux complications précoces les plus fréquentes."
   },
   "otr-217": {
-    "A": "Faux. L’ouverture cutanée est fréquente car le tibia est sous-cutané.",
+    "A": "Exacte, donc à ne pas cocher : le tibia est juste sous la peau, qui se déchire facilement.",
     "B": "Exacte, donc à ne pas cocher : parage et antibiotiques doivent être rapides contre l’infection.",
     "C": "Exacte, donc à ne pas cocher : le clou permet un appui précoce sans ouvrir le foyer.",
     "D": "Exacte, donc à ne pas cocher : c’est le délai habituel pour le tibia adulte.",
@@ -4514,7 +4514,7 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Fracture ouverte de jambe : parage, stabilisation, consolidation lente, risque d’amputation."
   },
   "otr-225": {
-    "A": "Faux. L’ouverture cutanée est fréquente car le tibia est sous-cutané.",
+    "A": "Exacte, donc à ne pas cocher : le tibia est juste sous la peau, qui se déchire facilement.",
     "B": "Exacte, donc à ne pas cocher : parage et antibiotiques doivent être rapides contre l’infection.",
     "C": "Exacte, donc à ne pas cocher : le clou permet un appui précoce sans ouvrir le foyer.",
     "D": "Exacte, donc à ne pas cocher : c’est le délai habituel pour le tibia adulte.",
@@ -4522,7 +4522,7 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Fractures de jambe : tibia sous-cutané donc ouverture fréquente, urgence, enclouage, consolidation 3 à 6 mois."
   },
   "otr-227": {
-    "A": "Faux. L’ouverture cutanée est fréquente car le tibia est sous-cutané.",
+    "A": "Exacte, donc à ne pas cocher : le tibia est juste sous la peau, qui se déchire facilement.",
     "B": "Exacte, donc à ne pas cocher : parage et antibiotiques doivent être rapides contre l’infection.",
     "C": "Exacte, donc à ne pas cocher : le clou permet un appui précoce sans ouvrir le foyer.",
     "D": "Exacte, donc à ne pas cocher : c’est le délai habituel pour le tibia adulte.",
@@ -4642,19 +4642,19 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Accès aigu de goutte : colchicine ou AINS (ou corticoïdes) ; traitement hypo-uricémiant à distance."
   },
   "otr-369": {
-    "A": "Faux. L’hyperuricémie est le facteur essentiel.",
+    "A": "Facteur de risque, donc à ne pas cocher : l’excès d’urate forme les cristaux.",
     "B": "Vrai (à cocher). Les cardiopathies ischémiques sont des comorbidités associées, pas un facteur de risque de goutte.",
-    "C": "Faux. Les déficits enzymatiques favorisent l’hyperuricémie.",
-    "D": "Faux. L’alcool favorise la goutte.",
-    "E": "Faux. Le surpoids favorise la goutte.",
+    "C": "Facteur de risque, donc à ne pas cocher : certains déficits font surproduire l’acide urique.",
+    "D": "Facteur de risque, donc à ne pas cocher : il augmente la production et freine l’élimination.",
+    "E": "Facteur de risque, donc à ne pas cocher : l’obésité élève l’uricémie.",
     "_synthese": "Facteurs de risque de goutte : hyperuricémie, alcool, surpoids, régime riche en purines, déficits enzymatiques."
   },
   "otr-370": {
-    "A": "Faux. Les crises récurrentes sont une indication.",
+    "A": "Indication réelle, donc à ne pas cocher : la répétition des accès impose de baisser l’uricémie.",
     "B": "Vrai (à cocher). La stéatose hépatique n’est pas une indication du traitement hypo-uricémiant.",
-    "C": "Faux. La lithiase rénale est une indication.",
-    "D": "Faux. Les tophi sont une indication.",
-    "E": "Faux. L’insuffisance rénale est une indication (avec adaptation).",
+    "C": "Indication réelle, donc à ne pas cocher : prévenir de nouveaux calculs.",
+    "D": "Indication réelle, donc à ne pas cocher : le traitement fait fondre les dépôts.",
+    "E": "Indication retenue, donc à ne pas cocher, avec une dose adaptée à la fonction rénale.",
     "_synthese": "Indications d’un hypo-uricémiant : crises récurrentes, tophi, lithiases, atteinte rénale, arthropathie."
   },
   "otr-371": {
@@ -6054,10 +6054,10 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Excision au stade collecté."
   },
   "otr-588": {
-    "A": "Faux. L’excision de la porte d’entrée est un temps du traitement.",
-    "B": "Faux. Le lavage abondant de la gaine est un temps du traitement.",
-    "C": "Faux. La rééducation précoce est recommandée.",
-    "D": "Faux. La synovectomie en respectant les poulies est un temps du traitement.",
+    "A": "Exacte, donc à ne pas cocher : on retire le point d’entrée contaminé.",
+    "B": "Exacte, donc à ne pas cocher : le lavage évacue le pus et les germes.",
+    "C": "Exacte, donc à ne pas cocher : mobiliser tôt limite les adhérences.",
+    "D": "Exacte, donc à ne pas cocher : on ôte la synoviale infectée en gardant les poulies.",
     "E": "Vrai (à cocher). Il est faux de ne rien faire en cas de fistulisation.",
     "_synthese": "Phlegmon de gaine : excision de la porte d’entrée, lavage, synovectomie, rééducation précoce."
   },
@@ -7094,10 +7094,10 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Fracture de la rotule : mécanisme direct, lésions cutanées, traitement orthopédique si non déplacée."
   },
   "otr-279": {
-    "A": "Faux. C’est bien la fracture la plus fréquente des plateaux tibiaux.",
+    "A": "Exacte, donc à ne pas cocher : le choc en valgus atteint surtout le plateau latéral.",
     "B": "Vrai (à cocher). L’enfoncement n’est pas toujours présent.",
     "C": "Exacte, donc à ne pas cocher : une marche d’escalier non réduite conduit à l’arthrose.",
-    "D": "Faux. Elle est pourvoyeuse d’arthrose.",
+    "D": "Exacte, donc à ne pas cocher : l’atteinte du cartilage et tout défaut de réduction usent le genou.",
     "E": "Fausse, donc à cocher. Une fracture unitubérositaire fend la surface articulaire du tibia.",
     "_synthese": "Fracture unitubérositaire externe : articulaire, fréquente, arthrose possible, enfoncement non constant."
   },
@@ -7110,18 +7110,18 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Mécanisme du tableau de bord : le genou fléchi heurte le tableau, d’où rotule, LCP et hanche postérieure."
   },
   "otr-282": {
-    "A": "Faux. C’est bien la fracture la plus fréquente des plateaux tibiaux.",
+    "A": "Exacte, donc à ne pas cocher : le choc en valgus atteint surtout le plateau latéral.",
     "B": "Vrai (à cocher). L’enfoncement n’est pas toujours présent.",
-    "C": "Faux. Le traitement vise à rétablir la surface articulaire.",
-    "D": "Faux. Elle est pourvoyeuse d’arthrose.",
+    "C": "Exacte, donc à ne pas cocher : restaurer la surface articulaire est le but du traitement.",
+    "D": "Exacte, donc à ne pas cocher : l’atteinte du cartilage et tout défaut de réduction usent le genou.",
     "E": "Proposition fausse, donc à cocher : le trait atteint le cartilage du plateau.",
     "_synthese": "Fracture unitubérositaire externe : articulaire, fréquente, arthrose possible, enfoncement non constant."
   },
   "otr-283": {
-    "A": "Faux. C’est bien la fracture la plus fréquente des plateaux tibiaux.",
+    "A": "Exacte, donc à ne pas cocher : le choc en valgus atteint surtout le plateau latéral.",
     "B": "Vrai (à cocher). L’enfoncement n’est pas toujours présent.",
     "C": "Exacte, donc à ne pas cocher : la congruence conditionne le pronostic.",
-    "D": "Faux. Elle est pourvoyeuse d’arthrose.",
+    "D": "Exacte, donc à ne pas cocher : l’atteinte du cartilage et tout défaut de réduction usent le genou.",
     "E": "Fausse, donc à cocher : le plateau est une surface articulaire.",
     "_synthese": "Fracture unitubérositaire externe : articulaire, fréquente, arthrose possible, enfoncement non constant."
   },
@@ -7145,7 +7145,7 @@ window.JUSTIFICATIONS_OTR = {
     "A": "Exacte, donc à ne pas cocher : le côté latéral est le plus exposé.",
     "B": "Vrai (à cocher). L’enfoncement n’est pas constant.",
     "C": "Exacte, donc à ne pas cocher : réduction et ostéosynthèse restaurent le plateau.",
-    "D": "Faux. Elle est pourvoyeuse d’arthrose.",
+    "D": "Exacte, donc à ne pas cocher : l’atteinte du cartilage et tout défaut de réduction usent le genou.",
     "E": "Fausse, donc à cocher : elle intéresse directement l’articulation.",
     "_synthese": "« RF » = réponses fausses : B et E."
   },
@@ -7438,7 +7438,7 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-335": {
     "A": "Exacte, donc à ne pas cocher : le disque L4-L5 ou L5-S1 en conflit avec la racine domine largement.",
-    "B": "Faux. Facteurs déclenchants.",
+    "B": "Exacte, donc à ne pas cocher : ces contraintes augmentent la pression sur le disque.",
     "C": "Fausse, donc à cocher : la raideur rachidienne ne prédit pas à elle seule l’évolution.",
     "D": "Exacte, donc à ne pas cocher : l’imagerie n’est pas nécessaire d’emblée.",
     "E": "Exacte selon l’annale, donc à ne pas cocher : un syndrome de la queue de cheval impose l’opération.",
@@ -7652,9 +7652,9 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Luxation du coude : sujet jeune, perte des repères osseux, réduction sous anesthésie générale, risque d’ossifications périarticulaires et de raideur."
   },
   "mos-244": {
-    "A": "Faux (utilisé). Le hamac soutient le bassin.",
+    "A": "Moyen utilisé, donc à ne pas cocher : le hamac soutient et resserre le bassin.",
     "B": "Moyen réellement utilisé selon la formulation : il ne constitue pas l’exception.",
-    "C": "Faux (utilisé). Le fixateur externe stabilise le bassin.",
+    "C": "Moyen utilisé, donc à ne pas cocher : le fixateur externe stabilise l’anneau.",
     "D": "Vrai (à cocher). La coquille plâtrée n’est pas utilisée dans les fractures du bassin.",
     "_synthese": "Fractures du bassin : hamac, hamac et traction, fixateur externe, ostéosynthèse."
   },
@@ -7933,7 +7933,7 @@ window.JUSTIFICATIONS_OTR = {
     "A": "Exacte, donc à ne pas cocher : jeune accidenté comme sujet âgé fragile.",
     "B": "Vrai (à cocher). Elles ne concernent pas exclusivement le sujet âgé.",
     "C": "Vrai (à cocher). Elles ne concernent pas exclusivement le sujet jeune.",
-    "D": "Faux. Elles répondent à trois mécanismes (compression antéro-postérieure, latérale, verticale).",
+    "D": "Exacte, donc à ne pas cocher : compression antéro-postérieure, compression latérale et cisaillement vertical.",
     "E": "Exacte, donc à ne pas cocher : l’urètre membraneux peut être lésé.",
     "_synthese": "Fractures de l’anneau pelvien : tout âge, trois mécanismes, complications urinaires."
   },
@@ -8003,7 +8003,7 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-163": {
     "A": "Vrai (à cocher). Le membre est en adduction et rotation interne, pas en abduction.",
-    "B": "Faux. Association fréquente.",
+    "B": "Exacte, donc à ne pas cocher : la tête brise le rebord arrière en sortant.",
     "C": "Exacte, donc à ne pas cocher : voisinage anatomique immédiat.",
     "D": "Exacte, donc à ne pas cocher : le choc sur le genou fléchi pousse la tête fémorale en arrière.",
     "E": "Vrai (à cocher). C’est plutôt l’homme jeune.",
@@ -8523,7 +8523,7 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-740": {
     "A": "Exacte, donc à ne pas cocher : chaque articulation place la main.",
-    "B": "Faux. Les causes sont neurologiques, traumatiques, rhumatismales ou malformatives.",
+    "B": "Exacte, donc à ne pas cocher : toute atteinte nerveuse, traumatique, articulaire ou malformative de la main peut la gêner.",
     "C": "Fausse, donc à cocher : la vue guide l’approche.",
     "D": "Exacte, donc à ne pas cocher : il localise une atteinte nerveuse.",
     "E": "Exacte, donc à ne pas cocher : réentraînement des gestes.",
@@ -8770,10 +8770,10 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Bilan normal : un bilan perturbé fait chercher une autre cause."
   },
   "otr-411": {
-    "A": "Faux. Douleurs pelviennes et rachidiennes présentes.",
+    "A": "Signe présent, donc à ne pas cocher : douleurs mécaniques du bassin et du rachis.",
     "B": "Signe présent dans l’ostéomalacie, donc non retenu comme exception : faiblesse des ceintures.",
     "C": "Signe présent, donc non retenu : calcium mal absorbé faute de vitamine D.",
-    "D": "Faux. Hyperparathyroïdie secondaire.",
+    "D": "Signe présent, donc à ne pas cocher : le calcium bas stimule les parathyroïdes.",
     "E": "Vrai (à cocher). Le tissu ostéoïde est augmenté, non réduit.",
     "_synthese": "Ostéomalacie : défaut de minéralisation, excès de tissu ostéoïde."
   },
@@ -9771,7 +9771,7 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-849": {
     "A": "Vrai (à cocher). La prise en charge n’est pas standardisée « à taille unique » : elle est individualisée.",
-    "B": "Faux. Elle repose bien sur la CIF.",
+    "B": "Exacte, donc à ne pas cocher : la CIF sert à évaluer déficiences, activités et participation.",
     "C": "Exacte : le but est fonctionnel.",
     "D": "Vrai (à cocher). C’est la fonction, non la restauration intégrale de l’anatomie, qui prime.",
     "E": "Exacte : débuter tôt prévient les déformations.",
@@ -9786,11 +9786,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Rééducation en rhumatologie : ergothérapie fonctionnelle, orthèses de repos en poussée, renforcement statique en poussée."
   },
   "otr-851": {
-    "A": "Faux. Les aides techniques sont utilisées.",
+    "A": "Utilisées, donc à ne pas cocher : elles facilitent les gestes sans forcer les articulations.",
     "B": "Vrai (à cocher). Les prothèses remplacent un membre ou un segment : elles n’ont pas leur place dans l’appareillage rhumatologique (sauf prothèse chirurgicale).",
-    "C": "Faux. Les semelles orthopédiques sont utilisées.",
-    "D": "Faux. Les attelles de posture sont utilisées.",
-    "E": "Faux. Les orthèses du rachis sont utilisées.",
+    "C": "Utilisées, donc à ne pas cocher : elles corrigent les appuis.",
+    "D": "Utilisées, donc à ne pas cocher : elles préviennent les attitudes vicieuses.",
+    "E": "Utilisées, donc à ne pas cocher : elles soutiennent la colonne.",
     "_synthese": "Appareillage en rhumatologie : orthèses, aides techniques, semelles, attelles de posture."
   },
   "otr-852": {
@@ -9802,7 +9802,7 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Arthrite = inflammation synoviale ; arthralgie = douleur articulaire ; l’examen rhumatologique est complet."
   },
   "otr-853": {
-    "A": "Faux. La raideur est une limitation des mobilités actives et passives.",
+    "A": "Exacte, donc à ne pas cocher : on parle de raideur quand le mouvement est limité en actif comme en passif.",
     "B": "Vrai (à cocher). Une limitation passive traduit une atteinte articulaire (capsule, cartilage), non périarticulaire.",
     "C": "Vrai (à cocher). Le genou possède deux axes de mobilité (flexion-extension et rotation).",
     "D": "Vrai (à cocher). Le syndrome rachidien est une raideur et une douleur du rachis, pas forcément inflammatoire.",
@@ -10042,10 +10042,10 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Selon la clé ; statut réglementaire non vérifié."
   },
   "mos-055": {
-    "A": "Faux. Les sensations fantômes sont très fréquentes.",
-    "B": "Faux. Les névromes douloureux sont fréquents.",
-    "C": "Faux. L’hématome du moignon est fréquent.",
-    "D": "Faux. La déhiscence de la plaie est fréquente.",
+    "A": "Complication fréquente, donc à ne pas cocher : perception du membre absent.",
+    "B": "Complication fréquente, donc à ne pas cocher : le nerf sectionné bourgeonne.",
+    "C": "Complication fréquente, donc à ne pas cocher : saignement collecté dans le moignon.",
+    "D": "Complication fréquente, donc à ne pas cocher : surtout sur terrain vasculaire.",
     "E": "Vrai (à cocher). Les phlyctènes ne sont pas une complication fréquente de l’amputation.",
     "_synthese": "Complications de l’amputation : membre fantôme, névromes, hématome, désunion de cicatrice."
   },
@@ -10235,10 +10235,10 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-827": {
     "A": "Vrai (à cocher). La rééducation commence très précocement, avant la prothèse : bandage, positionnement, renforcement musculaire.",
-    "B": "Faux. Le bandage précoce modèle et stabilise le moignon.",
+    "B": "Exacte, donc à ne pas cocher : la compression bien posée réduit l’œdème et façonne le moignon.",
     "C": "Exacte, donc à ne pas cocher : les bras portent le poids avec les cannes.",
     "D": "Exacte, donc à ne pas cocher : deuil du membre.",
-    "E": "Faux. L’amputation de Lisfranc est une désarticulation tarso-métatarsienne, proposition retenue juste dans le cours.",
+    "E": "Exacte selon l’annale, donc à ne pas cocher ; en anatomie, le Lisfranc est une désarticulation entre tarse et métatarse.",
     "_synthese": "Patient amputé : rééducation précoce, bandage, renforcement, accompagnement psychologique, prothèse provisoire puis définitive."
   },
   "otr-830": {
@@ -10298,11 +10298,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Amputation : cause vasculaire dominante, niveaux standards, prothèse adaptée à la qualité du moignon."
   },
   "otr-838": {
-    "A": "Faux. Un moignon bien étoffé est de bonne qualité.",
+    "A": "Exacte, donc à ne pas cocher : un matelas de parties molles suffisant protège l’os.",
     "B": "Vrai (à cocher). La cicatrice doit être postéro-médiane, hors zone d’appui, et non antéro-médiane.",
-    "C": "Faux. Un bon moignon ne présente pas de troubles orthopédiques.",
+    "C": "Exacte, donc à ne pas cocher : raideur ou flessum gêneraient l’appareillage.",
     "D": "Vrai (à cocher). Un névrome est une complication douloureuse, pas une qualité.",
-    "E": "Faux. La jonction tiers moyen–tiers supérieur est le niveau de prédilection à la cuisse.",
+    "E": "Exacte, donc à ne pas cocher : ce niveau garde un bras de levier suffisant et laisse la place aux composants.",
     "_synthese": "Bon moignon : étoffé, sans trouble orthopédique, cicatrice postéro-médiane, niveau de prédilection à la jonction tiers moyen-tiers supérieur de la cuisse."
   },
   "otr-839": {
@@ -10310,23 +10310,23 @@ window.JUSTIFICATIONS_OTR = {
     "B": "Vrai (à cocher). Gritti est une amputation du genou, non du tiers inférieur de la cuisse.",
     "C": "Vrai (à cocher). Une prothèse classique, non la chirurgie plastique, est prescrite quand le moignon est de bonne qualité.",
     "D": "Vrai (à cocher). Les accidents de la voie publique ne causent pas 70 % des amputations.",
-    "E": "Faux. Le type d’appareillage fait partie des priorités de la reprise de la marche.",
+    "E": "Exacte, donc à ne pas cocher : le choix de la prothèse conditionne la reprise de la marche.",
     "_synthese": "Amputation : causes vasculaires, niveaux, appareillage adapté."
   },
   "otr-840": {
-    "A": "Faux. Un moignon bien étoffé est de bonne qualité.",
+    "A": "Exacte, donc à ne pas cocher : un matelas de parties molles suffisant protège l’os.",
     "B": "Vrai (à cocher). La cicatrice doit être postéro-médiane, hors zone d’appui, et non antéro-médiane.",
-    "C": "Faux. Un bon moignon ne présente pas de troubles orthopédiques.",
+    "C": "Exacte, donc à ne pas cocher : raideur ou flessum gêneraient l’appareillage.",
     "D": "Vrai (à cocher). Un névrome est une complication douloureuse, pas une qualité.",
-    "E": "Faux. La jonction tiers moyen–tiers supérieur est le niveau de prédilection à la cuisse.",
+    "E": "Exacte, donc à ne pas cocher : ce niveau garde un bras de levier suffisant et laisse la place aux composants.",
     "_synthese": "Bon moignon : étoffé, sans trouble orthopédique, cicatrice postéro-médiane, niveau de prédilection à la jonction tiers moyen-tiers supérieur de la cuisse."
   },
   "otr-841": {
-    "A": "Faux. La forme cylindro-conique est favorable.",
-    "B": "Faux. Un moignon bien équilibré est favorable.",
+    "A": "Exacte, donc à ne pas cocher : cette forme s’emboîte sans point de pression.",
+    "B": "Exacte, donc à ne pas cocher : des muscles équilibrés évitent les attitudes vicieuses.",
     "C": "Vrai (à cocher). La cicatrice ne doit pas être antérieure.",
     "D": "Vrai (à cocher). Un moignon long et maigre (mal étoffé) est défavorable.",
-    "E": "Faux. Un moignon sans douleur est favorable.",
+    "E": "Exacte, donc à ne pas cocher : un moignon indolore tolère l’emboîture.",
     "_synthese": "Bon moignon : cylindro-conique, équilibré, indolore, bien étoffé, cicatrice postéro-médiane."
   },
   "mos-061": {
@@ -10486,7 +10486,7 @@ window.JUSTIFICATIONS_OTR = {
     "B": "Faux : image du myélome.",
     "C": "Vrai (à cocher). Vertèbre ivoire : autre pathologie.",
     "D": "Image évocatrice : corps vertébraux carrés.",
-    "E": "Faux. Sacro-iliite bilatérale évocatrice.",
+    "E": "Signe évocateur, donc à ne pas cocher : l’atteinte des deux sacro-iliaques est typique.",
     "_synthese": "SA : sacro-iliite, syndesmophytes, vertèbres carrées."
   },
   "otr-313": {
@@ -11097,7 +11097,7 @@ window.JUSTIFICATIONS_OTR = {
   },
   "otr-268": {
     "A": "Conséquence possible, donc non retenue comme réponse fausse.",
-    "B": "Faux. Névralgie cervico-brachiale possible.",
+    "B": "Conséquence possible, donc à ne pas cocher : une racine peut être comprimée.",
     "C": "Possible : glissement secondaire.",
     "D": "Possible par rupture ligamentaire.",
     "E": "Vrai (à cocher). Les troubles bulbaires relèvent d’une atteinte du rachis cervical supérieur.",
@@ -11120,11 +11120,11 @@ window.JUSTIFICATIONS_OTR = {
     "_synthese": "Traumatisme grave du rachis cervical inférieur : atteinte médullaire, radiculaire et disco-ligamentaire."
   },
   "otr-271": {
-    "A": "Faux. Le myélome peut fracturer une vertèbre.",
-    "B": "Vrai selon l’annale. La spondylite tuberculeuse détruit le corps vertébral (mal de Pott) mais elle n’est pas citée parmi les causes de fracture pathologique de ce cours.",
-    "C": "Faux. Le lymphome peut fracturer.",
-    "D": "L’ostéoporose ne touche pas le rachis cervical : c’est l’exception.",
-    "E": "Faux. Les métastases fracturent.",
-    "_synthese": "Fractures pathologiques du rachis : myélome, lymphome, ostéoporose, métastases."
+    "A": "Cause possible, donc à ne pas cocher : le myélome détruit les vertèbres.",
+    "B": "Cause possible, donc à ne pas cocher : la tuberculose détruit disque et corps vertébraux, y compris au cou.",
+    "C": "Cause possible, donc à ne pas cocher : une infiltration lymphomateuse fragilise l’os.",
+    "D": "C’est l’exception, donc à cocher : le tassement ostéoporotique n’atteint habituellement pas le rachis cervical.",
+    "E": "Cause possible, donc à ne pas cocher : fracture sur os métastatique.",
+    "_synthese": "Une fracture de C5 hors traumatisme fait chercher tumeur ou infection, pas l’ostéoporose."
   }
 };

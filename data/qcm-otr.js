@@ -11192,11 +11192,13 @@ window.QCM_OTR = [
     },
     "question_fr": "Concernant les escarres, choisissez la ou les réponses fausses :",
     "bonnes_reponses": [
-      "C"
+      "C",
+      "E"
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : CE (ancienne clé C). Non validée par un médecin."
   },
   {
     "id": "otr-808",
@@ -18127,11 +18129,13 @@ window.QCM_OTR = [
     },
     "question_fr": "Les mouvements de la prono-supination dépendent de l'intégrité de tous ces éléments sauf un, lequel ?",
     "bonnes_reponses": [
+      "A",
       "E"
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : AE (ancienne clé E). Non validée par un médecin."
   },
   {
     "id": "otr-141",
@@ -55184,10 +55188,11 @@ window.QCM_OTR = [
     },
     "question_fr": "Toutes ces pathologies peuvent donner une fracture de la C5 sauf :",
     "bonnes_reponses": [
-      "B"
+      "D"
     ],
     "faculty": "Oran",
     "isOran": true,
-    "isAlger": false
+    "isAlger": false,
+    "note_cle": "Clé corrigée après relecture : D (ancienne clé B). Non validée par un médecin."
   }
 ];
